@@ -1,0 +1,71 @@
+﻿#Test
+1=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture=""
+	province_rank=""
+	religion=""
+	terrain="ocean"
+	trade_goods=""
+}
+
+2=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wvenedi"
+	province_rank=""
+	religion="slavic_pantheon"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+
+3=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wvenedi"
+	province_rank="settlement"
+	religion="slavic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+
+4=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wvenedi"
+	province_rank=""
+	religion="slavic_pantheon"
+	terrain="impassable_terrain"
+	trade_goods=""
+}
+
+5=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wvenedi"
+	province_rank="settlement"
+	religion="slavic_pantheon"
+	terrain="hills"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
