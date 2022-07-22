@@ -1,7 +1,13 @@
 ﻿
-sea_region = {
+modded_sea_region = {
 	areas = {
 		sea_area
+	}
+}
+
+modded_volenfell_region = {
+	areas = {
+		strosmkai_area
 	}
 }
 
