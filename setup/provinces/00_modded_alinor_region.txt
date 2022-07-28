@@ -64,7 +64,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -83,7 +83,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -102,7 +102,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="forest"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -121,7 +121,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="forest"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -140,7 +140,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -159,7 +159,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -178,7 +178,7 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
@@ -197,7 +197,26 @@
 	culture="wvenedi"
 	province_rank="settlement"
 	religion="slavic_pantheon"
-	terrain="hills"
+	terrain="plains"
+	trade_goods="hemp"
+	slaves=
+	{
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=2
+	}
+}
+
+235=
+{
+	barbarian_power=0
+	civilization_value=0
+	culture="wvenedi"
+	province_rank="settlement"
+	religion="slavic_pantheon"
+	terrain="plains"
 	trade_goods="hemp"
 	slaves=
 	{
