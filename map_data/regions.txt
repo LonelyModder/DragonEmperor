@@ -14,7 +14,7 @@ modded_volenfell_region = {
 	}
 }
 
-modded_cyridil_region = {
+modded_cyrodil_region = {
 	areas = {
 		stirk_area
 	}
@@ -29,5 +29,11 @@ modded_alinor_region = {
 		firsthold_area
 		crossing_area
 		mehrunesspite_area
+	}
+}
+
+modded_valewood_region = {
+	areas = {
+		talanda_area
 	}
 }
