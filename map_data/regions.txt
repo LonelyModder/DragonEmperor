@@ -11,7 +11,7 @@ modded_volenfell_region = {
 		chain_area
 		caspar_area
 		herne_area
-		hightisle_area
+		highisle_area
 	}
 }
 
@@ -19,39 +19,118 @@ modded_cyrodil_region = {
 	areas = {
 		stirk_area
 	}
+	color = rgb { 217 18 0 }
+}
+
+modded_sunhold_region = {
+	areas = {
+		sunhold_area
+		westernpasses_area
+		sunholdsshore_area
+		silatar_area
+		torhamekhard_area
+	}
+}
+
+modded_duskkeep_region = {
+	areas = {
+		duskshore_area
+		duskkeep_area
+		alaxonald_area
+		easternpasses_area
+		silvarwoad_area
+		gardenofthesacrednumbers_area
+		artaeum_area
+	}
+}
+
+modded_russafeld_region = {
+	areas = {
+		russafeld_area
+		aldmora_area
+	}
+}
+
+modded_shimmerene_region = {
+	areas = {
+		shimmerene_area
+		archonsgrove_area
+		direnniacropolis_area
+		belportrun_area
+	}
+}
+
+modded_corgrad_region = {
+	areas = {
+		eyvea_area
+		crystaltower_area
+		corgradwastes_area
+	}
+}
+
+modded_lillandril_region = {
+	areas = {
+		lillandril_area
+		sapiarchisle_area
+		illuminationacademy_area
+		seakeep_area
+		cathedralofwebs_area
+	}
+}
+
+modded_cloudrest_region = {
+	areas = {
+		kingshavenpass_area
+		eldbur_area
+		ebonstadmont_area
+	}
+}
+
+modded_firsthold_region = {
+	areas = {
+		ninepraw_area
+		mehrunesspite_area
+		firsthold_area
+		rillis_area
+		greywatercove_area
+		northbeacon_area
+		torinaan_area
+		dawnbreak_area
+		collegeofaldmeripropriety_area
+		quendeluun_area
+	}
+}
+
+modded_skywatch_region = {
+	areas = {
+		skywatch_area
+		southbeacon_area
+		rictus_area
+		dranilkir_area
+		phaer_area
+		buraniimisle_area
+		vulkhelguard_area
+		errinorneisle_area
+		delsclaim_area
+		silsailen_area
+		mathiisen_area
+		glistervale_area
+		bewan_area
+		shatteredgrove_area
+		tanzelwil_area
+	}
 }
 
 modded_alinor_region = {
 	areas = {
 		alinor_area
-		ninepraw_area
-		belportrun_area
-		rillis_area
-		firsthold_area
-		eyvea_area
-		rictus_area
-		artaeum_area
-		dranilkir_area
 		westerncoraldale_area
-		sapiarchisle_area
-		buraniimisle_area
-		errinorneisle_area
-		silatar_area
-		lillandril_area
-		vulkhelguard_area
-		duskkeep_area
-		shimmerene_area
-		seakeep_area
-		ebonstadmont_area
-		sunhold_area
 		ceytarnkeep_area
-		cathedralofwebs_area
-		skywatch_area
-		greywatercove_area
-		northbeacon_area
-		southbeacon_area
-		mehrunesspite_area #dummy area
+		royalharbor_area
+		pearls_area
+		rellenthil_area
 	}
+	color = rgb { 224 180 34 }  # or named color, or rgb
 }
 
 modded_valewood_region = {
