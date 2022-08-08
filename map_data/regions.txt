@@ -44,30 +44,6 @@ modded_duskkeep_region = {
 	}
 }
 
-modded_russafeld_region = {
-	areas = {
-		russafeld_area
-		aldmora_area
-	}
-}
-
-modded_shimmerene_region = {
-	areas = {
-		shimmerene_area
-		archonsgrove_area
-		direnniacropolis_area
-		belportrun_area
-	}
-}
-
-modded_corgrad_region = {
-	areas = {
-		eyvea_area
-		crystaltower_area
-		corgradwastes_area
-	}
-}
-
 modded_lillandril_region = {
 	areas = {
 		lillandril_area
@@ -78,12 +54,38 @@ modded_lillandril_region = {
 	}
 }
 
+modded_shimmerene_region = {
+	areas = {
+		shimmerene_area
+		archonsgrove_area
+		direnniacropolis_area
+		belportrun_area
+		eldbur_area
+		russafeld_area
+	}
+}
+
 modded_cloudrest_region = {
 	areas = {
 		kingshavenpass_area
-		eldbur_area
 		ebonstadmont_area
+		eyvea_area
+		crystaltower_area
+		corgradwastes_area
+		aldmora_area
 	}
+}
+
+modded_alinor_region = {
+	areas = {
+		alinor_area
+		westerncoraldale_area
+		ceytarnkeep_area
+		royalharbor_area
+		pearls_area
+		rellenthil_area
+	}
+	color = rgb { 224 180 34 }  # or named color, or rgb
 }
 
 modded_firsthold_region = {
@@ -119,18 +121,6 @@ modded_skywatch_region = {
 		shatteredgrove_area
 		tanzelwil_area
 	}
-}
-
-modded_alinor_region = {
-	areas = {
-		alinor_area
-		westerncoraldale_area
-		ceytarnkeep_area
-		royalharbor_area
-		pearls_area
-		rellenthil_area
-	}
-	color = rgb { 224 180 34 }  # or named color, or rgb
 }
 
 modded_valewood_region = {
