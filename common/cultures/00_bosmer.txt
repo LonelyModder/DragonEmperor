@@ -1,5 +1,5 @@
 ﻿bosmer = {	
-	color = hsv { 0.12 0.81 0.96 }
+	color = hsv { 0.34 0.86 0.77 }
 
 	primary = chariot_heavy
 	second = light_swordsmen
@@ -12,13 +12,19 @@
 	levy_template = levy_sonsofAshur
 
 	male_names = {
-		 
+		 Nirahen Thauchor Threr Riallion Uuraast Pervir Barahndil Aenras Pegalem Hagborn 
+		 Vallir Ungedan Agachalas Uungthroth Valiel Anorlem Ritndis Ungleg Edoien Nalum 
+		 Alvas Bralleb Ulwronor Angldriel Mengvir Fargborn 
 	}
 	female_names = {
-		
+		Anurdil Huuneth Ulanhredhel Syelnwen Lilisndra Milthia Menegina Dairbereth Ciiweneval 
+		Milbaen Naetenandriah Anedeylin Boroduin Telingil Borwthel Falfina Desngaer Uldil 
+		Hynsse Alaolian Anreenena Areanlin Eindaeneth 
 	}
 	family = {
-		
+		Riverthorn Applewing Nightbrook Rivergrove Shadyblossom Rosegrass Applemire Lumberwind Fernwing Rosevale
+		Shadybrook Elmvale Acorngrove Sagewing Nightthorn Forestsky Springlock Willowlake Pinerun Pinelake 
+		Roseblossom Rosebranch Balfrun Sagethorn Softdale Barkgrove Applewood Forestblossom Riverlake
 	}
 	culture = {
 		talandan = {}

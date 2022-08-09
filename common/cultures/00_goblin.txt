@@ -1,5 +1,5 @@
 ﻿goblin = {	
-	color = hsv { 0.12 0.81 0.96 }
+	color = hsv { 0.23 0.77 0.87 }
 
 	primary = chariot_heavy
 	second = light_swordsmen
@@ -12,13 +12,15 @@
 	levy_template = levy_sonsofAshur
 
 	male_names = {
-		 
+		 Uramb Batkul Makkus Ulmrn Bumakh Ughgash Gasharz Shatmborz Dulamog Othmrg 
+		 Bothong Rogk Shagmar Bornarz Uzulburz Bugrlorz Makmob Yatugonk Urihel 
 	}
 	female_names = {
-		
+		Oraut Oghomalah Murbk Globish Grazar Globbak Lagtharz Shelbug Lamomalah Borguk 
+		Ugorgak Agrog Ghaka Urogfim Gonl Ulotz Khaomalah Burzgakh Yazgzob 
 	}
 	family = {
-		
+		Dark Terrible Slimy Tricky Disgusting Dirty Blue Chosen Hunter Angry Furious 
 	}
 	culture = {
 		coralsplitter = {}
