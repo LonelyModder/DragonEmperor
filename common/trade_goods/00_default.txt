@@ -193,9 +193,9 @@ spices = { #58 territories
 	color = { 0.6 0.8 0.4 }
 }
 
-elephants_african = { #82 territories
+griphons = { #82 territories
 	category = 0
-	allow_unit_type = elephant_african
+	allow_unit_type = modded_griphons
 	
 	gold = 0.3
 	
@@ -203,39 +203,7 @@ elephants_african = { #82 territories
 		local_output_modifier = 0.03
 	}
 	country = {
-		elephant_african_discipline = 0.1
-	}
-	
-	color = hsv { 0.6 0.2 0.4 }	
-}
-
-elephants_forest = { #82 territories
-	category = 0
-	allow_unit_type = elephant_forest
-	
-	gold = 0.25
-	
-	province = {
-		local_output_modifier = 0.03
-	}
-	country = {
-		elephant_forest_discipline = 0.1
-	}
-	
-	color = hsv { 0.6 0.2 0.4 }	
-}
-
-elephants_indian = { #82 territories
-	category = 0
-	allow_unit_type = elephant_indian
-	
-	gold = 0.35
-	
-	province = {
-		local_output_modifier = 0.03
-	}
-	country = {
-		elephant_indian_discipline = 0.1
+		modded_griphons_discipline = 0.1
 	}
 	
 	color = hsv { 0.6 0.2 0.4 }	
