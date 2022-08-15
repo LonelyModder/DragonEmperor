@@ -6559,18 +6559,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="alinoric"
+	province_rank="city_metropolis"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	nobles=
+	{
+		amount=5
+	}
+	citizen=
+	{
+		amount=10
+	}
+	freemen=
+	{
+		amount=15
+	}
 	slaves=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=2
+		amount=10
 	}
 }
 

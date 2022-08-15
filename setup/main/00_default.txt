@@ -13,222 +13,7 @@ family={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID is 90.
 		#Roman Families on Start:
-		0={
-			key="Bet-David"
-			owner=JAA
-			culture = judean
-			prestige=300
-		}
-		1={
-			key="Bet-Saul"
-			owner=JAB
-			culture = israelic
-			prestige=300
-		}
-		2={
-			key="Achemenid"
-			owner=PAJ
-			culture = persic
-			prestige=300
-		}
-		3={
-			key="Usermaatre-Setepenamun"
-			owner=EAA
-			culture = lower_kemetic
-			prestige=300
-		}
-		4={
-			key="Shosqenq-Shu"
-			owner=EAG
-			culture = ma
-			prestige=300
-		}
-		5={
-			key="El-Kurru"
-			owner=NAG
-			culture = upper_nubian
-			prestige=300
-		}
-		6={
-			key="Usermaatre-Setepenamun"
-			owner=EAC
-			culture = lower_kemetic
-			prestige=300
-		}
-		7={
-			key="Shosqenq-Shu"
-			owner=EAF
-			culture = ma
-			prestige=300
-		}
-		8={
-			key="Bet-Maakach"
-			owner=JAC
-			culture = philistine
-			prestige=300
-		}
-		9={
-			key="Tudhalianid"
-			owner=HAC
-			culture = hatti
-			prestige=300
-		}
-		10={
-			key="Tarasid"
-			owner=HAK
-			culture = hatti
-			prestige=300
-		}
-		11={
-			key="Hapatilid"
-			owner=ABS
-			culture = hatti
-			prestige=300
-		}
-		12={
-			key="Kurkumid"
-			owner=HAE
-			culture = hatti
-			prestige=300
-		}
-		13={
-			key="Mananid"
-			owner=HAA
-			culture = hatti
-			prestige=300
-		}
-		14={
-			key="Taitid"
-			owner=AAB
-			culture = philistine
-			prestige=300
-		}
-		15={
-			key="Bet-Sovah"
-			owner=AAK
-			culture = aramean
-			prestige=300
-		}
-		16={
-			key="Bet-Damascus"
-			owner=AAA
-			culture = aramean
-			prestige=300
-		}
-		17={
-			key="Sidonian"
-			owner=JAL
-			culture = core_punic
-			prestige=300
-		}
-		18={
-			key="Ahiramid"
-			owner=JAP
-			culture = core_punic
-			prestige=300
-		}
-		19={
-			key="Ammonite"
-			owner=JAI
-			culture = ammonite
-			prestige=300
-		}
-		20={
-			key="Geshurite"
-			owner=AAL
-			culture = aramean
-			prestige=300
-		}
-		21={
-			key="Adaside"
-			owner=ABP
-			culture = ashurite
-			prestige=300
-		}
-		22={
-			key="Elamite"
-			owner=ADZ
-			culture = susanian
-			prestige=300
-		}
-		23={
-			key="Bit-Bazi"
-			owner=ABR
-			culture = kassite
-			prestige=300
-		}
-		24={
-			key="Jebusite"
-			owner=JBL
-			culture = canaanites
-			prestige=300
-		}
-		25={
-			key="Gordianid"
-			owner=HAT
-			culture = phrygic
-			prestige=300
-		}
-		26={
-			key="Heraclidae"
-			owner=HCM
-			culture = lydii
-			prestige=300
-		}
-		27={
-			key="Agiad"
-			owner=GAU
-			culture = laconic
-			prestige=300
-		}
-		28={
-			key="Proclid"
-			owner=GAU
-			culture = laconic
-			prestige=300
-		}
-		29={
-			key="Bacchiadae"
-			owner=GBG
-			culture = laconic
-			prestige=300
-		}
-		30={
-			key="Argead"
-			owner=TBY
-			culture = makedonic
-			prestige=300
-		}
-		31={
-			key="Heraclidae"
-			owner=GBH
-			culture = laconic
-			prestige=300
-		}
-		32={
-			key="Hem-netjer-tep-en-Amun"
-			owner=EAB
-			culture = upper_kemetic
-			prestige=300
-		}
-		33={
-			key="Shutrukid"
-			owner=ACK
-			culture = susanian
-			prestige=300
-		}
-		34={
-			key="Thersid"
-			owner=GCF
-			culture = attic
-			prestige=300
-		}
-		35={
-			key="Brihadratha"
-			owner=VBA
-			culture = maghadic
-			prestige=300
-		}
+		
 		
 		}
 }
@@ -270,6 +55,21 @@ country = {
 			government = tribal_kingdom
 		}
 		
+		AAA = { #Alinor
+			government = despotic_monarchy
+			primary_culture = alinoric
+			religion = elven_pantheon
+			capital = 633
+			
+			technology={
+				military_tech={ level=3 progress=0 }
+				civic_tech={ level=3 progress=0 }
+				oratory_tech={ level=3 progress=0 }
+				religious_tech= { level=3 progress=0  }
+			}
+			
+			own_control_core = { 633 }	
+		}
 		
 		
 	}
