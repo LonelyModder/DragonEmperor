@@ -710,17 +710,17 @@ entity = {
 
 entity = {
 	name = "noldor_gfx_modded_archers"
-	clone = "noldor_gfx_light_infantry"
+	clone = "noldor_gfx_heavy_infantry"
 }
 
 entity = {
 	name = "noldor_gfx_modded_camels"
-	clone = "noldor_gfx_light_infantry"
+	clone = "noldor_gfx_heavy_infantry"
 }
 
 entity = {
 	name = "noldor_gfx_modded_mages"
-	clone = "noldor_gfx_light_infantry"
+	clone = "noldor_gfx_heavy_infantry"
 }
 
 entity = {
@@ -730,12 +730,12 @@ entity = {
 
 entity = {
 	name = "noldor_gfx_modded_horse_archers"
-	clone = "noldor_gfx_light_infantry"
+	clone = "noldor_gfx_heavy_infantry"
 }
 
 entity = {
 	name = "noldor_gfx_modded_camels"
-	clone = "noldor_gfx_light_infantry"
+	clone = "noldor_gfx_heavy_infantry"
 }
 
 entity = {
@@ -755,6 +755,21 @@ entity = {
 
 entity = {
 	name = "noldor_gfx_modded_axemen"
+	clone = "noldor_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "noldor_gfx_modded_deadra"
+	clone = "noldor_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "noldor_gfx_modded_beasts"
+	clone = "noldor_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "noldor_gfx_modded_undead"
 	clone = "noldor_gfx_heavy_infantry"
 }
 
@@ -808,21 +823,21 @@ entity ={
 ### Cavalry ----------------------------------------------------------------
 entity ={
 	name = "noldor_gfx_levy_modded_cavalry"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 entity ={
 	name = "noldor_gfx_legion_modded_cavalry"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 
 ### Swordsmen ----------------------------------------------------------------
 entity ={
 	name = "noldor_gfx_levy_modded_swordsmen"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 entity ={
 	name = "noldor_gfx_legion_modded_swordsmen"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
@@ -858,19 +873,49 @@ entity ={
 ### Griphons ----------------------------------------------------------------
 entity ={
 	name = "noldor_gfx_levy_modded_griphons"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 entity ={
 	name = "noldor_gfx_legion_modded_griphons"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 
 ### Axemen ----------------------------------------------------------------
 entity ={
 	name = "noldor_gfx_levy_modded_axemen"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
 }
 entity ={
 	name = "noldor_gfx_legion_modded_axemen"
-	clone = "noldor_gfx_heavy_infantry"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Deadra ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_modded_deadra"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_modded_deadra"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Beasts ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_modded_beasts"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_modded_beasts"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Undead ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_modded_undead"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_modded_undead"
+	clone = "noldor_gfx_light_infantry"
 }

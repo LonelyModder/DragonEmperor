@@ -1,4 +1,4 @@
-﻿modded_spearmen = {
+﻿modded_undead = {
 	default = yes	
 	army = yes
 	assault = yes
@@ -11,16 +11,16 @@
 
 	modded_axemen = 0.8
 	modded_archers = 0.8
-	modded_swordsmen = 0.8
-	modded_spearmen = 1.0
+	modded_swordsmen = 1.2
+	modded_spearmen = 1.2
 	modded_griphons = 0.8
 	modded_mages = 0.7
-	modded_cavalry = 1.2
+	modded_cavalry = 0.8
 	modded_horse_archers = 0.8
-	modded_camels = 1.2
+	modded_camels = 0.8
 	modded_deadra = 0.8
-	modded_beasts = 1.1
-	modded_undead = 0.8
+	modded_beasts = 0.8
+	modded_undead = 1.0
 	modded_supply_train = 2.0
 	
 	attrition_weight = 0.5
