@@ -8581,18 +8581,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="coralsplitter"
+	province_rank="city"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=2
+	}
+	freemen=
+	{
+		amount=5
+	}
 	slaves=
 	{
-		amount=1
+		amount=8
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=15
 	}
 }
 

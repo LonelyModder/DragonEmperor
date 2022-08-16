@@ -10,7 +10,7 @@ levy_default = {
 
 #Altmer
 
-levy_altmer = { #Levantine militia
+levy_altmer = { #Alinoric militia
 	default = no
 
 	modded_archers = 0.2
@@ -20,3 +20,13 @@ levy_altmer = { #Levantine militia
 	modded_mages = 0.2
 }
 
+#Goblin
+
+levy_goblin = { #goblin militia
+	default = no
+
+	modded_archers = 0.2
+	modded_spearmen = 0.2
+	modded_axemen = 0.5
+	modded_mages = 0.1
+}

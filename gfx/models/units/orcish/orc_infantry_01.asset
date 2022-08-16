@@ -1110,38 +1110,68 @@ entity = {
 ##############
 
 entity = {
-	name = "orcish_gfx_archers"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_archers"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_camels"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_camels"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_chariots"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_mages"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_heavy_cavalry"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_cavalry"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_horse_archers"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_horse_archers"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_light_cavalry"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_camels"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 entity = {
-	name = "orcish_gfx_warelephant"
-	clone = "orcish_gfx_levy_infantry"
+	name = "orcish_gfx_modded_griphons"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_spearmen"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_swordsmen"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_axemen"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_deadra"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_beasts"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_modded_undead"
+	clone = "orcish_gfx_legion_infantry"
 }
 
 
@@ -1151,34 +1181,34 @@ entity = {
 ##############
 # Do one for each unit type
 
-### Archers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_archers"
+	name = "orcish_gfx_levy_modded_archers"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_archers"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_archers"
+	clone = "orcish_gfx_levy_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_camels"
+	name = "orcish_gfx_levy_modded_camels"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_camels"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_camels"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Chariots ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_chariots"
+	name = "orcish_gfx_levy_modded_mages"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_chariots"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_mages"
+	clone = "orcish_gfx_levy_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
@@ -1188,57 +1218,47 @@ entity ={
 }
 entity ={
 	name = "orcish_gfx_legion_engineer_cohort"
-	clone = "orcish_gfx_legion_infantry"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Heavy Cavalry ----------------------------------------------------------------
+### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_heavy_cavalry"
+	name = "orcish_gfx_levy_modded_cavalry"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_heavy_cavalry"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_cavalry"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Heavy Infantry ----------------------------------------------------------------
+### Swordsmen ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_heavy_infantry"
+	name = "orcish_gfx_levy_modded_swordsmen"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_heavy_infantry"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_swordsmen"
+	clone = "orcish_gfx_levy_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_horse_archers"
+	name = "orcish_gfx_levy_modded_horse_archers"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_horse_archers"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_horse_archers"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Light Cavalry ----------------------------------------------------------------
+### Spearmen ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_light_cavalry"
+	name = "orcish_gfx_levy_modded_spearmen"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_light_cavalry"
-	clone = "orcish_gfx_legion_infantry"
-}
-
-### Light Infantry ----------------------------------------------------------------
-entity ={
-	name = "orcish_gfx_levy_light_infantry"
+	name = "orcish_gfx_legion_modded_spearmen"
 	clone = "orcish_gfx_levy_infantry"
-}
-entity ={
-	name = "orcish_gfx_legion_light_infantry"
-	clone = "orcish_gfx_legion_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
@@ -1248,55 +1268,55 @@ entity ={
 }
 entity ={
 	name = "orcish_gfx_legion_supply_train"
-	clone = "orcish_gfx_legion_infantry"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### War Elephant ----------------------------------------------------------------
+### Griphons ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_warelephant"
+	name = "orcish_gfx_levy_modded_griphons"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_warelephant"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_griphons"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Orc Infantry ----------------------------------------------------------------
+### Axemen ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_orc_infantry"
+	name = "orcish_gfx_levy_modded_axemen"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_orc_infantry"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_axemen"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Uruk Crossbows ----------------------------------------------------------------
+### Deadra ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_uruk_crossbows"
+	name = "orcish_gfx_levy_modded_deadra"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_uruk_crossbows"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_deadra"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Uruk Heavy Infantry ----------------------------------------------------------------
+### Beasts ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_uruk_heavy_infantry"
+	name = "orcish_gfx_levy_modded_beasts"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_uruk_heavy_infantry"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_beasts"
+	clone = "orcish_gfx_levy_infantry"
 }
 
-### Uruk Infantry ----------------------------------------------------------------
+### Undead ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_uruk_infantry"
+	name = "orcish_gfx_levy_modded_undead"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_uruk_infantry"
-	clone = "orcish_gfx_legion_infantry"
+	name = "orcish_gfx_legion_modded_undead"
+	clone = "orcish_gfx_levy_infantry"
 }

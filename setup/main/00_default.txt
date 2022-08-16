@@ -35,6 +35,10 @@ provinces = { #Any entry must contain a comment with city name.
 	
 	#Buildings
 	
+	#passes
+	739 = { #King's Haven Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	
 	########################################
 	# Barbarian Spawn Spots
@@ -71,6 +75,15 @@ country = {
 			own_control_core = { 633 }	
 		}
 		
+		AAB = { #Coral Splitters
+			government = despotic_monarchy
+			primary_culture = coralsplitter
+			religion = goblin_pantheon
+			capital = 739
+			
+			
+			own_control_core = { 739 }	
+		}
 		
 	}
 }
