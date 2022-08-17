@@ -710,37 +710,67 @@ entity = {
 ##############
 
 entity = {
-	name = "vanyar_gfx_archers"
-	clone = "vanyar_gfx_light_infantry"
-}
-
-entity = {
-	name = "vanyar_gfx_camels"
-	clone = "vanyar_gfx_light_infantry"
-}
-
-entity = {
-	name = "vanyar_gfx_chariots"
-	clone = "vanyar_gfx_light_infantry"
-}
-
-entity = {
-	name = "vanyar_gfx_heavy_cavalry"
+	name = "vanyar_gfx_modded_archers"
 	clone = "vanyar_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "vanyar_gfx_horse_archers"
-	clone = "vanyar_gfx_light_infantry"
+	name = "vanyar_gfx_modded_camels"
+	clone = "vanyar_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "vanyar_gfx_light_cavalry"
-	clone = "vanyar_gfx_light_infantry"
+	name = "vanyar_gfx_modded_mages"
+	clone = "vanyar_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "vanyar_gfx_warelephant"
+	name = "vanyar_gfx_modded_cavalry"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_horse_archers"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_camels"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_griphons"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_spearmen"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_swordsmen"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_axemen"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_deadra"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_beasts"
+	clone = "vanyar_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "vanyar_gfx_modded_undead"
 	clone = "vanyar_gfx_heavy_infantry"
 }
 
@@ -751,33 +781,33 @@ entity = {
 ##############
 # Do one for each unit type
 
-### Archers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_archers"
+	name = "vanyar_gfx_levy_modded_archers"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_archers"
+	name = "vanyar_gfx_legion_modded_archers"
 	clone = "vanyar_gfx_light_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_camels"
+	name = "vanyar_gfx_levy_modded_camels"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_camels"
+	name = "vanyar_gfx_legion_modded_camels"
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### Chariots ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_chariots"
+	name = "vanyar_gfx_levy_modded_mages"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_chariots"
+	name = "vanyar_gfx_legion_modded_mages"
 	clone = "vanyar_gfx_light_infantry"
 }
 
@@ -791,53 +821,43 @@ entity ={
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### Heavy Cavalry ----------------------------------------------------------------
+### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_heavy_cavalry"
-	clone = "vanyar_gfx_heavy_infantry"
+	name = "vanyar_gfx_levy_modded_cavalry"
+	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_heavy_cavalry"
-	clone = "vanyar_gfx_heavy_infantry"
+	name = "vanyar_gfx_legion_modded_cavalry"
+	clone = "vanyar_gfx_light_infantry"
 }
 
-### Heavy Infantry ----------------------------------------------------------------
+### Swordsmen ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_heavy_infantry"
-	clone = "vanyar_gfx_heavy_infantry"
+	name = "vanyar_gfx_levy_modded_swordsmen"
+	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_heavy_infantry"
-	clone = "vanyar_gfx_heavy_infantry"
+	name = "vanyar_gfx_legion_modded_swordsmen"
+	clone = "vanyar_gfx_light_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_horse_archers"
+	name = "vanyar_gfx_levy_modded_horse_archers"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_horse_archers"
-	clone = "vanyar_gfx_light_infantry"
-}
-
-### Light Cavalry ----------------------------------------------------------------
-entity ={
-	name = "vanyar_gfx_levy_light_cavalry"
-	clone = "vanyar_gfx_light_infantry"
-}
-entity ={
-	name = "vanyar_gfx_legion_light_cavalry"
+	name = "vanyar_gfx_legion_modded_horse_archers"
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### Light Infantry ----------------------------------------------------------------
+### Spearmen ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_light_infantry"
+	name = "vanyar_gfx_levy_modded_spearmen"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_light_infantry"
+	name = "vanyar_gfx_legion_modded_spearmen"
 	clone = "vanyar_gfx_light_infantry"
 }
 
@@ -851,42 +871,52 @@ entity ={
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### War Elephant ----------------------------------------------------------------
+### Griphons ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_warelephant"
-	clone = "vanyar_gfx_heavy_infantry"
-}
-entity ={
-	name = "vanyar_gfx_legion_warelephant"
-	clone = "vanyar_gfx_heavy_infantry"
-}
-
-### Elvish Archers ----------------------------------------------------------------
-entity ={
-	name = "vanyar_gfx_levy_elvish_archers"
+	name = "vanyar_gfx_levy_modded_griphons"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_elvish_archers"
+	name = "vanyar_gfx_legion_modded_griphons"
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### Elvish Cavalry Archers ----------------------------------------------------------------
+### Axemen ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_elvish_cavalry_archers"
+	name = "vanyar_gfx_levy_modded_axemen"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_elvish_cavalry_archers"
+	name = "vanyar_gfx_legion_modded_axemen"
 	clone = "vanyar_gfx_light_infantry"
 }
 
-### Elvish Infantry ----------------------------------------------------------------
+### Deadra ----------------------------------------------------------------
 entity ={
-	name = "vanyar_gfx_levy_elvish_infantry"
+	name = "vanyar_gfx_levy_modded_deadra"
 	clone = "vanyar_gfx_light_infantry"
 }
 entity ={
-	name = "vanyar_gfx_legion_elvish_infantry"
+	name = "vanyar_gfx_legion_modded_deadra"
+	clone = "vanyar_gfx_light_infantry"
+}
+
+### Beasts ----------------------------------------------------------------
+entity ={
+	name = "vanyar_gfx_levy_modded_beasts"
+	clone = "vanyar_gfx_light_infantry"
+}
+entity ={
+	name = "vanyar_gfx_legion_modded_beasts"
+	clone = "vanyar_gfx_light_infantry"
+}
+
+### Undead ----------------------------------------------------------------
+entity ={
+	name = "vanyar_gfx_levy_modded_undead"
+	clone = "vanyar_gfx_light_infantry"
+}
+entity ={
+	name = "vanyar_gfx_legion_modded_undead"
 	clone = "vanyar_gfx_light_infantry"
 }

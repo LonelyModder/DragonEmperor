@@ -30,3 +30,14 @@ levy_goblin = { #goblin militia
 	modded_axemen = 0.5
 	modded_mages = 0.1
 }
+
+#Ayleid
+
+levy_ayleid = { #ayleid militia
+	default = no
+
+	modded_archers = 0.1
+	modded_spearmen = 0.5
+	modded_mages = 0.2
+	modded_cavalry = 0.2
+}

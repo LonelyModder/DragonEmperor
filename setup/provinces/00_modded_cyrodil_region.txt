@@ -4,18 +4,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="stirkan"
+	province_rank="city"
+	religion="ayleid_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	slaves=
 	{
-		amount=2
+		amount=7
+	}
+	freemen=
+	{
+		amount=10
+	}
+	slaves=
+	{
+		amount=8
 	}
 }
 
@@ -23,7 +31,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="stirkan"
 	province_rank="settlement"
 	religion="slavic_pantheon"
 	terrain="hills"
@@ -32,9 +40,9 @@
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -42,7 +50,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="stirkan"
 	province_rank="settlement"
 	religion="slavic_pantheon"
 	terrain="hills"
@@ -51,9 +59,9 @@
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -61,17 +69,25 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
+	culture="stirkan"
+	province_rank="city"
 	religion="slavic_pantheon"
 	terrain="hills"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
+	{
+		amount=3
+	}
+	slaves=
 	{
 		amount=2
+	}
+	freemen=
+	{
+		amount=5
 	}
 }
