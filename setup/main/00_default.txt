@@ -33,7 +33,24 @@ provinces = { #Any entry must contain a comment with city name.
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
-	
+	592 = { #College of Psijics
+		fortress_building = 1
+	}
+	589 = { #Colosseum of Old Ways
+		fortress_building = 1
+	}
+	622 = { #Alinors Harbor
+		fortress_building = 1
+	}
+	652 = { #Rellenthil
+		fortress_building = 1
+	}
+	594 = { #Artaeum Docs
+		port_building = 2
+	}
+	622 = { #Royal Harbor
+		port_building = 2
+	}
 	
 	#Pirates
 	
@@ -60,6 +77,16 @@ road_network = {
 	633=637
 	637=636
 	636=630
+	630=644
+	644=646
+	646=648
+	648=652
+	630=628
+	628=626
+	626=622
+	#Artaeum
+	595=594
+	594=592
 }
 
 country = {
@@ -76,14 +103,18 @@ country = {
 			capital = 633
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = { 633 620 632 638 639 637 634 618 619 636 630 
-							     608 609 610 617 }	
+			own_control_core = { 633 620 632 638 619 618 634 637 639 609 610 617 608 556 
+								 630 640 641 631 636 635 629 628 644 645 627 624 642
+								 580 654 655 653 615 614 611 613 612 656 657 658 659
+								 622 621 6 3 5 541 616 625 626 623
+								 652 648 649 646 647 643 650 651 700 706 708 707 
+								 555 554 552 553 551 550 549 542 543 }	
 		}
 		
 		AAB = { #Coral Splitters
@@ -91,7 +122,6 @@ country = {
 			primary_culture = coralsplitter
 			religion = goblin_pantheon
 			capital = 739
-			
 			
 			own_control_core = { 739 }	
 		}
@@ -103,13 +133,29 @@ country = {
 			capital = 30
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			own_control_core = { 27 30 28 29 }	
+		}
+		
+		AAD = { #Psijic Order
+			government = theocratic_monarchy
+			primary_culture = psijic
+			religion = oldelven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = { 595 594 593 592 590 586 591 589 588 587 581 }	
 		}
 		
 	}

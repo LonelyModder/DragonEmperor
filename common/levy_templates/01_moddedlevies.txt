@@ -20,6 +20,14 @@ levy_altmer = { #alinoric militia
 	modded_mages = 0.2
 }
 
+levy_psijic = { #psijic militia
+	default = no
+
+	modded_archers = 0.1
+	modded_spearmen = 0.3
+	modded_mages = 0.6
+}
+
 #Goblin
 
 levy_goblin = { #goblin militia

@@ -8,6 +8,16 @@
 	religion_category = pantheon
 }
 
+oldelven_pantheon = { # Psijic Faith
+	color = hsv { 0.07 0.98 0.64 }
+	modifier = { 
+		stability_cost_modifier = -0.25
+		research_points_modifier = 0.5
+		global_pop_conversion_speed_modifier = -0.5
+	}
+	religion_category = pantheon
+}
+
 nedic_pantheon = { # Nedic Faith
 	color = hsv { 0.04 0.55 0.81 }
 	modifier = { 
