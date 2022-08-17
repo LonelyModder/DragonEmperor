@@ -47,3 +47,13 @@ ayleid_pantheon = { # Ayleid Faith
 	}
 	religion_category = pantheon
 }
+
+slavic_pantheon = { # Heretic Faith
+	color = hsv { 0.14 0.52 1 }
+	modifier = { 
+		monthly_tyranny = -0.2
+		global_slaves_output = 0.15
+		global_slaves_happiness = -0.1
+	}
+	religion_category = pantheon
+}

@@ -54,7 +54,12 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Cyrod
 	27=30
+	#Alinor
+	633=637
+	637=636
+	636=630
 }
 
 country = {
