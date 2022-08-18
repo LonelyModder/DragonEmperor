@@ -1,15 +1,15 @@
 ﻿bosmer = {	
 	color = hsv { 0.34 0.86 0.77 }
 
-	primary = chariot_heavy
-	second = light_swordsmen
-	flank = cavalry_horse_archers
+	primary = modded_archers
+	second = modded_swordsmen
+	flank = modded_beasts
 
 	primary_navy = tetrere
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_sonsofAshur
+	levy_template = levy_bosmer
 
 	male_names = {
 		 Nirahen Thauchor Threr Riallion Uuraast Pervir Barahndil Aenras Pegalem Hagborn 
@@ -34,8 +34,8 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = carthaginian_gfx
+	graphical_culture = teleri_gfx
 	ethnicities = {
-		10 = persian
+		10 = teleri
 	}
 }

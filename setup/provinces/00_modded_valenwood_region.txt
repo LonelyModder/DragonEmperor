@@ -4,14 +4,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="talandan"
+	province_rank="city"
+	religion="green_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=8
+	}
+	slaves=
+	{
+		amount=2
 	}
 	tribesmen=
 	{
@@ -23,17 +35,21 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="talandan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="green_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	freemen=
+	{
+		amount=2
+	}
 	slaves=
 	{
 		amount=1
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }

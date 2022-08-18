@@ -39,6 +39,17 @@ levy_goblin = { #goblin militia
 	modded_mages = 0.1
 }
 
+#Bosmer
+
+levy_bosmer = { #bosmer militia
+	default = no
+
+	modded_archers = 0.4
+	modded_swordsmen = 0.2
+	modded_mages = 0.1
+	modded_beasts = 0.3
+}
+
 #Ayleid
 
 levy_ayleid = { #ayleid militia
