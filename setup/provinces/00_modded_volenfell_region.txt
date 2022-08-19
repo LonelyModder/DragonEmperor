@@ -137,18 +137,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="chained"
+	province_rank="city"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
 		amount=1
 	}
-	tribesmen=
+	slaves=
 	{
 		amount=2
+	}
+	tribesmen=
+	{
+		amount=6
 	}
 }
 
@@ -156,18 +160,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="chained"
+	province_rank="city"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=2
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=8
 	}
 }
 
@@ -175,9 +179,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="chained"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -186,7 +190,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -194,9 +198,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="chained"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="goblin_pantheon"
 	terrain="hills"
 	trade_goods="spices"
 	slaves=
@@ -205,7 +209,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -213,9 +217,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="chained"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -224,7 +228,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
