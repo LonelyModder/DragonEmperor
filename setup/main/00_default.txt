@@ -66,6 +66,9 @@ provinces = { #Any entry must contain a comment with city name.
 	43 = { #Goblins from Chain
 		port_building = 1
 	}
+	15 = { #Dogeaters
+		port_building = 1
+	}
 	
 	#Pirates
 	
@@ -214,6 +217,15 @@ country = {
 			capital = 42
 			
 			own_control_core = { 42 43 44 45 46 }	
+		}
+		
+		AAI = { #Dogeater
+			government = tribal_kingdom
+			primary_culture = dogeater
+			religion = goblin_pantheon
+			capital = 16
+			
+			own_control_core = { 12 13 14 15 16 17 18 }	
 		}
 		
 	}
