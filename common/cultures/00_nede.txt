@@ -5,11 +5,11 @@
 	second = light_swordsmen
 	flank = cavalry_horse_archers
 
-	primary_navy = tetrere
-	secondary_navy = octere
-	flank_navy = liburnian
+	primary = modded_archers
+	second = modded_spearmen
+	flank = modded_cavalry
 	
-	levy_template = levy_sonsofAshur
+	levy_template = levy_nedic
 
 	male_names = {
 		 Dahi Rystedok Rehres Urder Zavnizos Bilron Vrenas Rerlen Yneth Nhudraozes
@@ -35,8 +35,8 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = carthaginian_gfx
+	graphical_culture = bryges_gfx
 	ethnicities = {
-		10 = persian
+		10 = celtic
 	}
 }

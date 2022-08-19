@@ -232,9 +232,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="caspari"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -243,7 +243,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -251,9 +251,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="caspari"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -262,7 +262,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -270,18 +270,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="caspari"
+	province_rank="city"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
 		amount=1
 	}
+	slaves=
+	{
+		amount=3
+	}
 	tribesmen=
 	{
-		amount=2
+		amount=6
 	}
 }
 
@@ -289,9 +293,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="caspari"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -300,7 +304,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -308,9 +312,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="caspari"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -319,7 +323,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -327,9 +331,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="hernan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -338,7 +342,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -346,9 +350,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="hernan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -357,7 +361,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -365,9 +369,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="hernan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -376,7 +380,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -384,9 +388,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="hernan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -395,7 +399,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -403,18 +407,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="hernan"
+	province_rank="city"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
 		amount=1
 	}
+	slaves=
+	{
+		amount=3
+	}
 	tribesmen=
 	{
-		amount=2
+		amount=6
 	}
 }
 
@@ -422,9 +430,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="hernan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=

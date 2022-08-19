@@ -60,3 +60,13 @@ levy_ayleid = { #ayleid militia
 	modded_mages = 0.2
 	modded_cavalry = 0.2
 }
+
+#Nedic
+
+levy_nedic = { #nedic militia
+	default = no
+
+	modded_archers = 0.2
+	modded_spearmen = 0.5
+	modded_axemen = 0.3
+}

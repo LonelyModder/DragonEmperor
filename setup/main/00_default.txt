@@ -54,6 +54,12 @@ provinces = { #Any entry must contain a comment with city name.
 	538 = { #Talanda
 		port_building = 2
 	}
+	89 = { #Herne
+		port_building = 1
+	}
+	82 = { #Caspar
+		port_building = 1
+	}
 	
 	#Pirates
 	
@@ -175,6 +181,24 @@ country = {
 			}
 			
 			own_control_core = { 538 539 }	
+		}
+		
+		AAF = { #Herne
+			government = tribal_kingdom
+			primary_culture = hernan
+			religion = nedic_pantheon
+			capital = 89
+			
+			own_control_core = { 85 86 87 88 89 90 }	
+		}
+		
+		AAG = { #Caspar
+			government = tribal_kingdom
+			primary_culture = caspari
+			religion = nedic_pantheon
+			capital = 82
+			
+			own_control_core = { 80 81 82 83 84 }	
 		}
 		
 	}
