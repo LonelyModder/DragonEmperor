@@ -33,18 +33,6 @@ provinces = { #Any entry must contain a comment with city name.
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
-	592 = { #College of Psijics
-		fortress_building = 1
-	}
-	589 = { #Colosseum of Old Ways
-		fortress_building = 1
-	}
-	622 = { #Alinors Harbor
-		fortress_building = 1
-	}
-	652 = { #Rellenthil
-		fortress_building = 1
-	}
 	42 = { #Strange old fort
 		fortress_building = 2
 	}
@@ -55,6 +43,12 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	538 = { #Talanda
+		port_building = 2
+	}
+	580 = { #Pearls
+		port_building = 2
+	}
+	551 = { #Stormsinger Farya
 		port_building = 2
 	}
 	89 = { #Herne
