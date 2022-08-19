@@ -19,7 +19,6 @@ modded_cyrodil_region = {
 	areas = {
 		stirk_area
 	}
-	color = rgb { 217 18 0 }
 }
 
 modded_sunhold_region = {
@@ -85,7 +84,6 @@ modded_alinor_region = {
 		pearls_area
 		rellenthil_area
 	}
-	color = rgb { 224 180 34 }  # or named color, or rgb
 }
 
 modded_firsthold_region = {
