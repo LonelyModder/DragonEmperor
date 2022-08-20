@@ -1,7 +1,7 @@
 ﻿altmer = {	
 	color = hsv { 0.12 0.81 0.96 }
 
-	primary = modded_archers
+	primary = modded_mages
 	second = modded_spearmen
 	flank = modded_cavalry
 
@@ -29,13 +29,15 @@
 	}
 	culture = {
 		alinoric = {}
-		sunholdic = {}
+		sunholdic = {levy_template = levy_griphonic}
 		duskan = {}
 		shimmerinic = {}
 		lillandrilan = {}
 		cloudrestan = {}
 		firstholdan = {}
 		skywatchan = {}
+		corgradan = {}
+		russafeldan = {}
 		psijic = {levy_template = levy_psijic}
 	}
 	

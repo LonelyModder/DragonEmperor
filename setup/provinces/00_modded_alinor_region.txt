@@ -5625,18 +5625,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -5644,18 +5644,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -5663,16 +5663,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="sunholdic"
+	province_rank="city"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
-		amount=1
+		amount=2
 	}
-	tribesmen=
+	freemen=
+	{
+		amount=7
+	}
+	slaves=
 	{
 		amount=2
 	}
@@ -7139,18 +7143,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7158,18 +7162,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7177,18 +7181,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7234,18 +7238,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="sunholdic"
+	province_rank="city"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	nobles=
+	{
+		amount=3
+	}
+	citizen=
+	{
+		amount=7
+	}
 	slaves=
 	{
-		amount=1
+		amount=5
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=12
 	}
 }
 
@@ -7253,18 +7265,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="sunholdic"
+	province_rank="city"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=5
+	}
 	slaves=
 	{
-		amount=1
+		amount=3
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=10
 	}
 }
 
@@ -7272,18 +7288,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7291,18 +7307,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7310,18 +7326,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7329,18 +7345,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7348,18 +7364,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7367,18 +7383,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7386,18 +7402,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7405,18 +7421,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7424,18 +7440,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7443,18 +7459,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7462,18 +7478,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7500,18 +7516,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7519,18 +7535,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7576,18 +7592,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7595,18 +7611,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7614,18 +7630,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7633,18 +7649,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7652,18 +7668,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7671,18 +7687,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7690,18 +7706,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7709,18 +7725,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7728,18 +7744,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7747,18 +7763,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7766,18 +7782,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7785,18 +7801,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7804,18 +7820,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7823,18 +7839,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7861,18 +7877,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -7899,18 +7915,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=4
 	}
 }
 
@@ -8933,18 +8949,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="duskan"
+	province_rank="city"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	nobles=
+	{
+		amount=3
+	}
+	citizen=
+	{
+		amount=7
+	}
 	slaves=
 	{
-		amount=1
+		amount=5
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=2
+		amount=12
 	}
 }
 

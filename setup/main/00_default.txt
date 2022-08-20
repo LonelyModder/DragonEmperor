@@ -33,6 +33,9 @@ provinces = { #Any entry must contain a comment with city name.
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
+	585 = { #Silatar manor
+		port_building = 2
+	}
 	42 = { #Strange old fort
 		fortress_building = 2
 	}
@@ -43,6 +46,12 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	538 = { #Talanda
+		port_building = 2
+	}
+	755 = { #Dusk
+		port_building = 2
+	}
+	667 = { #Sunholds Harbor
 		port_building = 2
 	}
 	580 = { #Pearls
@@ -96,6 +105,12 @@ road_network = {
 	630=628
 	628=626
 	626=622
+	637=639
+	639=685
+	685=690
+	690=688
+	688=666
+	666=667
 	#Artaeum
 	595=594
 	594=592
@@ -220,6 +235,139 @@ country = {
 			capital = 16
 			
 			own_control_core = { 12 13 14 15 16 17 18 }	
+		}
+		
+		AAJ = { #Sunhold
+			government = despotic_monarchy
+			primary_culture = sunholdic
+			religion = elven_pantheon
+			capital = 666
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0 }
+			}
+			
+			own_control_core = { 666 667 663 662 661 688 684 685 690 689 668 670
+								 671 672 669 692 674 673 676 675 678 677 681 680
+								 585 583 584 686 691 687 693 695 696 694 699 701
+								 697 }	
+		}
+		
+		AAK = { #Dusk
+			government = despotic_monarchy
+			primary_culture = duskan
+			religion = elven_pantheon
+			capital = 755
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0 }
+			}
+			
+			own_control_core = { 755 759 758 756 750 749 757 751 748 747 746 766 767 752 
+								 744 745 743 741 753 742 768 754 767 771 772 773 774 775 
+								 762 778 780 779 799 807 808 812 813 823 826 }	
+		}
+		
+		AAL = { #Shimmerine
+			government = despotic_monarchy
+			primary_culture = shimmerinic
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0 }
+			}
+			
+			own_control_core = {  }	
+		}
+		
+		AAM = { #Lillandril
+			government = despotic_monarchy
+			primary_culture = lillandrilan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {  }	
+		}
+		
+		AAN = { #Cloudrest
+			government = despotic_monarchy
+			primary_culture = cloudrestan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {  }	
+		}
+		
+		AAO = { #Firsthold
+			government = despotic_monarchy
+			primary_culture = firstholdan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {  }	
+		}
+		
+		AAP = { #Skywatchan
+			government = despotic_monarchy
+			primary_culture = skywatchan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {  }	
+		}
+		
+		AAR = { #Corgrad
+			government = despotic_monarchy
+			primary_culture = corgradan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = {  }	
 		}
 		
 	}
