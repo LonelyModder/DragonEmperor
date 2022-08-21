@@ -271,14 +271,15 @@ country = {
 			
 			own_control_core = { 755 759 758 756 750 749 757 751 748 747 746 766 767 752 
 								 744 745 743 741 753 742 768 754 771 772 773 774 775 
-								 762 778 780 779 799 807 808 812 813 823 826 }	
+								 762 778 780 779 799 807 808 812 813 823 826 
+								 824 825 777 776 765 764 763 761 760 806 }	
 		}
 		
 		AAL = { #Shimmerine
 			government = despotic_monarchy
 			primary_culture = shimmerinic
 			religion = elven_pantheon
-			capital = 595
+			capital = 837
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -287,7 +288,11 @@ country = {
 				religious_tech= { level=2 progress=0 }
 			}
 			
-			own_control_core = {  }	
+			own_control_core = { 837 833 830 836 829 834 832 828 827 822 831 
+								 816 819 818 815 814 821 820 847 848 
+								 866 865 867 876 875 878 864 863 868 874 873 872 871
+								 853 862 861 869 860 870 859 854 855 856 857 858 852 
+								 849 846 845 }
 		}
 		
 		AAM = { #Lillandril
@@ -368,6 +373,23 @@ country = {
 			}
 			
 			own_control_core = {  }	
+		}
+		
+		AAS = { #Russafeld
+			government = despotic_monarchy
+			primary_culture = russafeldan
+			religion = elven_pantheon
+			capital = 844
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 844 851 850 843 842 738 737 
+								 729 730 713 731 712 711 732 }	
 		}
 		
 	}
