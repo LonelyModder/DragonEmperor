@@ -33,6 +33,9 @@ provinces = { #Any entry must contain a comment with city name.
 	848 = { #Shimmerine docs
 		port_building = 2
 	}
+	927 = { #Sea Keep
+		port_building = 2
+	}
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
@@ -142,6 +145,12 @@ road_network = {
 	828=829
 	829=830
 	830=837
+	712=713
+	713=714
+	714=715
+	715=721
+	721=724
+	724=725
 	#Artaeum
 	595=594
 	594=592
@@ -330,7 +339,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = lillandrilan
 			religion = elven_pantheon
-			capital = 595
+			capital = 947
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -339,14 +348,18 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = {  }	
+			own_control_core = { 934 952 951 606 959 957 933 962 958 955 956 941
+								 927 928 929 897 896 936 935 932 931 938 937 942
+								 947 946 945 943 944 948 949 950 954 607 930 953
+								 899 895 894 898 909 910 939 940 904 960 916 917
+								 544 546 545 547 548 }	
 		}
 		
 		AAN = { #Cloudrest
 			government = despotic_monarchy
 			primary_culture = cloudrestan
 			religion = elven_pantheon
-			capital = 595
+			capital = 725
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -355,7 +368,7 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = {  }	
+			own_control_core = { 721 715 722 714 716 717 724 723 725 726 727 728 720 719 718 }	
 		}
 		
 		AAO = { #Firsthold
@@ -394,7 +407,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = corgradan
 			religion = elven_pantheon
-			capital = 595
+			capital = 905
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -403,7 +416,8 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = {  }	
+			own_control_core = { 905 961 906 926 908 907 919 913 920 921 925 924
+								 911 922 923 902 903 912 }	
 		}
 		
 		AAS = { #Russafeld
