@@ -95,29 +95,34 @@ modded_firsthold_region = {
 		greywatercove_area
 		northbeacon_area
 		torinaan_area
-		dawnbreak_area
 		collegeofaldmeripropriety_area
-		quendeluun_area
 	}
 }
 
 modded_skywatch_region = {
 	areas = {
 		skywatch_area
-		southbeacon_area
-		rictus_area
-		dranilkir_area
-		phaer_area
 		buraniimisle_area
-		vulkhelguard_area
 		errinorneisle_area
-		delsclaim_area
-		silsailen_area
 		mathiisen_area
 		glistervale_area
 		bewan_area
 		shatteredgrove_area
 		tanzelwil_area
+		quendeluun_area
+		dawnbreak_area
+	}
+}
+
+modded_moridunon_region = {
+	areas = {
+		southbeacon_area
+		rictus_area
+		dranilkir_area
+		vulkhelguard_area
+		phaer_area
+		delsclaim_area
+		silsailen_area
 	}
 }
 
