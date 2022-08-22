@@ -30,7 +30,16 @@ provinces = { #Any entry must contain a comment with city name.
 	27 = { #Wormusoel
 		port_building = 2
 	}
+	848 = { #Shimmerine docs
+		port_building = 2
+	}
 	630 = { #Cey-Tarn Keep
+		fortress_building = 1
+	}
+	853 = { #Direnni Acropolis
+		fortress_building = 1
+	}
+	831 = { #Elven keep
 		fortress_building = 1
 	}
 	585 = { #Silatar manor
@@ -111,6 +120,28 @@ road_network = {
 	690=688
 	688=666
 	666=667
+	652=711
+	711=712
+	712=731
+	731=738 
+	738=729
+	738=844
+	844=851 
+	851=850
+	851=866
+	850=845
+	845=846
+	846=836
+	836=837
+	836=847
+	847=848
+	848=852
+	852=853
+	831=832
+	832=828 
+	828=829
+	829=830
+	830=837
 	#Artaeum
 	595=594
 	594=592
