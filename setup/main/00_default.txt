@@ -36,6 +36,15 @@ provinces = { #Any entry must contain a comment with city name.
 	927 = { #Sea Keep
 		port_building = 2
 	}
+	320 = { #North Beacon
+		port_building = 2
+	}
+	422 = { #Skywatch docs
+		port_building = 2
+	}
+	495 = { #Vulkhel Guard
+		port_building = 2
+	}
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
@@ -329,7 +338,7 @@ country = {
 			}
 			
 			own_control_core = { 837 833 830 836 829 834 832 828 827 822 831 
-								 816 819 818 815 814 821 820 847 848 
+								 816 819 818 815 814 821 820 847 848 835
 								 866 865 867 876 875 878 864 863 868 874 873 872 871
 								 853 862 861 869 860 870 859 854 855 856 857 858 852 
 								 849 846 845 }
@@ -375,7 +384,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = firstholdan
 			religion = elven_pantheon
-			capital = 595
+			capital = 263
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -398,7 +407,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = skywatchan
 			religion = elven_pantheon
-			capital = 595
+			capital = 420
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -411,8 +420,7 @@ country = {
 								 376 374 375 395 396 398 397 399
 								 394 401 404 402 393 427 403 426 408 410
 								 420 421 413 422 423 412 409 425 424 407 405 406
-								 437 436 435 434
-								 430 429 431 432 433
+								 437 436 435 434 430 429 431 432 433
 								 443 445 444 442 441 451 449 452 453 446 440 428
 								 439 438 447 448 478 454 455 507
 								 416 415 414 476 477 411 417 419 418 479 480
@@ -457,7 +465,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = mariduninian
 			religion = elven_pantheon
-			capital = 595
+			capital = 495
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -471,8 +479,23 @@ country = {
 								 460 461 459 462 463 468 466 472 469 470 473
 								 488 486 487 530 512 533 489 490 526 491 492 525
 								 450 456 475 474 471 457 514 513 529 467 508 458
-								 582 601 605 604 603 602 600 596 597 598 599
 								 536 537}	
+		}
+		
+		AAU = { #Rictus
+			government = despotic_monarchy
+			primary_culture = rictan
+			religion = elven_pantheon
+			capital = 595
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 582 601 605 604 603 602 600 596 597 598 599 }	
 		}
 		
 	}
