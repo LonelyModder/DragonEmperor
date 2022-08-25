@@ -9,6 +9,9 @@ deity_azura = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_azura = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -34,6 +37,9 @@ deity_boethiah = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
@@ -64,6 +70,9 @@ deity_clavicusvile = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -89,6 +98,12 @@ deity_hermeusmora = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_hermeusmora = {
 				holy_site_deity_check_trigger = yes
@@ -122,6 +137,9 @@ deity_hircine = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_hircine = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -147,6 +165,9 @@ deity_jyggalag = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_jyggalag = {
 				holy_site_deity_check_trigger = yes
@@ -180,6 +201,9 @@ deity_malacath = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_malacath = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -209,6 +233,9 @@ deity_mechrunesdagon = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_mechrunesdagon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -234,6 +261,9 @@ deity_mephala = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_mephala = {
 				holy_site_deity_check_trigger = yes
@@ -261,6 +291,9 @@ deity_meridia = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_meridia = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -286,6 +319,9 @@ deity_molagbal = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_molagbal = {
 				holy_site_deity_check_trigger = yes
@@ -316,6 +352,9 @@ deity_namira = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_namira = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -342,6 +381,9 @@ deity_nocturnal = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_nocturnal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -367,6 +409,9 @@ deity_peryite = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_peryite = {
 				holy_site_deity_check_trigger = yes
@@ -397,6 +442,9 @@ deity_sanguine = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_sanguine = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -423,6 +471,9 @@ deity_sheogorath = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_sheogorath = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -448,6 +499,9 @@ deity_vermina = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_vermina = {
 				holy_site_deity_check_trigger = yes

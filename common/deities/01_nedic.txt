@@ -7,7 +7,7 @@ deity_lorkhan = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
-				RELIGION = deadric_pantheon
+				RELIGION = nedic_pantheon
 			}
 			deity:omen_lorkhan = {
 				holy_site_deity_check_trigger = yes
@@ -15,9 +15,9 @@ deity_lorkhan = {
 		}
 	}
 	icon = deity_eloquence
-	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
-	religion = deadric_pantheon
+	religion = nedic_pantheon
 	deity_category = culture #This Deity uses a culture slot.
 	deification_trigger = {
 		can_deify_trigger = yes
@@ -25,5 +25,83 @@ deity_lorkhan = {
 	
 	on_activate = {
 		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_dibella = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			deity:omen_mara = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_love
+	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = nedic_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
+
+deity_kynareth = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			deity:omen_kynareth = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_wealth
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
+	religion = nedic_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_income_effect = yes
+	}
+}
+
+deity_celestials = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			deity:omen_celestials = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { discipline = deity_discipline_svalue }
+	omen = { global_defensive = omen_global_defensive_svalue } #Bonus from Omen
+	religion = nedic_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
 	}
 }

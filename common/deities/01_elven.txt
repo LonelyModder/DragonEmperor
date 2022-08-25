@@ -9,6 +9,9 @@ deity_trinimac = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_trinimac = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -34,6 +37,9 @@ deity_syrabane = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_syrabane = {
 				holy_site_deity_check_trigger = yes
@@ -64,6 +70,9 @@ deity_jephre = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_jephre = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -89,6 +98,12 @@ deity_xarxes = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_xarxes = {
 				holy_site_deity_check_trigger = yes
@@ -116,6 +131,12 @@ deity_auriel = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_auriel = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -141,6 +162,12 @@ deity_mara = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_mara = {
 				holy_site_deity_check_trigger = yes
@@ -168,6 +195,9 @@ deity_magnus = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
+			}
 			deity:omen_magnus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -175,7 +205,7 @@ deity_magnus = {
 	}
 	icon = deity_wealth
 	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
-	omen = { religious_tech_investment = omen_religious_tech_investment_svalue } #Bonus from Omen
+	omen = { modded_mages_offensive = 0.1 } #Bonus from Omen
 	religion = elven_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	deification_trigger = {
@@ -193,6 +223,12 @@ deity_stendarr = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_stendarr = {
 				holy_site_deity_check_trigger = yes
@@ -219,6 +255,9 @@ deity_phynaster = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = ayleid_pantheon
 			}
 			deity:omen_phynaster = {
 				holy_site_deity_check_trigger = yes
