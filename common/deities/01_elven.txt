@@ -12,6 +12,9 @@ deity_trinimac = {
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_trinimac = {
 				holy_site_deity_check_trigger = yes
 			}

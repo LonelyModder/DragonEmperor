@@ -41,6 +41,9 @@ deity_boethiah = {
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -72,6 +75,9 @@ deity_clavicusvile = {
 			}
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
 			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
@@ -236,6 +242,9 @@ deity_mechrunesdagon = {
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_mechrunesdagon = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -355,6 +364,9 @@ deity_namira = {
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_namira = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -384,6 +396,9 @@ deity_nocturnal = {
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_nocturnal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -412,6 +427,9 @@ deity_peryite = {
 			}
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
 			}
 			deity:omen_peryite = {
 				holy_site_deity_check_trigger = yes
@@ -473,6 +491,9 @@ deity_sheogorath = {
 			}
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
 			}
 			deity:omen_sheogorath = {
 				holy_site_deity_check_trigger = yes

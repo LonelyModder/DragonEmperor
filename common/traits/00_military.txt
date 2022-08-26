@@ -22,9 +22,8 @@ confident = { #
 	character_loyalty = -5
 	martial = 1
 	unit = {
-		cavalry_light_discipline = 0.05
-		chariot_heavy_discipline = 0.05
-		chariot_light_discipline = 0.05
+		modded_cavalry_discipline = 0.05
+		modded_griphons_discipline = 0.05
 	}
 }
 tactician = { #
@@ -32,10 +31,10 @@ tactician = { #
 	
 	martial = 1
 	unit = {
-		missile_archers_discipline = 0.05
-		light_spearmen_discipline = 0.05
-		light_swordsmen_discipline = 0.05
-		cavalry_horse_archers_discipline = 0.05
+		modded_archers_discipline = 0.05
+		modded_spearmen_discipline = 0.05
+		modded_swordsmen_discipline = 0.05
+		modded_horse_archers_discipline = 0.05
 	}
 }
 disciplined = { #
@@ -53,9 +52,8 @@ steadfast = { #
 	character_loyalty = 5
 	
 	unit = {
-		light_spearmen_discipline = 0.05
-		light_swordsmen_discipline = 0.05
-		elephant_indian_discipline = 0.05
+		modded_spearmen_discipline = 0.05
+		modded_swordsmen_discipline = 0.05
 	}
 }
 aggressive = { #
@@ -63,8 +61,8 @@ aggressive = { #
 	
 	martial = 1
 	unit = {
-		cavalry_light_discipline = 0.05
-		cavalry_camels_discipline = 0.05
+		modded_cavalry_discipline = 0.05
+		modded_camels_discipline = 0.05
 	}
 }
 brave = {

@@ -15,19 +15,18 @@ shock_action = {
 	casualties = 0.1
 
 	effective_composition = {
-		missile_archers = 0
-		missile_spearthrowers = 0
-		cavalry_camels = 0
-		chariot_light = 0
-		axemen_heavy = 0
-		chariot_heavy = 0.75
-		cavalry_horse_archers = 0
-		cavalry_light = 0.0
-		light_spearmen = 0.75
-		light_swordsmen = 0.75
-		elephant_african = 2.0
-		elephant_forest = 2.0
-		elephant_indian = 2.0
+		modded_axemen = 1
+		modded_archers = 0
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 2
+		modded_mages = 0
+		modded_cavalry = 1
+		modded_horse_archers = 0
+		modded_camels = 0
+		modded_deadra = 1.5
+		modded_beasts = 1.5
+		modded_undead = 0
 	}
 }
 
@@ -42,19 +41,18 @@ envelopment = {
 	padma_vyuha = -0.1
 	
 	effective_composition = {
-		missile_archers = 0
-		missile_spearthrowers = 0
-		cavalry_camels = 1.0
-		chariot_light = 0.5
-		axemen_heavy = 0
-		chariot_heavy = 0.0
-		cavalry_horse_archers = 0.5
-		cavalry_light = 1.0
-		light_spearmen = 1.0
-		light_swordsmen = 1.0
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 0
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 2
+		modded_mages = 0
+		modded_cavalry = 1.5
+		modded_horse_archers = 0
+		modded_camels = 0.5
+		modded_deadra = 0
+		modded_beasts = 1.5
+		modded_undead = 0
 	}
 }
 
@@ -71,19 +69,18 @@ skirmishing = {
 	casualties = -0.25
 
 	effective_composition = {
-		missile_archers = 1
-		missile_spearthrowers = 1
-		cavalry_camels = 0
-		chariot_light = 0.25
-		axemen_heavy = 0
-		chariot_heavy = 0
-		cavalry_horse_archers = 0.25
-		cavalry_light = 0.25
-		light_spearmen = 1.0
-		light_swordsmen = 1.0
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 1.5
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 0
+		modded_mages = 2
+		modded_cavalry = 0
+		modded_horse_archers = 1.5
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 0
+		modded_undead = 0
 	}
 }
 
@@ -98,19 +95,18 @@ deception = {
 	hit_and_run_tactics = -0.1
 
 	effective_composition = {
-		missile_archers = 1
-		missile_spearthrowers = 1
-		cavalry_camels = 1
-		chariot_heavy = 1
-		chariot_light = 1
-		axemen_heavy = 0
-		cavalry_horse_archers = 1.5
-		cavalry_light = 1.5
-		light_spearmen = 0
-		light_swordsmen = 0
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 0.5
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 0
+		modded_mages = 2
+		modded_cavalry = 0.5
+		modded_horse_archers = 1.5
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 0.5
+		modded_undead = 0
 	}
 }
 
@@ -125,19 +121,18 @@ bottleneck = {
 	cavalry_skirmish = -0.1
 
 	effective_composition = {
-		missile_archers = 1
-		missile_spearthrowers = 1
-		cavalry_camels = 0
-		chariot_heavy = 0
-		chariot_light = 0
-		axemen_heavy = 0
-		cavalry_horse_archers = 0
-		cavalry_light = 0
-		light_spearmen = 0
-		light_swordsmen = 0
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 1
+		modded_swordsmen = 0
+		modded_spearmen = 2
+		modded_griphons = 0
+		modded_mages = 1
+		modded_cavalry = 0
+		modded_horse_archers = 0
+		modded_camels = 0
+		modded_deadra = 1.5
+		modded_beasts = 0
+		modded_undead = 0
 	}
 }
 
@@ -156,19 +151,18 @@ greek_phalanx = { #Good vs Shock - Bad vs Envelopment
 	casualties = -0.1
 
 	effective_composition = { #
-		missile_archers = 0
-		missile_spearthrowers = 0
-		cavalry_camels = 0
-		chariot_heavy = 0
-		chariot_light = 0
-		axemen_heavy = 0
-		cavalry_horse_archers = 0
-		cavalry_light = 0.75
-		light_spearmen = 0.5
-		light_swordsmen = 0.5
-		elephant_african = 1
-		elephant_forest = 1
-		elephant_indian = 1
+		modded_axemen = 0
+		modded_archers = 1
+		modded_swordsmen = 0
+		modded_spearmen = 2
+		modded_griphons = 0
+		modded_mages = 1
+		modded_cavalry = 0
+		modded_horse_archers = 0
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 0
+		modded_undead = 0
 	}
 }
 
@@ -184,19 +178,18 @@ triplex_acies = { #Good vs Envelopment - Bad vs Skirmishing
 	hit_and_run_tactics = -0.1
 	
 	effective_composition = { #
-		missile_archers = 0
-		missile_spearthrowers = 0
-		cavalry_camels = 0
-		chariot_heavy = 0
-		chariot_light = 0
-		axemen_heavy = 0
-		cavalry_horse_archers = 0
-		cavalry_light = 0.6
-		light_spearmen = 1
-		light_swordsmen = 1
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 0.5
+		modded_swordsmen = 2
+		modded_spearmen = 0
+		modded_griphons = 0
+		modded_mages = 0.5
+		modded_cavalry = 0.5
+		modded_horse_archers = 0
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 0
+		modded_undead = 0
 	}
 }
 
@@ -214,19 +207,18 @@ cavalry_skirmish = {
 	casualties = -0.1
 
 	effective_composition = {
-		missile_archers = 0
-		missile_spearthrowers = 0
-		cavalry_camels = 0.5
-		chariot_heavy = 0
-		chariot_light = 0
-		axemen_heavy = 0
-		cavalry_horse_archers = 1.5
-		cavalry_light = 1.5
-		light_spearmen = 0
-		light_swordsmen = 0
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 0
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 1.5
+		modded_mages = 0
+		modded_cavalry = 1.5
+		modded_horse_archers = 2
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 1.5
+		modded_undead = 0
 	}
 }
 
@@ -244,19 +236,18 @@ padma_vyuha = {
 	casualties = -0.1
 
 	effective_composition = {
-		missile_archers = 1
-		missile_spearthrowers = 1
-		cavalry_camels = 0
-		chariot_heavy = 0.5
-		chariot_light = 0.5
-		axemen_heavy = 0
-		cavalry_horse_archers = 0
-		cavalry_light = 0.25
-		light_spearmen = 0
-		light_swordsmen = 0
-		elephant_african = 1.0
-		elephant_forest = 1.0
-		elephant_indian = 1.0
+		modded_axemen = 0
+		modded_archers = 0
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 0
+		modded_mages = 0
+		modded_cavalry = 1.5
+		modded_horse_archers = 1.5
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 1.5
+		modded_undead = 0
 	}
 }
 
@@ -275,18 +266,17 @@ hit_and_run_tactics = {
 	casualties = -0.1
 
 	effective_composition = {
-		missile_archers = 0.5
-		missile_spearthrowers = 0.5
-		cavalry_camels = 0
-		chariot_heavy = 0.5
-		chariot_light = 0.5
-		axemen_heavy = 0
-		cavalry_horse_archers = 0.5
-		cavalry_light = 1
-		light_spearmen = 0.5
-		light_swordsmen = 0.5
-		elephant_african = 0
-		elephant_forest = 0
-		elephant_indian = 0
+		modded_axemen = 0
+		modded_archers = 0
+		modded_swordsmen = 0
+		modded_spearmen = 0
+		modded_griphons = 1.5
+		modded_mages = 0
+		modded_cavalry = 1.5
+		modded_horse_archers = 2
+		modded_camels = 0
+		modded_deadra = 0
+		modded_beasts = 1.5
+		modded_undead = 0
 	}
 }

@@ -1,0 +1,50 @@
+﻿altmer_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = mauryan_mauryas_path_3
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = altmer }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = altmer
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_altmer"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer	
+				}
+			}
+		}
+	}
+	
+	altmer_path_1 = { ###altmer path
+		modifier = { 
+			
+		}
+		icon = mauryan_mauryas_path_3
+		requires = {}
+		on_activate = {
+			
+		}
+	}
+	
+}
