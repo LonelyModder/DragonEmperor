@@ -1,6 +1,6 @@
 ﻿altmer_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
-	image = mauryan_mauryas_path_3
+	image = greek_states_path_7
 	
 	allow = {
 		trigger_if = {
@@ -38,13 +38,138 @@
 	
 	altmer_path_1 = { ###altmer path
 		modifier = { 
-			
+			modded_spearmen_offensive = 0.1
 		}
-		icon = mauryan_mauryas_path_3
+		icon = greek_states_path_7
 		requires = {}
-		on_activate = {
-			
+	}
+	
+	altmer_path_2 = { ###altmer path
+		modifier = { 
+			modded_spearmen_defensive = 0.1
 		}
+		enable_tactic = greek_phalanx
+		icon = greek_states_path_7
+		requires = {altmer_path_1}
+	}
+	
+	altmer_path_3 = { ###altmer path
+		modifier = { 
+			levy_size_multiplier = 0.025
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_2}
+	}
+	
+	altmer_path_3a = { ###altmer path
+		modifier = { 
+			modded_archers_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_3}
+	}
+	
+	altmer_path_4a = { ###altmer path
+		modifier = { 
+			modded_mages_defensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_3a}
+	}
+	
+	altmer_path_5a = { ###altmer path
+		modifier = { 
+			modded_mages_offensive = 0.1
+			assault_ability = 0.5
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_4a}
+	}
+	
+	altmer_path_6a = { ###altmer path
+		modifier = { 
+			modded_griphons_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_5a}
+	}
+	
+	altmer_path_3b= { ###altmer path
+		modifier = { 
+			naval_morale_recovery = 0.25
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_3}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				order_by = total_population
+				max = 2
+				check_range_bounds = no
+				add_building_level = port_building
+			}
+		}
+	}
+	
+	altmer_path_4b = { ###altmer path
+		modifier = { 
+			ocean_combat_bonus = 0.2
+			coastal_terrain_combat_bonus = 0.2
+		}
+		allow_unit_type = octere
+		icon = greek_states_path_7
+		requires = {altmer_path_3b}
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = octere
+						add_subunit = octere
+					}
+				}
+			}
+		}
+	}
+	
+	altmer_path_5b = { ###altmer path
+		modifier = { 
+			naval_damage_done = 0.15
+			global_ship_recruit_speed = 0.15
+		}
+		allow_unit_type = mega_galley
+		icon = greek_states_path_7
+		requires = {altmer_path_4b}
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = mega_galley
+					}
+				}
+			}
+		}
+	}
+	
+	altmer_path_end_bonus = { ###altmer path
+		modifier = { 
+			modded_mages_offensive = 0.1
+			naval_damage_done = 0.15
+		}
+		icon = greek_states_path_7
+		requires = {altmer_path_6a altmer_path_5b}
 	}
 	
 }

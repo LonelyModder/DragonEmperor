@@ -1,2 +1,76 @@
 ﻿#Culture Group heritages
 
+altmer_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.1
+		navy_maintenance_cost = -0.25
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		country_culture_group = altmer
+	}
+}
+
+ayleid_heritage = { 
+	modifier = {
+		#good
+		enslavement_efficiency = 0.25
+		global_monthly_civilization = 0.05
+		
+		#bad
+		global_slaves_happyness = negative_happiness_small_svalue
+	}
+	
+	trigger = {
+		country_culture_group = ayleid
+	}
+}
+
+nede_heritage = { 
+	modifier = {
+		#good
+		happiness_for_same_religion_modifier = 0.1
+		omen_power = 0.2
+
+		#bad
+		global_slaves_output = -0.2
+	}
+	
+	trigger = {
+		country_culture_group = nede
+	}
+}
+
+goblin_heritage = { 
+	modifier = {
+		#good
+		war_score_cost = -0.05
+		discipline = 0.05
+		
+		#bad
+		stability_cost_modifier = 0.1
+	}
+	
+	trigger = {
+		country_culture_group = goblin
+	}
+}
+
+bosmer_heritage = { 
+	modifier = {
+		#good
+		modded_archers_offensive = 0.1
+		improve_relation_impact = 0.2
+		
+		#bad
+		build_cost = 0.25
+	}
+	
+	trigger = {
+		country_culture_group = bosmer
+	}
+}
