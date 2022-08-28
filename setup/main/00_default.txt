@@ -117,8 +117,39 @@ provinces = { #Any entry must contain a comment with city name.
 	# Barbarian Spawn Spots
 	########################################
 	
-	#Egypt & Surroundings
-	
+	327 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	326 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	323 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	337 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	335 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	336 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	328 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	324 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	330 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	331 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	332 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
 }
 
 road_network = {
@@ -631,15 +662,6 @@ country = {
 			capital = 535
 			
 			own_control_core = { 535 534 }	
-		}
-		
-		ABG = { #Additional
-			government = tribal_kingdom
-			primary_culture = coralsplitter
-			religion = goblin_pantheon
-			capital = 739
-			
-			own_control_core = {  }	
 		}
 		
 	}

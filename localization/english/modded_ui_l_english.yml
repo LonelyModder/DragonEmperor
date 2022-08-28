@@ -3,11 +3,11 @@
  aestian:2 "Heretic"
  matrist_religion:0 "Heresy"
 
- #Start date
- CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\nThe game date counts from the founding of the first kingdom on Tamriel by king Eplear in Valenwood.\n\n#TF Time. Time is an artificial construct. An arbitrary system based on the idea that events occur in a linear direction at all times. - Sheogorath#!"
+ CURRENT_DATE_TOOLTIP:2 "#T Current Date#!\n The people of Tamriel count time from the founding of the first kingdom on Tamriel by king Eplear in Valenwood.\n\n#TF Time. Time is an artificial construct. An arbitrary system based on the idea that events occur in a linear direction at all times. - Sheogorath#!"
  DATE_TOOLTIP:0 "[Date.GetTimeUntil]\n years since founding of Valenwood."
- THE_WORLD:1 "[GetDateString] FA"
- THE_WORLD_TOOLTIP:1 "#T Current Date#!\nFA stands for First Age. The year 130 BCE was chosen as the starting date because a decade later king Harald will wipe out remaining Snow Elves from Skyrim. "
+ THE_WORLD:1 "[GetDateString]#T  FA"
+ THE_WORLD_TOOLTIP:1 "#T Current Date#!\n FA stands for First Age. The year 113 FA was chosen as the starting date because this year king Harald was born. He was the first historical Nordic ruler."
+ 
  
  AlinorINTRO:0 "#T Alinor#!\nDifficulty: #Y Easy#!\n\n At first, Alinor was one of the many city-states on the Sommerset Islands. A certain isolation from the continent meant that these countries gradually grew in strength and began to absorb smaller cities. The lords of Alinor skillfully used the terrain that turned their land into a fortress and steaks of goblin slaves grew to be the strongest candidate to unite the islands."
  Alinor:0 "Alinor"
