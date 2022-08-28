@@ -261,6 +261,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 633 620 632 638 619 618 634 637 639 609 610 617 608 556 
 								 630 640 641 631 636 635 629 628 644 645 627 624 642
 								 580 654 655 653 615 614 611 613 612 656 657 658 659
@@ -289,6 +296,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
 			}
 			
 			own_control_core = { 27 30 28 29 }	
@@ -323,6 +337,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 538 539 }	
 		}
 		
@@ -335,7 +356,7 @@ country = {
 			own_control_core = { 85 86 87 88 89 90 }	
 		}
 		
-		AAG = { #Caspar
+		AAG = { #Caspar #To be removed?
 			government = tribal_kingdom
 			primary_culture = caspari
 			religion = nedic_pantheon
@@ -353,7 +374,7 @@ country = {
 			own_control_core = { 42 43 44 45 46 }	
 		}
 		
-		AAI = { #Dogeater
+		AAI = { #Dogeater #To be removed?
 			government = tribal_kingdom
 			primary_culture = dogeater
 			religion = goblin_pantheon
@@ -433,6 +454,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 934 952 951 606 959 957 933 962 958 955 956 941
 								 927 928 929 897 896 936 935 932 931 938 937 942
 								 947 946 945 943 944 948 949 950 954 607 930 953
@@ -453,6 +481,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 721 715 722 714 716 717 724 723 725 726 727 728 720 719 718 }	
 		}
 		
@@ -467,6 +502,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
 			}
 			
 			own_control_core = { 263 265 266 267 268 269 271 279 280 281 282 285
@@ -490,6 +532,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
 			}
 			
 			own_control_core = { 388 389 387 386 382 383 392 390 391 385 400 384
@@ -516,6 +565,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 905 961 906 926 908 907 919 913 920 921 925 924
 								 911 922 923 902 903 912 891 890 }	
 		}
@@ -533,6 +589,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 844 851 850 843 842 738 737 
 								 729 730 713 731 712 711 732 }	
 		}
@@ -548,6 +611,13 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
 			}
 			
 			own_control_core = { 495 494 496 521 520 497 498 519 493 522 523 499
@@ -571,6 +641,13 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 582 601 605 604 603 602 600 596 597 598 599 }	
 		}
 		
@@ -587,10 +664,17 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
+			poptype_rights = { 
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			own_control_core = { 235 888 887 885 883 884 886 889 877 881 879 882 880  }
 		}
 		
-		AAY = { #Forest Horrors
+		AAY = { #Forest Horrors #To be removed?
 			government = tribal_kingdom
 			primary_culture = foresthorrors
 			religion = goblin_pantheon
@@ -599,7 +683,7 @@ country = {
 			own_control_core = { 734 710 709 733 735 }	
 		}
 		
-		AAZ = { #Maountain Dread
+		AAZ = { #Maountain Dread #To be removed?
 			government = tribal_kingdom
 			primary_culture = dreadofthemountains
 			religion = goblin_pantheon
@@ -608,7 +692,7 @@ country = {
 			own_control_core = { 664 660 665 }	
 		}
 		
-		ABA = { #Broken Axes
+		ABA = { #Broken Axes #To be removed?
 			government = tribal_kingdom
 			primary_culture = brokenaxes
 			religion = goblin_pantheon
@@ -617,7 +701,7 @@ country = {
 			own_control_core = { 704 705 736 703 841 702 796 798 797 }	
 		}
 		
-		ABB = { #Banished
+		ABB = { #Banished #To be removed?
 			government = tribal_kingdom
 			primary_culture = banished
 			religion = goblin_pantheon
@@ -626,7 +710,7 @@ country = {
 			own_control_core = { 790 679 683 791 698 793 792 795 794 }	
 		}
 		
-		ABC = { #Muluks Chosen
+		ABC = { #Muluks Chosen #To be removed?
 			government = tribal_kingdom
 			primary_culture = mulukschosen
 			religion = goblin_pantheon
@@ -635,7 +719,7 @@ country = {
 			own_control_core = { 787 784 785 682 786 788 789 }	
 		}
 		
-		ABD = { #Green Menace
+		ABD = { #Green Menace #To be removed?
 			government = tribal_kingdom
 			primary_culture = greenmenace
 			religion = goblin_pantheon
@@ -644,7 +728,7 @@ country = {
 			own_control_core = { 801 782 781 770 769 783 802 803 804 805 }	
 		}
 		
-		ABE = { #Sea Serpents
+		ABE = { #Sea Serpents #To be removed?
 			government = tribal_kingdom
 			primary_culture = seaserpents
 			religion = goblin_pantheon
@@ -655,7 +739,7 @@ country = {
 								 575 576 577 578 574 579 573 }	
 		}
 		
-		ABF = { #Tide Riders
+		ABF = { #Tide Riders #To be removed?
 			government = tribal_kingdom
 			primary_culture = tideriders
 			religion = goblin_pantheon
