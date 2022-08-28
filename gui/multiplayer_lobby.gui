@@ -2027,15 +2027,15 @@ JominiMultiplayerLobby = {
 			resizeparent = yes
 			
 			country_flag = {
-				name = "Ashur"
-				tooltip = "ASHURINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ABP').Self )]"
+				name = "Alinor"
+				tooltip = "AlinorINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AAA').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				visible = "[HasDlc( 'The Punic Wars' )]"
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('ABP').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ABP').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					texture = "[GetCountry('AAA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('AAA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
 					framesize = { 120 120 }
 				}
 				
@@ -2046,23 +2046,23 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('ABP')]"
+					onclick = "[SetLobbyCountryTag('AAA')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
 			}
 			
 			country_flag = {
-				name = "Ashur2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ABP').Self )]"
+				name = "Alinor2"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AAA').Self )]"
 				onmousehierarchyleave = "[ClearHighlightColors]"
 				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
 				enabled = no
 				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
 				blockoverride "flag"
 				{
-					texture = "[GetCountry('ABP').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ABP').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					texture = "[GetCountry('AAA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('AAA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
 					framesize = { 120 120 }
 				}
 				
@@ -2073,276 +2073,12 @@ JominiMultiplayerLobby = {
 				
 				blockoverride "click"
 				{
-					onclick = "[SetLobbyCountryTag('ABP')]"
+					onclick = "[SetLobbyCountryTag('AAA')]"
 					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
 					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
 				}			
 			}
-			
-			country_flag = {
-				name = "Marduk"
-				tooltip = "MARDUKINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ADZ').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ADZ').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ADZ').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ADZ')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Marduk2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('ADZ').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('ADZ').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('ADZ').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('ADZ')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Parsa"
-				tooltip = "PARSAINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PAJ').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PAJ').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PAJ').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PAJ')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Parsa2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('PAJ').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('PAJ').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('PAJ').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('PAJ')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Judah"
-				tooltip = "JUDAHINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('JAA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('JAA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('JAA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('JAA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Judah2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('JAA').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('JAA').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('JAA').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('JAA')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Midas"
-				tooltip = "MIDASINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('HAT').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('HAT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('HAT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('HAT')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Midas2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('HAT').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('HAT').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('HAT').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('HAT')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Siamun"
-				tooltip = "SIAMUNINTRO"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[HasDlc( 'The Punic Wars' )]"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
-			
-			country_flag = {
-				name = "Siamun2"
-				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('EAC').Self )]"
-				onmousehierarchyleave = "[ClearHighlightColors]"
-				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
-				enabled = no
-				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
-				blockoverride "flag"
-				{
-					texture = "[GetCountry('EAC').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
-					frame = "[GetCountry('EAC').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
-					framesize = { 120 120 }
-				}
-				
-				blockoverride "size"
-				{
-					size = { 42 42 }
-				}
-				
-				blockoverride "click"
-				{
-					onclick = "[SetLobbyCountryTag('EAC')]"
-					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
-					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
-				}			
-			}
+			#New suggested countries
 		}
 	}
 	

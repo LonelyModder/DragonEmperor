@@ -453,9 +453,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="tideriders"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -464,7 +464,7 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=6
 	}
 }
 
@@ -472,9 +472,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="tideriders"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
@@ -483,6 +483,6 @@
 	}
 	tribesmen=
 	{
-		amount=2
+		amount=6
 	}
 }

@@ -93,7 +93,13 @@ provinces = { #Any entry must contain a comment with city name.
 	43 = { #Goblins from Chain
 		port_building = 1
 	}
+	575 = { #Eyvea
+		port_building = 1
+	}
 	15 = { #Dogeaters
+		port_building = 1
+	}
+	535 = { #Furthest isle
 		port_building = 1
 	}
 	
@@ -360,7 +366,7 @@ country = {
 			own_control_core = { 755 759 758 756 750 749 757 751 748 747 746 766 767 752 
 								 744 745 743 741 753 742 768 754 771 772 773 774 775 
 								 762 778 780 779 799 807 808 812 813 823 826 
-								 824 825 777 776 765 764 763 761 760 806 }	
+								 824 825 777 776 765 764 763 761 760 806 809 810 811 }	
 		}
 		
 		AAL = { #Shimmerine
@@ -553,76 +559,78 @@ country = {
 			own_control_core = { 235 888 887 885 883 884 886 889 877 881 879 882 880  }
 		}
 		
-		AAY = { #Additional
+		AAY = { #Forest Horrors
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = foresthorrors
 			religion = goblin_pantheon
-			capital = 739
+			capital = 734
 			
-			own_control_core = {  }	
+			own_control_core = { 734 710 709 733 735 }	
 		}
 		
-		AAZ = { #Additional
+		AAZ = { #Maountain Dread
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = dreadofthemountains
 			religion = goblin_pantheon
-			capital = 739
+			capital = 664
 			
-			own_control_core = {  }	
+			own_control_core = { 664 660 665 }	
 		}
 		
-		ABA = { #Additional
+		ABA = { #Broken Axes
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = brokenaxes
 			religion = goblin_pantheon
-			capital = 739
+			capital = 704
 			
-			own_control_core = {  }	
+			own_control_core = { 704 705 736 703 841 702 796 798 797 }	
 		}
 		
-		ABB = { #Additional
+		ABB = { #Banished
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = banished
 			religion = goblin_pantheon
-			capital = 739
+			capital = 790
 			
-			own_control_core = {  }	
+			own_control_core = { 790 679 683 791 698 793 792 795 794 }	
 		}
 		
-		ABC = { #Additional
+		ABC = { #Muluks Chosen
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = mulukschosen
 			religion = goblin_pantheon
-			capital = 739
+			capital = 787
 			
-			own_control_core = {  }	
+			own_control_core = { 787 784 785 682 786 788 789 }	
 		}
 		
-		ABD = { #Additional
+		ABD = { #Green Menace
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = greenmenace
 			religion = goblin_pantheon
-			capital = 739
+			capital = 801
 			
-			own_control_core = {  }	
+			own_control_core = { 801 782 781 770 769 783 802 803 804 805 }	
 		}
 		
-		ABE = { #Additional
+		ABE = { #Sea Serpents
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = seaserpents
 			religion = goblin_pantheon
-			capital = 739
+			capital = 575
 			
-			own_control_core = {  }	
+			own_control_core = { 572 571 570 569 568 567 566 
+								 565 564 561 562 563 560 540 
+								 575 576 577 578 574 579 573 }	
 		}
 		
-		ABF = { #Additional
+		ABF = { #Tide Riders
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = tideriders
 			religion = goblin_pantheon
-			capital = 739
+			capital = 535
 			
-			own_control_core = {  }	
+			own_control_core = { 535 534 }	
 		}
 		
 		ABG = { #Additional

@@ -10,6 +10,9 @@ deity_trinimac = {
 				RELIGION = elven_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
 			common_deity_trigger = {
@@ -42,6 +45,9 @@ deity_syrabane = {
 				RELIGION = elven_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
 			deity:omen_syrabane = {
@@ -69,6 +75,9 @@ deity_jephre = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
 			}
 			common_deity_trigger = {
 				RELIGION = green_pantheon
@@ -103,6 +112,9 @@ deity_xarxes = {
 				RELIGION = elven_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
 			common_deity_trigger = {
@@ -133,6 +145,9 @@ deity_auriel = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
 			}
 			common_deity_trigger = {
 				RELIGION = green_pantheon
@@ -167,6 +182,9 @@ deity_mara = {
 				RELIGION = elven_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
 			common_deity_trigger = {
@@ -197,6 +215,9 @@ deity_magnus = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
 			}
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
@@ -231,6 +252,9 @@ deity_stendarr = {
 				RELIGION = green_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = ayleid_pantheon
 			}
 			deity:omen_stendarr = {
@@ -258,6 +282,9 @@ deity_phynaster = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = oldelven_pantheon
 			}
 			common_deity_trigger = {
 				RELIGION = ayleid_pantheon

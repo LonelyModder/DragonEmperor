@@ -33,14 +33,14 @@
 		duskan = {}
 		shimmerinic = {}
 		lillandrilan = {}
-		cloudrestan = {}
+		cloudrestan = {levy_template = levy_griphonic}
 		firstholdan = {}
 		skywatchan = {}
 		corgradan = {}
 		russafeldan = {}
 		mariduninian = {}
 		rictan = {}
-		havenic = {}
+		havenic = {levy_template = levy_griphonic}
 		psijic = {levy_template = levy_psijic}
 	}
 	

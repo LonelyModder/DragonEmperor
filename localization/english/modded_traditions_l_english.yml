@@ -1,6 +1,6 @@
 ﻿l_english:
  ######
- #####Akkadian
+ #####Altmer
  ######
  altmer_philosophy:1 "Altmer Traditions"
  altmer_philosophydesc:3 "The Altmers are the most highly developed people in Tamriel in the first era. On a sommerset it is easy to find a recruit with magical abilities, which makes them formidable opponents. In addition, their warriors are mounted on mighty gryphons."
@@ -28,4 +28,31 @@
  altmer_path_5b_desc:0 "The high elven navy can boldly face even Orgnum's sea serpents. It would take the strength of all of Tamriel to create an equal force in the seas."
  altmer_path_end_bonus:0 "Defenders of the Isles"
  altmer_path_end_bonus_desc:0 "There are no better mages on Nirna than the high elves, and no better sailors. That was always enough to scare any attacker."
- 
+ ######
+ #####Ayleid
+ ######
+ ayleid_philosophy:1 "Ayleid Traditions"
+ ayleid_philosophydesc:3 ""
+ tradition_unlock_requirement_ayleid:0 "You don't have enough of Ayleids to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ ######
+ #####Nede
+ ######
+ nede_philosophy:1 "Nede Traditions"
+ nede_philosophydesc:3 ""
+ tradition_unlock_requirement_nede:0 "You don't have enough of Nedes to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ ######
+ #####Goblin
+ ######
+ goblin_philosophy:1 "Goblin Traditions"
+ goblin_philosophydesc:3 ""
+ tradition_unlock_requirement_goblin:0 "You don't have enough of Goblins to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ ######
+ #####Bosmer
+ ######
+ bosmer_philosophy:1 "Bosmer Traditions"
+ bosmer_philosophydesc:3 ""
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Bsmer to unlock the tradition or they are not integrated culture. "
+ #Traditions
