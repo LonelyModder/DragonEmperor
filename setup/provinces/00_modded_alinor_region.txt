@@ -235,16 +235,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="havenic"
+	culture="islander"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
-		culture="goblinken"
-		religion="goblin_pantheon"
 	}
 	freemen=
 	{
