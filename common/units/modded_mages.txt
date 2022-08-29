@@ -4,10 +4,6 @@
 
 	levy_tier = advanced
 
-	allow = {
-		trade_good_surplus = { target = horses value > 0 }
-	}
-
 	maneuver = 1
 	movement_speed = 2.5
 	build_time = 45
