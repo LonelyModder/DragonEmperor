@@ -6541,10 +6541,18 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="rictan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	nobles=
+	{
+		amount=1
+	}
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -6553,7 +6561,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=8
 	}
 }
 

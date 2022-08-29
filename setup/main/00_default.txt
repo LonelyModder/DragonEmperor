@@ -90,12 +90,18 @@ provinces = { #Any entry must contain a comment with city name.
 	297 = { #Greenwater Cove
 		port_building = 2
 	}
+	600 = { #Port Dibellum
+		port_building = 2
+	}
 	43 = { #Goblins from Chain
 		port_building = 1
 	}
 	
 	#Pirates
-	
+	43 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	538 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	89 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	27 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	
 	#Buildings
 	
@@ -278,12 +284,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 633 620 632 638 619 618 634 637 639 609 610 617 608 556 
 								 630 640 641 631 636 635 629 628 644 645 627 624 642
@@ -299,7 +305,7 @@ country = {
 			religion = goblin_pantheon
 			capital = 739
 			
-			own_control_core = { 739 740 838 800 839 817 893 892 901 900 840 915 914 918 }	
+			own_control_core = { 739 740 838 800 839 }	
 		}
 		
 		AAC = { #Wormusoel
@@ -315,12 +321,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 27 30 28 29 }	
 		}
@@ -354,12 +360,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 538 539 }	
 		}
@@ -453,12 +459,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 934 952 951 606 959 957 933 962 958 955 956 941
 								 927 928 929 897 896 936 935 932 931 938 937 942
@@ -480,12 +486,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 721 715 722 714 716 717 724 723 725 726 727 728 720 719 718 }	
 		}
@@ -503,12 +509,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 263 265 266 267 268 269 271 279 280 281 282 285
 								 227 228 229 230 231 232 233 234
@@ -533,12 +539,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 388 389 387 386 382 383 392 390 391 385 400 384
 								 376 374 375 395 396 398 397 399
@@ -564,12 +570,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 905 961 906 926 908 907 919 913 920 921 925 924
 								 911 922 923 902 903 912 891 890 }	
@@ -588,12 +594,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 844 851 850 843 842 738 737 
 								 729 730 713 731 712 711 732 }	
@@ -612,12 +618,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 495 494 496 521 520 497 498 519 493 522 523 499
 								 527 524 518 532 528 500 517 516 515 531 465 464
@@ -631,7 +637,7 @@ country = {
 			government = despotic_monarchy
 			primary_culture = rictan
 			religion = elven_pantheon
-			capital = 595
+			capital = 600
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -640,12 +646,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 582 601 605 604 603 602 600 596 597 598 599 }	
 		}
@@ -663,12 +669,12 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
+			#poptype_rights = { 
+			#	{
+			#		culture = goblinken 
+			#		type = slaves
+			#	}
+			#}
 			
 			own_control_core = { 888 887 885 883 884 886 889 877 881 879 882 880  }
 		}

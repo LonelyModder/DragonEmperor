@@ -32,16 +32,46 @@
  #####Ayleid
  ######
  ayleid_philosophy:1 "Ayleid Traditions"
- ayleid_philosophydesc:3 ""
+ ayleid_philosophydesc:3 "The Ayleids, like their sommerset cousins, are gifted magicians. To increase their strength, they were forced to use the demonic armies of the oblivion lords."
  tradition_unlock_requirement_ayleid:0 "You don't have enough of Ayleids to unlock the tradition or they are not integrated culture. "
  #Traditions
+ ayleid_path_1:0 "Battlemages of the Ayleids"
+ ayleid_path_1_desc:0 "In Wild Elven culture, power was the most important thing. Therefore, there have always been battle mages in their forces."
+ ayleid_path_2:0 "Cruel Slave Lords"
+ ayleid_path_2_desc:0 "When the Cyrodilian Elves noticed that the local human tribes were weak, they enslaved them on a massive scale. This helped them raise resources to build their empire."
+ ayleid_path_3a:0 "Ayleid Phalangites"
+ ayleid_path_3a_desc:0 "The phalanx formation that the Alesian soldiers used at first was most likely borrowed from their elven oppressors."
+ ayleid_path_4a:0 "White walls of Cyrodil"
+ ayleid_path_4a_desc:0 "To maintain power over large parts of the country, the Ayleids founded fortified cities at strategically located points."
+ ayleid_path_5a:0 "Niben River"
+ ayleid_path_5a_desc:0 "The Niben River is the largest river on the continent and at the same time the fastest route connecting the largest Elvish cities. Her safety has become a priority."
+ ayleid_path_6a:0 "Western Naval Bases"
+ ayleid_path_6a_desc:0 "Outposts such as Stirk were designed to protect the wild elven lands from the influence of Alinor." 
+ ayleid_path_3c:0 "Elven Light"
+ ayleid_path_3c_desc:0 "According to the legends, the sun and the stars are the gates to Aetherius and the sources of magic in the world. The Ayleids used this phenomenon, for example, in the construction of special wells to increase the power of untrained users."
+ ayleid_path_4c:0 "Magic Stones"
+ ayleid_path_4c_desc:0 "The Ayleids used metorite glass stones to store power, which prevented mana depletion. Some of them could illuminate the entire city."
+ ayleid_path_3b:0 "Demonic Soldiers"
+ ayleid_path_3b_desc:0 "The pact with the demonic forces of the oblivion allowed the use of dremoras to fight in the front lines."
+ ayleid_path_4b:0 "Questionable practices"
+ ayleid_path_4b_desc:0 "In exchange for human sacrifices, the dark gods sent more powerful warriors like atronachs and other more monstrous demons."
+ ayleid_path_end_bonus:0 "All that is necessary"
+ ayleid_path_end_bonus_desc:0 "It is difficult to unequivocally judge the measures taken by the Ayleids. You have to take into account that there are more humans and they reproduce faster so it is difficult to keep them in check other than by force."
  ######
  #####Nede
  ######
  nede_philosophy:1 "Nede Traditions"
- nede_philosophydesc:3 ""
+ nede_philosophydesc:3 "The people of Nede were the ancestors of the later imperials, and it was from their tribal warriors that the later legions of the empire evolved."
  tradition_unlock_requirement_nede:0 "You don't have enough of Nedes to unlock the tradition or they are not integrated culture. "
  #Traditions
+ nede_path_1:0 "Tribal Wariors"
+ nede_path_1_desc:0 "Neditic warriors may not have had the training of elves, but they had more war experience than the constant tribal feuds."
+ nede_path_2:0 "Pelinal's Soldiers"
+ nede_path_2_desc:0 "Pelinal's companions are described as hoplites. It is unknown who taught them the phalanx tactics, but there are indications that they took it by watching the Ayleids."
+ nede_path_3a:0 "Cultural Change"
+ nede_path_3a_desc:0 "With time, there was a change in the imperial army, and instead of spearmen, they began to use swords and shields as we know well from later eras. Through the forested area of Cyrodil, a new tactic has also been devised to counter the phalanx formation."
+ nede_path_4a:0 "Legionary Cavalry"
+ nede_path_4a_desc:0 "Cavalry troops became necessary to protect the flanks of the slow legionnaires. The imperial commanders therefore focused on well-trained troops to provide support."
  ######
  #####Goblin
  ######
