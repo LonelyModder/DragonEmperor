@@ -979,10 +979,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="firstholdan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -991,7 +995,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -2264,10 +2268,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="skywatchan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -2276,7 +2284,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -3347,10 +3355,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="skywatchan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -3359,7 +3371,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -3431,10 +3443,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="skywatchan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -3443,7 +3459,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -3578,10 +3594,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="mariduninian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -3590,7 +3610,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -3788,10 +3808,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="mariduninian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -3800,7 +3824,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
@@ -4376,10 +4400,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="mariduninian"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=3
+	}
 	slaves=
 	{
 		amount=1
@@ -4388,7 +4416,7 @@
 	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 

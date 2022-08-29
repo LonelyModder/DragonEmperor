@@ -62,13 +62,13 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="dogeater"
-	province_rank="city"
+	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=2
+		amount=1
 	}
 	tribesmen=
 	{
@@ -81,7 +81,7 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="dogeater"
-	province_rank="city"
+	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="hills"
 	trade_goods="spices"
@@ -275,17 +275,13 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="caspari"
-	province_rank="city"
+	province_rank="settlement"
 	religion="nedic_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	citizen=
-	{
-		amount=1
-	}
 	slaves=
 	{
-		amount=3
+		amount=1
 	}
 	tribesmen=
 	{

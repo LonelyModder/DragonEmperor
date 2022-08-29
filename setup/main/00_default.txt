@@ -87,19 +87,10 @@ provinces = { #Any entry must contain a comment with city name.
 	89 = { #Herne
 		port_building = 1
 	}
-	82 = { #Caspar
-		port_building = 1
+	297 = { #Greenwater Cove
+		port_building = 2
 	}
 	43 = { #Goblins from Chain
-		port_building = 1
-	}
-	575 = { #Eyvea
-		port_building = 1
-	}
-	15 = { #Dogeaters
-		port_building = 1
-	}
-	535 = { #Furthest isle
 		port_building = 1
 	}
 	
@@ -156,6 +147,32 @@ road_network = {
 	#Cyrod
 	27=30
 	#Alinor
+	667=670
+	670=672
+	672=673
+	673=676
+	676=675
+	675=677
+	677=680
+	680=741
+	741=743
+	743=744
+	744=746
+	746=747
+	747=749
+	778=780
+	780=807
+	807=812
+	812=810
+	810=824
+	824=825
+	825=828
+	749=750
+	750=755
+	755=759
+	759=762
+	762=775
+	775=778
 	876=879
 	879=881
 	881=883
@@ -356,15 +373,6 @@ country = {
 			own_control_core = { 85 86 87 88 89 90 }	
 		}
 		
-		AAG = { #Caspar #To be removed?
-			government = tribal_kingdom
-			primary_culture = caspari
-			religion = nedic_pantheon
-			capital = 82
-			
-			own_control_core = { 80 81 82 83 84 }	
-		}
-		
 		AAH = { #Chained
 			government = tribal_kingdom
 			primary_culture = chained
@@ -372,15 +380,6 @@ country = {
 			capital = 42
 			
 			own_control_core = { 42 43 44 45 46 }	
-		}
-		
-		AAI = { #Dogeater #To be removed?
-			government = tribal_kingdom
-			primary_culture = dogeater
-			religion = goblin_pantheon
-			capital = 16
-			
-			own_control_core = { 12 13 14 15 16 17 18 }	
 		}
 		
 		AAJ = { #Sunhold
@@ -672,80 +671,6 @@ country = {
 			}
 			
 			own_control_core = { 235 888 887 885 883 884 886 889 877 881 879 882 880  }
-		}
-		
-		AAY = { #Forest Horrors #To be removed?
-			government = tribal_kingdom
-			primary_culture = foresthorrors
-			religion = goblin_pantheon
-			capital = 734
-			
-			own_control_core = { 734 710 709 733 735 }	
-		}
-		
-		AAZ = { #Maountain Dread #To be removed?
-			government = tribal_kingdom
-			primary_culture = dreadofthemountains
-			religion = goblin_pantheon
-			capital = 664
-			
-			own_control_core = { 664 660 665 }	
-		}
-		
-		ABA = { #Broken Axes #To be removed?
-			government = tribal_kingdom
-			primary_culture = brokenaxes
-			religion = goblin_pantheon
-			capital = 704
-			
-			own_control_core = { 704 705 736 703 841 702 796 798 797 }	
-		}
-		
-		ABB = { #Banished #To be removed?
-			government = tribal_kingdom
-			primary_culture = banished
-			religion = goblin_pantheon
-			capital = 790
-			
-			own_control_core = { 790 679 683 791 698 793 792 795 794 }	
-		}
-		
-		ABC = { #Muluks Chosen #To be removed?
-			government = tribal_kingdom
-			primary_culture = mulukschosen
-			religion = goblin_pantheon
-			capital = 787
-			
-			own_control_core = { 787 784 785 682 786 788 789 }	
-		}
-		
-		ABD = { #Green Menace #To be removed?
-			government = tribal_kingdom
-			primary_culture = greenmenace
-			religion = goblin_pantheon
-			capital = 801
-			
-			own_control_core = { 801 782 781 770 769 783 802 803 804 805 }	
-		}
-		
-		ABE = { #Sea Serpents #To be removed?
-			government = tribal_kingdom
-			primary_culture = seaserpents
-			religion = goblin_pantheon
-			capital = 575
-			
-			own_control_core = { 572 571 570 569 568 567 566 
-								 565 564 561 562 563 560 540 
-								 575 576 577 578 574 579 573 }	
-		}
-		
-		ABF = { #Tide Riders #To be removed?
-			government = tribal_kingdom
-			primary_culture = tideriders
-			religion = goblin_pantheon
-			capital = 535
-			
-			own_control_core = { 535 534 }	
 		}
 		
 	}
