@@ -15,7 +15,10 @@ oldelven_pantheon = { # Psijic Faith
 		research_points_modifier = 0.5
 		global_pop_conversion_speed_modifier = -0.5
 	}
-	religion_category = pantheon
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
 
 nedic_pantheon = { # Nedic Faith

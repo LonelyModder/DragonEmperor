@@ -73,7 +73,8 @@
 	
 	goblin_path_2b = { ###goblin path
 		modifier = { 
-			modded_archers_cost = -0.15
+			modded_archers_offensive = 0.05
+			modded_archers_defensive = 0.05
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}
