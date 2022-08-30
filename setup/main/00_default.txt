@@ -18,7 +18,10 @@ family={
 		}
 }
 diplomacy = {
-	
+	dependency = { first = AAB second = AAN subject_type = tributary }
+	dependency = { first = AAB second = AAW subject_type = tributary }
+	#guarantee = { first = AAD second = AAA }
+	#guarantee = { first = AAD second = AAT }
 }
 
 provinces = { #Any entry must contain a comment with city name.

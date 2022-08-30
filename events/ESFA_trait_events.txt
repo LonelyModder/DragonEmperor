@@ -1,0 +1,59 @@
+﻿namespace = esfa_traits
+
+#Trait inheritance events
+esfa_traits.1 = {		
+	type = character_event
+	title = "esfa_blood.1.t"
+	desc = "esfa_blood.1.desc"
+	#picture = dunedain_patrol
+	hidden = yes
+
+	trigger = {
+		always = yes
+	}
+
+	immediate = {
+		scope:newborn = {
+			save_scope_as = newborn
+		}
+	}
+		
+	option = {
+		name = "OK"
+		scope:newborn = {
+			#blood of numenor traits
+			if = {
+				limit = {
+					mother = { has_trait = altmer }
+				}
+				add_trait = altmer
+			}	
+			else_if = { 
+				limit = {
+					mother = { has_trait = bosmer }
+				}
+				add_trait = bosmer
+			}	
+			else_if = { 
+				limit = {
+					mother = { has_trait = nede }
+				}
+				add_trait = nede
+			}
+			else_if = { 
+				limit = {
+					mother = { has_trait = goblin }
+				}
+				add_trait = goblin
+			}
+			else_if = { 
+				limit = {
+					mother = { has_trait = ayleid }
+				}
+				add_trait = ayleid
+			}
+		}
+	}					
+}
+		
+		

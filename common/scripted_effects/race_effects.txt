@@ -1,0 +1,32 @@
+﻿ESFA_on_create_character_effect = {
+	if = {
+		limit = {
+			has_culture_group = altmer
+		}
+		add_trait = altmer
+	}
+	else_if = {
+		limit = {
+			has_culture_group = bosmer
+		}
+		add_trait = bosmer
+	}
+	else_if = {
+		limit = {
+			has_culture_group = ayleid
+		}
+		add_trait = ayleid
+	}
+	else_if = {
+		limit = {
+			has_culture_group = goblin
+		}
+		add_trait = goblin
+	}
+	else_if = {
+		limit = {
+			has_culture_group = nede
+		}
+		add_trait = nede
+	}
+}

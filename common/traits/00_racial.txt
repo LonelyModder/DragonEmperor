@@ -1,0 +1,46 @@
+﻿altmer = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	charisma = 1
+	finesse = 1
+	zeal = 2
+	
+}
+
+nede = {
+	type = status
+	charisma = 2
+	zeal = 1
+	martial = 1
+}
+
+goblin = {
+	type = status
+	charisma = 1
+	zeal = 1
+	martial = 2
+}
+
+ayleid = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	charisma = 1
+	finesse = 2
+	martial = 1
+	
+}
+
+bosmer = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	charisma = 2
+	martial = 1
+	zeal = 1
+	
+}

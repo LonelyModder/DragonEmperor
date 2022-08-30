@@ -3,6 +3,7 @@
 on_game_initialized = {
 
 	events = {
+		race_startup.1 
 		#Startup info
 		#ia_startup.1
 		#ia_startup.2

@@ -1,0 +1,19 @@
+﻿namespace = race_startup
+
+race_startup.1 = { 
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+		every_character = {
+			ESFA_on_create_character_effect = yes
+		}
+	}
+
+}
+

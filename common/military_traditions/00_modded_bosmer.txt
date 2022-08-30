@@ -63,6 +63,7 @@
 	
 	bosmer_path_4a = { ###bosmer path
 		modifier = { 
+			modded_archers_offensive = 0.1
 			modded_archers_discipline = 0.1
 		}
 		icon = greek_states_path_7
@@ -71,7 +72,7 @@
 	
 	bosmer_path_5a = { ###bosmer path
 		modifier = { 
-			modded_beasts_defensive = 0.1
+			army_movement_speed = 0.2
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_4a}
@@ -80,6 +81,7 @@
 	bosmer_path_6a = { ###bosmer path
 		modifier = { 
 			modded_beasts_discipline = 0.1
+			modded_beasts_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_5a}

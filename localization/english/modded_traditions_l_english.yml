@@ -90,7 +90,7 @@
  #####Goblin
  ######
  goblin_philosophy:1 "Goblin Traditions"
- goblin_philosophydesc:3 ""
+ goblin_philosophydesc:3 "Goblin troops do not use fancy formations or standardized equipment. But they make up for it with exceptional ingenuity."
  tradition_unlock_requirement_goblin:0 "You don't have enough of Goblins to unlock the tradition or they are not integrated culture. "
  #Traditions
  goblin_path_1:0 "Entrepreneurship of the Goblins"
@@ -110,15 +110,38 @@
  goblin_path_5b:0 "Disciplined Army"
  goblin_path_5b_desc:0 "It may come as a surprise, but goblins were often used in the Elvish military. Their small size is caused by lack of food and difficult living conditions. In case of favorable circumstances, it can be bigger and stronger than a orc."
  goblin_path_2c:0 "Beasts of War"
- goblin_path_2c_desc:0 ""
+ goblin_path_2c_desc:0 "Goblins use a wide variety of creatures to defend their villages, from giant worms to spiders to hounds."
  goblin_path_2c:0 "War Hounds"
- goblin_path_2c_desc:0 ""
+ goblin_path_2c_desc:0 "Goblin Durzogs are great hound-like beasts capable of tearing off an arm with a snap of their jaws. Additionally, they are usually dressed in heavy armor, which, thanks to the muscles, does not limit their speed at all."
  goblin_path_end_bonus:0 "Goblin Wariors"
- goblin_path_end_bonus_desc:0 ""
+ goblin_path_end_bonus_desc:0 "Goblins are known to use many tricks to level the playing field on the battlefield. They adhere to the principle that survival is more important than honor."
  ######
  #####Bosmer
  ######
  bosmer_philosophy:1 "Bosmer Traditions"
- bosmer_philosophydesc:3 ""
- tradition_unlock_requirement_bosmer:0 "You don't have enough of Bsmer to unlock the tradition or they are not integrated culture. "
+ bosmer_philosophydesc:3 "The Wood Elves are the best archers Nirn has ever carried, and their warlike nature makes them excellent warriors. They might not be able to fight the enemy in open battle, but nobody says that they would fight in the field."
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Bosmer to unlock the tradition or they are not integrated culture. "
  #Traditions
+ bosmer_path_1:0 "Wood Elf Archers"
+ bosmer_path_1_desc:0 "The Bosmers are credited with inventing the bow. Rightly or not, each of them learns to shoot from birth, which makes them dangerous in ranged combat."
+ bosmer_path_2:0 "Hand for Animals"
+ bosmer_path_2_desc:0 "Bosmer people have a natural gift for controlling animals. Due to religious beliefs, they try not to abuse it, but the attacked ones can turn all the surrounding animals against the attacker."
+ bosmer_path_3:0 "Wood Elves"
+ bosmer_path_3_desc:0 "As the name suggests, the forest is the home of the Wood Elves and they can use the thicket for quick and devastating stealth attacks."
+ bosmer_path_4a:0 "Volley Fire"
+ bosmer_path_4a_desc:0 "Fire at the opponent with a salvo is much more impressive than single fire, and by adding the abilities of forest elves, we get an electrifying effect."
+ bosmer_path_5a:0 "Light Equipment"
+ bosmer_path_5a_desc:0 "Wood elven troops do not need heavy armor and large equipment, so they can move really fast."
+ bosmer_path_6a:0 "Beasts of War"
+ bosmer_path_6a_desc:0 "Additional training gives more coordination between archer formations and bitter beasts, and if they get armor, the opponent will have a real problem."
+ bosmer_path_4b:0 "Hostile Nature"
+ bosmer_path_4b_desc:0 "The enemy attacking Valenwood feels as if nature itself is against him. Bosmer tactics mean that each meter costs many soldiers."
+ bosmer_path_5b:0 "Houses in the Trees"
+ bosmer_path_5b_desc:0 "Maybe the Wood Elves aren't allowed to cut down trees, but that doesn't mean they can't be shaped. They also provide a larger field of view, and less experienced enemy soldiers rarely look up."
+ bosmer_path_4c:0 "Leadership"
+ bosmer_path_4c_desc:0 "Due to the independent nature of this people, leadership requires great talent and a lot of patience."
+ bosmer_path_5c:0 "Great Unifiers"
+ bosmer_path_5c_desc:0 "To unite the Valenwood Camorans, they had to force the independent clans into submission and the three living gods to work together. This feat gained them great fame and recognition all over the world."
+ bosmer_path_end_bonus:0 "Archers from Great Forest"
+ bosmer_path_end_bonus_desc:0 "It may not be apparent from their appearance, but Bosmer are one of the most terrible enemies on Tamriel and each opponent thinks twice before attacking."
+ 

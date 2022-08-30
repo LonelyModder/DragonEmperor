@@ -1438,6 +1438,7 @@ on_giving_birth = {
 	}
 	events = {
 		character_events.5
+		esfa_traits.1
 	}
 	random_events = {
 		1 = health.1
