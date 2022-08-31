@@ -195,8 +195,8 @@ NPop = {
 	UNREST_GENERATION = 0.5
 	UNREST_SCALE = 20 #Basically UNREST_GENERATION * UNREST_SCALE..
 	
-	MIGRATE_MINIMUM = 3
-	MIGRATE_MAXMIMUM = 20
+	MIGRATE_MINIMUM = 1 #3 Modded
+	MIGRATE_MAXMIMUM = 5 #20
 	
 	DEATH_BEFORE_SLAVERY = 0.33
 	
@@ -959,9 +959,9 @@ NAI = {
 	ASSIGN_OFFICE_SCORNED_WEIGHT = 4.0 # Multiplicative: How much more important is it to fill an office position with a scorned character? The inverse is also true.
 	ASSIGN_UNIT_SCORNED_WEIGHT = 2.0 # Multiplicative: How much more important is it to fill a general position with a scorned character?
 	
-	#Migration:
-	MIGRATION_TARGET_RANDOMNESS = 10 #Larger means there's more randomness in where AI decides to migrate as opposed to calculated "best" culture provinces.
-	MIGRATION_TARGET_DISTANCE_OFFSET = 28 #Larger => distance becomes relatively less important. Should be more than zero as it's used for a divisor of the form MIGRATION_TARGET_DISTANCE_OFFSET + distance.
+	#Migration: Modded
+	MIGRATION_TARGET_RANDOMNESS = 40 #10 #Larger means there's more randomness in where AI decides to migrate as opposed to calculated "best" culture provinces.
+	MIGRATION_TARGET_DISTANCE_OFFSET = 10 #28 #Larger => distance becomes relatively less important. Should be more than zero as it's used for a divisor of the form MIGRATION_TARGET_DISTANCE_OFFSET + distance.
 
 	#Religion:
 	PANTHEON_HOLY_SITE_WEIGHT = 0.5 #Additive Value: Additional Weight for selecting a deity with a Holy Site within our borders
