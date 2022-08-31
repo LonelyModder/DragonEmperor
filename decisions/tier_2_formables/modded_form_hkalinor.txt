@@ -1,0 +1,114 @@
+﻿country_decisions = {
+	
+	# Form High Kingdom of Alinor
+	form_hkalinor = {
+		
+		potential = {
+			country_culture_group = Altmer
+			#is_tribal = yes
+			NOT = {
+				tag = XAL
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 633
+					province_id = 666
+					province_id = 755
+					province_id = 837
+					province_id = 947
+					province_id = 725
+					province_id = 263
+					province_id = 420
+					province_id = 905
+					province_id = 844
+					province_id = 495
+					province_id = 600
+					province_id = 883
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hkalinor_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XAL
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 633
+			owns = 666
+			owns = 755
+			owns = 837
+			owns = 947
+			owns = 725
+			owns = 263
+			owns = 420
+			owns = 905
+			owns = 844
+			owns = 495
+			owns = 600
+			owns = 883
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "HKAlinor_name"
+			change_country_flag = hk_alinor
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "HKAlinor_adj"
+				change_country_color =  "HKAlinor_color"
+				change_country_tag = XAL
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 633
+						}
+					}
+				}
+				set_capital = 633
+				hidden_effect = {
+					p:633.state = {
+						set_state_capital = 633
+					}
+				}
+			}
+			#p:633 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:633 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
