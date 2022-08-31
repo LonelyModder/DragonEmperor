@@ -36,18 +36,7 @@ PIR = {
 	}
 }
 
-#Modded Emblems
-
-hk_alinor = { #High Kingdom of Alinor
-	pattern = "pattern_solid.tga"
-	color1 = rgb { 232 121 9 }
-	color2 = rgb { 232 121 9 }
-
-	colored_emblem = {
-		texture = "ce_alinor.dds"
-		color1 = "offwhite"
-	}
-}
+#Modded Emblems fo starting countries
 
 AAA = { #Alinor
 	pattern = "pattern_solid.tga"
@@ -68,5 +57,55 @@ AAJ = { #Sunhold
 	colored_emblem = {
 		texture = "ce_sunhold.dds"
 		color1 = rgb { 217 187 15 }
+	}
+}
+
+AAM = { #Lillandril
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 234 115 }
+	color2 = rgb { 255 234 115 }
+
+	colored_emblem = {
+		texture = "ce_lillandril.dds"
+		color1 = rgb { 245 245 91 }
+		color2 = rgb { 94 94 93 }
+	}
+}
+
+AAN = { #Cloudrest
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 94 94 94 }
+	color2 = rgb { 94 94 94 }
+
+	colored_emblem = {
+		texture = "ce_cloudrest.dds"
+		color1 = rgb { 0 0 0 }
+		color2 = rgb { 252 252 104 }
+	}
+}
+
+AAL = { #Shimmerine
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 119 206 237 }
+	color2 = rgb { 119 206 237 }
+
+	colored_emblem = {
+		texture = "ce_shimmerine.dds"
+		color1 = rgb { 42 25 115 }
+		color2 = rgb { 0 0 0 }
+		color3 = rgb { 119 206 237 }
+	}
+}
+
+# Modded emblems for formables
+
+hk_alinor = { #High Kingdom of Alinor
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 232 121 9 }
+	color2 = rgb { 232 121 9 }
+
+	colored_emblem = {
+		texture = "ce_alinor.dds"
+		color1 = "offwhite"
 	}
 }
