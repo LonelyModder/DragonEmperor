@@ -1236,38 +1236,68 @@ entity = {
 ##############
 
 entity = {
-	name = "greek_gfx_archers"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_archers"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_camels"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_camels"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_chariots"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_mages"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_heavy_cavalry"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_cavalry"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_horse_archers"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_horse_archers"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_light_cavalry"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_camels"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "greek_gfx_warelephant"
-	clone = "greek_gfx_light_infantry"
+	name = "greek_gfx_modded_griphons"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_spearmen"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_swordsmen"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_axemen"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_deadra"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_beasts"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "greek_gfx_modded_undead"
+	clone = "greek_gfx_heavy_infantry"
 }
 
 
@@ -1277,34 +1307,34 @@ entity = {
 ##############
 # Do one for each unit type
 
-### Archers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_archers"
+	name = "greek_gfx_levy_modded_archers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_archers"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_archers"
+	clone = "greek_levies_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_camels"
+	name = "greek_gfx_levy_modded_camels"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_camels"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_camels"
+	clone = "greek_levies_infantry"
 }
 
-### Chariots ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_chariots"
+	name = "greek_gfx_levy_modded_mages"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_chariots"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_mages"
+	clone = "greek_levies_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
@@ -1314,57 +1344,47 @@ entity ={
 }
 entity ={
 	name = "greek_gfx_legion_engineer_cohort"
-	clone = "greek_gfx_heavy_infantry"
+	clone = "greek_levies_infantry"
 }
 
-### Heavy Cavalry ----------------------------------------------------------------
+### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_heavy_cavalry"
+	name = "greek_gfx_levy_modded_cavalry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_heavy_cavalry"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_cavalry"
+	clone = "greek_levies_infantry"
 }
 
-### Heavy Infantry ----------------------------------------------------------------
+### Swordsmen ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_heavy_infantry"
+	name = "greek_gfx_levy_modded_swordsmen"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_heavy_infantry"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_swordsmen"
+	clone = "greek_levies_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_horse_archers"
+	name = "greek_gfx_levy_modded_horse_archers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_horse_archers"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_horse_archers"
+	clone = "greek_levies_infantry"
 }
 
-### Light Cavalry ----------------------------------------------------------------
+### Spearmen ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_light_cavalry"
+	name = "greek_gfx_levy_modded_spearmen"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_light_cavalry"
-	clone = "greek_gfx_heavy_infantry"
-}
-
-### Light Infantry ----------------------------------------------------------------
-entity ={
-	name = "greek_gfx_levy_light_infantry"
+	name = "greek_gfx_legion_modded_spearmen"
 	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "greek_gfx_legion_light_infantry"
-	clone = "greek_gfx_heavy_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
@@ -1374,15 +1394,55 @@ entity ={
 }
 entity ={
 	name = "greek_gfx_legion_supply_train"
-	clone = "greek_gfx_heavy_infantry"
+	clone = "greek_levies_infantry"
 }
 
-### War Elephant ----------------------------------------------------------------
+### Griphons ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_warelephant"
+	name = "greek_gfx_levy_modded_griphons"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_warelephant"
-	clone = "greek_gfx_heavy_infantry"
+	name = "greek_gfx_legion_modded_griphons"
+	clone = "greek_levies_infantry"
+}
+
+### Axemen ----------------------------------------------------------------
+entity ={
+	name = "greek_gfx_levy_modded_axemen"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "greek_gfx_legion_modded_axemen"
+	clone = "greek_levies_infantry"
+}
+
+### Deadra ----------------------------------------------------------------
+entity ={
+	name = "greek_gfx_levy_modded_deadra"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "greek_gfx_legion_modded_deadra"
+	clone = "greek_levies_infantry"
+}
+
+### Beasts ----------------------------------------------------------------
+entity ={
+	name = "greek_gfx_levy_modded_beasts"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "greek_gfx_legion_modded_beasts"
+	clone = "greek_levies_infantry"
+}
+
+### Undead ----------------------------------------------------------------
+entity ={
+	name = "greek_gfx_levy_modded_undead"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "greek_gfx_legion_modded_undead"
+	clone = "greek_levies_infantry"
 }

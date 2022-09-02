@@ -41,7 +41,7 @@ deity_sargeld = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
 			}
-			deity:omen_syrabane = {
+			deity:omen_sargeld = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
@@ -69,7 +69,7 @@ deity_anuion = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
 			}
-			deity:omen_auriel = {
+			deity:omen_anuion = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

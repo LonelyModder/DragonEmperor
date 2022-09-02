@@ -291,11 +291,11 @@ colored_emblem_texture_lists = {
 			10 = "ce_numidian_04.dds"
 		}
 		
-		special_selection = {
-			trigger = {
-				religion = "judahic"
-			}
-			40 = "ce_judea_symbol.dds"
-		}
+		#special_selection = {
+		#	trigger = {
+		#		religion = "judahic"
+		#	}
+		#	40 = "ce_judea_symbol.dds"
+		#}
 	}
 }
