@@ -17,3 +17,51 @@ esfa_startup.1 = { #Sommerset Isles
         name = esfa_startup.1.a
     }
 }
+
+esfa_startup.2 = { #Vollenfel
+    type = country_event
+    title = esfa_startup.2.t
+    desc = esfa_startup.2.desc
+    picture = welcoming_window_4
+	
+    trigger = {
+    	OR = {
+			primary_culture = hernan
+			primary_culture = chained
+		}
+    }
+
+    option = {    
+        name = esfa_startup.2.a
+    }
+}
+
+esfa_startup.3 = { #Vallenwood
+    type = country_event
+    title = esfa_startup.3.t
+    desc = esfa_startup.3.desc
+    picture = welcoming_window_3
+	
+    trigger = {
+		country_culture_group = bosmer
+    }
+
+    option = {    
+        name = esfa_startup.3.a
+    }
+}
+
+esfa_startup.4 = { #Stirk
+    type = country_event
+    title = esfa_startup.4.t
+    desc = esfa_startup.4.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	primary_culture = stirkan
+    }
+
+    option = {    
+        name = esfa_startup.4.a
+    }
+}

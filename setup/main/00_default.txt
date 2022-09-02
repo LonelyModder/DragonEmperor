@@ -20,7 +20,7 @@ family={
 diplomacy = {
 	dependency = { first = AAB second = AAN subject_type = tributary }
 	dependency = { first = AAB second = AAW subject_type = tributary }
-	#guarantee = { first = AAD second = AAA }
+	alliance = { first = AAD second = AAT }
 	#guarantee = { first = AAD second = AAT }
 }
 
