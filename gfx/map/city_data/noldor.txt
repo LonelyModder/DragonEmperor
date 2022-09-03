@@ -19,7 +19,7 @@ Noldor = {
 		rotation_variation = 0		# A big variation will be added after the step. i.e final rotation is step_rotation +- variation
 		meshes = {
 			"highelves_01_01_mesh"
-			"highelves_01_02_mesh"
+			#"highelves_01_02_mesh"
 		}
 	}
 	tier = {
