@@ -221,6 +221,7 @@
 	{
 		amount=10
 	}
+	holy_site="omen_magnus"
 }
 
 264=
@@ -3608,15 +3609,19 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="skywatchan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
+	citizen=
+	{
+		amount=5
+	}
 	freemen=
 	{
 		amount=4
 	}
+	holy_site="omen_auriel"
 }
 
 502=
@@ -5059,6 +5064,7 @@
 	{
 		amount=6
 	}
+	holy_site="omen_moawita"
 }
 
 593=
@@ -5112,6 +5118,7 @@
 	{
 		amount=10
 	}
+	holy_site="omen_vigyld"
 }
 
 596=
@@ -5756,6 +5763,7 @@
 		amount=5
 		
 	}
+	holy_site="omen_phynaster"
 }
 
 634=
@@ -7869,6 +7877,7 @@
 	{
 		amount=12
 	}
+	holy_site="omen_trinimac"
 }
 
 756=
@@ -9414,6 +9423,7 @@
 	{
 		amount=8
 	}
+	holy_site="omen_jephre"
 }
 
 845=
@@ -10768,6 +10778,7 @@
 	{
 		amount=6
 	}
+	holy_site="omen_xarxes"
 }
 
 924=
