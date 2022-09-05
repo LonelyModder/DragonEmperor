@@ -63,6 +63,15 @@ texticon = {
     }   
 }
 texticon = {
+    icon = modded_undead
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/modded_undead.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }   
+}
+texticon = {
     icon = modded_griphons
     iconsize = {
         texture = "gfx/interface/icons/subunits/modded_griphons.dds"
