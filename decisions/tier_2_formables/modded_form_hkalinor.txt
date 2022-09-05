@@ -45,19 +45,19 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns = 633
-			owns = 666
-			owns = 755
-			owns = 837
-			owns = 947
-			owns = 725
-			owns = 263
-			owns = 420
-			owns = 905
-			owns = 844
-			owns = 495
-			owns = 600
-			owns = 883
+			owns_or_subject_owns = 633
+			owns_or_subject_owns = 666
+			owns_or_subject_owns = 755
+			owns_or_subject_owns = 837
+			owns_or_subject_owns = 947
+			owns_or_subject_owns = 725
+			owns_or_subject_owns = 263
+			owns_or_subject_owns = 420
+			owns_or_subject_owns = 905
+			owns_or_subject_owns = 844
+			owns_or_subject_owns = 495
+			owns_or_subject_owns = 600
+			owns_or_subject_owns = 883
 		}
 		
 		effect = {
