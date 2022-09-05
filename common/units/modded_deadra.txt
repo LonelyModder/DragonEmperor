@@ -3,11 +3,31 @@
 	army = yes
 	assault = yes
 	
-	levy_tier = basic	
+	levy_tier = advanced	
+	
+	allow = {
+		owner = {
+			OR = {
+				AND = {
+					has_deity_in_pantheon = deity:omen_molagbal
+					deity:omen_molagbal = { has_holy_site = yes }
+				}
+				AND = {
+					has_deity_in_pantheon = deity:omen_mechrunesdagon
+					deity:omen_mechrunesdagon = { has_holy_site = yes }
+				}
+				AND = {
+					has_deity_in_pantheon = deity:omen_meridia
+					deity:omen_meridia = { has_holy_site = yes }
+				}
+			}
+		}
+	}
 	
 	maneuver = 1
 	movement_speed = 2.5
 	build_time = 30
+	legions = no
 
 	modded_axemen = 1.2
 	modded_archers = 1.1
@@ -26,12 +46,14 @@
 	attrition_weight = 0.5
 	attrition_loss = 0.025
 	
-	food_consumption = 0.10
-	food_storage = 2.4
+	food_consumption = 0.0
+	food_storage = 0.0
+	
+	morale_damage_taken = 0.5
 	
 	morale_damage_taken = 0.7
 	build_cost = {
-		gold = 8
-		manpower = 1
+		gold = 3
+		manpower = 0
 	}
 }

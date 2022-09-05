@@ -1,4 +1,5 @@
 ﻿modded_horse_archers = {
+	default = yes
 	army = yes
 	is_flank = yes
 
@@ -11,6 +12,7 @@
 	maneuver = 5
 	movement_speed = 4
 	build_time = 60
+	legions = no
 	
 	modded_axemen = 1.2
 	modded_archers = 0.8

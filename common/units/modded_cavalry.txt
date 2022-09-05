@@ -1,16 +1,18 @@
 ﻿modded_cavalry = {
+	default = yes
 	army = yes
 	is_flank = yes
 
 	levy_tier = basic
 
 	allow = {
-		trade_good_surplus = { target = steppe_horses value > 0 }
+		trade_good_surplus = { target = horses value > 0 }
 	}
 
 	maneuver = 3
 	movement_speed = 4
 	build_time = 45
+	legions = no
 	
 	modded_axemen = 1.2
 	modded_archers = 1.3

@@ -5,9 +5,17 @@
 	
 	levy_tier = basic	
 	
+	allow = {
+		OR = {
+			trade_good_surplus = { target = iron value > 0 }
+			trade_good_surplus = { target = ebon value > 0 }
+		}
+	}
+	
 	maneuver = 1
 	movement_speed = 2.5
 	build_time = 30
+	legions = no
 
 	modded_axemen = 1.1
 	modded_archers = 0.8

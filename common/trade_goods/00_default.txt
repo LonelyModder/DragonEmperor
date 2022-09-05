@@ -34,68 +34,85 @@ salt = { #177 territories
 iron = { #119 territories
 	category = 0
 	
+	allow_unit_type = modded_swordsmen
+	allow_unit_type = modded_axemen
 	gold = 0.3
 	
 	province = {
 		local_tax_modifier = 0.02
 	}
 	country = {
-		global_freemen_output = 0.04
-		global_slaves_output = 0.04
+		modded_swordsmen_defensive = 0.1
+		modded_axemen_defensive = 0.1
 	}
 
 	color = hsv { 0.0 0.0 0.11 }
 }
 
-tin = { #199 territories
+ebon = { #199 territories
 	category = 0
-	
+	allow_unit_type = modded_swordsmen
+	allow_unit_type = modded_axemen
 	gold = 0.5
 	
 	province = {
 		local_tax_modifier = 0.05
 	}
 	country = {
-		global_freemen_output = 0.02
-		global_slaves_output = 0.02
+		modded_swordsmen_offensive = 0.05
+		modded_axemen_offensive = 0.05
 	} 
 	
-	color = hsv { 0.0 0.0 0.0 }
+	color = hsv { 0.76 0.83 0.39 }
 }
 
-base_metals = { #199 territories #copper
+moonstone = { #199 territories #copper
 	category = 0
 
-	gold = 0.25
+	gold = 0.2
 	
 	province = {
-		local_freemen_happyness = happiness_small_svalue
+		local_tax_modifier = 0.02
 	}
 	country = {
-		global_freemen_output = 0.01
-		global_slaves_output = 0.01
+		modded_swordsmen_offensive = 0.05
+		modded_axemen_offensive = 0.05
 	} 
 	
-	color = hsv { 0.0 0.0 0.3 }
+	color = hsv { 0.18 0.44 0.66 }
+}
+
+malachite = { #199 territories #copper
+	category = 0
+
+	gold = 0.2
+	
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		modded_swordsmen_offensive = 0.05
+		modded_axemen_offensive = 0.05
+	} 
+	
+	color = hsv { 0.18 0.44 0.66 }
 }
 
 # Armor and wepons resources
 
-horses = { #276 territories
-	category = 0
-	allow_unit_type = chariot_heavy
-	allow_unit_type = chariot_light
+cheese = { #276 territories
+	category = 1
 	
-	gold = 0.25
+	gold = 0.2
 	
 	province = {
-		local_output_modifier = 0.01
+		local_monthly_food_modifier = 0.03
 	}
 	country = {
-		cavalry_light_discipline = 0.1
+		global_freemen_happyness = happiness_large_svalue
 	}
 
-	color = hsv { 0.05 0.9 0.5 }
+	color = hsv { 0.14 0.56 0.86 }
 }
 
 wine = { #240 territories
@@ -206,7 +223,7 @@ griphons = { #82 territories
 		modded_griphons_discipline = 0.1
 	}
 	
-	color = hsv { 0.6 0.2 0.4 }	
+	color = hsv { 0.01 1 0.81 }	
 }
 
 papyrus = { #23 territories
@@ -248,11 +265,25 @@ wild_game = { #190 territories
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		missile_archers_discipline = 0.1
-		missile_spearthrowers_discipline = 0.1
+		modded_archers_discipline = 0.1
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
+}
+
+beasts = { #190 territories
+	category = 0
+	allow_unit_type = modded_beasts
+	gold = 0.2
+	
+	province = {
+		local_tribesmen_happyness = happiness_small_svalue
+	}
+	country = {
+		modded_beasts_discipline = 0.1
+	}
+
+	color = hsv { 0.07 0.84 0.54 }
 }
 
 precious_metals = { #107 territories
@@ -272,8 +303,7 @@ precious_metals = { #107 territories
 
 steppe_horses = { #90 territories
 	category = 0
-	allow_unit_type = cavalry_horse_archers
-	allow_unit_type = cavalry_light
+	allow_unit_type = modded_horse_archers
 	
 	gold = 0.25
 	
@@ -281,11 +311,26 @@ steppe_horses = { #90 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		cavalry_horse_archers_discipline = 0.1
-		cavalry_light_discipline = 0.1
+		modded_horse_archers_discipline = 0.1
 	}
 	
 	color = hsv { 0.1 0.5 0.8 }
+}
+
+horses = { #276 territories
+	category = 0
+	allow_unit_type = modded_cavalry
+	
+	gold = 0.25
+	
+	province = {
+		local_output_modifier = 0.01
+	}
+	country = {
+		modded_cavalry_discipline = 0.1
+	}
+
+	color = hsv { 0.05 0.9 0.5 }
 }
 
 cattle = { #495 territories
@@ -372,8 +417,8 @@ leather = { #338 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		light_spearmen_defensive = 0.1
-		light_swordsmen_defensive = 0.1
+		modded_spearmen_defensive = 0.1
+		modded_axemen_defensive = 0.1
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
@@ -485,7 +530,7 @@ gems = { #44 Territories
 }
 
 camel = { #63 territories
-	allow_unit_type = camels
+	allow_unit_type = modded_camels
 	category = 0
 	
 	gold = 0.25
