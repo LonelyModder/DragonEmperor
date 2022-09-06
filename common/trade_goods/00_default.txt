@@ -378,6 +378,51 @@ dye = { #48 territories
 	color = { 0.4 0.1 0.4 }
 }
 
+circle_of_mages = { #48 territories
+	category = 0
+	allow_unit_type = modded_mages
+	gold = 0.4
+
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		modded_mages_discipline = 0.1
+	}
+	
+	color = { 0.57 0.95 0.78 }
+}
+
+cabal_of_witches = { #48 territories
+	category = 0
+	allow_unit_type = modded_deadra
+	gold = 0.4
+
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		modded_deadra_discipline = 0.1
+	}
+	
+	color = { 0.0 0.0 0.0 }
+}
+
+necromancers = { #48 territories
+	category = 0
+	allow_unit_type = modded_undead
+	gold = 0.4
+
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		modded_undead_discipline = 0.1
+	}
+	
+	color = { 0.0 0.04 0.4 }
+}
+
 fur = { #327 territories
 	category = 5
 

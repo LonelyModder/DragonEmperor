@@ -6,12 +6,7 @@
 	levy_tier = advanced	
 	
 	allow = {
-		owner = {
-			AND = {
-				has_deity_in_pantheon = deity:omen_molagbal
-				deity:omen_molagbal = { has_holy_site = yes }
-			}
-		}
+		trade_good_surplus = { target = necromancers value > 0 }
 	}
 	
 	maneuver = 1

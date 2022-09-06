@@ -6,22 +6,7 @@
 	levy_tier = advanced	
 	
 	allow = {
-		owner = {
-			OR = {
-				AND = {
-					has_deity_in_pantheon = deity:omen_molagbal
-					deity:omen_molagbal = { has_holy_site = yes }
-				}
-				AND = {
-					has_deity_in_pantheon = deity:omen_mechrunesdagon
-					deity:omen_mechrunesdagon = { has_holy_site = yes }
-				}
-				AND = {
-					has_deity_in_pantheon = deity:omen_meridia
-					deity:omen_meridia = { has_holy_site = yes }
-				}
-			}
-		}
+		trade_good_surplus = { target = cabal_of_witches value > 0 }
 	}
 	
 	maneuver = 1
