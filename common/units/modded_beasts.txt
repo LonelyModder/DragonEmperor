@@ -2,6 +2,7 @@
 	army = yes
 
 	levy_tier = advanced
+	enable = no
 
 	allow = {
 		trade_good_surplus = { target = beasts value > 0 }

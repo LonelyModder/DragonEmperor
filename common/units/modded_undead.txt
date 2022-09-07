@@ -4,6 +4,7 @@
 	assault = yes
 	
 	levy_tier = advanced	
+	enable = no
 	
 	allow = {
 		trade_good_surplus = { target = necromancers value > 0 }

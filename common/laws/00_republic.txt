@@ -27,7 +27,7 @@
 	republican_recruitment_2 = {
 		allow = {
 			invention = global_cohort_recruit_speed_inv
-			rank >= local_power
+			rank >= regional_power
 		}
 		modifier = {
 			global_manpower_modifier = 0.05
