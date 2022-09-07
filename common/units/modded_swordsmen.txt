@@ -4,7 +4,7 @@
 	assault = yes
 	
 	levy_tier = basic	
-	
+	enable = no
 	allow = {
 		OR = {
 			trade_good_surplus = { target = iron value > 0 }

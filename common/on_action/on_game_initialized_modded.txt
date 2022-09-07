@@ -3,6 +3,7 @@
 on_game_initialized = {
 
 	events = {
+		units_allowance_events.1
 		race_startup.1 
 		#Startup info
 		esfa_startup.1

@@ -1,0 +1,72 @@
+﻿allow_modded_axemen = {
+	set_variable = {
+		name = au01
+		value = flag:modded_axemen
+	}
+}
+allow_modded_archers = {
+	set_variable = {
+		name = au02
+		value = flag:modded_archers
+	}
+}
+allow_modded_beasts = {
+	set_variable = {
+		name = au03
+		value = flag:modded_beasts
+	}
+}
+allow_modded_camels = {
+	set_variable = {
+		name = au04
+		value = flag:modded_camels
+	}
+}
+allow_modded_cavalry = {
+	set_variable = {
+		name = au05
+		value = flag:modded_cavalry
+	}
+}
+allow_modded_deadra = {
+	set_variable = {
+		name = au06
+		value = flag:modded_deadra
+	}
+}
+allow_modded_griphons = {
+	set_variable = {
+		name = au07
+		value = flag:modded_griphons
+	}
+}
+allow_modded_horse_archers = {
+	set_variable = {
+		name = au08
+		value = flag:modded_horse_archers
+	}
+}
+allow_modded_mages = {
+	set_variable = {
+		name = au09
+		value = flag:modded_mages
+	}
+}
+allow_modded_spearmen = {
+	set_variable = {
+		name = au10
+		value = flag:modded_spearmen
+	}
+}
+allow_modded_swordsmen = {
+	set_variable = {
+		name = au11
+		value = flag:modded_swordsmen
+	}
+}
+allow_modded_undead = {
+	set_variable = {
+		name = au12
+		value = flag:modded_undead
+	}
+}

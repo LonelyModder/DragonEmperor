@@ -1,0 +1,123 @@
+﻿namespace = units_allowance_events
+
+units_allowance_events.1 = { 
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "OK"
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = beasts
+						trade_goods = beasts
+					}					
+				}
+			}
+			allow_modded_beasts = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = camel
+						trade_goods = camel
+					}					
+				}
+			}
+			allow_modded_camels = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = horses
+						trade_goods = horses
+					}					
+				}
+			}
+			allow_modded_cavalry = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = cabal_of_witches
+						trade_goods = cabal_of_witches
+					}					
+				}
+			}
+			allow_modded_deadra = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = griphons
+						trade_goods = griphons
+					}					
+				}
+			}
+			allow_modded_griphons = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = steppe_horses
+						trade_goods = steppe_horses
+					}					
+				}
+			}
+			allow_modded_horse_archers = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = circle_of_mages
+						trade_goods = circle_of_mages
+					}					
+				}
+			}
+			allow_modded_mages = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						OR = {
+							is_importing_trade_good = iron
+							trade_goods = iron
+						}
+						OR = {
+							is_importing_trade_good = ebon
+							trade_goods = ebon
+						}	
+					}					
+				}
+			}
+			allow_modded_swordsmen = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = necromancers
+						trade_goods = necromancers
+					}					
+				}
+			}
+			allow_modded_undead = yes
+		}
+	}
+}
