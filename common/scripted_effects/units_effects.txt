@@ -4,11 +4,17 @@
 		value = flag:modded_axemen
 	}
 }
+disallow_modded_axemen = {
+	remove_variable = au01
+}
 allow_modded_archers = {
 	set_variable = {
 		name = au02
 		value = flag:modded_archers
 	}
+}
+disallow_modded_archers = {
+	remove_variable = au02
 }
 allow_modded_beasts = {
 	set_variable = {
@@ -16,11 +22,17 @@ allow_modded_beasts = {
 		value = flag:modded_beasts
 	}
 }
+disallow_modded_beasts = {
+	remove_variable = au03
+}
 allow_modded_camels = {
 	set_variable = {
 		name = au04
 		value = flag:modded_camels
 	}
+}
+disallow_modded_camels = {
+	remove_variable = au04
 }
 allow_modded_cavalry = {
 	set_variable = {
@@ -28,11 +40,17 @@ allow_modded_cavalry = {
 		value = flag:modded_cavalry
 	}
 }
+disallow_modded_cavalry = {
+	remove_variable = au05
+}
 allow_modded_deadra = {
 	set_variable = {
 		name = au06
 		value = flag:modded_deadra
 	}
+}
+disallow_modded_deadra = {
+	remove_variable = au06
 }
 allow_modded_griphons = {
 	set_variable = {
@@ -40,11 +58,17 @@ allow_modded_griphons = {
 		value = flag:modded_griphons
 	}
 }
+disallow_modded_griphons = {
+	remove_variable = au07
+}
 allow_modded_horse_archers = {
 	set_variable = {
 		name = au08
 		value = flag:modded_horse_archers
 	}
+}
+disallow_modded_horse_archers = {
+	remove_variable = au08
 }
 allow_modded_mages = {
 	set_variable = {
@@ -52,11 +76,17 @@ allow_modded_mages = {
 		value = flag:modded_mages
 	}
 }
+disallow_modded_mages = {
+	remove_variable = au09
+}
 allow_modded_spearmen = {
 	set_variable = {
 		name = au10
 		value = flag:modded_spearmen
 	}
+}
+disallow_modded_spearmen = {
+	remove_variable = au10
 }
 allow_modded_swordsmen = {
 	set_variable = {
@@ -64,9 +94,15 @@ allow_modded_swordsmen = {
 		value = flag:modded_swordsmen
 	}
 }
+disallow_modded_swordsmen = {
+	remove_variable = au11
+}
 allow_modded_undead = {
 	set_variable = {
 		name = au12
 		value = flag:modded_undead
 	}
+}
+disallow_modded_undead = {
+	remove_variable = au12
 }

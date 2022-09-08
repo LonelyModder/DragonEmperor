@@ -2495,11 +2495,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				OR = {
-					has_culture_group = aramaic
-					has_culture_group = arabian
-					has_culture_group = libyan
-				}
+				country_culture_group = altmer
 			}
 		}
 		commander = {
@@ -2511,70 +2507,15 @@ add_relevant_loyal_subunit_effect = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = camel
-								trade_goods = camel
+								is_importing_trade_good = circle_of_mages
+								trade_goods = circle_of_mages
 							}
 						}
 					}
 				}
-				add_loyal_subunit = cavalry_camels
+				add_loyal_subunit = modded_mages
 			}
 			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = steppe_horses
-								trade_goods = steppe_horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = cavalry_light
-			}
-			25 = {
-				add_loyal_subunit = light_spearmen
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			exists = commander
-			commander = {
-				OR = {
-					has_culture_group = levantine
-					has_culture_group = grekoid
-					has_culture_group = italic
-					has_culture_group = akkadian
-					has_culture_group = eiranic
-					has_culture_group = iranic
-				}
-			}
-		}
-		commander = {
-			add_gold = -20
-		}
-		random_list = {
-			20 = {
-				add_loyal_subunit = light_spearmen
-			}
-			30 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = iron
-								trade_goods = iron
-							}
-						}
-					}
-				}
-				add_loyal_subunit = light_spearmen
-			}
-			20 = {
-				add_loyal_subunit = missile_archers
-			}
-			20 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
@@ -2585,33 +2526,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = cavalry_light
+				add_loyal_subunit = modded_cavalry
 			}
-			10 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = elephants_indian
-								trade_goods = elephants_indian
-							}
-						}
-					}
-				}
-				add_loyal_subunit = elephant_indian
-			}
-			10 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = elephants_african
-								trade_goods = elephants_african
-							}
-						}
-					}
-				}
-				add_loyal_subunit = elephant_african
+			25 = {
+				add_loyal_subunit = modded_archers
 			}
 		}
 	}
@@ -2619,136 +2537,27 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				OR = {
-					has_culture_group = vedic
-					has_culture_group = dravidic
-					has_culture_group = veddic
-					has_culture_group = qiang
-				}
+				country_culture_group = ayleid
 			}
 		}
 		commander = {
 			add_gold = -20
 		}
 		random_list = {
-			20 = {
-				add_loyal_subunit = light_spearmen
-			}
-			10 = {
+			25 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = iron
-								trade_goods = iron
+								is_importing_trade_good = circle_of_mages
+								trade_goods = circle_of_mages
 							}
 						}
 					}
 				}
-				add_loyal_subunit = light_spearmen
+				add_loyal_subunit = modded_mages
 			}
-			30 = {
-				add_loyal_subunit = missile_archers
-			}
-			20 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = elephants_indian
-								trade_goods = elephants_indian
-							}
-						}
-					}
-				}
-				add_loyal_subunit = elephant_indian
-			}
-			20 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = elephants_african
-								trade_goods = elephants_african
-							}
-						}
-					}
-				}
-				add_loyal_subunit = elephant_african
-			}
-			20 = {
-				add_loyal_subunit = chariot_light
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			exists = commander
-			commander = {
-				has_culture_group = scythic
-			}
-		}
-		commander = {
-			add_gold = -20
-		}
-		random_list = {
-			20 = {
-				add_loyal_subunit = light_spearmen
-			}
-			20 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = steppe_horses
-								trade_goods = steppe_horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = cavalry_light
-			}
-			40 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = steppe_horses
-								trade_goods = steppe_horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = cavalry_horse_archers
-			}
-			20 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = steppe_horses
-								trade_goods = steppe_horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = cavalry_light
-			}
-		}
-	}
-	else_if = {
-		limit = { exists = commander }
-		commander = {
-			add_gold = -20
-		}
-		random_list = {
-			20 = {
-				add_loyal_subunit = chariot_light
-			}
-			20 = {
-				add_loyal_subunit = light_spearmen
-			}
-			40 = {
+			25 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
@@ -2759,20 +2568,116 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = cavalry_light
+				add_loyal_subunit = modded_cavalry
 			}
-			20 = {
+			25 = {
+				add_loyal_subunit = modded_archers
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				country_culture_group = bosmer
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = iron
-								trade_goods = iron
+								is_importing_trade_good = beasts
+								trade_goods = beasts
 							}
 						}
 					}
 				}
-				add_loyal_subunit = light_spearmen
+				add_loyal_subunit = modded_beasts
+			}
+			25 = {
+				trigger = {
+					commander.employer = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = horses
+								trade_goods = horses
+							}
+						}
+					}
+				}
+				add_loyal_subunit = modded_cavalry
+			}
+			25 = {
+				add_loyal_subunit = modded_archers
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				country_culture_group = nede
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = modded_spearmen
+			}
+			25 = {
+				add_loyal_subunit = modded_axemen
+			}
+			25 = {
+				trigger = {
+					commander.employer = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = horses
+								trade_goods = horses
+							}
+						}
+					}
+				}
+				add_loyal_subunit = modded_cavalry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				country_culture_group = goblin
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = modded_spearmen
+			}
+			25 = {
+				add_loyal_subunit = modded_axemen
+			}
+			25 = {
+				trigger = {
+					commander.employer = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = beasts
+								trade_goods = beasts
+							}
+						}
+					}
+				}
+				add_loyal_subunit = modded_beasts
 			}
 		}
 	}

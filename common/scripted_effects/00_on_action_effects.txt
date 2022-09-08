@@ -28,7 +28,11 @@ on_becoming_adult_effect = {
 		limit = {
 			has_nickname = no
 			is_male = yes
-			country_culture_group = nede
+			OR = {
+				has_culture = hernan
+				has_culture = caspari
+				has_culture = colovian
+			}
 		}
 		random_list = {
 			75 = { }

@@ -25,6 +25,9 @@ units_allowance_events.1 = {
 			}
 			allow_modded_beasts = yes
 		}
+		else = {
+			disallow_modded_beasts = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -35,6 +38,9 @@ units_allowance_events.1 = {
 				}
 			}
 			allow_modded_camels = yes
+		}
+		else = {
+			disallow_modded_camels = yes
 		}
 		if = {
 			limit =  {
@@ -47,6 +53,9 @@ units_allowance_events.1 = {
 			}
 			allow_modded_cavalry = yes
 		}
+		else = {
+			disallow_modded_cavalry = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -57,6 +66,9 @@ units_allowance_events.1 = {
 				}
 			}
 			allow_modded_deadra = yes
+		}
+		else = {
+			disallow_modded_deadra = yes
 		}
 		if = {
 			limit =  {
@@ -69,6 +81,9 @@ units_allowance_events.1 = {
 			}
 			allow_modded_griphons = yes
 		}
+		else = {
+			disallow_modded_griphons = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -80,6 +95,9 @@ units_allowance_events.1 = {
 			}
 			allow_modded_horse_archers = yes
 		}
+		else = {
+			disallow_modded_horse_archers = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -90,6 +108,9 @@ units_allowance_events.1 = {
 				}
 			}
 			allow_modded_mages = yes
+		}
+		else = {
+			disallow_modded_mages = yes
 		}
 		if = {
 			limit =  {
@@ -108,6 +129,9 @@ units_allowance_events.1 = {
 			}
 			allow_modded_swordsmen = yes
 		}
+		else = {
+			disallow_modded_swordsmen = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -118,6 +142,9 @@ units_allowance_events.1 = {
 				}
 			}
 			allow_modded_undead = yes
+		}
+		else = {
+			disallow_modded_undead = yes
 		}
 	}
 }
