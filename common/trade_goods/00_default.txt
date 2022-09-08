@@ -49,7 +49,7 @@ iron = { #119 territories
 	color = hsv { 0.0 0.0 0.11 }
 }
 
-ebon = { #199 territories
+ebon = { #Added
 	category = 0
 	allow_unit_type = modded_swordsmen
 	allow_unit_type = modded_axemen
@@ -66,7 +66,7 @@ ebon = { #199 territories
 	color = hsv { 0.76 0.83 0.39 }
 }
 
-moonstone = { #199 territories #copper
+moonstone = { #Added
 	category = 0
 
 	gold = 0.2
@@ -82,7 +82,7 @@ moonstone = { #199 territories #copper
 	color = hsv { 0.18 0.44 0.66 }
 }
 
-malachite = { #199 territories #copper
+malachite = { #Added
 	category = 0
 
 	gold = 0.2
@@ -100,7 +100,7 @@ malachite = { #199 territories #copper
 
 # Armor and wepons resources
 
-cheese = { #276 territories
+cheese = { #Added
 	category = 1
 	
 	gold = 0.2
@@ -112,7 +112,7 @@ cheese = { #276 territories
 		global_freemen_happyness = happiness_large_svalue
 	}
 
-	color = hsv { 0.14 0.56 0.86 }
+	color = rgb { 237 205 26 } #hsv { 0.14 0.56 0.86 }
 }
 
 wine = { #240 territories
@@ -210,7 +210,7 @@ spices = { #58 territories
 	color = { 0.6 0.8 0.4 }
 }
 
-griphons = { #82 territories
+griphons = { #Added
 	category = 0
 	allow_unit_type = modded_griphons
 	
@@ -271,7 +271,7 @@ wild_game = { #190 territories
 	color = hsv { 0.1 0.4 0.25 }
 }
 
-beasts = { #190 territories
+beasts = { #Added
 	category = 0
 	allow_unit_type = modded_beasts
 	gold = 0.2
@@ -378,7 +378,7 @@ dye = { #48 territories
 	color = { 0.4 0.1 0.4 }
 }
 
-circle_of_mages = { #48 territories
+circle_of_mages = { #Added
 	category = 0
 	allow_unit_type = modded_mages
 	gold = 0.4
@@ -393,7 +393,7 @@ circle_of_mages = { #48 territories
 	color = { 0.57 0.95 0.78 }
 }
 
-cabal_of_witches = { #48 territories
+cabal_of_witches = { #Added
 	category = 0
 	allow_unit_type = modded_deadra
 	gold = 0.4
@@ -408,7 +408,7 @@ cabal_of_witches = { #48 territories
 	color = { 0.0 0.0 0.0 }
 }
 
-necromancers = { #48 territories
+necromancers = { #Added
 	category = 0
 	allow_unit_type = modded_undead
 	gold = 0.4

@@ -26,7 +26,7 @@
 	culture="dogeater"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="hills"
+	terrain="plains"
 	trade_goods="spices"
 	slaves=
 	{
@@ -46,7 +46,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="malachite"
 	slaves=
 	{
 		amount=1
@@ -102,7 +102,7 @@
 	culture="dogeater"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="camel"
 	slaves=
 	{
@@ -122,7 +122,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="hills"
-	trade_goods="fish"
+	trade_goods="cabal_of_witches"
 	slaves=
 	{
 		amount=1
@@ -141,7 +141,7 @@
 	province_rank="city"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	citizen=
 	{
 		amount=1
@@ -391,8 +391,8 @@
 	culture="hernan"
 	province_rank="settlement"
 	religion="nedic_pantheon"
-	terrain="plains"
-	trade_goods="spices"
+	terrain="hills"
+	trade_goods="wood"
 	slaves=
 	{
 		amount=1
@@ -453,7 +453,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="spices"
 	slaves=
 	{
 		amount=1
