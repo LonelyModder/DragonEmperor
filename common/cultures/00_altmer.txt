@@ -28,7 +28,7 @@
 		Loraethor Chaebinder Tahromian Salinguseus Khraeman Saelinorin
 	}
 	culture = {
-		alinoric = {}
+		alinoric = {levy_template = levy_griphonic}
 		sunholdic = {levy_template = levy_griphonic}
 		duskan = {}
 		shimmerinic = {}
