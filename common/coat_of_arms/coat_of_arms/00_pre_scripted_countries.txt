@@ -109,3 +109,14 @@ hk_alinor = { #High Kingdom of Alinor
 		color1 = "offwhite"
 	}
 }
+
+orsinium_FLAG = { #Kingdom of Orsinium
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_orsinium.dds"
+		color1 = rgb { 153 20 20 }
+	}
+}
