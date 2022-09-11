@@ -163,6 +163,54 @@ provinces = { #Any entry must contain a comment with city name.
 	739 = { #King's Haven Pass
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
+	703 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	620 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	613 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	784 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	393 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	416 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	417 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	376 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	284 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	305 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	306 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	302 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	449 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	766 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	399 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	773 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	
 	########################################
 	# Barbarian Spawn Spots

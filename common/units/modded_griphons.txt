@@ -1,6 +1,6 @@
 ﻿modded_griphons = {
 	army = yes
-
+	is_flank = yes
 	levy_tier = advanced
 	enable = no
 
@@ -9,7 +9,7 @@
 	}
 	
 	maneuver = 5
-	movement_speed = 4
+	movement_speed = 10
 	build_time = 365
 	
 	legions = no

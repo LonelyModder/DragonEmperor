@@ -1,9 +1,9 @@
 ﻿altmer = {	
 	color = hsv { 0.12 0.81 0.96 }
 
-	primary = modded_archers
+	primary = modded_mages
 	second = modded_spearmen
-	flank = modded_mages
+	flank = modded_cavalry
 
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -30,16 +30,16 @@
 	culture = {
 		alinoric = {levy_template = levy_griphonic}
 		sunholdic = {levy_template = levy_griphonic}
-		duskan = {}
-		shimmerinic = {}
-		lillandrilan = {}
+		duskan = {levy_template = levy_griphonic}
+		shimmerinic = {levy_template = levy_altmer}
+		lillandrilan = {levy_template = levy_altmer}
 		cloudrestan = {levy_template = levy_griphonic}
-		firstholdan = {}
-		skywatchan = {}
-		corgradan = {}
-		russafeldan = {}
-		mariduninian = {}
-		rictan = {}
+		firstholdan = {levy_template = levy_altmer}
+		skywatchan = {levy_template = levy_altmer}
+		corgradan = {levy_template = levy_altmer}
+		russafeldan = {levy_template = levy_altmer}
+		mariduninian = {levy_template = levy_altmer}
+		rictan = {levy_template = levy_altmer}
 		havenic = {levy_template = levy_griphonic}
 		psijic = {levy_template = levy_psijic}
 	}
