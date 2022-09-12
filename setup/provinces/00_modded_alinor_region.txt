@@ -8,7 +8,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	
 	freemen=
 	{
@@ -24,7 +24,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	
 	freemen=
 	{
@@ -40,7 +40,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -76,7 +76,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	
 	freemen=
 	{
@@ -124,7 +124,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -396,7 +396,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -424,15 +424,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="riverdwellers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -456,15 +459,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="riverdwellers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -540,7 +546,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -556,7 +562,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	
 	freemen=
 	{
@@ -588,7 +594,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	
 	freemen=
 	{
@@ -648,15 +654,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="hewers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -680,15 +689,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="hewers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -728,15 +740,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="hewers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -860,15 +875,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="greendread"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -876,15 +894,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="greendread"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -892,15 +913,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="greendread"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="mountain"
 	trade_goods="beasts"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -908,15 +932,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="greendread"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="mountain"
 	trade_goods="fish"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -924,15 +951,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="greendread"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -1036,15 +1066,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="riverdwellers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -1052,15 +1085,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="riverdwellers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -1068,15 +1104,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="firstholdan"
+	culture="riverdwellers"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -1120,7 +1159,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -1176,7 +1215,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -1552,7 +1591,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	
 	freemen=
 	{
@@ -1568,7 +1607,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -1760,7 +1799,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	citizen=
 	{
 		amount=3
@@ -1840,15 +1879,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="mountain"
 	trade_goods="beasts"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -1860,7 +1902,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -1908,7 +1950,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -1924,7 +1966,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -1984,15 +2026,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2000,15 +2045,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2016,15 +2064,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2052,7 +2103,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -2068,7 +2119,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -2320,7 +2371,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	citizen=
 	{
 		amount=3
@@ -2360,7 +2411,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -2388,15 +2439,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2404,15 +2458,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2420,15 +2477,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="redsticks"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2668,7 +2728,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	citizen=
 	{
 		amount=3
@@ -2816,15 +2876,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="mountain"
-	trade_goods="spices"
-	
-	freemen=
+	trade_goods="gems"
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2832,15 +2895,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2848,15 +2914,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -2864,15 +2933,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -3016,7 +3088,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	
 	freemen=
 	{
@@ -3060,15 +3132,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="mariduninian"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
-	
-	freemen=
+	trade_goods="leather"
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -3368,7 +3443,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -3452,7 +3527,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -3484,7 +3559,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -3516,7 +3591,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	nobles=
 	{
 		amount=3
@@ -3576,7 +3651,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -3592,7 +3667,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -3624,7 +3699,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	citizen=
 	{
 		amount=5
@@ -3644,7 +3719,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -3660,7 +3735,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -3720,15 +3795,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -3736,15 +3814,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="mariduninian"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -3752,15 +3833,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="skywatchan"
+	culture="poisonedarrows"
 	province_rank="settlement"
-	religion="elven_pantheon"
+	religion="goblin_pantheon"
 	terrain="plains"
 	trade_goods="spices"
-	
-	freemen=
+	slaves=
 	{
-		amount=4
+		amount=1
+	}
+	tribesmen=
+	{
+		amount=3
 	}
 }
 
@@ -3919,7 +4003,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -3935,7 +4019,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -3950,8 +4034,8 @@
 	culture="mariduninian"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
-	trade_goods="spices"
+	terrain="forest"
+	trade_goods="wood"
 	
 	freemen=
 	{
@@ -4158,8 +4242,8 @@
 	culture="mariduninian"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
-	trade_goods="spices"
+	terrain="forest"
+	trade_goods="wood"
 	
 	freemen=
 	{
@@ -4226,7 +4310,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -4258,7 +4342,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	citizen=
 	{
 		amount=3
@@ -4298,7 +4382,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	
 	freemen=
 	{
@@ -4362,7 +4446,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	
 	freemen=
 	{
@@ -4378,7 +4462,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	citizen=
 	{
 		amount=4
@@ -4925,7 +5009,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	
 	freemen=
 	{
@@ -4941,7 +5025,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	
 	freemen=
 	{
@@ -4981,7 +5065,7 @@
 	province_rank="settlement"
 	religion="oldelven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	freemen=
 	{
 		amount=4
@@ -5011,7 +5095,7 @@
 	province_rank="settlement"
 	religion="oldelven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	freemen=
 	{
 		amount=4
@@ -5041,7 +5125,7 @@
 	province_rank="settlement"
 	religion="oldelven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	freemen=
 	{
 		amount=4
@@ -5056,7 +5140,7 @@
 	province_rank="settlement"
 	religion="oldelven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	freemen=
 	{
 		amount=4
@@ -5070,7 +5154,7 @@
 	culture="psijic"
 	province_rank="city"
 	religion="oldelven_pantheon"
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="circle_of_mages"
 	nobles=
 	{
@@ -5094,8 +5178,8 @@
 	culture="psijic"
 	province_rank="settlement"
 	religion="oldelven_pantheon"
-	terrain="plains"
-	trade_goods="spices"
+	terrain="marsh"
+	trade_goods="wild_game"
 	freemen=
 	{
 		amount=4
@@ -5165,7 +5249,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	
 	freemen=
 	{
@@ -5181,7 +5265,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	
 	freemen=
 	{
@@ -5197,7 +5281,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	
 	freemen=
 	{
@@ -5213,7 +5297,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	nobles=
 	{
 		amount=1
@@ -5269,7 +5353,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	
 	freemen=
 	{
@@ -5285,7 +5369,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -5301,7 +5385,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	
 	freemen=
 	{
@@ -5413,7 +5497,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	
 	freemen=
 	{
@@ -5597,7 +5681,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -5613,7 +5697,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -5645,7 +5729,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -5661,7 +5745,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -5733,7 +5817,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -5954,7 +6038,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -6002,7 +6086,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	
 	freemen=
 	{
@@ -6034,7 +6118,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	
 	freemen=
 	{
@@ -6186,7 +6270,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -6407,7 +6491,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -6423,7 +6507,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -6439,7 +6523,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -6455,7 +6539,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -6602,7 +6686,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	slaves=
 	{
 		amount=1
@@ -6640,7 +6724,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -6688,7 +6772,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	slaves=
 	{
 		amount=1
@@ -6739,7 +6823,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -6803,7 +6887,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	slaves=
 	{
 		amount=1
@@ -6822,7 +6906,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	slaves=
 	{
 		amount=1
@@ -6879,7 +6963,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -6898,7 +6982,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	slaves=
 	{
 		amount=1
@@ -6933,7 +7017,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -7114,7 +7198,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -7130,7 +7214,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -7146,7 +7230,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -7242,7 +7326,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	
 	freemen=
 	{
@@ -7302,7 +7386,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -7334,7 +7418,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -7350,7 +7434,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	citizen=
 	{
 		amount=3
@@ -7452,7 +7536,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	
 	freemen=
 	{
@@ -7751,7 +7835,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -7767,7 +7851,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -7815,7 +7899,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -7972,7 +8056,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -8036,7 +8120,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	
 	freemen=
 	{
@@ -8116,7 +8200,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	slaves=
 	{
 		amount=1
@@ -8170,7 +8254,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -8186,7 +8270,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -8352,7 +8436,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -8390,7 +8474,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -8409,7 +8493,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -8428,7 +8512,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	slaves=
 	{
 		amount=1
@@ -8447,7 +8531,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	slaves=
 	{
 		amount=1
@@ -8542,7 +8626,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -8561,7 +8645,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	slaves=
 	{
 		amount=1
@@ -8580,7 +8664,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	slaves=
 	{
 		amount=1
@@ -8729,7 +8813,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	slaves=
 	{
 		amount=1
@@ -8930,7 +9014,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	
 	freemen=
 	{
@@ -8981,7 +9065,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -8997,7 +9081,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -9045,7 +9129,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -9173,7 +9257,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -9225,7 +9309,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -9273,7 +9357,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -9470,7 +9554,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	
 	freemen=
 	{
@@ -9486,7 +9570,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	
 	freemen=
 	{
@@ -9502,7 +9586,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	citizen=
 	{
 		amount=3
@@ -9526,7 +9610,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	
 	freemen=
 	{
@@ -9802,7 +9886,7 @@
 	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	citizen=
 	{
 		amount=3
@@ -9842,7 +9926,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	
 	freemen=
 	{
@@ -10069,7 +10153,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	slaves=
 	{
 		amount=1
@@ -10116,7 +10200,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	slaves=
 	{
 		amount=1
@@ -10135,7 +10219,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -10183,7 +10267,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -10247,7 +10331,7 @@
 	province_rank="settlement"
 	religion="goblin_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	slaves=
 	{
 		amount=1
@@ -10333,7 +10417,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -10503,7 +10587,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dye"
 	
 	freemen=
 	{
@@ -10567,7 +10651,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	
 	freemen=
 	{
@@ -10685,7 +10769,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	
 	freemen=
 	{
@@ -11073,7 +11157,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	
 	freemen=
 	{
@@ -11137,7 +11221,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	
 	freemen=
 	{
@@ -11153,7 +11237,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	
 	freemen=
 	{
@@ -11229,7 +11313,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -11245,7 +11329,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	
 	freemen=
 	{
@@ -11325,7 +11409,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	
 	freemen=
 	{
@@ -11341,7 +11425,7 @@
 	province_rank="settlement"
 	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	
 	freemen=
 	{
