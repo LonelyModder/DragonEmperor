@@ -84,6 +84,29 @@ AAN = { #Cloudrest
 	}
 }
 
+AAO = { #Firsthold
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 121 205 247 }
+	color2 = rgb { 121 205 247 }
+
+	colored_emblem = {
+		texture = "ce_firsthold.dds"
+		color1 = rgb { 40 40 41 }
+		color2 = rgb { 255 255 255 }
+	}
+}
+
+AAP = { #Skywatch
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 40 40 41 }
+	color2 = rgb { 40 40 41 }
+
+	colored_emblem = {
+		texture = "ce_skyhaven.dds"
+		color1 = rgb { 242 227 58 }
+	}
+}
+
 AAL = { #Shimmerine
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 119 206 237 }
