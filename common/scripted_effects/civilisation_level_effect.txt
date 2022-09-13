@@ -6,7 +6,7 @@
 			}
 			if = {
 				limit = { has_city_status = yes }
-				add_civilization_value = 10
+				add_civilization_value = 5
 			}
 			if = {
 				limit = { 
@@ -16,7 +16,7 @@
 						owner = { country_culture_group = altmer } 
 					}
 				}
-				add_civilization_value = 10
+				add_civilization_value = 5
 			}
 			if = {
 				limit = { terrain = mountain }
@@ -44,7 +44,7 @@
 			}
 			if = {
 				limit = { terrain = farmland }
-				add_civilization_value = 5
+				add_civilization_value = 4
 			}
 			if = {
 				limit = { terrain = forest }
@@ -53,7 +53,7 @@
 			while = { #From the modifier
 			count = neighbor_cities_svalue
 
-			add_civilization_value = 4
+			add_civilization_value = 3
 			}
 		}
 		else_if = {

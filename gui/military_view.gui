@@ -500,128 +500,106 @@ base_window = {
 						position = { 0 0 }
 						blockoverride "Title_text" { text = "MILITARY_TRADITIONS" }
 					}
-				}
-				
-				scrollarea = {
-					position = { 0 4 }
-					size = { 612 746 }
-					scrollbarpolicy_horizontal = always_off
 					
-					using = VerticalScrollAreaCutOff
-					scrollbar_vertical = {
-						using = VerticalScrollBar
-					}
-					
-					scrollwidget = {
-						dynamicgridbox = {
-							flipdirection = yes
-							position = { 0 4 }
-							datamodel = "[MilitaryView.GetTrees]"
-							datamodel_wrap = 2
-							
-							item = {
+					dynamicgridbox = {
+						flipdirection = yes
+						position = { 0 40 }
+						datamodel = "[MilitaryView.GetTrees]"
+						datamodel_wrap = 2
+						
+						item = {
+							margin_widget = {
+								size = { 310 106 }
 								margin_widget = {
-									size = { 310 106 }
-									margin_widget = {
-										parentanchor = hcenter
-										size = { 264 96 }
-										#enabled = "[TraditionTreeItem.IsAllowed]"
-										using = DropShadow
-										button = {
-											using = ButtonBorderTear
-											using = border_slightly_torn_alpha
-											#tooltip = "[TraditionTreeItem.GetTraditionTree.GetName]"
-											tooltip = "[TraditionTreeItem.GetAllowTooltip]"
+									parentanchor = hcenter
+									size = { 264 96 }
+									#enabled = "[TraditionTreeItem.IsAllowed]"
+									using = DropShadow
+									button = {
+										using = ButtonBorderTear
+										using = border_slightly_torn_alpha
+										#tooltip = "[TraditionTreeItem.GetTraditionTree.GetName]"
+										tooltip = "[TraditionTreeItem.GetAllowTooltip]"
+										size = { 100% 100% }
+										#texture = "gfx/interface/base_parts/button_color_400fs.dds"
+										texture = "gfx/interface/base_parts/button_allframes.dds"
+										framesize = { 100 100 }
+										gfxtype = togglepushbuttongfx
+										upframe = 4
+										uphoverframe = 4
+										uppressedframe = 5
+										downframe = 10
+										downhoverframe = 9
+										downpressedframe = 9
+										down = "[GetVariableSystem.HasValue( 'tradition_tabs', TraditionTreeItem.GetTraditionTree.GetName )]"
+										margin_widget = {
 											size = { 100% 100% }
-											#texture = "gfx/interface/base_parts/button_color_400fs.dds"
-											texture = "gfx/interface/base_parts/button_allframes.dds"
-											framesize = { 100 100 }
-											gfxtype = togglepushbuttongfx
-											upframe = 4
-											uphoverframe = 4
-											uppressedframe = 5
-											downframe = 10
-											downhoverframe = 9
-											downpressedframe = 9
-											down = "[GetVariableSystem.HasValue( 'tradition_tabs', TraditionTreeItem.GetTraditionTree.GetName )]"
-											margin_widget = {
+											margin = { 4 4 }
+											icon = {
+												name = "background"
+												parentanchor = center
+												texture = "[GetTraditionTreeIcon( TraditionTreeItem.GetTraditionTree )]"
 												size = { 100% 100% }
-												margin = { 4 4 }
-												icon = {
-													name = "background"
-													parentanchor = center
-													texture = "[GetTraditionTreeIcon( TraditionTreeItem.GetTraditionTree )]"
+												#color = "[TraditionTreeItem.GetTraditionTree.GetColor]"
+												button = {
 													size = { 100% 100% }
-													#color = "[TraditionTreeItem.GetTraditionTree.GetColor]"
-													button = {
-														size = { 100% 100% }
-														onclick = "[GetVariableSystem.Set( 'tradition_tabs', TraditionTreeItem.GetTraditionTree.GetName )]"
-													}
+													onclick = "[GetVariableSystem.Set( 'tradition_tabs', TraditionTreeItem.GetTraditionTree.GetName )]"
+												}
+												#modify_texture = {
+												#	name = "Alpha" 
+												#	spriteType = Corneredstretched
+												#	texture = "gfx/interface/tooltip/tooltip_section_alpha_gradient_stretch.dds"
+												#	blend_mode = alphamultiply 
+												#	alpha = 0.5
+												#}
+												background = {
+													using = flat_background_white
+													shaderfile = "gfx/FX/pdxgui_default.shader"
+													using = border_slightly_torn_alpha
+													margin = { -1 -1 }
 													#modify_texture = {
 													#	name = "Alpha" 
 													#	spriteType = Corneredstretched
-													#	texture = "gfx/interface/tooltip/tooltip_section_alpha_gradient_stretch.dds"
+													#	texture = "gfx/interface/base_parts/horizontal_gradient_stretch.dds"
 													#	blend_mode = alphamultiply 
-													#	alpha = 0.5
 													#}
-													background = {
-														using = flat_background_white
-														shaderfile = "gfx/FX/pdxgui_default.shader"
-														using = border_slightly_torn_alpha
-														margin = { -1 -1 }
-														#modify_texture = {
-														#	name = "Alpha" 
-														#	spriteType = Corneredstretched
-														#	texture = "gfx/interface/base_parts/horizontal_gradient_stretch.dds"
-														#	blend_mode = alphamultiply 
-														#}
-														
-													}
-													using = border_slightly_torn_alpha
+													
 												}
+												using = border_slightly_torn_alpha
 											}
 										}
-										margin_widget = {	
-											size = { 100% 90 }
-											margin = { 4 0 }
-											position = { 0 4 }
-											icon = {
-												size = { 100% 100% }
-												texture = "gfx/interface/achievement/achievement_not_possible.dds"
-												position = { 0 0 }
-												spritetype = corneredstretched
-												spriteborder_left = -106
-												spriteborder_right = -106
-												spriteborder_top = 12
-												spriteborder_bottom = 12
-												alpha = 0.5
-												widgetanchor = hcenter
-												parentanchor = hcenter
-												visible = "[Not( TraditionTreeItem.IsAllowed )]"
-											}
-										}
-										##### TRADITIONS NAME BANNER
+									}
+									margin_widget = {	
+										size = { 100% 90 }
+										margin = { 4 0 }
+										position = { 0 4 }
 										icon = {
-											parentanchor = hcenter|top
-											maximumsize = { 999 28 }
-											position = { 0 70 }
-											using = flat_background_white
-											alpha = 0.95
-											
-											background = {
-												shaderfile = "gfx/FX/pdxgui_default.shader"
-												#using = flat_background_black
-												using = beige_dark_background
-												modify_texture = {
-													name = "Alpha"
-													texture = "gfx/interface/base_parts/header_l_x60bd_right_cut_alpha.dds"
-													blend_mode = alphamultiply
-													spriteType = Corneredtiled
-													spriteborder = { 60 -10 }
-												}
-												margin = { 2 2 }
-												alpha = 0.3
-											}
+											size = { 100% 100% }
+											texture = "gfx/interface/achievement/achievement_not_possible.dds"
+											position = { 0 0 }
+											spritetype = corneredstretched
+											spriteborder_left = -106
+											spriteborder_right = -106
+											spriteborder_top = 12
+											spriteborder_bottom = 12
+											alpha = 0.5
+											widgetanchor = hcenter
+											parentanchor = hcenter
+											visible = "[Not( TraditionTreeItem.IsAllowed )]"
+										}
+									}
+									##### TRADITIONS NAME BANNER
+									icon = {
+										parentanchor = hcenter|top
+										maximumsize = { 999 28 }
+										position = { 0 70 }
+										using = flat_background_white
+										alpha = 0.95
+										
+										background = {
+											shaderfile = "gfx/FX/pdxgui_default.shader"
+											#using = flat_background_black
+											using = beige_dark_background
 											modify_texture = {
 												name = "Alpha"
 												texture = "gfx/interface/base_parts/header_l_x60bd_right_cut_alpha.dds"
@@ -629,64 +607,73 @@ base_window = {
 												spriteType = Corneredtiled
 												spriteborder = { 60 -10 }
 											}
-											
-											blockoverride "Margins"
-											{
-												alpha = 0.95
-											}
-											
-											textbox = {
-												position = { 0 0 }
-												using = HeaderFont
-												using = Black_FontColor
-												parentanchor = top|left
-												autoresize = yes
-												minimumsize = { -1 34 }
-												resizeparent = yes
-												align = center|nobaseline
-												elide = right
-												text = "[TraditionTreeItem.GetTraditionTree.GetName]"
-												margin_left = 30
-												margin_right = 30
-												margin_bottom = 3
-												fontsize = 16
-												max_width = 270
-												fontsize_min = 12
-											}
+											margin = { 2 2 }
+											alpha = 0.3
+										}
+										modify_texture = {
+											name = "Alpha"
+											texture = "gfx/interface/base_parts/header_l_x60bd_right_cut_alpha.dds"
+											blend_mode = alphamultiply
+											spriteType = Corneredtiled
+											spriteborder = { 60 -10 }
 										}
 										
-										### CHECKMARK ICON IF ALLOWED BY CULTURE
-										#widget = {
-										#	name = "allowed_indication"
-										#	size = { 36 36 }
-										#	position = { -6 8 }
-										#	parentanchor = bottom|left
-										#	visible = "[TraditionTreeItem.IsAllowed]"
-										#	background = {
-										#		using = flat_background_white
-										#		shaderfile = "gfx/FX/pdxgui_default.shader"
-										#		spriteType = corneredtiled
-										#		using = border_medium_torn_alpha
-										#	}
-										#
-										#	icon = {
-										#		parentanchor = center
-										#		texture = "gfx/interface/base_parts/white_button_color_200fs.dds"
-										#		framesize = { 100 100 }
-										#		frame = 8
-										#		size = { 20 20 }
-										#		alwaystransparent = yes
-										#		
-										#		modify_texture = {
-										#			name = "Alpha"
-										#			texture = "gfx/interface/base_parts/check_mark.dds"
-										#			framesize = { 50 50 }
-										#			frame = 2
-										#			blend_mode = alphamultiply
-										#		}
-										#	}
-										#}
+										blockoverride "Margins"
+										{
+											alpha = 0.95
+										}
+										
+										textbox = {
+											position = { 0 0 }
+											using = HeaderFont
+											using = Black_FontColor
+											parentanchor = top|left
+											autoresize = yes
+											minimumsize = { -1 34 }
+											resizeparent = yes
+											align = center|nobaseline
+											elide = right
+											text = "[TraditionTreeItem.GetTraditionTree.GetName]"
+											margin_left = 30
+											margin_right = 30
+											margin_bottom = 3
+											fontsize = 16
+											max_width = 270
+											fontsize_min = 12
+										}
 									}
+									
+									### CHECKMARK ICON IF ALLOWED BY CULTURE
+									#widget = {
+									#	name = "allowed_indication"
+									#	size = { 36 36 }
+									#	position = { -6 8 }
+									#	parentanchor = bottom|left
+									#	visible = "[TraditionTreeItem.IsAllowed]"
+									#	background = {
+									#		using = flat_background_white
+									#		shaderfile = "gfx/FX/pdxgui_default.shader"
+									#		spriteType = corneredtiled
+									#		using = border_medium_torn_alpha
+									#	}
+									#
+									#	icon = {
+									#		parentanchor = center
+									#		texture = "gfx/interface/base_parts/white_button_color_200fs.dds"
+									#		framesize = { 100 100 }
+									#		frame = 8
+									#		size = { 20 20 }
+									#		alwaystransparent = yes
+									#		
+									#		modify_texture = {
+									#			name = "Alpha"
+									#			texture = "gfx/interface/base_parts/check_mark.dds"
+									#			framesize = { 50 50 }
+									#			frame = 2
+									#			blend_mode = alphamultiply
+									#		}
+									#	}
+									#}
 								}
 							}
 						}
@@ -706,7 +693,7 @@ base_window = {
 					layoutpolicy_horizontal = expanding
 
 					icon = {
-						texture = "gfx/interface/event_window/Event_local_life.dds"
+						texture = "gfx/interface/event_window/Event_elves_dwarves_army.dds" #LOTR illustration on Levies window
 						scale = 0.32
 						alpha = 0.87
 						position = { 12 0 }
@@ -1798,19 +1785,22 @@ base_window = {
 											using = HeaderFont
 											using = Black_FontColor
 										}
-										fixedgridbox = {
+										overlappingitembox = {
 											name = "unit_types_grid_legion"
 											alwaystransparent = no
-											flipdirection = yes
-											addcolumn = 60
-											addrow = 78 
+											#flipdirection = yes
+											ignoreinvisible = yes
+											#addcolumn = 60
+											#addrow = 78 
 											datamodel = "[MilitaryView.GetSelectedGovernorshipForLegion.GetConstructions]"
 											size = { 100% 125 }
-											datamodel_wrap = 7
+											datamodel_wrap = 8
 											position = { 11 38 }
 											item = {
 												container = {
 													using = ConstructionCardTemplate
+													visible = "[Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au12').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au11').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au10').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au09').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au08').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au07').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au06').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au05').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au04').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au03').GetFlagName)),Or(EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au02').GetFlagName)),EqualTo_string(SubUnitConstruction.GetDefinition.GetName, Localize(MilitaryView.GetPlayer.MakeScope.Var('au01').GetFlagName)))))))))))))]"
+													#visible = "[Or(EqualTo_int32(SubUnitConstruction.GetDefinition.GetType, FixedPointToInt(MilitaryView.GetPlayer.MakeScope.Var('au4').GetValue)),Or(EqualTo_int32(SubUnitConstruction.GetDefinition.GetType, FixedPointToInt(MilitaryView.GetPlayer.MakeScope.Var('au3').GetValue)),Or(EqualTo_int32(SubUnitConstruction.GetDefinition.GetType, FixedPointToInt(MilitaryView.GetPlayer.MakeScope.Var('au2').GetValue)),Or(EqualTo_int32(SubUnitConstruction.GetDefinition.GetType, FixedPointToInt(MilitaryView.GetPlayer.MakeScope.Var('au0').GetValue)),EqualTo_int32(SubUnitConstruction.GetDefinition.GetType, FixedPointToInt(MilitaryView.GetPlayer.MakeScope.Var('au1').GetValue))))))]"
 													datacontext = "[SubUnitConstruction.GetDefinition]"
 													tooltip = "EDIT_COMPOSITION_SUBUNIT_DESC"
 												}

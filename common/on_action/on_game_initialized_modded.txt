@@ -1,46 +1,8 @@
 ﻿##On Game Initialized Events
 
 on_game_initialized = {
-
-	events = {
-		units_allowance_events.1
-		race_startup.1 
-		#Startup info
-		esfa_startup.1
-		esfa_startup.2
-		esfa_startup.3
-		esfa_startup.4
-		#Bloodlines
-		#bloodlines_startup.1  #Judah
-		#bloodlines_startup.2  #Persia
-		#bloodlines_startup.3  #21 dynasty
-		#bloodlines_startup.4  #22 dynasty
-		#bloodlines_startup.5  #Kushite dynasty
-		#bloodlines_startup.6  #Gathite bloodline
-		#bloodlines_startup.7  #Tudhaliya bloodline
-		#bloodlines_startup.8  #Toi bloodline
-		#bloodlines_startup.9  #Hadad-ezer bloodline
-		#bloodlines_startup.10 #Tob-Rimmon bloodline
-		#bloodlines_startup.11 #Saul bloodline
-		#bloodlines_startup.12 #Tyre bloodline
-		#bloodlines_startup.13 #Byblos bloodline
-		#bloodlines_startup.14 #Adasi bloodline
-		#bloodlines_startup.15 #Elam bloodline
-		#bloodlines_startup.16 #Gordion bloodline
-		#bloodlines_startup.17 #Heracles bloodline
-		#bloodlines_startup.18 #Founders of Magadha
-		#Militarism level mechanic
-		militarism_events.1
-		#Equipment mechanic
-		#equipment_events.1
-		#equipment_events.2
-		#equipment_events.3
-		#equipment_events.4
-		#equipment_events.5
-		#equipment_events.6
-	}
-	#Events
 	effect = {
+		basic_unit_setup = yes
 		add_innovation = {
 			value = oratory_tech
 		}
@@ -86,6 +48,44 @@ on_game_initialized = {
 			#Osorkons_rebelion_conflict_effect = yes
 			#Distatnt_descendent_of_elam_conflict_effect = yes
 		}
+	}
+	#Events
+	events = {
+		units_allowance_events.1
+		race_startup.1 
+		#Startup info
+		esfa_startup.1
+		esfa_startup.2
+		esfa_startup.3
+		esfa_startup.4
+		#Bloodlines
+		#bloodlines_startup.1  #Judah
+		#bloodlines_startup.2  #Persia
+		#bloodlines_startup.3  #21 dynasty
+		#bloodlines_startup.4  #22 dynasty
+		#bloodlines_startup.5  #Kushite dynasty
+		#bloodlines_startup.6  #Gathite bloodline
+		#bloodlines_startup.7  #Tudhaliya bloodline
+		#bloodlines_startup.8  #Toi bloodline
+		#bloodlines_startup.9  #Hadad-ezer bloodline
+		#bloodlines_startup.10 #Tob-Rimmon bloodline
+		#bloodlines_startup.11 #Saul bloodline
+		#bloodlines_startup.12 #Tyre bloodline
+		#bloodlines_startup.13 #Byblos bloodline
+		#bloodlines_startup.14 #Adasi bloodline
+		#bloodlines_startup.15 #Elam bloodline
+		#bloodlines_startup.16 #Gordion bloodline
+		#bloodlines_startup.17 #Heracles bloodline
+		#bloodlines_startup.18 #Founders of Magadha
+		#Militarism level mechanic
+		militarism_events.1
+		#Equipment mechanic
+		#equipment_events.1
+		#equipment_events.2
+		#equipment_events.3
+		#equipment_events.4
+		#equipment_events.5
+		#equipment_events.6
 	}
 }
 
