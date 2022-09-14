@@ -395,7 +395,7 @@ circle_of_mages = { #Added
 
 cabal_of_witches = { #Added
 	category = 0
-	#allow_unit_type = modded_deadra
+	allow_unit_type = modded_deadra
 	gold = 0.4
 
 	province = {
