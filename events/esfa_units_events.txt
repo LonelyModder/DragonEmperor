@@ -26,6 +26,16 @@ units_allowance_events.1 = {
 						trade_goods = beasts
 					}					
 				}
+				OR = {
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:bosmer
+					}
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:goblin
+					}
+				}
 			}
 			allow_modded_beasts = yes
 		}

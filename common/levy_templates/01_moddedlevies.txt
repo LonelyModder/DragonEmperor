@@ -14,8 +14,8 @@ levy_default = {
 levy_altmer = { #alinoric militia
 	default = no
 
-	modded_archers = 0.2
-	modded_spearmen = 0.4
+	modded_archers = 0.1
+	modded_spearmen = 0.5
 	modded_cavalry = 0.1
 	modded_mages = 0.3
 }
@@ -23,10 +23,11 @@ levy_altmer = { #alinoric militia
 levy_griphonic = { #sunhold militia
 	default = no
 
-	modded_archers = 0.2
+	modded_archers = 0.1
 	modded_spearmen = 0.4
-	modded_griphons = 0.2
-	modded_mages = 0.2
+	modded_griphons = 0.1
+	modded_cavalry = 0.1
+	modded_mages = 0.3
 }
 
 levy_psijic = { #psijic militia
