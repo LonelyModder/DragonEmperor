@@ -2286,3 +2286,50 @@ gw_effect_ceporah_tower = {
 		}
 	}
 }
+
+gw_effect_dusk_tower = {
+	icon = "gw_effect_military_education"	
+
+	flags = {
+		"gw_effect_military_education"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_dusk_tower_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				global_defensive = 0.05
+				garrison_size = 0.05
+				fort_maintenance_cost = -0.05
+			}
+		}
+		gw_effect_dusk_tower_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				global_defensive = 0.1
+				garrison_size = 0.1
+				fort_maintenance_cost = -0.1
+			}
+		}
+		gw_effect_dusk_tower_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				global_defensive = 0.15
+				garrison_size = 0.15
+				fort_maintenance_cost = -0.15
+			}
+		}
+		gw_effect_dusk_tower_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				global_defensive = 0.2
+				garrison_size = 0.2
+				fort_maintenance_cost = -0.2
+			}
+		}
+	}
+}

@@ -4,10 +4,7 @@
 	levy_tier = basic
 	enable = no
 	
-	allow = {
-		trade_good_surplus = { target = camel value > 0 }
-	}
-
+	
 	is_flank = yes
 	
 	maneuver = 4

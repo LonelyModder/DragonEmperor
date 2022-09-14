@@ -4,10 +4,7 @@
 	levy_tier = advanced
 	enable = no
 
-	allow = {
-		trade_good_surplus = { target = beasts value > 0 }
-	}
-
+	
 	maneuver = 3
 	movement_speed = 4
 	build_time = 45

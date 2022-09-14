@@ -5,12 +5,7 @@
 	
 	levy_tier = basic	
 	enable = no
-	allow = {
-		OR = {
-			trade_good_surplus = { target = iron value > 0 }
-			trade_good_surplus = { target = ebon value > 0 }
-		}
-	}
+	
 	
 	maneuver = 1
 	movement_speed = 2.5

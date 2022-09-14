@@ -132,6 +132,12 @@ wonder_ceporah_tower={
 	great_work_category_slot=0
 }
 
+wonder_dusk_tower={
+	entity_name={"wonder_dusk_tower_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"
