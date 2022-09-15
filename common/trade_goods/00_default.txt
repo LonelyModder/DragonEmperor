@@ -67,7 +67,7 @@ ebon = { #Added
 }
 
 moonstone = { #Added
-	category = 0
+	category = 4
 
 	gold = 0.2
 	
@@ -83,7 +83,7 @@ moonstone = { #Added
 }
 
 malachite = { #Added
-	category = 0
+	category = 4
 
 	gold = 0.2
 	
@@ -284,6 +284,21 @@ beasts = { #Added
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
+}
+
+soul_gems = { #Added
+	category = 4
+	
+	gold = 0.5
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		modded_mages_offensive = 0.1
+	}
+
+	color = rgb { 255 255 255 }
 }
 
 precious_metals = { #107 territories
