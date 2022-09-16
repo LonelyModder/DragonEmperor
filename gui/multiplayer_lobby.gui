@@ -240,14 +240,35 @@ types MultiplayerLobby
 						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetHeaderToolTip]"
 					}
 					
-					cpt_button = {
-						position = { 4 36 }
-						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
-						tooltipwidget = Character_tooltip	
-						blockoverride "portrait_button_template_onclick" {}
-						blockoverride "portrait_button_template_onrightclick" {}
-						blockoverride "portrait_button_template_tooltip" {}
-						
+					#cpt_button = {
+					#	position = { 4 36 }
+					#	blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					#	tooltipwidget = Character_tooltip	
+					#	blockoverride "portrait_button_template_onclick" {}
+					#	blockoverride "portrait_button_template_onrightclick" {}
+					#	blockoverride "portrait_button_template_tooltip" {}
+					#	
+					#}
+					#Altmer
+					portrait_button = {
+						size = { 100 150 }
+						position = { -200 0 }
+						datacontext = "[GetScriptedGui('is_an_altmer_male')]"
+						visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( LobbyView.GetSelectedPlayable.GetRuler.MakeScope ).End )]"
+						using = pt_button_large
+						parentanchor = bottom|right
+						pop_out = yes
+						block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
+					}
+					portrait_button = {
+						size = { 100 150 }
+						position = { -200 0 }
+						datacontext = "[GetScriptedGui('is_an_altmer_female')]"
+						visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( LobbyView.GetSelectedPlayable.GetRuler.MakeScope ).End )]"
+						using = pt_button_large
+						parentanchor = bottom|right
+						pop_out = yes
+						block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
 					}
 					
 					container = {

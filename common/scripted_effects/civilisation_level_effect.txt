@@ -16,7 +16,7 @@
 						owner = { country_culture_group = altmer } 
 					}
 				}
-				add_civilization_value = 5
+				add_civilization_value = 10
 			}
 			if = {
 				limit = { terrain = mountain }

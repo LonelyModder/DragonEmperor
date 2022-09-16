@@ -561,7 +561,7 @@ base_window = {
 					size = { 0 206 }
 					margin_top = 2
 					layoutpolicy_horizontal = expanding
-
+					
 					hbox = {
 						layoutpolicy_horizontal = expanding
 						cpt_button_large = {
@@ -569,8 +569,9 @@ base_window = {
 							blockoverride "Context" { datacontext = "[GovernmentView.GetPlayer.GetRuler]" }
 							blockoverride "ShowIcons" { visible = no }
 							blockoverride "BottomPortraitPosition" {
-								position = { -8 18 }
-								visible = no
+								size = { 130 180 }
+								position = { -4 14 }
+								visible = no #theline
 							}
 							#blockoverride "BottomPortraitSize" { visible = no }
 
@@ -923,37 +924,33 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
-
+							#Altmer
 							portrait_button = {
-								size = { 125 180 }
-								position = { -4 14 }
+								name = "rulerpic"
+								size = { 130 180 }
+								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
-								using = pt_button_large
-								parentanchor = bottom|left
 								using = tooltip_es_portrait
+								parentanchor = bottom|right
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetRuler.Self, GovernmentView.GetPlayer.GetRuler.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetRuler.Self, GovernmentView.GetPlayer.GetRuler.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
 							}
 							portrait_button = {
-								size = { 130 195 }
-								position = { -4 14 }
+								name = "rulerpic"
+								size = { 130 180 }
+								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
-								using = pt_button_large
-								parentanchor = bottom|left
 								using = tooltip_es_portrait
+								parentanchor = bottom|right
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetRuler.Self, GovernmentView.GetPlayer.GetRuler.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetRuler.Self, GovernmentView.GetPlayer.GetRuler.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
 							}
 
 							portrait_button = {
 								name = "consortpic"
-								size = { 130 195 }
+								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
 								using = pt_button_large
@@ -964,29 +961,25 @@ base_window = {
 							}
 
 							portrait_button = {
-								size = { 125 180 }
+								name = "consortpic"
+								size = { 130 180 }
 								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
-								using = pt_button_large
-								parentanchor = bottom|right
 								using = tooltip_es_portrait
+								parentanchor = bottom|right
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetConsort.Self, GovernmentView.GetPlayer.GetConsort.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetConsort.Self, GovernmentView.GetPlayer.GetConsort.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
 							}
 							portrait_button = {
-								size = { 130 195 }
+								name = "consortpic"
+								size = { 130 180 }
 								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
-								using = pt_button_large
-								parentanchor = bottom|right
 								using = tooltip_es_portrait
+								parentanchor = bottom|right
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetConsort.Self, GovernmentView.GetPlayer.GetConsort.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetConsort.Self, GovernmentView.GetPlayer.GetConsort.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
 							}
 
@@ -1018,29 +1011,25 @@ base_window = {
 							}
 
 							portrait_button = {
-								size = { 125 180 }
+								name = "corulerpic"
+								size = { 130 180 }
 								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
 								using = pt_button_large
 								parentanchor = bottom|right
-								using = tooltip_es_portrait
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetCoRuler.Self, GovernmentView.GetPlayer.GetCoRuler.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetCoRuler.Self, GovernmentView.GetPlayer.GetCoRuler.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
 							}
 							portrait_button = {
-								size = { 130 195 }
+								name = "corulerpic"
+								size = { 130 180 }
 								position = { 4 14 }
 								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
 								using = pt_button_large
 								parentanchor = bottom|right
-								using = tooltip_es_portrait
 								pop_out = yes
-								block "Background" { background_texture = "[GetCharacterBackgroundIcon( GovernmentView.GetPlayer.GetCoRuler.Self, GovernmentView.GetPlayer.GetCoRuler.GetLocation.GetTerrain )]" }
-								block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( GovernmentView.GetPlayer.GetCoRuler.Self, GovernmentView.GetPlayer.GetCoRuler.GetLocation.GetTerrain )]" }
 								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
 							}
 
