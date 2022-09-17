@@ -4,7 +4,7 @@
 
 deity_vigyld = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		polytheistic_check_religion_trigger = no
 		OR = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
@@ -36,7 +36,7 @@ deity_vigyld = {
 
 deity_sargeld = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		polytheistic_check_religion_trigger = no
 		OR = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
@@ -64,7 +64,7 @@ deity_sargeld = {
 
 deity_anuion = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		polytheistic_check_religion_trigger = no
 		OR = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
@@ -93,7 +93,7 @@ deity_anuion = {
 
 deity_moawita = {
 	trigger = {
-		polytheistic_check_religion_trigger = yes
+		polytheistic_check_religion_trigger = no
 		OR = {
 			common_deity_trigger = {
 				RELIGION = oldelven_pantheon
