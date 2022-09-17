@@ -106,6 +106,10 @@ units_allowance_events.1 = {
 						trade_goods = griphons
 					}					
 				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer
+				}
 			}
 			allow_modded_griphons = yes
 		}

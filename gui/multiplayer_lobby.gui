@@ -240,14 +240,24 @@ types MultiplayerLobby
 						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetHeaderToolTip]"
 					}
 					
+					#cpt_button = {
+					#	position = { 4 36 }
+					#	blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					#	tooltipwidget = Character_tooltip	
+					#	blockoverride "portrait_button_template_onclick" {}
+					#	blockoverride "portrait_button_template_onrightclick" {}
+					#	blockoverride "portrait_button_template_tooltip" {}
+					#	
+					#}
 					cpt_button = {
 						position = { 4 36 }
-						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
-						tooltipwidget = Character_tooltip	
+						datacontext = "[GetScriptedGui('is_an_altmer_male')]"
+						visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( LobbyView.GetSelectedPlayable.GetCountry.GetRuler.MakeScope ).End )]" 
+						portrait_texture = "gfx/portraits/altmer_male.dds" 
+						tooltipwidget = Character_tooltip
 						blockoverride "portrait_button_template_onclick" {}
 						blockoverride "portrait_button_template_onrightclick" {}
 						blockoverride "portrait_button_template_tooltip" {}
-						
 					}
 					
 					container = {

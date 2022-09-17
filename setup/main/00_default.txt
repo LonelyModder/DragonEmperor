@@ -36,9 +36,16 @@ treasure_manager = {
 		}
 		5 = { # Ceporah Tower
 			key = "treasure_ceporah_portal"
-			icon = "treasure_chest"
+			icon = "treasure_architecture"
 			state_modifier = {
 				local_research_points_modifier = 0.1
+			}
+		}
+		6 = { # Kings Havens Pass
+			key = "treasure_coral_splitters_totem"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_tribesmen_happyness = 0.1
 			}
 		}
     }
@@ -72,6 +79,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	595 = { # Ceporah Torer
 		treasure_slots = { 	treasures = { 5 } }
+	}
+	739 = { # Kings Havens Pass
+		treasure_slots = { 	treasures = { 6 } }
 	}
 
 	### BUILDINGS

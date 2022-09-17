@@ -898,6 +898,34 @@ base_window = {
 								}
 							}
 
+							#portrait_button = {
+							#	name = "rulerpic"
+							#	size = { 130 195 }
+							#	position = { -4 14 }
+							#	parentanchor = bottom|left
+							#	using = pt_button_large
+							#	pop_out = yes
+							#	datacontext = "[GovernmentView.GetPlayer.GetRuler]"
+							#	visible = "[Not(EqualTo_int32(Character.GetID, '(int32)42'))]"
+							#	portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
+							#	icon_card = {
+							#		visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+							#		size = { 40 40 }
+							#		position = { 6 -16 }
+							#		parentanchor = bottom
+							#		blockoverride "Icon"
+							#		{
+							#			texture = "[GetPartyIcon( Character.GetParty )]"
+							#		}
+							#		block "PartyIconVisibility"
+							#		{
+							#			visible = "[Character.ShowParty]"
+							#		}
+							#		tooltip = "[Character.GetPartyTooltip]"
+							#	}
+							#}
+							#Altmer
+							#To Do
 							portrait_button = {
 								name = "rulerpic"
 								size = { 130 195 }
@@ -905,35 +933,8 @@ base_window = {
 								parentanchor = bottom|left
 								using = pt_button_large
 								pop_out = yes
-								datacontext = "[GovernmentView.GetPlayer.GetRuler]"
-								visible = "[Not(EqualTo_int32(Character.GetID, '(int32)42'))]"
-								portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
-								icon_card = {
-									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
-									size = { 40 40 }
-									position = { 6 -16 }
-									parentanchor = bottom
-									blockoverride "Icon"
-									{
-										texture = "[GetPartyIcon( Character.GetParty )]"
-									}
-									block "PartyIconVisibility"
-									{
-										visible = "[Character.ShowParty]"
-									}
-									tooltip = "[Character.GetPartyTooltip]"
-								}
-							}
-							#Altmer
-							portrait_button = {
-								name = "rulerpic2"
-								size = { 130 195 }
-								position = { -4 14 }
-								parentanchor = bottom|left
-								using = pt_button_large
-								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
-								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/altmer_male.dds"
 								icon_card = {
 									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
@@ -952,14 +953,14 @@ base_window = {
 								}
 							}
 							portrait_button = {
-								name = "rulerpic3"
+								name = "rulerpic2"
 								size = { 130 195 }
 								position = { -4 14 }
 								parentanchor = bottom|left
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
-								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/altmer_female.dds"
 								icon_card = {
 									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
@@ -977,7 +978,233 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
+							#Goblin
+							portrait_button = {
+								name = "rulerpic3"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_goblin_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/goblin_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic4"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_goblin_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/goblin_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Ayleid
+							portrait_button = {
+								name = "rulerpic5"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_ayleid_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/ayleid_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic6"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_ayleid_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/ayleid_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Nede
+							portrait_button = {
+								name = "rulerpic7"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nede_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/nede_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic8"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nede_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/nede_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Bosmer
+							portrait_button = {
+								name = "rulerpic9"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_bosmer_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/bosmer_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic10"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_bosmer_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/bosmer_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
 
+							#portrait_button = {
+							#	name = "consortpic"
+							#	size = { 130 180 }
+							#	position = { 4 14 }
+							#	parentanchor = bottom|right
+							#	using = pt_button_large
+							#	pop_out = yes
+							#	datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+							#	visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), Not(EqualTo_int32(Character.GetID, '(int32)42')))]"
+							#	portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							#}
+
+							#Altmer
+							#To Do
 							portrait_button = {
 								name = "consortpic"
 								size = { 130 180 }
@@ -985,32 +1212,112 @@ base_window = {
 								parentanchor = bottom|right
 								using = pt_button_large
 								pop_out = yes
-								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), Not(EqualTo_int32(Character.GetID, '(int32)42')))]"
-								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/altmer_male.dds"
 							}
-
 							portrait_button = {
 								name = "consortpic2"
 								size = { 130 180 }
 								position = { 4 14 }
-								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End ))]"
-								using = tooltip_es_portrait
 								parentanchor = bottom|right
+								using = pt_button_large
 								pop_out = yes
-								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
+								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/altmer_female.dds"
 							}
+							#Goblin
 							portrait_button = {
 								name = "consortpic3"
 								size = { 130 180 }
 								position = { 4 14 }
-								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End ))]"
-								using = tooltip_es_portrait
 								parentanchor = bottom|right
+								using = pt_button_large
 								pop_out = yes
-								block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
+								datacontext = "[GetScriptedGui('is_an_goblin_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/goblin_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic4"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_goblin_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/goblin_female.dds"
+							}
+							#Ayleid
+							portrait_button = {
+								name = "consortpic5"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_ayleid_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/ayleid_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic6"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_ayleid_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/ayleid_female.dds"
+							}
+							#Nede
+							portrait_button = {
+								name = "consortpic7"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nede_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/nede_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic8"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nede_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/nede_female.dds"
+							}
+							#Bosmer
+							portrait_button = {
+								name = "consortpic9"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_bosmer_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/bosmer_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic10"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_bosmer_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/bosmer_female.dds"
 							}
 
 							portrait_button = {
@@ -1040,58 +1347,7 @@ base_window = {
 								}
 							}
 							#Altmer
-							portrait_button = {
-								name = "corulerpic2"
-								size = { 130 195 }
-								parentanchor = bottom|right
-								position = { 4 14 }
-								using = pt_button_large
-								pop_out = yes
-								datacontext = "[GetScriptedGui('is_an_altmer_male')]"
-								visible = "[And(GovernmentView.GetPlayer.UseCoRuler, ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End ))]"
-								portrait_texture = "gfx/portraits/altmer_male.dds"
-								icon_card = {
-									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
-									size = { 40 40 }
-									position = { -6 -16 }
-									parentanchor = bottom|right
-									blockoverride "Icon"
-									{
-										texture = "[GetPartyIcon( Character.GetParty )]"
-									}
-									block "PartyIconVisibility"
-									{
-										visible = "[Character.ShowParty]"
-									}
-									tooltip = "[Character.GetPartyTooltip]"
-								}
-							}
-							portrait_button = {
-								name = "corulerpic3"
-								size = { 130 195 }
-								parentanchor = bottom|right
-								position = { 4 14 }
-								using = pt_button_large
-								pop_out = yes
-								datacontext = "[GetScriptedGui('is_an_altmer_female')]"
-								visible = "[And(GovernmentView.GetPlayer.UseCoRuler, ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End ))]"
-								portrait_texture = "gfx/portraits/altmer_female.dds"
-								icon_card = {
-									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
-									size = { 40 40 }
-									position = { -6 -16 }
-									parentanchor = bottom|right
-									blockoverride "Icon"
-									{
-										texture = "[GetPartyIcon( Character.GetParty )]"
-									}
-									block "PartyIconVisibility"
-									{
-										visible = "[Character.ShowParty]"
-									}
-									tooltip = "[Character.GetPartyTooltip]"
-								}
-							}
+							#To Do
 
 							icon = {
 								size = { 100% 100% }
