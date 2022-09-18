@@ -44,3 +44,19 @@ bosmer = {
 	zeal = 1
 	
 }
+
+pure = {
+	type = personality
+	opposites = {
+		impure
+	}
+	charisma = 2
+}
+
+impure = {
+	type = personality
+	opposites = {
+		pure
+	}
+	charisma = -2
+}

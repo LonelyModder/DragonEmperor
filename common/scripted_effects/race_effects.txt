@@ -4,6 +4,7 @@
 			has_culture_group = altmer
 		}
 		add_trait = altmer
+		add_trait = pure
 	}
 	else_if = {
 		limit = {
