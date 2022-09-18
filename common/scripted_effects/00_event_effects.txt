@@ -2495,7 +2495,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				country_culture_group = altmer
+				has_culture_group = altmer
 			}
 		}
 		commander = {
@@ -2537,7 +2537,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				country_culture_group = ayleid
+				has_culture_group = ayleid
 			}
 		}
 		commander = {
@@ -2579,7 +2579,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				country_culture_group = bosmer
+				has_culture_group = bosmer
 			}
 		}
 		commander = {
@@ -2621,7 +2621,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				country_culture_group = nede
+				has_culture_group = nede
 			}
 		}
 		commander = {
@@ -2653,7 +2653,7 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				country_culture_group = goblin
+				has_culture_group = goblin
 			}
 		}
 		commander = {
