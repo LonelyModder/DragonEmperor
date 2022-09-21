@@ -80,3 +80,21 @@ levy_nedic = { #nedic militia
 	modded_spearmen = 0.5
 	modded_axemen = 0.3
 }
+
+#Orcish
+
+levy_orcish = { #orcish militia
+	default = no
+
+	modded_archers = 0.2
+	modded_axemen = 0.6
+	modded_spearmen = 0.2
+}
+
+levy_woodorcish = { #orcish militia
+	default = no
+
+	modded_archers = 0.4
+	modded_axemen = 0.3
+	modded_spearmen = 0.3
+}

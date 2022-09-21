@@ -30,4 +30,10 @@
 		}
 		add_trait = nede
 	}
+	else_if = {
+		limit = {
+			has_culture_group = orcish
+		}
+		add_trait = orc
+	}
 }

@@ -37,6 +37,12 @@ esfa_traits.1 = {
 			}
 			add_trait = ayleid
 		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = orc }
+			}
+			add_trait = orc
+		}
 		#Altmer racism
 		if = {
 			limit = {

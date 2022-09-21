@@ -14,7 +14,10 @@ militarism_events.1 = {
 	immediate = {
 		if = {
 			limit = {
-				country_culture_group = goblin			
+				OR = {
+					country_culture_group = goblin	
+					country_culture_group = orcish	
+				}				
 			}
 			add_country_modifier = {
 				name = fanatical_culture

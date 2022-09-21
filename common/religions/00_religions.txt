@@ -36,9 +36,20 @@ goblin_pantheon = { # Goblin Faith
 	modifier = { 
 		agressive_expansion_monthly_change = -0.025
 		global_manpower_modifier = 0.05
-		global_tax_modifier = -0.25
+		diplomatic_reputation = -2
 	}
 	religion_category = pantheon
+}
+
+codeofmalacath_pantheon = { # Orcish Faith
+	color = hsv { 0.30 0.81 0.49 }
+	modifier = { 
+		agressive_expansion_monthly_change = -0.025
+		global_manpower_modifier = 0.05
+		diplomatic_relations = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
 }
 
 green_pantheon = { # Bosmer Faith
