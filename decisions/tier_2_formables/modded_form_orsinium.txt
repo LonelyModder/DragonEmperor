@@ -10,7 +10,10 @@
 				is_tier_2_formable_trigger = yes
 				is_endgame_tag_trigger = yes
 			}
-			country_culture_group = goblin
+			OR = {
+				country_culture_group = goblin
+				country_culture_group = orcish
+			}
 		}
 		
 		allow = {
@@ -23,7 +26,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			num_of_cities >= 200
+			num_of_cities >= 100
 		}
 		
 		effect = {
