@@ -1,0 +1,35 @@
+﻿minotauric = {	
+	color = hsv { 0.30 0.81 0.49 }
+
+	primary = modded_archers
+	second = modded_axemen
+	flank = modded_beasts
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_minotaurish
+
+	male_names = {
+		 
+	}
+	female_names = {
+		
+	}
+	family = {
+		
+	}
+	culture = {
+		battlehorn = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = orcish_gfx
+	ethnicities = {
+		10 = orcish
+	}
+}

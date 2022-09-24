@@ -13,6 +13,12 @@ esfa_traits.1 = {
 			}
 			add_trait = altmer
 		}	
+		if = {
+			limit = {
+				mother = { has_trait = minotaur }
+			}
+			add_trait = minotaur
+		}
 		else_if = { 
 			limit = {
 				mother = { has_trait = bosmer }

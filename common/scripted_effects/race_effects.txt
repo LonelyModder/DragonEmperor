@@ -36,4 +36,10 @@
 		}
 		add_trait = orc
 	}
+	else_if = {
+		limit = {
+			has_culture_group = minotaurish
+		}
+		add_trait = minotaur
+	}
 }

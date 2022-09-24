@@ -75,6 +75,21 @@ orcish_heritage = {
 	}
 }
 
+minotauric_heritage = { 
+	modifier = {
+		#good
+		land_morale_modifier = 0.2
+		army_maintenance_cost = -0.2
+		
+		#bad
+		improve_relation_impact = -0.25
+	}
+	
+	trigger = {
+		country_culture_group = orcish
+	}
+}
+
 bosmer_heritage = { 
 	modifier = {
 		#good

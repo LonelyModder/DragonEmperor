@@ -4,8 +4,8 @@
 	fertility = -0.3
 	health = 5.0
 	charisma = 1
-	finesse = 1
-	zeal = 2
+	finesse = 2
+	zeal = 4
 	
 }
 
@@ -13,7 +13,7 @@ nede = {
 	type = status
 	charisma = 2
 	zeal = 1
-	martial = 1
+	martial = 2
 }
 
 goblin = {
@@ -30,14 +30,21 @@ orc = {
 	martial = 4
 }
 
+minotaur = {
+	type = status
+	charisma = 1
+	zeal = 2
+	martial = 8
+}
+
 ayleid = {
 	type = status
 	
 	fertility = -0.3
 	health = 3.0
-	charisma = 1
 	finesse = 2
 	martial = 1
+	zeal = 4
 	
 }
 
@@ -47,7 +54,7 @@ bosmer = {
 	fertility = -0.3
 	health = 3.0
 	charisma = 2
-	martial = 1
+	martial = 2
 	zeal = 1
 	
 }

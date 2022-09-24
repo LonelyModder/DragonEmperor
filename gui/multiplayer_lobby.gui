@@ -375,6 +375,27 @@ types MultiplayerLobby
 						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'orcish'))]"
 						portrait_texture = "gfx/portraits/orc_female.dds"
 					}
+					#Minotaur
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'minotauric'))]"
+						portrait_texture = "gfx/portraits/minotaur_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'minotauric'))]"
+						portrait_texture = "gfx/portraits/minotaur_female.dds"
+					}
 					
 					container = {
 						using = NoninteractableBG

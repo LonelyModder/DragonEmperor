@@ -1243,6 +1243,59 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
+							#Minotaur
+							portrait_button = {
+								name = "rulerpic13"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_minotaur_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/minotaur_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic14"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_minotaur_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/minotaur_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
 
 							#portrait_button = {
 							#	name = "consortpic"
@@ -1373,7 +1426,7 @@ base_window = {
 							}
 							#Orc
 							portrait_button = {
-								name = "consortpic9"
+								name = "consortpic11"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1384,7 +1437,7 @@ base_window = {
 								portrait_texture = "gfx/portraits/orc_male.dds"
 							}
 							portrait_button = {
-								name = "consortpic10"
+								name = "consortpic12"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1393,6 +1446,29 @@ base_window = {
 								datacontext = "[GetScriptedGui('is_an_orc_female')]"
 								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
 								portrait_texture = "gfx/portraits/orc_female.dds"
+							}
+							#Minotaur
+							portrait_button = {
+								name = "consortpic13"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_minotaur_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/minotaur_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic14"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_minotaur_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/minotaur_female.dds"
 							}
 
 							portrait_button = {
