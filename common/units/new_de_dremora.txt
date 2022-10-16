@@ -1,0 +1,43 @@
+﻿new_de_dremora = {
+	#default = yes	
+	army = yes
+	assault = yes
+	
+	levy_tier = basic	
+	
+	maneuver = 1
+	movement_speed = 2.5
+	build_time = 30
+
+	new_he_griphons = 0.9	
+	new_he_soldiers = 0.9	
+	new_he_battlemages = 0.9	
+	new_go_warriors = 1.5	
+	new_go_durzogs = 1.3	
+	new_ne_hoplites = 1.5	
+	new_ne_spearthrowers = 1.3	
+	new_bo_archers = 1.1	
+	new_bo_beasts = 1.5	
+	new_ay_footmen = 1.3	
+	new_ay_mages = 0.9	
+	new_ay_horsearchers = 0.9	
+	new_de_dremora = 1
+	new_un_corpse = 1.5	
+	new_le_cohort = 1.3	
+	new_le_archers = 1.3	
+	new_le_cavalry = 1.1	
+	new_mi_minotaur = 1.3
+	supply_train = 2.0
+	
+	attrition_weight = 0.5
+	attrition_loss = 0.025
+	
+	food_consumption = 0.10
+	food_storage = 2.4
+	
+	morale_damage_taken = 0.7
+	build_cost = {
+		gold = 8
+		manpower = 1
+	}
+}
