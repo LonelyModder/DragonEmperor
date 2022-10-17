@@ -3,10 +3,7 @@
 levy_default = {
 	default = yes
 
-	modded_archers = 0.2
-	modded_spearmen = 0.5
-	modded_cavalry = 0.2
-	modded_mages = 0.1
+	new_bo_beasts = 1
 }
 
 #Altmer
@@ -14,28 +11,23 @@ levy_default = {
 levy_altmer = { #alinoric militia
 	default = no
 
-	modded_archers = 0.1
-	modded_spearmen = 0.5
-	modded_cavalry = 0.1
-	modded_mages = 0.3
+	new_he_soldiers = 0.7
+	new_he_battlemages = 0.3
 }
 
 levy_griphonic = { #sunhold militia
 	default = no
 
-	modded_archers = 0.1
-	modded_spearmen = 0.4
-	modded_griphons = 0.1
-	modded_cavalry = 0.1
-	modded_mages = 0.3
+	new_he_griphons = 0.2
+	new_he_soldiers = 0.6
+	new_he_battlemages = 0.2
 }
 
 levy_psijic = { #psijic militia
 	default = no
 
-	modded_spearmen = 0.3
-	modded_mages = 0.6
-	modded_cavalry = 0.1
+	new_he_soldiers = 0.4
+	new_he_battlemages = 0.6
 }
 
 #Goblin
@@ -43,10 +35,8 @@ levy_psijic = { #psijic militia
 levy_goblin = { #goblin militia
 	default = no
 
-	modded_archers = 0.2
-	modded_beasts = 0.2
-	modded_axemen = 0.5
-	modded_mages = 0.1
+	new_go_warriors = 0.7
+	new_go_durzogs = 0.3
 }
 
 #Bosmer
@@ -54,10 +44,8 @@ levy_goblin = { #goblin militia
 levy_bosmer = { #bosmer militia
 	default = no
 
-	modded_archers = 0.4
-	modded_swordsmen = 0.2
-	modded_mages = 0.1
-	modded_beasts = 0.3
+	new_bo_archers = 0.7
+	new_bo_beasts = 0.3
 }
 
 #Ayleid
@@ -65,10 +53,9 @@ levy_bosmer = { #bosmer militia
 levy_ayleid = { #ayleid militia
 	default = no
 
-	modded_archers = 0.1
-	modded_spearmen = 0.5
-	modded_mages = 0.2
-	modded_cavalry = 0.2
+	new_ay_footmen = 0.5
+	new_ay_mages = 0.2
+	new_ay_horsearchers = 0.3
 }
 
 #Nedic
@@ -76,9 +63,16 @@ levy_ayleid = { #ayleid militia
 levy_nedic = { #nedic militia
 	default = no
 
-	modded_archers = 0.2
-	modded_spearmen = 0.5
-	modded_axemen = 0.3
+	new_ne_hoplites = 0.7
+	new_ne_spearthrowers = 0.3
+}
+
+#Minotauric
+
+levy_minotaurish = { #nedic militia
+	default = no
+
+	new_mi_minotaur = 1
 }
 
 #Orcish
@@ -86,15 +80,11 @@ levy_nedic = { #nedic militia
 levy_orcish = { #orcish militia
 	default = no
 
-	modded_archers = 0.2
-	modded_axemen = 0.6
-	modded_spearmen = 0.2
+	new_bo_beasts = 1
 }
 
 levy_woodorcish = { #orcish militia
 	default = no
 
-	modded_archers = 0.4
-	modded_axemen = 0.3
-	modded_spearmen = 0.3
+	new_bo_beasts = 1
 }

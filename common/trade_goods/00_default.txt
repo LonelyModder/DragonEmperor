@@ -34,16 +34,18 @@ salt = { #177 territories
 iron = { #119 territories
 	category = 0
 	
-	allow_unit_type = modded_swordsmen
-	allow_unit_type = modded_axemen
+	#allow_unit_type = modded_swordsmen
+	#allow_unit_type = modded_axemen
 	gold = 0.3
 	
 	province = {
 		local_tax_modifier = 0.02
 	}
 	country = {
-		modded_swordsmen_defensive = 0.1
-		modded_axemen_defensive = 0.1
+		new_go_warriors_defensive = 0.05
+		new_ne_hoplites_defensive = 0.05
+		new_he_soldiers_defensive = 0.05
+		new_ay_footmen_defensive = 0.05
 	}
 
 	color = hsv { 0.0 0.0 0.11 }
@@ -51,16 +53,18 @@ iron = { #119 territories
 
 ebon = { #Added
 	category = 0
-	allow_unit_type = modded_swordsmen
-	allow_unit_type = modded_axemen
+	#allow_unit_type = modded_swordsmen
+	#allow_unit_type = modded_axemen
 	gold = 0.5
 	
 	province = {
 		local_tax_modifier = 0.05
 	}
 	country = {
-		modded_swordsmen_offensive = 0.05
-		modded_axemen_offensive = 0.05
+		new_go_warriors_defensive = 0.05
+		new_ne_hoplites_defensive = 0.05
+		new_he_soldiers_defensive = 0.05
+		new_ay_footmen_defensive = 0.05
 	} 
 	
 	color = hsv { 0.76 0.83 0.39 }
@@ -75,8 +79,8 @@ moonstone = { #Added
 		local_tax_modifier = 0.02
 	}
 	country = {
-		modded_swordsmen_offensive = 0.05
-		modded_axemen_offensive = 0.05
+		new_he_soldiers_defensive = 0.05
+		new_ay_footmen_defensive = 0.05
 	} 
 	
 	color = hsv { 0.18 0.44 0.66 }
@@ -91,8 +95,8 @@ malachite = { #Added
 		local_tax_modifier = 0.02
 	}
 	country = {
-		modded_swordsmen_offensive = 0.05
-		modded_axemen_offensive = 0.05
+		new_he_soldiers_defensive = 0.05
+		new_ay_footmen_defensive = 0.05
 	} 
 	
 	color = hsv { 0.18 0.44 0.66 }
@@ -212,7 +216,7 @@ spices = { #58 territories
 
 griphons = { #Added
 	category = 0
-	allow_unit_type = modded_griphons
+	allow_unit_type = new_he_griphons
 	
 	gold = 0.3
 	
@@ -220,7 +224,7 @@ griphons = { #Added
 		local_output_modifier = 0.03
 	}
 	country = {
-		modded_griphons_discipline = 0.1
+		new_he_griphons_discipline = 0.1
 	}
 	
 	color = hsv { 0.01 1 0.81 }	
@@ -265,7 +269,8 @@ wild_game = { #190 territories
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_archers_discipline = 0.1
+		new_bo_archers_discipline = 0.1
+		new_ay_horsearchers_discipline = 0.1
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
@@ -273,17 +278,32 @@ wild_game = { #190 territories
 
 beasts = { #Added
 	category = 0
-	allow_unit_type = modded_beasts
+	allow_unit_type = new_bo_beasts
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_beasts_discipline = 0.1
+		new_bo_beasts_discipline = 0.1
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
+}
+
+durzogs = { #Added
+	category = 0
+	allow_unit_type = new_go_durzogs
+	gold = 0.2
+	
+	province = {
+		local_tribesmen_happyness = happiness_small_svalue
+	}
+	country = {
+		new_go_durzogs_discipline = 0.1
+	}
+
+	color = rgb { 56 32 15 }
 }
 
 soul_gems = { #Added
@@ -295,7 +315,7 @@ soul_gems = { #Added
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_mages_offensive = 0.1
+		new_ay_mages_offensive = 0.1
 	}
 
 	color = rgb { 255 255 255 }
@@ -316,25 +336,26 @@ precious_metals = { #107 territories
 	color = hsv { 0.085 0.95 1 }
 }
 
-steppe_horses = { #90 territories
-	category = 0
-	allow_unit_type = modded_horse_archers
-	
-	gold = 0.25
-	
-	province = {
-		local_output_modifier = 0.01
-	}
-	country = {
-		modded_horse_archers_discipline = 0.1
-	}
-	
-	color = hsv { 0.1 0.5 0.8 }
-}
+#steppe_horses = { #90 territories
+#	category = 0
+#	allow_unit_type = modded_horse_archers
+#	
+#	gold = 0.25
+#	
+#	province = {
+#		local_output_modifier = 0.01
+#	}
+#	country = {
+#		modded_horse_archers_discipline = 0.1
+#	}
+#	
+#	color = hsv { 0.1 0.5 0.8 }
+#}
 
 horses = { #276 territories
 	category = 0
-	allow_unit_type = modded_cavalry
+	allow_unit_type = new_ay_horsearchers
+	allow_unit_type = new_le_cavalry
 	
 	gold = 0.25
 	
@@ -342,7 +363,8 @@ horses = { #276 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		modded_cavalry_discipline = 0.1
+		new_le_cavalry_discipline = 0.1
+		new_ay_horsearchers_discipline = 0.1
 	}
 
 	color = hsv { 0.05 0.9 0.5 }
@@ -395,14 +417,16 @@ dye = { #48 territories
 
 circle_of_mages = { #Added
 	category = 0
-	allow_unit_type = modded_mages
+	allow_unit_type = new_he_battlemages
+	allow_unit_type = new_ay_mages
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_mages_discipline = 0.1
+		new_ay_mages_discipline = 0.1
+		new_he_battlemages_discipline = 0.1
 	}
 	
 	color = { 0.57 0.95 0.78 }
@@ -410,14 +434,14 @@ circle_of_mages = { #Added
 
 cabal_of_witches = { #Added
 	category = 0
-	allow_unit_type = modded_deadra
+	allow_unit_type = new_de_dremora
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_deadra_discipline = 0.1
+		new_de_dremora_discipline = 0.1
 	}
 	
 	color = { 0.0 0.0 0.0 }
@@ -425,14 +449,14 @@ cabal_of_witches = { #Added
 
 necromancers = { #Added
 	category = 0
-	allow_unit_type = modded_undead
+	allow_unit_type = new_un_corpse
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_undead_discipline = 0.1
+		new_un_corpse_discipline = 0.1
 	}
 	
 	color = { 0.0 0.04 0.4 }
@@ -477,8 +501,8 @@ leather = { #338 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		modded_spearmen_defensive = 0.1
-		modded_axemen_defensive = 0.1
+		new_go_warriors_defensive = 0.1
+		new_bo_archers_defensive = 0.1
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
@@ -590,7 +614,7 @@ gems = { #44 Territories
 }
 
 camel = { #63 territories
-	allow_unit_type = modded_camels
+	#allow_unit_type = modded_camels
 	category = 0
 	
 	gold = 0.25
