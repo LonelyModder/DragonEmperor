@@ -2513,23 +2513,23 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = modded_mages
+				add_loyal_subunit = new_he_battlemages
 			}
 			25 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
+								is_importing_trade_good = griphons
+								trade_goods = griphons
 							}
 						}
 					}
 				}
-				add_loyal_subunit = modded_cavalry
+				add_loyal_subunit = new_he_griphons
 			}
 			25 = {
-				add_loyal_subunit = modded_archers
+				add_loyal_subunit = new_he_soldiers
 			}
 		}
 	}
@@ -2555,7 +2555,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = modded_mages
+				add_loyal_subunit = new_ay_mages
 			}
 			25 = {
 				trigger = {
@@ -2568,10 +2568,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = modded_cavalry
+				add_loyal_subunit = new_ay_horsearchers
 			}
 			25 = {
-				add_loyal_subunit = modded_archers
+				add_loyal_subunit = new_ay_footmen
 			}
 		}
 	}
@@ -2597,23 +2597,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = modded_beasts
+				add_loyal_subunit = new_bo_beasts
 			}
 			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = modded_cavalry
-			}
-			25 = {
-				add_loyal_subunit = modded_archers
+				add_loyal_subunit = new_bo_archers
 			}
 		}
 	}
@@ -2629,23 +2616,10 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = modded_spearmen
+				add_loyal_subunit = new_ne_hoplites
 			}
 			25 = {
-				add_loyal_subunit = modded_axemen
-			}
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = modded_cavalry
+				add_loyal_subunit = new_ne_spearthrowers
 			}
 		}
 	}
@@ -2661,23 +2635,36 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = modded_spearmen
-			}
-			25 = {
-				add_loyal_subunit = modded_axemen
+				add_loyal_subunit = new_go_warriors
 			}
 			25 = {
 				trigger = {
 					commander.employer = {
 						any_owned_province = {
 							OR = {
-								is_importing_trade_good = beasts
-								trade_goods = beasts
+								is_importing_trade_good = durzogs
+								trade_goods = durzogs
 							}
 						}
 					}
 				}
-				add_loyal_subunit = modded_beasts
+				add_loyal_subunit = new_go_durzogs
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = minotauric
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = new_mi_minotaur
 			}
 		}
 	}

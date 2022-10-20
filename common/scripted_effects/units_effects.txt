@@ -55,172 +55,268 @@
 		name = au14
 		value = flag:na
 	}
+	set_variable = {
+		name = au15
+		value = flag:na
+	}
+	set_variable = {
+		name = au16
+		value = flag:na
+	}
+	set_variable = {
+		name = au17
+		value = flag:na
+	}
+	set_variable = {
+		name = au18
+		value = flag:na
+	}
+	set_variable = {
+		name = au19
+		value = flag:na
+	}
+	set_variable = {
+		name = au20
+		value = flag:na
+	}
 }
-allow_modded_axemen = {
+allow_new_he_griphons = {
 	set_variable = {
 		name = au01
-		value = flag:modded_axemen
+		value = flag:new_he_griphons
 	}
 }
-disallow_modded_axemen = {
+disallow_new_he_griphons = {
 	set_variable = {
 		name = au01
 		value = flag:na
 	}
 }
-allow_modded_archers = {
+allow_new_he_soldiers = {
 	set_variable = {
 		name = au02
-		value = flag:modded_archers
+		value = flag:new_he_soldiers
 	}
 }
-disallow_modded_archers = {
+disallow_new_he_soldiers = {
 	set_variable = {
 		name = au02
 		value = flag:na
 	}
 }
-allow_modded_beasts = {
+allow_new_he_battlemages = {
 	set_variable = {
 		name = au03
-		value = flag:modded_beasts
+		value = flag:new_he_battlemages
 	}
 }
-disallow_modded_beasts = {
+disallow_new_he_battlemages = {
 	set_variable = {
 		name = au03
 		value = flag:na
 	}
 }
-allow_modded_camels = {
+allow_new_go_warriors = {
 	set_variable = {
 		name = au04
-		value = flag:modded_camels
+		value = flag:new_go_warriors
 	}
 }
-disallow_modded_camels = {
+disallow_new_go_warriors = {
 	set_variable = {
 		name = au04
 		value = flag:na
 	}
 }
-allow_modded_cavalry = {
+allow_new_go_durzogs = {
 	set_variable = {
 		name = au05
-		value = flag:modded_cavalry
+		value = flag:new_go_durzogs
 	}
 }
-disallow_modded_cavalry = {
+disallow_new_go_durzogs = {
 	set_variable = {
 		name = au05
 		value = flag:na
 	}
 }
-allow_modded_deadra = {
+allow_new_ne_hoplites = {
 	set_variable = {
 		name = au06
-		value = flag:modded_deadra
+		value = flag:new_ne_hoplites
 	}
 }
-disallow_modded_deadra = {
+disallow_new_ne_hoplites = {
 	set_variable = {
 		name = au06
 		value = flag:na
 	}
 }
-allow_modded_griphons = {
+allow_new_ne_spearthrowers = {
 	set_variable = {
 		name = au07
-		value = flag:modded_griphons
+		value = flag:new_ne_spearthrowers
 	}
 }
-disallow_modded_griphons = {
+disallow_new_ne_spearthrowers = {
 	set_variable = {
 		name = au07
 		value = flag:na
 	}
 }
-allow_modded_horse_archers = {
+allow_new_bo_archers = {
 	set_variable = {
 		name = au08
-		value = flag:modded_horse_archers
+		value = flag:new_bo_archers
 	}
 }
-disallow_modded_horse_archers = {
+disallow_new_bo_archers = {
 	set_variable = {
 		name = au08
 		value = flag:na
 	}
 }
-allow_modded_mages = {
+allow_new_bo_beasts = {
 	set_variable = {
 		name = au09
-		value = flag:modded_mages
+		value = flag:new_bo_beasts
 	}
 }
-disallow_modded_mages = {
+disallow_new_bo_beasts = {
 	set_variable = {
 		name = au09
 		value = flag:na
 	}
 }
-allow_modded_spearmen = {
+allow_new_ay_footmen = {
 	set_variable = {
 		name = au10
-		value = flag:modded_spearmen
+		value = flag:new_ay_footmen
 	}
 }
-disallow_modded_spearmen = {
+disallow_new_ay_footmen = {
 	set_variable = {
 		name = au10
 		value = flag:na
 	}
 }
-allow_modded_swordsmen = {
+allow_new_ay_mages = {
 	set_variable = {
 		name = au11
-		value = flag:modded_swordsmen
+		value = flag:new_ay_mages
 	}
 }
-disallow_modded_swordsmen = {
+disallow_new_ay_mages = {
 	set_variable = {
 		name = au11
 		value = flag:na
 	}
 }
-allow_modded_undead = {
+allow_new_ay_horsearchers = {
 	set_variable = {
 		name = au12
-		value = flag:modded_undead
+		value = flag:new_ay_horsearchers
 	}
 }
-disallow_modded_undead = {
+disallow_new_ay_horsearchers = {
 	set_variable = {
 		name = au12
+		value = flag:na
+	}
+}
+allow_new_de_dremora = {
+	set_variable = {
+		name = au13
+		value = flag:new_de_dremora
+	}
+}
+disallow_new_de_dremora = {
+	set_variable = {
+		name = au13
+		value = flag:na
+	}
+}
+allow_new_un_corpse = {
+	set_variable = {
+		name = au14
+		value = flag:new_un_corpse
+	}
+}
+disallow_new_un_corpse = {
+	set_variable = {
+		name = au14
+		value = flag:na
+	}
+}
+allow_new_le_cohort = {
+	set_variable = {
+		name = au15
+		value = flag:new_le_cohort
+	}
+}
+disallow_new_le_cohort = {
+	set_variable = {
+		name = au15
+		value = flag:na
+	}
+}
+allow_new_le_archers = {
+	set_variable = {
+		name = au16
+		value = flag:new_le_archers
+	}
+}
+disallow_new_le_archers = {
+	set_variable = {
+		name = au16
+		value = flag:na
+	}
+}
+allow_new_le_cavalry = {
+	set_variable = {
+		name = au17
+		value = flag:new_le_cavalry
+	}
+}
+disallow_new_le_cavalry = {
+	set_variable = {
+		name = au17
+		value = flag:na
+	}
+}
+allow_new_mi_minotaur = {
+	set_variable = {
+		name = au18
+		value = flag:new_mi_minotaur
+	}
+}
+disallow_new_mi_minotaur = {
+	set_variable = {
+		name = au18
 		value = flag:na
 	}
 }
 allow_supply_train = {
 	set_variable = {
-		name = au13
+		name = au19
 		value = flag:supply_train
 	}
 }
 disallow_supply_train = {
 	set_variable = {
-		name = au13
+		name = au19
 		value = flag:na
 	}
 }
 allow_engineer_cohort = {
 	set_variable = {
-		name = au14
+		name = au20
 		value = flag:engineer_cohort
 	}
 }
 disallow_engineer_cohort = {
 	set_variable = {
-		name = au14
+		name = au20
 		value = flag:na
 	}
 }

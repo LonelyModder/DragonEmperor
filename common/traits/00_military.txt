@@ -22,8 +22,9 @@ confident = { #
 	character_loyalty = -5
 	martial = 1
 	unit = {
-		modded_cavalry_discipline = 0.05
-		modded_griphons_discipline = 0.05
+		new_he_griphons_discipline = 0.05
+		new_ay_horsearchers_discipline = 0.05
+		new_le_cavalry_discipline = 0.05
 	}
 }
 tactician = { #
@@ -31,10 +32,16 @@ tactician = { #
 	
 	martial = 1
 	unit = {
-		modded_archers_discipline = 0.05
-		modded_spearmen_discipline = 0.05
-		modded_swordsmen_discipline = 0.05
-		modded_horse_archers_discipline = 0.05
+		new_he_soldiers_discipline = 0.05
+		new_go_warriors_discipline = 0.05
+		new_ne_hoplites_discipline = 0.05
+		new_ne_spearthrowers_discipline = 0.05
+		new_bo_archers_discipline = 0.05
+		new_ay_footmen_discipline = 0.05
+		new_ay_horsearchers_discipline = 0.05
+		new_le_cohort_discipline = 0.05
+		new_le_archers_discipline = 0.05
+		new_le_cavalry_discipline = 0.05
 	}
 }
 disciplined = { #
@@ -52,8 +59,10 @@ steadfast = { #
 	character_loyalty = 5
 	
 	unit = {
-		modded_spearmen_discipline = 0.05
-		modded_swordsmen_discipline = 0.05
+		new_he_soldiers_discipline = 0.05
+		new_ne_hoplites_discipline = 0.05
+		new_ay_footmen_discipline = 0.05
+		new_le_cohort_discipline = 0.05
 	}
 }
 aggressive = { #
@@ -61,8 +70,12 @@ aggressive = { #
 	
 	martial = 1
 	unit = {
-		modded_cavalry_discipline = 0.05
-		modded_camels_discipline = 0.05
+		new_he_griphons_discipline = 0.05
+		new_go_durzogs_discipline = 0.05
+		new_bo_beasts_discipline = 0.05
+		new_de_dremora_discipline = 0.05
+		new_le_cavalry_discipline = 0.05
+		new_mi_minotaur_discipline = 0.05
 	}
 }
 brave = {

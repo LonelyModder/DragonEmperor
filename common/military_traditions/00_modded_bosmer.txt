@@ -38,7 +38,7 @@
 	
 	bosmer_path_1 = { ###bosmer path
 		modifier = { 
-			modded_archers_offensive = 0.1
+			new_bo_archers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -46,7 +46,7 @@
 	
 	bosmer_path_2 = { ###bosmer path
 		modifier = { 
-			modded_beasts_offensive = 0.1
+			new_bo_beasts_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_1}
@@ -63,8 +63,8 @@
 	
 	bosmer_path_4a = { ###bosmer path
 		modifier = { 
-			modded_archers_offensive = 0.1
-			modded_archers_discipline = 0.1
+			new_bo_archers_offensive = 0.1
+			new_bo_archers_discipline = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_3}
@@ -80,8 +80,8 @@
 	
 	bosmer_path_6a = { ###bosmer path
 		modifier = { 
-			modded_beasts_discipline = 0.1
-			modded_beasts_defensive = 0.1
+			new_bo_beasts_discipline = 0.1
+			new_bo_beasts_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_5a}
@@ -136,7 +136,7 @@
 	
 	bosmer_path_end_bonus = { ###bosmer path
 		modifier = { 
-			modded_archers_offensive = 0.15
+			new_bo_archers_offensive = 0.15
 			forest_combat_bonus = 0.25
 		}
 		icon = greek_states_path_7

@@ -38,7 +38,7 @@
 	
 	goblin_path_1 = { ###goblin path
 		modifier = { 
-			modded_axemen_cost = -0.15
+			new_go_warriors_cost = -0.15
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -73,8 +73,8 @@
 	
 	goblin_path_2b = { ###goblin path
 		modifier = { 
-			modded_archers_offensive = 0.05
-			modded_archers_defensive = 0.05
+			new_go_warriors_offensive = 0.05
+			new_go_warriors_defensive = 0.05
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}
@@ -113,8 +113,8 @@
 	
 	goblin_path_5b = { ###goblin path
 		modifier = { 
-			modded_spearmen_discipline = 0.1
-			modded_archers_discipline = 0.1
+			new_go_warriors_discipline = 0.1
+			new_go_warriors_discipline = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_4b}
@@ -131,7 +131,7 @@
 	
 	goblin_path_2c = { ###goblin path
 		modifier = { 
-			modded_beasts_offensive = 0.1
+			new_go_durzogs_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}
@@ -139,7 +139,7 @@
 	
 	goblin_path_3c = { ###goblin path
 		modifier = { 
-			modded_beasts_defensive = 0.1
+			new_go_durzogs_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_2c}

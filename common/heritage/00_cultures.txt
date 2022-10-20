@@ -93,7 +93,7 @@ minotauric_heritage = {
 bosmer_heritage = { 
 	modifier = {
 		#good
-		modded_archers_offensive = 0.1
+		new_bo_archers_offensive = 0.1
 		improve_relation_impact = 0.2
 		
 		#bad

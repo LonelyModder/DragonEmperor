@@ -14,90 +14,6 @@ units_allowance_events.1 = {
 	
 	option = {
 		name = "OK"
-		allow_modded_archers = yes
-		allow_modded_spearmen = yes
-		allow_supply_train = yes
-		allow_engineer_cohort = yes
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = beasts
-						trade_goods = beasts
-					}					
-				}
-				OR = {
-					any_country_culture = {
-						is_integrated = yes
-						this.culture.culture_group = culture_group:bosmer
-					}
-					any_country_culture = {
-						is_integrated = yes
-						this.culture.culture_group = culture_group:goblin
-					}
-				}
-			}
-			allow_modded_beasts = yes
-		}
-		else = {
-			disallow_modded_beasts = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = camel
-						trade_goods = camel
-					}					
-				}
-			}
-			allow_modded_camels = yes
-		}
-		else = {
-			disallow_modded_camels = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = horses
-						trade_goods = horses
-					}					
-				}
-			}
-			allow_modded_cavalry = yes
-		}
-		else = {
-			disallow_modded_cavalry = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = cabal_of_witches
-						trade_goods = cabal_of_witches
-					}					
-				}
-				OR = {
-					AND = {
-						has_deity_in_pantheon = deity:omen_meridia
-						deity:omen_meridia = { has_holy_site = yes }
-					}
-					AND = {
-						has_deity_in_pantheon = deity:omen_mechrunesdagon
-						deity:omen_mechrunesdagon = { has_holy_site = yes }
-					}
-					AND = {
-						has_deity_in_pantheon = deity:omen_molagbal
-						deity:omen_molagbal = { has_holy_site = yes }
-					}
-				}
-			}
-			allow_modded_deadra = yes
-		}
-		else = {
-			disallow_modded_deadra = yes
-		}
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -111,24 +27,22 @@ units_allowance_events.1 = {
 					this.culture.culture_group = culture_group:altmer
 				}
 			}
-			allow_modded_griphons = yes
+			allow_new_he_griphons = yes
 		}
 		else = {
-			disallow_modded_griphons = yes
+			disallow_new_he_griphons = yes
 		}
 		if = {
 			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = steppe_horses
-						trade_goods = steppe_horses
-					}					
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer
 				}
 			}
-			allow_modded_horse_archers = yes
+			allow_new_he_soldiers = yes
 		}
 		else = {
-			disallow_modded_horse_archers = yes
+			disallow_new_he_soldiers = yes
 		}
 		if = {
 			limit =  {
@@ -138,51 +52,175 @@ units_allowance_events.1 = {
 						trade_goods = circle_of_mages
 					}					
 				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:altmer
+				}
 			}
-			allow_modded_mages = yes
+			allow_new_he_battlemages = yes
 		}
 		else = {
-			disallow_modded_mages = yes
+			disallow_new_he_battlemages = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:goblin
+				}
+			}
+			allow_new_go_warriors = yes
+		}
+		else = {
+			disallow_new_go_warriors = yes
 		}
 		if = {
 			limit =  {
 				any_owned_province = {
 					OR = {
-						OR = {
-							is_importing_trade_good = iron
-							trade_goods = iron
-						}
-						OR = {
-							is_importing_trade_good = ebon
-							trade_goods = ebon
-						}	
+						is_importing_trade_good = durzogs
+						trade_goods = durzogs
 					}					
 				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:goblin
+				}
 			}
-			allow_modded_swordsmen = yes
+			allow_new_go_durzogs = yes
 		}
 		else = {
-			disallow_modded_swordsmen = yes
+			disallow_new_go_durzogs = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_ne_hoplites = yes
+		}
+		else = {
+			disallow_new_ne_hoplites = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_ne_spearthrowers = yes
+		}
+		else = {
+			disallow_new_ne_spearthrowers = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:bosmer
+				}
+			}
+			allow_new_bo_archers = yes
+		}
+		else = {
+			disallow_new_bo_archers = yes
 		}
 		if = {
 			limit =  {
 				any_owned_province = {
 					OR = {
-						OR = {
-							is_importing_trade_good = iron
-							trade_goods = iron
-						}
-						OR = {
-							is_importing_trade_good = ebon
-							trade_goods = ebon
-						}	
+						is_importing_trade_good = beasts
+						trade_goods = beasts
 					}					
 				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:bosmer
+				}
 			}
-			allow_modded_axemen = yes
+			allow_new_bo_beasts = yes
 		}
 		else = {
-			disallow_modded_axemen = yes
+			disallow_new_go_durzogs = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:ayleid
+				}
+			}
+			allow_new_ay_footmen = yes
+		}
+		else = {
+			disallow_new_ay_footmen = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = circle_of_mages
+						trade_goods = circle_of_mages
+					}					
+				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:ayleid
+				}
+			}
+			allow_new_ay_mages = yes
+		}
+		else = {
+			disallow_new_ay_mages = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = horses
+						trade_goods = horses
+					}					
+				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:ayleid
+				}
+			}
+			allow_new_ay_horsearchers = yes
+		}
+		else = {
+			disallow_new_ay_horsearchers = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = cabal_of_witches
+						trade_goods = cabal_of_witches
+					}					
+				}
+				OR = {
+					AND = {
+						has_deity_in_pantheon = deity:omen_molagbal
+						deity:omen_molagbal = { has_holy_site = yes }
+					}
+					AND = {
+						has_deity_in_pantheon = deity:omen_mechrunesdagon
+						deity:omen_mechrunesdagon = { has_holy_site = yes }
+					}
+					AND = {
+						has_deity_in_pantheon = deity:omen_meridia
+						deity:omen_meridia = { has_holy_site = yes }
+					}
+				}
+			}
+			allow_new_de_dremora = yes
+		}
+		else = {
+			disallow_new_de_dremora = yes
 		}
 		if = {
 			limit =  {
@@ -197,10 +235,54 @@ units_allowance_events.1 = {
 					deity:omen_molagbal = { has_holy_site = yes }
 				}
 			}
-			allow_modded_undead = yes
+			allow_new_un_corpse = yes
 		}
 		else = {
-			disallow_modded_undead = yes
+			disallow_new_un_corpse = yes
 		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_le_cohort = yes
+		}
+		else = {
+			disallow_new_le_cohort = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_le_archers = yes
+		}
+		else = {
+			disallow_new_le_archers = yes
+		}
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = horses
+						trade_goods = horses
+					}					
+				}
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_le_cavalry = yes
+		}
+		else = {
+			disallow_new_le_cavalry = yes
+		}
+		allow_supply_train = yes
+		allow_engineer_cohort = yes
 	}
 }

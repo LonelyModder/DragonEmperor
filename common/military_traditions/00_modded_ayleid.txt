@@ -38,7 +38,7 @@
 	
 	ayleid_path_1 = { ###ayleid path
 		modifier = { 
-			modded_mages_offensive = 0.1
+			new_ay_mages_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -55,7 +55,7 @@
 	
 	ayleid_path_3a = { ###ayleid path
 		modifier = { 
-			modded_spearmen_discipline = 0.1
+			new_ay_footmen_discipline = 0.1
 		}
 		enable_tactic = greek_phalanx
 		icon = greek_states_path_7
@@ -118,7 +118,7 @@
 	
 	ayleid_path_4c = { ###ayleid path
 		modifier = { 
-			modded_mages_offensive = 0.1
+			new_ay_mages_offensive = 0.1
 			siege_ability = 0.25
 		}
 		icon = greek_states_path_7
@@ -127,8 +127,8 @@
 	
 	ayleid_path_3b = { ###ayleid path
 		modifier = { 
-			modded_deadra_offensive = 0.1
-			modded_deadra_defensive = 0.1
+			new_de_dremora_offensive = 0.1
+			new_de_dremora_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {ayleid_path_2}
@@ -136,7 +136,7 @@
 	
 	ayleid_path_4b = { ###ayleid path
 		modifier = { 
-			modded_deadra_offensive = 0.1
+			new_de_dremora_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {ayleid_path_3b}

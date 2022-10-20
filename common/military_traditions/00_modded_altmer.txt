@@ -38,7 +38,7 @@
 	
 	altmer_path_1 = { ###altmer path
 		modifier = { 
-			modded_spearmen_offensive = 0.1
+			new_he_soldiers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -46,7 +46,7 @@
 	
 	altmer_path_2 = { ###altmer path
 		modifier = { 
-			modded_spearmen_defensive = 0.1
+			new_he_soldiers_defensive = 0.1
 		}
 		enable_tactic = greek_phalanx
 		icon = greek_states_path_7
@@ -55,7 +55,8 @@
 	
 	altmer_path_3 = { ###altmer path
 		modifier = { 
-			levy_size_multiplier = 0.025
+			new_go_warriors_discipline = 0.2
+			new_go_warriors_offensive = 0.2
 		}
 		icon = greek_states_path_7
 		requires = {altmer_path_2}
@@ -63,7 +64,7 @@
 	
 	altmer_path_3a = { ###altmer path
 		modifier = { 
-			modded_archers_offensive = 0.1
+			new_he_soldiers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {altmer_path_3}
@@ -71,7 +72,7 @@
 	
 	altmer_path_4a = { ###altmer path
 		modifier = { 
-			modded_mages_defensive = 0.1
+			new_he_battlemages_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {altmer_path_3a}
@@ -79,7 +80,7 @@
 	
 	altmer_path_5a = { ###altmer path
 		modifier = { 
-			modded_mages_offensive = 0.1
+			new_he_battlemages_offensive = 0.1
 			assault_ability = 0.5
 		}
 		icon = greek_states_path_7
@@ -88,7 +89,7 @@
 	
 	altmer_path_6a = { ###altmer path
 		modifier = { 
-			modded_griphons_offensive = 0.1
+			new_he_griphons_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {altmer_path_5a}
@@ -165,7 +166,7 @@
 	
 	altmer_path_end_bonus = { ###altmer path
 		modifier = { 
-			modded_mages_offensive = 0.1
+			new_he_battlemages_offensive = 0.1
 			naval_damage_done = 0.15
 		}
 		icon = greek_states_path_7

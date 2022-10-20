@@ -215,7 +215,10 @@ deity_magnus = {
 	}
 	icon = deity_wealth
 	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
-	omen = { modded_mages_offensive = 0.1 } #Bonus from Omen
+	omen = { 
+		new_he_battlemages_offensive = 0.1 
+		new_ay_mages_offensive = 0.1 
+	} #Bonus from Omen
 	religion = elven_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	deification_trigger = {
