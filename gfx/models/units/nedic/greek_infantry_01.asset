@@ -771,220 +771,313 @@ entity = {
     attach = { THE_RIG:Character1_Head = "Athens_helmet_01_entity" }
 }
 
-
-
 ##############
 ### Clones ### ----------------------------------------------------------------
-##############
-
+##############	 	
+	
 entity = {
-	name = "nedic_gfx_modded_archers"
+	name = "nedic_gfx_new_he_griphons"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_camels"
+	name = "nedic_gfx_new_he_soldiers"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_mages"
+	name = "nedic_gfx_new_he_battlemages"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_cavalry"
+	name = "nedic_gfx_new_go_warriors"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_horse_archers"
+	name = "nedic_gfx_new_go_durzogs"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_camels"
+	name = "nedic_gfx_new_ne_hoplites"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_griphons"
+	name = "nedic_gfx_new_ne_spearthrowers"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_spearmen"
+	name = "nedic_gfx_new_bo_archers"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_swordsmen"
+	name = "nedic_gfx_new_bo_beasts"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_axemen"
+	name = "nedic_gfx_new_ay_footmen"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_deadra"
+	name = "nedic_gfx_new_ay_mages"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_beasts"
+	name = "nedic_gfx_new_ay_horsearchers"
 	clone = "greek_gfx_heavy_infantry"
 }
 
 entity = {
-	name = "nedic_gfx_modded_undead"
+	name = "nedic_gfx_new_de_dremora"
 	clone = "greek_gfx_heavy_infantry"
 }
 
+entity = {
+	name = "nedic_gfx_new_un_corpse"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_le_cohort"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_le_archers"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_le_cavalry"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_mi_minotaur"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_supply_train"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_engineer_cohort"
+	clone = "greek_gfx_heavy_infantry"
+}
 
 ##############
 #### Levy #### ----------------------------------------------------------------
 ### Legion ### ----------------------------------------------------------------
 ##############
+
 # Do one for each unit type
 
-### Scirmishers ----------------------------------------------------------------
+### Altmer Griphons ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_archers"
+	name = "nedic_gfx_levy_new_he_griphons"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_archers"
-	clone = "greek_levies_infantry"
-}
-
-### Camels ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_modded_camels"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_modded_camels"
+	name = "nedic_gfx_legion_new_he_griphons"
 	clone = "greek_levies_infantry"
 }
 
-### Mages ----------------------------------------------------------------
+### Altmer Soldiers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_mages"
+	name = "nedic_gfx_levy_new_he_soldiers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_mages"
-	clone = "greek_levies_infantry"
-}
-
-### Engineer Cohort ----------------------------------------------------------------
-entity ={
-	name = "greek_gfx_levy_engineer_cohort"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "greek_gfx_legion_engineer_cohort"
+	name = "nedic_gfx_legion_new_he_soldiers"
 	clone = "greek_levies_infantry"
 }
 
-### Cavalry ----------------------------------------------------------------
+### Altmer Battlemages ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_cavalry"
+	name = "nedic_gfx_levy_new_he_battlemages"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_cavalry"
-	clone = "greek_levies_infantry"
-}
-
-### Swordsmen ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_modded_swordsmen"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_modded_swordsmen"
+	name = "nedic_gfx_legion_new_he_battlemages"
 	clone = "greek_levies_infantry"
 }
 
-### Horse Archers ----------------------------------------------------------------
+### Goblin Warriors ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_horse_archers"
+	name = "nedic_gfx_levy_new_go_warriors"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_horse_archers"
-	clone = "greek_levies_infantry"
-}
-
-### Spearmen ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_modded_spearmen"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_modded_spearmen"
+	name = "nedic_gfx_legion_new_go_warriors"
 	clone = "greek_levies_infantry"
 }
 
-### Supply Train ----------------------------------------------------------------
+### Goblin Durzogs ----------------------------------------------------------------
 entity ={
-	name = "greek_gfx_levy_supply_train"
+	name = "nedic_gfx_levy_new_go_durzogs"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "greek_gfx_legion_supply_train"
-	clone = "greek_levies_infantry"
-}
-
-### Griphons ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_modded_griphons"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_modded_griphons"
+	name = "nedic_gfx_legion_new_go_durzogs"
 	clone = "greek_levies_infantry"
 }
 
-### Axemen ----------------------------------------------------------------
+### Nedic Hoplites ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_axemen"
+	name = "nedic_gfx_levy_new_ne_hoplites"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_axemen"
+	name = "nedic_gfx_legion_new_ne_hoplites"
 	clone = "greek_levies_infantry"
 }
 
-### Deadra ----------------------------------------------------------------
+### Nedic Spearthrowers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_deadra"
+	name = "nedic_gfx_levy_new_ne_spearthrowers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_deadra"
+	name = "nedic_gfx_legion_new_ne_spearthrowers"
+	clone = "greek_levies_infantry"
+}
+
+### Bosmer Archers ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_bo_archers"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_bo_archers"
 	clone = "greek_levies_infantry"
 }
 
 ### Beasts ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_beasts"
+	name = "nedic_gfx_levy_new_bo_beasts"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_beasts"
+	name = "nedic_gfx_legion_new_bo_beasts"
+	clone = "greek_levies_infantry"
+}
+
+### Ayleid Footmen ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_ay_footmen"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_ay_footmen"
+	clone = "greek_levies_infantry"
+}
+
+### Ayleid Mages ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_ay_mages"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_ay_mages"
+	clone = "greek_levies_infantry"
+}
+
+### Ayleid Horsearchers ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_ay_horsearchers"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_ay_horsearchers"
+	clone = "greek_levies_infantry"
+}
+
+### Dremora ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_de_dremora"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_de_dremora"
 	clone = "greek_levies_infantry"
 }
 
 ### Undead ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_modded_undead"
+	name = "nedic_gfx_levy_new_un_corpse"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_modded_undead"
+	name = "nedic_gfx_legion_new_un_corpse"
+	clone = "greek_levies_infantry"
+}
+
+### Legionary Cohort ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_le_cohort"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_le_cohort"
+	clone = "greek_levies_infantry"
+}
+
+### Legionary Archers ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_le_archers"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_le_archers"
+	clone = "greek_levies_infantry"
+}
+
+### Legionary Cavalry ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_le_cavalry"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_le_cavalry"
+	clone = "greek_levies_infantry"
+}
+
+### Minotaur ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_mi_minotaur"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_mi_minotaur"
+	clone = "greek_levies_infantry"
+}
+
+### Supply Train ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_supply_train"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_supply_train"
+	clone = "greek_levies_infantry"
+}
+
+### Engineer Cohort ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_engineer_cohort"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_engineer_cohort"
 	clone = "greek_levies_infantry"
 }
