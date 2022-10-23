@@ -1,16 +1,69 @@
+#Trade Goods
+
+texticon = {
+    icon = beasts
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/beasts.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = cabal_of_witches
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/cabal_of_witches.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = cheese
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/cheese.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = circle_of_mages
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/circle_of_mages.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = durzogs
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/durzogs.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = ebon
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/ebon.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
 texticon = {
     icon = griphons
     iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_griphons.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
-texticon = {
-    icon = tin
-    iconsize = {
-        texture = "gfx/interface/icons/tradegoods/tin.dds"
+        texture = "gfx/interface/icons/tradegoods/griphons.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
@@ -18,111 +71,153 @@ texticon = {
 }
 
 texticon = {
-    icon = modded_axemen
+    icon = malachite
     iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_axemen.dds"
+        texture = "gfx/interface/icons/tradegoods/malachite.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_camels
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_camels.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_horse_archers
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_horse_archers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_cavalry
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_cavalry.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_deadra
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_deadra.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_undead
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_undead.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_griphons
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_griphons.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_beasts
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_beasts.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_mages
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_mages.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_swordsmen
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_swordsmen.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_spearmen
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_spearmen.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
-}
-texticon = {
-    icon = modded_archers
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/modded_archers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }   
+    }
 }
 
+texticon = {
+    icon = moonstone
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/moonstone.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = necromancers
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/necromancers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = soul_gems
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/soul_gems.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+#Units
+
+texticon = {
+    icon = new_bo_archers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_bo_archers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_bo_beasts
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_bo_beasts.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_de_dremora
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_de_dremora.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_go_durzogs
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_go_durzogs.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_go_warriors
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_go_warriors.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_he_battlemages
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_he_battlemages.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_he_griphons
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_he_griphons.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_he_soldiers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_he_soldiers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_ne_hoplites
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ne_hoplites.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_ne_spearthrowers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ne_spearthrowers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_un_corpse_small
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_un_corpse_small.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
