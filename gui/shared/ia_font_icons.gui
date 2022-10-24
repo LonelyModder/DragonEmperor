@@ -221,3 +221,23 @@ texticon = {
         fontsize = 16
     }
 }
+
+texticon = {
+    icon = new_ay_footmen
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ay_footmen.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_ay_mages
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ay_mages.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
