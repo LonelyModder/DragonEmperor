@@ -241,3 +241,73 @@ texticon = {
         fontsize = 16
     }
 }
+
+texticon = {
+    icon = new_ay_horsearchers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ay_horsearchers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_de_dremora
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_de_dremora.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_un_corpse
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_un_corpse.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_mi_minotaur
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_mi_minotaur.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_le_cohort
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_le_cohort.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_le_archers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_le_archers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_le_cavalry
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_le_cavalry.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
