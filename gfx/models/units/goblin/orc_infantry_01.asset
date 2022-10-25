@@ -1199,6 +1199,21 @@ entity = {
 }
 
 entity = {
+	name = "orcish_gfx_new_ne_raiders"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_new_go_scirmishers"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
+	name = "orcish_gfx_new_bo_militia"
+	clone = "orcish_gfx_legion_infantry"
+}
+
+entity = {
 	name = "orcish_gfx_supply_train"
 	clone = "orcish_gfx_legion_infantry"
 }
@@ -1392,6 +1407,36 @@ entity ={
 }
 entity ={
 	name = "orcish_gfx_legion_new_mi_minotaur"
+	clone = "orcish_gfx_levy_infantry"
+}
+
+### Nedic Raiders ----------------------------------------------------------------
+entity ={
+	name = "orcish_gfx_levy_new_ne_raiders"
+	clone = "orcish_gfx_levy_infantry"
+}
+entity ={
+	name = "orcish_gfx_legion_new_ne_raiders"
+	clone = "orcish_gfx_levy_infantry"
+}
+
+### Goblin Scirmishers ----------------------------------------------------------------
+entity ={
+	name = "orcish_gfx_levy_new_go_scirmishers"
+	clone = "orcish_gfx_levy_infantry"
+}
+entity ={
+	name = "orcish_gfx_legion_new_go_scirmishers"
+	clone = "orcish_gfx_levy_infantry"
+}
+
+### Bosmer Militia ----------------------------------------------------------------
+entity ={
+	name = "orcish_gfx_levy_new_bo_militia"
+	clone = "orcish_gfx_levy_infantry"
+}
+entity ={
+	name = "orcish_gfx_legion_new_bo_militia"
 	clone = "orcish_gfx_levy_infantry"
 }
 

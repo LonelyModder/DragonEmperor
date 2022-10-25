@@ -866,6 +866,21 @@ entity = {
 }
 
 entity = {
+	name = "nedic_gfx_new_ne_raiders"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_go_scirmishers"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
+	name = "nedic_gfx_new_bo_militia"
+	clone = "greek_gfx_heavy_infantry"
+}
+
+entity = {
 	name = "nedic_gfx_supply_train"
 	clone = "greek_gfx_heavy_infantry"
 }
@@ -1059,6 +1074,36 @@ entity ={
 }
 entity ={
 	name = "nedic_gfx_legion_new_mi_minotaur"
+	clone = "greek_levies_infantry"
+}
+
+### Nedic Raiders ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_ne_raiders"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_ne_raiders"
+	clone = "greek_levies_infantry"
+}
+
+### Goblin Scirmishers ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_new_go_scirmishers"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_go_scirmishers"
+	clone = "greek_levies_infantry"
+}
+
+### Bosmer Militia ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_new_bo_militia"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_new_bo_militia"
 	clone = "greek_levies_infantry"
 }
 
