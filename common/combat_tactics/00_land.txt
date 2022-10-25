@@ -33,6 +33,9 @@ shock_action = {
 		new_le_archers = 0	
 		new_le_cavalry = 0	
 		new_mi_minotaur = 2
+		new_ne_raiders = 0.5
+		new_go_scirmishers = 0.5
+		new_bo_militia = 0.5
 	}
 }
 
@@ -65,6 +68,9 @@ envelopment = {
 		new_le_archers = 0	
 		new_le_cavalry = 1.5	
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 0
+		new_bo_militia = 0
 	}
 }
 
@@ -99,6 +105,9 @@ skirmishing = {
 		new_le_archers = 1	
 		new_le_cavalry = 0	
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 1
+		new_bo_militia = 0
 	}
 }
 
@@ -131,6 +140,9 @@ deception = {
 		new_le_archers = 1.5	
 		new_le_cavalry = 1.5	
 		new_mi_minotaur = 0
+		new_ne_raiders = 1
+		new_go_scirmishers = 1.5
+		new_bo_militia = 2
 	}
 }
 
@@ -163,6 +175,9 @@ bottleneck = {
 		new_le_archers = 0	
 		new_le_cavalry = 1	
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 1
+		new_bo_militia = 1
 	}
 }
 
@@ -199,6 +214,9 @@ greek_phalanx = { #Good vs Shock - Bad vs Envelopment
 		new_le_archers = 0	
 		new_le_cavalry = 0
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 0
+		new_bo_militia = 0
 	}
 }
 
@@ -232,6 +250,9 @@ triplex_acies = { #Good vs Envelopment - Bad vs Skirmishing
 		new_le_archers = 2	
 		new_le_cavalry = 2
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 0
+		new_bo_militia = 0
 	}
 }
 
@@ -267,6 +288,9 @@ cavalry_skirmish = {
 		new_le_archers = 1	
 		new_le_cavalry = 1.5
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 0
+		new_bo_militia = 0
 	}
 }
 
@@ -302,6 +326,9 @@ padma_vyuha = {
 		new_le_archers = 0	
 		new_le_cavalry = 1.5
 		new_mi_minotaur = 0
+		new_ne_raiders = 0
+		new_go_scirmishers = 0
+		new_bo_militia = 0
 	}
 }
 
@@ -327,7 +354,7 @@ hit_and_run_tactics = {
 		new_go_durzogs = 2	
 		new_ne_hoplites = 0	
 		new_ne_spearthrowers = 1	
-		new_bo_archers = 0	
+		new_bo_archers = 1	
 		new_bo_beasts = 0
 		new_ay_footmen = 0	
 		new_ay_mages = 0	
@@ -338,5 +365,8 @@ hit_and_run_tactics = {
 		new_le_archers = 0	
 		new_le_cavalry = 1
 		new_mi_minotaur = 0
+		new_ne_raiders = 1
+		new_go_scirmishers = 1.5
+		new_bo_militia = 1
 	}
 }

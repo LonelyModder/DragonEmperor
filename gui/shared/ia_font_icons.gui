@@ -311,3 +311,33 @@ texticon = {
         fontsize = 16
     }
 }
+
+texticon = {
+    icon = new_ne_raiders
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_ne_raiders.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_go_scirmishers
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_go_scirmishers.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = new_bo_militia
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/new_bo_militia.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}

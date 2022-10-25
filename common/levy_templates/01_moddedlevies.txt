@@ -35,8 +35,9 @@ levy_psijic = { #psijic militia
 levy_goblin = { #goblin militia
 	default = no
 
-	new_go_warriors = 0.7
-	new_go_durzogs = 0.3
+	new_go_warriors = 0.6
+	new_go_scirmishers = 0.2
+	new_go_durzogs = 0.2
 }
 
 #Bosmer
@@ -44,8 +45,9 @@ levy_goblin = { #goblin militia
 levy_bosmer = { #bosmer militia
 	default = no
 
-	new_bo_archers = 0.7
-	new_bo_beasts = 0.3
+	new_bo_archers = 0.6
+	new_bo_militia = 0.2
+	new_bo_beasts = 0.2
 }
 
 #Ayleid
@@ -63,7 +65,8 @@ levy_ayleid = { #ayleid militia
 levy_nedic = { #nedic militia
 	default = no
 
-	new_ne_hoplites = 0.7
+	new_ne_hoplites = 0.5
+	new_ne_raiders = 0.2
 	new_ne_spearthrowers = 0.3
 }
 

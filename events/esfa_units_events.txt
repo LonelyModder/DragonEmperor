@@ -282,6 +282,42 @@ units_allowance_events.1 = {
 		else = {
 			disallow_new_le_cavalry = yes
 		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nede
+				}
+			}
+			allow_new_ne_raiders = yes
+		}
+		else = {
+			disallow_new_ne_raiders = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:goblin
+				}
+			}
+			allow_new_go_scirmishers = yes
+		}
+		else = {
+			disallow_new_go_scirmishers = yes
+		}
+		if = {
+			limit =  {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:bosmer
+				}
+			}
+			allow_new_bo_militia = yes
+		}
+		else = {
+			disallow_new_bo_militia = yes
+		}
 		allow_supply_train = yes
 		allow_engineer_cohort = yes
 	}
