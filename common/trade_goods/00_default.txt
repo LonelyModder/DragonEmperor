@@ -270,7 +270,7 @@ wild_game = { #190 territories
 	}
 	country = {
 		new_bo_archers_discipline = 0.1
-		new_ay_horsearchers_discipline = 0.1
+		new_ay_whitegryphons_discipline = 0.1
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
@@ -354,7 +354,7 @@ precious_metals = { #107 territories
 
 horses = { #276 territories
 	category = 0
-	allow_unit_type = new_ay_horsearchers
+	allow_unit_type = new_ay_whitegryphons
 	allow_unit_type = new_le_cavalry
 	
 	gold = 0.25
@@ -364,7 +364,7 @@ horses = { #276 territories
 	}
 	country = {
 		new_le_cavalry_discipline = 0.1
-		new_ay_horsearchers_discipline = 0.1
+		new_ay_whitegryphons_discipline = 0.1
 	}
 
 	color = hsv { 0.05 0.9 0.5 }

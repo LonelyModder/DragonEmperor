@@ -87,7 +87,7 @@ distinction_hetairoi = {
 	commander = { }
 	unit = {
 		new_le_cavalry_morale = 0.1
-		new_ay_horsearchers_morale = 0.1
+		new_ay_whitegryphons_morale = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -132,7 +132,7 @@ distinction_barca = { #Hannibal
 	unit = {
 		army_weight_modifier = -0.1
 		new_le_cavalry_offensive = 0.1
-		new_ay_horsearchers_offensive = 0.1
+		new_ay_whitegryphons_offensive = 0.1
 		new_ne_hoplites_offensive = 0.1
 		new_he_soldiers_offensive = 0.1
 		new_ay_footmen_offensive = 0.1

@@ -224,13 +224,13 @@ disallow_new_ay_mages = {
 		value = flag:na
 	}
 }
-allow_new_ay_horsearchers = {
+allow_new_ay_whitegryphons = {
 	set_variable = {
 		name = au12
-		value = flag:new_ay_horsearchers
+		value = flag:new_ay_whitegryphons
 	}
 }
-disallow_new_ay_horsearchers = {
+disallow_new_ay_whitegryphons = {
 	set_variable = {
 		name = au12
 		value = flag:na

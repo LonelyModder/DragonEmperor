@@ -180,8 +180,8 @@ units_allowance_events.1 = {
 			limit =  {
 				any_owned_province = {
 					OR = {
-						is_importing_trade_good = horses
-						trade_goods = horses
+						is_importing_trade_good = griphons
+						trade_goods = griphons
 					}					
 				}
 				any_country_culture = {
@@ -189,10 +189,10 @@ units_allowance_events.1 = {
 					this.culture.culture_group = culture_group:ayleid
 				}
 			}
-			allow_new_ay_horsearchers = yes
+			allow_new_ay_whitegryphons = yes
 		}
 		else = {
-			disallow_new_ay_horsearchers = yes
+			disallow_new_ay_whitegryphons = yes
 		}
 		if = {
 			limit =  {

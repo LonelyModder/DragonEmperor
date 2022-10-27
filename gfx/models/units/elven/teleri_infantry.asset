@@ -765,7 +765,7 @@ entity = {
 }
 
 entity = {
-	name = "teleri_gfx_new_ay_horsearchers"
+	name = "teleri_gfx_new_ay_whitegryphons"
 	clone = "teleri_gfx_heavy_infantry"
 }
 
@@ -943,11 +943,11 @@ entity ={
 
 ### Ayleid Horsearchers ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_ay_horsearchers"
+	name = "teleri_gfx_levy_new_ay_whitegryphons"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_ay_horsearchers"
+	name = "teleri_gfx_legion_new_ay_whitegryphons"
 	clone = "teleri_gfx_light_infantry"
 }
 

@@ -1164,7 +1164,7 @@ entity = {
 }
 
 entity = {
-	name = "orcish_gfx_new_ay_horsearchers"
+	name = "orcish_gfx_new_ay_whitegryphons"
 	clone = "orcish_gfx_legion_infantry"
 }
 
@@ -1342,11 +1342,11 @@ entity ={
 
 ### Ayleid Horsearchers ----------------------------------------------------------------
 entity ={
-	name = "orcish_gfx_levy_new_ay_horsearchers"
+	name = "orcish_gfx_levy_new_ay_whitegryphons"
 	clone = "orcish_gfx_levy_infantry"
 }
 entity ={
-	name = "orcish_gfx_legion_new_ay_horsearchers"
+	name = "orcish_gfx_legion_new_ay_whitegryphons"
 	clone = "orcish_gfx_levy_infantry"
 }
 
