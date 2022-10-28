@@ -73,8 +73,8 @@
 	
 	goblin_path_2b = { ###goblin path
 		modifier = { 
-			new_go_warriors_offensive = 0.05
-			new_go_warriors_defensive = 0.05
+			new_go_scirmishers_offensive = 0.05
+			new_go_scirmishers_defensive = 0.05
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}

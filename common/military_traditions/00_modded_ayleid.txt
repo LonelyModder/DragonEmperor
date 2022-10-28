@@ -44,13 +44,21 @@
 		requires = {}
 	}
 	
+	ayleid_path_1a = { ###ayleid path
+		modifier = { 
+			new_ay_whitegryphons_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {ayleid_path_1}
+	}
+	
 	ayleid_path_2 = { ###ayleid path
 		modifier = { 
 			enslavement_efficiency = 0.1
 			global_slaves_output = output_large_svalue
 		}
 		icon = greek_states_path_7
-		requires = {ayleid_path_1}
+		requires = {ayleid_path_1a}
 	}
 	
 	ayleid_path_3a = { ###ayleid path

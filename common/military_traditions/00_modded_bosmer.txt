@@ -55,6 +55,7 @@
 	bosmer_path_3 = { ###bosmer path
 		modifier = { 
 			forest_combat_bonus = 0.25
+			new_bo_militia_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = greek_states_path_7
