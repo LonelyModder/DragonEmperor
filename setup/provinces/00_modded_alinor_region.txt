@@ -7,7 +7,7 @@
 	culture="alinoric"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="cattle"
 	
 	freemen=
@@ -204,26 +204,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="firstholdan"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
 	nobles=
 	{
-		amount=3
+		amount=5
+	}
+	citizen=
+	{
+		amount=10
+	}
+	freemen=
+	{
+		amount=15
 	}
 	slaves=
 	{
 		amount=5
-	}
-	slaves=
-	{
-		amount=3
 		
-	}
-	freemen=
-	{
-		amount=10
 	}
 	holy_site="omen_magnus"
 }
@@ -2333,26 +2333,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="skywatchan"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
 	nobles=
 	{
-		amount=3
+		amount=5
 	}
 	citizen=
 	{
-		amount=5
-	}
-	slaves=
-	{
-		amount=3
-		
+		amount=10
 	}
 	freemen=
 	{
-		amount=10
+		amount=15
+	}
+	slaves=
+	{
+		amount=5
+		
 	}
 }
 
@@ -4034,7 +4034,7 @@
 	culture="mariduninian"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="cattle"
 	
 	freemen=
@@ -4050,7 +4050,7 @@
 	culture="mariduninian"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="cattle"
 	
 	freemen=
@@ -5544,7 +5544,7 @@
 	culture="alinoric"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="olive"
 	
 	freemen=
@@ -5711,7 +5711,7 @@
 	culture="alinoric"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="cattle"
 	
 	freemen=
@@ -6413,26 +6413,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="sunholdic"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="griphons"
 	nobles=
 	{
-		amount=3
+		amount=5
 	}
 	citizen=
 	{
-		amount=7
+		amount=10
+	}
+	freemen=
+	{
+		amount=15
 	}
 	slaves=
 	{
 		amount=5
 		
-	}
-	freemen=
-	{
-		amount=12
 	}
 }
 
@@ -6515,7 +6515,7 @@
 	culture="sunholdic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="stone"
 	
 	freemen=
@@ -6595,7 +6595,7 @@
 	culture="sunholdic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="hemp"
 	
 	freemen=
@@ -6732,7 +6732,7 @@
 	culture="sunholdic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="hemp"
 	
 	freemen=
@@ -6799,7 +6799,7 @@
 	culture="sunholdic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="cattle"
 	
 	freemen=
@@ -6879,7 +6879,7 @@
 	culture="sunholdic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="griphons"
 	
 	freemen=
@@ -6895,7 +6895,7 @@
 	culture="rottenfish"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="precious_metals"
 	slaves=
 	{
@@ -7009,7 +7009,7 @@
 	culture="alinoric"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="griphons"
 	
 	freemen=
@@ -7044,7 +7044,7 @@
 	culture="brokenaxes"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="soul_gems"
 	slaves=
 	{
@@ -7141,7 +7141,7 @@
 	culture="alinoric"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="soul_gems"
 	
 	freemen=
@@ -7455,22 +7455,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="cloudrestan"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="glass"
+	nobles=
+	{
+		amount=5
+	}
 	citizen=
 	{
-		amount=3
-	}
-	slaves=
-	{
-		amount=2
-		
+		amount=10
 	}
 	freemen=
 	{
-		amount=7
+		amount=15
+	}
+	slaves=
+	{
+		amount=5
+		
 	}
 }
 
@@ -8460,7 +8464,7 @@
 	culture="greenmenace"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="fur"
 	slaves=
 	{
@@ -8479,7 +8483,7 @@
 	culture="mulukschosen"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="griphons"
 	slaves=
 	{
@@ -8498,7 +8502,7 @@
 	culture="mulukschosen"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="fur"
 	slaves=
 	{
@@ -8707,7 +8711,7 @@
 	culture="brokenaxes"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="beasts"
 	slaves=
 	{
@@ -9395,26 +9399,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="shimmerinic"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
 	nobles=
 	{
-		amount=3
+		amount=5
+	}
+	citizen=
+	{
+		amount=10
+	}
+	freemen=
+	{
+		amount=15
 	}
 	slaves=
 	{
 		amount=5
 		
-	}
-	slaves=
-	{
-		amount=3
-	}
-	freemen=
-	{
-		amount=10
 	}
 }
 
@@ -10162,7 +10166,7 @@
 	culture="disgarded"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="moonstone"
 	slaves=
 	{
@@ -10197,7 +10201,7 @@
 	culture="disgarded"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="precious_metals"
 	slaves=
 	{
@@ -10244,7 +10248,7 @@
 	culture="disgarded"
 	province_rank="settlement"
 	religion="goblin_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="fur"
 	slaves=
 	{
@@ -10279,7 +10283,7 @@
 	culture="havenic"
 	province_rank="settlement"
 	religion="elven_pantheon"
-	terrain="plains"
+	terrain="hills"
 	trade_goods="griphons"
 	
 	freemen=
@@ -11311,26 +11315,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="lillandrilan"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
 	nobles=
 	{
-		amount=3
+		amount=5
 	}
 	citizen=
 	{
-		amount=7
+		amount=10
+	}
+	freemen=
+	{
+		amount=15
 	}
 	slaves=
 	{
 		amount=5
 		
-	}
-	freemen=
-	{
-		amount=12
 	}
 }
 
