@@ -10,9 +10,7 @@ deity_trinimac = {
 				RELIGION = elven_pantheon
 			}
 			
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}
@@ -43,9 +41,7 @@ deity_syrabane = {
 				RELIGION = elven_pantheon
 			}
 			
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_syrabane = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -76,9 +72,7 @@ deity_jephre = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_jephre = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -109,9 +103,7 @@ deity_xarxes = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_xarxes = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -142,9 +134,7 @@ deity_auriel = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_auriel = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -175,9 +165,7 @@ deity_mara = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_mara = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -205,9 +193,7 @@ deity_magnus = {
 				RELIGION = elven_pantheon
 			}
 			
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_magnus = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -241,9 +227,7 @@ deity_stendarr = {
 				RELIGION = green_pantheon
 			}
 			
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_stendarr = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -271,9 +255,7 @@ deity_phynaster = {
 				RELIGION = elven_pantheon
 			}
 			
-			common_deity_trigger = {
-				RELIGION = ayleid_pantheon
-			}
+			
 			deity:omen_phynaster = {
 				holy_site_deity_check_trigger = yes
 			}

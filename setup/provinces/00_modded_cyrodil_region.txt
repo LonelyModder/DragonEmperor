@@ -6,7 +6,7 @@
 	civilization_value=0
 	culture="stirkan"
 	province_rank="city"
-	religion="ayleid_pantheon"
+	religion="deadric_pantheon"
 	terrain="plains"
 	trade_goods="fish"
 	nobles=
@@ -36,7 +36,7 @@
 	civilization_value=0
 	culture="stirkan"
 	province_rank="settlement"
-	religion="ayleid_pantheon"
+	religion="deadric_pantheon"
 	terrain="hills"
 	trade_goods="iron"
 	slaves=
@@ -57,7 +57,7 @@
 	civilization_value=0
 	culture="stirkan"
 	province_rank="settlement"
-	religion="ayleid_pantheon"
+	religion="deadric_pantheon"
 	terrain="hills"
 	trade_goods="wood"
 	slaves=
@@ -93,7 +93,7 @@
 	{
 		amount=2
 		culture="colovian"
-		religion="nedic_pantheon"
+		religion="deadric_pantheon"
 	}
 	freemen=
 	{
