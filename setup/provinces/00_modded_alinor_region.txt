@@ -10605,26 +10605,26 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="corgradan"
-	province_rank="city"
+	province_rank="city_metropolis"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="cloth"
 	nobles=
 	{
-		amount=2
+		amount=5
 	}
 	citizen=
 	{
-		amount=5
-	}
-	slaves=
-	{
-		amount=3
-		
+		amount=10
 	}
 	freemen=
 	{
-		amount=8
+		amount=15
+	}
+	slaves=
+	{
+		amount=5
+		
 	}
 }
 
@@ -10633,14 +10633,22 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="corgradan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="dye"
-	
-	freemen=
+	citizen=
 	{
 		amount=4
+	}
+	slaves=
+	{
+		amount=2
+		
+	}
+	freemen=
+	{
+		amount=8
 	}
 }
 
