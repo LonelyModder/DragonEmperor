@@ -39,7 +39,8 @@ militarism_events.1 = {
 		}
 		else_if = {
 			limit = {
-				country_culture_group = altmer			
+				country_culture_group = altmer
+				country_culture_group = ayleid				
 			}
 			add_country_modifier = {
 				name = pacifist_culture
