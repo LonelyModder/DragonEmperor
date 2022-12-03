@@ -27,6 +27,12 @@ modded_anvil_region = {
 	}
 }
 
+modded_kvatch_region = {
+	areas = {
+		gottshaw_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
