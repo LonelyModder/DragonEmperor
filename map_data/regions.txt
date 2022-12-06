@@ -38,6 +38,11 @@ modded_kvatch_region = {
 	}
 }
 
+modded_delodiil_region = {
+	areas = {
+		skingrad_area
+	}
+}
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
