@@ -48,6 +48,14 @@ modded_delodiil_region = {
 		nornalhorst_area
 	}
 }
+
+modded_chorrol_region = {
+	areas = {
+		elenglynn_area
+		wendir_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
