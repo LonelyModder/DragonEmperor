@@ -71,6 +71,12 @@ modded_colovianhighlands_region = {
 	}
 }
 
+modded_jerall_region = {
+	areas = {
+		bloodfall_area
+		warden_area
+	}
+}
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
