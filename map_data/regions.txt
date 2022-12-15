@@ -75,8 +75,19 @@ modded_jerall_region = {
 	areas = {
 		bloodfall_area
 		warden_area
+		sancretor_area
+		bruma_area
+		horunn_area
+		eastjerall_area
 	}
 }
+
+modded_heartland_region = {
+	areas = {
+		imperialcity_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
