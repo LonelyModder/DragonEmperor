@@ -11,23 +11,9 @@ levy_default = {
 levy_altmer = { #alinoric militia
 	default = no
 
-	new_he_soldiers = 0.6
-	new_he_battlemages = 0.4
-}
-
-levy_griphonic = { #sunhold militia
-	default = no
-
 	new_he_griphons = 0.2
 	new_he_soldiers = 0.5
 	new_he_battlemages = 0.3
-}
-
-levy_psijic = { #psijic militia
-	default = no
-
-	new_he_soldiers = 0.3
-	new_he_battlemages = 0.7
 }
 
 #Goblin
