@@ -93,6 +93,17 @@ modded_heartland_region = {
 	}
 }
 
+modded_greatforest_region = {
+	areas = {
+		lindai_area
+		coldcorn_area
+		ash_area
+		narfinsel_area
+		ceyatatar_area
+		haynote_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
