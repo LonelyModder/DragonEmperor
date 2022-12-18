@@ -104,6 +104,23 @@ modded_greatforest_region = {
 	}
 }
 
+modded_nibenayanhighlands_region = {
+	areas = {
+		moranda_area
+		piukanda_area
+		aleswell_area
+		sercen_area
+		anga_area
+		harmsfolly_area
+	}
+}
+
+modded_thewestweald_region = {
+	areas = {
+		nisin_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
