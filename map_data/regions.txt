@@ -118,6 +118,22 @@ modded_nibenayanhighlands_region = {
 modded_thewestweald_region = {
 	areas = {
 		nisin_area
+		neyandtwyll_area
+		faregyl_area
+		blackboot_area
+		wenyandawik_area
+		variela_area
+	}
+}
+
+modded_bravil_region = {
+	areas = {
+		bravil_area
+		larsius_area
+		bawn_area
+		mnemgate_area
+		nomore_area
+		leyawiin_area
 	}
 }
 
