@@ -137,6 +137,24 @@ modded_bravil_region = {
 	}
 }
 
+modded_cheydinhal_region = {
+	areas = {
+		chalman_area
+		nagastani_area
+		belda_area
+		arrius_area
+		cheydinhal_area
+		harlunswatch_area
+	}
+}
+
+modded_upperniben_region = {
+	areas = {
+		sejanus_area
+		culotte_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
