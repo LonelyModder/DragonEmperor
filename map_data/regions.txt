@@ -159,9 +159,25 @@ modded_upperniben_region = {
 	}
 }
 
+modded_middleniben_region = {
+	areas = {
+		cadlew_area
+		nenalata_area
+		mackamentain_area
+		facian_area
+		ondo_area
+		felacia_area
+	}
+}
+
 modded_lowerniben_region = {
 	areas = {
-		
+		atatar_area
+		arpenia_area
+		veyond_area
+		wendelbeck_area
+		welke_area
+		hauntedforest_area
 	}
 }
 
