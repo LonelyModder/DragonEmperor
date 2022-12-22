@@ -181,6 +181,13 @@ modded_lowerniben_region = {
 	}
 }
 
+modded_valusmountains_region = {
+	areas = {
+		whitefallvalley_area
+		icepeaks_area
+		shadowgate_area
+	}
+}
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
