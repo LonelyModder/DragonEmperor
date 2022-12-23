@@ -186,8 +186,23 @@ modded_valusmountains_region = {
 		whitefallvalley_area
 		icepeaks_area
 		shadowgate_area
+		hame_area
+		septimspass_area
+		malada_area
 	}
 }
+
+modded_blackwood_region = {
+	areas = {
+		bogwater_area
+		blueblood_area
+		deadmarsh_area
+		onyxcaverns_area
+		doublecross_area
+		telman_area
+	}
+}
+
 modded_sunhold_region = {
 	areas = {
 		sunhold_area
