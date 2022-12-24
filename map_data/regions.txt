@@ -7,17 +7,17 @@ modded_sea_region = {
 
 modded_volenfell_region = {
 	areas = {
-		strosmkai_area
-		chain_area
-		caspar_area
-		herne_area
-		highisle_area
+		strosmkai_area #island
+		chain_area #island
+		caspar_area #island
+		herne_area #island
+		highisle_area #island
 	}
 }
 
 modded_anvil_region = {
 	areas = {
-		stirk_area
+		stirk_area #island
 		anvil_area
 		garlasmalatar_area
 		brina_area
@@ -41,17 +41,22 @@ modded_kvatch_region = {
 modded_delodiil_region = {
 	areas = {
 		skingrad_area
-		calgorn_area
 		silorn_area
 		delodiil_area
 		vlastarus_area
 		nornalhorst_area
+		elenglynn_area
+	}
+}
+
+modded_reapersmarch_region = {
+	areas = {
+		calgorn_area
 	}
 }
 
 modded_chorrol_region = {
 	areas = {
-		elenglynn_area
 		wendir_area
 		chorrol_area
 		talwinque_area
@@ -208,7 +213,7 @@ modded_sunhold_region = {
 		sunhold_area
 		westernpasses_area
 		sunholdsshore_area
-		silatar_area
+		silatar_area #island
 		torhamekhard_area
 	}
 }
@@ -221,14 +226,14 @@ modded_duskkeep_region = {
 		easternpasses_area
 		silvarwoad_area
 		gardenofthesacrednumbers_area
-		artaeum_area
+		artaeum_area #island
 	}
 }
 
 modded_lillandril_region = {
 	areas = {
 		lillandril_area
-		sapiarchisle_area
+		sapiarchisle_area #island
 		illuminationacademy_area
 		seakeep_area
 		cathedralofwebs_area
@@ -250,7 +255,7 @@ modded_cloudrest_region = {
 	areas = {
 		kingshavenpass_area
 		ebonstadmont_area
-		eyvea_area
+		eyvea_area #island chain
 		crystaltower_area
 		corgradwastes_area
 		belportrun_area
@@ -260,7 +265,7 @@ modded_cloudrest_region = {
 modded_alinor_region = {
 	areas = {
 		alinor_area
-		westerncoraldale_area
+		westerncoraldale_area #island
 		ceytarnkeep_area
 		royalharbor_area
 		pearls_area
@@ -270,7 +275,7 @@ modded_alinor_region = {
 
 modded_firsthold_region = {
 	areas = {
-		ninepraw_area
+		ninepraw_area #island
 		mehrunesspite_area
 		firsthold_area
 		rillis_area
@@ -284,8 +289,8 @@ modded_firsthold_region = {
 modded_skywatch_region = {
 	areas = {
 		skywatch_area
-		buraniimisle_area
-		errinorneisle_area
+		buraniimisle_area #island
+		errinorneisle_area #island
 		mathiisen_area
 		glistervale_area
 		bewan_area
@@ -299,8 +304,8 @@ modded_skywatch_region = {
 modded_moridunon_region = {
 	areas = {
 		southbeacon_area
-		rictus_area
-		dranilkir_area
+		rictus_area #island
+		dranilkir_area #island
 		vulkhelguard_area
 		phaer_area
 		delsclaim_area
