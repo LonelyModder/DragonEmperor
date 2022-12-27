@@ -3,7 +3,7 @@
  #####Altmer
  ######
  altmer_philosophy:1 "Altmer Traditions"
- altmer_philosophydesc:3 "The Altmers are the most highly developed people in Tamriel in the first era. On a sommerset it is easy to find a recruit with magical abilities, which makes them formidable opponents. In addition, their warriors are mounted on mighty gryphons."
+ altmer_philosophydesc:3 "The Altmers are the most highly developed people in Tamriel in the first era. On a Sommerset it is easy to find a recruit with magical abilities, which makes them formidable opponents. In addition, their warriors are mounted on mighty gryphons."
  tradition_unlock_requirement_altmer:0 "You don't have enough of Altmers to unlock the tradition or they are not integrated culture. "
  #Traditions
  altmer_path_1:0 "Altmer infantry"
@@ -21,7 +21,7 @@
  altmer_path_6a:0 "Griphon Knights"
  altmer_path_6a_desc:0 "Altmers discovered a way to breed griffins quite by accident. During the feast, Ulorome of Sunhold laid the egg on fire and the griffin hatched during the singing and dancing of the guests. Since then, griffins have been used to defend the islands."
  altmer_path_3b:0 "Altmer Homeland"
- altmer_path_3b_desc:0 "The sommerset islands are an archipelago of countless smaller and larger islands, and in order to get from one to the other, the ability to navigate is essential."
+ altmer_path_3b_desc:0 "The Sommerset islands are an archipelago of countless smaller and larger islands, and in order to get from one to the other, the ability to navigate is essential."
  altmer_path_4b:0 "Travelers and explorers"
  altmer_path_4b_desc:0 "Explorers like Topal Pilot were pioneers in deep-sea travel. It was the Altmers who first settled Tamriel by creating its first maps."
  altmer_path_5b:0 "Alinor Royal Navy"
@@ -32,7 +32,7 @@
  #####Ayleid
  ######
  ayleid_philosophy:1 "Ayleid Traditions"
- ayleid_philosophydesc:3 "The Ayleids, like their sommerset cousins, are gifted magicians. To increase their strength, they were forced to use the demonic armies of the oblivion lords."
+ ayleid_philosophydesc:3 "The Ayleids, like their Sommerset cousins, are gifted magicians. To increase their strength, they were forced to use the demonic armies of the oblivion lords."
  tradition_unlock_requirement_ayleid:0 "You don't have enough of Ayleids to unlock the tradition or they are not integrated culture. "
  #Traditions
  ayleid_path_1:0 "Mages of the Ayleids"
@@ -40,10 +40,10 @@
  ayleid_path_1a:0 "White Griphons of Cyrodiil"
  ayleid_path_1a_desc:0 "Arriving from the Somerset Islands, the Ayleids also brought a weakness to the gryphons, and when they heard of the subjugation of these creatures in the west, they decided to do so at Cyrodiil as well. Since the local race was wilder and lived at higher altitudes, it was difficult but the effect was worth it."
  ayleid_path_2:0 "Cruel Slave Lords"
- ayleid_path_2_desc:0 "When the Cyrodilian Elves noticed that the local human tribes were weak, they enslaved them on a massive scale. This helped them raise resources to build their empire."
+ ayleid_path_2_desc:0 "When the Cyrodiilian Elves noticed that the local human tribes were weak, they enslaved them on a massive scale. This helped them raise resources to build their empire."
  ayleid_path_3a:0 "Ayleid Phalangites"
  ayleid_path_3a_desc:0 "The phalanx formation that the Alesian soldiers used at first was most likely borrowed from their elven oppressors."
- ayleid_path_4a:0 "White walls of Cyrodil"
+ ayleid_path_4a:0 "White walls of Cyrodiil"
  ayleid_path_4a_desc:0 "To maintain power over large parts of the country, the Ayleids founded fortified cities at strategically located points."
  ayleid_path_5a:0 "Niben River"
  ayleid_path_5a_desc:0 "The Niben River is the largest river on the continent and at the same time the fastest route connecting the largest Elvish cities. Her safety has become a priority."
@@ -52,7 +52,7 @@
  ayleid_path_3c:0 "Elven Light"
  ayleid_path_3c_desc:0 "According to the legends, the sun and the stars are the gates to Aetherius and the sources of magic in the world. The Ayleids used this phenomenon, for example, in the construction of special wells to increase the power of untrained users."
  ayleid_path_4c:0 "Magic Stones"
- ayleid_path_4c_desc:0 "The Ayleids used metorite glass stones to store power, which prevented mana depletion. Some of them could illuminate the entire city."
+ ayleid_path_4c_desc:0 "The Ayleids used meteorite glass stones to store power, which prevented mana depletion. Some of them could illuminate the entire city."
  ayleid_path_3b:0 "Demonic Soldiers"
  ayleid_path_3b_desc:0 "The pact with the demonic forces of the oblivion allowed the use of dremoras to fight in the front lines."
  ayleid_path_4b:0 "Questionable practices"
@@ -71,7 +71,7 @@
  nede_path_2:0 "Pelinal's Soldiers"
  nede_path_2_desc:0 "Pelinal's companions are described as hoplites. It is unknown who taught them the phalanx tactics, but there are indications that they took it by watching the Ayleids."
  nede_path_3a:0 "Cultural Change"
- nede_path_3a_desc:0 "With time, there was a change in the imperial army, and instead of spearmen, they began to use swords and shields as we know well from later eras. Through the forested area of Cyrodil, a new tactic has also been devised to counter the phalanx formation."
+ nede_path_3a_desc:0 "With time, there was a change in the imperial army, and instead of spearmen, they began to use swords and shields as we know well from later eras. Through the forested area of Cyrodiil, a new tactic has also been devised to counter the phalanx formation."
  nede_path_4a:0 "Legionary Cavalry"
  nede_path_4a_desc:0 "Cavalry troops became necessary to protect the flanks of the slow legionnaires. The imperial commanders therefore focused on well-trained troops to provide support."
  nede_path_5a:0 "Imperial Ethos"
@@ -87,7 +87,7 @@
  nede_path_3c:0 "Naval Forces"
  nede_path_3c_desc:0 "The Imperial Navy may not be as strong as the Elvish, but it has more resources at its disposal than the latter. This is enough to effectively protect the imperial waters."
  nede_path_end_bonus:0 "Armies of the Empire"
- nede_path_end_bonus_desc:0 "The excellently trained and disciplined Cyridilian armies ensured peace on the continent for the first time in memory. The citizens of the empire, even among other peoples, looked enviously at the legionaries of the empire."
+ nede_path_end_bonus_desc:0 "The excellently trained and disciplined Cyrodiilian armies ensured peace on the continent for the first time in memory. The citizens of the empire, even among other peoples, looked enviously at the legionaries of the empire."
  ######
  #####Goblin
  ######
@@ -97,11 +97,11 @@
  #Traditions
  goblin_path_1:0 "Entrepreneurship of the Goblins"
  goblin_path_1_desc:0 "Due to being cut off from the markets, the goblins had to learn how to make their own weapons from the materials at hand."
- goblin_path_2a:0 "Opressed Nation"
+ goblin_path_2a:0 "Oppressed Nation"
  goblin_path_2a_desc:0 "Chased by all the rest of the races and exterminated with great ferocity, the goblins had to learn to fight in hiding, using the terrain to their advantage."
  goblin_path_3a:0 "Harsh Conditions"
  goblin_path_3a_desc:0 "Over time, the Goblins developed resistance to harsh weather conditions and could operate even in the middle of the desert."
- goblin_path_4a:0 "Runing to fight again"
+ goblin_path_4a:0 "Running to fight again"
  goblin_path_4a_desc:0 "Goblins are not cowardly as is commonly believed. They just know when to fight and when to withdraw to attack again. It's hard to catch up with a escaping goblin."
  goblin_path_2b:0 "Poisoned Arrows"
  goblin_path_2b_desc:0 "Goblins have no inhibitions from using poisons against their enemies. Show no mercy to those who do not show mercy to you."
