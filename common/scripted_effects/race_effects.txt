@@ -2,6 +2,8 @@
 	if = {
 		limit = {
 			has_culture_group = altmer
+			NOT = { has_trait = altmer }
+			NOT = { has_trait = pure }
 		}
 		add_trait = altmer
 		add_trait = pure
@@ -15,30 +17,35 @@
 	else_if = {
 		limit = {
 			has_culture_group = ayleid
+			NOT = { has_trait = ayleid }
 		}
 		add_trait = ayleid
 	}
 	else_if = {
 		limit = {
 			has_culture_group = goblin
+			NOT = { has_trait = goblin }
 		}
 		add_trait = goblin
 	}
 	else_if = {
 		limit = {
 			has_culture_group = nede
+			NOT = { has_trait = nede }
 		}
 		add_trait = nede
 	}
 	else_if = {
 		limit = {
 			has_culture_group = orcish
+			NOT = { has_trait = orc }
 		}
 		add_trait = orc
 	}
 	else_if = {
 		limit = {
 			has_culture_group = minotaurish
+			NOT = { has_trait = minotaur }
 		}
 		add_trait = minotaur
 	}
