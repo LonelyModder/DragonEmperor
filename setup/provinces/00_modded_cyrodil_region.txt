@@ -4,7 +4,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="stirkan"
+	culture="ayheartlander"
 	province_rank="city"
 	religion="deadric_pantheon"
 	terrain="plains"
@@ -13,17 +13,15 @@
 	{
 		amount=1
 	}
-	slaves=
-	{
-		amount=7
-	}
 	freemen=
 	{
 		amount=10
+		culture="aycolovian"
+		religion="elven_pantheon"
 	}
 	slaves=
 	{
-		amount=2
+		amount=5
 		culture="colovian"
 		religion="nedic_pantheon"
 		
@@ -34,7 +32,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="stirkan"
+	culture="ayheartlander"
 	province_rank="settlement"
 	religion="deadric_pantheon"
 	terrain="hills"
@@ -48,6 +46,8 @@
 	freemen=
 	{
 		amount=4
+		culture="aycolovian"
+		religion="elven_pantheon"
 	}
 }
 
@@ -55,7 +55,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="stirkan"
+	culture="ayheartlander"
 	province_rank="settlement"
 	religion="deadric_pantheon"
 	terrain="hills"
@@ -69,6 +69,8 @@
 	freemen=
 	{
 		amount=4
+		culture="aycolovian"
+		religion="elven_pantheon"
 	}
 }
 
@@ -76,7 +78,7 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="stirkan"
+	culture="ayheartlander"
 	province_rank="city"
 	religion="deadric_pantheon"
 	terrain="hills"
@@ -98,6 +100,8 @@
 	freemen=
 	{
 		amount=5
+		culture="aycolovian"
+		religion="elven_pantheon"
 	}
 }
 
