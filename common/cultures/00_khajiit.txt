@@ -1,0 +1,38 @@
+﻿khajiit = {	
+	color = hsv { 0.06 0.94 0.86 }
+
+	primary = new_ne_spearthrowers
+	second = new_ne_hoplites
+	flank = new_ne_raiders
+	
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_nedic
+
+	male_names = {
+		S'argo Ja'rassa Ri'arsha M'dul S'kheran Bhivirr Ravitamil Wadathra Do'fer Zoafazir K'raska
+		Fa'shavir S'fazir Bhisjidarr Fa'iska Theaksa M'hasta Dro'zaymar S'ier Joburabi Sholargo 
+	}
+	female_names = {
+		Dahlaranji Shisa Adharri Ekapherra Kidrashi Inorassi Bhusra Tsrivva Ahndvani Chihbah 
+		Tsalani Khalani Inermara Ji'raya Ahdnhrazad La'sha Nahsassi Ri'vari Zabhzita Dro'irra 
+	}
+	family = {
+		Ahmnin Tawakmanni Kastahe Romanni Zahtanni Raibusihr Salkaron Zahjghar Khadawi Sirabihrri
+		Javakpoor Mahrispaer Marahmahni Raimanni Aani Mahrnair Ravihirn Jarrhan Khanjtanni
+	}
+	culture = {
+		nibeneank = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = nedic_gfx
+	ethnicities = {
+		10 = greek
+	}
+}
