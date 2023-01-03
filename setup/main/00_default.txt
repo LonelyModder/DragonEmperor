@@ -901,6 +901,15 @@ country = {
 			own_control_core = { 888 887 885 883 886 889 877 881 879  }
 		}
 		
+		CAA = { #Bloodfall Clan
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 1507
+			
+			own_control_core = { 1504 1505 1506 1507 1508 1509 1510 1511 1512 1513 }	
+		}
+		
 	}
 }
 

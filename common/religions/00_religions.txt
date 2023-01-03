@@ -11,9 +11,9 @@
 khajiiti_pantheon = { # Altmer Faith
 	color = hsv { 0.06 0.94 0.86 }
 	modifier = { 
-		omen_power = 0.2
-		omen_duration = 0.2
-		stability_cost_modifier = 0.2
+		agressive_expansion_impact = -0.05
+		global_manpower_modifier = 0.1
+		character_loyalty = -0.1
 	}
 	religion_category = pantheon
 }
