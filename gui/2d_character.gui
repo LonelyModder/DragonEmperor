@@ -535,6 +535,45 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/minotaur_female.dds"
 			}
+			#Argonian
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_argonian_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/argonian_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_argonian_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/argonian_female.dds"
+			}
+			#Imga
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_imga_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/imga_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_imga_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/imga_female.dds"
+			}
+			#Khajiit
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_khajiit_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/khajiit_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_khajiit_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/khajiit_female.dds"
+			}
 		}
 
 		margin_widget = {
@@ -638,6 +677,45 @@ types MoreBGsTypes {
 				datacontext = "[GetScriptedGui('is_an_minotaur_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/minotaur_female.dds"
+			}
+			#Argonian
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_argonian_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/argonian_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_argonian_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/argonian_female.dds"
+			}
+			#Imga
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_imga_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/imga_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_imga_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/imga_female.dds"
+			}
+			#Khajiit
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_khajiit_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/khajiit_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_khajiit_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/khajiit_female.dds"
 			}
 		}
 

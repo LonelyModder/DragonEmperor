@@ -44,9 +44,30 @@
 	}
 	else_if = {
 		limit = {
-			has_culture_group = minotaurish
+			has_culture_group = minotauric
 			NOT = { has_trait = minotaur }
 		}
 		add_trait = minotaur
+	}
+	else_if = {
+		limit = {
+			has_culture_group = khajiit
+			NOT = { has_trait = khajiit }
+		}
+		add_trait = khajiit
+	}
+	else_if = {
+		limit = {
+			has_culture_group = imga
+			NOT = { has_trait = imga }
+		}
+		add_trait = imga
+	}
+	else_if = {
+		limit = {
+			has_culture_group = argonian
+			NOT = { has_trait = argonian }
+		}
+		add_trait = argonian
 	}
 }

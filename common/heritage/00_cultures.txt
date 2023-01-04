@@ -86,7 +86,7 @@ minotauric_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = orcish
+		country_culture_group = minotauric
 	}
 }
 
@@ -102,5 +102,50 @@ bosmer_heritage = {
 	
 	trigger = {
 		country_culture_group = bosmer
+	}
+}
+
+khajiit_heritage = { 
+	modifier = {
+		#good
+		global_commerce_modifier = 0.05
+		global_capital_trade_routes = 1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		country_culture_group = khajiit
+	}
+}
+
+imga_heritage = { 
+	modifier = {
+		#good
+		monthly_legitimacy = 0.1
+		improve_relation_impact = 0.5
+		
+		#bad
+		land_morale_modifier = -0.1
+	}
+	
+	trigger = {
+		country_culture_group = imga
+	}
+}
+
+argonian_heritage = { 
+	modifier = {
+		#good
+		hostile_attrition = 0.2
+		army_weight_modifier = -0.1
+		
+		#bad
+		research_points_modifier = -0.1
+	}
+	
+	trigger = {
+		country_culture_group = argonian
 	}
 }

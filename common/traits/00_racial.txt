@@ -30,6 +30,27 @@ orc = {
 	martial = 4
 }
 
+khajiit = {
+	type = status
+	charisma = 2
+	zeal = 2
+	martial = 2
+}
+
+argonian = {
+	type = status
+	charisma = -2
+	zeal = 1
+	martial = 4
+}
+
+imga = {
+	type = status
+	charisma = 3
+	zeal = 2
+	martial = -2
+}
+
 minotaur = {
 	type = status
 	charisma = 1

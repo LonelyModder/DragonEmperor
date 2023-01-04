@@ -49,6 +49,24 @@ esfa_traits.1 = {
 			}
 			add_trait = orc
 		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = imga }
+			}
+			add_trait = imga
+		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = khajiit }
+			}
+			add_trait = khajiit
+		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = argonian }
+			}
+			add_trait = argonian
+		}
 		#Altmer racism
 		if = {
 			limit = {

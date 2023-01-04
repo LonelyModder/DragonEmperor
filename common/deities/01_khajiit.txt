@@ -2,29 +2,39 @@
 
 ### Exclusive Deity Checks ###
 
-deity_ius = {
+deity_akha = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
 				RELIGION = khajiiti_pantheon
 			}
-			deity:omen_ius = {
+			deity:omen_akha = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_war
-	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
-	omen = { modded_beasts_offensive = 0.1 } #Bonus from Omen
+	icon = deity_eloquence
+	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = khajiiti_pantheon
-	deity_category = war #This Deity uses a War slot.
+	deity_category = culture 
 	deification_trigger = {
 		can_deify_trigger = yes
 	}
 	
 	on_activate = {
-		military_apotheosis_defensive_effect = yes
+		culture_apotheosis_defensive_effect = yes
 	}
 }
+#deity_alkhan
+#deity_alkosh
+#deity_baandar
+#deity_jakhajay
+#deity_khenarthi
+#deity_lorkhaj
+#deity_magrus
+#deity_rajhin
+#deity_riddlethar
+
 
