@@ -79,292 +79,244 @@
 		name = au20
 		value = flag:na
 	}
-	set_variable = {
-		name = au21
-		value = flag:na
-	}
-	set_variable = {
-		name = au22
-		value = flag:na
-	}
-	set_variable = {
-		name = au23
-		value = flag:na
-	}
 }
-allow_new_he_griphons = {
+allow_lv_lightinfantry = {
 	set_variable = {
 		name = au01
-		value = flag:new_he_griphons
+		value = flag:lv_lightinfantry
 	}
 }
-disallow_new_he_griphons = {
+disallow_lv_lightinfantry = {
 	set_variable = {
 		name = au01
 		value = flag:na
 	}
 }
-allow_new_he_soldiers = {
+allow_lv_heavyinfantry = {
 	set_variable = {
 		name = au02
-		value = flag:new_he_soldiers
+		value = flag:lv_heavyinfantry
 	}
 }
-disallow_new_he_soldiers = {
+disallow_lv_heavyinfantry = {
 	set_variable = {
 		name = au02
 		value = flag:na
 	}
 }
-allow_new_he_battlemages = {
+allow_lv_archers = {
 	set_variable = {
 		name = au03
-		value = flag:new_he_battlemages
+		value = flag:lv_archers
 	}
 }
-disallow_new_he_battlemages = {
+disallow_lv_archers = {
 	set_variable = {
 		name = au03
 		value = flag:na
 	}
 }
-allow_new_go_warriors = {
+allow_lv_scirmishers = {
 	set_variable = {
 		name = au04
-		value = flag:new_go_warriors
+		value = flag:lv_scirmishers
 	}
 }
-disallow_new_go_warriors = {
+disallow_lv_scirmishers = {
 	set_variable = {
 		name = au04
 		value = flag:na
 	}
 }
-allow_new_go_durzogs = {
+allow_lv_crossbowmen = {
 	set_variable = {
 		name = au05
-		value = flag:new_go_durzogs
+		value = flag:lv_crossbowmen
 	}
 }
-disallow_new_go_durzogs = {
+disallow_lv_crossbowmen = {
 	set_variable = {
 		name = au05
 		value = flag:na
 	}
 }
-allow_new_ne_hoplites = {
+allow_lv_camels = {
 	set_variable = {
 		name = au06
-		value = flag:new_ne_hoplites
+		value = flag:lv_camels
 	}
 }
-disallow_new_ne_hoplites = {
+disallow_lv_camels = {
 	set_variable = {
 		name = au06
 		value = flag:na
 	}
 }
-allow_new_ne_spearthrowers = {
+allow_lv_mages = {
 	set_variable = {
 		name = au07
-		value = flag:new_ne_spearthrowers
+		value = flag:lv_mages
 	}
 }
-disallow_new_ne_spearthrowers = {
+disallow_lv_mages = {
 	set_variable = {
 		name = au07
 		value = flag:na
 	}
 }
-allow_new_bo_archers = {
+allow_lv_cavalry = {
 	set_variable = {
 		name = au08
-		value = flag:new_bo_archers
+		value = flag:lv_cavalry
 	}
 }
-disallow_new_bo_archers = {
+disallow_lv_cavalry = {
 	set_variable = {
 		name = au08
 		value = flag:na
 	}
 }
-allow_new_bo_beasts = {
+allow_lv_kajiiticavalry = {
 	set_variable = {
 		name = au09
-		value = flag:new_bo_beasts
+		value = flag:lv_kajiiticavalry
 	}
 }
-disallow_new_bo_beasts = {
+disallow_lv_kajiiticavalry = {
 	set_variable = {
 		name = au09
 		value = flag:na
 	}
 }
-allow_new_ay_footmen = {
+allow_lv_guarcavalry = {
 	set_variable = {
 		name = au10
-		value = flag:new_ay_footmen
+		value = flag:lv_guarcavalry
 	}
 }
-disallow_new_ay_footmen = {
+disallow_lv_guarcavalry = {
 	set_variable = {
 		name = au10
 		value = flag:na
 	}
 }
-allow_new_ay_mages = {
+allow_lv_warhounds = {
 	set_variable = {
 		name = au11
-		value = flag:new_ay_mages
+		value = flag:lv_warhounds
 	}
 }
-disallow_new_ay_mages = {
+disallow_lv_warhounds = {
 	set_variable = {
 		name = au11
 		value = flag:na
 	}
 }
-allow_new_ay_whitegryphons = {
+allow_lv_horsearchers = {
 	set_variable = {
 		name = au12
-		value = flag:new_ay_whitegryphons
+		value = flag:lv_horsearchers
 	}
 }
-disallow_new_ay_whitegryphons = {
+disallow_lv_horsearchers = {
 	set_variable = {
 		name = au12
 		value = flag:na
 	}
 }
-allow_new_de_dremora = {
+allow_lv_minotaurs = {
 	set_variable = {
 		name = au13
-		value = flag:new_de_dremora
+		value = flag:lv_minotaurs
 	}
 }
-disallow_new_de_dremora = {
+disallow_lv_minotaurs = {
 	set_variable = {
 		name = au13
 		value = flag:na
 	}
 }
-allow_new_un_corpse = {
+allow_lv_centurions = {
 	set_variable = {
 		name = au14
-		value = flag:new_un_corpse
+		value = flag:lv_centurions
 	}
 }
-disallow_new_un_corpse = {
+disallow_lv_centurions = {
 	set_variable = {
 		name = au14
 		value = flag:na
 	}
 }
-allow_new_le_cohort = {
+allow_lv_dremoras = {
 	set_variable = {
 		name = au15
-		value = flag:new_le_cohort
+		value = flag:lv_dremoras
 	}
 }
-disallow_new_le_cohort = {
+disallow_lv_dremoras = {
 	set_variable = {
 		name = au15
 		value = flag:na
 	}
 }
-allow_new_le_archers = {
+allow_lv_undead = {
 	set_variable = {
 		name = au16
-		value = flag:new_le_archers
+		value = flag:lv_undead
 	}
 }
-disallow_new_le_archers = {
+disallow_lv_undead = {
 	set_variable = {
 		name = au16
 		value = flag:na
 	}
 }
-allow_new_le_cavalry = {
+allow_lv_gryphons = {
 	set_variable = {
 		name = au17
-		value = flag:new_le_cavalry
+		value = flag:lv_gryphons
 	}
 }
-disallow_new_le_cavalry = {
+disallow_lv_gryphons = {
 	set_variable = {
 		name = au17
 		value = flag:na
 	}
 }
-allow_new_mi_minotaur = {
+allow_lv_elephants = {
 	set_variable = {
 		name = au18
-		value = flag:new_mi_minotaur
+		value = flag:lv_elephants
 	}
 }
-disallow_new_mi_minotaur = {
+disallow_lv_elephants = {
 	set_variable = {
 		name = au18
-		value = flag:na
-	}
-}
-allow_new_ne_raiders = {
-	set_variable = {
-		name = au19
-		value = flag:new_ne_raiders
-	}
-}
-disallow_new_ne_raiders = {
-	set_variable = {
-		name = au19
-		value = flag:na
-	}
-}
-allow_new_go_scirmishers = {
-	set_variable = {
-		name = au20
-		value = flag:new_go_scirmishers
-	}
-}
-disallow_new_go_scirmishers = {
-	set_variable = {
-		name = au20
-		value = flag:na
-	}
-}
-allow_new_bo_militia = {
-	set_variable = {
-		name = au21
-		value = flag:new_bo_militia
-	}
-}
-disallow_new_bo_militia = {
-	set_variable = {
-		name = au21
 		value = flag:na
 	}
 }
 allow_supply_train = {
 	set_variable = {
-		name = au22
+		name = au19
 		value = flag:supply_train
 	}
 }
 disallow_supply_train = {
 	set_variable = {
-		name = au22
+		name = au19
 		value = flag:na
 	}
 }
 allow_engineer_cohort = {
 	set_variable = {
-		name = au23
+		name = au20
 		value = flag:engineer_cohort
 	}
 }
 disallow_engineer_cohort = {
 	set_variable = {
-		name = au23
+		name = au20
 		value = flag:na
 	}
 }
