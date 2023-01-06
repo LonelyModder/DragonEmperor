@@ -70,6 +70,36 @@ ebon = { #Added
 	color = hsv { 0.76 0.83 0.39 }
 }
 
+dwemersteel = { #Added
+	category = 0
+	allow_unit_type = lv_centurions
+	gold = 0.5
+	
+	province = {
+		local_tax_modifier = 0.05
+	}
+	country = {
+		lv_crossbowmen_defensive = 0.05
+	} 
+	
+	color = rgb { 140 78 15 }
+}
+
+dwemerplans = { #Added
+	category = 0
+	allow_unit_type = lv_crossbowmen
+	gold = 0.5
+	
+	province = {
+		local_tax_modifier = 0.05
+	}
+	country = {
+		lv_crossbowmen_defensive = 0.05
+	} 
+	
+	color = rgb { 222 185 149 }
+}
+
 moonstone = { #Added
 	category = 4
 
@@ -182,6 +212,22 @@ stone = { #282 territories
 	}
 	
 	color = hsv { 0.6 0.2 0.3 }
+}
+
+elephants = { #82 territories
+	category = 0
+	allow_unit_type = lv_elephants
+	
+	gold = 0.3
+	
+	province = {
+		local_output_modifier = 0.03
+	}
+	country = {
+		lv_elephants_discipline = 0.1
+	}
+	
+	color = hsv { 0.6 0.2 0.4 }	
 }
 
 fish = { #335 territories
@@ -321,6 +367,22 @@ soul_gems = { #Added
 	color = rgb { 255 255 255 }
 }
 
+guar = { #90 territories
+	category = 0
+	allow_unit_type = lv_guarcavalry
+	
+	gold = 0.25
+	
+	province = {
+		local_output_modifier = 0.01
+	}
+	country = {
+		lv_guarcavalry_discipline = 0.1
+	}
+	
+	color = rgb { 63 107 15 }
+}
+
 precious_metals = { #107 territories
 	category = 3
 
@@ -336,21 +398,21 @@ precious_metals = { #107 territories
 	color = hsv { 0.085 0.95 1 }
 }
 
-#steppe_horses = { #90 territories
-#	category = 0
-#	allow_unit_type = modded_horse_archers
-#	
-#	gold = 0.25
-#	
-#	province = {
-#		local_output_modifier = 0.01
-#	}
-#	country = {
-#		modded_horse_archers_discipline = 0.1
-#	}
-#	
-#	color = hsv { 0.1 0.5 0.8 }
-#}
+steppe_horses = { #90 territories
+	category = 0
+	allow_unit_type = lv_horsearchers
+	
+	gold = 0.25
+	
+	province = {
+		local_output_modifier = 0.01
+	}
+	country = {
+		modded_horse_archers_discipline = 0.1
+	}
+	
+	color = hsv { 0.1 0.5 0.8 }
+}
 
 horses = { #276 territories
 	category = 0

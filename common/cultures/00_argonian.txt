@@ -1,9 +1,9 @@
 ﻿argonian = {	
 	color = hsv { 0.34 0.88 0.36 }
 
-	primary = new_go_scirmishers
-	second = new_go_warriors
-	flank = new_go_durzogs
+	primary = lv_scirmishers
+	second = lv_lightinfantry
+	flank = lv_guarcavalry
 
 	primary_navy = tetrere
 	secondary_navy = octere

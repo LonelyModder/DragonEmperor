@@ -2513,7 +2513,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_he_battlemages
+				add_loyal_subunit = lv_mages
 			}
 			25 = {
 				trigger = {
@@ -2526,10 +2526,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_he_griphons
+				add_loyal_subunit = lv_gryphons
 			}
 			25 = {
-				add_loyal_subunit = new_he_soldiers
+				add_loyal_subunit = lv_lightinfantry
 			}
 		}
 	}
@@ -2555,7 +2555,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_ay_mages
+				add_loyal_subunit = lv_mages
 			}
 			25 = {
 				trigger = {
@@ -2568,10 +2568,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_ay_whitegryphons
+				add_loyal_subunit = lv_gryphons
 			}
 			25 = {
-				add_loyal_subunit = new_ay_footmen
+				add_loyal_subunit = lv_lightinfantry
 			}
 		}
 	}
@@ -2597,10 +2597,10 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_bo_beasts
+				add_loyal_subunit = lv_warhounds
 			}
 			25 = {
-				add_loyal_subunit = new_bo_archers
+				add_loyal_subunit = lv_archers
 			}
 		}
 	}
@@ -2616,10 +2616,10 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = new_ne_hoplites
+				add_loyal_subunit = lv_heavyinfantry
 			}
 			25 = {
-				add_loyal_subunit = new_ne_spearthrowers
+				add_loyal_subunit = lv_scirmishers
 			}
 		}
 	}
@@ -2635,7 +2635,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = new_go_warriors
+				add_loyal_subunit = lv_lightinfantry
 			}
 			25 = {
 				trigger = {
@@ -2648,7 +2648,71 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = new_go_durzogs
+				add_loyal_subunit = lv_warhounds
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = orcish
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_heavyinfantry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = khajiit
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_khajiiticavalry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = imga
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_archers
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = argonian
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_guarcavalry
 			}
 		}
 	}
@@ -2664,7 +2728,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = new_mi_minotaur
+				add_loyal_subunit = lv_minotaurs
 			}
 		}
 	}
