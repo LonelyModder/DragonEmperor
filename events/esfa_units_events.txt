@@ -26,10 +26,6 @@ units_allowance_events.1 = {
 						trade_goods = dwemerplans
 					}					
 				}
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:dwemer
-				}
 			}
 			allow_lv_crossbowmen = yes
 		}
@@ -165,10 +161,6 @@ units_allowance_events.1 = {
 							trade_goods = dwemersteel
 						}
 					}					
-				}
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:dwemer
 				}
 			}
 			allow_lv_centurions = yes
