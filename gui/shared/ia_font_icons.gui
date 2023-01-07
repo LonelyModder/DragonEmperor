@@ -215,9 +215,9 @@ texticon = {
     }
 }	
 texticon = {
-    icon = lv_kajiiticavalry
+    icon = lv_khajiiticavalry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_kajiiticavalry.dds"
+        texture = "gfx/interface/icons/subunits/lv_khajiiticavalry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
@@ -296,7 +296,7 @@ texticon = {
     }
 }	
 texticon = {
-    icon = v
+    icon = lv_elephants
     iconsize = {
         texture = "gfx/interface/icons/subunits/lv_elephants.dds"
         size = { 25 25 }

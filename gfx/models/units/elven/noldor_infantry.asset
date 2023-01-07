@@ -708,115 +708,81 @@ entity = {
 ##############	 	
 	
 entity = {
-	name = "noldor_gfx_new_he_griphons"
+	name = "noldor_gfx_lv_lightinfantry"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "noldor_gfx_new_he_soldiers"
+	name = "noldor_gfx_lv_heavyinfantry"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "noldor_gfx_new_he_battlemages"
+	name = "noldor_gfx_lv_archers"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "noldor_gfx_new_go_warriors"
+	name = "noldor_gfx_lv_scirmishers"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_go_durzogs"
+	name = "noldor_gfx_lv_crossbowmen"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_ne_hoplites"
+	name = "noldor_gfx_lv_camels"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_ne_spearthrowers"
+	name = "noldor_gfx_lv_mages"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_bo_archers"
+	name = "noldor_gfx_lv_cavalry"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_bo_beasts"
+	name = "noldor_gfx_lv_khajiiticavalry"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_ay_footmen"
+	name = "noldor_gfx_lv_guarcavalry"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "noldor_gfx_new_ay_mages"
+	name = "noldor_gfx_lv_warhounds"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "noldor_gfx_new_ay_whitegryphons"
+	name = "noldor_gfx_lv_horsearchers"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "noldor_gfx_new_de_dremora"
+	name = "noldor_gfx_lv_minotaurs"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "noldor_gfx_new_un_corpse"
+	name = "noldor_gfx_lv_centurions"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "noldor_gfx_new_le_cohort"
+	name = "noldor_gfx_lv_dremoras"
 	clone = "noldor_gfx_heavy_infantry"
-}
-
+}			
 entity = {
-	name = "noldor_gfx_new_le_archers"
+	name = "noldor_gfx_lv_undead"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "noldor_gfx_new_le_cavalry"
+	name = "noldor_gfx_lv_gryphons"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "noldor_gfx_new_mi_minotaur"
+	name = "noldor_gfx_lv_elephants"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
-entity = {
-	name = "noldor_gfx_new_ne_raiders"
-	clone = "noldor_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "noldor_gfx_new_go_scirmishers"
-	clone = "noldor_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "noldor_gfx_new_bo_militia"
-	clone = "noldor_gfx_heavy_infantry"
-}
-
 entity = {
 	name = "noldor_gfx_supply_train"
 	clone = "noldor_gfx_heavy_infantry"
 }
-
 entity = {
 	name = "noldor_gfx_engineer_cohort"
 	clone = "noldor_gfx_heavy_infantry"
@@ -829,213 +795,183 @@ entity = {
 
 # Do one for each unit type
 
-### Altmer Griphons ----------------------------------------------------------------
+### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_he_griphons"
+	name = "noldor_gfx_levy_lv_lightinfantry"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_he_griphons"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Altmer Soldiers ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_he_soldiers"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_he_soldiers"
+	name = "noldor_gfx_legion_lv_lightinfantry"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Altmer Battlemages ----------------------------------------------------------------
+### Heavy Infantry ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_he_battlemages"
+	name = "noldor_gfx_levy_lv_heavyinfantry"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_he_battlemages"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Goblin Warriors ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_go_warriors"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_go_warriors"
+	name = "noldor_gfx_legion_lv_heavyinfantry"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Goblin Durzogs ----------------------------------------------------------------
+### Archers ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_go_durzogs"
+	name = "noldor_gfx_levy_lv_archers"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_go_durzogs"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Nedic Hoplites ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_ne_hoplites"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_ne_hoplites"
+	name = "noldor_gfx_legion_lv_archers"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Nedic Spearthrowers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_ne_spearthrowers"
+	name = "noldor_gfx_levy_lv_scirmishers"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_ne_spearthrowers"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Bosmer Archers ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_bo_archers"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_bo_archers"
+	name = "noldor_gfx_legion_lv_scirmishers"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Beasts ----------------------------------------------------------------
+### Crossbowmen ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_bo_beasts"
+	name = "noldor_gfx_levy_lv_crossbowmen"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_bo_beasts"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Ayleid Footmen ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_ay_footmen"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_ay_footmen"
+	name = "noldor_gfx_legion_lv_crossbowmen"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Ayleid Mages ----------------------------------------------------------------
+### Camels ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_ay_mages"
+	name = "noldor_gfx_levy_lv_camels"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_ay_mages"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Ayleid Horsearchers ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_ay_whitegryphons"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_ay_whitegryphons"
+	name = "noldor_gfx_legion_lv_camels"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Dremora ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_de_dremora"
+	name = "noldor_gfx_levy_lv_mages"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_de_dremora"
+	name = "noldor_gfx_legion_lv_mages"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Cavalry ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_cavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_cavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Khajiit Cavalry ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_khajiiticavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_khajiiticavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Guar Cavalry ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_guarcavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_guarcavalry"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Warhounds ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_warhounds"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_warhounds"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Horse Archers ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_horsearchers"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_horsearchers"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Minotaurs ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_minotaurs"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_minotaurs"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Centurions ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_centurions"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_centurions"
+	clone = "noldor_gfx_light_infantry"
+}
+
+### Dremoras ----------------------------------------------------------------
+entity ={
+	name = "noldor_gfx_levy_lv_dremoras"
+	clone = "noldor_gfx_light_infantry"
+}
+entity ={
+	name = "noldor_gfx_legion_lv_dremoras"
 	clone = "noldor_gfx_light_infantry"
 }
 
 ### Undead ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_un_corpse"
+	name = "noldor_gfx_levy_lv_undead"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_un_corpse"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Legionary Cohort ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_le_cohort"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_le_cohort"
+	name = "noldor_gfx_legion_lv_undead"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Legionary Archers ----------------------------------------------------------------
+### Gryphons ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_le_archers"
+	name = "noldor_gfx_levy_lv_gryphons"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_le_archers"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Legionary Cavalry ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_le_cavalry"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_le_cavalry"
+	name = "noldor_gfx_legion_lv_gryphons"
 	clone = "noldor_gfx_light_infantry"
 }
 
-### Minotaur ----------------------------------------------------------------
+### Elephants ----------------------------------------------------------------
 entity ={
-	name = "noldor_gfx_levy_new_mi_minotaur"
+	name = "noldor_gfx_levy_lv_elephants"
 	clone = "noldor_gfx_light_infantry"
 }
 entity ={
-	name = "noldor_gfx_legion_new_mi_minotaur"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Nedic Raiders ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_ne_raiders"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_ne_raiders"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Goblin Scirmishers ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_go_scirmishers"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_go_scirmishers"
-	clone = "noldor_gfx_light_infantry"
-}
-
-### Bosmer Militia ----------------------------------------------------------------
-entity ={
-	name = "noldor_gfx_levy_new_bo_militia"
-	clone = "noldor_gfx_light_infantry"
-}
-entity ={
-	name = "noldor_gfx_legion_new_bo_militia"
+	name = "noldor_gfx_legion_lv_elephants"
 	clone = "noldor_gfx_light_infantry"
 }
 
@@ -1058,4 +994,3 @@ entity ={
 	name = "noldor_gfx_legion_engineer_cohort"
 	clone = "noldor_gfx_light_infantry"
 }
-

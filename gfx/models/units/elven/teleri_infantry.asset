@@ -710,115 +710,81 @@ entity = {
 ##############	 	
 	
 entity = {
-	name = "teleri_gfx_new_he_griphons"
+	name = "teleri_gfx_lv_lightinfantry"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "teleri_gfx_new_he_soldiers"
+	name = "teleri_gfx_lv_heavyinfantry"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "teleri_gfx_new_he_battlemages"
+	name = "teleri_gfx_lv_archers"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "teleri_gfx_new_go_warriors"
+	name = "teleri_gfx_lv_scirmishers"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_go_durzogs"
+	name = "teleri_gfx_lv_crossbowmen"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_ne_hoplites"
+	name = "teleri_gfx_lv_camels"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_ne_spearthrowers"
+	name = "teleri_gfx_lv_mages"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_bo_archers"
+	name = "teleri_gfx_lv_cavalry"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_bo_beasts"
+	name = "teleri_gfx_lv_khajiiticavalry"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_ay_footmen"
+	name = "teleri_gfx_lv_guarcavalry"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "teleri_gfx_new_ay_mages"
+	name = "teleri_gfx_lv_warhounds"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "teleri_gfx_new_ay_whitegryphons"
+	name = "teleri_gfx_lv_horsearchers"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "teleri_gfx_new_de_dremora"
+	name = "teleri_gfx_lv_minotaurs"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "teleri_gfx_new_un_corpse"
+	name = "teleri_gfx_lv_centurions"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "teleri_gfx_new_le_cohort"
+	name = "teleri_gfx_lv_dremoras"
 	clone = "teleri_gfx_heavy_infantry"
-}
-
+}			
 entity = {
-	name = "teleri_gfx_new_le_archers"
+	name = "teleri_gfx_lv_undead"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "teleri_gfx_new_le_cavalry"
+	name = "teleri_gfx_lv_gryphons"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "teleri_gfx_new_mi_minotaur"
+	name = "teleri_gfx_lv_elephants"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
-entity = {
-	name = "teleri_gfx_new_ne_raiders"
-	clone = "teleri_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "teleri_gfx_new_go_scirmishers"
-	clone = "teleri_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "teleri_gfx_new_bo_militia"
-	clone = "teleri_gfx_heavy_infantry"
-}
-
 entity = {
 	name = "teleri_gfx_supply_train"
 	clone = "teleri_gfx_heavy_infantry"
 }
-
 entity = {
 	name = "teleri_gfx_engineer_cohort"
 	clone = "teleri_gfx_heavy_infantry"
@@ -831,213 +797,183 @@ entity = {
 
 # Do one for each unit type
 
-### Altmer Griphons ----------------------------------------------------------------
+### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_he_griphons"
+	name = "teleri_gfx_levy_lv_lightinfantry"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_he_griphons"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Altmer Soldiers ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_he_soldiers"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_he_soldiers"
+	name = "teleri_gfx_legion_lv_lightinfantry"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Altmer Battlemages ----------------------------------------------------------------
+### Heavy Infantry ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_he_battlemages"
+	name = "teleri_gfx_levy_lv_heavyinfantry"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_he_battlemages"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Goblin Warriors ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_go_warriors"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_go_warriors"
+	name = "teleri_gfx_legion_lv_heavyinfantry"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Goblin Durzogs ----------------------------------------------------------------
+### Archers ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_go_durzogs"
+	name = "teleri_gfx_levy_lv_archers"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_go_durzogs"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Nedic Hoplites ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_ne_hoplites"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_ne_hoplites"
+	name = "teleri_gfx_legion_lv_archers"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Nedic Spearthrowers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_ne_spearthrowers"
+	name = "teleri_gfx_levy_lv_scirmishers"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_ne_spearthrowers"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Bosmer Archers ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_bo_archers"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_bo_archers"
+	name = "teleri_gfx_legion_lv_scirmishers"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Beasts ----------------------------------------------------------------
+### Crossbowmen ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_bo_beasts"
+	name = "teleri_gfx_levy_lv_crossbowmen"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_bo_beasts"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Ayleid Footmen ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_ay_footmen"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_ay_footmen"
+	name = "teleri_gfx_legion_lv_crossbowmen"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Ayleid Mages ----------------------------------------------------------------
+### Camels ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_ay_mages"
+	name = "teleri_gfx_levy_lv_camels"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_ay_mages"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Ayleid Horsearchers ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_ay_whitegryphons"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_ay_whitegryphons"
+	name = "teleri_gfx_legion_lv_camels"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Dremora ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_de_dremora"
+	name = "teleri_gfx_levy_lv_mages"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_de_dremora"
+	name = "teleri_gfx_legion_lv_mages"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Cavalry ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_cavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_cavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Khajiit Cavalry ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_khajiiticavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_khajiiticavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Guar Cavalry ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_guarcavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_guarcavalry"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Warhounds ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_warhounds"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_warhounds"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Horse Archers ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_horsearchers"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_horsearchers"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Minotaurs ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_minotaurs"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_minotaurs"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Centurions ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_centurions"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_centurions"
+	clone = "teleri_gfx_light_infantry"
+}
+
+### Dremoras ----------------------------------------------------------------
+entity ={
+	name = "teleri_gfx_levy_lv_dremoras"
+	clone = "teleri_gfx_light_infantry"
+}
+entity ={
+	name = "teleri_gfx_legion_lv_dremoras"
 	clone = "teleri_gfx_light_infantry"
 }
 
 ### Undead ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_un_corpse"
+	name = "teleri_gfx_levy_lv_undead"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_un_corpse"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Legionary Cohort ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_le_cohort"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_le_cohort"
+	name = "teleri_gfx_legion_lv_undead"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Legionary Archers ----------------------------------------------------------------
+### Gryphons ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_le_archers"
+	name = "teleri_gfx_levy_lv_gryphons"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_le_archers"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Legionary Cavalry ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_le_cavalry"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_le_cavalry"
+	name = "teleri_gfx_legion_lv_gryphons"
 	clone = "teleri_gfx_light_infantry"
 }
 
-### Minotaur ----------------------------------------------------------------
+### Elephants ----------------------------------------------------------------
 entity ={
-	name = "teleri_gfx_levy_new_mi_minotaur"
+	name = "teleri_gfx_levy_lv_elephants"
 	clone = "teleri_gfx_light_infantry"
 }
 entity ={
-	name = "teleri_gfx_legion_new_mi_minotaur"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Nedic Raiders ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_ne_raiders"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_ne_raiders"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Goblin Scirmishers ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_go_scirmishers"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_go_scirmishers"
-	clone = "teleri_gfx_light_infantry"
-}
-
-### Bosmer Militia ----------------------------------------------------------------
-entity ={
-	name = "teleri_gfx_levy_new_bo_militia"
-	clone = "teleri_gfx_light_infantry"
-}
-entity ={
-	name = "teleri_gfx_legion_new_bo_militia"
+	name = "teleri_gfx_legion_lv_elephants"
 	clone = "teleri_gfx_light_infantry"
 }
 

@@ -776,115 +776,81 @@ entity = {
 ##############	 	
 	
 entity = {
-	name = "nedic_gfx_new_he_griphons"
+	name = "nedic_gfx_lv_lightinfantry"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "nedic_gfx_new_he_soldiers"
+	name = "nedic_gfx_lv_heavyinfantry"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "nedic_gfx_new_he_battlemages"
+	name = "nedic_gfx_lv_archers"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "nedic_gfx_new_go_warriors"
+	name = "nedic_gfx_lv_scirmishers"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_go_durzogs"
+	name = "nedic_gfx_lv_crossbowmen"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_ne_hoplites"
+	name = "nedic_gfx_lv_camels"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_ne_spearthrowers"
+	name = "nedic_gfx_lv_mages"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_bo_archers"
+	name = "nedic_gfx_lv_cavalry"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_bo_beasts"
+	name = "nedic_gfx_lv_khajiiticavalry"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_ay_footmen"
+	name = "nedic_gfx_lv_guarcavalry"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "nedic_gfx_new_ay_mages"
+	name = "nedic_gfx_lv_warhounds"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}	
 entity = {
-	name = "nedic_gfx_new_ay_whitegryphons"
+	name = "nedic_gfx_lv_horsearchers"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "nedic_gfx_new_de_dremora"
+	name = "nedic_gfx_lv_minotaurs"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "nedic_gfx_new_un_corpse"
+	name = "nedic_gfx_lv_centurions"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}		
 entity = {
-	name = "nedic_gfx_new_le_cohort"
+	name = "nedic_gfx_lv_dremoras"
 	clone = "greek_gfx_heavy_infantry"
-}
-
+}			
 entity = {
-	name = "nedic_gfx_new_le_archers"
+	name = "nedic_gfx_lv_undead"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "nedic_gfx_new_le_cavalry"
+	name = "nedic_gfx_lv_gryphons"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
-	name = "nedic_gfx_new_mi_minotaur"
+	name = "nedic_gfx_lv_elephants"
 	clone = "greek_gfx_heavy_infantry"
 }
-
-entity = {
-	name = "nedic_gfx_new_ne_raiders"
-	clone = "greek_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "nedic_gfx_new_go_scirmishers"
-	clone = "greek_gfx_heavy_infantry"
-}
-
-entity = {
-	name = "nedic_gfx_new_bo_militia"
-	clone = "greek_gfx_heavy_infantry"
-}
-
 entity = {
 	name = "nedic_gfx_supply_train"
 	clone = "greek_gfx_heavy_infantry"
 }
-
 entity = {
 	name = "nedic_gfx_engineer_cohort"
 	clone = "greek_gfx_heavy_infantry"
@@ -897,213 +863,183 @@ entity = {
 
 # Do one for each unit type
 
-### Altmer Griphons ----------------------------------------------------------------
+### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_he_griphons"
+	name = "nedic_gfx_levy_lv_lightinfantry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_he_griphons"
-	clone = "greek_levies_infantry"
-}
-
-### Altmer Soldiers ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_he_soldiers"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_he_soldiers"
+	name = "nedic_gfx_legion_lv_lightinfantry"
 	clone = "greek_levies_infantry"
 }
 
-### Altmer Battlemages ----------------------------------------------------------------
+### Heavy Infantry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_he_battlemages"
+	name = "nedic_gfx_levy_lv_heavyinfantry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_he_battlemages"
-	clone = "greek_levies_infantry"
-}
-
-### Goblin Warriors ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_go_warriors"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_go_warriors"
+	name = "nedic_gfx_legion_lv_heavyinfantry"
 	clone = "greek_levies_infantry"
 }
 
-### Goblin Durzogs ----------------------------------------------------------------
+### Archers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_go_durzogs"
+	name = "nedic_gfx_levy_lv_archers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_go_durzogs"
-	clone = "greek_levies_infantry"
-}
-
-### Nedic Hoplites ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_ne_hoplites"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_ne_hoplites"
+	name = "nedic_gfx_legion_lv_archers"
 	clone = "greek_levies_infantry"
 }
 
-### Nedic Spearthrowers ----------------------------------------------------------------
+### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_ne_spearthrowers"
+	name = "nedic_gfx_levy_lv_scirmishers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_ne_spearthrowers"
-	clone = "greek_levies_infantry"
-}
-
-### Bosmer Archers ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_bo_archers"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_bo_archers"
+	name = "nedic_gfx_legion_lv_scirmishers"
 	clone = "greek_levies_infantry"
 }
 
-### Beasts ----------------------------------------------------------------
+### Crossbowmen ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_bo_beasts"
+	name = "nedic_gfx_levy_lv_crossbowmen"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_bo_beasts"
-	clone = "greek_levies_infantry"
-}
-
-### Ayleid Footmen ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_ay_footmen"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_ay_footmen"
+	name = "nedic_gfx_legion_lv_crossbowmen"
 	clone = "greek_levies_infantry"
 }
 
-### Ayleid Mages ----------------------------------------------------------------
+### Camels ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_ay_mages"
+	name = "nedic_gfx_levy_lv_camels"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_ay_mages"
-	clone = "greek_levies_infantry"
-}
-
-### Ayleid Horsearchers ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_ay_whitegryphons"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_ay_whitegryphons"
+	name = "nedic_gfx_legion_lv_camels"
 	clone = "greek_levies_infantry"
 }
 
-### Dremora ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_de_dremora"
+	name = "nedic_gfx_levy_lv_mages"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_de_dremora"
+	name = "nedic_gfx_legion_lv_mages"
+	clone = "greek_levies_infantry"
+}
+
+### Cavalry ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_cavalry"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_cavalry"
+	clone = "greek_levies_infantry"
+}
+
+### Khajiit Cavalry ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_khajiiticavalry"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_khajiiticavalry"
+	clone = "greek_levies_infantry"
+}
+
+### Guar Cavalry ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_guarcavalry"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_guarcavalry"
+	clone = "greek_levies_infantry"
+}
+
+### Warhounds ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_warhounds"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_warhounds"
+	clone = "greek_levies_infantry"
+}
+
+### Horse Archers ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_horsearchers"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_horsearchers"
+	clone = "greek_levies_infantry"
+}
+
+### Minotaurs ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_minotaurs"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_minotaurs"
+	clone = "greek_levies_infantry"
+}
+
+### Centurions ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_centurions"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_centurions"
+	clone = "greek_levies_infantry"
+}
+
+### Dremoras ----------------------------------------------------------------
+entity ={
+	name = "nedic_gfx_levy_lv_dremoras"
+	clone = "greek_levies_infantry"
+}
+entity ={
+	name = "nedic_gfx_legion_lv_dremoras"
 	clone = "greek_levies_infantry"
 }
 
 ### Undead ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_un_corpse"
+	name = "nedic_gfx_levy_lv_undead"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_un_corpse"
-	clone = "greek_levies_infantry"
-}
-
-### Legionary Cohort ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_le_cohort"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_le_cohort"
+	name = "nedic_gfx_legion_lv_undead"
 	clone = "greek_levies_infantry"
 }
 
-### Legionary Archers ----------------------------------------------------------------
+### Gryphons ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_le_archers"
+	name = "nedic_gfx_levy_lv_gryphons"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_le_archers"
-	clone = "greek_levies_infantry"
-}
-
-### Legionary Cavalry ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_le_cavalry"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_le_cavalry"
+	name = "nedic_gfx_legion_lv_gryphons"
 	clone = "greek_levies_infantry"
 }
 
-### Minotaur ----------------------------------------------------------------
+### Elephants ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_new_mi_minotaur"
+	name = "nedic_gfx_levy_lv_elephants"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_new_mi_minotaur"
-	clone = "greek_levies_infantry"
-}
-
-### Nedic Raiders ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_ne_raiders"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_ne_raiders"
-	clone = "greek_levies_infantry"
-}
-
-### Goblin Scirmishers ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_new_go_scirmishers"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_go_scirmishers"
-	clone = "greek_levies_infantry"
-}
-
-### Bosmer Militia ----------------------------------------------------------------
-entity ={
-	name = "nedic_gfx_levy_new_bo_militia"
-	clone = "greek_levies_infantry"
-}
-entity ={
-	name = "nedic_gfx_legion_new_bo_militia"
+	name = "nedic_gfx_legion_lv_elephants"
 	clone = "greek_levies_infantry"
 }
 

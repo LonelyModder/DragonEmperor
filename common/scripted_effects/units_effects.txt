@@ -176,13 +176,13 @@ disallow_lv_cavalry = {
 		value = flag:na
 	}
 }
-allow_lv_kajiiticavalry = {
+allow_lv_khajiiticavalry = {
 	set_variable = {
 		name = au09
-		value = flag:lv_kajiiticavalry
+		value = flag:lv_khajiiticavalry
 	}
 }
-disallow_lv_kajiiticavalry = {
+disallow_lv_khajiiticavalry = {
 	set_variable = {
 		name = au09
 		value = flag:na

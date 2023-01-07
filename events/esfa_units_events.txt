@@ -87,10 +87,10 @@ units_allowance_events.1 = {
 					this.culture.culture_group = culture_group:khajiit
 				}
 			}
-			allow_lv_kajiiticavalry = yes
+			allow_lv_khajiiticavalry = yes
 		}
 		else = {
-			disallow_lv_kajiiticavalry = yes
+			disallow_lv_khajiiticavalry = yes
 		}	
 		if = {
 			limit =  {
