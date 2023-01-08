@@ -14,9 +14,9 @@ levy_altmer = { #altmer militia
 	default = no
 
 	lv_gryphons = 0.2
-	lv_lightinfantry = 0.4
+	lv_lightinfantry = 0.3
 	lv_archers = 0.2
-	lv_mages = 0.2
+	lv_mages = 0.3
 }
 
 #Goblin
@@ -48,8 +48,8 @@ levy_ayleid = { #ayleid militia
 
 	lv_lightinfantry = 0.4
 	lv_mages = 0.2
-	lv_archers = 0.2
-	lv_gryphons = 0.2
+	lv_archers = 0.3
+	lv_gryphons = 0.1
 }
 
 #Nedic
@@ -65,10 +65,12 @@ levy_nedic = { #nedic militia
 
 #Minotauric
 
-levy_minotaurish = { #nedic militia
+levy_minotaurish = { #minotaur militia
 	default = no
 
-	lv_minotaurs = 1
+	lv_minotaurs = 0.6
+	lv_scirmishers = 0.2
+	lv_warhounds = 0.2
 }
 
 #Orcish
@@ -85,7 +87,7 @@ levy_orcish = { #orcish militia
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_heavyinfantry = 0.2
+	lv_lightinfantry = 0.2
 	lv_archers = 0.5
 	lv_mages = 0.1
 	lv_warhounds = 0.2
@@ -101,7 +103,7 @@ levy_imgan = { #imga militia
 
 #Khajiit
 
-levy_imgan = { #khajiit militia
+levy_khajiit = { #khajiit militia
 	default = no
 
 	lv_lightinfantry = 0.6
@@ -111,7 +113,7 @@ levy_imgan = { #khajiit militia
 
 #Argonian
 
-levy_imgan = { #imga militia
+levy_argonian = { #argonian militia
 	default = no
 
 	lv_lightinfantry = 0.3
