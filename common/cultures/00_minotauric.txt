@@ -28,15 +28,15 @@
 		Bravevigor Swiftstriker Steelfury Goblinroar Nimbleskull Steadyfury Stormhide Ironslash
 	}
 	culture = {
-		battlehorn = {}
+		minotauran = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = orcish_gfx
+	graphical_culture = minotauric_gfx
 	ethnicities = {
-		10 = orcish
+		10 = greek
 	}
 }

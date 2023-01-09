@@ -918,6 +918,15 @@ country = {
 			
 			own_control_core = { 1933 1934 1935 1931 }	
 		}
+		
+		CAC = { #Morihaus Host
+			government = tribal_kingdom
+			primary_culture = minotauran
+			religion = nedic_pantheon
+			capital = 1515
+			
+			own_control_core = { 1515 1514 1516 1528 1517 1518 }	
+		}
 	}
 }
 
