@@ -106,9 +106,10 @@ levy_imgan = { #imga militia
 levy_khajiit = { #khajiit militia
 	default = no
 
-	lv_lightinfantry = 0.6
-	lv_archers = 0.2
-	lv_scirmishers = 0.2
+	lv_lightinfantry = 0.4
+	lv_camels = 0.2
+	lv_scirmishers = 0.3
+	lv_khajiitcavalry = 0.1
 }
 
 #Argonian

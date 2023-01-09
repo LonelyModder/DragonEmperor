@@ -24,7 +24,7 @@ deity_akha = {
 	}
 	
 	on_activate = {
-		culture_apotheosis_defensive_effect = yes
+		culture_apotheosis_capital_effect = yes
 	}
 }
 
@@ -50,7 +50,7 @@ deity_alkosh = {
 	}
 	
 	on_activate = {
-		culture_apotheosis_defensive_effect = yes
+		culture_apotheosis_capital_effect = yes
 	}
 }
 
@@ -102,7 +102,7 @@ deity_baandar = {
 	}
 	
 	on_activate = {
-		economy_income_effect = yes
+		economy_apotheosis_province_improvement_effect = yes
 	}
 }
 
@@ -154,7 +154,7 @@ deity_khenarthi = {
 	}
 	
 	on_activate = {
-		fertility_apotheosis_defensive_effect = yes
+		fertility_apotheosis_capital_effect = yes
 	}
 }
 
@@ -180,7 +180,7 @@ deity_lorkhaj = {
 	}
 	
 	on_activate = {
-		culture_apotheosis_defensive_effect = yes
+		culture_apotheosis_capital_effect = yes
 	}
 }
 
@@ -206,7 +206,7 @@ deity_magrus = {
 	}
 	
 	on_activate = {
-		culture_apotheosis_defensive_effect = yes
+		culture_apotheosis_capital_effect = yes
 	}
 }
 
@@ -232,7 +232,7 @@ deity_nirni = {
 	}
 	
 	on_activate = {
-		fertility_apotheosis_defensive_effect = yes
+		fertility_apotheosis_capital_effect = yes
 	}
 }
 

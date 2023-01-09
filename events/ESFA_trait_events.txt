@@ -9,16 +9,20 @@ esfa_traits.1 = {
 		#Racial traits
 		if = {
 			limit = {
+				OR = {
+					father = { has_trait = minotaur }
+					mother = { has_trait = minotaur }
+				}
+			}
+			add_trait = minotaur
+		}
+		if = {
+			limit = {
 				mother = { has_trait = altmer }
 			}
 			add_trait = altmer
 		}	
-		if = {
-			limit = {
-				mother = { has_trait = minotaur }
-			}
-			add_trait = minotaur
-		}
+		
 		else_if = { 
 			limit = {
 				mother = { has_trait = bosmer }
@@ -89,6 +93,10 @@ esfa_traits.1 = {
 								has_trait = bosmer 	
 								has_trait = nede 
 								has_trait = goblin 
+								has_trait = orc
+								has_trait = khajiit
+								has_trait = argonian
+								has_trait = imga
 							} 
 						}
 						mother = { has_trait = altmer }

@@ -14818,9 +14818,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="nibeneank"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="khajiiti_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -14856,18 +14856,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="nibeneank"
+	province_rank="city"
+	religion="khajiiti_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
 		amount=1
 	}
-	tribesmen=
+	slaves=
 	{
 		amount=3
+	}
+	tribesmen=
+	{
+		amount=7
 	}
 }
 
@@ -14875,9 +14879,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="nibeneank"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="khajiiti_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -14894,9 +14898,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="nibeneank"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="khajiiti_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=

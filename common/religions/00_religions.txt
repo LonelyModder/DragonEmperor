@@ -8,7 +8,7 @@
 	religion_category = pantheon
 }
 
-khajiiti_pantheon = { # Altmer Faith
+khajiiti_pantheon = { # Khajiit Faith
 	color = hsv { 0.06 0.94 0.86 }
 	modifier = { 
 		agressive_expansion_impact = -0.05
@@ -18,7 +18,7 @@ khajiiti_pantheon = { # Altmer Faith
 	religion_category = pantheon
 }
 
-hist_pantheon = { # Altmer Faith
+hist_pantheon = { # Argonian Faith
 	color = hsv { 0.34 0.88 0.36 }
 	modifier = { 
 		omen_power = 0.2

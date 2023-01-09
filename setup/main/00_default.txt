@@ -475,7 +475,7 @@ country = {
 		BAR = {
 			government = tribal_kingdom
 		}
-		
+		#Abecean
 		AAA = { #Alinor
 			government = despotic_monarchy
 			primary_culture = alinoric
@@ -900,7 +900,7 @@ country = {
 			
 			own_control_core = { 888 887 885 883 886 889 877 881 879  }
 		}
-		
+		#Cyrodiil
 		CAA = { #Bloodfall Clan
 			government = tribal_kingdom
 			primary_culture = obloodfall
@@ -910,6 +910,14 @@ country = {
 			own_control_core = { 1504 1505 1506 1507 1508 1509 1510 1511 1512 1513 }	
 		}
 		
+		CAB = { #Kashara Clan
+			government = tribal_kingdom
+			primary_culture = nibeneank
+			religion = khajiiti_pantheon
+			capital = 1933
+			
+			own_control_core = { 1933 1934 1935 1931 }	
+		}
 	}
 }
 
