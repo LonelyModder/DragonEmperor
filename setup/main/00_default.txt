@@ -88,6 +88,9 @@ provinces = { #Any entry must contain a comment with city name.
 	27 = { #Wormusoel
 		port_building = 2
 	}
+	1579 = { #Temple Harbor
+		port_building = 2
+	}
 	906 = { #Cathedral of Webs?
 		port_building = 2
 	}
@@ -110,6 +113,15 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	630 = { #Cey-Tarn Keep
+		fortress_building = 1
+	}
+	1601 = { #Weye
+		fortress_building = 1
+	}
+	1589 = { #Temple Baracks
+		fortress_building = 1
+	}
+	1595 = { #Tower of Mages
 		fortress_building = 1
 	}
 	264 = { #Rillis
@@ -279,6 +291,14 @@ provinces = { #Any entry must contain a comment with city name.
 road_network = {
 	#Cyrod
 	27=30
+	1577=1579
+	1576=1577
+	1600=1601
+	1577=1580
+	1580=1595
+	1577=1587
+	1587=1590
+	1590=1589
 	#Auridon
 	460=463 
 	463=472
@@ -530,6 +550,10 @@ country = {
 				{
 					culture = aycolovian 
 					type = citizen
+				}
+				{
+					culture = goldcoastal 
+					type = slaves
 				}
 			}
 			
@@ -929,7 +953,7 @@ country = {
 		}
 		
 		CAD = { #Ca-Uxith
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = blackwoodan
 			religion = hist_pantheon
 			capital = 2370
@@ -938,12 +962,37 @@ country = {
 		}
 		
 		CAE = { #Unga
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = imgan
 			religion = green_pantheon
 			capital = 1300
 			
 			own_control_core = { 1300 1301 1309 }	
+		}
+		
+		CAF = { #Temple of Ancestors
+			government = theocratic_monarchy
+			primary_culture = heartlanderhi
+			religion = elven_pantheon
+			capital = 1577
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = { 
+				{
+					culture = nheartlanders 
+					type = slaves
+				}
+			}
+			
+			own_control_core = { 1576 1577 1578 1579 1580 1581 1582 1583 1584 1585 1586 1587
+								 1588 1589 1590 1591 1592 1593 1594 1595 1596 1597 1601 1602 
+								 1600 }	
 		}
 	}
 }

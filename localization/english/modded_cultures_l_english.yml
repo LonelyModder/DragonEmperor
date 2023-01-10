@@ -48,7 +48,8 @@
  #Ayleid
  ayleid:2 "Ayleid"
  ayheartlander:0 "Heartlander"
- aygoldcoastal:0 "Coastal Ayleid"
+ aygoldcoastal:0 "Western"
+ heartlanderhi:0 "Heartlander"
  ayleid_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  ayleid_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Bosmer
@@ -60,6 +61,7 @@
  nede:2 "Nedic"
  abecean:0 "Abecean"
  goldcoastal:0 "Gold-Coastal"
+ nheartlanders:0 "Heartlander"
  nede_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  nede_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Orcish
