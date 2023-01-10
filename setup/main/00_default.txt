@@ -927,6 +927,24 @@ country = {
 			
 			own_control_core = { 1515 1514 1516 1528 1517 1518 }	
 		}
+		
+		CAD = { #Ca-Uxith
+			government = tribal_kingdom
+			primary_culture = blackwoodan
+			religion = hist_pantheon
+			capital = 2370
+			
+			own_control_core = { 2370 2352 2353 2366 }	
+		}
+		
+		CAE = { #Unga
+			government = tribal_kingdom
+			primary_culture = imgan
+			religion = green_pantheon
+			capital = 1300
+			
+			own_control_core = { 1300 1301 1309 }	
+		}
 	}
 }
 

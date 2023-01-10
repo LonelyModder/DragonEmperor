@@ -3072,18 +3072,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="imgan"
+	province_rank="city"
+	religion="green_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+	}
 	slaves=
 	{
 		amount=1
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=6
 	}
 }
 
@@ -3091,9 +3095,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="imgan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="green_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -3243,9 +3247,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="imgan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="green_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -22821,9 +22825,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="blackwoodan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="hist_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -22840,9 +22844,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="blackwoodan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="hist_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -23087,9 +23091,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="blackwoodan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="hist_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -23163,18 +23167,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="blackwoodan"
+	province_rank="city"
+	religion="hist_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+	}
 	slaves=
 	{
 		amount=1
 	}
 	tribesmen=
 	{
-		amount=3
+		amount=7
 	}
 }
 
