@@ -8,6 +8,9 @@ provinces = {
 	755={ # Dusk Tower
 		great_work=3
 	}
+	1577={ # Temple of Ancestors
+		great_work=4
+	}
 }
 
 great_work_manager={	
@@ -74,6 +77,28 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_dusk_tower"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		4={
+			ancient_wonder = yes
+			key="imperial_city"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_imperial_city"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_imperial_city"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_imperial_city"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

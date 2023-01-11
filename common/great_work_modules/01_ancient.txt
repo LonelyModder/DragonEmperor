@@ -138,6 +138,12 @@ wonder_dusk_tower={
 	great_work_category_slot=0
 }
 
+wonder_imperial_city={
+	entity_name={"wonder_imperial_city_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"
