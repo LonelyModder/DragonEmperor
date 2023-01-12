@@ -119,6 +119,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	1601 = { #Weye
 		fortress_building = 1
+		port_building = 2
 	}
 	1589 = { #Temple Baracks
 		fortress_building = 1
@@ -505,10 +506,10 @@ country = {
 			capital = 633
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			#poptype_rights = { 
@@ -537,7 +538,7 @@ country = {
 		
 		AAC = { #Wormusoel
 			government = despotic_monarchy
-			primary_culture = ayheartlander
+			primary_culture = heartlanderhi
 			religion = deadric_pantheon
 			capital = 30
 			
@@ -585,10 +586,10 @@ country = {
 			capital = 538
 			
 			technology={
-				military_tech={ level=1 progress=0 }
-				civic_tech={ level=1 progress=0 }
-				oratory_tech={ level=1 progress=0 }
-				religious_tech= { level=1 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -626,10 +627,10 @@ country = {
 			capital = 666
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -651,10 +652,10 @@ country = {
 			capital = 755
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -677,10 +678,10 @@ country = {
 			capital = 837
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -704,10 +705,10 @@ country = {
 			capital = 947
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -731,10 +732,10 @@ country = {
 			capital = 725
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -754,10 +755,10 @@ country = {
 			capital = 263
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -783,10 +784,10 @@ country = {
 			capital = 420
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -812,10 +813,10 @@ country = {
 			capital = 905
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -836,10 +837,10 @@ country = {
 			capital = 844
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -860,10 +861,10 @@ country = {
 			capital = 495
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -888,10 +889,10 @@ country = {
 			capital = 600
 			
 			technology={
-				military_tech={ level=3 progress=0 }
-				civic_tech={ level=3 progress=0 }
-				oratory_tech={ level=3 progress=0 }
-				religious_tech= { level=3 progress=0  }
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
 			poptype_rights = { 
@@ -1003,7 +1004,16 @@ country = {
 			religion = nedic_pantheon
 			capital = 1530
 			
-			own_control_core = { 1528 1529 1530 1531 1532 1533 1534 1535 1536 1537 1538 1539 }	
+			own_control_core = { 1529 1530 1531 1532 1533 1534 1535 1536 1537 1538 1539 }	
+		}
+		
+		CAH = { #Vilverin
+			government = despotic_monarchy
+			primary_culture = vilverinic
+			religion = deadric_pantheon
+			capital = 1530
+			
+			own_control_core = {  }	
 		}
 	}
 }
