@@ -48,6 +48,20 @@ treasure_manager = {
 				local_tribesmen_happyness = 0.1
 			}
 		}
+		7 = { # Imperial City
+			key = "treasure_amulet_of_kings"
+			icon = "treasure_chest"
+			state_modifier = {
+				city_monthly_state_loyalty = 0.1
+			}
+		}
+		8 = { # Imperial City
+			key = "treasure_ancestors_statues"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_monthly_civilization = 0.1
+			}
+		}
     }
 }
 family={
@@ -85,12 +99,18 @@ provinces = { #Any entry must contain a comment with city name.
 	739 = { # Kings Havens Pass
 		treasure_slots = { 	treasures = { 6 } }
 	}
+	1577 = { # Imperial City
+		treasure_slots = { 	treasures = { 7 8 } }
+	}
 
 	### BUILDINGS
 	27 = { #Wormusoel
 		port_building = 2
 	}
 	1598 = { #Vilverin
+		port_building = 2
+	}
+	1605 = { #Fanacasecul
 		port_building = 2
 	}
 	1599 = { #Staffmakers Isle
@@ -121,6 +141,18 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	630 = { #Cey-Tarn Keep
+		fortress_building = 1
+	}
+	1688 = { #Ash
+		fortress_building = 1
+	}
+	1681 = { #Coldcorn
+		fortress_building = 1
+	}
+	1628 = { #Urasek
+		fortress_building = 1
+	}
+	1639 = { #Caractacus
 		fortress_building = 1
 	}
 	1601 = { #Weye
@@ -518,13 +550,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			#poptype_rights = { 
-			#	{
-			#		culture = goblinken 
-			#		type = slaves
-			#	}
-			#}
-			
 			own_control_core = { 633 620 632 638 619 618 634 637 639 609 610 617 608 556 
 								 630 640 641 631 636 635 629 628 644 645 627 624 642
 								 580 654 655 653 615 614 611 613 612 656 657 658 659
@@ -560,10 +585,6 @@ country = {
 					culture = aycolovian 
 					type = citizen
 				}
-				{
-					culture = goldcoastal 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 27 30 28 29 }	
@@ -596,13 +617,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 538 539 }	
@@ -639,13 +653,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 666 667 663 662 661 688 684 685 690 689 668 670
 								 671 672 669 692 674 673 676 675 678 677 681 680
 								 585 583 584 686 691 693 }	
@@ -662,13 +669,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 755 759 758 756 750 749 757 751 748 747 746 766 767 752 
@@ -688,13 +688,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 837 833 830 836 829 834 832 828 827 822 831 
@@ -717,13 +710,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 934 952 951 606 959 957 933 962 958 955 956 941
 								 927 928 929 897 896 936 935 932 931 938 937 942
 								 947 946 945 943 944 948 949 950 954 607 930 953
@@ -744,13 +730,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 721 715 722 714 716 717 724 723 725 726 720 719 718 }	
 		}
 		
@@ -765,13 +744,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 263 265 266 268 269 271 279 280 281 282 285
@@ -796,13 +768,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 388 389 387 386 382 383 392 390 391 385 400 384
 								 376 374 375 395 396 398 397 399 418 479 480
 								 394 401 408 410 437 435 434 430 429 431 432 433
@@ -825,13 +790,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 905 961 906 926 908 907 919 913 920 921 925 924
 								 911 922 923 902 903 912 891 890 }	
 		}
@@ -849,13 +807,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 844 851 850 843 842 738 737 
 								 729 730 713 731 712 711 732 }	
 		}
@@ -871,13 +822,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 495 494 496 521 520 497 498 519 493 522 523 499
@@ -901,13 +845,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 582 601 605 604 603 602 600 596 597 598 599 }	
 		}
 		
@@ -922,13 +859,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = goblinken 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 888 887 885 883 886 889 877 881 879  }
@@ -992,13 +922,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = nheartlanders 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 1576 1577 1578 1579 1580 1581 1582 1583 1584 1585 1586 1587
 								 1588 1589 1590 1591 1592 1593 1594 1595 1596 1597 1601 1602 
 								 1600 }	
@@ -1026,13 +949,6 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = nheartlanders 
-					type = slaves
-				}
-			}
-			
 			own_control_core = { 1598 1633 1632 1634 1631 1630 1629 1628 1627 1626 1599 }	
 		}
 		
@@ -1047,13 +963,6 @@ country = {
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
 				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = { 
-				{
-					culture = nheartlanders 
-					type = slaves
-				}
 			}
 			
 			own_control_core = { 1616 1617 1618 1623 1625 1624 1635 1615 1620 1614 1613 }	
@@ -1072,14 +981,108 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			poptype_rights = { 
-				{
-					culture = nheartlanders 
-					type = slaves
-				}
+			own_control_core = { 1609 1621 1619 1622 1612 }	
+		}
+		
+		CAK = { #Sercen
+			government = despotic_monarchy
+			primary_culture = sercenian
+			religion = deadric_pantheon
+			capital = 1641
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = { 1609 1621 1619 1622 1612 }	
+			own_control_core = { 1641 1642 1643 1644 1640 1639 1638
+								 1647 1637 1646 1636 1645}	
+		}
+		
+		CAL = { #Fanacasecul
+			government = despotic_monarchy
+			primary_culture = fanacaseculan
+			religion = deadric_pantheon
+			capital = 1605
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1605 1607 1604 1611 1603 }	
+		}
+		
+		CAM = { #Nikel
+			government = despotic_monarchy
+			primary_culture = nikelan
+			religion = deadric_pantheon
+			capital = 1606
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1606 1608 1610 }	
+		}
+		
+		CAN = { #Lindai
+			government = despotic_monarchy
+			primary_culture = lindaian
+			religion = deadric_pantheon
+			capital = 1667
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1661 1662 1663 1664 1665 1666 1667 1668 1669 
+								 1673 1674 1675 1676 1677 1678 1679 1680 1681 1682 1683 1684 }	
+		}
+		
+		CAO = { #Narfinsel
+			government = despotic_monarchy
+			primary_culture = narfinselan
+			religion = deadric_pantheon
+			capital = 1701
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1685 1686 1687 1688 1689 1690 1691 1692 1693 1694 1695 1696
+								 1697 1698 1699 1700 1701 1702 1703 1704 1705 1706 1707 1708
+								 1709 1670 1671 1672 }	
+		}
+		
+		CAP= { #Ceyatatar
+			government = despotic_monarchy
+			primary_culture = ceyatataran
+			religion = deadric_pantheon
+			capital = 1712
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1710 1711 1712 1713 1714 1715 1716 1717 1718 1719 1720 
+								 1721 1722 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 }	
 		}
 	}
 }

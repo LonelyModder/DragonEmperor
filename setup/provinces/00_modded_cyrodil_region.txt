@@ -8946,18 +8946,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="fanacaseculan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -8965,18 +8967,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="fanacaseculan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -8984,18 +8988,29 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="fanacaseculan"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	slaves=
+	{
+		amount=1
+		culture="nheartlanders"
+		religion="elven_pantheon"
+	}
+	freemen=
+	{
+		amount=8
+		religion="elven_pantheon"
 	}
 }
 
@@ -9003,18 +9018,25 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="nikelan"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
-	{
-		amount=1
-	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	freemen=
+	{
+		amount=6
+		religion="elven_pantheon"
+	}
+	slaves=
+	{
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
 }
 
@@ -9022,18 +9044,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="fanacaseculan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9041,18 +9065,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="nikelan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9090,18 +9116,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="nikelan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9109,18 +9137,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="fanacaseculan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9436,10 +9466,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="vilverinic"
-	province_rank="settlement"
+	province_rank="city"
 	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+	}
 	slaves=
 	{
 		amount=4
@@ -9448,7 +9482,8 @@
 	}
 	freemen=
 	{
-		amount=2
+		amount=6
+		religion="elven_pantheon"
 	}
 }
 
@@ -9478,10 +9513,14 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="vilverinic"
-	province_rank="settlement"
+	province_rank="city"
 	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=1
+	}
 	slaves=
 	{
 		amount=4
@@ -9490,7 +9529,8 @@
 	}
 	freemen=
 	{
-		amount=2
+		amount=6
+		religion="elven_pantheon"
 	}
 }
 
@@ -9645,18 +9685,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9664,18 +9705,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9683,18 +9725,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9702,18 +9746,25 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="sercenian"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
 		amount=1
 	}
-	tribesmen=
+	slaves=
 	{
-		amount=3
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
+	}
+	freemen=
+	{
+		amount=6
+		religion="elven_pantheon"
 	}
 }
 
@@ -9721,18 +9772,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9740,18 +9793,29 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="sercenian"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	freemen=
+	{
+		amount=7
+		religion="elven_pantheon"
+	}
+	slaves=
+	{
+		amount=5
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
 }
 
@@ -9759,18 +9823,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9778,18 +9844,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9797,18 +9865,20 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9816,18 +9886,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9835,18 +9906,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9854,18 +9926,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="sercenian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nheartlanders"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9873,18 +9946,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9892,18 +9966,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9911,18 +9986,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9930,18 +10006,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9949,18 +10026,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9968,18 +10046,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -9987,18 +10066,29 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="lindaian"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	slaves=
+	{
+		amount=6
+		culture="nforesters"
+		religion="elven_pantheon"
+	}
+	freemen=
+	{
+		amount=8
+		religion="elven_pantheon"
 	}
 }
 
@@ -10006,18 +10096,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10025,18 +10116,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10044,18 +10136,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10063,18 +10156,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10082,18 +10176,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10101,18 +10196,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10120,18 +10216,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10139,18 +10236,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10158,18 +10256,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10177,18 +10276,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10196,18 +10296,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10215,18 +10316,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10234,18 +10336,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10253,18 +10356,25 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="lindaian"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=2
+	}
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=6
+		religion="elven_pantheon"
 	}
 }
 
@@ -10272,18 +10382,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10291,18 +10402,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10310,18 +10422,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="lindaian"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10329,18 +10442,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10348,18 +10462,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10367,18 +10482,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10386,18 +10502,25 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="narfinselan"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
+	citizen=
+	{
+		amount=2
+	}
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
+		religion="elven_pantheon"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=6
+		religion="elven_pantheon"
 	}
 }
 
@@ -10405,18 +10528,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10424,18 +10548,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10443,18 +10568,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10462,18 +10588,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10481,18 +10608,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10500,18 +10628,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10519,18 +10648,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10538,18 +10668,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10557,18 +10688,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10576,18 +10708,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10595,18 +10728,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10614,18 +10748,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10633,18 +10768,29 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="narfinselan"
+	province_rank="city"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	slaves=
+	{
+		amount=6
+		culture="nforesters"
+		religion="elven_pantheon"
+	}
+	freemen=
+	{
+		amount=8
+		religion="elven_pantheon"
 	}
 }
 
@@ -10652,18 +10798,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10671,18 +10818,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10690,18 +10838,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10709,18 +10858,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10728,18 +10878,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10747,18 +10898,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10766,18 +10918,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10785,18 +10938,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="narfinselan"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10804,18 +10958,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10823,18 +10978,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10842,18 +10998,29 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="deadric_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	nobles=
 	{
 		amount=1
 	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	slaves=
+	{
+		amount=6
+		culture="nforesters"
+		religion="elven_pantheon"
+	}
+	freemen=
+	{
+		amount=8
+		religion="elven_pantheon"
 	}
 }
 
@@ -10861,18 +11028,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10880,18 +11048,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10899,18 +11068,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10918,18 +11088,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10937,18 +11108,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10956,18 +11128,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10975,18 +11148,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -10994,18 +11168,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11013,18 +11188,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11032,18 +11208,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11051,18 +11228,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11070,18 +11248,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11089,18 +11268,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11108,18 +11288,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11127,18 +11308,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11146,18 +11328,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11165,18 +11348,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11184,18 +11368,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11203,18 +11388,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -11222,18 +11408,19 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="ceyatataran"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
-		amount=1
+		amount=4
+		culture="nforesters"
 	}
-	tribesmen=
+	freemen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
