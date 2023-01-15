@@ -175,5 +175,60 @@
  orcish_path_4c_desc:0 "Each orc tribe has its own shaman as other races have court mages. One of his duties, e.g. with forest orcs, is to place dreamcatchers. What they do with them remains a mystery."
  orcish_path_end_bonus:0 "Warchiefs"
  orcish_path_end_bonus_desc:0 "Orcs form a very disciplined society with chieftains who must be in good shape at all times. Otherwise their younger competitors would challenge them. There are no better warriors in Tamriel than the Orsimers."
- 
+ ######
+ #####Khajiit
+ ######
+ khajiit_philosophy:1 "Khajiit Traditions"
+ khajiit_philosophydesc:3 "Khajiit forces are quite versatile as well as Khajiit themselves, who appear in many sizes from the huge Senche-Raht to Alfaq."
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Khajiits to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ khajiit_path_1:0 "Warrior Cats"
+ khajiit_path_1_desc:0 "Due to Khajiit's physiognomy they are usually lightly armed. Some subspecies of this race cannot wear shoes. However, they make up for these deficiencies with agility."
+ khajiit_path_2:0 "Tribal Nature"
+ khajiit_path_2_desc:0 "Khajiit's are divided into clans that are involved in frequent skirmishes, so their warriors usually have experience in combat."
+ khajiit_path_2a:0 "Cat's Agility"
+ khajiit_path_2a_desc:0 "Sharp smell and hearing makes Khajiit's excellent scouts. Their forces work best in a surprise attack."
+ khajiit_path_3a:0 "Caravan Guard"
+ khajiit_path_3a_desc:0 "Trade is the best developed branch of Elsweyr economy. To protect the famous Khajiit caravans, camels are often used because of their excellent endurance."
+ khajiit_path_4a:0 "Riding on Each Other"
+ khajiit_path_4a_desc:0 "Although it seems to be quite strange, khajiit's ride each other. Smaller individuals get on the larger ones, which means that we receive a cavalry with an intelligent mount."
+ khajiit_path_5a:0 "Alfiq"
+ khajiit_path_5a_desc:0 "Alfiq are the smallest representatives of their species. They resemble domestic cats, which puts hostile races in paranoia. To compensate for their own deficiencies, they usually learn magic." 
+ khajiit_path_2b:0 "Night Vision"
+ khajiit_path_2b_desc:0 "If necessary, because of the ability to see at night, khajiit can fight and move in even total darkness."
+ khajiit_path_3b:0 "Anequina"
+ khajiit_path_3b_desc:0 "Khajiits coming from Northern desert like region of Elsweyr are used to harsh conditions and usually make excellent soldiers."
+ khajiit_path_4b:0 "Pellatine"
+ khajiit_path_4b_desc:0 "In contrast to the north, the south is covered in dense jungle that forces much different tactics like hit and run tactic."
+ khajiit_path_5b:0 "Cat's after All"
+ khajiit_path_5b_desc:0 "Who needs a ladder when you have claws. Khajiits are expert climbers and climb on the steepest walls in no time."
+ khajiit_path_end_bonus:0 "Defenders of Elsweyr"
+ khajiit_path_end_bonus_desc:0 "Khajiits are deeply religious and traditional society. They are proud warriors always ready for a fight."
+ ######
+ #####Argonian
+ ######
+ argonian_philosophy:1 "Argonian Traditions"
+ argonian_philosophydesc:3 "Argonians have natural resistance to diseases and toxins, which in combination with the sharp atmosphere of their homeland makes them difficult opponents."
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Argonians to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ argonian_path_1:0 ""
+ argonian_path_1_desc:0 ""
+ ######
+ #####Imga
+ ######
+ imga_philosophy:1 "Imga Traditions"
+ imga_philosophydesc:3 "Imga known as great monkeys are rather a pacifist society that avoids aggression. They can hide perfectly, avoiding contact, which is quite troublesome."
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Imgas to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ imga_path_1:0 ""
+ imga_path_1_desc:0 ""
+ ######
+ #####Minotauric
+ ######
+ minotauric_philosophy:1 "Minotauric Traditions"
+ minotauric_philosophydesc:3 "Minotaurs are twice as large and stronger than most Tamriel breeds. In addition, they are magically resistant, which makes them difficult opponents."
+ tradition_unlock_requirement_bosmer:0 "You don't have enough of Minotaurs to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ minotauric_path_1:0 ""
+ minotauric_path_1_desc:0 ""
  

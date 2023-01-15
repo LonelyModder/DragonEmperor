@@ -1,0 +1,130 @@
+﻿khajiit_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = khajiit }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = khajiit
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:khajiit
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:khajiit
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_khajiit"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:khajiit	
+				}
+			}
+		}
+	}
+	
+	khajiit_path_1 = { ###khajiit path
+		modifier = { 
+			lv_lightinfantry_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	khajiit_path_2 = { ###khajiit path
+		modifier = { 
+			global_cohort_start_experience = 5
+			experience_decay = -0.005
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_1}
+	}
+	
+	khajiit_path_2a = { ###khajiit path
+		modifier = { 
+			lv_scirmishers_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = greek_states_path_7
+		requires = {khajiit_path_2}
+	}
+	
+	khajiit_path_3a = { ###khajiit path
+		modifier = { 
+			lv_camels_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_2a}
+	}
+	
+	khajiit_path_4a = { ###khajiit path
+		modifier = { 
+			lv_khajiiticavalry_discipline = 0.1
+			lv_khajiiticavalry_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_3a}
+	}
+	
+	khajiit_path_5a = { ###khajiit path
+		modifier = { 
+			lv_mages_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_3a}
+	}
+	
+	khajiit_path_2b = { ###khajiit path
+		modifier = { 
+			army_movement_speed = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_2}
+	}
+	
+	khajiit_path_3b = { ###khajiit path
+		modifier = { 
+			desert_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_2b}
+	}
+	
+	khajiit_path_4b = { ###khajiit path
+		modifier = { 
+			jungle_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_3b}
+	}
+	
+	khajiit_path_5b = { ###khajiit path
+		modifier = { 
+			siege_ability = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_4b}
+	}
+	
+	khajiit_path_end_bonus = { ###khajiit path
+		modifier = { 
+			land_morale_modifier = 0.1
+			army_movement_speed = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {khajiit_path_5a khajiit_path_5b}
+	}
+}

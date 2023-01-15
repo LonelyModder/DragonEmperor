@@ -1,0 +1,48 @@
+﻿minotauric_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = minotauric }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = minotauric
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:minotauric
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:minotauric
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_minotauric"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:minotauric	
+				}
+			}
+		}
+	}
+	
+	minotauric_path_1 = { ###minotauric path
+		modifier = { 
+			lv_minotaurs_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	
+}

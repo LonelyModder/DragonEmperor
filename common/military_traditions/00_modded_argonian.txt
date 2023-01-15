@@ -1,0 +1,48 @@
+﻿argonian_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = argonian }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = argonian
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:argonian
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:argonian
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_argonian"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:argonian	
+				}
+			}
+		}
+	}
+	
+	argonian_path_1 = { ###argonian path
+		modifier = { 
+			lv_lightinfantry_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	
+}
