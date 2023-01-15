@@ -110,6 +110,12 @@ provinces = { #Any entry must contain a comment with city name.
 	1598 = { #Vilverin
 		port_building = 2
 	}
+	2036 = { #Culotte
+		port_building = 2
+	}
+	1869 = { #Variela
+		port_building = 2
+	}
 	1605 = { #Fanacasecul
 		port_building = 2
 	}
@@ -137,10 +143,16 @@ provinces = { #Any entry must contain a comment with city name.
 	422 = { #Skywatch docs
 		port_building = 2
 	}
+	1879 = { #Bravil port
+		port_building = 2
+	}
 	495 = { #Vulkhel Guard
 		port_building = 2
 	}
 	630 = { #Cey-Tarn Keep
+		fortress_building = 1
+	}
+	1877 = { #Bravil Keep
 		fortress_building = 1
 	}
 	1688 = { #Ash
@@ -1083,6 +1095,104 @@ country = {
 			
 			own_control_core = { 1710 1711 1712 1713 1714 1715 1716 1717 1718 1719 1720 
 								 1721 1722 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 }	
+		}
+		
+		CAR= { #Moranda
+			government = despotic_monarchy
+			primary_culture = morandan
+			religion = deadric_pantheon
+			capital = 1735
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1733 1734 1735 1736 1737 1738 1739 1740 1741 1742 1743 1744 }	
+		}
+		
+		CAS= { #Ninendava
+			government = despotic_monarchy
+			primary_culture = ninendavan
+			religion = deadric_pantheon
+			capital = 1537
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1537 1538 1539 1526 1523 1524 1527 }	
+		}
+		
+		CAT= { #Variela
+			government = despotic_monarchy
+			primary_culture = varielan
+			religion = deadric_pantheon
+			capital = 1869
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1865 1866 1867 1868 1869 1870 1871 1872 1873 1874 1875 1876 }	
+		}
+		
+		CAU= { #Culotte
+			government = despotic_monarchy
+			primary_culture = culottan
+			religion = deadric_pantheon
+			capital = 2036
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 }	
+		}
+		
+		CAW= { #Anutwyll
+			government = despotic_monarchy
+			primary_culture = anutwyllan
+			religion = deadric_pantheon
+			capital = 1886
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1877 1878 1879 1880 1881 1882 1883 1884 1885 1886 1887 1888
+								 1889 1890 1891 1892 1893 1894 1895 1896 1897 1898 1899 1900 }	
+		}
+		
+		CAY= { #Wenyandawik
+			government = despotic_monarchy
+			primary_culture = wenyandawikan
+			religion = deadric_pantheon
+			capital = 1860
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1853 1854 1855 1856 1857 1858 1859 1860 1861 1862 1863 1864
+								 1829 1830 1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 }	
 		}
 	}
 }
