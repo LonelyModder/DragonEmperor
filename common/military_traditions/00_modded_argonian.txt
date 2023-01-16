@@ -38,11 +38,104 @@
 	
 	argonian_path_1 = { ###argonian path
 		modifier = { 
-			lv_lightinfantry_discipline = 0.1
+			marsh_combat_bonus = 0.2
 		}
 		icon = greek_states_path_7
 		requires = {}
 	}
 	
+	argonian_path_2 = { ###argonian path
+		modifier = { 
+			lv_lightinfantry_defensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_1}
+	}
 	
+	argonian_path_3= { ###argonian path
+		modifier = { 
+			lv_scirmishers_discipline = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = greek_states_path_7
+		requires = {argonian_path_2}
+	}
+	
+	argonian_path_3a= { ###argonian path
+		modifier = { 
+			lv_guarcavalry_cost = -0.15
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3}
+	}
+	
+	argonian_path_4a= { ###argonian path
+		modifier = { 
+			lv_warhounds_cost = -0.15
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3}
+	}
+	
+	argonian_path_3b= { ###argonian path
+		modifier = { 
+			jungle_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3}
+	}
+	
+	argonian_path_4b= { ###argonian path
+		modifier = { 
+			land_unit_attrition = -0.15
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3b}
+	}
+	
+	argonian_path_3c= { ###argonian path
+		modifier = { 
+			navy_maintenance_cost = -0.10
+			naval_damage_taken = -0.1
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				add_building_level = port_building
+			}
+		}
+	}
+	
+	argonian_path_4c= { ###argonian path
+		modifier = { 
+			naval_morale = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3c}
+	}
+	
+	argonian_path_5c= { ###argonian path
+		modifier = { 
+			naval_damage_done = 0.15
+			global_ship_recruit_speed = 0.15
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_3c}
+	}
+	
+	argonian_path_end_bonus = { ###argonian path
+		modifier = { 
+			marsh_combat_bonus = 0.2
+			coastal_terrain_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {argonian_path_4a argonian_path_4b argonian_path_5c}
+	}
+	
+	#naval bonuses cause argonian piracy
 }

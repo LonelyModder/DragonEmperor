@@ -44,5 +44,21 @@
 		requires = {}
 	}
 	
+	minotauric_path_2 = { ###minotauric path
+		modifier = { 
+			lv_warhounds_cost = -0.25
+			lv_warhounds_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_1}
+	}
+	
+	minotauric_path_3= { ###minotauric path
+		modifier = { 
+			hills_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_2}
+	}
 	
 }
