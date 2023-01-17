@@ -74,7 +74,7 @@
 			lv_warhounds_cost = -0.15
 		}
 		icon = greek_states_path_7
-		requires = {argonian_path_3}
+		requires = {argonian_path_3a}
 	}
 	
 	argonian_path_3b= { ###argonian path
@@ -125,7 +125,7 @@
 			global_ship_recruit_speed = 0.15
 		}
 		icon = greek_states_path_7
-		requires = {argonian_path_3c}
+		requires = {argonian_path_4c}
 	}
 	
 	argonian_path_end_bonus = { ###argonian path

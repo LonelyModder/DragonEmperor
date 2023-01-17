@@ -53,12 +53,79 @@
 		requires = {minotauric_path_1}
 	}
 	
-	minotauric_path_3= { ###minotauric path
+	minotauric_path_3 = { ###minotauric path
+		modifier = { 
+			lv_scirmishers_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = greek_states_path_7
+		requires = {minotauric_path_2}
+	}
+	
+	minotauric_path_3a= { ###minotauric path
 		modifier = { 
 			hills_combat_bonus = 0.2
 		}
 		icon = greek_states_path_7
-		requires = {minotauric_path_2}
+		requires = {minotauric_path_3}
+	}
+	
+	minotauric_path_4a= { ###minotauric path
+		modifier = { 
+			forest_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_3a}
+	}
+	
+	minotauric_path_5a= { ###minotauric path
+		modifier = { 
+			plains_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_4a}
+	}
+	
+	minotauric_path_3b= { ###minotauric path
+		modifier = { 
+			land_morale_modifier = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_3}
+	}
+	
+	minotauric_path_4b= { ###minotauric path
+		modifier = { 
+			global_cohort_start_experience = 5
+			experience_decay = -0.005
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_3b}
+	}
+	
+	minotauric_path_5b= { ###minotauric path
+		modifier = { 
+			land_unit_attrition = -0.15
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_4b}
+	}
+	
+	minotauric_path_6b= { ###minotauric path
+		modifier = { 
+			assault_ability = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_5b}
+	}
+	
+	minotauric_path_end_bonus= { ###minotauric path
+		modifier = { 
+			land_morale_modifier = 0.1
+			lv_minotaurs_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {minotauric_path_5a minotauric_path_6b}
 	}
 	
 }
