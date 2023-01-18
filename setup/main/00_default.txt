@@ -110,6 +110,9 @@ provinces = { #Any entry must contain a comment with city name.
 	1598 = { #Vilverin
 		port_building = 2
 	}
+	871 = { #Karndar Watch
+		port_building = 2
+	}
 	2036 = { #Culotte
 		port_building = 2
 	}
@@ -434,6 +437,8 @@ road_network = {
 	493=494
 	494=495
 	#Sommerset
+	871=873
+	873=874
 	667=670
 	670=672
 	672=673
@@ -1222,6 +1227,56 @@ country = {
 			capital = 1543
 			
 			own_control_core = { 1542 1543 1544 1545 1546 1548 1549 1550 1551 }	
+		}
+		
+		CBB= { #Piukanda
+			government = despotic_monarchy
+			primary_culture = piukandan
+			religion = deadric_pantheon
+			capital = 1745
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1745 1746 1747 1748 1749 1750 1751 1752 1753 1754 1755 1756
+								 1757 1758 1759 1760 1761 1762 1763 1764 1765 1766 1767 1768 }	
+		}
+		
+		CBC= { #Anga
+			government = despotic_monarchy
+			primary_culture = angan
+			religion = deadric_pantheon
+			capital = 1783
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1769 1770 1771 1772 1773 1774 1775 1776 1777 1778 1779 1780
+								 1781 1782 1783 1784 1785 1786 1787 1788 1789 1790 1791 1792 }	
+		}
+		
+		CBD= { #Sedor
+			government = despotic_monarchy
+			primary_culture = sedoran
+			religion = deadric_pantheon
+			capital = 1804
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 1793 1794 1795 1796 1797 1798 1799 1800 1801 1802 1803 1804 }	
 		}
 	}
 }

@@ -9999,14 +9999,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="shimmerinic"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="amber"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=7
 	}
 }
 
