@@ -114,5 +114,10 @@
  imgan:0 "Imgan"
  imga_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  imga_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Nordic
+ nordic:2 "Nordic"
+ cyronordic:0 "Cyro-Nordic"
+ nordic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ nordic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
  wvenedi:0 "Heresy"

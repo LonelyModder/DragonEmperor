@@ -1455,6 +1455,59 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
+							#Nord
+							portrait_button = {
+								name = "rulerpic21"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nord_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/nord_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic22"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nord_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/nord_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
 
 							#portrait_button = {
 							#	name = "consortpic"
@@ -1697,6 +1750,29 @@ base_window = {
 								datacontext = "[GetScriptedGui('is_an_imga_female')]"
 								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
 								portrait_texture = "gfx/portraits/imga_female.dds"
+							}
+							#Nord
+							portrait_button = {
+								name = "consortpic21"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nord_male')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/nord_male.dds"
+							}
+							portrait_button = {
+								name = "consortpic22"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_nord_female')]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								portrait_texture = "gfx/portraits/nord_female.dds"
 							}
 
 							portrait_button = {

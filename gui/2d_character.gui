@@ -304,6 +304,29 @@ types MoreBGsTypes {
 				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
 				block "PortraitTexture" { portrait_texture = "gfx/portraits/imga_female.dds" }
 			}
+			#Nord
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_nord_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/nord_male.dds" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_nord_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/nord_female.dds" }
+			}
 		}
 
 		margin_widget = {
@@ -643,6 +666,19 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/khajiit_female.dds"
 			}
+			#Nord
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_nord_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/nord_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_nord_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/nord_female.dds"
+			}
 		}
 
 		margin_widget = {
@@ -785,6 +821,19 @@ types MoreBGsTypes {
 				datacontext = "[GetScriptedGui('is_an_khajiit_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/khajiit_female.dds"
+			}
+			#Nord
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_nord_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/khajiit_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_nord_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/nord_female.dds"
 			}
 		}
 

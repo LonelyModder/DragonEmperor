@@ -70,4 +70,11 @@
 		}
 		add_trait = argonian
 	}
+	else_if = {
+		limit = {
+			has_culture_group = nordic
+			NOT = { has_trait = nord }
+		}
+		add_trait = nord
+	}
 }

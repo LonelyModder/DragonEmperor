@@ -125,3 +125,14 @@ levy_argonian = { #argonian militia
 	lv_guarcavalry = 0.3
 	lv_warhounds = 0.1
 }
+
+#Nordic
+
+levy_nordic = { #nordic militia
+	default = no
+
+	lv_heavyinfantry = 0.6
+	lv_scirmishers = 0.2
+	lv_cavalry = 0.1
+	lv_mages = 0.1
+}

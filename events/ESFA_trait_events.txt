@@ -71,6 +71,12 @@ esfa_traits.1 = {
 			}
 			add_trait = argonian
 		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = nord }
+			}
+			add_trait = nord
+		}
 		#Altmer racism
 		if = {
 			limit = {
@@ -97,6 +103,7 @@ esfa_traits.1 = {
 								has_trait = khajiit
 								has_trait = argonian
 								has_trait = imga
+								has_trait = nord
 							} 
 						}
 						mother = { has_trait = altmer }

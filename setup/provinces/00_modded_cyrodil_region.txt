@@ -7709,18 +7709,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7728,18 +7732,26 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank="settlement"
-	religion="slavic_pantheon"
+	culture="cyronordic"
+	province_rank="city"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
-	slaves=
+	citizen=
 	{
-		amount=1
+		amount=3
 	}
 	tribesmen=
 	{
 		amount=3
+	}
+	slaves=
+	{
+		amount=3
+	}
+	freemen=
+	{
+		amount=6
 	}
 }
 
@@ -7747,18 +7759,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7766,18 +7782,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7785,18 +7805,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7804,9 +7828,9 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
@@ -7823,18 +7847,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7842,18 +7870,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7861,18 +7893,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 
@@ -7880,18 +7916,22 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
+	culture="cyronordic"
 	province_rank="settlement"
-	religion="slavic_pantheon"
+	religion="nordic_pantheon"
 	terrain="forest"
 	trade_goods="spices"
 	slaves=
 	{
 		amount=1
 	}
+	freemen=
+	{
+		amount=2
+	}
 	tribesmen=
 	{
-		amount=3
+		amount=2
 	}
 }
 

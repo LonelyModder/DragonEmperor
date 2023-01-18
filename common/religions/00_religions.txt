@@ -93,6 +93,16 @@ deadric_pantheon = { # Deadric Faith
 	religion_category = pantheon
 }
 
+nordic_pantheon = { # Nordic Faith
+	color = rgb { 17 25 247 }
+	modifier = { 
+		global_manpower_modifier = 0.1
+		war_exhaustion = -0.025
+		stability_cost_modifier = 0.2
+	}
+	religion_category = pantheon
+}
+
 slavic_pantheon = { # Heretic Faith
 	color = hsv { 0.14 0.52 1 }
 	modifier = { 
