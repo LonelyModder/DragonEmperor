@@ -188,6 +188,10 @@
  desc_merchant_embargo:0 "Merchants seem unusually reticent to bring their wares through our land."
  faction_omen_cost_2:0 "Elaborate Ritual"
  desc_faction_omen_cost_2:0 "Our priests demand increased spending on state rituals."
+ #Modded
+ colonization_progress:0 "Colonisation in Progress"
+ desc_colonization_progress:0 "This province is being colonisaed and cannot produce the desired ravenue just yet."
+ #Modded
  local_tax_relief:0 "Localized Tax Relief"
  desc_local_tax_relief:1 "We have granted this territory a temporary relief on all sources of taxation."
  military_party_ticking_modifier:0 "Military Faction Promoted"

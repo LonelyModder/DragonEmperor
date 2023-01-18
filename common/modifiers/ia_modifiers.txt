@@ -166,6 +166,15 @@ primitive_wepons = {
 	missile_spearthrowers_offensive = 0.025
 	missile_spearthrowers_defensive = 0.025
 }
+
+#Colonization
+colonization_progress = {
+	local_tribesmen_output = -0.6
+	local_freemen_output = -0.6
+	local_slaves_output = -0.6
+	local_monthly_civilization = 0.5
+}
+
 #plague events
 plagued_territory = {
 	hostile_attrition = 1
