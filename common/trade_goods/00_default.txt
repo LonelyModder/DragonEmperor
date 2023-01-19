@@ -726,3 +726,18 @@ dates = { #60 Territories
 	
 	color = { 0.18 0.01 0.24 }
 }
+
+tea = { #60 Territories
+	category = 4
+
+	gold = 0.3
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		global_commerce_modifier = 0.05
+	}
+	
+	color = rgb { 166 77 33 }
+}

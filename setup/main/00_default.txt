@@ -77,8 +77,7 @@ diplomacy = {
 	dependency = { first = AAB second = AAN subject_type = tributary }
 	dependency = { first = AAB second = AAW subject_type = tributary }
 	alliance = { first = AAD second = AAT }
-	alliance = { first = CAG second = CAA }
-	alliance = { first = CAG second = CAC }
+	alliance = { first = CAA second = CAC }
 	#guarantee = { first = AAD second = AAT }
 }
 
@@ -902,9 +901,9 @@ country = {
 			own_control_core = { 1933 1934 1935 1931 }	
 		}
 		
-		CAC = { #Morihaus Host
-			government = tribal_kingdom
-			primary_culture = minotauran
+		CAC = { #Nedic Revolt
+			government = despotic_monarchy
+			primary_culture = sancran
 			religion = nedic_pantheon
 			capital = 1515
 			
@@ -932,7 +931,7 @@ country = {
 		CAF = { #Temple of Ancestors
 			government = theocratic_monarchy
 			primary_culture = heartlanderhi
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1577
 			
 			technology={
@@ -947,11 +946,18 @@ country = {
 								 1600 }	
 		}
 		
-		CAG = { #Nedic Revolt
+		CAG = { #Sancre Tor
 			government = despotic_monarchy
-			primary_culture = sancran
-			religion = nedic_pantheon
+			primary_culture = asancran
+			religion = deadric_pantheon
 			capital = 1530
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
 			own_control_core = { 1529 1530 1531 1532 1533 1534 1535 1536 }	
 		}
