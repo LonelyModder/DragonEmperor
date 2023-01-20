@@ -161,6 +161,46 @@ provinces = { #Any entry must contain a comment with city name.
 	630 = { #Cey-Tarn Keep
 		fortress_building = 1
 	}
+	2160 = { #Felacia
+		fortress_building = 1
+	}
+	1944 = { #Leyawiin
+		fortress_building = 1
+		port_building = 1
+	}
+	1929 = { #Nomore
+		fortress_building = 1
+	}
+	1901 = { #Bawn
+		port_building = 1
+	}
+	2299 = { #Malada
+		fortress_building = 1
+	}
+	2213 = { #Welke
+		fortress_building = 1
+	}
+	2160 = { #Felacia
+		fortress_building = 1
+	}
+	2028 = { #Sejanus
+		fortress_building = 1
+	}
+	2131 = { #Facian
+		fortress_building = 1
+	}
+	2105 = { #Nenalata
+		port_building = 2
+	}
+	2111 = { #Morahame
+		fortress_building = 1
+	}
+	2085 = { #Cedrian
+		fortress_building = 1
+	}
+	2070 = { #Darkelowe
+		fortress_building = 1
+	}
 	2011 = { #Harlun's Watch
 		fortress_building = 1
 	}
@@ -911,7 +951,7 @@ country = {
 			religion = khajiiti_pantheon
 			capital = 1933
 			
-			own_control_core = { 1933 1934 1935 1931 }	
+			own_control_core = { 1933 1934 1935 1931 1932 }	
 		}
 		
 		CAC = { #Nedic Revolt
@@ -919,6 +959,13 @@ country = {
 			primary_culture = sancran
 			religion = nedic_pantheon
 			capital = 1515
+			
+			poptype_rights = {
+				{
+					culture = minotauran 
+					type = nobles
+				}
+			}
 			
 			own_control_core = { 1515 1514 1516 1528 1517 1518 }	
 		}
@@ -1185,7 +1232,9 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = { 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044 }	
+			own_control_core = { 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042 2043 2044
+								 2045 2046 2047 2048 2049 2050 2051 2052 2027 2024 2023 2028
+								 2089 2088 2087 2085}	
 		}
 		
 		CAW= { #Anutwyll
@@ -1344,7 +1393,8 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = { 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996 }	
+			own_control_core = { 1985 1986 1987 1988 1989 1990 1991 1992 1993 1994 1995 1996
+								 2237 2238 2239 2240 2241 2242 2243 2244 2245 2246 2247 2248 }	
 		}
 		
 		CBH= { #Kemen
@@ -1362,6 +1412,153 @@ country = {
 			
 			own_control_core = { 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008
 								 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 }	
+		}
+		
+		CBI= { #Nornal
+			government = despotic_monarchy
+			primary_culture = nornalan
+			religion = deadric_pantheon
+			capital = 2059
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 2057 2058 2059 2060 2061 2062 2063 2064 2065 2066 2067 2068
+								 2069 2070 2071 2072 2073 2074 2075 2076 2077 2078 2079 2080
+								 2083 2086 2092 2082 2084 2091 2081 2090 2053 2054 2055 2056
+								 2021 2022 2025 2026 2029 2030 2031 2032 }	
+		}
+		
+		CBJ= { #Nenalata
+			government = despotic_monarchy
+			primary_culture = nenalatan
+			religion = deadric_pantheon
+			capital = 2105
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = {
+				{
+					culture = morahaman 
+					type = nobles
+				}
+			}
+			
+			own_control_core = { 2105 2106 2107 2108 2109 2110 2111 2112 2113 2114 2115 2116
+								 2093 2094 2095 2096 2097 2098 2099 2100 2101 2102 2103 2104 }	
+		}
+		
+		CBK= { #Mackamentain
+			government = despotic_monarchy
+			primary_culture = mackamentainian
+			religion = deadric_pantheon
+			capital = 2123
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = { 2117 2118 2119 2120 2121 2122 2123 2124 2125 2126 2127 2128
+								 2129 2130 2131 2132 2133 2134 2135 2136 2137 2138 2139 2140 }	
+		}
+		
+		CBL= { #Ondo
+			government = despotic_monarchy
+			primary_culture = ondan
+			religion = deadric_pantheon
+			capital = 2145
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 2141 2142 2143 2144 2145 2146 2147 2148 2149 2150 2151
+								 2153 2154 2155 2156 2157 2158 2159 2160 2161 2162 2163 2164 }	
+		}
+		
+		CBM= { #Besarabic League
+			government = despotic_monarchy
+			primary_culture = wendelbekan
+			religion = elven_pantheon
+			capital = 2205
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 2201 2202 2203 2204 2205 2206 2207 2208 2209 2210 2211 2212
+								 2213 2214 2215 2216 2217 2218 2221   
+								 2298 2299 2300 2301 2302 2303 2304 2305 2306 2307 2308
+								 2152 }	
+		}
+		
+		CBN= { #Bawn
+			government = despotic_monarchy
+			primary_culture = bawnan
+			religion = deadric_pantheon
+			capital = 1901
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1901 1902 1903 1904 1905 1906 1907 1908 1909 1910 1911 1912
+								 1929 1930 1936 1926 1925 1924 1923 1921 1917 1915 1913 }	
+		}
+		
+		CBO= { #Telepe
+			government = despotic_monarchy
+			primary_culture = telepan
+			religion = deadric_pantheon
+			capital = 1938
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1938 1939 1940 1941 1942 1944 1945 1946 1947 1948 1937 }	
+		}
+		
+		CBP= { #Atatar
+			government = despotic_monarchy
+			primary_culture = atataran
+			religion = deadric_pantheon
+			capital = 2173
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 2165 2166 2167 2168 2169 2170 2171 2172 2173 2174 2175 2176 
+								 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234 2235 2236
+								 2224 2223 2222 2220 2219 }	
 		}
 	}
 }

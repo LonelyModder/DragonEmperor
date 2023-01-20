@@ -434,8 +434,8 @@ base_window = {
 								name = "capital_surplus_grid"
 								position = { 0 4 }
 								size = { 100% 100% }
-								#maxhorizontalslots = 7
-								datamodel_wrap = 6
+								maxhorizontalslots = 7
+								datamodel_wrap = 8
 								
 								datamodel = "[TradeView.GetAvailableTradeGoods]"
 								
