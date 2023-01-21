@@ -83,6 +83,7 @@ family={
 diplomacy = {
 	dependency = { first = AAB second = AAN subject_type = tributary }
 	dependency = { first = AAB second = AAW subject_type = tributary }
+	dependency = { first = CBP second = CBR subject_type = feudatory }
 	alliance = { first = AAD second = AAT }
 	alliance = { first = CAA second = CAC }
 	#guarantee = { first = AAD second = AAT }
@@ -159,6 +160,12 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	630 = { #Cey-Tarn Keep
+		fortress_building = 1
+	}
+	1411 = { #Vlindrel
+		fortress_building = 1
+	}
+	1492 = { #Cloud Top
 		fortress_building = 1
 	}
 	2160 = { #Felacia
@@ -1559,6 +1566,118 @@ country = {
 			own_control_core = { 2165 2166 2167 2168 2169 2170 2171 2172 2173 2174 2175 2176 
 								 2225 2226 2227 2228 2229 2230 2231 2232 2233 2234 2235 2236
 								 2224 2223 2222 2220 2219 }	
+		}
+		
+		CBR= { #Arpenia
+			government = despotic_monarchy
+			primary_culture = arpenian
+			religion = deadric_pantheon
+			capital = 2178
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 2177 2178 2179 2180 2181 2182 2183 2184 2185 2186 2187 2188 }	
+		}
+		
+		CBS= { #Veyond
+			government = despotic_monarchy
+			primary_culture = veyondan
+			religion = deadric_pantheon
+			capital = 2192
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 2189 2190 2191 2192 2193 2194 2195 2196 2197 2198 2199 2200 }	
+		}
+		
+		CBT= { #Rielle
+			government = despotic_monarchy
+			primary_culture = riellan
+			religion = deadric_pantheon
+			capital = 1525
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1525 1540 1541 1522 1521 1520 1519 }	
+		}
+		
+		CBU= { #Hrotanda
+			government = despotic_monarchy
+			primary_culture = hrotandan
+			religion = elven_pantheon
+			capital = 1389
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1384 1385 1386 1387 1388 1389 1390 1391 1392 1393 1394 1395 }	
+		}
+		
+		CBW= { #Lipsand Tarn
+			government = despotic_monarchy
+			primary_culture = lipsandan
+			religion = elven_pantheon
+			capital = 1498
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1492 1493 1494 1495 1496 1497 1498 1499 1500 1501 1502 1503 }	
+		}
+		
+		CBY= { #Wendir
+			government = despotic_monarchy
+			primary_culture = wendiran
+			religion = elven_pantheon
+			capital = 1380
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1372 1373 1374 1375 1376 1377 1378 1379 1380 1381 1382 1383 }	
+		}
+		
+		CBZ= { #Nonungalo
+			government = despotic_monarchy
+			primary_culture = nonungalan
+			religion = elven_pantheon
+			capital = 1415
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			 
+			own_control_core = { 1408 1409 1410 1411 1412 1413 1414 1415 1416 1417 1418 1419 }	
 		}
 	}
 }

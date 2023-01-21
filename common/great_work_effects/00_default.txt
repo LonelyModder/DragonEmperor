@@ -2380,3 +2380,50 @@ gw_effect_imperial_city = {
 		}
 	}
 }
+
+gw_effect_skytemple = {
+	icon = "gw_effect_civic_science_doctrine"	
+
+	flags = {
+		"gw_effect_military_education"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_skytemple_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				ruler_popularity_gain = 0.02
+				global_monthly_food_modifier = 0.05
+				omen_power = 0.05
+			}
+		}
+		gw_effect_skytemple_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				ruler_popularity_gain = 0.04
+				global_monthly_food_modifier = 0.1
+				omen_power = 0.1
+			}
+		}
+		gw_effect_skytemple_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				ruler_popularity_gain = 0.06
+				global_monthly_food_modifier = 0.15
+				omen_power = 0.15
+			}
+		}
+		gw_effect_skytemple_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				ruler_popularity_gain = 0.08
+				global_monthly_food_modifier = 0.2
+				omen_power = 0.2
+			}
+		}
+	}
+}

@@ -144,6 +144,12 @@ wonder_imperial_city={
 	great_work_category_slot=0
 }
 
+wonder_skytemple={
+	entity_name={"wonder_skytemple_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"
