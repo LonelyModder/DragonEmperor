@@ -77,7 +77,7 @@ esfa_startup.5 = { #Minotaurs
 esfa_startup.6 = { #Khajiit
     title = esfa_startup.6.t
     desc = esfa_startup.6.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_6
 	
     trigger = {
     	country_culture_group = khajiit
@@ -91,7 +91,7 @@ esfa_startup.6 = { #Khajiit
 esfa_startup.7 = { #Nedes
     title = esfa_startup.7.t
     desc = esfa_startup.7.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_7
 	
     trigger = {
     	country_culture_group = nede
