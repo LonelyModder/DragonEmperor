@@ -63,7 +63,7 @@ esfa_startup.4 = { #Ayleid Empire
 esfa_startup.5 = { #Minotaurs
     title = esfa_startup.5.t
     desc = esfa_startup.5.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_5
 	
     trigger = {
     	country_culture_group = minotauric
@@ -105,7 +105,7 @@ esfa_startup.7 = { #Nedes
 esfa_startup.8 = { #Orcs
     title = esfa_startup.8.t
     desc = esfa_startup.8.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_8
 	
     trigger = {
     	country_culture_group = orcish
@@ -119,7 +119,7 @@ esfa_startup.8 = { #Orcs
 esfa_startup.9 = { #Argonian
     title = esfa_startup.9.t
     desc = esfa_startup.9.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_9
 	
     trigger = {
     	country_culture_group = argonian
@@ -133,7 +133,7 @@ esfa_startup.9 = { #Argonian
 esfa_startup.10 = { #Imga
     title = esfa_startup.10.t
     desc = esfa_startup.10.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_3
 	
     trigger = {
     	country_culture_group = imga
@@ -147,7 +147,7 @@ esfa_startup.10 = { #Imga
 esfa_startup.11 = { #Nord
     title = esfa_startup.11.t
     desc = esfa_startup.11.desc
-    picture = welcoming_window_2
+    picture = welcoming_window_11
 	
     trigger = {
     	country_culture_group = nordic
