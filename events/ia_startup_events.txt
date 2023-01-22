@@ -7,10 +7,7 @@ esfa_startup.1 = { #Sommerset Isles
     picture = welcoming_window_1
 	
     trigger = {
-    	OR = {
 			country_culture_group = altmer
-			primary_culture = coralsplitter
-		}
     }
 
     option = {    
@@ -18,17 +15,14 @@ esfa_startup.1 = { #Sommerset Isles
     }
 }
 
-esfa_startup.2 = { #Vollenfel
+esfa_startup.2 = { #Goblins
     type = country_event
     title = esfa_startup.2.t
     desc = esfa_startup.2.desc
     picture = welcoming_window_4
 	
     trigger = {
-    	OR = {
-			primary_culture = abecean
-			primary_culture = chained
-		}
+    	country_culture_group = goblin
     }
 
     option = {    
@@ -51,17 +45,115 @@ esfa_startup.3 = { #Vallenwood
     }
 }
 
-esfa_startup.4 = { #Stirk
+esfa_startup.4 = { #Ayleid Empire
     type = country_event
     title = esfa_startup.4.t
     desc = esfa_startup.4.desc
     picture = welcoming_window_2
 	
     trigger = {
-    	primary_culture = stirkan
+    	country_culture_group = ayleid
     }
 
     option = {    
         name = esfa_startup.4.a
+    }
+}
+
+esfa_startup.5 = { #Minotaurs
+    title = esfa_startup.5.t
+    desc = esfa_startup.5.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = minotauric
+    }
+
+    option = {    
+        name = esfa_startup.5.a
+    }
+}
+
+esfa_startup.6 = { #Khajiit
+    title = esfa_startup.6.t
+    desc = esfa_startup.6.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = khajiit
+    }
+
+    option = {    
+        name = esfa_startup.6.a
+    }
+}
+
+esfa_startup.7 = { #Nedes
+    title = esfa_startup.7.t
+    desc = esfa_startup.7.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = nede
+    }
+
+    option = {    
+        name = esfa_startup.7.a
+    }
+}
+
+esfa_startup.8 = { #Orcs
+    title = esfa_startup.8.t
+    desc = esfa_startup.8.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = orcish
+    }
+
+    option = {    
+        name = esfa_startup.8.a
+    }
+}
+
+esfa_startup.9 = { #Argonian
+    title = esfa_startup.9.t
+    desc = esfa_startup.9.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = argonian
+    }
+
+    option = {    
+        name = esfa_startup.9.a
+    }
+}
+
+esfa_startup.10 = { #Imga
+    title = esfa_startup.10.t
+    desc = esfa_startup.10.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = imga
+    }
+
+    option = {    
+        name = esfa_startup.10.a
+    }
+}
+
+esfa_startup.11 = { #Nord
+    title = esfa_startup.11.t
+    desc = esfa_startup.11.desc
+    picture = welcoming_window_2
+	
+    trigger = {
+    	country_culture_group = nordic
+    }
+
+    option = {    
+        name = esfa_startup.11.a
     }
 }
