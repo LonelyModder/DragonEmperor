@@ -45,12 +45,6 @@ modded_delodiil_region = {
 		delodiil_area
 		vlastarus_area
 		nornalhorst_area
-		elenglynn_area
-	}
-}
-
-modded_reapersmarch_region = {
-	areas = {
 		calgorn_area
 	}
 }
@@ -62,6 +56,7 @@ modded_chorrol_region = {
 		talwinque_area
 		nonungalo_area
 		linchal_area
+		elenglynn_area
 	}
 }
 

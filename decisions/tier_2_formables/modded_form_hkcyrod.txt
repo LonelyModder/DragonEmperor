@@ -1,0 +1,114 @@
+﻿country_decisions = {
+	
+	# Form Empire of Cyrod
+	form_hkcyrod = {
+		
+		potential = {
+			OR = {
+				country_culture_group = nede
+				country_culture_group = ayleid
+				primary_culture =  cyronordic
+			}
+			#is_tribal = yes
+			NOR = {
+				tag = XCY
+				tag = CAF
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1577
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hkcyrod_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XCY
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 1577
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "HKCyrod_name"
+			change_country_flag = XCY
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "HKCyrod_adj"
+				change_country_color =  "HKCyrod_color"
+				change_country_tag = XCY
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1577
+						}
+					}
+				}
+				set_capital = 1577
+				hidden_effect = {
+					p:1577.state = {
+						set_state_capital = 1577
+					}
+				}
+			}
+			#p:1577 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:1577 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_blackwood_region = { formable_region_province_effect = yes }
+				region:modded_valusmountains_region = { formable_region_province_effect = yes }
+				region:modded_lowerniben_region = { formable_region_province_effect = yes }
+				region:modded_middleniben_region = { formable_region_province_effect = yes }
+				region:modded_upperniben_region = { formable_region_province_effect = yes }
+				region:modded_cheydinhal_region = { formable_region_province_effect = yes }
+				region:modded_bravil_region = { formable_region_province_effect = yes }
+				region:modded_thewestweald_region = { formable_region_province_effect = yes }
+				region:modded_nibenayanhighlands_region = { formable_region_province_effect = yes }
+				region:modded_greatforest_region = { formable_region_province_effect = yes }
+				region:modded_heartland_region = { formable_region_province_effect = yes }
+				region:modded_jerall_region = { formable_region_province_effect = yes }
+				region:modded_colovianhighlands_region = { formable_region_province_effect = yes }
+				region:modded_anvil_region = { formable_region_province_effect = yes }
+				region:modded_kvatch_region = { formable_region_province_effect = yes }
+				region:modded_chorrol_region = { formable_region_province_effect = yes }
+				region:modded_delodiil_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
