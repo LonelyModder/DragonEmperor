@@ -10,20 +10,20 @@ character_events.35 = {
 				exists = father
 				father = {
 					OR = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 				}
 			}
 			if = {
 				limit = {
 					father = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 					NOT = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 				}
-				add_trait = davidids
+				add_trait = aranas
 			}
 			
 		}
@@ -31,13 +31,13 @@ character_events.35 = {
 			limit = {
 				exists = mother
 				mother = {
-					has_trait = davidids
+					has_trait = aranas
 				}
 				NOT = {
-					has_trait = davidids
+					has_trait = aranas
 				}
 			}
-			add_trait = davidids	
+			add_trait = aranas	
 		}
 		
 	}

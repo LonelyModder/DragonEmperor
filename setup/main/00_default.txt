@@ -76,7 +76,12 @@ family={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID is 90.
 		#Roman Families on Start:
-		
+		1={
+			key="Arana"
+			owner=AAA
+			culture = alinoric
+			prestige=300
+		}
 		
 		}
 }
@@ -668,7 +673,9 @@ country = {
 								 580 654 655 653 615 614 611 613 612 656 657 658 659
 								 622 621 6 3 5 541 616 625 626 623
 								 652 648 649 646 647 643 650 651 700 706 708 707 
-								 555 554 552 553 551 550 549 542 543 }	
+								 555 554 552 553 551 550 549 542 543 }
+			
+			family = 1
 		}
 		
 		AAB = { #Coral Splitters

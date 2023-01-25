@@ -6,15 +6,15 @@ bloodlines_startup.1 = { #Judah
 	hidden = yes
 	
 	trigger = {
-		tag = JAA
+		tag = AAA
 	}
 	
 	immediate = {
 		every_character = {
 			limit = {
-				has_same_family = char:16
+				has_same_family = char:1
 			}
-			add_trait = davidids
+			add_trait = aranas
 		
 		}
 		hidden_effect = {

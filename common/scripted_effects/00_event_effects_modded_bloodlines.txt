@@ -6,20 +6,20 @@ pass_down_traits_effect = {
 				exists = father
 				OR = {
 					father = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 				}
 			}
 			if = {
 				limit = {
 					father = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 					NOT = {
-						has_trait = davidids
+						has_trait = aranas
 					}
 				}
-				add_trait = davidids
+				add_trait = aranas
 			}
 			
 		}
@@ -27,13 +27,13 @@ pass_down_traits_effect = {
 			limit = {
 				exists = mother
 				mother = {
-					has_trait = davidids
+					has_trait = aranas
 				}
 				NOT = {
-					has_trait = davidids
+					has_trait = aranas
 				}
 			}
-			add_trait = davidids
+			add_trait = aranas
 
 		}
 				
@@ -44,10 +44,10 @@ bastard_major_bloodline_effect = {
 	if = {
 		limit = {
 			scope:bastard_ruler = {
-				has_trait = davidids
+				has_trait = aranas
 			}
 		}
-		add_trait = davidids
+		add_trait = aranas
 	}
 	
 }
