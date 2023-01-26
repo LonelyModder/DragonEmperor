@@ -43,7 +43,19 @@
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "HKCyrod_name"
+			if = {
+				limit = { 
+					OR = {
+						country_culture_group = nede
+						primary_culture =  cyronordic
+					}					
+				}
+				change_country_name = "HKCyrod_name"
+			}
+			else_if = {
+				limit = { country_culture_group = ayleid }
+				change_country_name = "AyCyrod_name"
+			}
 			change_country_flag = XCY
 			if = {
 				limit = { is_tribal = yes }
@@ -55,7 +67,19 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "HKCyrod_adj"
+				if = {
+					limit = { 
+						OR = {
+							country_culture_group = nede
+							primary_culture =  cyronordic
+						}					
+					}
+					change_country_adjective = "HKCyrod_adj"
+				}
+				else_if = {
+					limit = { country_culture_group = ayleid }
+					change_country_adjective = "AyCyrod_adj"
+				}
 				change_country_color =  "HKCyrod_color"
 				change_country_tag = XCY
 			}
