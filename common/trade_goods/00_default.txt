@@ -561,6 +561,21 @@ leather = { #338 territories
 	color = hsv { 0.05 0.35 0.15 }
 }
 
+wool = { #338 territories
+	category = 4
+
+	gold = 0.2
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		local_freemen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 158 167 181 }
+}
+
 woad = { #141 territories
 	category = 5
 
