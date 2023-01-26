@@ -86,11 +86,11 @@ family={
 		}
 }
 diplomacy = {
-	dependency = { first = AAB second = AAN subject_type = tributary }
-	dependency = { first = AAB second = AAW subject_type = tributary }
-	dependency = { first = CBP second = CBR subject_type = feudatory }
+	#dependency = { first = AAB second = AAN subject_type = tributary }
+	#dependency = { first = AAB second = AAW subject_type = tributary }
+	#dependency = { first = CBP second = CBR subject_type = feudatory }
 	alliance = { first = AAD second = AAT }
-	alliance = { first = CAA second = CAC }
+	#alliance = { first = CAA second = CAC }
 	#guarantee = { first = AAD second = AAT }
 }
 
@@ -171,6 +171,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	1288 = { #Skingrad
+		fortress_building = 1
+	}
+	690 = { #Manor Keep
+		fortress_building = 1
+	}
+	795 = { #Holly Falls
+		fortress_building = 1
+	}
+	766 = { #Torheim Guard
 		fortress_building = 1
 	}
 	2000 = { #Chaydinhal
@@ -581,51 +590,67 @@ provinces = { #Any entry must contain a comment with city name.
 	# Barbarian Spawn Spots
 	########################################
 	
-	327 = {
+	840 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	240 = {
+	736 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	244 = {
+	791 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	253 = {
+	789 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	251 = {
+	508 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	326 = {
+	402 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	323 = {
+	305 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	337 = {
+	314 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	335 = {
+	1472 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	336 = {
+	1481 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	328 = {
+	1488 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	324 = {
+	1553 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	330 = {
+	1559 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	331 = {
+	1564 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
-	332 = {
+	2255 = {
 		modifier = { modifier = major_barbarian_spawn_place }
 	}
+	2263 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	2295 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	2327 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	2349 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	2375 = {
+		modifier = { modifier = major_barbarian_spawn_place }
+	}
+	
 }
 
 road_network = {
@@ -718,6 +743,17 @@ road_network = {
 	493=494
 	494=495
 	#Sommerset
+	749=751 
+	751=766
+	662=663
+	663=667
+	663=666
+	690=691
+	691=695
+	695=696
+	696=697
+	697=793
+	793=795
 	871=873
 	873=874
 	667=670
@@ -958,7 +994,9 @@ country = {
 			
 			own_control_core = { 666 667 663 662 661 688 684 685 690 689 668 670
 								 671 672 669 692 674 673 676 675 678 677 681 680
-								 585 583 584 686 691 693 }	
+								 585 583 584 686 691 693 
+								 660 664 665 793 792 795 794 796 702 697 694 696 
+								 695 687 698 699 701 }	
 		}
 		
 		AAK = { #Dusk
@@ -977,7 +1015,8 @@ country = {
 			own_control_core = { 755 759 758 756 750 749 757 751 748 747 746 766 767 752 
 								 744 745 743 741 753 742 768 754 771 772 773 774 775 
 								 762 778 780 779 799 807 808 812 813 823 826 
-								 824 825 777 776 765 764 763 761 760 806 809 810 811 }	
+								 824 825 777 776 765 764 763 761 760 806 809 810 811
+								 770 769 781 782 801 783 802 803 804 805 } 
 		}
 		
 		AAL = { #Shimmerine
@@ -997,7 +1036,8 @@ country = {
 								 816 819 818 815 814 821 820 847 848 835
 								 866 865 867 876 875 878 864 863 868 874 873 872 871
 								 853 862 861 869 860 870 859 854 855 856 857 858 852 
-								 849 846 845 }
+								 849 846 845
+								 798 797 841 703 } 
 		}
 		
 		AAM = { #Lillandril
@@ -1094,7 +1134,9 @@ country = {
 			}
 			
 			own_control_core = { 905 961 906 926 908 907 919 913 920 921 925 924
-								 911 922 923 902 903 912 891 890 }	
+								 911 922 923 902 903 912 891 890
+								 901 892 893 915 914 918 
+								 } 	
 		}
 		
 		AAS = { #Russafeld
@@ -1111,7 +1153,8 @@ country = {
 			}
 			
 			own_control_core = { 844 851 850 843 842 738 737 
-								 729 730 713 731 712 711 732 }	
+								 729 730 713 731 712 711 732
+								 710 709 734 }	
 		}
 		
 		AAT = { #Maridunon
@@ -1132,7 +1175,7 @@ country = {
 								 460 461 459 462 463 468 466 472 469 470 473
 								 488 486 487 530 512 533 489 490 526 491 492 525
 								 450 456 475 474 471 457 514 513 529 458
-								 536 537}	
+								 536 537 }	
 		}
 		
 		AAU = { #Rictus

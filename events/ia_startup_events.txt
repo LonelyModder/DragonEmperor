@@ -61,6 +61,7 @@ esfa_startup.4 = { #Ayleid Empire
 }
 
 esfa_startup.5 = { #Minotaurs
+	type = country_event
     title = esfa_startup.5.t
     desc = esfa_startup.5.desc
     picture = welcoming_window_5
@@ -75,6 +76,7 @@ esfa_startup.5 = { #Minotaurs
 }
 
 esfa_startup.6 = { #Khajiit
+	type = country_event
     title = esfa_startup.6.t
     desc = esfa_startup.6.desc
     picture = welcoming_window_6
@@ -89,6 +91,7 @@ esfa_startup.6 = { #Khajiit
 }
 
 esfa_startup.7 = { #Nedes
+	type = country_event
     title = esfa_startup.7.t
     desc = esfa_startup.7.desc
     picture = welcoming_window_7
@@ -103,6 +106,7 @@ esfa_startup.7 = { #Nedes
 }
 
 esfa_startup.8 = { #Orcs
+	type = country_event
     title = esfa_startup.8.t
     desc = esfa_startup.8.desc
     picture = welcoming_window_8
@@ -117,6 +121,7 @@ esfa_startup.8 = { #Orcs
 }
 
 esfa_startup.9 = { #Argonian
+	type = country_event
     title = esfa_startup.9.t
     desc = esfa_startup.9.desc
     picture = welcoming_window_9
@@ -131,6 +136,7 @@ esfa_startup.9 = { #Argonian
 }
 
 esfa_startup.10 = { #Imga
+	type = country_event
     title = esfa_startup.10.t
     desc = esfa_startup.10.desc
     picture = welcoming_window_3
@@ -145,6 +151,7 @@ esfa_startup.10 = { #Imga
 }
 
 esfa_startup.11 = { #Nord
+	type = country_event
     title = esfa_startup.11.t
     desc = esfa_startup.11.desc
     picture = welcoming_window_11

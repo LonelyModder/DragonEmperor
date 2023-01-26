@@ -6287,18 +6287,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6323,14 +6319,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="sunholdic"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=6
 	}
 }
 
@@ -6354,18 +6353,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6373,18 +6368,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6757,18 +6748,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="gems"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6809,14 +6796,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="sunholdic"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="hemp"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=6
 	}
 }
 
@@ -6872,18 +6862,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="precious_metals"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6891,18 +6877,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="durzogs"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6910,18 +6892,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="beasts"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6929,18 +6907,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6948,18 +6922,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="fur"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -6967,18 +6937,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="stone"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7002,18 +6968,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="fur"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7021,18 +6983,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="soul_gems"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7040,18 +6998,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="shimmerinic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7155,18 +7109,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="russafeldan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7174,18 +7124,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="russafeldan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="honey"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7607,18 +7553,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="russafeldan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -7793,14 +7735,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="duskan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=6
 	}
 }
 
@@ -8157,14 +8102,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="duskan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="leather"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=6
 	}
 }
 
@@ -8204,18 +8152,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="gems"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8223,18 +8167,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="leather"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8387,14 +8327,17 @@
 	barbarian_power=0
 	civilization_value=0
 	culture="duskan"
-	province_rank="settlement"
+	province_rank="city"
 	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="fur"
-	
+	citizen=
+	{
+		amount=3
+	}
 	freemen=
 	{
-		amount=4
+		amount=6
 	}
 }
 
@@ -8402,18 +8345,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8421,18 +8360,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8440,18 +8375,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="fur"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8611,18 +8542,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8630,18 +8557,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
-	trade_goods="durzogs"
-	slaves=
+	trade_goods="cattle"
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8649,18 +8572,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="precious_metals"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8668,18 +8587,18 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
-	province_rank="settlement"
-	religion="goblin_pantheon"
+	culture="sunholdic"
+	province_rank="city"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="durzogs"
-	slaves=
-	{
-		amount=1
-	}
-	tribesmen=
+	citizen=
 	{
 		amount=3
+	}
+	freemen=
+	{
+		amount=6
 	}
 }
 
@@ -8687,18 +8606,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="sunholdic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="beasts"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8706,18 +8621,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="shimmerinic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="durzogs"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8725,18 +8636,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="shimmerinic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="griphons"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8779,18 +8686,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="durzogs"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8798,18 +8701,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="wild_game"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8817,18 +8716,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="gems"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8836,18 +8731,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="hemp"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -8855,18 +8746,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="duskan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="hills"
 	trade_goods="durzogs"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -9462,18 +9349,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="shimmerinic"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10357,18 +10240,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="precious_metals"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10376,18 +10255,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="beasts"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10518,18 +10393,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="plains"
 	trade_goods="griphons"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10749,18 +10620,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10768,18 +10635,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="durzogs"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
@@ -10819,18 +10682,14 @@
 {
 	barbarian_power=0
 	civilization_value=0
-	culture="goblinken"
+	culture="corgradan"
 	province_rank="settlement"
-	religion="goblin_pantheon"
+	religion="elven_pantheon"
 	terrain="forest"
 	trade_goods="wood"
-	slaves=
+	freemen=
 	{
-		amount=1
-	}
-	tribesmen=
-	{
-		amount=3
+		amount=4
 	}
 }
 
