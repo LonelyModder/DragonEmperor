@@ -34,8 +34,7 @@ salt = { #177 territories
 iron = { #119 territories
 	category = 0
 	
-	#allow_unit_type = modded_swordsmen
-	#allow_unit_type = modded_axemen
+	allow_unit_type = lv_heavyinfantry
 	gold = 0.3
 	
 	province = {
@@ -51,8 +50,7 @@ iron = { #119 territories
 
 ebon = { #Added
 	category = 0
-	#allow_unit_type = modded_swordsmen
-	#allow_unit_type = modded_axemen
+	allow_unit_type =lv_heavyinfantry
 	gold = 0.5
 	
 	province = {
@@ -403,7 +401,7 @@ steppe_horses = { #90 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		modded_horse_archers_discipline = 0.1
+		lv_horsearchers_discipline = 0.1
 	}
 	
 	color = hsv { 0.1 0.5 0.8 }
@@ -682,7 +680,7 @@ gems = { #44 Territories
 }
 
 camel = { #63 territories
-	#allow_unit_type = modded_camels
+	allow_unit_type = lv_camels
 	category = 0
 	
 	gold = 0.25
@@ -691,7 +689,7 @@ camel = { #63 territories
 		state_commerce_modifier = 0.02
 	}
 	country = {
-		cavalry_camels_discipline = 0.1
+		lv_camels_discipline = 0.1
 	}
 	
 	color = { 0.6 0.3 0.2 }
