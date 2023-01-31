@@ -15,9 +15,22 @@ units_allowance_events.1 = {
 	option = {
 		name = "OK"
 		allow_lv_lightinfantry = yes
-		allow_lv_heavyinfantry = yes
 		allow_lv_archers = yes	
 		allow_lv_scirmishers = yes
+		if = {
+			limit =  {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = iron
+						trade_goods = iron
+					}					
+				}
+			}
+			allow_lv_heavyinfantry = yes
+		}
+		else = {
+			disallow_lv_heavyinfantry = yes
+		}
 		if = {
 			limit =  {
 				any_owned_province = {

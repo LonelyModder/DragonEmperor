@@ -34,6 +34,7 @@ salt = { #177 territories
 iron = { #119 territories
 	category = 0
 	
+	allow_unit_type = lv_heavyinfantry
 	gold = 0.3
 	
 	province = {
@@ -49,7 +50,7 @@ iron = { #119 territories
 
 ebon = { #Added
 	category = 0
-	
+	allow_unit_type =lv_heavyinfantry
 	gold = 0.5
 	
 	province = {
