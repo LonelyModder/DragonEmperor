@@ -10,9 +10,9 @@ ports = "ports.csv"
 climate = "climate.txt"
 
 #Seazones, list:
-sea_zones = LIST { 1 }
+sea_zones = LIST { }
 impassable_terrain = LIST {  }  
-wasteland = LIST {  }
+wasteland = LIST { 1 2 }
 lakes = LIST {  }
 
 

@@ -1,12 +1,21 @@
 ﻿#Test
 
-1=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
+1={ #Ocean
+	terrain="impassable_terrain"
+	culture="wvenedi"
+	religion="slavic_pantheon"
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+2={ #Lands
+	terrain="impassable_terrain"
+	culture="wvenedi"
+	religion="slavic_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
