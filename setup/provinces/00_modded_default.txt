@@ -2,8 +2,8 @@
 
 1={ #Ocean
 	terrain="impassable_terrain"
-	culture="wvenedi"
-	religion="slavic_pantheon"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -12,8 +12,8 @@
 
 2={ #Lands
 	terrain="impassable_terrain"
-	culture="wvenedi"
-	religion="slavic_pantheon"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -22,18 +22,18 @@
 
 3={ #Province TO DO
 	terrain="impassable_terrain"
-	culture="wvenedi"
-	religion="slavic_pantheon"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-4={ #Cause Resons
+4={ #Mountain
 	terrain="impassable_terrain"
-	culture="wvenedi"
-	religion="slavic_pantheon"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
