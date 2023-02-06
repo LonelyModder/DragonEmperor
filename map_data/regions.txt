@@ -1,6 +1,12 @@
 ﻿
-#modded_sea_region = {
-#	areas = {
-#		sea_area
-#	}
-#}
+modded_sea_region = {
+	areas = {
+		sea_area
+	}
+}
+
+modded_sommerset_region = {
+	areas = {
+		hollyfalls_area
+	}
+}
