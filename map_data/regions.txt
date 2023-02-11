@@ -5,8 +5,18 @@ modded_sea_region = {
 	}
 }
 
+#Sommerset
+
 modded_sommerset_region = {
 	areas = {
 		hollyfalls_area
+		sunhold_area
+		pearls_area
+		alinor_area
+		rellenthil_area
+		torhamekhard_area
+		russafeld_area
+		archengrangrove_area
+		dusk_area
 	}
 }
