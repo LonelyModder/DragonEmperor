@@ -13,7 +13,19 @@ sea_area = {
 #Sommerset Isles
 
 tmp_area = { 
-    provinces = { 661 662 }
+    provinces = { 677 678 679 680 681 682 683 684 685 686 }
+}
+
+chain_area = { 
+    provinces = { 669 670 }
+}
+
+sapiarchisle_area = { 
+    provinces = { 661 662 663 }
+}
+
+westerncoraldale_area = { 
+    provinces = { 664 665 666 667 668 }
 }
 
 lillandril_area = { 
@@ -45,11 +57,11 @@ westsunhold_area = {
 }
 
 sunholdcoast_area = { 
-    provinces = { 421 423 422 228 224 23 225 227 226 22 }
+    provinces = { 421 423 422 228 224 23 225 226 22 494 }
 }
 
 hollyfalls_area = { 
-    provinces = { 429 432 472 233 229 473 232 231 230 501 }
+    provinces = { 429 432 472 233 229 473 232 231 230 227 }
 }
 
 torhamekhard_area = { 
@@ -57,7 +69,7 @@ torhamekhard_area = {
 }
 
 archengrangrove_area = { 
-    provinces = { 495 494 497 496 498 499 500 502 505 519 }
+    provinces = { 495 497 496 498 499 500 502 505 519 501 }
 }
 
 dusk_area = { 
@@ -110,4 +122,8 @@ etonnirpasses_area = {
 
 crystaltower_area = { 
     provinces = { 621 614 622 626 623 625 624 610 611 598 601 }
+}
+
+artaeum_area = { 
+    provinces = { 8 10 671 672 673 674 675 676 }
 }

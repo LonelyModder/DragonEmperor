@@ -18,11 +18,10 @@ modded_alinor_region = {
 		alinor_area
 		ceytarn_area
 		pearls_area
-		westsunhold_area
-		sunholdcoast_area
-		hollyfalls_area
 		torhamekhard_area
 		aldmora_area
+		westsunhold_area
+		westerncoraldale_area #isle
 	}
 }
 
@@ -30,13 +29,11 @@ modded_shimmerene_region = {
 	areas = {
 		schimmerene_area
 		direnniacropolis_area
-		archengrangrove_area
-		dusk_area
-		sirvarwoad_area
-		archonsgrove_area
-		gardenofsacrednumbers_area
 		russafeld_area
 		eldbur_area
+		kingshaven_area
+		gardenofsacrednumbers_area
+		
 	}
 }
 
@@ -48,6 +45,24 @@ modded_etonnir_region = {
 		corgrad_area
 		lillandril_area
 		seakeep_area
-		kingshaven_area
+		sapiarchisle_area #isle
+	}
+}
+
+modded_dusk_region = {
+	areas = {
+		archengrangrove_area
+		dusk_area
+		sirvarwoad_area
+		sunholdcoast_area
+		hollyfalls_area
+		archonsgrove_area
+		artaeum_area #isle
+	}
+}
+
+modded_abecean_region = {
+	areas = {
+		chain_area
 	}
 }

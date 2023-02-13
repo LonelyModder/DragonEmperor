@@ -1,11 +1,17 @@
 ﻿l_english:
  #Regions
- modded_tmp_region:0 "temporary"
- modded_alinor_region:0 "Alinor"
- modded_shimmerene_region:0 "Shimmerene"
- modded_etonnir_region:0 "Eton-Nir"
+ modded_tmp_region:1 "temporary"
+ modded_alinor_region:1 "Alinor"
+ modded_shimmerene_region:1 "Shimmerene"
+ modded_etonnir_region:1 "Eton-Nir"
+ modded_dusk_region:1 "Sir-Var"
+ modded_abecean_region:1 "Abecean"
  #Areas
  tmp_area:0 "temporary"
+ artaeum_area:0 "Artaeum"
+ chain_area:0 "Chain Isles"
+ sapiarchisle_area:0 "Sapiarch Isle"
+ westerncoraldale_area:0 "Western Coraldale"
  alinor_area:0 "Alinor"
  ceytarn_area:0 "Cey-Tarn"
  pearls_area:0 "Pearls"
