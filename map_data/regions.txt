@@ -7,27 +7,47 @@ modded_sea_region = {
 
 #Sommerset
 
-modded_sommerset_region = {
+modded_tmp_region = {
 	areas = {
-		hollyfalls_area
-		sunhold_area
-		pearls_area
+		tmp_area
+	}
+}
+
+modded_alinor_region = {
+	areas = {
 		alinor_area
-		rellenthil_area
+		ceytarn_area
+		pearls_area
+		westsunhold_area
+		sunholdcoast_area
+		hollyfalls_area
 		torhamekhard_area
-		russafeld_area
+		aldmora_area
+	}
+}
+
+modded_shimmerene_region = {
+	areas = {
+		schimmerene_area
+		direnniacropolis_area
 		archengrangrove_area
 		dusk_area
 		sirvarwoad_area
 		archonsgrove_area
-		shimmerene_area
+		gardenofsacrednumbers_area
+		russafeld_area
 		eldbur_area
-		direnniacropolis_area
-		karndarwatch_area
-		kingshaven_area
-		kingshavenpass_area
+	}
+}
+
+modded_etonnir_region = {
+	areas = {
 		cloudrest_area
+		etonnirpasses_area
+		crystaltower_area
 		corgrad_area
+		lillandril_area
 		seakeep_area
+		kingshaven_area
 	}
 }
