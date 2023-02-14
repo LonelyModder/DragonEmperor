@@ -13,6 +13,25 @@ modded_tmp_region = {
 	}
 }
 
+modded_auridon_region = {
+	areas = {
+		shatteredgrove_area
+		tanzelwil_area
+		phaer_area
+		greenwatercove_area
+		northbeacon_area
+		firsthold_area
+		errinorneisle_area
+		skywatch_area
+	}
+}
+
+modded_greenshade_region = {
+	areas = {
+		talanda_area
+	}
+}
+
 modded_alinor_region = {
 	areas = {
 		alinor_area
@@ -58,6 +77,7 @@ modded_dusk_region = {
 		hollyfalls_area
 		archonsgrove_area
 		artaeum_area #isle
+		dranilkir_area #isle
 	}
 }
 
