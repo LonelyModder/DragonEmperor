@@ -21,8 +21,9 @@ modded_auridon_region = {
 		greenwatercove_area
 		northbeacon_area
 		firsthold_area
-		errinorneisle_area
+		errinorneisle_area #isle
 		skywatch_area
+		dranilkir_area #isle
 	}
 }
 
@@ -65,6 +66,7 @@ modded_etonnir_region = {
 		lillandril_area
 		seakeep_area
 		sapiarchisle_area #isle
+		eyevea_area #isle
 	}
 }
 
@@ -77,12 +79,20 @@ modded_dusk_region = {
 		hollyfalls_area
 		archonsgrove_area
 		artaeum_area #isle
-		dranilkir_area #isle
 	}
 }
 
-modded_abecean_region = {
+modded_khefrem_region = {
 	areas = {
-		chain_area
+		chain_area #isle
+		hernecaspar_area #isle
+		strosmkai_area #isle
+		hewsbane_area
+	}
+}
+
+modded_goldcoast_region = {
+	areas = {
+		stirk_area #isle
 	}
 }

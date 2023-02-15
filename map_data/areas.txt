@@ -13,7 +13,27 @@ sea_area = {
 #Sommerset Isles
 
 tmp_area = { 
-    provinces = { }
+    provinces = {  }
+}
+
+eyevea_area = { 
+    provinces = { 791 792 793 794 795 796 }
+}
+
+stirk_area = { 
+    provinces = { 787 788 789 790 }
+}
+
+hewsbane_area = { 
+    provinces = { 786 }
+}
+
+strosmkai_area = { 
+    provinces = { 778 779 780 781 782 783 784 785 }
+}
+
+hernecaspar_area = { 
+    provinces = { 767 768 769 770 771 772 773 774 775 776 777 }
 }
 
 shatteredgrove_area = { 
