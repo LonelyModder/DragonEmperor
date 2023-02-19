@@ -110,22 +110,159 @@ provinces = { #Any entry must contain a comment with city name.
 	#	treasure_slots = { 	treasures = { 7 8 9 } }
 	#}
 
-	### BUILDINGS
-	
-	
 	#Pirates
 	
 	#Buildings
 	
 	#Passes
-	
+	603 = { #Pass
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	600 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	599 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	621 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	623 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	613 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	639 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	430 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	446 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	440 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	441 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	449 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	510 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	498 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	531 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	533 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	443 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	445 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	476 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	499 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	501 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	756 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	752 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	734 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	719 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	720 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	715 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	692 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	684 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	683 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	713 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	612 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	608 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	491 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	472 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	495 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	736 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	429 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	475 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	
 	########################################
 	# Barbarian Spawn Spots
 	########################################
-	
-	
-	
+	48 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	50 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	47 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	62 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	71 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	56 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	20 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	24 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 }
 
 road_network = {
