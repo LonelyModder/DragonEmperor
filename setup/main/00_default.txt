@@ -214,9 +214,6 @@ provinces = { #Any entry must contain a comment with city name.
 	608 = {
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
-	491 = {
-		modifier = { modifier = lesser_pass_modifier always = yes } 
-	}
 	472 = {
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -230,6 +227,12 @@ provinces = { #Any entry must contain a comment with city name.
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	475 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	480 = {
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	452 = {
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	
