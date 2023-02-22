@@ -101,3 +101,14 @@ modded_goldcoast_region = {
 		sarchal_area
 	}
 }
+
+modded_kvatch_region = {
+	areas = {
+		kvatch_area
+		istirus_area
+		trumbe_area
+		varondo_area
+		linchal_area
+		miscarcand_area
+	}
+}
