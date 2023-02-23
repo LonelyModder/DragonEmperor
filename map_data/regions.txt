@@ -112,3 +112,15 @@ modded_kvatch_region = {
 		miscarcand_area
 	}
 }
+
+modded_skingrad_region = {
+	areas = {
+		upperstrid_area
+		skingrad_area
+		silorn_area
+		nornalhorst_area
+		vlastarus_area
+		delodiil_area
+		ceyatatar_area
+	}
+}
