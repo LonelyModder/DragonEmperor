@@ -111,6 +111,7 @@ modded_kvatch_region = {
 		varondo_area
 		linchal_area
 		miscarcand_area
+		talwinwue_area
 	}
 }
 
@@ -123,5 +124,24 @@ modded_skingrad_region = {
 		vlastarus_area
 		delodiil_area
 		ceyatatar_area
+	}
+}
+
+modded_chorrol_region = {
+	areas = {
+		nonungalo_area
+		dirich_area
+		elenglynn_area
+		vlindrel_area
+		chorrol_area
+		narfinsel_area
+		lipsandtarn_area
+	}
+}
+
+modded_heartlands_region = {
+	areas = {
+		westerncityisle_area
+		easterncityisle_area
 	}
 }
