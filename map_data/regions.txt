@@ -143,5 +143,24 @@ modded_heartlands_region = {
 	areas = {
 		westerncityisle_area
 		easterncityisle_area
+		weye_area
+		vindasel_area
+		sardavarleed_area
+		magia_area
+		vilverin_area
+		sercen_area
+		caractacus_area
 	}
 }
+
+modded_westweald_region = {
+	areas = {
+		blackbootkeep_area
+		neyondtwyll_area
+		variela_area
+		wenyandawik_area
+		bravil_area
+		bawn_area
+	}
+}
+
