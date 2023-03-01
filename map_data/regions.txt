@@ -164,3 +164,15 @@ modded_westweald_region = {
 	}
 }
 
+modded_lowerniben_region = {
+	areas = {
+		leyawiin_area
+		telepe_area
+	}
+}
+
+modded_sjerall_region = {
+	areas = {
+		lindai_area
+	}
+}
