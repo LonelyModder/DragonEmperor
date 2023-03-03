@@ -136,6 +136,7 @@ modded_chorrol_region = {
 		chorrol_area
 		narfinsel_area
 		lipsandtarn_area
+		lindai_area
 	}
 }
 
@@ -168,11 +169,44 @@ modded_lowerniben_region = {
 	areas = {
 		leyawiin_area
 		telepe_area
+		bogwater_area
+		veyond_area
+		blueblood_area
 	}
 }
 
 modded_sjerall_region = {
 	areas = {
-		lindai_area
+		sancretor_area
+		twilightwoods_area
+		piukanda_area
+		wardenhighlands_area
+		bleakersway_area
+		bruma_area
+		sercenhills_area
+		gnollmountain_area
+		easternpasses_area
+	}
+}
+
+modded_chaydinhal_region = {
+	areas = {
+		belda_area
+		nagastani_area
+		chaydinhal_area
+		whitefallvalley_area
+		noral_area
+		sejanus_area
+		culotte_area
+		darkelowe_area
+	}
+}
+
+modded_valus_region = {
+	areas = {
+		smokefrostpeaks_area
+		kemen_area
+		scinia_area
+		hame_area
 	}
 }
