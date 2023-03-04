@@ -172,6 +172,10 @@ modded_lowerniben_region = {
 		bogwater_area
 		veyond_area
 		blueblood_area
+		arpenia_area
+		bulwark_area
+		atatar_area
+		teleman_area
 	}
 }
 
@@ -208,5 +212,20 @@ modded_valus_region = {
 		kemen_area
 		scinia_area
 		hame_area
+		septimsgate_area
+		malada_area
+	}
+}
+
+modded_nibenbasin_region = {
+	areas = {
+		cedrian_area
+		nenalata_area
+		morahame_area
+		facian_area
+		mackementain_area
+		ondo_area
+		goldthroat_area
+		wendelbeck_area
 	}
 }
