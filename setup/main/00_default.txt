@@ -115,7 +115,184 @@ provinces = { #Any entry must contain a comment with city name.
 	#Buildings
 	
 	#Passes
-	603 = { #Pass
+	1352 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1510 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1541 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1549 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1548 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1423 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1578 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1546 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1544 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1480 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1508 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1507 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1496 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1429 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1432 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1410 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1409 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1404 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1377 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1375 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1371 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1372 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1362 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1358 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1355 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1353 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1333 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1329 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1317 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1319 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1261 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1262 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1264 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1277 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	964 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1095 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1296 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1012 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1297 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1295 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1061 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1022 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1021 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1015 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1029 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1004 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	992 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	904 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	932 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	910 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1005 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	905 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	894 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	869 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	848 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	819 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	825 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	850 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	862 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	603 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	600 = {
