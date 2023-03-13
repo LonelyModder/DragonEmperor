@@ -1,25 +1,25 @@
-﻿#"AAA"={
-#	country="AAA"
-#	1={
-#		#first_name="Iachesis"
-#		family = c:AAA.fam:Arana
-#		birth_date=60.1.1
-#		culture="alinoric"
-#		religion="elven_pantheon"
-#		no_stats=yes
-#		add_martial=12
-#		add_charisma=10
-#		add_finesse=8
-#		add_zeal=10
-#		no_traits=yes
-#		add_trait="aranas"
-#		add_trait="altmer"
-#		add_trait="pure"
-#		add_gold=500
-#		add_popularity=100
-#		c:AAA={
-#			set_as_ruler=char:1
-#		}
-#		#dna=""
-#	}
-#}
+﻿"AAA"={
+	country="AAA"
+	1={
+		#first_name="Iachesis"
+		family = c:AAA.fam:Arana
+		birth_date=60.1.1
+		culture="alinoric"
+		religion="elven_pantheon"
+		no_stats=yes
+		add_martial=12
+		add_charisma=10
+		add_finesse=8
+		add_zeal=10
+		no_traits=yes
+		add_trait="aranas"
+		add_trait="altmer"
+		add_trait="pure"
+		add_gold=500
+		add_popularity=100
+		c:AAA={
+			set_as_ruler=char:1
+		}
+		#dna=""
+	}
+}

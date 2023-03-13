@@ -76,12 +76,12 @@ family={
 		#Numbers do not have to appear in numerical order but do have to be unique:
 		#Current first free ID is 90.
 		#Roman Families on Start:
-		#1={
-		#	key="Arana"
-		#	owner=AAA
-		#	culture = alinoric
-		#	prestige=300
-		#}
+		1={
+			key="Arana"
+			owner=AAA
+			culture = alinoric
+			prestige=300
+		}
 		
 		}
 }
@@ -113,6 +113,21 @@ provinces = { #Any entry must contain a comment with city name.
 	#Pirates
 	
 	#Buildings
+	464 = {
+		fortress_building = 1
+	}
+	489 = {
+		fortress_building = 1
+	}
+	462 = {
+		port_building = 2
+	}
+	435 = {
+		port_building = 2
+	}
+	665 = {
+		port_building = 2
+	}
 	
 	#Passes
 	1352 = { 
@@ -446,7 +461,20 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
-	
+	#Sommerset
+	453=457
+	459=457
+	460=459
+	462=460
+	463=462
+	463=469
+	463=467
+	467=466
+	466=464
+	453=451
+	469=482
+	482=488
+	488=489
 }
 
 country = {
@@ -455,8 +483,40 @@ country = {
 		BAR = {
 			government = tribal_kingdom
 		}
-		#Abecean
+		#I update
+		AAA = {
+			family = 1
+			government = despotic_monarchy
+			primary_culture = alinoric
+			religion = elven_pantheon
+			capital = 453
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				453 451 452 454 455 456 457 458 459 450 449 445
+				469 468 463 467 466 464 465 462 460 461
+				435 438 437 440 439 447 446 448 444 436 441 442
+				664 665 666 667 668
+				489 490 482 483 488 487 555 556 557 558
+			}
+		}
 		
+		AAB = {
+			government = despotic_monarchy
+			primary_culture = coralsplitter
+			religion = goblin_pantheon
+			capital = 605
+			
+			own_control_core = 	{ 
+				603 604 608 600 605 606 607 599 602 609
+			}
+		}
 		
 	}
 }

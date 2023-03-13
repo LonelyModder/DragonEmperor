@@ -6,7 +6,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -19,7 +19,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -32,7 +32,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -45,7 +45,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -58,7 +58,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -71,7 +71,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -84,7 +84,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -97,7 +97,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -110,7 +110,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -123,7 +123,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -136,7 +136,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -149,7 +149,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -162,7 +162,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -175,7 +175,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -188,7 +188,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -201,7 +201,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -214,7 +214,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -227,7 +227,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -240,7 +240,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -253,7 +253,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -266,7 +266,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -279,7 +279,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -292,7 +292,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -305,7 +305,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -318,7 +318,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -331,7 +331,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -344,7 +344,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -357,7 +357,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -365,25 +365,33 @@
 435={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 436={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -391,12 +399,12 @@
 437={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -404,12 +412,12 @@
 438={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -417,12 +425,12 @@
 439={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -430,12 +438,12 @@
 440={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -443,25 +451,25 @@
 441={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
 
 442={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="griphons"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -474,20 +482,20 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
 
 444={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="griphons"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -495,12 +503,12 @@
 445={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -508,12 +516,12 @@
 446={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -521,12 +529,12 @@
 447={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -534,12 +542,12 @@
 448={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -547,12 +555,12 @@
 449={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -560,12 +568,12 @@
 450={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -573,12 +581,12 @@
 451={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -586,64 +594,85 @@
 452={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
 
 453={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="glass"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
-		amount=4
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+	}
+	citizen={
+		amount=16
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=8
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 454={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 455={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 456={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -651,12 +680,12 @@
 457={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -664,12 +693,12 @@
 458={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -677,12 +706,12 @@
 459={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -690,12 +719,12 @@
 460={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -703,12 +732,12 @@
 461={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -716,25 +745,36 @@
 462={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 463={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -742,25 +782,33 @@
 464={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 465={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -768,38 +816,48 @@
 466={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 467={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 468={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -807,13 +865,21 @@
 469={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
@@ -825,7 +891,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -838,7 +904,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -851,7 +917,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -864,7 +930,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -877,7 +943,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -890,7 +956,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -903,7 +969,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -916,7 +982,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -929,7 +995,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -942,7 +1008,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -955,7 +1021,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -968,7 +1034,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -976,26 +1042,36 @@
 482={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 483={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
@@ -1007,7 +1083,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1020,7 +1096,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1033,7 +1109,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1041,52 +1117,75 @@
 487={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 488={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 489={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 490={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
@@ -1098,7 +1197,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1111,7 +1210,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1124,7 +1223,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1137,7 +1236,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1150,7 +1249,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1163,7 +1262,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1176,7 +1275,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1189,7 +1288,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1202,7 +1301,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1215,7 +1314,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1228,7 +1327,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1241,7 +1340,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1254,7 +1353,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1267,7 +1366,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1280,7 +1379,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1293,7 +1392,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1306,7 +1405,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1319,7 +1418,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1332,7 +1431,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1345,7 +1444,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1358,7 +1457,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1371,7 +1470,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1384,7 +1483,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1397,7 +1496,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1410,7 +1509,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1423,7 +1522,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1436,7 +1535,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1449,7 +1548,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1462,7 +1561,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1475,7 +1574,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1488,7 +1587,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1501,7 +1600,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1514,7 +1613,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1527,7 +1626,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1540,7 +1639,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1553,7 +1652,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1566,7 +1665,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1579,7 +1678,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1592,7 +1691,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1605,7 +1704,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1618,7 +1717,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1631,7 +1730,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1644,7 +1743,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1657,7 +1756,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1670,7 +1769,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1683,7 +1782,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1696,7 +1795,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1709,7 +1808,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1722,7 +1821,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1735,7 +1834,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1748,7 +1847,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1761,7 +1860,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1774,7 +1873,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1787,7 +1886,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1800,7 +1899,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1813,7 +1912,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1826,7 +1925,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1839,7 +1938,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1852,7 +1951,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1865,7 +1964,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1878,7 +1977,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1891,7 +1990,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1904,7 +2003,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1912,12 +2011,12 @@
 555={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1925,12 +2024,12 @@
 556={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1938,12 +2037,12 @@
 557={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1951,12 +2050,12 @@
 558={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1969,7 +2068,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1982,7 +2081,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -1995,7 +2094,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2008,7 +2107,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2021,7 +2120,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2034,7 +2133,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2047,7 +2146,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2060,7 +2159,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2073,7 +2172,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2086,7 +2185,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2099,7 +2198,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2112,7 +2211,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2125,7 +2224,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2138,7 +2237,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2151,7 +2250,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2164,7 +2263,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2177,7 +2276,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2190,7 +2289,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2203,7 +2302,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2216,7 +2315,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2229,7 +2328,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2242,7 +2341,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2255,7 +2354,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2268,7 +2367,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2281,7 +2380,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2294,7 +2393,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2307,7 +2406,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2320,7 +2419,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2333,7 +2432,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2346,7 +2445,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2359,7 +2458,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2372,7 +2471,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2385,7 +2484,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2398,7 +2497,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2411,7 +2510,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2424,7 +2523,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2437,7 +2536,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2450,7 +2549,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2463,7 +2562,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2476,7 +2575,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2484,8 +2583,8 @@
 599={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2497,8 +2596,8 @@
 600={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2515,7 +2614,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2523,8 +2622,8 @@
 602={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2536,8 +2635,8 @@
 603={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2549,8 +2648,8 @@
 604={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2562,21 +2661,24 @@
 605={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=1
+	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 }
 
 606={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2588,8 +2690,8 @@
 607={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2601,8 +2703,8 @@
 608={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2614,8 +2716,8 @@
 609={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="coralsplitter"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2632,7 +2734,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2645,7 +2747,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2658,7 +2760,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2671,7 +2773,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2684,7 +2786,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2697,7 +2799,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2710,7 +2812,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2723,7 +2825,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2736,7 +2838,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2749,7 +2851,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2762,7 +2864,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2775,7 +2877,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2788,7 +2890,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2801,7 +2903,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2814,7 +2916,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2827,7 +2929,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2840,7 +2942,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2853,7 +2955,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2866,7 +2968,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2879,7 +2981,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2892,7 +2994,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2905,7 +3007,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2918,7 +3020,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2931,7 +3033,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2944,7 +3046,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2957,7 +3059,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2970,7 +3072,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2983,7 +3085,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -2996,7 +3098,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3009,7 +3111,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3022,7 +3124,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3035,7 +3137,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3048,7 +3150,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3061,7 +3163,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3074,7 +3176,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3087,7 +3189,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3100,7 +3202,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3113,7 +3215,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3126,7 +3228,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3139,7 +3241,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3152,7 +3254,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3165,7 +3267,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3178,7 +3280,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3191,7 +3293,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3204,7 +3306,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3217,7 +3319,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3230,7 +3332,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3243,7 +3345,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3256,7 +3358,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3269,7 +3371,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3282,7 +3384,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3295,7 +3397,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3308,7 +3410,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3321,7 +3423,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3329,12 +3431,12 @@
 664={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3342,25 +3444,33 @@
 665={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 666={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3368,12 +3478,12 @@
 667={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3381,12 +3491,12 @@
 668={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="alinoric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3399,7 +3509,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3412,7 +3522,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3425,7 +3535,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3438,7 +3548,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3451,7 +3561,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3464,7 +3574,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3477,7 +3587,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3490,7 +3600,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3503,7 +3613,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3516,7 +3626,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3529,7 +3639,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3542,7 +3652,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3555,7 +3665,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3568,7 +3678,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3581,7 +3691,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3594,7 +3704,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3607,7 +3717,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3620,7 +3730,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3633,7 +3743,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3646,7 +3756,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3659,7 +3769,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3672,7 +3782,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3685,7 +3795,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3698,7 +3808,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3711,7 +3821,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3724,7 +3834,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3737,7 +3847,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3750,7 +3860,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3763,7 +3873,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3776,7 +3886,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3789,7 +3899,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3802,7 +3912,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3815,7 +3925,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3828,7 +3938,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3841,7 +3951,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3854,7 +3964,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3867,7 +3977,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3880,7 +3990,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3893,7 +4003,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3906,7 +4016,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3919,7 +4029,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3932,7 +4042,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3945,7 +4055,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3958,7 +4068,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3971,7 +4081,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3984,7 +4094,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -3997,7 +4107,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4010,7 +4120,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4023,7 +4133,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4036,7 +4146,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4049,7 +4159,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4062,7 +4172,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4075,7 +4185,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4088,7 +4198,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4101,7 +4211,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4114,7 +4224,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4127,7 +4237,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4140,7 +4250,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4153,7 +4263,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4166,7 +4276,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4179,7 +4289,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4192,7 +4302,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4205,7 +4315,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4218,7 +4328,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4231,7 +4341,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4244,7 +4354,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4257,7 +4367,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4270,7 +4380,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4283,7 +4393,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4296,7 +4406,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4309,7 +4419,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4322,7 +4432,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4335,7 +4445,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4348,7 +4458,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4361,7 +4471,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4374,7 +4484,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4387,7 +4497,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4400,7 +4510,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4413,7 +4523,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4426,7 +4536,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4439,7 +4549,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4452,7 +4562,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4465,7 +4575,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4478,7 +4588,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4491,7 +4601,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4504,7 +4614,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4517,7 +4627,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4530,7 +4640,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4543,7 +4653,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4557,7 +4667,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4570,7 +4680,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4583,7 +4693,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4596,7 +4706,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4609,7 +4719,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }
@@ -4622,7 +4732,7 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
 	}
 }

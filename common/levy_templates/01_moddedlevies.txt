@@ -24,8 +24,8 @@ levy_altmer = { #altmer militia
 levy_goblin = { #goblin militia
 	default = no
 
-	lv_lightinfantry = 0.5
-	lv_warhounds = 0.1
+	lv_lightinfantry = 0.4
+	lv_warhounds = 0.2
 	lv_scirmishers = 0.3
 	lv_mages = 0.1
 }
