@@ -19,6 +19,14 @@ levy_altmer = { #altmer militia
 	lv_mages = 0.3
 }
 
+levy_psijic = { #psijic defenders
+	default = no
+
+	lv_lightinfantry = 0.2
+	lv_archers = 0.2
+	lv_mages = 0.6
+}
+
 #Goblin
 
 levy_goblin = { #goblin militia

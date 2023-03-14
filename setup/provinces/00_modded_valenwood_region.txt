@@ -1,8 +1,8 @@
 ﻿761={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="green_pantheon"
+	culture="talandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14,8 +14,8 @@
 762={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="green_pantheon"
+	culture="talandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -27,8 +27,8 @@
 763={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="green_pantheon"
+	culture="talandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -40,8 +40,8 @@
 764={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="green_pantheon"
+	culture="talandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -53,21 +53,42 @@
 765={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
+	}
+	freemen={
+		amount=2
+		religion="green_pantheon"
+		culture="talandan"
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+	tribesmen={
+		amount=6
+		religion="green_pantheon"
+		culture="talandan"
 	}
 }
 
 766={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="green_pantheon"
+	culture="talandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

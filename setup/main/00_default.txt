@@ -128,6 +128,18 @@ provinces = { #Any entry must contain a comment with city name.
 	665 = {
 		port_building = 2
 	}
+	787 = {
+		port_building = 2
+	}
+	676 = {
+		port_building = 2
+	}
+	765 = {
+		port_building = 2
+	}
+	770 = {
+		port_building = 2
+	}
 	
 	#Passes
 	1352 = { 
@@ -475,6 +487,12 @@ road_network = {
 	469=482
 	482=488
 	488=489
+	#Artaeum
+	675=676
+	676=673
+	673=672
+	676=674
+	674=673
 }
 
 country = {
@@ -508,7 +526,7 @@ country = {
 		}
 		
 		AAB = {
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = coralsplitter
 			religion = goblin_pantheon
 			capital = 605
@@ -518,6 +536,85 @@ country = {
 			}
 		}
 		
+		AAC = {
+			government = despotic_monarchy
+			primary_culture = heartlanderhi
+			religion = deadric_pantheon
+			capital = 787
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = {
+				{
+					culture = abeceanay 
+					type = citizen
+				}
+			}
+			
+			own_control_core = 	{ 
+				787 788 789
+			}
+		}
+		
+		AAD = {
+			government = teocratic_monarchy
+			primary_culture = psijic
+			religion = elven_pantheon
+			capital = 675
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				8 10 671 672 673 674 675 676
+			}
+		}
+		
+		AAE = {
+			government = teocratic_monarchy
+			primary_culture = hiforested
+			religion = elven_pantheon
+			capital = 765
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			poptype_rights = {
+				{
+					culture = talandan 
+					type = citizen
+				}
+			}
+			
+			own_control_core = 	{ 
+				761 762 763 764 765 766
+			}
+		}
+		
+		AAF = {
+			government = tribal_kingdom
+			primary_culture = hernan
+			religion = nedic_pantheon
+			capital = 770
+			
+			
+			own_control_core = 	{ 
+				767 768 769 770 771 772 773
+			}
+		}
 	}
 }
 

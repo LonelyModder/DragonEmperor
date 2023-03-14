@@ -12,41 +12,68 @@
 }
 
 787={ 
-	terrain="forest"
+	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="heartlanderhi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=3
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		amount=5
+		culture="abeceanay"
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="heartlanderhi"
 	}
 }
 
 788={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="abeceanay"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		religion="nedic_pantheon"
+		culture="heartlanderhi"
 	}
 }
 
 789={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="abeceanay"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		religion="nedic_pantheon"
+		culture="heartlanderhi"
 	}
 }
 

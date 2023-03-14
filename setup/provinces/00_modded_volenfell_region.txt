@@ -29,8 +29,8 @@
 767={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -42,8 +42,8 @@
 768={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -55,8 +55,8 @@
 769={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -68,21 +68,27 @@
 770={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 }
 
 771={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -94,8 +100,8 @@
 772={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -107,8 +113,8 @@
 773={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="hernan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

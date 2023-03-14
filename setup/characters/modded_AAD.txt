@@ -1,21 +1,21 @@
-﻿#"AAD"={
-#	country="AAD"
-#	0={
-#		first_name="Iachesis"
-#		birth_date=10.1.1
-#		culture="psijic"
-#		religion="oldelven_pantheon"
-#		no_stats=yes
-#		add_martial=8
-#		add_charisma=10
-#		add_finesse=15
-#		add_zeal=15
-#		no_traits=yes
-#		add_gold=500
-#		add_popularity=100
-#		c:AAD={
-#			set_as_ruler=char:0
-#		}
-#		#dna=""
-#	}
-#}
+﻿"AAD"={
+	country="AAD"
+	0={
+		first_name="Iachesis"
+		birth_date=10.1.1
+		culture="psijic"
+		religion="oldelven_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=10
+		add_finesse=15
+		add_zeal=15
+		no_traits=yes
+		add_gold=500
+		add_popularity=100
+		c:AAD={
+			set_as_ruler=char:0
+		}
+		#dna=""
+	}
+}
