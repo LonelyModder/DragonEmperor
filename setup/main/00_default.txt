@@ -119,6 +119,12 @@ provinces = { #Any entry must contain a comment with city name.
 	489 = {
 		fortress_building = 1
 	}
+	430 = {
+		fortress_building = 1
+	}
+	480 = {
+		fortress_building = 1
+	}
 	462 = {
 		port_building = 2
 	}
@@ -138,6 +144,12 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	770 = {
+		port_building = 2
+	}
+	669 = {
+		port_building = 2
+	}
+	426 = {
 		port_building = 2
 	}
 	
@@ -487,6 +499,24 @@ road_network = {
 	469=482
 	482=488
 	488=489
+	451=430
+	430=428
+	428=426
+	426=427
+	427=433
+	453=454
+	454=455
+	455=458
+	458=459
+	455=449
+	449=448
+	448=447
+	447=439
+	439=438
+	438=437
+	437=436
+	436=434
+	434=433
 	#Artaeum
 	675=676
 	676=673
@@ -531,6 +561,13 @@ country = {
 			religion = goblin_pantheon
 			capital = 605
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = citizen
+				}
+			}
+			
 			own_control_core = 	{ 
 				603 604 608 600 605 606 607 599 602 609
 			}
@@ -564,7 +601,7 @@ country = {
 		AAD = {
 			government = teocratic_monarchy
 			primary_culture = psijic
-			religion = elven_pantheon
+			religion = oldelven_pantheon
 			capital = 675
 			
 			technology={
@@ -610,9 +647,83 @@ country = {
 			religion = nedic_pantheon
 			capital = 770
 			
-			
 			own_control_core = 	{ 
 				767 768 769 770 771 772 773
+			}
+		}
+		
+		AAH = {
+			government = tribal_kingdom
+			primary_culture = chained
+			religion = goblin_pantheon
+			capital = 669
+			
+			own_control_core = 	{ 
+				669 670
+			}
+		}
+		
+		AAJ = {
+			government = despotic_monarchy
+			primary_culture = sunholdic
+			religion = elven_pantheon
+			capital = 426
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				434 433 427 443 431 426 428 430 425 424
+				421 423 422 228 224 23 225 226 22 494
+				429 432 472 233 229 473 232 231 230 227
+				470 471 476 474 475 481 479 477 478 480 485
+			}
+		}
+		
+		AAK = {
+			government = despotic_monarchy
+			primary_culture = duskan
+			religion = elven_pantheon
+			capital = 508
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				504 503 507 508 510 509 512 513 515 514 511
+				495 497 496 498 499 500 502 505 519 501
+				524 522 518 517 521 520 523 525 526 516
+				532 535 531 533 527 537 536 534 543 544
+			}
+		}
+		
+		AAL = {
+			government = despotic_monarchy
+			primary_culture = shimmerinic
+			religion = elven_pantheon
+			capital = 547
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				547 549 548 589 550 552 553 551 554 567
+				530 529 528 540 539 541 542 545 538 546
+				561 492 484 491 486 559 493 563 562 560 564
+				566 565 568 569 575 579 585 586 580 583
+				570 571 574 573 572 576 577 578 581 582
 			}
 		}
 	}
