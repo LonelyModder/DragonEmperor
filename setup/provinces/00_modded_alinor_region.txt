@@ -1149,8 +1149,8 @@
 484={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1175,8 +1175,8 @@
 486={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1263,8 +1263,8 @@
 491={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1276,26 +1276,39 @@
 492={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 493={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
@@ -1753,8 +1766,8 @@
 528={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1766,8 +1779,8 @@
 529={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1779,8 +1792,8 @@
 530={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1891,8 +1904,8 @@
 538={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1904,8 +1917,8 @@
 539={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1917,8 +1930,8 @@
 540={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1930,8 +1943,8 @@
 541={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1943,8 +1956,8 @@
 542={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1982,8 +1995,8 @@
 545={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1995,8 +2008,8 @@
 546={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2008,21 +2021,32 @@
 547={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
+		amount=7
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 548={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2034,8 +2058,8 @@
 549={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2047,8 +2071,8 @@
 550={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2060,8 +2084,8 @@
 551={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2073,8 +2097,8 @@
 552={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2086,8 +2110,8 @@
 553={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2099,8 +2123,8 @@
 554={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2164,8 +2188,8 @@
 559={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2177,73 +2201,98 @@
 560={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 561={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 562={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 563={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 564={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
 }
 
 565={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2255,34 +2304,50 @@
 566={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 567={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 568={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2294,8 +2359,8 @@
 569={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2307,8 +2372,8 @@
 570={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2320,21 +2385,29 @@
 571={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 572={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2346,8 +2419,8 @@
 573={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2359,8 +2432,8 @@
 574={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2372,8 +2445,8 @@
 575={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2385,8 +2458,8 @@
 576={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2398,8 +2471,8 @@
 577={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2411,8 +2484,8 @@
 578={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2424,8 +2497,8 @@
 579={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2437,8 +2510,8 @@
 580={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2450,8 +2523,8 @@
 581={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2463,21 +2536,29 @@
 582={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 583={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2489,8 +2570,8 @@
 584={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2502,8 +2583,8 @@
 585={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2515,8 +2596,8 @@
 586={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2528,8 +2609,8 @@
 587={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2541,8 +2622,8 @@
 588={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2554,8 +2635,8 @@
 589={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="shimmerinic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2567,8 +2648,8 @@
 590={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2580,21 +2661,32 @@
 591={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
+		amount=7
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 592={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2606,8 +2698,8 @@
 593={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2619,8 +2711,8 @@
 594={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2632,8 +2724,8 @@
 595={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2645,8 +2737,8 @@
 596={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2658,8 +2750,8 @@
 597={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="havenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2671,8 +2763,8 @@
 598={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2710,8 +2802,8 @@
 601={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2834,8 +2926,8 @@
 610={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2847,8 +2939,8 @@
 611={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2860,8 +2952,8 @@
 612={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2873,8 +2965,8 @@
 613={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2886,8 +2978,8 @@
 614={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2899,8 +2991,8 @@
 615={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2912,21 +3004,32 @@
 616={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
+		amount=7
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 617={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2938,8 +3041,8 @@
 618={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2951,8 +3054,8 @@
 619={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2964,34 +3067,53 @@
 620={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 621={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
 	freemen={
+		amount=3
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 622={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3003,8 +3125,8 @@
 623={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3016,8 +3138,8 @@
 624={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3029,8 +3151,8 @@
 625={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3042,8 +3164,8 @@
 626={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3055,8 +3177,8 @@
 627={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3068,21 +3190,32 @@
 628={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
+		amount=7
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 629={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3094,8 +3227,8 @@
 630={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3107,8 +3240,8 @@
 631={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3120,8 +3253,8 @@
 632={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3133,8 +3266,8 @@
 633={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3146,8 +3279,8 @@
 634={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3159,8 +3292,8 @@
 635={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3172,21 +3305,29 @@
 636={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=7
+	}
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 637={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3198,8 +3339,8 @@
 638={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3211,8 +3352,8 @@
 639={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3224,8 +3365,8 @@
 640={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="cloudrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3237,8 +3378,8 @@
 641={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3250,8 +3391,8 @@
 642={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3263,8 +3404,8 @@
 643={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3276,8 +3417,8 @@
 644={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3289,8 +3430,8 @@
 645={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3302,8 +3443,8 @@
 646={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3315,8 +3456,8 @@
 647={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3328,21 +3469,32 @@
 648={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=7
+	}
 	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 649={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3354,8 +3506,8 @@
 650={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3367,8 +3519,8 @@
 651={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3380,8 +3532,8 @@
 652={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3393,8 +3545,8 @@
 653={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3406,8 +3558,8 @@
 654={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3419,8 +3571,8 @@
 655={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3432,8 +3584,8 @@
 656={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3445,8 +3597,8 @@
 657={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3458,8 +3610,8 @@
 658={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3471,8 +3623,8 @@
 659={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3484,21 +3636,32 @@
 660={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=10
+	}
 	freemen={
+		amount=7
+	}
+	slaves={
 		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 661={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3510,21 +3673,29 @@
 662={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=7
+	}
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 663={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lillandrilan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4776,8 +4947,8 @@
 791={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4789,21 +4960,29 @@
 792={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
 793={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4815,8 +4994,8 @@
 794={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4828,8 +5007,8 @@
 795={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4841,8 +5020,8 @@
 796={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
