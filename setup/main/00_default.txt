@@ -116,6 +116,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	685 = {
+		fortress_building = 1
+	}
 	489 = {
 		fortress_building = 1
 	}
@@ -132,6 +135,21 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	462 = {
+		port_building = 2
+	}
+	724 = {
+		port_building = 2
+	}
+	744 = {
+		port_building = 2
+	}
+	748 = {
+		port_building = 2
+	}
+	689 = {
+		port_building = 2
+	}
+	697 = {
 		port_building = 2
 	}
 	591 = {
@@ -507,6 +525,53 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Auridon
+	677=678
+	678=685
+	677=679
+	679=680
+	680=687
+	687=688
+	688=689
+	689=692
+	692=693
+	693=695
+	693=696
+	696=717
+	717=711
+	711=706
+	706=710
+	706=704
+	704=703
+	703=698
+	698=697
+	698=685
+	707=704
+	707=710
+	710=713
+	717=720
+	720=726
+	726=722
+	722=715
+	715=714
+	714=713
+	722=724
+	726=725
+	725=732
+	732=735
+	735=756
+	756=742
+	735=736
+	736=745
+	756=757
+	757=758
+	758=751
+	751=748
+	758=753
+	758=744
+	685=686
+	686=694
+	694=695
 	#Sommerset
 	582=584
 	584=588
@@ -902,6 +967,48 @@ country = {
 			
 			own_control_core = 	{ 
 				584 588 587 590 591 592 593 594 595 596 597
+			}
+		}
+		
+		AAO = {
+			government = despotic_monarchy
+			primary_culture = firstholdan
+			religion = elven_pantheon
+			capital = 677
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				677 678 679 680 681 682 683 685 686 699 700 701
+				697 698 702 703 704 707 708 709 710 706 705 711
+				687 688 689 690 691 692 693 694 695 684 696 717 712
+			}
+		}
+		
+		AAP = {
+			government = despotic_monarchy
+			primary_culture = skywatchan
+			religion = elven_pantheon
+			capital = 722
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				722 723 724 726 715 716 713 714 731
+				745 736 729 730 755 759 754 753 750 751 749
+				737 738 739 741 743 744 746 747 748 752 758 757
+				718 719 720 721 725 732 733 734 735 756 742
+				727 728 740
 			}
 		}
 	}
