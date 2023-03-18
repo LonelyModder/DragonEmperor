@@ -23,7 +23,7 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 1577
+					province_id = 1071
 				}
 			}
 		}
@@ -38,7 +38,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 1577
+			owns_or_subject_owns = 1071
 		}
 		
 		effect = {
@@ -87,24 +87,24 @@
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 1577
+							province_id = 1071
 						}
 					}
 				}
-				set_capital = 1577
+				set_capital = 1071
 				hidden_effect = {
-					p:1577.state = {
-						set_state_capital = 1577
+					p:1071.state = {
+						set_state_capital = 1071
 					}
 				}
 			}
-			#p:1577 = {
+			#p:1071 = {
 			#	if = {
 			#		limit = { has_city_status = no }
 			#		set_city_status = city
 			#	}
 			#}
-			p:1577 = {
+			p:1071 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}

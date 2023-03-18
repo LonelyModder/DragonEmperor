@@ -111,6 +111,9 @@ provinces = { #Any entry must contain a comment with city name.
 	#}
 
 	#Pirates
+	765 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
+	770 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
+	669 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
 	
 	#Buildings
 	464 = {
