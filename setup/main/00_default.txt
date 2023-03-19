@@ -482,7 +482,7 @@ provinces = { #Any entry must contain a comment with city name.
 	472 = {
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
-	495 = {
+	631 = {
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	736 = {
@@ -768,8 +768,8 @@ country = {
 			}
 		}
 		
-		AAD = {
-			government = teocratic_monarchy
+		AAD = {          
+			government = theocratic_monarchy
 			primary_culture = psijic
 			religion = oldelven_pantheon
 			capital = 675
