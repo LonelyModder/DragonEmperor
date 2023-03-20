@@ -504,7 +504,7 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
-	48 = {
+	46 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
 	50 = {
@@ -576,6 +576,9 @@ road_network = {
 	686=694
 	694=695
 	#Sommerset
+	629=627
+	627=626
+	626=625
 	582=584
 	584=588
 	588=591

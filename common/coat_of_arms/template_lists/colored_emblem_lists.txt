@@ -133,11 +133,7 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				or = {
-					country_culture_group = nede
-					country_culture_group = altmer
-					country_culture_group = ayleid
-				}
+				country_culture_group = nede
 			}
 			10 = "ce_hellenic_1.dds"
 			10 = "ce_hellenic_2.dds"

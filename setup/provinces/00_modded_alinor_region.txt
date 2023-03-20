@@ -3155,9 +3155,17 @@
 	culture="corgradan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
 	}
 }
 
@@ -3967,7 +3975,7 @@
 }
 
 684={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4074,7 +4082,7 @@
 }
 
 691={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4087,7 +4095,7 @@
 }
 
 692={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4113,7 +4121,7 @@
 }
 
 694={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4333,7 +4341,7 @@
 }
 
 709={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4367,7 +4375,7 @@
 }
 
 711={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4388,7 +4396,7 @@
 }
 
 712={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="firstholdan"
@@ -4435,7 +4443,7 @@
 }
 
 715={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4448,7 +4456,7 @@
 }
 
 716={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4474,7 +4482,7 @@
 }
 
 718={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4487,7 +4495,7 @@
 }
 
 719={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4500,7 +4508,7 @@
 }
 
 720={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4584,7 +4592,7 @@
 }
 
 725={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4704,7 +4712,7 @@
 }
 
 733={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4717,7 +4725,7 @@
 }
 
 734={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4743,7 +4751,7 @@
 }
 
 736={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4913,7 +4921,7 @@
 }
 
 747={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -4986,7 +4994,7 @@
 }
 
 752={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -5046,7 +5054,7 @@
 }
 
 756={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
@@ -5085,7 +5093,7 @@
 }
 
 759={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="skywatchan"
