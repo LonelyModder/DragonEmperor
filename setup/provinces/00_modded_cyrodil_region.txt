@@ -13,7 +13,7 @@
 
 787={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -43,7 +43,7 @@
 
 788={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="abeceanay"
 	civilization_value=0
@@ -61,7 +61,7 @@
 
 789={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="elven_pantheon"
 	culture="abeceanay"
 	civilization_value=0
@@ -3663,6 +3663,7 @@
 	tribesmen={
 		amount=4
 	}
+	holy_site="omen_elvenancestors"
 }
 
 1072={ 
@@ -6124,7 +6125,7 @@
 }
 
 1261={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -6137,7 +6138,7 @@
 }
 
 1262={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -6163,7 +6164,7 @@
 }
 
 1264={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -6332,7 +6333,7 @@
 }
 
 1277={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -6658,7 +6659,7 @@
 
 1302={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6671,7 +6672,7 @@
 
 1303={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6852,7 +6853,7 @@
 }
 
 1317={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -7022,7 +7023,7 @@
 
 1330={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -7060,7 +7061,7 @@
 }
 
 1333={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -7360,7 +7361,7 @@
 
 1356={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -7464,7 +7465,7 @@
 
 1364={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -7854,7 +7855,7 @@
 
 1394={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="ebon"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -9855,7 +9856,7 @@
 }
 
 1548={ 
-	terrain="forest"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -10766,7 +10767,7 @@
 
 1624={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -10779,7 +10780,7 @@
 
 1625={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -11078,7 +11079,7 @@
 
 1648={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -11104,7 +11105,7 @@
 
 1650={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -11325,7 +11326,7 @@
 
 1667={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -11338,7 +11339,7 @@
 
 1668={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0

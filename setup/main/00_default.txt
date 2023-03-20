@@ -91,24 +91,24 @@ diplomacy = {
 
 provinces = { #Any entry must contain a comment with city name.
 	### TREASURES ###
-	#633 = { # Alinor
-	#	treasure_slots = { 	treasures = { 1 2 } }
-	#}
-	#263 = { # Alinor
-	#	treasure_slots = { 	treasures = { 3 } }
-	#}
-	#923 = { # Crystal Tower
-	#	treasure_slots = { 	treasures = { 4 } }
-	#}
-	#595 = { # Ceporah Tower
-	#	treasure_slots = { 	treasures = { 5 } }
-	#}
-	#739 = { # Kings Havens Pass
-	#	treasure_slots = { 	treasures = { 6 } }
-	#}
-	#1577 = { # Imperial City
-	#	treasure_slots = { 	treasures = { 7 8 9 } }
-	#}
+	453 = { # Alinor
+		treasure_slots = { 	treasures = { 1 2 } }
+	}
+	677 = { # Firsthold
+		treasure_slots = { 	treasures = { 3 } }
+	}
+	621 = { # Crystal Tower
+		treasure_slots = { 	treasures = { 4 } }
+	}
+	675 = { # Ceporah Tower
+		treasure_slots = { 	treasures = { 5 } }
+	}
+	605 = { # Kings Havens Pass
+		treasure_slots = { 	treasures = { 6 } }
+	}
+	1071 = { # Imperial City
+		treasure_slots = { 	treasures = { 7 8 9 } }
+	}
 
 	#Pirates
 	765 = { modifier = { modifier = pirate_haven_modifier always = yes } } 

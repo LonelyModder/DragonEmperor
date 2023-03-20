@@ -1,6 +1,6 @@
 ﻿8={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -13,7 +13,7 @@
 
 10={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -29,7 +29,7 @@
 
 22={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -47,7 +47,7 @@
 
 23={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -65,7 +65,7 @@
 
 224={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -83,7 +83,7 @@
 
 225={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -114,7 +114,7 @@
 
 227={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -127,7 +127,7 @@
 
 228={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -145,7 +145,7 @@
 
 229={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -184,7 +184,7 @@
 
 232={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -283,7 +283,7 @@
 
 426={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -367,7 +367,7 @@
 
 431={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -427,7 +427,7 @@
 
 435={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -461,7 +461,7 @@
 
 437={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -474,7 +474,7 @@
 
 438={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -539,7 +539,7 @@
 
 443={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -643,7 +643,7 @@
 
 451={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -689,11 +689,12 @@
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	holy_site="omen_phynaster"
 }
 
 454={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -711,7 +712,7 @@
 
 455={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -878,7 +879,7 @@
 
 466={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -896,7 +897,7 @@
 
 467={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -914,7 +915,7 @@
 
 468={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -927,7 +928,7 @@
 
 469={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -961,7 +962,7 @@
 
 471={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -987,7 +988,7 @@
 
 473={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1039,7 +1040,7 @@
 
 477={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1052,7 +1053,7 @@
 
 478={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1065,7 +1066,7 @@
 
 479={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1078,7 +1079,7 @@
 
 480={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1112,7 +1113,7 @@
 
 482={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1130,7 +1131,7 @@
 
 483={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1148,7 +1149,7 @@
 
 484={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1161,7 +1162,7 @@
 
 485={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="sunholdic"
 	civilization_value=0
@@ -1174,7 +1175,7 @@
 
 486={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1187,7 +1188,7 @@
 
 487={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1205,7 +1206,7 @@
 
 488={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1223,7 +1224,7 @@
 
 489={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1244,7 +1245,7 @@
 
 490={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -1262,7 +1263,7 @@
 
 491={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1275,7 +1276,7 @@
 
 492={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1296,7 +1297,7 @@
 
 493={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1379,7 +1380,7 @@
 
 499={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1405,7 +1406,7 @@
 
 501={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1431,7 +1432,7 @@
 
 503={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1491,7 +1492,7 @@
 
 508={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1549,7 +1550,7 @@
 
 512={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1562,7 +1563,7 @@
 
 513={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1614,7 +1615,7 @@
 
 517={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1692,7 +1693,7 @@
 
 523={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1705,7 +1706,7 @@
 
 524={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1765,7 +1766,7 @@
 
 528={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1778,7 +1779,7 @@
 
 529={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1791,7 +1792,7 @@
 
 530={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1890,7 +1891,7 @@
 
 537={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -1916,7 +1917,7 @@
 
 539={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1929,7 +1930,7 @@
 
 540={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1942,7 +1943,7 @@
 
 541={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -1968,7 +1969,7 @@
 
 543={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="duskan"
 	civilization_value=0
@@ -2020,7 +2021,7 @@
 
 547={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2083,7 +2084,7 @@
 
 551={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2109,7 +2110,7 @@
 
 553={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2148,7 +2149,7 @@
 
 556={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -2161,7 +2162,7 @@
 
 557={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -2174,7 +2175,7 @@
 
 558={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -2187,7 +2188,7 @@
 
 559={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2200,7 +2201,7 @@
 
 560={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2218,7 +2219,7 @@
 
 561={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2236,7 +2237,7 @@
 
 562={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2254,7 +2255,7 @@
 
 563={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2272,7 +2273,7 @@
 
 564={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2405,7 +2406,7 @@
 
 572={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2457,7 +2458,7 @@
 
 576={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="shimmerinic"
 	civilization_value=0
@@ -2736,7 +2737,7 @@
 
 596={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="havenic"
 	civilization_value=0
@@ -2749,7 +2750,7 @@
 
 597={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="havenic"
 	civilization_value=0
@@ -2775,7 +2776,7 @@
 
 599={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2788,7 +2789,7 @@
 
 600={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2814,7 +2815,7 @@
 
 602={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2827,7 +2828,7 @@
 
 603={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2840,7 +2841,7 @@
 
 604={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2853,7 +2854,7 @@
 
 605={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2869,11 +2870,12 @@
 	tribesmen={
 		amount=10
 	}
+	holy_site="omen_malacath"
 }
 
 606={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2886,7 +2888,7 @@
 
 607={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2899,7 +2901,7 @@
 
 608={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2912,7 +2914,7 @@
 
 609={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="coralsplitter"
 	civilization_value=0
@@ -2951,7 +2953,7 @@
 
 612={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="cloudrestan"
 	civilization_value=0
@@ -2964,7 +2966,7 @@
 
 613={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="cloudrestan"
 	civilization_value=0
@@ -3003,7 +3005,7 @@
 
 616={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="cloudrestan"
 	civilization_value=0
@@ -3087,7 +3089,7 @@
 
 621={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="corgradan"
 	civilization_value=0
@@ -3107,11 +3109,12 @@
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	holy_site="omen_xarxes"
 }
 
 622={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="griphons"
 	religion="elven_pantheon"
 	culture="corgradan"
 	civilization_value=0
@@ -3124,7 +3127,7 @@
 
 623={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="corgradan"
 	civilization_value=0
@@ -3171,7 +3174,7 @@
 
 626={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="corgradan"
 	civilization_value=0
@@ -3312,7 +3315,7 @@
 
 636={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3513,7 +3516,7 @@
 
 650={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3578,7 +3581,7 @@
 
 655={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3617,7 +3620,7 @@
 
 658={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3643,7 +3646,7 @@
 
 660={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3680,7 +3683,7 @@
 
 662={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="lillandrilan"
 	civilization_value=0
@@ -3714,7 +3717,7 @@
 
 664={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -3748,7 +3751,7 @@
 
 666={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -3761,7 +3764,7 @@
 
 667={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -3774,7 +3777,7 @@
 
 668={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="alinoric"
 	civilization_value=0
@@ -3787,7 +3790,7 @@
 
 671={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3800,7 +3803,7 @@
 
 672={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3813,7 +3816,7 @@
 
 673={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3829,7 +3832,7 @@
 
 674={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3842,7 +3845,7 @@
 
 675={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3857,11 +3860,12 @@
 	freemen={
 		amount=3
 	}
+	holy_site="omen_vigyld"
 }
 
 676={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="oldelven_pantheon"
 	culture="psijic"
 	civilization_value=0
@@ -3874,7 +3878,7 @@
 
 677={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3894,11 +3898,12 @@
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	holy_site="omen_syrabane"
 }
 
 678={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3911,7 +3916,7 @@
 
 679={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="wine"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3924,7 +3929,7 @@
 
 680={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3937,7 +3942,7 @@
 
 681={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3950,7 +3955,7 @@
 
 682={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -3989,7 +3994,7 @@
 
 685={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4083,7 +4088,7 @@
 
 691={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4122,7 +4127,7 @@
 
 694={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4237,8 +4242,8 @@
 }
 
 701={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="forest"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4342,7 +4347,7 @@
 
 709={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4355,7 +4360,7 @@
 
 710={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4376,7 +4381,7 @@
 
 711={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="firstholdan"
 	civilization_value=0
@@ -4535,7 +4540,7 @@
 
 722={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4593,7 +4598,7 @@
 
 725={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4627,7 +4632,7 @@
 
 727={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4653,7 +4658,7 @@
 
 729={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4804,7 +4809,7 @@
 
 740={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4850,6 +4855,7 @@
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	holy_site="omen_moawita"
 }
 
 743={ 
@@ -4922,7 +4928,7 @@
 
 747={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -4995,7 +5001,7 @@
 
 752={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -5008,7 +5014,7 @@
 
 753={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
@@ -5094,7 +5100,7 @@
 
 759={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="skywatchan"
 	civilization_value=0
