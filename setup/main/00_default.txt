@@ -111,12 +111,20 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 
 	#Pirates
+	787 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	765 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
 	770 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
 	669 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
+	814 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	
 	#Buildings
 	464 = {
+		fortress_building = 1
+	}
+	826 = {
+		fortress_building = 1
+	}
+	818 = {
 		fortress_building = 1
 	}
 	1084 = {
@@ -142,6 +150,12 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	1079 = {
 		fortress_building = 1
+		port_building = 2
+	}
+	814 = {
+		port_building = 2
+	}
+	798 = {
 		port_building = 2
 	}
 	462 = {
@@ -1049,6 +1063,62 @@ country = {
 			own_control_core = 	{ 
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082
+			}
+		}
+		
+		CAB = {          
+			government = despotic_monarchy
+			primary_culture = malataric
+			religion = deadric_pantheon
+			capital = 814
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				802 814 801 809 815 816 817 818 813 819 820
+			}
+		}
+		
+		CAC = {          
+			government = despotic_monarchy
+			primary_culture = agean
+			religion = deadric_pantheon
+			capital = 806
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				797 798 800 799 806 807 808 803 805 804 810
+				841 833 834 835 836 842 838
+			}
+		}
+		
+		CAD = {          
+			government = despotic_monarchy
+			primary_culture = tremban
+			religion = deadric_pantheon
+			capital = 849
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				849 847 846 825 848 859 858 843 845 844
+				828 827 826 824 822 823 811 812
 			}
 		}
 	}

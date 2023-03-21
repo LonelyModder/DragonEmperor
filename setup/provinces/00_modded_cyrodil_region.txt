@@ -93,182 +93,264 @@
 797={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 798={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 799={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 800={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="salt"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 801={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 802={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 803={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 804={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 805={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 806={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 807={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 808={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 809={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 810={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -301,104 +383,156 @@
 813={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 814={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 815={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 816={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 817={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 818={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 819={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 820={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="malataric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -470,13 +604,22 @@
 826={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="tremban"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -561,52 +704,72 @@
 833={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 834={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 835={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 836={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -626,13 +789,18 @@
 838={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -665,26 +833,36 @@
 841={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
 842={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="agean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -769,13 +947,26 @@
 849={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="tremban"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedeken"
 	}
 }
 
@@ -3925,7 +4116,7 @@
 
 1089={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -6529,7 +6720,7 @@
 
 1288={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="tea"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0

@@ -86,9 +86,9 @@ green_pantheon = { # Bosmer Faith
 deadric_pantheon = { # Deadric Faith
 	color = hsv { 0.01 0.95 0.92 }
 	modifier = { 
-		monthly_tyranny = -0.2
-		monthly_corruption = -0.2
+		agressive_expansion_monthly_change = -0.025
 		global_cohort_start_experience = 10
+		monthly_tyranny = 0.02
 	}
 	religion_category = pantheon
 }
