@@ -776,83 +776,83 @@ entity = {
 ##############	 	
 	
 entity = {
-	name = "nedic_gfx_lv_lightinfantry"
+	name = "aegean_gfx_lv_lightinfantry"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_lv_heavyinfantry"
+	name = "aegean_gfx_lv_heavyinfantry"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_lv_archers"
+	name = "aegean_gfx_lv_archers"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_lv_scirmishers"
+	name = "aegean_gfx_lv_scirmishers"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_crossbowmen"
+	name = "aegean_gfx_lv_crossbowmen"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_camels"
+	name = "aegean_gfx_lv_camels"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_mages"
+	name = "aegean_gfx_lv_mages"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_cavalry"
+	name = "aegean_gfx_lv_cavalry"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_khajiiticavalry"
+	name = "aegean_gfx_lv_khajiiticavalry"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_guarcavalry"
+	name = "aegean_gfx_lv_guarcavalry"
 	clone = "greek_gfx_heavy_infantry"
 }		
 entity = {
-	name = "nedic_gfx_lv_warhounds"
+	name = "aegean_gfx_lv_warhounds"
 	clone = "greek_gfx_heavy_infantry"
 }	
 entity = {
-	name = "nedic_gfx_lv_horsearchers"
+	name = "aegean_gfx_lv_horsearchers"
 	clone = "greek_gfx_heavy_infantry"
 }		
 entity = {
-	name = "nedic_gfx_lv_minotaurs"
+	name = "aegean_gfx_lv_minotaurs"
 	clone = "greek_gfx_heavy_infantry"
 }		
 entity = {
-	name = "nedic_gfx_lv_centurions"
+	name = "aegean_gfx_lv_centurions"
 	clone = "greek_gfx_heavy_infantry"
 }		
 entity = {
-	name = "nedic_gfx_lv_dremoras"
+	name = "aegean_gfx_lv_dremoras"
 	clone = "greek_gfx_heavy_infantry"
 }			
 entity = {
-	name = "nedic_gfx_lv_undead"
+	name = "aegean_gfx_lv_undead"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_lv_gryphons"
+	name = "aegean_gfx_lv_gryphons"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_lv_elephants"
+	name = "aegean_gfx_lv_elephants"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_supply_train"
+	name = "aegean_gfx_supply_train"
 	clone = "greek_gfx_heavy_infantry"
 }
 entity = {
-	name = "nedic_gfx_engineer_cohort"
+	name = "aegean_gfx_engineer_cohort"
 	clone = "greek_gfx_heavy_infantry"
 }
 
@@ -865,200 +865,200 @@ entity = {
 
 ### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_lightinfantry"
+	name = "aegean_gfx_levy_lv_lightinfantry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_lightinfantry"
+	name = "aegean_gfx_legion_lv_lightinfantry"
 	clone = "greek_levies_infantry"
 }
 
 ### Heavy Infantry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_heavyinfantry"
+	name = "aegean_gfx_levy_lv_heavyinfantry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_heavyinfantry"
+	name = "aegean_gfx_legion_lv_heavyinfantry"
 	clone = "greek_levies_infantry"
 }
 
 ### Archers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_archers"
+	name = "aegean_gfx_levy_lv_archers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_archers"
+	name = "aegean_gfx_legion_lv_archers"
 	clone = "greek_levies_infantry"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_scirmishers"
+	name = "aegean_gfx_levy_lv_scirmishers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_scirmishers"
+	name = "aegean_gfx_legion_lv_scirmishers"
 	clone = "greek_levies_infantry"
 }
 
 ### Crossbowmen ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_crossbowmen"
+	name = "aegean_gfx_levy_lv_crossbowmen"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_crossbowmen"
+	name = "aegean_gfx_legion_lv_crossbowmen"
 	clone = "greek_levies_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_camels"
+	name = "aegean_gfx_levy_lv_camels"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_camels"
+	name = "aegean_gfx_legion_lv_camels"
 	clone = "greek_levies_infantry"
 }
 
 ### Mages ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_mages"
+	name = "aegean_gfx_levy_lv_mages"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_mages"
+	name = "aegean_gfx_legion_lv_mages"
 	clone = "greek_levies_infantry"
 }
 
 ### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_cavalry"
+	name = "aegean_gfx_levy_lv_cavalry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_cavalry"
+	name = "aegean_gfx_legion_lv_cavalry"
 	clone = "greek_levies_infantry"
 }
 
 ### Khajiit Cavalry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_khajiiticavalry"
+	name = "aegean_gfx_levy_lv_khajiiticavalry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_khajiiticavalry"
+	name = "aegean_gfx_legion_lv_khajiiticavalry"
 	clone = "greek_levies_infantry"
 }
 
 ### Guar Cavalry ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_guarcavalry"
+	name = "aegean_gfx_levy_lv_guarcavalry"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_guarcavalry"
+	name = "aegean_gfx_legion_lv_guarcavalry"
 	clone = "greek_levies_infantry"
 }
 
 ### Warhounds ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_warhounds"
+	name = "aegean_gfx_levy_lv_warhounds"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_warhounds"
+	name = "aegean_gfx_legion_lv_warhounds"
 	clone = "greek_levies_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_horsearchers"
+	name = "aegean_gfx_levy_lv_horsearchers"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_horsearchers"
+	name = "aegean_gfx_legion_lv_horsearchers"
 	clone = "greek_levies_infantry"
 }
 
 ### Minotaurs ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_minotaurs"
+	name = "aegean_gfx_levy_lv_minotaurs"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_minotaurs"
+	name = "aegean_gfx_legion_lv_minotaurs"
 	clone = "greek_levies_infantry"
 }
 
 ### Centurions ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_centurions"
+	name = "aegean_gfx_levy_lv_centurions"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_centurions"
+	name = "aegean_gfx_legion_lv_centurions"
 	clone = "greek_levies_infantry"
 }
 
 ### Dremoras ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_dremoras"
+	name = "aegean_gfx_levy_lv_dremoras"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_dremoras"
+	name = "aegean_gfx_legion_lv_dremoras"
 	clone = "greek_levies_infantry"
 }
 
 ### Undead ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_undead"
+	name = "aegean_gfx_levy_lv_undead"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_undead"
+	name = "aegean_gfx_legion_lv_undead"
 	clone = "greek_levies_infantry"
 }
 
 ### Gryphons ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_gryphons"
+	name = "aegean_gfx_levy_lv_gryphons"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_gryphons"
+	name = "aegean_gfx_legion_lv_gryphons"
 	clone = "greek_levies_infantry"
 }
 
 ### Elephants ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_lv_elephants"
+	name = "aegean_gfx_levy_lv_elephants"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_lv_elephants"
+	name = "aegean_gfx_legion_lv_elephants"
 	clone = "greek_levies_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_supply_train"
+	name = "aegean_gfx_levy_supply_train"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_supply_train"
+	name = "aegean_gfx_legion_supply_train"
 	clone = "greek_levies_infantry"
 }
 
 ### Engineer Cohort ----------------------------------------------------------------
 entity ={
-	name = "nedic_gfx_levy_engineer_cohort"
+	name = "aegean_gfx_levy_engineer_cohort"
 	clone = "greek_levies_infantry"
 }
 entity ={
-	name = "nedic_gfx_legion_engineer_cohort"
+	name = "aegean_gfx_legion_engineer_cohort"
 	clone = "greek_levies_infantry"
 }
