@@ -741,6 +741,13 @@ country = {
 			religion = elven_pantheon
 			capital = 453
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -780,6 +787,13 @@ country = {
 			primary_culture = heartlanderhi
 			religion = deadric_pantheon
 			capital = 787
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -871,6 +885,13 @@ country = {
 			religion = elven_pantheon
 			capital = 426
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -892,6 +913,13 @@ country = {
 			religion = elven_pantheon
 			capital = 508
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -912,6 +940,13 @@ country = {
 			primary_culture = shimmerinic
 			religion = elven_pantheon
 			capital = 547
+			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -935,6 +970,13 @@ country = {
 			religion = elven_pantheon
 			capital = 660
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -955,6 +997,13 @@ country = {
 			religion = elven_pantheon
 			capital = 616
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -972,6 +1021,13 @@ country = {
 			primary_culture = corgradan
 			religion = elven_pantheon
 			capital = 628
+			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -993,6 +1049,13 @@ country = {
 			religion = elven_pantheon
 			capital = 591
 			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -1010,6 +1073,13 @@ country = {
 			primary_culture = firstholdan
 			religion = elven_pantheon
 			capital = 677
+			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1030,6 +1100,13 @@ country = {
 			primary_culture = skywatchan
 			religion = elven_pantheon
 			capital = 722
+			
+			poptype_rights = {
+				{
+					culture = goblinken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1053,6 +1130,13 @@ country = {
 			religion = deadric_pantheon
 			capital = 1071
 			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -1072,6 +1156,13 @@ country = {
 			religion = deadric_pantheon
 			capital = 814
 			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -1089,6 +1180,13 @@ country = {
 			primary_culture = agean
 			religion = deadric_pantheon
 			capital = 806
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -1109,6 +1207,13 @@ country = {
 			religion = deadric_pantheon
 			capital = 849
 			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -1119,6 +1224,75 @@ country = {
 			own_control_core = 	{ 
 				849 847 846 825 848 859 858 843 845 844
 				828 827 826 824 822 823 811 812
+			}
+		}
+		
+		CAE = {          
+			government = despotic_monarchy
+			primary_culture = niryastaran
+			religion = deadric_pantheon
+			capital = 856
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				15 821 851 830 852 855 853 857 854 856 861 829
+			}
+		}
+		
+		CAF = {          
+			government = despotic_monarchy
+			primary_culture = varondan
+			religion = deadric_pantheon
+			capital = 901
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				865 866 867 869 868 901 902 903 904
+				850 860 862 863 864 
+			}
+		}
+		
+		CAG = {          
+			government = aristocratic_republic
+			primary_culture = kvatchan
+			religion = nedic_pantheon
+			capital = 831
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = citizen
+				}
+			}
+			
+			own_control_core = 	{ 
+				831 832 839 870 840 837 871 874 875 878 880 879  
 			}
 		}
 	}

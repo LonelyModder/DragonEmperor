@@ -23,7 +23,7 @@
 		Dark Terrible Slimy Tricky Disgusting Dirty Blue Chosen Hunter Angry Furious 
 	}
 	culture = {
-		goblinken = {}
+		goblinken = {levy_template = levy_goblinken}
 		chained = {}
 		coralsplitter = {}
 		dogeaters = {}

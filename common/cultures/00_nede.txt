@@ -27,9 +27,10 @@
 		Hanison
 	}
 	culture = {
-		nedeken = {}
+		nedeken = {levy_template = levy_nedeken}
 		hernan = {}
 		caspari = {}
+		kvatchan = {}
 	}
 	
 	barbarian_names = { 

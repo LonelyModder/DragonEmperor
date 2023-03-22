@@ -45,6 +45,13 @@ levy_goblin = { #goblin militia
 	lv_mages = 0.1
 }
 
+levy_goblinken = { #slave militia
+	default = no
+
+	lv_lightinfantry = 0.7
+	lv_scirmishers = 0.3
+}
+
 #Bosmer
 
 levy_bosmer = { #bosmer militia
@@ -76,6 +83,13 @@ levy_nedic = { #nedic militia
 	lv_lightinfantry = 0.2
 	lv_scirmishers = 0.2
 	lv_cavalry = 0.1
+}
+
+levy_nedeken = { #slave militia
+	default = no
+
+	lv_lightinfantry = 0.7
+	lv_scirmishers = 0.3
 }
 
 #Minotauric
