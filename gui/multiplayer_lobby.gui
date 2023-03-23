@@ -568,14 +568,246 @@ types MultiplayerLobby
 						tooltip = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetHeaderToolTip]"
 					}
 					
-					cpt_button = {
+					#cpt_button = {
+					#	position = { 4 36 }
+					#	blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
+					#	tooltipwidget = Character_tooltip	
+					#	blockoverride "portrait_button_template_onclick" {}
+					#	blockoverride "portrait_button_template_onrightclick" {}
+					#	blockoverride "portrait_button_template_tooltip" {}
+					#	
+					#}
+					
+					#Altmer
+					portrait_button = {
+						size = { 100 160 }
 						position = { 4 36 }
-						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
-						tooltipwidget = Character_tooltip	
-						blockoverride "portrait_button_template_onclick" {}
-						blockoverride "portrait_button_template_onrightclick" {}
-						blockoverride "portrait_button_template_tooltip" {}
-						
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'altmer'))]"
+						portrait_texture = "gfx/portraits/altmer_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'altmer'))]"
+						portrait_texture = "gfx/portraits/altmer_female.dds"
+					}
+					#Bosmer
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'bosmer'))]"
+						portrait_texture = "gfx/portraits/bosmer_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'bosmer'))]"
+						portrait_texture = "gfx/portraits/bosmer_female.dds"
+					}
+					#Goblin
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'goblin'))]"
+						portrait_texture = "gfx/portraits/goblin_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'goblin'))]"
+						portrait_texture = "gfx/portraits/goblin_female.dds"
+					}
+					#Nede
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'nede'))]"
+						portrait_texture = "gfx/portraits/nede_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'nede'))]"
+						portrait_texture = "gfx/portraits/nede_female.dds"
+					}
+					#Ayleid
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'ayleid'))]"
+						portrait_texture = "gfx/portraits/ayleid_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'ayleid'))]"
+						portrait_texture = "gfx/portraits/ayleid_female.dds"
+					}
+					#Orc
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'orcish'))]"
+						portrait_texture = "gfx/portraits/orc_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'orcish'))]"
+						portrait_texture = "gfx/portraits/orc_female.dds"
+					}
+					#Minotaur
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'minotauric'))]"
+						portrait_texture = "gfx/portraits/minotaur_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'minotauric'))]"
+						portrait_texture = "gfx/portraits/minotaur_female.dds"
+					}
+					#Imga
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'imga'))]"
+						portrait_texture = "gfx/portraits/imga_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'imga'))]"
+						portrait_texture = "gfx/portraits/imga_female.dds"
+					}
+					#Argonian
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'argonian'))]"
+						portrait_texture = "gfx/portraits/argonian_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'argonian'))]"
+						portrait_texture = "gfx/portraits/argonian_female.dds"
+					}
+					#Khajiit
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'khajiit'))]"
+						portrait_texture = "gfx/portraits/khajiit_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'khajiit'))]"
+						portrait_texture = "gfx/portraits/khajiit_female.dds"
+					}
+					#Nord
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'nordic'))]"
+						portrait_texture = "gfx/portraits/nord_male.dds"
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'nordic'))]"
+						portrait_texture = "gfx/portraits/nord_female.dds"
 					}
 					
 					container = {
