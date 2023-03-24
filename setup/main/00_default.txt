@@ -124,7 +124,16 @@ provinces = { #Any entry must contain a comment with city name.
 	826 = {
 		fortress_building = 1
 	}
+	926 = {
+		fortress_building = 1
+	}
 	818 = {
+		fortress_building = 1
+	}
+	1030 = {
+		fortress_building = 1
+	}
+	1041 = {
 		fortress_building = 1
 	}
 	1084 = {
@@ -150,6 +159,22 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	1079 = {
 		fortress_building = 1
+		port_building = 2
+	}
+	1173 = {
+		port_building = 2
+	}
+	1105 = {
+		port_building = 2
+	}
+	1094 = {
+		port_building = 2
+	}
+	1215 = {
+		fortress_building = 1
+		port_building = 2
+	}
+	1182 = {
 		port_building = 2
 	}
 	1137 = {
@@ -1283,7 +1308,7 @@ country = {
 		}
 		
 		CAG = {          
-			government = tribal_federation
+			government = tribal_kingdom
 			primary_culture = kvatchan
 			religion = nedic_pantheon
 			capital = 831
@@ -1452,6 +1477,339 @@ country = {
 				  1134 1154 1158 1157 1159 1165 1168 1169 1170 1171 1164
 				  1133 1137 1138 1160 1139 1136 1156 1135 1155 1147
 				  1151 1152 1153 1167 
+			}
+		}
+		
+		CAN = {          
+			government = despotic_monarchy
+			primary_culture = anutwyllan
+			religion = deadric_pantheon
+			capital = 1163
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1174 1173 1175 1162 1163 1166 1172 1177 1178 1176 1179 1180 1161
+			}
+		}
+		
+		CAO = {          
+			government = despotic_monarchy
+			primary_culture = sardavaran
+			religion = deadric_pantheon
+			capital = 1127
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1129 1132 1130 1127 1128 1124 1123 1121 1122 1118 1117 1125
+			}
+		}
+		
+		CAP = {          
+			government = despotic_monarchy
+			primary_culture = bawnan
+			religion = deadric_pantheon
+			capital = 1182
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+				{
+					culture = nibeneank 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1182 1181 1186 1185 1183 1184 1188 1187 1190 1189 1191 1192 1193 1194 1195 1196
+			}
+		}
+		
+		CAR = {          
+			government = despotic_monarchy
+			primary_culture = telepan
+			religion = elven_pantheon
+			capital = 1203
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+				{
+					culture = nibeneank 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1214 1213 1212 1211 1210 1209 1208 1207 1205 
+				  1216 1201 1202 1203 1197 1198 1204 1206 1215
+			}
+		}
+		
+		CAS = {          
+			government = despotic_monarchy
+			primary_culture = fanacaseculan
+			religion = deadric_pantheon
+			capital = 1102
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1098 1099 1100 1097 1217 1219 1103 1102 1220
+				  1105 1096 1095 1101 1104 1107 1110 1115 1112 1114
+			}
+		}
+		
+		CAT = {          
+			government = despotic_monarchy
+			primary_culture = ceyatataric
+			religion = deadric_pantheon
+			capital = 976
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  976 973 971 974 972 1113 1111 959 958 948 945 956
+				  977 975 1108 1109 1106 979 983 981 984 982 980
+			}
+		}
+		
+		CAU = {          
+			government = despotic_monarchy
+			primary_culture = sercenian
+			religion = deadric_pantheon
+			capital = 1233
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1260 1233 1232 1235 1234 1261 1237 1236 1238 1262
+				  1222 1226 1225 1224 1221 1231 1228 1227 1230 1229 1251
+			}
+		}
+		
+		CAW = {          
+			government = despotic_monarchy
+			primary_culture = angan
+			religion = deadric_pantheon
+			capital = 1342
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				  1342 1338 1339 1341 1340 1277 1264 1358
+				  1345 1347 1348 1344 1336 1343 1337 1335 1334 
+			}
+		}
+		
+		CAY = {          
+			government = despotic_monarchy
+			primary_culture = piukandan
+			religion = deadric_pantheon
+			capital = 1316
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1287 1286 1308 1307 1314 1316 1323 1321 1320 1324
+			}
+		}
+		
+		CAZ = {          
+			government = despotic_monarchy
+			primary_culture = cyronordic
+			religion = nordic_pantheon
+			capital = 1326
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = citizen
+				}
+			}
+			
+			own_control_core = 	{ 
+				1326 1327 1325 1346 1350 1349 1351 1352
+			}
+		}
+		
+		CBA = {          
+			government = despotic_monarchy
+			primary_culture = lindaian
+			religion = deadric_pantheon
+			capital = 1068
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1063 1069 1068 1067 1282 1223 1281 1283 1284 1066
+				1042 1041 1049 1050 1054 1057 1064 1070 1218 1000
+			}
+		}
+		
+		CBB = {          
+			government = despotic_monarchy
+			primary_culture = hrotandan
+			religion = elven_pantheon
+			capital = 1059
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1026 1058 1060 1025 1059 1062 1056 1055 1053 1047 1023 1027 1028 1024
+			}
+		}
+		
+		CBC = {          
+			government = despotic_monarchy
+			primary_culture = wendiran
+			religion = elven_pantheon
+			capital = 1038
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1039 1043 1040 1044 1051 1045 1052 1048 997 
+				1038 1035 1034 1037 996 1030 1036 1010 1032 1031 1046 1033
 			}
 		}
 	}
