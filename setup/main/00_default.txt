@@ -121,6 +121,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	1244 = {
+		fortress_building = 1
+	}
 	826 = {
 		fortress_building = 1
 	}
@@ -162,6 +165,12 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	1173 = {
+		port_building = 2
+	}
+	1488 = {
+		port_building = 2
+	}
+	1240 = {
 		port_building = 2
 	}
 	1105 = {
@@ -1810,6 +1819,322 @@ country = {
 			own_control_core = 	{ 
 				1039 1043 1040 1044 1051 1045 1052 1048 997 
 				1038 1035 1034 1037 996 1030 1036 1010 1032 1031 1046 1033
+			}
+		}
+		
+		CBD = {          
+			government = despotic_monarchy
+			primary_culture = nonungalite
+			religion = elven_pantheon
+			capital = 1008
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1001 1002 1003 1004 1007 1006 1005 995 1008 1009 1029 1011 1012
+			}
+		}
+		
+		CBE = {          
+			government = despotic_monarchy
+			primary_culture = vilverinite
+			religion = deadric_pantheon
+			capital = 1240
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1240 1241 1249 1250 1239 1259 1258 1265 1278 1263 1272 1273
+				1244 1245 1246 1247 1257 1256 1255 1253 1242 1243 1252
+			}
+		}
+		
+		CBF = {          
+			government = despotic_monarchy
+			primary_culture = elenglynnite
+			religion = elven_pantheon
+			capital = 988
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				936 955 935 941 957 978 987 988
+				998 999 986 985 992 991 990 989 938 
+				933 919 934 929 931 940 939 930
+			}
+		}
+		
+		CBG = {          
+			government = despotic_monarchy
+			primary_culture = morandan
+			religion = deadric_pantheon
+			capital = 1306
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1306 1305 1310 1313 1311 1301 1309 1312 1315 1322 1317
+			}
+		}
+		
+		CBH = {          
+			government = despotic_monarchy
+			primary_culture = ninendavan
+			religion = deadric_pantheon
+			capital = 1291
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1291 1289 1285 1292 1300 1293 1294
+			}
+		}
+		
+		CBI = {          
+			government = despotic_monarchy
+			primary_culture = lipsandan
+			religion = deadric_pantheon
+			capital = 1018
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1013 1015 1014 1016 1017 1018 1020 1021 1022 1019
+			}
+		}
+		
+		CBJ = {          
+			government = despotic_monarchy
+			primary_culture = culottan
+			religion = elven_pantheon
+			capital = 1488
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1488 1248 1267 1485 1491 1489 1490 1492 1493 1494
+				1270 1271 1461 1465 1481 1462 1466 1482 1486 1483 1487 1484
+			}
+		}
+		
+		CBK = {          
+			government = despotic_monarchy
+			primary_culture = nagastanite
+			religion = deadric_pantheon
+			capital = 1268
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1268 1254 1266 1276 1275 1422 1421 1382 1269 1446
+			}
+		}
+		
+		CBL = {          
+			government = despotic_monarchy
+			primary_culture = sancran
+			religion = deadric_pantheon
+			capital = 1288
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1288 1065 1290 1061 
+			}
+		}
+		
+		CBM = {          
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 1298
+			
+			own_control_core = 	{ 
+				 1298 1297 1295 1296 1299 1302 1303
+			}
+		}
+		
+		CBN = {          
+			government = despotic_monarchy
+			primary_culture = riellic
+			religion = deadric_pantheon
+			capital = 1330
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1304 1318 1319 1328 1329 1330 1331 1332 1333
+			}
+		}
+		
+		CBO = {          
+			government = despotic_monarchy
+			primary_culture = nenalatan
+			religion = deadric_pantheon
+			capital = 1557
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1515 1516 1535 1557 1558 1559 1560 1602 1601 1603
+			}
+		}
+		
+		CBP = {          
+			government = despotic_monarchy
+			primary_culture = atataran
+			religion = deadric_pantheon
+			capital = 1618
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1199 1635 1636 1634 1633 1632 1631 1618 1617 1619 1629 1640 1630
+				1651 1641 1637 1200 1652 1642 1638 1654 1643 1639 1644 1653
 			}
 		}
 	}

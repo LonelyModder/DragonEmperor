@@ -2360,13 +2360,18 @@
 919={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -2539,39 +2544,54 @@
 929={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 930={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 931={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -2596,52 +2616,72 @@
 933={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 934={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 935={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 936={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -2666,52 +2706,72 @@
 938={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 939={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 940={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 941={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -2955,13 +3015,18 @@
 955={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -2985,13 +3050,18 @@
 957={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3328,7 +3398,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -3353,13 +3422,18 @@
 978={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3468,104 +3542,150 @@
 985={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 986={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 987={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 988={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 989={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 990={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 991={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 992={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3608,13 +3728,18 @@
 995={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3657,26 +3782,36 @@
 998={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 999={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="elenglynnite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3700,117 +3835,168 @@
 1001={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1002={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1003={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1004={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1005={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1006={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1007={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1008={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1009={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -3835,156 +4021,224 @@
 1011={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1012={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1013={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1014={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1015={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1016={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1017={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1018={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1019={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1020={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1021={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
 1022={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="lipsandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -4099,13 +4353,18 @@
 1029={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nonungalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -4337,7 +4596,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -4691,13 +4949,21 @@
 1061={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="sancran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		culture="nedeken"
 	}
 }
 
@@ -4756,13 +5022,17 @@
 1065={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="sancran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -4821,7 +5091,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -4874,6 +5143,7 @@
 	}
 	citizen={
 		amount=16
+		religion="deadric_pantheon"
 	}
 	freemen={
 		amount=12
@@ -4993,6 +5263,7 @@
 	province_rank="city"
 	citizen={
 		amount=4
+		religion="deadric_pantheon"
 	}
 	freemen={
 		amount=6
@@ -5065,6 +5336,7 @@
 	province_rank="city"
 	citizen={
 		amount=2
+		religion="deadric_pantheon"
 	}
 	freemen={
 		amount=8
@@ -5137,6 +5409,7 @@
 	province_rank="city"
 	citizen={
 		amount=8
+		religion="deadric_pantheon"
 	}
 	freemen={
 		amount=4
@@ -5209,6 +5482,7 @@
 	province_rank="city"
 	citizen={
 		amount=4
+		religion="deadric_pantheon"
 	}
 	freemen={
 		amount=6
@@ -5360,7 +5634,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -5804,7 +6077,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -6404,7 +6676,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -6746,7 +7017,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -7641,7 +7911,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -7734,156 +8003,216 @@
 1239={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1240={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1241={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1242={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1243={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1244={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=4
+		culture="nedeken"
 	}
 }
 
 1245={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1246={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1247={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1248={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1249={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1250={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -7907,104 +8236,136 @@
 1252={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1253={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1254={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1255={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1256={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1257={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1258={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1259={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8062,13 +8423,17 @@
 1263={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8092,117 +8457,161 @@
 1265={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1266={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1267={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1268={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1269={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1270={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1271={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1272={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1273={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8222,26 +8631,34 @@
 1275={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1276={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8265,13 +8682,17 @@
 1278={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="vilverinite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8372,13 +8793,17 @@
 1285={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8419,102 +8844,149 @@
 1288={ 
 	terrain="hills"
 	trade_goods="tea"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="sancran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1289={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1290={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="sancran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1291={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1292={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1293={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1294={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1295={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8523,11 +8995,14 @@
 1296={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8536,11 +9011,14 @@
 1297={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8549,24 +9027,38 @@
 1298={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		amount=3
+		culture="nedeken"
+		religion="elven_pantheon"
+	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 }
 
 1299={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8575,37 +9067,48 @@
 1300={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="ninendavan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1301={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1302={ 
 	terrain="hills"
 	trade_goods="griphons"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8614,11 +9117,14 @@
 1303={ 
 	terrain="hills"
 	trade_goods="griphons"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=2
+	}
 	tribesmen={
 		amount=4
 	}
@@ -8627,39 +9133,59 @@
 1304={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1305={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1306={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
@@ -8700,65 +9226,85 @@
 1309={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1310={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1311={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1312={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1313={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8782,13 +9328,17 @@
 1315={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8813,7 +9363,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -8821,39 +9370,51 @@
 1317={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1318={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1319={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8894,13 +9455,17 @@
 1322={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="morandan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -8941,14 +9506,13 @@
 1325={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -8983,14 +9547,13 @@
 1327={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9001,78 +9564,110 @@
 1328={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1329={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1330={ 
 	terrain="hills"
 	trade_goods="griphons"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1331={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1332={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1333={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="riellic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -9233,7 +9828,6 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
 		culture="nedeken"
 	}
 }
@@ -9292,14 +9886,13 @@
 1346={ 
 	terrain="plains"
 	trade_goods="wood"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9344,14 +9937,13 @@
 1349={ 
 	terrain="plains"
 	trade_goods="wood"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9362,14 +9954,13 @@
 1350={ 
 	terrain="plains"
 	trade_goods="wood"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9380,14 +9971,13 @@
 1351={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9398,14 +9988,13 @@
 1352={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="nedic_pantheon"
+	religion="nordic_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
-		religion="nordic_pantheon"
 	}
 	freemen={
 		amount=4
@@ -9793,13 +10382,17 @@
 1382={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -10300,26 +10893,34 @@
 1421={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1422={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -10625,13 +11226,17 @@
 1446={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="nagastanite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -10820,26 +11425,34 @@
 1461={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1462={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -10872,26 +11485,34 @@
 1465={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1466={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
@@ -11080,182 +11701,244 @@
 1481={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1482={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1483={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1484={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1485={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1486={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1487={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1488={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	tribesmen={
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
 		amount=4
+		culture="nedeken"
 	}
 }
 
 1489={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1490={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1491={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1492={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1493={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
 1494={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="culottan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	tribesmen={
+	freemen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedeken"
 	}
 }
 
