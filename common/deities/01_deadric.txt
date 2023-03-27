@@ -489,7 +489,9 @@ deity_vermina = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_vermina = {
 				holy_site_deity_check_trigger = yes
 			}
