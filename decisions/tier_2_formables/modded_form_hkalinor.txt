@@ -99,15 +99,11 @@
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_sunhold_region = { formable_region_province_effect = yes }
-				region:modded_duskkeep_region = { formable_region_province_effect = yes }
-				region:modded_lillandril_region = { formable_region_province_effect = yes }
+				region:modded_dusk_region = { formable_region_province_effect = yes }
 				region:modded_shimmerene_region = { formable_region_province_effect = yes }
-				region:modded_cloudrest_region = { formable_region_province_effect = yes }
+				region:modded_etonnir_region = { formable_region_province_effect = yes }
 				region:modded_alinor_region = { formable_region_province_effect = yes }
-				region:modded_firsthold_region = { formable_region_province_effect = yes }
-				region:modded_skywatch_region = { formable_region_province_effect = yes }
-				region:modded_moridunon_region = { formable_region_province_effect = yes }
+				region:modded_auridon_region = { formable_region_province_effect = yes }
 			}
 		}
 		

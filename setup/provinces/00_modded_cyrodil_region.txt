@@ -248,7 +248,7 @@
 
 805={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="agean"
 	civilization_value=0
@@ -646,7 +646,7 @@
 
 826={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -784,7 +784,7 @@
 
 833={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="agean"
 	civilization_value=0
@@ -820,7 +820,7 @@
 
 835={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="agean"
 	civilization_value=0
@@ -891,7 +891,7 @@
 
 839={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="nedic_pantheon"
 	culture="kvatchan"
 	civilization_value=0
@@ -908,7 +908,7 @@
 
 840={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="kvatchan"
 	civilization_value=0
@@ -4167,7 +4167,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="perenan"
 		religion="nedic_pantheon"
 	}
 }
@@ -4257,7 +4257,7 @@
 	}
 	slaves={
 		amount=4
-		culture="minotauran"
+		culture="perenan"
 		religion="nedic_pantheon"
 	}
 }
@@ -5096,6 +5096,7 @@
 		amount=4
 		culture="nedeken"
 	}
+	holy_site="omen_molagbal"
 }
 
 1069={ 
@@ -5292,7 +5293,7 @@
 
 1081={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5677,7 +5678,7 @@
 
 1105={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="fanacaseculan"
 	civilization_value=0
@@ -7856,7 +7857,7 @@
 
 1229={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="sercenian"
 	civilization_value=0
@@ -8148,7 +8149,7 @@
 
 1245={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8165,7 +8166,7 @@
 
 1246={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8216,7 +8217,7 @@
 
 1249={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8233,7 +8234,7 @@
 
 1250={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8267,7 +8268,7 @@
 
 1252={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8335,7 +8336,7 @@
 
 1256={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8683,7 +8684,7 @@
 
 1276={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="nagastanite"
 	civilization_value=0
@@ -8906,7 +8907,8 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="perenan"
+		religion="nedic_pantheon"
 	}
 }
 
@@ -8940,7 +8942,7 @@
 	}
 	slaves={
 		amount=4
-		culture="minotauran"
+		culture="perenan"
 		religion="nedic_pantheon"
 	}
 }
@@ -11143,7 +11145,7 @@
 
 1414={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="precious_metals"
 	religion="elven_pantheon"
 	culture="kemenite"
 	civilization_value=0
@@ -11279,7 +11281,7 @@
 
 1422={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="nagastanite"
 	civilization_value=0
@@ -11977,7 +11979,7 @@
 
 1462={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -12053,7 +12055,7 @@
 
 1466={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -12323,7 +12325,7 @@
 
 1482={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -13539,6 +13541,7 @@
 		amount=4
 		culture="nedeken"
 	}
+	holy_site="omen_meridia"
 }
 
 1558={ 
@@ -15492,11 +15495,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		culture="sulxan"
+		religion="hist_pantheon"
 	}
 }
 
@@ -15577,11 +15581,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="sulxan"
+		religion="hist_pantheon"
 	}
 }
 
@@ -15628,11 +15633,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="sulxan"
+		religion="hist_pantheon"
 	}
 }
 

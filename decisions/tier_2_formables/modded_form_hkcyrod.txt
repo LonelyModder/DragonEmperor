@@ -10,9 +10,8 @@
 				primary_culture =  cyronordic
 			}
 			#is_tribal = yes
-			NOR = {
+			NOT = {
 				tag = XCY
-				tag = CAA
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -24,6 +23,15 @@
 			scope:province = {
 				OR = {
 					province_id = 1071
+					is_in_area = weye_area
+					is_in_area = vindasel_area
+					is_in_area = sardavarleed_area
+					is_in_area = magia_area
+					is_in_area = vilverin_area
+					is_in_area = sercen_area
+					is_in_area = caractacus_area
+					is_in_area = westerncityisle_area
+					is_in_area = easterncityisle_area
 				}
 			}
 		}
@@ -39,6 +47,15 @@
 			}
 			can_form_nation_trigger = yes
 			owns_or_subject_owns = 1071
+			owns_area = weye_area
+			owns_area = vindasel_area
+			owns_area = sardavarleed_area
+			owns_area = magia_area
+			owns_area = vilverin_area
+			owns_area = sercen_area
+			owns_area = caractacus_area
+			owns_area = westerncityisle_area
+			owns_area = easterncityisle_area
 		}
 		
 		effect = {
@@ -110,23 +127,17 @@
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_blackwood_region = { formable_region_province_effect = yes }
-				region:modded_valusmountains_region = { formable_region_province_effect = yes }
-				region:modded_lowerniben_region = { formable_region_province_effect = yes }
-				region:modded_middleniben_region = { formable_region_province_effect = yes }
-				region:modded_upperniben_region = { formable_region_province_effect = yes }
-				region:modded_cheydinhal_region = { formable_region_province_effect = yes }
-				region:modded_bravil_region = { formable_region_province_effect = yes }
-				region:modded_thewestweald_region = { formable_region_province_effect = yes }
-				region:modded_nibenayanhighlands_region = { formable_region_province_effect = yes }
-				region:modded_greatforest_region = { formable_region_province_effect = yes }
-				region:modded_heartland_region = { formable_region_province_effect = yes }
-				region:modded_jerall_region = { formable_region_province_effect = yes }
-				region:modded_colovianhighlands_region = { formable_region_province_effect = yes }
-				region:modded_anvil_region = { formable_region_province_effect = yes }
+				region:modded_goldcoast_region = { formable_region_province_effect = yes }
 				region:modded_kvatch_region = { formable_region_province_effect = yes }
+				region:modded_skingrad_region = { formable_region_province_effect = yes }
 				region:modded_chorrol_region = { formable_region_province_effect = yes }
-				region:modded_delodiil_region = { formable_region_province_effect = yes }
+				region:modded_heartlands_region = { formable_region_province_effect = yes }
+				region:modded_westweald_region = { formable_region_province_effect = yes }
+				region:modded_lowerniben_region = { formable_region_province_effect = yes }
+				region:modded_sjerall_region = { formable_region_province_effect = yes }
+				region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+				region:modded_valus_region = { formable_region_province_effect = yes }
+				region:modded_nibenbasin_region = { formable_region_province_effect = yes }
 			}
 		}
 		
