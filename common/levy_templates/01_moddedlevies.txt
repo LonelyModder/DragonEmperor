@@ -3,9 +3,7 @@
 levy_default = {
 	default = yes
 
-	lv_minotaurs = 0.7
-	lv_lightinfantry = 0.2
-	lv_scirmishers = 0.1
+	lv_minotaurs = 1
 }
 
 #Altmer
@@ -14,20 +12,18 @@ levy_sommersetan = { #altmer militia
 	default = no
 
 	lv_gryphons = 0.2
-	lv_lightinfantry = 0.3
-	lv_archers = 0.2
+	lv_lightinfantry = 0.5
 	lv_mages = 0.3
 }
 
 #Goblin
 
-levy_goblin = { #goblin militia
+levy_goblinwarriors = { #goblin militia
 	default = no
 
 	lv_lightinfantry = 0.4
 	lv_warhounds = 0.2
-	lv_scirmishers = 0.3
-	lv_mages = 0.1
+	lv_scirmishers = 0.4
 }
 
 #Bosmer
@@ -35,10 +31,9 @@ levy_goblin = { #goblin militia
 levy_bosmer = { #bosmer militia
 	default = no
 
-	lv_archers = 0.5
+	lv_archers = 0.6
 	lv_lightinfantry = 0.2
 	lv_warhounds = 0.2
-	lv_mages = 0.1
 }
 
 #Ayleid
@@ -46,20 +41,18 @@ levy_bosmer = { #bosmer militia
 levy_ayleid = { #ayleid militia
 	default = no
 
-	lv_lightinfantry = 0.4
-	lv_mages = 0.3
-	lv_archers = 0.2
+	lv_lightinfantry = 0.5
+	lv_mages = 0.4
 	lv_gryphons = 0.1
 }
 
 #Nedic
 
-levy_nedic = { #nedic militia
+levy_nedichoplites = { #nedic militia
 	default = no
 
-	lv_heavyinfantry = 0.5
-	lv_lightinfantry = 0.2
-	lv_scirmishers = 0.2
+	lv_heavyinfantry = 0.6
+	lv_scirmishers = 0.3
 	lv_cavalry = 0.1
 }
 
@@ -78,8 +71,7 @@ levy_minotaurish = { #minotaur militia
 levy_orcish = { #orcish militia
 	default = no
 
-	lv_heavyinfantry = 0.5
-	lv_mages = 0.1
+	lv_heavyinfantry = 0.6
 	lv_scirmishers = 0.2
 	lv_warhounds = 0.2
 }
@@ -87,9 +79,8 @@ levy_orcish = { #orcish militia
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_lightinfantry = 0.2
+	lv_lightinfantry = 0.3
 	lv_archers = 0.5
-	lv_mages = 0.1
 	lv_warhounds = 0.2
 }
 
@@ -108,10 +99,8 @@ levy_imgan = { #imga militia
 levy_khajiit = { #khajiit militia
 	default = no
 
-	lv_lightinfantry = 0.3
-	lv_camels = 0.2
-	lv_scirmishers = 0.2
-	lv_mages = 0.1
+	lv_camels = 0.5
+	lv_scirmishers = 0.3
 	lv_khajiitcavalry = 0.2
 }
 
@@ -120,10 +109,9 @@ levy_khajiit = { #khajiit militia
 levy_argonian = { #argonian militia
 	default = no
 
-	lv_lightinfantry = 0.3
+	lv_lightinfantry = 0.5
 	lv_scirmishers = 0.3
-	lv_guarcavalry = 0.3
-	lv_warhounds = 0.1
+	lv_guarcavalry = 0.2
 }
 
 #Nordic
@@ -131,8 +119,7 @@ levy_argonian = { #argonian militia
 levy_nordic = { #nordic militia
 	default = no
 
-	lv_heavyinfantry = 0.6
+	lv_heavyinfantry = 0.7
 	lv_scirmishers = 0.2
 	lv_cavalry = 0.1
-	lv_mages = 0.1
 }

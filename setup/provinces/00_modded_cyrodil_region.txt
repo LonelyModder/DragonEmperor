@@ -5174,7 +5174,7 @@
 
 1073={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5366,7 +5366,7 @@
 
 1086={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5392,7 +5392,7 @@
 
 1088={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5661,7 +5661,7 @@
 
 1104={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="fanacaseculan"
 	civilization_value=0
@@ -7379,7 +7379,7 @@
 
 1202={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="telepan"
 	civilization_value=0
@@ -7508,7 +7508,7 @@
 
 1209={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="salt"
 	religion="elven_pantheon"
 	culture="telepan"
 	civilization_value=0
@@ -7908,7 +7908,7 @@
 
 1232={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="sercenian"
 	civilization_value=0
@@ -8183,7 +8183,7 @@
 
 1247={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8200,7 +8200,7 @@
 
 1248={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -8285,7 +8285,7 @@
 
 1253={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8319,7 +8319,7 @@
 
 1255={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -8565,7 +8565,7 @@
 
 1269={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="elven_pantheon"
 	culture="nagastanite"
 	civilization_value=0
@@ -13825,11 +13825,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -13842,11 +13843,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14012,11 +14014,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14029,11 +14032,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14450,11 +14454,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14467,11 +14472,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14484,11 +14490,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="nakadesh"
 	}
 }
 
@@ -14772,11 +14779,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -14789,11 +14797,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -14857,11 +14866,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -14950,11 +14960,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -14967,11 +14978,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -15018,11 +15030,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="hutsleel"
 	}
 }
 
@@ -15035,11 +15048,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="sulxan"
 	}
 }
 
@@ -15185,11 +15199,12 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=3
 	}
 	slaves={
-		amount=3
-		culture="nedeken"
+		amount=4
+		religion="hist_pantheon"
+		culture="sulxan"
 	}
 }
 
@@ -15557,7 +15572,7 @@
 
 1675={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="veyondite"
 	civilization_value=0
@@ -15592,7 +15607,7 @@
 
 1677={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="veyondite"
 	civilization_value=0
@@ -15609,7 +15624,7 @@
 
 1678={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="salt"
 	religion="elven_pantheon"
 	culture="veyondite"
 	civilization_value=0
