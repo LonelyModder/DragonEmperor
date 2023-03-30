@@ -11,7 +11,7 @@ levy_default = {
 levy_sommersetan = { #altmer militia
 	default = no
 
-	lv_gryphons = 0.2
+	lv_cavalry = 0.2
 	lv_lightinfantry = 0.5
 	lv_mages = 0.3
 }
@@ -43,7 +43,7 @@ levy_ayleid = { #ayleid militia
 
 	lv_lightinfantry = 0.5
 	lv_mages = 0.4
-	lv_gryphons = 0.1
+	lv_cavalry = 0.1
 }
 
 #Nedic

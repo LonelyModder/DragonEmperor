@@ -2,7 +2,7 @@
 	color = hsv { 0.12 0.0 1 }
 
 	primary = lv_mages
-	second = lv_lightinfantry
+	second = lv_dremoras
 	flank = lv_gryphons
 
 	primary_navy = tetrere
@@ -72,6 +72,8 @@
 		ondan = {}
 		hamenite = {}
 		wendelbekite = {}
+		welkan = {}
+		maladan = {}
 	}
 	
 	barbarian_names = { 
