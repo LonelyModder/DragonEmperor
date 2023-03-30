@@ -74,7 +74,8 @@
  mackementainic:0 "Mackementainic"
  ondan:0 "Ondan"
  hamenite:0 "Hamenite"
- besarabic:0 "Besarabic"
+ wendelbekite:0 "Wendelbekite"
+ auroran:0 "Auroran"
  ayleid_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  ayleid_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Bosmer
@@ -133,4 +134,8 @@
  nordic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  nordic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
+ venedi:2 "Deadric"
  wvenedi:0 "Heresy"
+ auroran:0 "Auroran"
+ venedi_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ venedi_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

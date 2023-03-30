@@ -11,6 +11,7 @@ character_events.35 = {
 				father = {
 					OR = {
 						has_trait = aranas
+						has_trait = unfeathered
 					}
 				}
 			}
@@ -25,7 +26,17 @@ character_events.35 = {
 				}
 				add_trait = aranas
 			}
-			
+			if = {
+				limit = {
+					father = {
+						has_trait = unfeathered
+					}
+					NOT = {
+						has_trait = unfeathered
+					}
+				}
+				add_trait = unfeathered
+			}
 		}
 		if = {
 			limit = {
@@ -39,6 +50,17 @@ character_events.35 = {
 			}
 			add_trait = aranas	
 		}
-		
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = unfeathered
+				}
+				NOT = {
+					has_trait = unfeathered
+				}
+			}
+			add_trait = unfeathered	
+		}
 	}
 }

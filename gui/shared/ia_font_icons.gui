@@ -131,6 +131,16 @@ texticon = {
 }
 
 texticon = {
+    icon = limestone
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/limestone.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = dwemersteel
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/dwemersteel.dds"

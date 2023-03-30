@@ -191,5 +191,6 @@ char_is_civic_trigger = {
 has_bloodline_trigger = {
 	OR = {
 		has_trait = aranas
+		has_trait = unfeathered
 	}
 }

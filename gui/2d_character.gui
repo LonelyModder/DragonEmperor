@@ -120,6 +120,29 @@ types MoreBGsTypes {
 				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
 				block "PortraitTexture" { portrait_texture = "gfx/portraits/ayleid_female.dds" }
 			}
+			#Half-Auroran
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_halfauroran_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/halfauroran_male.dds" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_halfauroran_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/halfauroran_female.dds" }
+			}
 			#Bosmer
 			portrait_button = {
 				datacontext = "[GetScriptedGui('is_an_bosmer_male')]"
@@ -562,6 +585,19 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/ayleid_female.dds"
 			}
+			#Half-Auroran
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_halfauroran_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/halfauroran_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_halfauroran_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/halfauroran_female.dds"
+			}
 			#Bosmer
 			icon = {
 				size = { 100% 100% }
@@ -717,6 +753,19 @@ types MoreBGsTypes {
 				datacontext = "[GetScriptedGui('is_an_ayleid_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/ayleid_female.dds"
+			}
+			#Half-Auroran
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_halfauroran_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/halfauroran_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_halfauroran_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/halfauroran_female.dds"
 			}
 			#Bosmer
 			icon = {

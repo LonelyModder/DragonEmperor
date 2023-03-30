@@ -82,6 +82,12 @@ family={
 			culture = alinoric
 			prestige=300
 		}
+		2={
+			key="Unfeathered"
+			owner=CAA
+			culture = heartlanderhi
+			prestige=300
+		}
 		
 		}
 }
@@ -1249,7 +1255,8 @@ country = {
 			}
 		}
 		
-		CAA = {          
+		CAA = {
+			family = 2
 			government = theocratic_monarchy
 			primary_culture = heartlanderhi
 			religion = deadric_pantheon
@@ -2487,7 +2494,7 @@ country = {
 		
 		CCE = {          
 			government = despotic_monarchy
-			primary_culture = besarabic
+			primary_culture = wendelbekite
 			religion = elven_pantheon
 			capital = 1594
 			

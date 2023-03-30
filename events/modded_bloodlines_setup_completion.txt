@@ -25,7 +25,18 @@ bloodlines_setup_completion.1 = {
 				}
 				add_trait = aranas
 			}
-			
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = unfeathered
+					}
+					NOT = {
+						has_trait = unfeathered
+					}
+				}
+				add_trait = unfeathered
+			}
 			if = {
 				limit = {
 					exists = mother
@@ -38,7 +49,18 @@ bloodlines_setup_completion.1 = {
 				}
 				add_trait = aranas	
 			}
-			
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = unfeathered
+					}
+					NOT = {
+						has_trait = unfeathered
+					}
+				}
+				add_trait = unfeathered	
+			}
 		}
 	}
 }
