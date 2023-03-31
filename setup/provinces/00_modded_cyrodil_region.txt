@@ -637,7 +637,7 @@
 
 821={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="niryastaran"
 	civilization_value=0
@@ -658,7 +658,7 @@
 
 822={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -679,7 +679,7 @@
 
 823={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -767,7 +767,7 @@
 
 827={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -788,7 +788,7 @@
 
 828={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -1068,7 +1068,7 @@
 
 841={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="agean"
 	civilization_value=0
@@ -1089,7 +1089,7 @@
 
 842={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="agean"
 	civilization_value=0
@@ -1131,7 +1131,7 @@
 
 844={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -1286,7 +1286,7 @@
 
 851={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="niryastaran"
 	civilization_value=0
@@ -1328,7 +1328,7 @@
 
 853={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="niryastaran"
 	civilization_value=0
@@ -1349,7 +1349,7 @@
 
 854={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="niryastaran"
 	civilization_value=0
@@ -1420,7 +1420,7 @@
 
 857={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="niryastaran"
 	civilization_value=0
@@ -1710,7 +1710,7 @@
 
 871={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="nedic_pantheon"
 	culture="kvatchan"
 	civilization_value=0
@@ -1874,7 +1874,7 @@
 
 879={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="kvatchan"
 	civilization_value=0
@@ -1894,7 +1894,7 @@
 
 880={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="kvatchan"
 	civilization_value=0
@@ -2389,7 +2389,7 @@
 
 903={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="elven_pantheon"
 	culture="varondan"
 	civilization_value=0
@@ -2443,7 +2443,7 @@
 
 906={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="tawinquan"
 	civilization_value=0
@@ -2464,7 +2464,7 @@
 
 907={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="tawinquan"
 	civilization_value=0
@@ -2514,7 +2514,7 @@
 
 909={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="tawinquan"
 	civilization_value=0
@@ -3090,7 +3090,7 @@
 
 938={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="elenglynnite"
 	civilization_value=0
@@ -3144,7 +3144,7 @@
 
 941={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="elenglynnite"
 	civilization_value=0
@@ -3328,7 +3328,7 @@
 
 951={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="silornian"
 	civilization_value=0
@@ -3587,7 +3587,7 @@
 
 964={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="nornalhorstan"
 	civilization_value=0
@@ -4507,7 +4507,7 @@
 
 1011={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="elven_pantheon"
 	culture="nonungalite"
 	civilization_value=0
@@ -5680,6 +5680,9 @@
 		amount=12
 	}
 	slaves={
+		amount=1
+	}
+	slaves={
 		amount=8
 		culture="nedeken"
 	}
@@ -5696,6 +5699,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5733,6 +5739,9 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1075={ 
@@ -5746,11 +5755,14 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1076={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5758,12 +5770,15 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
 1077={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5772,11 +5787,14 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1078={ 
 	terrain="plains"
-	trade_goods="vegetables"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5784,6 +5802,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5813,7 +5834,7 @@
 
 1080={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5821,6 +5842,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5835,11 +5859,14 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1082={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="heartlanderhi"
 	civilization_value=0
@@ -5847,6 +5874,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5860,6 +5890,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5898,6 +5931,9 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1086={ 
@@ -5910,6 +5946,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5924,6 +5963,9 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1088={ 
@@ -5936,6 +5978,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -5974,6 +6019,9 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1091={ 
@@ -5986,6 +6034,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -6000,6 +6051,9 @@
 	freemen={
 		amount=4
 	}
+	slaves={
+		amount=1
+	}
 }
 
 1093={ 
@@ -6012,6 +6066,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -6580,7 +6637,7 @@
 
 1121={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="sardavaran"
 	civilization_value=0
@@ -6600,7 +6657,7 @@
 
 1122={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="sardavaran"
 	civilization_value=0
@@ -7365,7 +7422,7 @@
 
 1160={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="elven_pantheon"
 	culture="wenyandawikite"
 	civilization_value=0
@@ -7851,7 +7908,7 @@
 
 1183={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="bawnan"
 	civilization_value=0
@@ -8852,7 +8909,7 @@
 
 1234={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="sercenian"
 	civilization_value=0
@@ -8892,7 +8949,7 @@
 
 1236={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="sercenian"
 	civilization_value=0
@@ -8932,7 +8989,7 @@
 
 1238={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="sercenian"
 	civilization_value=0
@@ -9040,7 +9097,7 @@
 
 1243={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -9264,7 +9321,7 @@
 
 1254={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="nagastanite"
 	civilization_value=0
@@ -9444,7 +9501,7 @@
 
 1263={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -9504,7 +9561,7 @@
 
 1266={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="nagastanite"
 	civilization_value=0
@@ -9592,7 +9649,7 @@
 
 1270={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -9612,7 +9669,7 @@
 
 1271={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -9632,7 +9689,7 @@
 
 1272={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -9652,7 +9709,7 @@
 
 1273={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -10123,7 +10180,7 @@
 
 1296={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -10142,7 +10199,7 @@
 
 1297={ 
 	terrain="mountain"
-	trade_goods="iron"
+	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -10185,7 +10242,7 @@
 
 1299={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -10726,6 +10783,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -10754,6 +10814,9 @@
 	freemen={
 		amount=7
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=6
 		culture="nedeken"
@@ -10771,6 +10834,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+	slaves={
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -11170,6 +11236,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -11232,6 +11301,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -11253,6 +11325,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+	slaves={
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -11276,6 +11351,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -11297,6 +11375,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+	slaves={
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -11320,6 +11401,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -11342,6 +11426,9 @@
 	freemen={
 		amount=2
 	}
+	slaves={
+		amount=1
+	}
 	freemen={
 		amount=1
 		culture="nedeken"
@@ -11363,6 +11450,9 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+	slaves={
+		amount=1
 	}
 	freemen={
 		amount=1
@@ -11722,7 +11812,7 @@
 
 1373={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="nedic_pantheon"
 	culture="nsedoran"
 	civilization_value=0
@@ -12066,7 +12156,7 @@
 
 1390={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="iron"
 	religion="nedic_pantheon"
 	culture="nsedoran"
 	civilization_value=0
@@ -12377,7 +12467,7 @@
 
 1406={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="fanacasan"
 	civilization_value=0
@@ -12644,7 +12734,7 @@
 
 1419={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="kemenite"
 	civilization_value=0
@@ -12850,7 +12940,7 @@
 
 1429={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="elven_pantheon"
 	culture="hamenite"
 	civilization_value=0
@@ -13502,7 +13592,7 @@
 
 1461={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -13590,7 +13680,7 @@
 
 1465={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -13908,7 +13998,7 @@
 
 1481={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -14134,7 +14224,7 @@
 
 1492={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -16068,7 +16158,7 @@
 
 1594={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="necromancers"
 	religion="elven_pantheon"
 	culture="wendelbekite"
 	civilization_value=0
@@ -16294,7 +16384,7 @@
 
 1605={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="necromancers"
 	religion="elven_pantheon"
 	culture="welkan"
 	civilization_value=0
@@ -16375,7 +16465,7 @@
 
 1609={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="necromancers"
 	religion="elven_pantheon"
 	culture="welkan"
 	civilization_value=0
@@ -16455,7 +16545,7 @@
 
 1613={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="hist_pantheon"
 	culture="nakadesh"
 	civilization_value=0
@@ -16474,7 +16564,7 @@
 
 1614={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="hist_pantheon"
 	culture="nakadesh"
 	civilization_value=0
@@ -16638,7 +16728,7 @@
 
 1622={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="nakadesh"
 	civilization_value=0
@@ -16657,7 +16747,7 @@
 
 1623={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="nakadesh"
 	civilization_value=0
@@ -16714,7 +16804,7 @@
 
 1626={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -16733,7 +16823,7 @@
 
 1627={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -16752,7 +16842,7 @@
 
 1628={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -16771,7 +16861,7 @@
 
 1629={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -16789,7 +16879,7 @@
 
 1630={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -16925,7 +17015,7 @@
 
 1637={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -16991,7 +17081,7 @@
 
 1640={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -17067,7 +17157,7 @@
 
 1644={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -17085,7 +17175,7 @@
 
 1645={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -17104,7 +17194,7 @@
 
 1646={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -17123,7 +17213,7 @@
 
 1647={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -17161,7 +17251,7 @@
 
 1649={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -17239,7 +17329,7 @@
 
 1653={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="atataran"
 	civilization_value=0
@@ -17277,7 +17367,7 @@
 
 1655={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="hutsleel"
 	civilization_value=0
@@ -17296,7 +17386,7 @@
 
 1656={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17315,7 +17405,7 @@
 
 1657={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17334,7 +17424,7 @@
 
 1658={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17353,7 +17443,7 @@
 
 1659={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17458,7 +17548,7 @@
 
 1664={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17477,7 +17567,7 @@
 
 1665={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="elven_pantheon"
 	culture="veyondite"
 	civilization_value=0
@@ -17495,7 +17585,7 @@
 
 1666={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0
@@ -17574,7 +17664,7 @@
 
 1670={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="veyondite"
 	civilization_value=0
@@ -17648,7 +17738,7 @@
 
 1674={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="sulxan"
 	civilization_value=0

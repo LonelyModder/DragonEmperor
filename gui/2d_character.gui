@@ -554,11 +554,11 @@ types MoreBGsTypes {
 			parentanchor = bottom
 			block "BottomPortraitPosition" { position = { -10 24 } }
 
-			portrait_button = {
-				using = pt_button_large
-				pop_out = yes
-				visible = "[Not(EqualTo_int32(Character.GetID, '(int32)42'))]"
-			}
+			#portrait_button = {
+			#	using = pt_button_large
+			#	pop_out = yes
+			#	visible = "[Not(EqualTo_int32(Character.GetID, '(int32)42'))]"
+			#}
 			#Altmer
 			icon = {
 				size = { 100% 100% }
