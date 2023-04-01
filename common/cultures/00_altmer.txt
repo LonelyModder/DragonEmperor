@@ -34,12 +34,12 @@
 		shimmerinic = {}
 		lillandrilan = {}
 		cloudrestan = {}
-		firstholdan = {}
-		skywatchan = {}
+		firstholdan = {levy_template = levy_auridonic}
+		skywatchan = {levy_template = levy_auridonic}
 		corgradan = {}
 		havenic = {}
-		hiforested = {}
-		psijic = {}
+		hiforested = {levy_template = levy_auridonic}
+		psijic = {levy_template = levy_psijic}
 	}
 	
 	barbarian_names = { 
