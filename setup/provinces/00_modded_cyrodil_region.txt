@@ -1237,7 +1237,7 @@
 
 849={ 
 	terrain="plains"
-	trade_goods="cloth"
+	trade_goods="olive"
 	religion="elven_pantheon"
 	culture="tremban"
 	civilization_value=0
@@ -2838,8 +2838,8 @@
 	}
 	slaves={
 		amount=3
-		religion="nedic_pantheon"
-		culture="nedeken"
+		religion="green_pantheon"
+		culture="imgan"
 	}
 }
 
@@ -2862,8 +2862,8 @@
 }
 
 926={ 
-	terrain="forest"
-	trade_goods="wood"
+	terrain="farmland"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="miscarcandan"
 	civilization_value=0
@@ -3163,7 +3163,7 @@
 
 942={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="silornian"
 	civilization_value=0
@@ -3174,8 +3174,8 @@
 	}
 	slaves={
 		amount=3
-		religion="nedic_pantheon"
-		culture="nedeken"
+		religion="green_pantheon"
+		culture="imgan"
 	}
 }
 
@@ -3237,7 +3237,7 @@
 
 946={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="silornian"
 	civilization_value=0
@@ -3255,7 +3255,7 @@
 
 947={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="silornian"
 	civilization_value=0
@@ -3346,8 +3346,8 @@
 	}
 	slaves={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedeken"
+		religion="green_pantheon"
+		culture="imgan"
 	}
 	slaves={
 		amount=1
@@ -3468,7 +3468,7 @@
 
 958={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="ceyatataric"
 	civilization_value=0
@@ -3980,7 +3980,7 @@
 
 983={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="ceyatataric"
 	civilization_value=0
@@ -4000,7 +4000,7 @@
 
 984={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="ceyatataric"
 	civilization_value=0
@@ -4020,7 +4020,7 @@
 
 985={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="elenglynnite"
 	civilization_value=0
@@ -4266,7 +4266,7 @@
 
 998={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="elenglynnite"
 	civilization_value=0
@@ -4969,7 +4969,7 @@
 
 1036={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="wendiran"
 	civilization_value=0
@@ -5005,7 +5005,7 @@
 
 1038={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="necromancers"
 	religion="elven_pantheon"
 	culture="wendiran"
 	civilization_value=0
@@ -5029,7 +5029,7 @@
 
 1039={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="wendiran"
 	civilization_value=0
@@ -5264,7 +5264,7 @@
 
 1051={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="wendiran"
 	civilization_value=0
@@ -5300,7 +5300,7 @@
 
 1053={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="hrotandan"
 	civilization_value=0
@@ -5623,7 +5623,7 @@
 
 1069={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="lindaian"
 	civilization_value=0
@@ -6179,7 +6179,7 @@
 
 1099={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="fanacaseculan"
 	civilization_value=0
@@ -6220,7 +6220,7 @@
 
 1101={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="fanacaseculan"
 	civilization_value=0
@@ -6332,7 +6332,7 @@
 
 1106={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="ceyatataric"
 	civilization_value=0
@@ -6926,7 +6926,7 @@
 
 1135={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="wenyandawikite"
 	civilization_value=0
@@ -7243,7 +7243,7 @@
 
 1151={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="wenyandawikite"
 	civilization_value=0
@@ -7323,7 +7323,7 @@
 
 1155={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="wenyandawikite"
 	civilization_value=0
@@ -9058,7 +9058,7 @@
 
 1241={ 
 	terrain="plains"
-	trade_goods="horses"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="vilverinite"
 	civilization_value=0
@@ -9910,7 +9910,7 @@
 
 1283={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="lindaian"
 	civilization_value=0
@@ -9930,7 +9930,7 @@
 
 1284={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="lindaian"
 	civilization_value=0
@@ -10142,7 +10142,7 @@
 
 1294={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="stafftrees"
 	religion="elven_pantheon"
 	culture="ninendavan"
 	civilization_value=0
@@ -10340,7 +10340,7 @@
 
 1304={ 
 	terrain="hills"
-	trade_goods="stone"
+	trade_goods="beasts"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -10487,7 +10487,7 @@
 
 1311={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="morandan"
 	civilization_value=0
@@ -10755,7 +10755,7 @@
 
 1324={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="piukandan"
 	civilization_value=0
@@ -10980,7 +10980,7 @@
 
 1334={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="angan"
 	civilization_value=0
@@ -11040,7 +11040,7 @@
 
 1337={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="angan"
 	civilization_value=0
@@ -11969,7 +11969,7 @@
 
 1381={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="beldan"
 	civilization_value=0
@@ -12017,7 +12017,7 @@
 
 1383={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="beldan"
 	civilization_value=0
@@ -12077,7 +12077,7 @@
 
 1386={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="cabal_of_witches"
 	religion="elven_pantheon"
 	culture="kemenite"
 	civilization_value=0
@@ -12895,7 +12895,7 @@
 
 1427={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="kemenite"
 	civilization_value=0
@@ -14265,7 +14265,7 @@
 
 1494={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="culottan"
 	civilization_value=0
@@ -14703,7 +14703,7 @@
 
 1516={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="nenalatan"
 	civilization_value=0
@@ -15510,7 +15510,7 @@
 
 1561={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="ondan"
 	civilization_value=0
@@ -15570,7 +15570,7 @@
 
 1564={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="maladan"
 	civilization_value=0
@@ -15590,7 +15590,7 @@
 
 1565={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="maladan"
 	civilization_value=0
@@ -15650,7 +15650,7 @@
 
 1568={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="ondan"
 	civilization_value=0
@@ -15906,7 +15906,7 @@
 
 1581={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="wendelbekite"
 	civilization_value=0
