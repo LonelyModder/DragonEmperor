@@ -59,14 +59,35 @@ treasure_manager = {
 			key = "treasure_ancestors_statues"
 			icon = "treasure_architecture"
 			state_modifier = {
-				local_monthly_civilization = 0.1
+				local_monthly_civilization = 0.075
 			}
 		}
 		9 = { # Imperial City
 			key = "treasure_elder_scrolls"
 			icon = "treasure_chest"
 			state_modifier = {
-				local_monthly_civilization = 0.1
+				local_monthly_civilization = 0.075
+			}
+		}
+		10 = { # Nenalata
+			key = "treasure_crown_of_nenalata"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		11 = { # Lindai
+			key = "treasure_crown_of_lindai"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_citizen_happyness = 0.1
+			}
+		}
+		12 = { # Garlas Malatar
+			key = "treasure_time_stone"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_defensive = 0.2
 			}
 		}
     }
@@ -114,6 +135,15 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	1071 = { # Imperial City
 		treasure_slots = { 	treasures = { 7 8 9 } }
+	}
+	1557 = { # Nenalata
+		treasure_slots = { 	treasures = { 10 } }
+	}
+	1068 = { # Lindai
+		treasure_slots = { 	treasures = { 11 } }
+	}
+	814 = { # Garlas Malatar
+		treasure_slots = { 	treasures = { 12 } }
 	}
 
 	#Pirates
@@ -1269,6 +1299,12 @@ country = {
 				}
 			}
 			
+			pantheon = {
+			
+			{ deity = 10038 }
+			
+			}
+			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -1293,6 +1329,12 @@ country = {
 					culture = nedeken 
 					type = slaves
 				}
+			}
+			
+			pantheon = {
+			
+			{ deity = 10038 }
+			
 			}
 			
 			technology={

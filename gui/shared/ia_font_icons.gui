@@ -111,6 +111,26 @@ texticon = {
 }
 
 texticon = {
+    icon = stafftrees
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/stafftrees.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = maplesyrup
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/maplesyrup.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = necromancers
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/necromancers.dds"
