@@ -10,6 +10,15 @@ esfa_traits.1 = {
 		if = {
 			limit = {
 				OR = {
+					father = { has_trait = halfauroran }
+					mother = { has_trait = halfauroran }
+				}
+			}
+			add_trait = halfauroran
+		}
+		else_if = {
+			limit = {
+				OR = {
 					father = { has_trait = minotaur }
 					mother = { has_trait = minotaur }
 				}
