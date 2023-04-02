@@ -9,7 +9,7 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_altmer
+	levy_template = levy_sommersetan
 
 	male_names = {
 		Eariielandil Rimarnimarco Kaelaril Merived Trecerion Yaronniss Angamon Ingarmowe Suurntar Gyron
@@ -34,14 +34,12 @@
 		shimmerinic = {}
 		lillandrilan = {}
 		cloudrestan = {}
-		firstholdan = {}
-		skywatchan = {}
+		firstholdan = {levy_template = levy_auridonic}
+		skywatchan = {levy_template = levy_auridonic}
 		corgradan = {}
-		russafeldan = {}
-		mariduninian = {}
-		rictan = {}
 		havenic = {}
-		psijic = {}
+		hiforested = {levy_template = levy_auridonic}
+		psijic = {levy_template = levy_psijic}
 	}
 	
 	barbarian_names = { 

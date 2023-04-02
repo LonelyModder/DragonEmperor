@@ -18,19 +18,16 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 633
-					province_id = 666
-					province_id = 755
-					province_id = 837
-					province_id = 947
-					province_id = 725
-					province_id = 263
-					province_id = 420
-					province_id = 905
-					province_id = 844
-					province_id = 495
-					province_id = 600
-					province_id = 883
+					province_id = 453
+					province_id = 426
+					province_id = 508
+					province_id = 616
+					province_id = 660
+					province_id = 628
+					province_id = 591
+					province_id = 547
+					province_id = 722
+					province_id = 677
 				}
 			}
 		}
@@ -45,19 +42,16 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 633
-			owns_or_subject_owns = 666
-			owns_or_subject_owns = 755
-			owns_or_subject_owns = 837
-			owns_or_subject_owns = 947
-			owns_or_subject_owns = 725
-			owns_or_subject_owns = 263
-			owns_or_subject_owns = 420
-			owns_or_subject_owns = 905
-			owns_or_subject_owns = 844
-			owns_or_subject_owns = 495
-			owns_or_subject_owns = 600
-			owns_or_subject_owns = 883
+			owns_or_subject_owns = 453
+			owns_or_subject_owns = 426
+			owns_or_subject_owns = 508
+			owns_or_subject_owns = 616
+			owns_or_subject_owns = 660
+			owns_or_subject_owns = 628
+			owns_or_subject_owns = 591
+			owns_or_subject_owns = 547
+			owns_or_subject_owns = 722
+			owns_or_subject_owns = 677
 		}
 		
 		effect = {
@@ -82,38 +76,34 @@
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 633
+							province_id = 453
 						}
 					}
 				}
-				set_capital = 633
+				set_capital = 453
 				hidden_effect = {
-					p:633.state = {
-						set_state_capital = 633
+					p:453.state = {
+						set_state_capital = 453
 					}
 				}
 			}
-			#p:633 = {
+			#p:453 = {
 			#	if = {
 			#		limit = { has_city_status = no }
 			#		set_city_status = city
 			#	}
 			#}
-			p:633 = {
+			p:453 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_sunhold_region = { formable_region_province_effect = yes }
-				region:modded_duskkeep_region = { formable_region_province_effect = yes }
-				region:modded_lillandril_region = { formable_region_province_effect = yes }
+				region:modded_dusk_region = { formable_region_province_effect = yes }
 				region:modded_shimmerene_region = { formable_region_province_effect = yes }
-				region:modded_cloudrest_region = { formable_region_province_effect = yes }
+				region:modded_etonnir_region = { formable_region_province_effect = yes }
 				region:modded_alinor_region = { formable_region_province_effect = yes }
-				region:modded_firsthold_region = { formable_region_province_effect = yes }
-				region:modded_skywatch_region = { formable_region_province_effect = yes }
-				region:modded_moridunon_region = { formable_region_province_effect = yes }
+				region:modded_auridon_region = { formable_region_province_effect = yes }
 			}
 		}
 		

@@ -5,311 +5,227 @@ modded_sea_region = {
 	}
 }
 
-modded_volenfell_region = {
+#Sommerset
+
+modded_tmp_region = {
 	areas = {
-		strosmkai_area #island
-		chain_area #island
-		caspar_area #island
-		herne_area #island
-		highisle_area #island
+		tmp_area
 	}
 }
 
-modded_anvil_region = {
+modded_auridon_region = {
 	areas = {
-		stirk_area #island
-		anvil_area
-		garlasmalatar_area
-		brina_area
-		beldaburo_area
-		gweden_area
-		sutch_area
+		shatteredgrove_area
+		tanzelwil_area
+		phaer_area
+		greenwatercove_area
+		northbeacon_area
+		firsthold_area
+		errinorneisle_area #isle
+		skywatch_area
+		dranilkir_area #isle
 	}
 }
 
-modded_kvatch_region = {
+modded_greenshade_region = {
 	areas = {
-		gottshaw_area
-		kvatch_area
-		dasekmoor_area
-		shetcombe_area
-		miscarcand_area
-		istrius_area
-	}
-}
-
-modded_delodiil_region = {
-	areas = {
-		skingrad_area
-		silorn_area
-		delodiil_area
-		vlastarus_area
-		nornalhorst_area
-		calgorn_area
-	}
-}
-
-modded_chorrol_region = {
-	areas = {
-		wendir_area
-		chorrol_area
-		talwinque_area
-		nonungalo_area
-		linchal_area
-		elenglynn_area
-	}
-}
-
-modded_colovianhighlands_region = {
-	areas = {
-		niryastare_area
-		hestrel_area
-		varondo_area
-		ontus_area
-		rayles_area
-		lipsandtarn_area
-	}
-}
-
-modded_jerall_region = {
-	areas = {
-		bloodfall_area
-		warden_area
-		sancretor_area
-		bruma_area
-		horunn_area
-		eastjerall_area
-	}
-}
-
-modded_heartland_region = {
-	areas = {
-		imperialcity_area
-		vilverin_area
-		westernrumare_area
-		southernrumare_area
-		easternrumare_area
-		northernrumare_area
-	}
-}
-
-modded_greatforest_region = {
-	areas = {
-		lindai_area
-		coldcorn_area
-		ash_area
-		narfinsel_area
-		ceyatatar_area
-		haynote_area
-	}
-}
-
-modded_nibenayanhighlands_region = {
-	areas = {
-		moranda_area
-		piukanda_area
-		aleswell_area
-		sercen_area
-		anga_area
-		harmsfolly_area
-	}
-}
-
-modded_thewestweald_region = {
-	areas = {
-		nisin_area
-		neyandtwyll_area
-		faregyl_area
-		blackboot_area
-		wenyandawik_area
-		variela_area
-	}
-}
-
-modded_bravil_region = {
-	areas = {
-		bravil_area
-		larsius_area
-		bawn_area
-		mnemgate_area
-		nomore_area
-		leyawiin_area
-	}
-}
-
-modded_cheydinhal_region = {
-	areas = {
-		chalman_area
-		nagastani_area
-		belda_area
-		arrius_area
-		cheydinhal_area
-		harlunswatch_area
-	}
-}
-
-modded_upperniben_region = {
-	areas = {
-		sejanus_area
-		culotte_area
-		cropsfprd_area
-		nornal_area
-		darkelowe_area
-		carbala_area
-	}
-}
-
-modded_middleniben_region = {
-	areas = {
-		cadlew_area
-		nenalata_area
-		mackamentain_area
-		facian_area
-		ondo_area
-		felacia_area
-	}
-}
-
-modded_lowerniben_region = {
-	areas = {
-		atatar_area
-		arpenia_area
-		veyond_area
-		wendelbeck_area
-		welke_area
-		hauntedforest_area
-	}
-}
-
-modded_valusmountains_region = {
-	areas = {
-		whitefallvalley_area
-		icepeaks_area
-		shadowgate_area
-		hame_area
-		septimspass_area
-		malada_area
-	}
-}
-
-modded_blackwood_region = {
-	areas = {
-		bogwater_area
-		blueblood_area
-		deadmarsh_area
-		onyxcaverns_area
-		doublecross_area
-		telman_area
-	}
-}
-
-modded_sunhold_region = {
-	areas = {
-		sunhold_area
-		westernpasses_area
-		sunholdsshore_area
-		silatar_area #island
-		torhamekhard_area
-	}
-}
-
-modded_duskkeep_region = {
-	areas = {
-		duskshore_area
-		duskkeep_area
-		alaxonald_area
-		easternpasses_area
-		silvarwoad_area
-		gardenofthesacrednumbers_area
-		artaeum_area #island
-	}
-}
-
-modded_lillandril_region = {
-	areas = {
-		lillandril_area
-		sapiarchisle_area #island
-		illuminationacademy_area
-		seakeep_area
-		cathedralofwebs_area
-	}
-}
-
-modded_shimmerene_region = {
-	areas = {
-		shimmerene_area
-		archonsgrove_area
-		direnniacropolis_area
-		aldmora_area
-		eldbur_area
-		russafeld_area
-	}
-}
-
-modded_cloudrest_region = {
-	areas = {
-		kingshavenpass_area
-		ebonstadmont_area
-		eyvea_area #island chain
-		crystaltower_area
-		corgradwastes_area
-		belportrun_area
+		talanda_area
 	}
 }
 
 modded_alinor_region = {
 	areas = {
 		alinor_area
-		westerncoraldale_area #island
-		ceytarnkeep_area
-		royalharbor_area
+		ceytarn_area
 		pearls_area
-		rellenthil_area
+		torhamekhard_area
+		aldmora_area
+		westsunhold_area
+		westerncoraldale_area #isle
 	}
 }
 
-modded_firsthold_region = {
+modded_shimmerene_region = {
 	areas = {
-		ninepraw_area #island
-		mehrunesspite_area
-		firsthold_area
-		rillis_area
-		greywatercove_area
-		northbeacon_area
-		torinaan_area
-		collegeofaldmeripropriety_area
+		schimmerene_area
+		direnniacropolis_area
+		russafeld_area
+		eldbur_area
+		kingshaven_area
+		gardenofsacrednumbers_area
+		
 	}
 }
 
-modded_skywatch_region = {
+modded_etonnir_region = {
 	areas = {
-		skywatch_area
-		buraniimisle_area #island
-		errinorneisle_area #island
-		mathiisen_area
-		glistervale_area
-		bewan_area
-		shatteredgrove_area
-		tanzelwil_area
-		quendeluun_area
-		dawnbreak_area
+		cloudrest_area
+		etonnirpasses_area
+		crystaltower_area
+		corgrad_area
+		lillandril_area
+		seakeep_area
+		sapiarchisle_area #isle
+		eyevea_area #isle
 	}
 }
 
-modded_moridunon_region = {
+modded_dusk_region = {
 	areas = {
-		southbeacon_area
-		rictus_area #island
-		dranilkir_area #island
-		vulkhelguard_area
-		phaer_area
-		delsclaim_area
-		silsailen_area
+		archengrangrove_area
+		dusk_area
+		sirvarwoad_area
+		sunholdcoast_area
+		hollyfalls_area
+		archonsgrove_area
+		artaeum_area #isle
 	}
 }
 
-modded_valewood_region = {
+modded_khefrem_region = {
 	areas = {
-		talanda_area
+		chain_area #isle
+		herne_area #isle
+		caspar_area #isle
+		strosmkai_area #isle
+		hewsbane_area
+	}
+}
+
+modded_goldcoast_region = {
+	areas = {
+		stirk_area #isle
+		anvil_area
+		garlasmalatar_area
+		sutch_area
+		gottshaw_area
+		sarchal_area
+	}
+}
+
+modded_kvatch_region = {
+	areas = {
+		kvatch_area
+		istirus_area
+		trumbe_area
+		varondo_area
+		linchal_area
+		miscarcand_area
+		talwinwue_area
+	}
+}
+
+modded_skingrad_region = {
+	areas = {
+		upperstrid_area
+		skingrad_area
+		silorn_area
+		nornalhorst_area
+		vlastarus_area
+		delodiil_area
+		gottlesfront_area
+	}
+}
+
+modded_chorrol_region = {
+	areas = {
+		nonungalo_area
+		dirich_area
+		elenglynn_area
+		vlindrel_area
+		chorrol_area
+		narfinsel_area
+		lipsandtarn_area
+		lindai_area
+	}
+}
+
+modded_heartlands_region = {
+	areas = {
+		westerncityisle_area
+		easterncityisle_area
+		weye_area
+		vindasel_area
+		sardavarleed_area
+		magia_area
+		vilverin_area
+		sercen_area
+		caractacus_area
+	}
+}
+
+modded_westweald_region = {
+	areas = {
+		blackbootkeep_area
+		neyondtwyll_area
+		variela_area
+		wenyandawik_area
+		bravil_area
+		bawn_area
+	}
+}
+
+modded_lowerniben_region = {
+	areas = {
+		leyawiin_area
+		telepe_area
+		bogwater_area
+		veyond_area
+		blueblood_area
+		arpenia_area
+		bulwark_area
+		atatar_area
+		teleman_area
+	}
+}
+
+modded_sjerall_region = {
+	areas = {
+		sancretor_area
+		twilightwoods_area
+		piukanda_area
+		wardenhighlands_area
+		bleakersway_area
+		bruma_area
+		sercenhills_area
+		gnollmountain_area
+		easternpasses_area
+	}
+}
+
+modded_chaydinhal_region = {
+	areas = {
+		belda_area
+		nagastani_area
+		chaydinhal_area
+		whitefallvalley_area
+		noral_area
+		sejanus_area
+		culotte_area
+		darkelowe_area
+	}
+}
+
+modded_valus_region = {
+	areas = {
+		smokefrostpeaks_area
+		kemen_area
+		scinia_area
+		hame_area
+		septimsgate_area
+		malada_area
+	}
+}
+
+modded_nibenbasin_region = {
+	areas = {
+		cedrian_area
+		nenalata_area
+		morahame_area
+		facian_area
+		mackementain_area
+		ondo_area
+		goldthroat_area
+		wendelbeck_area
 	}
 }

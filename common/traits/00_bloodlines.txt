@@ -7,8 +7,23 @@
 	support_for_character_as_heir = 10
 
 	country = {
-		lv_mages_offensive = 0.1
+		lv_gryphons_offensive = 0.1
 		global_monthly_state_loyalty = 0.05
+	}
+	
+}
+
+unfeathered = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_mages_offensive = 0.2
+		land_morale_modifier = 0.2
 	}
 	
 }

@@ -1,7 +1,7 @@
 ﻿nede = {	
-	color = rgb { 247 42 27 }
+	color = hsv { 0.85 0.93 0.79 }
 
-	primary = lv_scirmishers
+	primary = lv_archers
 	second = lv_heavyinfantry
 	flank = lv_cavalry
 	
@@ -9,7 +9,7 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_nedic
+	levy_template = levy_nedichoplites
 
 	male_names = {
 		 Dahi Rystedok Rehres Urder Zavnizos Bilron Vrenas Rerlen Yneth Nhudraozes
@@ -27,31 +27,23 @@
 		Hanison
 	}
 	culture = {
-		abecean = {}
-		goldcoastal = {}
-		nheartlanders = {}
-		sancran = {}
-		nforesters = {}
-		nhighlander = {}
-		westwealders = {}
-		northnibenian = {}
-		westnibenian = {}
-		cheydenian = {}
-		centralnibenian = {}
-		nvalus = {}
-		lowernibenian = {}
-		chorrolan = {}
-		ncolovian = {}
-		nskingradan = {}
+		nedeken = {}
+		hernan = {}
+		caspari = {}
 		kvatchan = {}
-		rmarchers = {}
+		perenan = {}
+		ketite = {}
+		haredan = {}
+		gemhan = {}
+		nsedoran = {}
+		ronthan = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = nedic_gfx
+	graphical_culture = aegean_gfx
 	ethnicities = {
 		10 = greek
 	}

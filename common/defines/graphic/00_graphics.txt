@@ -52,7 +52,7 @@ NGraphics = {
 	
 	FORT_MAX_FRAMES = 3 # Number of frames for the fort map icon shown in the mapmode
 	
-	SURROUND_MAP_INNER_RECT = { 1250.0 1250.0 1500.0 1500.0 } 			#x-start, y-start, x-end, y-end
+	SURROUND_MAP_INNER_RECT = { 1878.0 1983.0 1879.0 1984.0 } 			#x-start, y-start, x-end, y-end
 	SURROUND_MAP_OUTER_RECT = { -10000.0 -10000.0 20000.0 20000.0 }		#x-start, y-start, x-end, y-end
 	SURROUND_MAP_TILE_FACTOR = { 4.0 2.0 }
 	SURROUND_MAP_CLOUDHEIGHT = 20.0

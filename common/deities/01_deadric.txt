@@ -489,7 +489,9 @@ deity_vermina = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = goblin_pantheon
+			}
 			deity:omen_vermina = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -506,5 +508,31 @@ deity_vermina = {
 	
 	on_activate = {
 		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_umaril = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = deadric_pantheon
+			}
+			deity:omen_umaril = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { monthly_experience_gain = deity_monthly_experience_gain_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } #Bonus from Omen
+	religion = deadric_pantheon
+	deity_category = war #This Deity uses a war slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
 	}
 }

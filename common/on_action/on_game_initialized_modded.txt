@@ -67,15 +67,9 @@ on_game_initialized = {
 		esfa_startup.11
 		#Bloodlines
 		bloodlines_startup.1  #Aranas
+		bloodlines_startup.2  #Umaril
 		#Militarism level mechanic
 		militarism_events.1
-		#Equipment mechanic
-		#equipment_events.1
-		#equipment_events.2
-		#equipment_events.3
-		#equipment_events.4
-		#equipment_events.5
-		#equipment_events.6
 	}
 }
 

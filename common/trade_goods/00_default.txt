@@ -208,6 +208,21 @@ stone = { #282 territories
 	color = hsv { 0.6 0.2 0.3 }
 }
 
+limestone = { #282 territories
+	category = 5
+	
+	gold = 0.35
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		build_cost = -0.05
+	}
+	
+	color = hsv { 0.01 0.06 0.61 }
+}
+
 elephants = { #82 territories
 	category = 0
 	allow_unit_type = lv_elephants
@@ -313,6 +328,21 @@ wild_game = { #190 territories
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
+}
+
+stafftrees = { #190 territories
+	category = 5
+	
+	gold = 0.5
+	
+	province = {
+		local_citizen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_offensive = 0.1
+	}
+
+	color = rgb { 247 163 104 }
 }
 
 beasts = { #Added
@@ -617,6 +647,21 @@ honey = { #86 territories
 	}
 	
 	color = { 0.9 0.8 0.2 }
+}
+
+maplesyrup = { #86 territories
+	category = 1
+
+	gold = 0.4
+
+	province = {
+		local_monthly_food_modifier = 0.03
+	}
+	country = {
+		global_freemen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 10 110 17 }
 }
 
 incense = { #55 territories
