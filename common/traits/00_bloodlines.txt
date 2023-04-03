@@ -2,7 +2,22 @@
 	type = status
 	
 	prominence = 20
-	zeal = 1
+	charisma = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		stability_cost_modifier = -0.2
+		global_monthly_state_loyalty = 0.05
+	}
+	
+}
+
+ulorome = {
+	type = status
+	
+	prominence = 20
+	charisma = 1
 	
 	support_for_character_as_heir = 10
 
@@ -17,13 +32,103 @@ unfeathered = {
 	type = status
 	
 	prominence = 20
+	zeal = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_mages_offensive = 0.1
+		land_morale_modifier = 0.1
+	}
+	
+}
+
+atatar = {
+	type = status
+	
+	prominence = 20
 	martial = 1
 	
 	support_for_character_as_heir = 10
 
 	country = {
-		lv_mages_offensive = 0.2
-		land_morale_modifier = 0.2
+		lv_lightinfantry_offensive = 0.1
+		land_morale_modifier = 0.1
+	}
+	
+}
+
+dynar = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		global_commerce_modifier = 0.1
+		discipline = 0.1
+	}
+	
+}
+
+tor = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		global_capital_trade_routes = 1
+		research_points_modifier = 0.1
+	}
+	
+}
+
+ceyatar = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_lightinfantry_offensive = 0.1
+		lv_mages_defensive = 0.1
+	}
+	
+}
+
+ninendava = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_mages_offensive = 0.1
+		omen_power = 0.1
+	}
+	
+}
+
+miscarcandite = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_mages_offensive = 0.1
+		siege_ability = 0.1
 	}
 	
 }

@@ -4,11 +4,20 @@ pass_down_traits_effect = {
 		if = {
 			limit = {
 				exists = father
-				OR = {
-					father = {
+				father = {
+					OR = {
 						has_trait = aranas
+						has_trait = unfeathered
+						has_trait = atatar
+						has_trait = dynar
+						has_trait = ulorome
+						has_trait = tor
+						has_trait = ceyatar
+						has_trait = ninendava
+						has_trait = miscarcandite
 					}
 				}
+						
 			}
 			if = {
 				limit = {
@@ -20,6 +29,94 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = unfeathered
+					}
+					NOT = {
+						has_trait = unfeathered
+					}
+				}
+				add_trait = unfeathered
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = atatar
+					}
+					NOT = {
+						has_trait = atatar
+					}
+				}
+				add_trait = atatar
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = dynar
+					}
+					NOT = {
+						has_trait = dynar
+					}
+				}
+				add_trait = dynar
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = ulorome
+					}
+					NOT = {
+						has_trait = ulorome
+					}
+				}
+				add_trait = ulorome
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = tor
+					}
+					NOT = {
+						has_trait = tor
+					}
+				}
+				add_trait = tor
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = ceyatar
+					}
+					NOT = {
+						has_trait = ceyatar
+					}
+				}
+				add_trait = ceyatar
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = ninendava
+					}
+					NOT = {
+						has_trait = ninendava
+					}
+				}
+				add_trait = ninendava
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = miscarcandite
+					}
+					NOT = {
+						has_trait = miscarcandite
+					}
+				}
+				add_trait = miscarcandite
 			}
 			
 		}
@@ -34,9 +131,104 @@ pass_down_traits_effect = {
 				}
 			}
 			add_trait = aranas
-
 		}
-				
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = unfeathered
+				}
+				NOT = {
+					has_trait = unfeathered
+				}
+			}
+			add_trait = unfeathered
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = atatar
+				}
+				NOT = {
+					has_trait = atatar
+				}
+			}
+			add_trait = atatar
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = dynar
+				}
+				NOT = {
+					has_trait = dynar
+				}
+			}
+			add_trait = dynar
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = tor
+				}
+				NOT = {
+					has_trait = tor
+				}
+			}
+			add_trait = tor
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = ulorome
+				}
+				NOT = {
+					has_trait = ulorome
+				}
+			}
+			add_trait = ulorome
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = ceyatar
+				}
+				NOT = {
+					has_trait = ceyatar
+				}
+			}
+			add_trait = ceyatar
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = ninendava
+				}
+				NOT = {
+					has_trait = ninendava
+				}
+			}
+			add_trait = ninendava
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = miscarcandite
+				}
+				NOT = {
+					has_trait = miscarcandite
+				}
+			}
+			add_trait = miscarcandite
+		}
+		
 	}
 }
 
@@ -48,6 +240,70 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = aranas
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = unfeathered
+			}
+		}
+		add_trait = unfeathered
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = atatar
+			}
+		}
+		add_trait = atatar
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = dynar
+			}
+		}
+		add_trait = dynar
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = ulorome
+			}
+		}
+		add_trait = ulorome
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = tor
+			}
+		}
+		add_trait = tor
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = ceyatar
+			}
+		}
+		add_trait = ceyatar
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = ninendava
+			}
+		}
+		add_trait = ninendava
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = miscarcandite
+			}
+		}
+		add_trait = miscarcandite
 	}
 	
 }

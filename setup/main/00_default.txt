@@ -90,6 +90,13 @@ treasure_manager = {
 				local_defensive = 0.2
 			}
 		}
+		13 = { # Miscarcand
+			key = "treasure_great_wylkend_stone"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_tax_modifier = 0.2
+			}
+		}
     }
 }
 family={
@@ -107,6 +114,48 @@ family={
 			key="Unfeathered"
 			owner=CAA
 			culture = heartlanderhi
+			prestige=300
+		}
+		3={
+			key="Atatar"
+			owner=CBP
+			culture = atataran
+			prestige=300
+		}
+		4={
+			key="Dynar"
+			owner=CBO
+			culture = nenalatan
+			prestige=300
+		}
+		5={
+			key="Ulorome"
+			owner=AAJ
+			culture = sunholdic
+			prestige=300
+		}
+		6={
+			key="Tor"
+			owner=CBL
+			culture = sancran
+			prestige=300
+		}
+		7={
+			key="Ceya-Tar"
+			owner=CAT
+			culture = ceyatataric
+			prestige=300
+		}
+		8={
+			key="Ninendava"
+			owner=CBH
+			culture = ninendavan
+			prestige=300
+		}
+		9={
+			key="Miscarcand"
+			owner=CAH
+			culture = miscarcandan
 			prestige=300
 		}
 		
@@ -144,6 +193,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	814 = { # Garlas Malatar
 		treasure_slots = { 	treasures = { 12 } }
+	}
+	889 = { # Miscarcand
+		treasure_slots = { 	treasures = { 13 } }
 	}
 
 	#Pirates
@@ -1041,6 +1093,7 @@ country = {
 		}
 		
 		AAJ = {
+			family = 5
 			government = despotic_monarchy
 			primary_culture = sunholdic
 			religion = elven_pantheon
@@ -1474,7 +1527,8 @@ country = {
 			}
 		}
 		
-		CAH = {          
+		CAH = {  
+			family = 9
 			government = despotic_monarchy
 			primary_culture = miscarcandan
 			religion = deadric_pantheon
@@ -1768,7 +1822,8 @@ country = {
 			}
 		}
 		
-		CAT = {          
+		CAT = { 
+			family = 7		
 			government = despotic_monarchy
 			primary_culture = ceyatataric
 			religion = deadric_pantheon
@@ -2077,7 +2132,8 @@ country = {
 			}
 		}
 		
-		CBH = {          
+		CBH = {  
+			family = 8 
 			government = despotic_monarchy
 			primary_culture = ninendavan
 			religion = deadric_pantheon
@@ -2182,7 +2238,8 @@ country = {
 			}
 		}
 		
-		CBL = {          
+		CBL = {     
+			family = 6
 			government = despotic_monarchy
 			primary_culture = sancran
 			religion = deadric_pantheon
@@ -2243,7 +2300,8 @@ country = {
 			}
 		}
 		
-		CBO = {          
+		CBO = {        
+			family = 4
 			government = despotic_monarchy
 			primary_culture = nenalatan
 			religion = deadric_pantheon
@@ -2268,7 +2326,8 @@ country = {
 			}
 		}
 		
-		CBP = {          
+		CBP = { 
+			family = 3
 			government = despotic_monarchy
 			primary_culture = atataran
 			religion = deadric_pantheon

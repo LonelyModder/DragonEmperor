@@ -1,0 +1,25 @@
+﻿"AAJ"={
+	country="AAJ"
+	5={
+		#first_name="Laloriaran"
+		family = c:AAJ.fam:Ulorome
+		birth_date=10.1.1
+		culture="sunholdic"
+		religion="elven_pantheon"
+		no_stats=yes
+		add_martial=5
+		add_charisma=8
+		add_finesse=7
+		add_zeal=4
+		no_traits=yes
+		add_trait="altmer"
+		add_trait="ulorome"
+		add_trait="pure"
+		add_gold=500
+		add_popularity=100
+		c:AAJ={
+			set_as_ruler=char:5
+		}
+		#dna=""
+	}
+}

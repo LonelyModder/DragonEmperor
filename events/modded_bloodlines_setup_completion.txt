@@ -39,6 +39,90 @@ bloodlines_setup_completion.1 = {
 			}
 			if = {
 				limit = {
+					exists = father
+					father = {
+						has_trait = atatar
+					}
+					NOT = {
+						has_trait = atatar
+					}
+				}
+				add_trait = atatar
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = dynar
+					}
+					NOT = {
+						has_trait = dynar
+					}
+				}
+				add_trait = dynar
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = ulorome
+					}
+					NOT = {
+						has_trait = ulorome
+					}
+				}
+				add_trait = ulorome
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = tor
+					}
+					NOT = {
+						has_trait = tor
+					}
+				}
+				add_trait = tor
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = ceyatar
+					}
+					NOT = {
+						has_trait = ceyatar
+					}
+				}
+				add_trait = ceyatar
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = ninendava
+					}
+					NOT = {
+						has_trait = ninendava
+					}
+				}
+				add_trait = ninendava
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = miscarcandite
+					}
+					NOT = {
+						has_trait = miscarcandite
+					}
+				}
+				add_trait = miscarcandite
+			}
+			if = {
+				limit = {
 					exists = mother
 					mother = {
 						has_trait = aranas
@@ -60,6 +144,90 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = unfeathered	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = atatar
+					}
+					NOT = {
+						has_trait = atatar
+					}
+				}
+				add_trait = atatar	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = dynar
+					}
+					NOT = {
+						has_trait = dynar
+					}
+				}
+				add_trait = dynar	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = ulorome
+					}
+					NOT = {
+						has_trait = ulorome
+					}
+				}
+				add_trait = ulorome	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = tor
+					}
+					NOT = {
+						has_trait = tor
+					}
+				}
+				add_trait = tor	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = ceyatar
+					}
+					NOT = {
+						has_trait = ceyatar
+					}
+				}
+				add_trait = ceyatar	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = ninendava
+					}
+					NOT = {
+						has_trait = ninendava
+					}
+				}
+				add_trait = ninendava	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = miscarcandite
+					}
+					NOT = {
+						has_trait = miscarcandite
+					}
+				}
+				add_trait = miscarcandite	
 			}
 		}
 	}

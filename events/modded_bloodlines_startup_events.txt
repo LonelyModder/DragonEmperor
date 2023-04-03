@@ -49,3 +49,178 @@ bloodlines_startup.2 = { #Umarils
 	}
 
 }
+
+bloodlines_startup.3 = { #Atatar Clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CBP
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:3
+			}
+			add_trait = atatar
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.4 = { #Dynar Clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CBO
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:4
+			}
+			add_trait = dynar
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.5 = { #Ulorome Lineage
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = AAJ
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:5
+			}
+			add_trait = ulorome
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.6 = { #Tor clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CBL
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:6
+			}
+			add_trait = tor
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.7 = { #Ceya-Tar clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CAT
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:7
+			}
+			add_trait = ceyatar
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.8 = { #Ninendava clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CBH
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:8
+			}
+			add_trait = ninendava
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.9 = { #Miscarcand clan
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CAH
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:9
+			}
+			add_trait = miscarcandite
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
