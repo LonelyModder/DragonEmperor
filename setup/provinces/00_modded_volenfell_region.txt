@@ -172,7 +172,7 @@
 	terrain="plains"
 	trade_goods="dates"
 	religion="nedic_pantheon"
-	culture="caspari"
+	culture="seabanes"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -191,7 +191,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="nedic_pantheon"
-	culture="caspari"
+	culture="seabanes"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -210,7 +210,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="nedic_pantheon"
-	culture="caspari"
+	culture="seabanes"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -229,18 +229,18 @@
 	terrain="plains"
 	trade_goods="salt"
 	religion="nedic_pantheon"
-	culture="caspari"
+	culture="seabanes"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
+	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -347,14 +347,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 

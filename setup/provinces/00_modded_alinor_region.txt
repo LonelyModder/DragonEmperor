@@ -6834,15 +6834,15 @@
 791={ 
 	terrain="plains"
 	trade_goods="soul_gems"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -6853,36 +6853,34 @@
 792={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=4
-	}
+	province_rank="settlement"
 	freemen={
-		amount=6
+		amount=2
+	}
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=4
-		religion="goblin_pantheon"
-		culture="goblinken"
+		amount=1
 	}
 }
 
 793={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -6893,15 +6891,15 @@
 794={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -6912,15 +6910,15 @@
 795={ 
 	terrain="plains"
 	trade_goods="amber"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -6931,15 +6929,15 @@
 796={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="elven_pantheon"
-	culture="corgradan"
+	religion="goblin_pantheon"
+	culture="brokenbarrels"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=2
 	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={

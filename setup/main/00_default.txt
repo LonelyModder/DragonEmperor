@@ -202,9 +202,7 @@ provinces = { #Any entry must contain a comment with city name.
 	787 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	765 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
 	770 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
-	669 = { modifier = { modifier = pirate_haven_modifier always = yes } }
-	785 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
-	777 = { modifier = { modifier = pirate_haven_modifier always = yes } } 	
+	669 = { modifier = { modifier = pirate_haven_modifier always = yes } }	
 	814 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	1240 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	1557 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -275,9 +273,6 @@ provinces = { #Any entry must contain a comment with city name.
 	785 = {
 		port_building = 1
 	}
-	777 = {
-		port_building = 1
-	}
 	1557 = {
 		port_building = 2
 	}
@@ -332,9 +327,6 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	591 = {
-		port_building = 2
-	}
-	792 = {
 		port_building = 2
 	}
 	628 = {
@@ -1253,7 +1245,6 @@ country = {
 			own_control_core = 	{ 
 				628 629 627 632 631 638 637 633 630 634 635
 				621 614 622 626 623 625 624 610 611 598 601
-				791 792 793 794 795 796
 			}
 		}
 		
@@ -2734,35 +2725,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1478 1543 1474 1475 1479 1476 1477 1509 1510 1541
-			}
-		}
-		
-		CCM = {          
-			government = tribal_kingdom
-			primary_culture = caspari
-			religion = nedic_pantheon
-			capital = 777
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = citizen
-				}
-			}
-			
-			own_control_core = 	{ 
-				774 775 776 777
-			}
-		}
-		
-		CCN = {          
-			government = tribal_kingdom
-			primary_culture = dogeaters
-			religion = goblin_pantheon
-			capital = 783
-			
-			own_control_core = 	{ 
-				778 779 780 781 782 783 784 785
 			}
 		}
 		
