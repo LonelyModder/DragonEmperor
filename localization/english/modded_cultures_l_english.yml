@@ -31,8 +31,6 @@
  #Ayleid
  ayleid:2 "Ayleid"
  heartlanderhi:0 "Heartlander"
- abeceanay:0 "Stirkan"
- malataric:0 "Malataric"
  agean:0 "Agean"
  tremban:0 "Trumban"
  varondan:0 "Varondan"
@@ -79,6 +77,7 @@
  wendelbekite:0 "Wendelbekite"
  welkan:0 "Welkan"
  maladan:0 "Maladan"
+ narfinselite:0 "Narfinselite"
  ayleid_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $NICKNAME$ $FAMILY_MALE$"
  ayleid_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $NICKNAME$ $FAMILY_MALE$ "
  #Bosmer
@@ -115,7 +114,6 @@
  minotauric_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Argonian
  argonian:2 "Argonian"
- hutsleel:0 "Hutsleel"
  nakadesh:0 "Naka-Desh"
  sulxan:0 "Sul-Xan"
  argonian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"

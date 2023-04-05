@@ -212,6 +212,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	814 = {
+		fortress_building = 1
+	}
 	1609 = {
 		fortress_building = 1
 	}
@@ -225,9 +228,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	1432 = {
-		fortress_building = 1
-	}
-	826 = {
 		fortress_building = 1
 	}
 	926 = {
@@ -980,38 +980,6 @@ country = {
 			}
 		}
 		
-		AAC = {
-			government = despotic_monarchy
-			primary_culture = heartlanderhi
-			religion = deadric_pantheon
-			capital = 787
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			poptype_rights = {
-				{
-					culture = abeceanay 
-					type = citizen
-				}
-			}
-			
-			own_control_core = 	{ 
-				787 788 789
-			}
-		}
-		
 		AAD = {          
 			government = theocratic_monarchy
 			primary_culture = psijic
@@ -1359,37 +1327,7 @@ country = {
 			own_control_core = 	{ 
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082
-			}
-		}
-		
-		CAB = {          
-			government = despotic_monarchy
-			primary_culture = malataric
-			religion = deadric_pantheon
-			capital = 814
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			pantheon = {
-			
-			{ deity = 10038 }
-			
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				802 814 801 809 815 816 817 818 813 819 820
+				787 788 789 814 816 815 818 817 1100 1098 1099 1096 1097
 			}
 		}
 		
@@ -1414,8 +1352,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				797 798 800 799 806 807 808 803 805 804 810
-				841 833 834 835 836 842 838
+				806 800 798 797 803 805 804 807
 			}
 		}
 		
@@ -1440,8 +1377,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				849 847 846 825 848 859 858 843 845 844
-				828 827 826 824 822 823 811 812
+				849 847 846 825 858 859
 			}
 		}
 		
@@ -1466,7 +1402,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				15 821 851 830 852 855 853 857 854 856 861 829
+				856 857 854 861
 			}
 		}
 		
@@ -1495,8 +1431,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				865 866 867 869 868 901 902 903 904
-				850 860 862 863 864 
+				901 868 869 902 903
 			}
 		}
 		
@@ -1514,7 +1449,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				831 832 839 870 840 837 871 874 875 878 880 879  
+				831 832 839 870 840 875 878  
 			}
 		}
 		
@@ -1540,10 +1475,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				 889 885 890 888 911 900 912 918 913 896
-				 872 873 886 876 877 887 884 898 915 921
-				 899 916 922 917 923 926 920 927 928
-				 881 882 883 891 892 893 894 895 
+				 889 890 885 884 888 900 912 911 926
+				 887 899 920 927 923 917 916 922 
 			}
 		}
 		
@@ -1572,7 +1505,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  914 908 909 907 932 910 994 993 906 897 905 
+				  908 909 907 897
 			}
 		}
 		
@@ -1597,7 +1530,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  951 952 953 947 950 949 946 942 924 925 943 937 944 
+				  951 952 947 942 
 			}
 		}
 		
@@ -1622,7 +1555,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				   967 966 968 963 961 964 965 962 970 954 960 969
+				   967 961 963 966
 			}
 		}
 		
@@ -1724,7 +1657,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1129 1132 1130 1127 1128 1124 1123 1121 1122 1118 1117 1125
+				  1129 1132 1130 1127 1128 1124 1125 1122
 			}
 		}
 		
@@ -1808,8 +1741,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1098 1099 1100 1097 1217 1219 1103 1102 1220
-				  1105 1096 1095 1101 1104 1107 1110 1115 1112 1114
+				  1102 1104 1105 1110 1107 1103 
 			}
 		}
 		
@@ -1835,8 +1767,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  976 973 971 974 972 1113 1111 959 958 948 945 956
-				  977 975 1108 1109 1106 979 983 981 984 982 980
+				  976 973 975 974 979 1108 983
 			}
 		}
 		
@@ -1861,8 +1792,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1260 1233 1232 1235 1234 1261 1237 1236 1238 1262
-				  1222 1226 1225 1224 1221 1231 1228 1227 1230 1229 1251
+				  1233 1229 1232 1230 1251 1260 1235 1234
 			}
 		}
 		
@@ -1913,7 +1843,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1287 1286 1308 1307 1314 1316 1323 1321 1320 1324
+				1316 1308 1314 1321
 			}
 		}
 		
@@ -1956,8 +1886,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1063 1069 1068 1067 1282 1223 1281 1283 1284 1066
-				1042 1041 1049 1050 1054 1057 1064 1070 1218 1000
+				1068 1067 1282 1284 1283 1063 1069
 			}
 		}
 		
@@ -1986,7 +1915,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1026 1058 1060 1025 1059 1062 1056 1055 1053 1047 1023 1027 1028 1024
+				1059 1025 1058 1055 1026 1047
 			}
 		}
 		
@@ -2011,8 +1940,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1039 1043 1040 1044 1051 1045 1052 1048 997 
-				1038 1035 1034 1037 996 1030 1036 1010 1032 1031 1046 1033
+				1038 1030 1035 1036 1032 1031
 			}
 		}
 		
@@ -2041,7 +1969,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1001 1002 1003 1004 1007 1006 1005 995 1008 1009 1029 1011 1012
+				1008 1009 993 994
 			}
 		}
 		
@@ -2092,9 +2020,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				936 955 935 941 957 978 987 988
-				998 999 986 985 992 991 990 989 938 
-				933 919 934 929 931 940 939 930
+				988 941 957
 			}
 		}
 		
@@ -2119,7 +2045,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1306 1305 1310 1313 1311 1301 1309 1312 1315 1322 1317
+				1305 1310 1306
 			}
 		}
 		
@@ -2145,7 +2071,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1291 1289 1285 1292 1300 1293 1294
+				1291 1292 1300
 			}
 		}
 		
@@ -2174,7 +2100,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1013 1015 1014 1016 1017 1018 1020 1021 1022 1019
+				1016 1017 1018 1020
 			}
 		}
 		
@@ -2262,7 +2188,7 @@ country = {
 			capital = 1298
 			
 			own_control_core = 	{ 
-				 1298 1297 1295 1296 1299 1302 1303 1304
+				 1298 
 			}
 		}
 		
@@ -2617,29 +2543,43 @@ country = {
 		}
 		
 		CCF = {          
-			government = tribal_kingdom
-			primary_culture = hutsleel
-			religion = hist_pantheon
-			capital = 1650
+			government = despotic_monarchy
+			primary_culture = narfinselite
+			religion = deadric_pantheon
+			capital = 1041
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
 			own_control_core = 	{ 
-				1647 1648 1650 1655 1649 1646 1627 1628 1626 1645
+				1041 1042 1000 1049
 			}
 		}
 		
 		CCG = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = nakadesh
 			religion = hist_pantheon
 			capital = 1623
 			
 			own_control_core = 	{ 
-				1625 1623 1624 1614 1613 1622 1616 1621 1615 1592 1587 1591
+				1625 1623 1624 1622 
 			}
 		}
 		
 		CCH = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = sulxan
 			religion = deadric_pantheon
 			capital = 1669
@@ -2651,12 +2591,12 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1664 1658 1659 1667 1666 1668 1669 1674 1657 1656 
+				1666 1668 1669 1674
 			}
 		}
 		
 		CCI = {          
-			government = despotic_monarchy
+			government = tribal_chiefdom
 			primary_culture = gemhan
 			religion = nedic_pantheon
 			capital = 1145
@@ -2669,12 +2609,12 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1145 1149 1146 1144 1141 1142 
+				1145 1149 1146 1144 1141 
 			}
 		}
 		
 		CCJ = {          
-			government = despotic_monarchy
+			government = tribal_chiefdom
 			primary_culture = ronthan
 			religion = nedic_pantheon
 			capital = 1410

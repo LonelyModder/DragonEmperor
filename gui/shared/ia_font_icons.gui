@@ -121,6 +121,16 @@ texticon = {
 }
 
 texticon = {
+    icon = fruitsoftheforest
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/fruitsoftheforest.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = maplesyrup
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/maplesyrup.dds"

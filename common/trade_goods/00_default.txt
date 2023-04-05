@@ -14,6 +14,22 @@
 	color = hsv { 0.156 0.8 0.5 }
 }
 
+fruitsoftheforest = { #430 territories
+	category = 1
+
+	gold = 0.15
+	
+	province = { 
+		local_monthly_food = 2.5
+	}
+	
+	country = { 
+		global_monthly_food_modifier = 0.02
+	}
+	
+	color = rgb { 242 54 44 }
+}
+
 salt = { #177 territories
 	category = 1
 	
