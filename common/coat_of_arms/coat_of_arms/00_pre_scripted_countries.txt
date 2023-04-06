@@ -120,7 +120,29 @@ AAL = { #Shimmerine
 	}
 }
 
+CAA = { #Temple of Ancestors
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_whitetower.dds"
+		color1 = rgb { 199 193 10 }
+	}
+}
+
 # Modded emblems for formables
+
+hk_ayleidoon = { #For the Ayleid Empire
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_alinor.dds"
+		color1 = rgb { 199 193 10 }
+	}
+}
 
 hk_alinor = { #For the Aldmeri Dominion
 	pattern = "pattern_solid.tga"

@@ -19,15 +19,14 @@
 #	aggressive = -500
 #}
 
-#is_pacifist_trigger = {
-#	trigger = {
-#		OR = {
-#			country_culture_group = altmer
-#			country_culture_group = ayleid
-#		}
-#	}
-#	aggressive = -100
-#}
+is_pacifist_trigger = {
+	trigger = {
+		OR = {
+			country_culture_group = altmer
+		}
+	}
+	aggressive = -30
+}
 
 is_antagonist_aimod = {
 	trigger = {

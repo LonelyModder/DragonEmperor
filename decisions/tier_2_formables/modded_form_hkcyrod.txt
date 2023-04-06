@@ -68,12 +68,13 @@
 					}					
 				}
 				change_country_name = "HKCyrod_name"
+				change_country_flag = hk_ayleidoon
 			}
 			else_if = {
 				limit = { country_culture_group = ayleid }
 				change_country_name = "AyCyrod_name"
+				change_country_flag = CAA
 			}
-			change_country_flag = XCY
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
