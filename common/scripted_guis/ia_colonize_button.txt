@@ -9,7 +9,7 @@
 		hidden:scope:player = {
 			manpower >= 3
 		}
-		control_range = c:CAA
+		control_range = scope:player
 		is_coastal = yes
 	}
 
@@ -19,7 +19,7 @@
 				hidden:scope:player = {
 					manpower >= 1
 				}
-				control_range = c:CAA
+				control_range = scope:player
 				is_coastal = yes
 			}
 			AND = {
