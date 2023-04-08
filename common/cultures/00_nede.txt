@@ -48,13 +48,17 @@
 		oggiri = {}
 		kaginhite = {}
 		uvaviri = {}
+		vrunvan = {}
+		larsian = {}
+		smokefrostan = {}
+		skeggan = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = aegean_gfx
+	graphical_culture = greek_gfx
 	ethnicities = {
 		10 = greek
 	}
