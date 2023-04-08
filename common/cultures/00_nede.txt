@@ -52,13 +52,30 @@
 		larsian = {}
 		smokefrostan = {}
 		skeggan = {}
+		zircenite = {}
+		conranhite = {}
+		agarite = {}
+		kronveri = {}
+		faeregylite = {}
+		kvoran = {}
+		corbolite = {}
+		soydan = {}
+		surkeri = {}
+		ekretchan = {}
+		kruckradan = {}
+		reedmarcher = {}
+		goydonite = {}
+		thugremite = {}
+		korkarudi = {}
+		vorketchite = {}
+		arrian = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = greek_gfx
+	graphical_culture = aegean_gfx
 	ethnicities = {
 		10 = greek
 	}

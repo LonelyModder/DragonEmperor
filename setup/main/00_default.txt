@@ -212,6 +212,18 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	1123 = {
+		fortress_building = 1
+	}
+	1247 = {
+		fortress_building = 1
+	}
+	1238 = {
+		fortress_building = 1
+	}
+	1220 = {
+		fortress_building = 1
+	}
 	814 = {
 		fortress_building = 1
 	}
@@ -1325,6 +1337,7 @@ country = {
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082
 				787 788 789 814 816 815 818 817 1100 1098 1099 1096 1097
+				1123 1121 1117 1118 1219 1220 1221 1227 1236 1246 1247 1256 1257 1238 1237
 			}
 		}
 		
@@ -2640,7 +2653,7 @@ country = {
 		CCO = {          
 			government = tribal_chiefdom
 			primary_culture = ketite
-			religion = nedic_pantheon
+			religion = elven_pantheon
 			capital = 1570
 			
 			poptype_rights = {
