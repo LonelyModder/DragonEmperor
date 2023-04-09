@@ -2,8 +2,14 @@
 	if = {
 		limit = {
 			OR = {
-				NOT = { has_trait = altmer }
-				NOT = { has_trait = pure }
+				NAND = {
+					has_trait = altmer
+					has_trait = pure
+				}
+				NAND = {
+					has_trait = altmer
+					has_trait = impure
+				}
 				NOT = { has_trait = bosmer }
 				NOT = { has_trait = ayleid }
 				NOT = { has_trait = goblin }
