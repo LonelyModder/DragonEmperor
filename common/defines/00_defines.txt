@@ -106,7 +106,7 @@ NCountry = {
 	TECH_BEHIND_OF_TIME = -0.12
 	OMEN_DURATION = 1825
 
-	BASE_CONTROL_RANGE = 300
+	BASE_CONTROL_RANGE = 650
 	
 
 	
@@ -142,7 +142,7 @@ NCountry = {
 	BAD_RESEARCH_RATIO = 66 #Entirely arbitrary number where we'll want to alert player.
 	MAX_RESEARCH_EFFICIENCY = 1.25 #multiply by 100 to receive initial base max research efficiency. Global modifier is applied on top of this.
 	
-	BASE_NAVAL_RANGE = 300
+	BASE_NAVAL_RANGE = 650
 
 	POTENTIAL_MISSION_COUNT = 4 # Number of random missions to pick between
 

@@ -7,7 +7,7 @@
 	}
 	ai_is_valid = {
 		hidden:scope:player = {
-			manpower >= 3
+			manpower >= 1
 		}
 		control_range = scope:player
 		is_coastal = yes
