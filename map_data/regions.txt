@@ -13,6 +13,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_westernreapersmarch_region = {
+	areas = {
+		sphinxmoth_area
+		arenthia_area
+		greenhill_area
+		vinedusk_area
+		jodewood_area
+		greenhall_area
+	}
+}
+
 modded_auridon_region = {
 	areas = {
 		shatteredgrove_area
