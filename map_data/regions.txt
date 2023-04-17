@@ -13,6 +13,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_xolo_region = {
+	areas = {
+		ragnthar_area
+		valeguard_area
+		silvenar_area
+		vulkwasten_area
+		belarata_area
+		falinesti_area
+	}
+}
+
 modded_westernreapersmarch_region = {
 	areas = {
 		sphinxmoth_area
