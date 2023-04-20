@@ -380,6 +380,75 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	1818  = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1884 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1888 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1886 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1885 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1882 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1883 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1972 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1973 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1974 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1977 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1934 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1889 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1890 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1905 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2031 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1821 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1832 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1831 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1834 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1797 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1798 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1804 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	1352 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
