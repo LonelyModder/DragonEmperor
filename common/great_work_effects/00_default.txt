@@ -2427,3 +2427,50 @@ gw_effect_skytemple = {
 		}
 	}
 }
+
+gw_effect_falinesti = {
+	icon = "gw_effect_civic_science_doctrine"	
+
+	flags = {
+		"gw_effect_military_education"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_falinesti_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				monthly_legitimacy = 0.01
+				diplomatic_relations = 1
+				lv_archers_offensive = 0.05
+			}
+		}
+		gw_effect_falinesti_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				monthly_legitimacy = 0.02
+				diplomatic_relations = 1
+				lv_archers_offensive = 0.1
+			}
+		}
+		gw_effect_falinesti_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				monthly_legitimacy = 0.04
+				diplomatic_relations = 2
+				lv_archers_offensive = 0.15
+			}
+		}
+		gw_effect_falinesti_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				monthly_legitimacy = 0.06
+				diplomatic_relations = 2
+				lv_archers_offensive = 0.2
+			}
+		}
+	}
+}

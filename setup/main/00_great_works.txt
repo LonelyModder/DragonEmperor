@@ -14,6 +14,9 @@ provinces = {
 	1017={ # Sky Temple
 		great_work=5
 	}
+	1895={ # Falinesti
+		great_work=6
+	}
 }
 
 great_work_manager={	
@@ -125,6 +128,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_skytemple"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		6={
+			ancient_wonder = yes
+			key="falinesti"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_falinesti"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_falinesti"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_falinesti"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
