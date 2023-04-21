@@ -131,6 +131,19 @@ CAA = { #Temple of Ancestors
 	}
 }
 
+VAA = { #Valenwood
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_valenwood.dds"
+		color1 = rgb { 161 96 11 }
+		color2 = rgb { 91 219 44 }
+		color3 = rgb { 0 0 0 }
+	}
+}
+
 # Modded emblems for formables
 
 hk_ayleidoon = { #For the Ayleid Empire
