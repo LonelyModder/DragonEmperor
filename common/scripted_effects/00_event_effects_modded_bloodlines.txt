@@ -15,6 +15,7 @@ pass_down_traits_effect = {
 						has_trait = ceyatar
 						has_trait = ninendava
 						has_trait = miscarcandite
+						has_trait = camoran
 					}
 				}
 						
@@ -117,6 +118,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = miscarcandite
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = camoran
+					}
+					NOT = {
+						has_trait = camoran
+					}
+				}
+				add_trait = camoran
 			}
 			
 		}
@@ -228,7 +240,18 @@ pass_down_traits_effect = {
 			}
 			add_trait = miscarcandite
 		}
-		
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = camoran
+				}
+				NOT = {
+					has_trait = camoran
+				}
+			}
+			add_trait = camoran
+		}
 	}
 }
 
@@ -305,5 +328,12 @@ bastard_major_bloodline_effect = {
 		}
 		add_trait = miscarcandite
 	}
-	
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = camoran
+			}
+		}
+		add_trait = camoran
+	}
 }

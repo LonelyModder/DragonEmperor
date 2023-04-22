@@ -123,6 +123,18 @@ bloodlines_setup_completion.1 = {
 			}
 			if = {
 				limit = {
+					exists = father
+					father = {
+						has_trait = camoran
+					}
+					NOT = {
+						has_trait = camoran
+					}
+				}
+				add_trait = camoran
+			}
+			if = {
+				limit = {
 					exists = mother
 					mother = {
 						has_trait = aranas
@@ -228,6 +240,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = miscarcandite	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = camoran
+					}
+					NOT = {
+						has_trait = camoran
+					}
+				}
+				add_trait = camoran	
 			}
 		}
 	}

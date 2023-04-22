@@ -123,7 +123,7 @@ khajiit_heritage = {
 imga_heritage = { 
 	modifier = {
 		#good
-		monthly_legitimacy = 0.1
+		monthly_legitimacy = 0.05
 		improve_relation_impact = 0.5
 		
 		#bad

@@ -19,6 +19,7 @@ character_events.35 = {
 						has_trait = ceyatar
 						has_trait = ninendava
 						has_trait = miscarcandite
+						has_trait = camoran
 					}
 				}
 			}
@@ -109,6 +110,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = miscarcandite
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = camoran
+					}
+					NOT = {
+						has_trait = camoran
+					}
+				}
+				add_trait = camoran
 			}
 		}
 		if = {
@@ -206,6 +218,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = miscarcandite	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = camoran
+				}
+				NOT = {
+					has_trait = camoran
+				}
+			}
+			add_trait = camoran	
 		}
 	}
 }

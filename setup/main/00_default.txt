@@ -158,6 +158,12 @@ family={
 			culture = miscarcandan
 			prestige=300
 		}
+		10={
+			key="Camoran"
+			owner=VAA
+			culture = camoran
+			prestige=300
+		}
 		
 		}
 }
@@ -2737,7 +2743,8 @@ country = {
 			}
 		}
 		
-		VAA = {          
+		VAA = {   
+			family = 10
 			government = despotic_monarchy
 			primary_culture = camoran
 			religion = green_pantheon
