@@ -1669,8 +1669,8 @@
 1841={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1688,8 +1688,8 @@
 1842={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1745,8 +1745,8 @@
 1845={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1821,8 +1821,8 @@
 1849={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1859,19 +1859,22 @@
 1851={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -2087,8 +2090,8 @@
 1863={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2239,19 +2242,22 @@
 1871={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="drublog"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
