@@ -1,16 +1,18 @@
 ﻿761={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="talandan"
 	}
 	slaves={
 		amount=1
@@ -20,16 +22,18 @@
 762={ 
 	terrain="hills"
 	trade_goods="salt"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="talandan"
 	}
 	slaves={
 		amount=1
@@ -39,16 +43,18 @@
 763={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="talandan"
 	}
 	slaves={
 		amount=1
@@ -58,16 +64,18 @@
 764={ 
 	terrain="plains"
 	trade_goods="amber"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="talandan"
 	}
 	slaves={
 		amount=1
@@ -89,20 +97,18 @@
 		amount=3
 	}
 	freemen={
-		amount=6
-	}
-	freemen={
-		amount=2
-		religion="green_pantheon"
-		culture="talandan"
+		amount=8
 	}
 	slaves={
 		amount=4
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	slaves={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 		religion="green_pantheon"
 		culture="talandan"
 	}
@@ -111,16 +117,18 @@
 766={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="talandan"
 	}
 	slaves={
 		amount=1
@@ -2204,27 +2212,33 @@
 1869={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=10
 	}
 	tribesmen={
-		amount=4
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 1870={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2321,8 +2335,8 @@
 1875={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2378,8 +2392,8 @@
 1878={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2435,8 +2449,8 @@
 1882={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2454,8 +2468,8 @@
 1883={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2473,8 +2487,8 @@
 1884={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2492,8 +2506,8 @@
 1885={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2511,8 +2525,8 @@
 1886={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2530,13 +2544,16 @@
 1887={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -2549,8 +2566,8 @@
 1888={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2568,8 +2585,8 @@
 1889={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2587,8 +2604,8 @@
 1890={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2694,13 +2711,13 @@
 		amount=3
 	}
 	freemen={
-		amount=4
+		amount=7
 	}
 	tribesmen={
 		amount=8
 	}
 	slaves={
-		amount=7
+		amount=5
 	}
 }
 
@@ -2802,8 +2819,8 @@
 1901={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2821,8 +2838,8 @@
 1902={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2840,8 +2857,8 @@
 1903={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3353,8 +3370,8 @@
 1930={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3598,7 +3615,7 @@
 }
 
 1943={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="wvenedi"
@@ -4018,8 +4035,8 @@
 1965={ 
 	terrain="plains"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4113,8 +4130,8 @@
 1970={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4151,8 +4168,8 @@
 1972={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4170,8 +4187,8 @@
 1973={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4189,8 +4206,8 @@
 1974={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4303,8 +4320,8 @@
 1980={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="barkbite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4816,8 +4833,8 @@
 2007={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4930,27 +4947,30 @@
 2013={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 2014={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="lhurgash"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5367,8 +5387,8 @@
 2036={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="darkfern"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5386,8 +5406,8 @@
 2037={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="darkfern"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5595,13 +5615,16 @@
 2048={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="darkfern"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -5614,8 +5637,8 @@
 2049={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="darkfern"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
