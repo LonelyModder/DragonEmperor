@@ -90,11 +90,19 @@
  bosmer:2 "Bosmer"
  talandan:0 "Talandan"
  camoran:0 "Camoran"
+ silvenite:0 "Silvenarite"
+ bmarcher:0 "Marcher"
+ eldenite:0 "Eldenite"
+ havenite:0 "Havenite"
+ rootwater:0 "Rootwater"
+ greenheartan:0 "Greenheartan"
+ vinedusk:0 "Vinedusk"
  bosmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  bosmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Nedic
  nede:2 "Nedic"
  nedeken:0 "Nede-Ken"
+ nmarcher:0 "Marcher"
  hernan:0 "Hernan"
  kvatchan:0 "Getite"
  perenan:0 "Perenan"
@@ -192,7 +200,7 @@
  khajiit_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Imga
  imga:2 "Imgan"
- imgan:0 "Imgan"
+ unga:0 "Ungan"
  imga_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  imga_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Nordic

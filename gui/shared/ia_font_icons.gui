@@ -71,6 +71,16 @@ texticon = {
 }
 
 texticon = {
+    icon = kallopi
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/kallopi.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = malachite
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/malachite.dds"
