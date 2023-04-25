@@ -213,6 +213,7 @@ provinces = { #Any entry must contain a comment with city name.
 	1240 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	1557 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	1173 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	2076 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	
 	#Buildings
 	464 = {
@@ -1134,7 +1135,9 @@ country = {
 			own_control_core = 	{ 
 				761 762 763 764 765 766 
 				1955 1945 1942 1915 1924 2020 2041 
-				1941 1943 1944 1946 1947 1948 1949 1950 1952 1953 1934 1931 1932
+				1941 1943 1944 1946 1947 1948 1949 1950 1952 1953 1934 
+				1931 1932 1922 1920 2016 2017 2018 2027 2038 2042 2043 2058 2056 2055 2057
+				2001 2002 2003 2004 1987
 			}
 		}
 		
@@ -1444,6 +1447,7 @@ country = {
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082
 				787 788 789 814 816 815 818 817 1100 1098 1099 1096 1097
 				1123 1121 1117 1118 1219 1220 1221 1227 1236 1246 1247 1256 1257 1238 1237
+				802 801 809 813 799 808 812 819 820 15 821 851 
 			}
 		}
 		
@@ -1468,7 +1472,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				806 800 798 797 803 805 804 807
+				806 800 798 797 803 805 804 807 811 823 843 845 844 
+				841 842 834 836 838 810 833 835 837
 			}
 		}
 		
@@ -1493,7 +1498,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				849 847 846 825 858 859
+				849 847 846 825 858 859 828 827 826 824 822 823 848
 			}
 		}
 		
@@ -1518,7 +1523,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				856 857 854 861
+				856 857 854 861 855 852 830 853 829 860 850 863 862 864 
+				865 866 867 
 			}
 		}
 		
@@ -1547,7 +1553,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				901 868 869 902 903
+				901 868 869 902 903 904
 			}
 		}
 		
@@ -1592,7 +1598,10 @@ country = {
 			
 			own_control_core = 	{ 
 				 889 890 885 884 888 900 912 911 926
-				 887 899 920 927 923 917 916 922 
+				 887 899 920 927 923 917 916 922 879 880 
+				 874 876 877 871 872 873 886 898 915 921 
+				 925 924 927 929 928 918 896 913 882 883 
+				 881 892 893 891 914 919 934
 			}
 		}
 		
@@ -1621,108 +1630,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  908 909 907 897
-			}
-		}
-		
-		CAJ = {          
-			government = despotic_monarchy
-			primary_culture = silornian
-			religion = elven_pantheon
-			capital = 951
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				  951 952 947 942 
-			}
-		}
-		
-		CAK = {          
-			government = despotic_monarchy
-			primary_culture = nornalhorstan
-			religion = elven_pantheon
-			capital = 967
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				   967 961 963 966
-			}
-		}
-		
-		CAL = {          
-			government = despotic_monarchy
-			primary_culture = neyandan
-			religion = elven_pantheon
-			capital = 1120
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				  1120 1119 1131 1116
-			}
-		}
-		
-		CAM = {          
-			government = despotic_monarchy
-			primary_culture = wenyandawikite
-			religion = elven_pantheon
-			capital = 1168
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				  1168 1137 1170 1169 1159 1157 1165 1156 
-				  1139 1160 1138 1136 1133 1158 1155
+				  908 909 907 897 894 906 895 910 932 905
 			}
 		}
 		
@@ -1802,35 +1710,6 @@ country = {
 			
 			own_control_core = 	{ 
 				  1182 1181 1186 1185 1183 1184 1188 1187
-			}
-		}
-		
-		CAR = {          
-			government = despotic_monarchy
-			primary_culture = telepan
-			religion = elven_pantheon
-			capital = 1203
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-				{
-					culture = nibeneank 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				  1207 1205 1216 1201 1202 1203 1204 1206 1215
 			}
 		}
 		
@@ -2003,89 +1882,6 @@ country = {
 			}
 		}
 		
-		CBB = {          
-			government = despotic_monarchy
-			primary_culture = hrotandan
-			religion = elven_pantheon
-			capital = 1059
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-				{
-					culture = minotauran 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1059 1025 1058 1055 1026 1047
-			}
-		}
-		
-		CBC = {          
-			government = despotic_monarchy
-			primary_culture = wendiran
-			religion = elven_pantheon
-			capital = 1038
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1038 1030 1035 1036 1032 1031
-			}
-		}
-		
-		CBD = {          
-			government = despotic_monarchy
-			primary_culture = nonungalite
-			religion = elven_pantheon
-			capital = 1008
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-				{
-					culture = minotauran 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1008 1009 993 994
-			}
-		}
-		
 		CBE = {          
 			government = despotic_monarchy
 			primary_culture = vilverinite
@@ -2109,32 +1905,7 @@ country = {
 			own_control_core = 	{ 
 				1240 1239 1249 1241 1242 1243 1244 1245 1252 1253 1255 1250
 			}
-		}
-		
-		CBF = {          
-			government = despotic_monarchy
-			primary_culture = elenglynnite
-			religion = elven_pantheon
-			capital = 988
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				988 941 957
-			}
-		}
+		} 
 		
 		CBG = {          
 			government = despotic_monarchy
@@ -2213,31 +1984,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1016 1017 1018 1020
-			}
-		}
-		
-		CBJ = {          
-			government = despotic_monarchy
-			primary_culture = culottan
-			religion = elven_pantheon
-			capital = 1488
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1488 1491 1493 1492 1489 1485 1248 1267
 			}
 		}
 		
@@ -2406,31 +2152,6 @@ country = {
 			}
 		}
 		
-		CBT = {          
-			government = despotic_monarchy
-			primary_culture = veyondite
-			religion = elven_pantheon
-			capital = 1663
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1673 1672 1661 1671 1670 1663 1662 1660
-			}
-		}
-		
 		CBU = {          
 			government = despotic_monarchy
 			primary_culture = beldan
@@ -2505,57 +2226,7 @@ country = {
 				1388 1406 1397 1398
 			}
 		}
-		
-		CBZ = {          
-			government = despotic_monarchy
-			primary_culture = kemenite
-			religion = elven_pantheon
-			capital = 1427
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1427 1426 1425 1428 1430 1412 1415 1420 1418 1431 1432 1414
-			}
-		}
-		
-		CCA = {          
-			government = despotic_monarchy
-			primary_culture = mackementainic
-			religion = elven_pantheon
-			capital = 1525
-			
-			poptype_rights = {
-				{
-					culture = nedeken 
-					type = slaves
-				}
-			}
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1525 1530 1531 1527 1522 1526
-			}
-		}
-		
+				
 		CCB = {          
 			government = despotic_monarchy
 			primary_culture = ondan
@@ -2602,7 +2273,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1459 1458
+				1459 1458 1508 1480 1456 1457
 			}
 		}
 		
@@ -2628,6 +2299,10 @@ country = {
 			
 			own_control_core = 	{ 
 				1594 1605 1609 1542 1583 1584 1593 1579 1576 1565 1564 1567 1566 1563 1548 1549 1610 1596 1598 1597 1600 1599 1611
+				951 952 947 942 967 961 963 966 1120 1119 1131 1116 1168 1137 1170 1169 1159 1157 1165 1156 1139 1160 1138 1136 1133 
+				1158 1155 1427 1426 1425 1428 1430 1412 1415 1420 1418 1431 1432 1414 1525 1530 1531 1527 1522 1526 1673 1672 1661 
+				1671 1670 1663 1662 1660 1488 1491 1493 1492 1489 1485 1248 1267 988 941 957 1059 1025 1058 1055 1026 1047 1038 1030 
+				1035 1036 1032 1031 1008 1009 993 994 1207 1205 1216 1201 1202 1203 1204 1206 1215
 			}
 		}
 		
@@ -2652,7 +2327,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1041 1042 1000 1049
+				1041 1042 1000 1049 1095
 			}
 		}
 		
@@ -2787,15 +2462,15 @@ country = {
 				1808 1809 1817 1846 1847 1861 1848 1862 1770 1771 1772 1773 1774 1775 1776 1777 1796 1778
 				1728 1729 1730 1763 1764 1765 1766 1767 1768 1769 1789 1810 1790 1840 1839 1791 1792 1793 1794 1795
 				1837 1836 1822 1824 1823 1821 1819 1818 1820 1838 1872 1834 1829 1830 1831 1832 1833 1835 1826 1825 1827 1828 2021 2025
-			    1933 1920 1921 1922 1923 1925 1935 1951 1911 1912 1913 1914 1916 1917 1908 1909 1910
+			    1933 1921 1923 1925 1935 1951 1911 1912 1913 1914 1916 1917 1908 1909 1910
 				1918 1926 1927 1907 1928 1905 1900 1906 1904 1919 1929 1954 1956 1957 1982 1983 1984 1985 1986 1981
-				1989 1988 1987 2001 2002 1990 1993 1999 2000 1994 1992
+				1989 1988 1990 1993 1999 2000 1994 1992
 				1979 1959 1977 1958 1962 1940 1960 1939 1961 1938 1937 1991 1997 1998 1978 1976 1963 1967 2006 1974 2007
-			    1966 1968 1969 1964 1936 2003 2004 2005 2010 2009 2008 1973 2013 2012 2011
+			    1966 1968 1969 1964 1936 2005 2010 2009 2008 1973 2013 2012 2011
 			    1971 1975 1972 1873 1876 1874 1877 1995 1996 2022 2026 2023 2029
 				1786 1788 1779 1780 1781 1782 1783 1784 1785 1787 1864 1865 1866 1867 1868
-				2014 2015 2016 2017 2018 2019 2024 2027 2028 2052 2053 2054 2034 2031 2033 2051 2050 2062 2063 2064 2065
-				2030 2032 2040 2047 2035 2046 2055 2057 2056 2058 2045 2043 2042 2044 2039 2038 2061
+				2014 2015 2019 2024 2028 2052 2053 2054 2034 2031 2033 2051 2050 2062 2063 2064 2065
+				2030 2032 2040 2047 2035 2046 2045 2044 2039 2061
 				2072 2069 2068 2067 2066 2059 2060 2070 2071 2074 2075 2073 2076 2077 2078 2079 2080 2081 2082 2083 2084 2085 2086 2087
 			}
 		}

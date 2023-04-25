@@ -2995,7 +2995,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="imgan"
+		culture="cyrodi"
 	}
 }
 
@@ -3089,7 +3089,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="imgan"
+		culture="cyrodi"
 	}
 }
 
@@ -3186,7 +3186,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="imgan"
+		culture="cyrodi"
 	}
 }
 
@@ -13815,7 +13815,7 @@
 
 1495={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="goydonite"
 	civilization_value=0
@@ -13853,7 +13853,7 @@
 
 1497={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="goydonite"
 	civilization_value=0
@@ -15473,7 +15473,7 @@
 
 1586={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="uvaviri"
 	civilization_value=0
@@ -15492,7 +15492,7 @@
 
 1587={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
 	culture="krar"
 	civilization_value=0

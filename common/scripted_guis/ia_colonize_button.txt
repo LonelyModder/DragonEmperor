@@ -27,7 +27,6 @@
 			AND = {
 				hidden:scope:player = {
 					manpower >= 1
-					num_of_ports>=1
 				}
 				trigger_if = {
 					limit = {	

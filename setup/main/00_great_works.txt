@@ -17,6 +17,9 @@ provinces = {
 	1895={ # Falinesti
 		great_work=6
 	}
+	2052={ # Elden Root
+		great_work=7
+	}
 }
 
 great_work_manager={	
@@ -151,6 +154,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_falinesti"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		7={
+			ancient_wonder = yes
+			key="eldentree"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_eldentree"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_eldentree"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_eldentree"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
