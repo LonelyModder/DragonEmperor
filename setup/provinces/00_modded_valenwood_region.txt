@@ -641,7 +641,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -660,7 +660,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -679,7 +679,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -736,7 +736,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="verda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -755,10 +755,13 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="verda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -774,7 +777,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -793,7 +796,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="verda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -812,7 +815,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="verda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -831,7 +834,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -850,7 +853,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -869,7 +872,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -888,7 +891,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -907,7 +910,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="vinedusk"
+	culture="gurda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -926,7 +929,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vilgane"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -945,7 +948,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vilgane"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -964,7 +967,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vilgane"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -983,7 +986,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vilgane"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1002,7 +1005,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gurda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1021,7 +1024,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="senali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1040,10 +1043,13 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gurda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1059,7 +1065,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gurda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1078,7 +1084,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1233,7 +1239,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1252,7 +1258,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1271,7 +1277,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1290,7 +1296,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1309,7 +1315,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1328,7 +1334,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1347,7 +1353,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1366,7 +1372,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1385,12 +1391,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1404,7 +1413,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1423,7 +1432,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1442,7 +1451,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1461,7 +1470,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1480,7 +1489,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1499,7 +1508,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1518,7 +1527,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1537,7 +1546,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1556,7 +1565,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1575,7 +1584,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1594,7 +1603,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="willowan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1613,7 +1622,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1632,7 +1641,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1651,7 +1660,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1725,7 +1734,7 @@
 
 1843={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="silvenite"
 	civilization_value=0
@@ -1745,7 +1754,7 @@
 	}
 	tribesmen={
 		amount=3
-		
+		culture="gurda"
 	}
 	slaves={
 		amount=5
@@ -1794,7 +1803,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1813,7 +1822,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1830,14 +1839,17 @@
 
 1848={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="kallopi"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -1909,14 +1921,17 @@
 
 1852={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="silvenite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -2082,7 +2097,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2101,7 +2116,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="valeguardic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2139,7 +2154,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2158,7 +2173,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2177,7 +2192,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2196,7 +2211,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2215,7 +2230,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2300,7 +2315,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="jodei"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2319,7 +2334,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fulda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2338,10 +2353,13 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fulda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2376,7 +2394,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fulda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2395,7 +2413,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fulda"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2906,7 +2924,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="zennqan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2925,7 +2943,7 @@
 	terrain="hills"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2944,7 +2962,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2963,7 +2981,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2982,7 +3000,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3001,7 +3019,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3020,7 +3038,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3039,7 +3057,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3058,7 +3076,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3077,7 +3095,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3096,7 +3114,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3125,7 +3143,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="geleki"
 	}
 	slaves={
 		amount=1
@@ -3136,7 +3154,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3155,7 +3173,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3174,7 +3192,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3193,7 +3211,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3212,7 +3230,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3231,7 +3249,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3249,16 +3267,18 @@
 1922={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="geleki"
 	}
 	slaves={
 		amount=1
@@ -3269,7 +3289,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3298,7 +3318,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="woodhearthan"
 	}
 	slaves={
 		amount=1
@@ -3309,7 +3329,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3328,7 +3348,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3347,7 +3367,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3366,7 +3386,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="vullaini"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3385,7 +3405,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3423,7 +3443,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3442,7 +3462,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3461,7 +3481,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3480,7 +3500,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3499,7 +3519,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3518,7 +3538,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3537,7 +3557,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3556,7 +3576,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3575,7 +3595,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3594,7 +3614,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3613,7 +3633,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3642,7 +3662,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="woodhearthan"
 	}
 	slaves={
 		amount=1
@@ -3653,7 +3673,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3672,18 +3692,35 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
+	citizen={
+		amount=3
+		religion="elven_pantheon"
+		culture="hiforested"
+	}
+	freemen={
+		amount=3
+		religion="elven_pantheon"
+		culture="hiforested"
+	}
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		
+	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -3701,7 +3738,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="woodhearthan"
 	}
 	slaves={
 		amount=1
@@ -3712,7 +3749,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3731,7 +3768,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3749,16 +3786,18 @@
 1948={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="woodhearthan"
 	}
 	slaves={
 		amount=1
@@ -3769,7 +3808,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3788,7 +3827,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3807,7 +3846,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="geleki"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3826,7 +3865,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3845,7 +3884,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="woodhearthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3864,7 +3903,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3926,7 +3965,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3945,7 +3984,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3964,7 +4003,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3983,7 +4022,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4002,7 +4041,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4021,7 +4060,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4040,7 +4079,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4057,14 +4096,17 @@
 
 1964={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="kallopi"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -4097,7 +4139,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4116,7 +4158,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4135,7 +4177,7 @@
 	terrain="plains"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="tarlainite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4154,7 +4196,7 @@
 	terrain="plains"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="tarlainite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4192,7 +4234,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="tarlainite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4268,7 +4310,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="tarlainite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4287,7 +4329,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4306,7 +4348,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="negekite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4325,7 +4367,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="whisperan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4344,7 +4386,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4382,7 +4424,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4401,7 +4443,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4420,7 +4462,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4439,7 +4481,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4458,7 +4500,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4477,7 +4519,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4496,7 +4538,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4544,7 +4586,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4563,7 +4605,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4582,7 +4624,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4601,7 +4643,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="rootwater"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4620,7 +4662,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4639,7 +4681,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4658,7 +4700,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4677,7 +4719,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4696,7 +4738,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4715,7 +4757,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4734,7 +4776,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4753,7 +4795,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4772,7 +4814,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4790,16 +4832,18 @@
 2002={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="greenheartan"
 	}
 	slaves={
 		amount=1
@@ -4810,7 +4854,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4828,16 +4872,18 @@
 2004={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="greenheartan"
 	}
 	slaves={
 		amount=1
@@ -4848,7 +4894,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4867,7 +4913,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4905,7 +4951,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4924,7 +4970,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4943,7 +4989,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4962,7 +5008,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4981,7 +5027,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenheartan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5041,7 +5087,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fammeseni"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5060,7 +5106,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5079,7 +5125,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5098,7 +5144,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5117,7 +5163,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fammeseni"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5146,7 +5192,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="gliverite"
 	}
 	slaves={
 		amount=1
@@ -5157,7 +5203,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5176,7 +5222,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5195,7 +5241,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5214,7 +5260,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fammeseni"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5233,7 +5279,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5252,7 +5298,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5271,7 +5317,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5290,7 +5336,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fammeseni"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5309,7 +5355,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5328,7 +5374,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fakari"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5347,7 +5393,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5366,7 +5412,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5385,7 +5431,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="greenhall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5404,12 +5450,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
@@ -5423,7 +5472,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="fammeseni"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5479,16 +5528,26 @@
 2038={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
 	freemen={
 		amount=1
+		culture="gliverite"
+		religion="green_pantheon"
 	}
 	tribesmen={
 		amount=4
+		culture="gliverite"
+		religion="green_pantheon"
 	}
 	slaves={
 		amount=1
@@ -5499,7 +5558,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5518,7 +5577,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5547,7 +5606,7 @@
 	tribesmen={
 		amount=1
 		religion="green_pantheon"
-		culture="talandan"
+		culture="gliverite"
 	}
 	slaves={
 		amount=1
@@ -5558,7 +5617,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5577,7 +5636,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5596,7 +5655,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5615,7 +5674,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5634,7 +5693,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5653,7 +5712,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="meadowite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5713,7 +5772,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5732,7 +5791,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5769,7 +5828,7 @@
 	}
 	tribesmen={
 		amount=3
-		
+		culture="kundu"
 	}
 	slaves={
 		amount=5
@@ -5780,7 +5839,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5799,7 +5858,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5818,7 +5877,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5837,7 +5896,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5856,7 +5915,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5875,7 +5934,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="gliverite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5894,7 +5953,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5913,7 +5972,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5932,7 +5991,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5951,7 +6010,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5970,7 +6029,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5989,7 +6048,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6008,7 +6067,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="eldenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6027,10 +6086,13 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="kundu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -6046,7 +6108,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="kundu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6065,7 +6127,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="kundu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6084,7 +6146,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="kundu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6103,7 +6165,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6122,7 +6184,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6141,7 +6203,7 @@
 	terrain="plains"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="havenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6160,7 +6222,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6179,7 +6241,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6198,7 +6260,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="wvenedi"
+	culture="salasi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6235,7 +6297,7 @@
 	}
 	tribesmen={
 		amount=3
-		
+		culture="kundu"
 	}
 	slaves={
 		amount=5
@@ -6306,9 +6368,12 @@
 	culture="havenite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=4
 	}
 	tribesmen={
 		amount=4
