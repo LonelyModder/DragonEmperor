@@ -87,7 +87,7 @@ deadric_pantheon = { # Deadric Faith
 	color = hsv { 0.01 0.95 0.92 }
 	modifier = { 
 		agressive_expansion_monthly_change = -0.025
-		land_morale_modifier = 0.2
+		levy_size_multiplier = 0.05
 		monthly_tyranny = 0.02
 	}
 	religion_category = pantheon

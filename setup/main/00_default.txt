@@ -97,6 +97,34 @@ treasure_manager = {
 				local_tax_modifier = 0.2
 			}
 		}
+		14 = { # Abamath
+			key = "treasure_blood_of_mauloch"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
+		15 = { # Silvenar
+			key = "treasure_green_lady"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_monthly_state_loyalty = 0.15
+			}
+		}
+		16 = { # Silvenar
+			key = "treasure_silvenar"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_base_trade_routes_modifier = 0.1
+			}
+		}
+		17 = { # Greenheart
+			key = "treasure_wilderking"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_monthly_food_modifier = 0.1
+			}
+		}
     }
 }
 family={
@@ -202,6 +230,15 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	889 = { # Miscarcand
 		treasure_slots = { 	treasures = { 13 } }
+	}
+	1869 = { # Abamath
+		treasure_slots = { 	treasures = { 14 } }
+	}
+	1843 = { # Silvenar
+		treasure_slots = { 	treasures = { 15 16 } }
+	}
+	1988 = { # Greenheart
+		treasure_slots = { 	treasures = { 17 } }
 	}
 
 	#Pirates
@@ -2401,7 +2438,7 @@ country = {
 		}
 		
 		CCG = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = nakadesh
 			religion = hist_pantheon
 			capital = 1623
@@ -2412,7 +2449,7 @@ country = {
 		}
 		
 		CCH = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = sulxan
 			religion = deadric_pantheon
 			capital = 1669
@@ -2447,7 +2484,7 @@ country = {
 		}
 		
 		CCJ = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = ronthan
 			religion = nedic_pantheon
 			capital = 1410
@@ -2483,7 +2520,7 @@ country = {
 		}
 		
 		CCL = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = haredan
 			religion = nedic_pantheon
 			capital = 1477

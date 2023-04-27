@@ -16,7 +16,7 @@
 						owner = { country_culture_group = ayleid } 
 					}
 				}
-				add_civilization_value = 10
+				add_civilization_value = 5
 			}
 			if = {
 				limit = { 
@@ -26,7 +26,7 @@
 						owner = { country_culture_group = altmer } 
 					}
 				}
-				add_civilization_value = 20
+				add_civilization_value = 15
 			}
 			if = {
 				limit = { terrain = mountain }
