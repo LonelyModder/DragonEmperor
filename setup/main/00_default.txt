@@ -2444,7 +2444,7 @@ country = {
 			capital = 1623
 			
 			own_control_core = 	{ 
-				1625 1623 1624 1622 
+				1625 1623 1624 1622 1621 1626 1645
 			}
 		}
 		
@@ -2461,7 +2461,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1666 1668 1669 1674
+				1666 1668 1669 1674 1667 1659 1658
 			}
 		}
 		
@@ -2552,6 +2552,116 @@ country = {
 			
 			own_control_core = 	{ 
 				1570 1571 1569 
+			}
+		}
+		
+		CAJ = {          
+			government = tribal_kingdom
+			primary_culture = smokefrostan
+			religion = nedic_pantheon
+			capital = 1400
+			
+			own_control_core = 	{ 
+				1392 1394 1393 1391 1395 1400 1399 1401 1403 1402
+			}
+		}
+		
+		CAK = {          
+			government = tribal_kingdom
+			primary_culture = vorketchite
+			religion = nedic_pantheon
+			capital = 1434
+			
+			own_control_core = 	{ 
+				1434 1411 1428 1427 1452 1453 1455 1454 
+			}
+		}
+		
+		CAL = {          
+			government = tribal_kingdom
+			primary_culture = korkarudi
+			religion = nedic_pantheon
+			capital = 1472
+			
+			own_control_core = 	{ 
+				1472 1460 1473 1474 1478
+			}
+		}
+		
+		CAM = {          
+			government = tribal_kingdom
+			primary_culture = bluehorns
+			religion = nedic_pantheon
+			capital = 1013
+			
+			own_control_core = 	{ 
+				1013 1015 1014 1023 1012 1011 
+			}
+		}
+		
+		CAR = {          
+			government = tribal_kingdom
+			primary_culture = redhorns
+			religion = nedic_pantheon
+			capital = 1003
+			
+			own_control_core = 	{ 
+				1003 1004 1002 1001 
+			}
+		}
+		
+		CBB = {          
+			government = tribal_kingdom
+			primary_culture = nibeneank
+			religion = khajiiti_pantheon
+			capital = 1211
+			
+			own_control_core = 	{ 
+				1211 1212 1213 1214
+			}
+		}
+		
+		CBC = {          
+			government = tribal_kingdom
+			primary_culture = xalvaral
+			religion = hist_pantheon
+			capital = 1647
+			
+			own_control_core = 	{ 
+				1647 1648 1650 1646 1627 1628
+			}
+		}
+		
+		CBD = {          
+			government = tribal_kingdom
+			primary_culture = xalialun
+			religion = hist_pantheon
+			capital = 1655
+			
+			own_control_core = 	{ 
+				1655 1656 1657 1649
+			}
+		}
+		
+		CBF = {          
+			government = tribal_kingdom
+			primary_culture = krar
+			religion = hist_pantheon
+			capital = 1616
+			
+			own_control_core = 	{ 
+				1616 1615 1612 1592 1587 1591 1613 1614
+			}
+		}
+		
+		CBJ = {          
+			government = tribal_kingdom
+			primary_culture = skeggan
+			religion = elven_pantheon
+			capital = 1683
+			
+			own_control_core = 	{ 
+				1683 1680 1684 1685 1686 1687
 			}
 		}
 		
