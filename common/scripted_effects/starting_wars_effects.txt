@@ -14,13 +14,6 @@
 			target = c:CCE
 		}
 	}
-	c:CAO = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
 	c:CBW = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
@@ -49,13 +42,6 @@
 			target = c:CCE
 		}
 	}
-	c:CAN = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
 	c:CCB = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
@@ -64,83 +50,6 @@
 		}
 	}
 	c:CCD = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CAH = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CAT = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBU = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBY = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CAF = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CAI = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCF = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBA = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBI = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCO = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCI = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
 		    province = p:1594
