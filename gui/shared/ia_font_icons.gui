@@ -171,6 +171,16 @@ texticon = {
 }
 
 texticon = {
+    icon = nirnroot
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/nirnroot.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = limestone
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/limestone.dds"
