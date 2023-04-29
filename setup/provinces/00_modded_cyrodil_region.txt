@@ -2781,15 +2781,21 @@
 	culture="sorkite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3362,7 +3368,7 @@
 
 962={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="vakril"
 	civilization_value=0
@@ -3481,7 +3487,7 @@
 
 968={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="kvoran"
 	civilization_value=0
@@ -3660,7 +3666,7 @@
 
 977={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nedic_pantheon"
 	culture="gikran"
 	civilization_value=0
@@ -3852,7 +3858,7 @@
 
 987={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="ghecrotchan"
 	civilization_value=0
@@ -4171,11 +4177,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -4366,11 +4375,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -4620,7 +4632,7 @@
 
 1026={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="hrotandan"
 	civilization_value=0
@@ -4660,7 +4672,7 @@
 
 1028={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nedic_pantheon"
 	culture="cegrali"
 	civilization_value=0
@@ -4899,7 +4911,7 @@
 
 1040={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nedic_pantheon"
 	culture="ghecrotchan"
 	civilization_value=0
@@ -4960,7 +4972,7 @@
 
 1043={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nedic_pantheon"
 	culture="zecriinite"
 	civilization_value=0
@@ -6214,7 +6226,7 @@
 
 1109={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="kvoran"
 	civilization_value=0
@@ -6329,7 +6341,7 @@
 
 1115={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="kvoran"
 	civilization_value=0
@@ -6348,7 +6360,7 @@
 
 1116={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="neyandan"
 	civilization_value=0
@@ -8234,11 +8246,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -8362,7 +8377,7 @@
 
 1218={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="goblin_pantheon"
 	culture="rottenlogs"
 	civilization_value=0
@@ -9834,7 +9849,7 @@
 
 1292={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="ninendavan"
 	civilization_value=0
@@ -11667,7 +11682,7 @@
 
 1385={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="arrian"
 	civilization_value=0
@@ -11964,11 +11979,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -12631,11 +12649,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -13376,11 +13397,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -13471,11 +13495,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -14311,7 +14338,7 @@
 
 1521={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="ekretchan"
 	civilization_value=0
@@ -14330,7 +14357,7 @@
 
 1522={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="mackementainic"
 	civilization_value=0
@@ -15162,7 +15189,7 @@
 
 1570={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="ketite"
 	civilization_value=0
@@ -15549,7 +15576,7 @@
 
 1590={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="zircenite"
 	civilization_value=0
@@ -15648,7 +15675,7 @@
 
 1595={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="zircenite"
 	civilization_value=0
@@ -15963,7 +15990,7 @@
 
 1611={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="wendelbekite"
 	civilization_value=0
@@ -15983,7 +16010,7 @@
 
 1612={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="krar"
 	civilization_value=0
@@ -16065,11 +16092,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -16678,11 +16708,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -16833,11 +16866,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -17384,11 +17420,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=5
 	}
 	slaves={
 		amount=1
