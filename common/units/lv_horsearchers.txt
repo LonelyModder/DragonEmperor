@@ -2,11 +2,13 @@
 	
 	army = yes
 	is_flank = yes
-	enable=yes
+	enable=no
 
 	levy_tier = basic
 	
-	
+	allow = {
+		trade_good_surplus = { target = steppe_horses value > 0 }
+	}
 
 	maneuver = 3
 	movement_speed = 4

@@ -6,7 +6,9 @@
 
 	levy_tier = basic
 	
-	
+	allow = {
+		trade_good_surplus = { target = dwemersteel value > 0 }
+	}
 
 	maneuver = 2
 	movement_speed = 2.5

@@ -6,7 +6,9 @@
 
 	levy_tier = basic
 	
-	
+	allow = {
+		trade_good_surplus = { target = cabal_of_witches value > 0 }
+	}
 
 	maneuver = 3
 	movement_speed = 4

@@ -5,6 +5,10 @@
 
 	levy_tier = advanced
 	
+	allow = {
+		trade_good_surplus = { target = circle_of_mages value > 0 }
+	}
+	
 	legions = no
 	maneuver = 1
 	movement_speed = 2.5

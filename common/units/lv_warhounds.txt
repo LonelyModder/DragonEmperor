@@ -4,6 +4,9 @@
 
 	levy_tier = basic
 
+	allow = {
+		trade_good_surplus = { target = beasts value > 0 }
+	}
 	
 	maneuver = 3
 	movement_speed = 4
