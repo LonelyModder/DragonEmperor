@@ -22,6 +22,7 @@
 			scope:province = {
 				OR = {
 					province_id = 453
+					province_id = 1895
 					province_id = 1843
 					province_id = 1771
 					province_id = 1988
@@ -51,13 +52,13 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 453
+			owns = 453
+			owns_or_subject_owns = 1895
 			owns_or_subject_owns = 1843
 			owns_or_subject_owns = 1771
 			owns_or_subject_owns = 1988
 			owns_or_subject_owns = 2076
 			owns_or_subject_owns = 2052
-			owns_or_subject_owns = 453
 			owns_or_subject_owns = 426
 			owns_or_subject_owns = 508
 			owns_or_subject_owns = 616
