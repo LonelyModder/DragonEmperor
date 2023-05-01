@@ -37,6 +37,7 @@
 	attrition_weight = 1.5
 	attrition_loss = 0.05
 	
+	ai_max_percentage = 30
 	morale_damage_taken = 0.0
 	build_cost = {
 		gold = 100

@@ -393,7 +393,7 @@ beasts = { #Added
 
 durzogs = { #Added
 	category = 0
-	allow_unit_type = lv_warhounds
+	#allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
