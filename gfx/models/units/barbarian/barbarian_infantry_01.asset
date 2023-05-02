@@ -770,46 +770,82 @@ entity = {
 }
 
 entity = {
-	name = "BAR_gfx_missile_spearthrowers"
+	name = "BAR_gfx_lv_lightinfantry"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_cavalry_camels"
+	name = "BAR_gfx_lv_heavyinfantry"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_chariot_light"
+	name = "BAR_gfx_lv_archers"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_chariot_heavy"
+	name = "BAR_gfx_lv_scirmishers"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_crossbowmen"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_camels"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_mages"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_cavalry"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_khajiiticavalry"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_guarcavalry"
+	clone = "BAR_gfx_light_infantry"
+}		
+entity = {
+	name = "BAR_gfx_lv_warhounds"
+	clone = "BAR_gfx_light_infantry"
+}	
+entity = {
+	name = "BAR_gfx_lv_horsearchers"
+	clone = "BAR_gfx_light_infantry"
+}		
+entity = {
+	name = "BAR_gfx_lv_minotaurs"
+	clone = "BAR_gfx_light_infantry"
+}		
+entity = {
+	name = "BAR_gfx_lv_centurions"
+	clone = "BAR_gfx_light_infantry"
+}		
+entity = {
+	name = "BAR_gfx_lv_dremoras"
+	clone = "BAR_gfx_light_infantry"
+}			
+entity = {
+	name = "BAR_gfx_lv_undead"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_cavalry_horse_archers"
+	name = "BAR_gfx_lv_gryphons"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_cavalry_light"
+	name = "BAR_gfx_lv_elephants"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_elephant_african"
+	name = "BAR_gfx_supply_train"
 	clone = "BAR_gfx_light_infantry"
 }
-
 entity = {
-	name = "BAR_gfx_elephant_forest"
-	clone = "BAR_gfx_light_infantry"
-}
-
-entity = {
-	name = "BAR_gfx_elephant_indian"
+	name = "BAR_gfx_engineer_cohort"
 	clone = "BAR_gfx_light_infantry"
 }

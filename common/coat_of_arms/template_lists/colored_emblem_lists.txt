@@ -133,11 +133,7 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				or = {
-					country_culture_group = nede
-					country_culture_group = altmer
-					country_culture_group = ayleid
-				}
+				country_culture_group = nede
 			}
 			10 = "ce_hellenic_1.dds"
 			10 = "ce_hellenic_2.dds"
@@ -289,6 +285,22 @@ colored_emblem_texture_lists = {
 			10 = "ce_numidian_02.dds"
 			10 = "ce_numidian_03.dds"
 			10 = "ce_numidian_04.dds"
+		}
+		
+		special_selection = {
+			trigger = {
+				OR={
+					country_culture_group = "altmer"
+					country_culture_group = "ayleid"
+				}
+			}
+			10 = "ce_alinork.dds"
+			10 = "ce_sunhold.dds"
+			10 = "ce_lillandril.dds"
+			10 = "ce_cloudrest.dds"
+			10 = "ce_firsthold.dds"
+			10 = "ce_skyhaven.dds"
+			10 = "ce_shimmerine.dds"
 		}
 		
 		#special_selection = {

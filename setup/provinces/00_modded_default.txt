@@ -1,4995 +1,4131 @@
 ﻿#Test
 
-1=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-2=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="wasteland"
-	trade_goods=""
-}
-
-4=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
+1={ #Ocean
 	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-7=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-8=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-9=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-10=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-11=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-19=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-20=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-21=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-22=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-23=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-24=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-25=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-26=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-31=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-32=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-33=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-34=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-35=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-36=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-37=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-38=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-39=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-40=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-41=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-47=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-48=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-49=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-50=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-51=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-52=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-53=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-54=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-55=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-56=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-57=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-58=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-59=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-60=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-61=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-62=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-63=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-64=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-65=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-66=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-67=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-68=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-69=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-70=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-71=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-72=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-73=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-74=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-75=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-76=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-77=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-78=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-79=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-91=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-92=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-93=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-94=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-95=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-96=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-97=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-98=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-99=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-100=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-101=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-102=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-103=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-104=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-105=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-106=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-107=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-108=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-109=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-110=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-111=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-112=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-113=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-114=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-115=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-116=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-117=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-118=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-119=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-120=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-121=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-122=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-123=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-124=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-125=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-126=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-127=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-128=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-129=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-130=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-131=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-132=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-133=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-134=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-135=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-136=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-137=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-138=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-139=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-140=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-141=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-142=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-143=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-144=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-145=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-146=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-147=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-148=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-149=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-150=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-151=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-152=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-153=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-154=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-155=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-156=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-157=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-158=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-159=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-160=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-161=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-162=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-163=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-164=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-165=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-166=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-167=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-168=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-169=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-170=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-171=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-172=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-173=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-174=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-175=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-176=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-177=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-178=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-179=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-180=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-181=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-182=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-183=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-184=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-185=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-186=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-187=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-188=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-189=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-190=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-191=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-192=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-193=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-194=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-195=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-196=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-197=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-198=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-199=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-200=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-201=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-202=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-203=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-204=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-205=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-206=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-207=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-208=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-209=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-210=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-211=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-212=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-213=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-214=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-215=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-216=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-217=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-218=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-219=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-220=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-221=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-222=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-223=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-224=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-225=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-226=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture="goblinken"
-	province_rank=""
 	religion="goblin_pantheon"
-	terrain="impassable_terrain"
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-236=
-{
-	barbarian_power=0
-	civilization_value=0
+2={ #Lands
+	terrain="impassable_terrain"
 	culture="goblinken"
-	province_rank=""
 	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+3={ #Province TO DO
 	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-237=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-238=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-239=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="ocean"
-	trade_goods=""
-}
-
-240=
-{
-	barbarian_power=30
-	civilization_value=0
 	culture="goblinken"
-	province_rank=""
 	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+4={ #Mountain Range
 	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-241=
-{
-	barbarian_power=0
+5={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
 	civilization_value=0
-	culture=""
+	barbarian_power=0
 	province_rank=""
-	religion=""
+}
+
+6={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+7={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+9={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+11={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+12={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+13={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+14={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+16={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+17={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+18={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+19={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+20={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+21={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-313=
-{
-	barbarian_power=0
+24={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
 	civilization_value=0
-	culture=""
+	barbarian_power=0
 	province_rank=""
+}
+
+25={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+26={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+27={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+28={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+29={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+30={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+31={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+32={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+33={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+34={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+35={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+36={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+37={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+38={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+39={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+40={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+41={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+42={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+43={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+44={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+45={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+46={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+47={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+48={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+49={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+50={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+51={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+52={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+53={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+54={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+55={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+56={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+57={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+58={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+59={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+60={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+61={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+62={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+63={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+64={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+65={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+66={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+67={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+68={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+69={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+70={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+71={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+72={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+73={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+74={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+75={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+76={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+77={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+78={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+79={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+80={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+81={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+82={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+83={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+84={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+85={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+86={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+87={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+88={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+89={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+90={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+91={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+92={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+93={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+94={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+95={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+96={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+97={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+98={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+99={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+100={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+101={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="obloodfall"
+	religion="codeofmalacath_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+102={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+103={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+104={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+105={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+106={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+107={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+108={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+109={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="obloodfall"
+	religion="codeofmalacath_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+110={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+111={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+112={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+113={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+114={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+115={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+116={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+117={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+118={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+119={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+120={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+121={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+122={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+123={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+124={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+125={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+126={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+127={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+128={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+129={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+130={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+131={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+132={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+133={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+134={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+135={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+136={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+137={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+138={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+139={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+140={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+141={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+142={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+143={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+144={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+145={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+146={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+147={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+148={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+149={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+150={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+151={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+152={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+153={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+154={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+155={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+156={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+157={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+158={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+159={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+160={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+161={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+162={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+163={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+164={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+165={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+166={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+167={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+168={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+169={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+170={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+171={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+172={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+173={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+174={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+175={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+176={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+177={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+178={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+179={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+180={ #Mountain Range
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+181={ #Lake
+	terrain="ocean"
+	culture=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+182={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+183={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+184={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+185={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+186={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+187={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+188={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+189={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+190={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+191={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+192={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+193={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+194={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+195={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+196={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+197={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+198={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+199={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+200={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+201={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+202={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+203={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+204={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+205={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+206={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+207={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+208={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+209={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+210={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+211={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+212={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+213={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+214={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+215={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+216={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+217={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+218={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+219={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+220={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+221={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+222={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+223={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+234={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+235={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+236={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+237={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+238={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+239={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+240={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+241={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+242={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+243={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+244={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+245={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+246={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+247={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+248={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+249={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+250={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+251={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+252={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+253={ #Sailable
 	terrain="coastal_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-414=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+254={ #Sailable
 	terrain="coastal_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-436=
-{
-	barbarian_power=0
-	civilization_value=0
+255={ #Sailable
+	terrain="coastal_terrain"
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+256={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+257={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+258={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+259={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+260={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-242=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-243=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-244=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-245=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-246=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+261={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-247=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+262={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-248=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+263={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-249=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+264={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-250=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-251=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-252=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-253=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-254=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-255=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-256=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-257=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-258=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-259=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-260=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-261=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-262=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-323=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-324=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-325=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-326=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-327=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-328=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-329=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-330=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-331=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-332=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-333=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-334=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-335=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-336=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-337=
-{
-	barbarian_power=30
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-338=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-339=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-340=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+265={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-341=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+266={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-342=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-343=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+267={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-344=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+268={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-345=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+269={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-346=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+270={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-347=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+271={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-348=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+272={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-349=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+273={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-350=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+274={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-351=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+275={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-352=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+276={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-511=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+277={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-557=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-558=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+278={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-559=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-963=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="goblinken"
-	province_rank=""
-	religion="goblin_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-964=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+279={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-965=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+280={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-966=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+281={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-967=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+282={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-968=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+283={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-969=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+284={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-970=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+285={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-971=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+286={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-972=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+287={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-973=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+288={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-974=
-{
-	barbarian_power=0
-	civilization_value=0
+289={ #Sailable
+	terrain="ocean"
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+290={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+291={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+292={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+293={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+294={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+295={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+296={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+297={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+298={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+299={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+300={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+301={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+302={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+303={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+304={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+305={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+306={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+307={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+308={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+309={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+310={ #Lake
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+311={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+312={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+313={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+314={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+315={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+316={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+317={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+318={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+319={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+320={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+321={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+322={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+323={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+324={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+325={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+326={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+327={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+328={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+329={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+330={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+331={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+332={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+333={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+334={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+335={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+336={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+337={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+338={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+339={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+340={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+341={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+342={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+343={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+344={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+345={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+346={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+347={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+348={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+349={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+350={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+351={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+352={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+353={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+354={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+355={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+356={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+357={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+358={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+359={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+360={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+361={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+362={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+363={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+364={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+365={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+366={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+367={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+368={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+369={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+370={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+371={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+372={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+373={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+374={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+375={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+376={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+377={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+378={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+379={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+380={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+381={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+382={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+383={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+384={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+385={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+386={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+387={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+388={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+389={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+390={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+391={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+392={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+393={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+394={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+395={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+396={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-975=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+397={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-976=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+398={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-977=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+399={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-978=
-{
-	barbarian_power=0
-	civilization_value=0
+400={ #Sailable
+	terrain="coastal_terrain"
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+401={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+402={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+403={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-979=
-{
-	barbarian_power=0
-	civilization_value=0
+404={ #Sailable
+	terrain="coastal_terrain"
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+405={ #Sailable
+	terrain="coastal_terrain"
+	culture=""
+	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+406={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-980=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+407={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-981=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+408={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-982=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+409={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-983=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+410={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-984=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+411={ #Lake
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-985=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+412={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-986=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+413={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-987=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+414={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-988=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+415={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-989=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-990=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-991=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-992=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-993=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+416={ #Sailable
 	terrain="riverine_terrain"
+	culture=""
+	religion=""
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-994=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-995=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-996=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-997=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-998=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-999=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1000=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1001=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1002=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1003=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1004=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1005=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1006=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1007=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1008=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1009=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1010=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1011=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1012=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1013=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1014=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1015=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1016=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1017=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1018=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1019=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1020=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1021=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1022=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
-	terrain="coastal_terrain"
-	trade_goods=""
-}
-
-1023=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture=""
-	province_rank=""
-	religion=""
+417={ #Sailable
 	terrain="ocean"
-	trade_goods=""
-}
-
-1024=
-{
-	barbarian_power=0
-	civilization_value=0
 	culture=""
-	province_rank=""
 	religion=""
-	terrain="ocean"
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-1025=
-{
-	barbarian_power=0
-	civilization_value=0
+418={ #Sailable
+	terrain="ocean"
 	culture=""
-	province_rank=""
 	religion=""
-	terrain="ocean"
 	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
 }
 
-1026=
-{
-	barbarian_power=0
-	civilization_value=0
+419={ #Sailable
+	terrain="ocean"
 	culture=""
-	province_rank=""
 	religion=""
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+420={ #Sailable
 	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
-}
-
-1027=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1028=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1029=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1030=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1031=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1032=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1033=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1034=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1035=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1036=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1037=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1038=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1039=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1040=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1041=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1042=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1043=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1044=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1045=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1046=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1047=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1048=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1049=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1050=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1051=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1052=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1053=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1054=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1055=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1056=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1057=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1058=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1059=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1060=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1061=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1062=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1063=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1064=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1065=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1066=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1067=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1068=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1069=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1070=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1071=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1072=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1073=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1074=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1075=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1076=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1077=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1078=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1079=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1080=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1081=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1082=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1083=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1084=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1085=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1086=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1087=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1088=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1089=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1090=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1091=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1092=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1093=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1094=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1095=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1096=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1097=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1098=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1099=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1100=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1101=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1102=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1103=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1104=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1105=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1106=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
-}
-
-1107=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1108=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1109=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1110=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1111=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1112=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1113=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1114=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1115=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1116=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1117=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1118=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1119=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1120=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1121=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
-}
-
-1122=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
-}
-
-1123=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1124=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
-}
-
-1125=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1126=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1127=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1128=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1129=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1130=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1131=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1132=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1133=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
+506={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
-}
-
-1134=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1135=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1136=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
+760={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
-}
-
-1137=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1138=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1139=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1551={ #Black Marsh
 	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
-}
-
-1140=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1141=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
 }
 
-1142=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1552={ #Black Marsh
 	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
-}
-
-1143=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1648=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1649=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1553={ #Black Marsh
 	terrain="impassable_terrain"
+	culture="hutsleel"
+	religion="hist_pantheon"
 	trade_goods=""
-}
-
-1650=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1651=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1652=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1554={ #Black Marsh
 	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
-}
-
-1653=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1654=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }
 
-1655=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1555={ #Black Marsh
 	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
-}
-
-1656=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1657=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="wasteland"
-	trade_goods=""
 }
 
-1658=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
+1556={ #Mountain Range
 	terrain="impassable_terrain"
+	culture="nakadesh"
+	religion="hist_pantheon"
 	trade_goods=""
-}
-
-1659=
-{
-	barbarian_power=0
 	civilization_value=0
-	culture="wvenedi"
-	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
-}
-
-1660=
-{
 	barbarian_power=0
-	civilization_value=0
-	culture="wvenedi"
 	province_rank=""
-	religion="slavic_pantheon"
-	terrain="impassable_terrain"
-	trade_goods=""
 }

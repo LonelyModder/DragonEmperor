@@ -1,0 +1,149 @@
+﻿country_decisions = {
+	
+	# Form Empire of Cyrod
+	form_hkcyrod = {
+		
+		potential = {
+			OR = {
+				country_culture_group = nede
+				country_culture_group = ayleid
+				primary_culture =  cyronordic
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XCY
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071
+					is_in_area = weye_area
+					is_in_area = vindasel_area
+					is_in_area = sardavarleed_area
+					is_in_area = magia_area
+					is_in_area = vilverin_area
+					is_in_area = sercen_area
+					is_in_area = caractacus_area
+					is_in_area = westerncityisle_area
+					is_in_area = easterncityisle_area
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hkcyrod_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XCY
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns_or_subject_owns = 1071
+			owns_area = weye_area
+			owns_area = vindasel_area
+			owns_area = sardavarleed_area
+			owns_area = magia_area
+			owns_area = vilverin_area
+			owns_area = sercen_area
+			owns_area = caractacus_area
+			owns_area = westerncityisle_area
+			owns_area = easterncityisle_area
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			if = {
+				limit = { 
+					OR = {
+						country_culture_group = nede
+						primary_culture =  cyronordic
+					}					
+				}
+				change_country_name = "HKCyrod_name"
+			}
+			else_if = {
+				limit = { country_culture_group = ayleid }
+				change_country_name = "AyCyrod_name"
+			}
+			change_country_flag = XCY
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				if = {
+					limit = { 
+						OR = {
+							country_culture_group = nede
+							primary_culture =  cyronordic
+						}					
+					}
+					change_country_adjective = "HKCyrod_adj"
+				}
+				else_if = {
+					limit = { country_culture_group = ayleid }
+					change_country_adjective = "AyCyrod_adj"
+				}
+				change_country_color =  "HKCyrod_color"
+				change_country_tag = XCY
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1071
+						}
+					}
+				}
+				set_capital = 1071
+				hidden_effect = {
+					p:1071.state = {
+						set_state_capital = 1071
+					}
+				}
+			}
+			#p:1071 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:1071 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_goldcoast_region = { formable_region_province_effect = yes }
+				region:modded_kvatch_region = { formable_region_province_effect = yes }
+				region:modded_skingrad_region = { formable_region_province_effect = yes }
+				region:modded_chorrol_region = { formable_region_province_effect = yes }
+				region:modded_heartlands_region = { formable_region_province_effect = yes }
+				region:modded_westweald_region = { formable_region_province_effect = yes }
+				region:modded_lowerniben_region = { formable_region_province_effect = yes }
+				region:modded_sjerall_region = { formable_region_province_effect = yes }
+				region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+				region:modded_valus_region = { formable_region_province_effect = yes }
+				region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

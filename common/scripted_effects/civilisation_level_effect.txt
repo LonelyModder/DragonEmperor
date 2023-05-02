@@ -13,10 +13,20 @@
 					has_owner = yes
 					trigger_if = {
 						limit = { has_owner = yes }
-						owner = { country_culture_group = altmer } 
+						owner = { country_culture_group = ayleid } 
 					}
 				}
 				add_civilization_value = 10
+			}
+			if = {
+				limit = { 
+					has_owner = yes
+					trigger_if = {
+						limit = { has_owner = yes }
+						owner = { country_culture_group = altmer } 
+					}
+				}
+				add_civilization_value = 20
 			}
 			if = {
 				limit = { terrain = mountain }

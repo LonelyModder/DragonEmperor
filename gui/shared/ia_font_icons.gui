@@ -91,6 +91,46 @@ texticon = {
 }
 
 texticon = {
+    icon = tea
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/tea.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = wool
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/wool.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = stafftrees
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/stafftrees.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = maplesyrup
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/maplesyrup.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = necromancers
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/necromancers.dds"
@@ -110,234 +150,207 @@ texticon = {
     }
 }
 
+texticon = {
+    icon = limestone
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/limestone.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = dwemersteel
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/dwemersteel.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = dwemerplans
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/dwemerplans.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = guar
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/guar.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
 #Units
 
 texticon = {
-    icon = new_bo_archers
+    icon = lv_lightinfantry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_bo_archers.dds"
+        texture = "gfx/interface/icons/subunits/lv_lightinfantry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
 }
-
 texticon = {
-    icon = new_bo_beasts
+    icon = lv_heavyinfantry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_bo_beasts.dds"
+        texture = "gfx/interface/icons/subunits/lv_heavyinfantry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
 }
-
 texticon = {
-    icon = new_de_dremora
+    icon = lv_archers
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_de_dremora.dds"
+        texture = "gfx/interface/icons/subunits/lv_archers.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_go_durzogs
+    icon = lv_scirmishers
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_go_durzogs.dds"
+        texture = "gfx/interface/icons/subunits/lv_scirmishers.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
 }
-
 texticon = {
-    icon = new_go_warriors
+    icon = lv_crossbowmen
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_go_warriors.dds"
+        texture = "gfx/interface/icons/subunits/lv_crossbowmen.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_he_battlemages
+    icon = lv_camels
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_he_battlemages.dds"
+        texture = "gfx/interface/icons/subunits/lv_camels.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_he_griphons
+    icon = lv_mages
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_he_griphons.dds"
+        texture = "gfx/interface/icons/subunits/lv_mages.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_he_soldiers
+    icon = lv_cavalry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_he_soldiers.dds"
+        texture = "gfx/interface/icons/subunits/lv_cavalry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_ne_hoplites
+    icon = lv_khajiiticavalry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ne_hoplites.dds"
+        texture = "gfx/interface/icons/subunits/lv_khajiiticavalry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}		
 texticon = {
-    icon = new_ne_spearthrowers
+    icon = lv_guarcavalry
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ne_spearthrowers.dds"
+        texture = "gfx/interface/icons/subunits/lv_guarcavalry.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_un_corpse_small
+    icon = lv_warhounds
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_un_corpse_small.dds"
+        texture = "gfx/interface/icons/subunits/lv_warhounds.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
 }
-
 texticon = {
-    icon = new_ay_footmen
+    icon = lv_horsearchers
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ay_footmen.dds"
+        texture = "gfx/interface/icons/subunits/lv_horsearchers.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_ay_mages
+    icon = lv_minotaurs
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ay_mages.dds"
+        texture = "gfx/interface/icons/subunits/lv_minotaurs.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}		
 texticon = {
-    icon = new_ay_whitegryphons
+    icon = lv_centurions
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ay_whitegryphons.dds"
+        texture = "gfx/interface/icons/subunits/lv_centurions.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
 }
-
 texticon = {
-    icon = new_de_dremora
+    icon = lv_dremoras
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_de_dremora.dds"
+        texture = "gfx/interface/icons/subunits/lv_dremoras.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_un_corpse
+    icon = lv_undead
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_un_corpse.dds"
+        texture = "gfx/interface/icons/subunits/lv_undead.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_mi_minotaur
+    icon = lv_gryphons
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_mi_minotaur.dds"
+        texture = "gfx/interface/icons/subunits/lv_gryphons.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
+}	
 texticon = {
-    icon = new_le_cohort
+    icon = lv_elephants
     iconsize = {
-        texture = "gfx/interface/icons/subunits/new_le_cohort.dds"
+        texture = "gfx/interface/icons/subunits/lv_elephants.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
     }
-}
-
-texticon = {
-    icon = new_le_archers
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/new_le_archers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
-
-texticon = {
-    icon = new_le_cavalry
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/new_le_cavalry.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
-
-texticon = {
-    icon = new_ne_raiders
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/new_ne_raiders.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
-
-texticon = {
-    icon = new_go_scirmishers
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/new_go_scirmishers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
-
-texticon = {
-    icon = new_bo_militia
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/new_bo_militia.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}
+}	 

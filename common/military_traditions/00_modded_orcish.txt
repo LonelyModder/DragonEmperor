@@ -1,0 +1,144 @@
+﻿orcish_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = orcish }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = orcish
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:orcish
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:orcish
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_orcish"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:orcish	
+				}
+			}
+		}
+	}
+	
+	orcish_path_1 = { ###orcish path
+		modifier = { 
+			lv_heavyinfantry_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	orcish_path_2a = { ###orcish path
+		modifier = { 
+			lv_heavyinfantry_cost = -0.2
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_1}
+	}
+	
+	orcish_path_3a = { ###orcish path
+		modifier = { 
+			lv_heavyinfantry_defensive = 0.1
+			lv_scirmishers_offensive = 0.1
+		}
+		enable_tactic = greek_phalanx
+		icon = greek_states_path_7
+		requires = {orcish_path_2a}
+	}
+	
+	orcish_path_4a = { ###orcish path
+		modifier = { 
+			hills_combat_bonus = 0.2
+			mountains_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_3a}
+	}
+	
+	orcish_path_2b = { ###orcish path
+		modifier = { 
+			lv_lightinfantry_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_1}
+	}
+	
+	orcish_path_3b = { ###orcish path
+		modifier = { 
+			lv_archers_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_2b}
+	}
+	
+	orcish_path_4b = { ###orcish path
+		modifier = { 
+			forest_combat_bonus = 0.2
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = greek_states_path_7
+		requires = {orcish_path_3b}
+	}
+	
+	orcish_path_2c = { ###Celtic 4A
+		modifier = {
+			fort_limit = 1
+		}
+		icon = greek_states_path_7
+		requires = { orcish_path_1 }
+		on_activate = {
+			capital_scope = {
+				add_building_level = fortress_building
+			}
+		}
+	}
+	
+	orcish_path_3c = { ###orcish path
+		modifier = { 
+			lv_warhounds_cost = -0.2
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_2c}
+	}
+	
+	orcish_path_4c = { ###orcish path
+		modifier = { 
+			lv_mages_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {orcish_path_3c}
+	}
+	
+	orcish_path_end_bonus = { ###Latin 4B
+		modifier = { 
+			discipline = 0.2
+		}
+		requires = { orcish_path_4a orcish_path_4b orcish_path_4c }
+		icon = latin_roman_path_end_bonus
+		on_activate = {
+			custom_tooltip = "create_high_martial_rising_star"
+			hidden_effect = {
+				create_character = {
+					add_martial = 10
+					add_trait = tactician
+				}
+			}
+		}
+	}
+}

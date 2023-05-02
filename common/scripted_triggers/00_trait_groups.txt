@@ -190,30 +190,7 @@ char_is_civic_trigger = {
 
 has_bloodline_trigger = {
 	OR = {
-		has_trait = davidids
-		has_trait = achemenids
-		has_trait = 21dynastys
-		has_trait = 22dynastys
-		has_trait = kurruntic
-		has_trait = gathite
-		has_trait = rhatti
-		has_trait = taitids
-		has_trait = sovahid
-		has_trait = damaskid
-		has_trait = saulid
-		has_trait = tyrian
-		has_trait = byblid
-		has_trait = badaside
-		has_trait = ofelam
-		has_trait = gordis
-		has_trait = heraclid
-		has_trait = brihadratha
-		has_trait = altmer
-		has_trait = goblin
-		has_trait = ayleid
-		has_trait = nede
-		has_trait = bosmer
-		has_trait = pure
-		has_trait = impure
+		has_trait = aranas
+		has_trait = unfeathered
 	}
 }

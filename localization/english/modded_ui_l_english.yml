@@ -15,4 +15,12 @@
  AlinorINTRO:0 "#T Alinor#!\nDifficulty: #Y Easy#!\n\n At first, Alinor was one of the many city-states on the Sommerset Islands. A certain isolation from the continent meant that these countries gradually grew in strength and began to absorb smaller cities. The lords of Alinor skillfully used the terrain that turned their land into a fortress and steaks of goblin slaves grew to be the strongest candidate to unite the islands."
  Alinor:0 "Alinor"
  Alinor2:0 "Alinor"
+ NRINTRO:0 "#T Nedic Revolt#!\nDifficulty: #Y Hard#!\n\n Tires by the cruel treatment by their elven masters nedic humans rise the banner of rebellion. They believe that the Ayleids lost their gods favor because of their dealings with the Daedric Lords. As a result the Ayleid empire is in a state of civil war. Such opportunity might not repeat itself!"
+ NedicRevolt:0 "Nedic Revolt"
+ NedicRevolt2:0 "Nedic Revolt"
+ 
+ owns_any_neighboring_province:0 "Owns any neighbour province"
+ owns_any_neighboring_province_culture:0 "Any owned #Y neighbour#! province must fulfill one of the following: \n  Dominant province culture is an #Y integrated#! culture \n  Dominant province culture is #Y [THIS.GetProvince.GetCulture.GetName]#!"
+ no_neighbor_has_colonization_progress:0 "No neighbour has #Y Colonization Progress#!"
+ owns_no_neighboring_province:0 "Owns no neighbouring province"
  

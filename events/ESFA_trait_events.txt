@@ -9,16 +9,29 @@ esfa_traits.1 = {
 		#Racial traits
 		if = {
 			limit = {
+				OR = {
+					father = { has_trait = halfauroran }
+					mother = { has_trait = halfauroran }
+				}
+			}
+			add_trait = halfauroran
+		}
+		else_if = {
+			limit = {
+				OR = {
+					father = { has_trait = minotaur }
+					mother = { has_trait = minotaur }
+				}
+			}
+			add_trait = minotaur
+		}
+		else_if = {
+			limit = {
 				mother = { has_trait = altmer }
 			}
 			add_trait = altmer
 		}	
-		if = {
-			limit = {
-				mother = { has_trait = minotaur }
-			}
-			add_trait = minotaur
-		}
+		
 		else_if = { 
 			limit = {
 				mother = { has_trait = bosmer }
@@ -49,6 +62,30 @@ esfa_traits.1 = {
 			}
 			add_trait = orc
 		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = imga }
+			}
+			add_trait = imga
+		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = khajiit }
+			}
+			add_trait = khajiit
+		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = argonian }
+			}
+			add_trait = argonian
+		}
+		else_if = { 
+			limit = {
+				mother = { has_trait = nord }
+			}
+			add_trait = nord
+		}
 		#Altmer racism
 		if = {
 			limit = {
@@ -71,6 +108,11 @@ esfa_traits.1 = {
 								has_trait = bosmer 	
 								has_trait = nede 
 								has_trait = goblin 
+								has_trait = orc
+								has_trait = khajiit
+								has_trait = argonian
+								has_trait = imga
+								has_trait = nord
 							} 
 						}
 						mother = { has_trait = altmer }

@@ -52,10 +52,10 @@ distinction_barbarian_killers = {
 		monthly_character_fam_prestige = 0.05
 	}
 	unit = {
-		new_he_soldiers_defensive = 0.1
-		new_he_battlemages_defensive = 0.1
-		new_ay_mages_defensive = 0.1
-		new_ay_footmen_defensive = 0.1
+		lv_heavyinfantry_defensive = 0.1
+		lv_mages_defensive = 0.1
+		lv_archers_defensive = 0.1
+		lv_crossbowmen_defensive = 0.1
 		engineer_cohort_defensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
@@ -86,8 +86,8 @@ distinction_hetairoi = {
 	icon = "phalera_horse"
 	commander = { }
 	unit = {
-		new_le_cavalry_morale = 0.1
-		new_ay_whitegryphons_morale = 0.1
+		lv_cavalry_morale = 0.1
+		lv_gryphons_morale = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -131,11 +131,9 @@ distinction_barca = { #Hannibal
 	}
 	unit = {
 		army_weight_modifier = -0.1
-		new_le_cavalry_offensive = 0.1
-		new_ay_whitegryphons_offensive = 0.1
-		new_ne_hoplites_offensive = 0.1
-		new_he_soldiers_offensive = 0.1
-		new_ay_footmen_offensive = 0.1
+		lv_cavalry_offensive = 0.1
+		lv_gryphons_offensive = 0.1
+		lv_heavyinfantry_offensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -146,10 +144,8 @@ distinction_stalwart = { #Pyrrhus
 		martial = 2
 	}
 	unit = {
-		new_le_cavalry_offensive = 0.1
-		new_ne_hoplites_offensive = 0.1
-		new_he_soldiers_offensive = 0.1
-		new_ay_footmen_offensive = 0.1
+		lv_cavalry_offensive = 0.1
+		lv_heavyinfantry_offensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 		assault_ability = 0.15
 	}
@@ -161,9 +157,9 @@ distinction_elephant_lords = {
 		martial = 1
 	}
 	unit = {
-		new_he_griphons_movement_speed = 0.2
-		new_he_griphons_offensive = 0.1
-		new_he_griphons_maintenance_cost = -0.15
+		lv_elephants_movement_speed = 0.2
+		lv_elephants_offensive = 0.1
+		lv_elephants_maintenance_cost = -0.15
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -172,15 +168,9 @@ distinction_argyraspides = {
 	icon = "phalera_sword_shield"
 	commander = { }
 	unit = {
-		new_ne_hoplites_maintenance_cost = -0.1
-		new_he_soldiers_maintenance_cost = -0.1
-		new_ay_footmen_maintenance_cost = -0.1
-		new_ne_hoplites_offensive = 0.1
-		new_he_soldiers_offensive = 0.1
-		new_ay_footmen_offensive = 0.1
-		new_ne_hoplites_defensive = 0.1
-		new_he_soldiers_defensive = 0.1
-		new_ay_footmen_defensive = 0.1
+		lv_heavyinfantry_maintenance_cost = -0.1
+		lv_heavyinfantry_offensive = 0.1
+		lv_heavyinfantry_defensive = 0.1
 		loyalty_gain_chance_modifier = 0.05
 	}
 }
@@ -213,8 +203,8 @@ distinction_ferrata = {
 	icon = "phalera_sword_shield"
 	commander = { }
 	unit = {
-		new_le_cohort_discipline = 0.15
-		new_le_cohort_morale = 0.1
+		lv_heavyinfantry_discipline = 0.15
+		lv_heavyinfantry_morale = 0.1
 	}
 }
 
@@ -222,9 +212,8 @@ distinction_fulminata = {
 	icon = "phalera_zeus"
 	commander = { }
 	unit = {
-		new_le_cohort_defensive = 0.1
-		new_le_cohort_defensive = 0.1
-		new_le_archers_defensive = 0.1
+		lv_heavyinfantry_defensive = 0.1
+		lv_archers_defensive = 0.1
 	}
 }
 

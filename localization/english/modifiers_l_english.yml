@@ -188,6 +188,10 @@
  desc_merchant_embargo:0 "Merchants seem unusually reticent to bring their wares through our land."
  faction_omen_cost_2:0 "Elaborate Ritual"
  desc_faction_omen_cost_2:0 "Our priests demand increased spending on state rituals."
+ #Modded
+ colonization_progress:0 "Colonisation in Progress"
+ desc_colonization_progress:0 "This province is being colonisaed and cannot produce the desired ravenue just yet."
+ #Modded
  local_tax_relief:0 "Localized Tax Relief"
  desc_local_tax_relief:1 "We have granted this territory a temporary relief on all sources of taxation."
  military_party_ticking_modifier:0 "Military Faction Promoted"
@@ -3684,9 +3688,9 @@
  desc_sed_festival_med:1 "A recent Sed festival of a respectable scale has left the populace in good spirits."
  sed_festival_huge:0 "Massive Sed Festival"
  desc_sed_festival_huge:1 "The populace is still nursing the hangover of one of the most spectacular Sed festivals in recorded history."
- fanatical_culture:0 "Militarized Fanatics"
- desc_fanatical_culture:1 "Due to religious reasons or constant threat, the culture of this country has developed a militarized society. The army is one of the pillars there and service is a duty. As the saying goes, in this case the army has a country, not a country the army. "
- militarized_culture:0 "Militarized culture"
+ fanatical_culture:0 "Fanatics"
+ desc_fanatical_culture:1 "Due to religious, cultural reasons or constant threat, the culture of this country has developed a militarized society. The army is one of the pillars there and service is a duty. As the saying goes, in this case the army has a country, not the other way around."
+ militarized_culture:0 "Militarised culture"
  desc_militarized_culture:1 "Military service in this country is obligatory. Citizens, however, do not complain because it makes them proud and willingly lay down their lives for their country. "
  neutral_militarly_culture:0 "Militarily neutral culture"
  desc_neutral_militarly_culture:1 "The country places no particular emphasis on the military and uses it as a political tool. Citizens approach the service as an uncomfortable duty. "

@@ -122,7 +122,7 @@ AAL = { #Shimmerine
 
 # Modded emblems for formables
 
-hk_alinor = { #High Kingdom of Alinor
+hk_alinor = { #For the Aldmeri Dominion
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 232 121 9 }
 	color2 = rgb { 232 121 9 }
@@ -130,6 +130,17 @@ hk_alinor = { #High Kingdom of Alinor
 	colored_emblem = {
 		texture = "ce_alinor.dds"
 		color1 = "offwhite"
+	}
+}
+
+XCY = { #High Kingdom of Cyrod
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 209 14 0 }
+	color2 = rgb { 209 14 0 }
+
+	colored_emblem = {
+		texture = "ce_cyrod.dds"
+		color1 = rgb { 255 216 41 }
 	}
 }
 

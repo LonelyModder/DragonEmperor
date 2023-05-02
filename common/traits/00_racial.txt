@@ -4,8 +4,8 @@
 	fertility = -0.3
 	health = 5.0
 	charisma = 1
-	finesse = 2
-	zeal = 4
+	finesse = 3
+	zeal = 2
 	
 }
 
@@ -13,28 +13,56 @@ nede = {
 	type = status
 	charisma = 2
 	zeal = 1
-	martial = 2
+	martial = 3
 }
 
 goblin = {
 	type = status
 	charisma = -2
-	zeal = 1
+	zeal = 2
 	martial = 2
 }
 
 orc = {
 	type = status
-	charisma = -2
+	charisma = -1
+	zeal = 1
+	martial = 5
+}
+
+nord = {
+	type = status
+	charisma = 1
 	zeal = 1
 	martial = 4
+}
+
+khajiit = {
+	type = status
+	charisma = 2
+	zeal = 2
+	martial = 2
+}
+
+argonian = {
+	type = status
+	charisma = -1
+	zeal = 2
+	martial = 4
+}
+
+imga = {
+	type = status
+	charisma = 5
+	zeal = 1
+	martial = -2
 }
 
 minotaur = {
 	type = status
 	charisma = 1
-	zeal = 2
-	martial = 8
+	zeal = 1
+	martial = 4
 }
 
 ayleid = {
@@ -44,7 +72,7 @@ ayleid = {
 	health = 3.0
 	finesse = 2
 	martial = 1
-	zeal = 4
+	zeal = 3
 	
 }
 
@@ -54,7 +82,7 @@ bosmer = {
 	fertility = -0.3
 	health = 3.0
 	charisma = 2
-	martial = 2
+	martial = 3
 	zeal = 1
 	
 }
@@ -73,4 +101,19 @@ impure = {
 		pure
 	}
 	charisma = -2
+}
+
+halfauroran = {
+	type = status
+	
+	fertility = -1.0
+	health = 10.0
+	charisma = 8
+	martial = 10
+	zeal = -6
+	country = {
+		lv_mages_offensive = 0.1
+		monthly_legitimacy = 2.0
+	}
+	
 }

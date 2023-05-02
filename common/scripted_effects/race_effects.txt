@@ -1,45 +1,88 @@
 ﻿ESFA_on_create_character_effect = {
 	if = {
 		limit = {
-			has_culture_group = altmer
+			OR = {
+				NOT = { has_trait = altmer }
+				NOT = { has_trait = pure }
+				NOT = { has_trait = bosmer }
+				NOT = { has_trait = ayleid }
+				NOT = { has_trait = goblin }
+				NOT = { has_trait = nede }
+				NOT = { has_trait = orc }
+				NOT = { has_trait = minotaur }
+				NOT = { has_trait = khajiit }
+				NOT = { has_trait = argonian }
+				NOT = { has_trait = imga }
+				NOT = { has_trait = nord }
+				NOT = { has_trait = halfauroran }
+			}
 		}
-		add_trait = altmer
-		add_trait = pure
-	}
-	else_if = {
-		limit = {
-			has_culture_group = bosmer
+		if = {
+			limit = {
+				has_culture_group = altmer
+			}
+			add_trait = altmer
+			add_trait = pure
 		}
-		add_trait = bosmer
-	}
-	else_if = {
-		limit = {
-			has_culture_group = ayleid
+		else_if = {
+			limit = {
+				has_culture_group = bosmer
+			}
+			add_trait = bosmer
 		}
-		add_trait = ayleid
-	}
-	else_if = {
-		limit = {
-			has_culture_group = goblin
+		else_if = {
+			limit = {
+				has_culture_group = ayleid
+			}
+			add_trait = ayleid
 		}
-		add_trait = goblin
-	}
-	else_if = {
-		limit = {
-			has_culture_group = nede
+		else_if = {
+			limit = {
+				has_culture_group = goblin
+			}
+			add_trait = goblin
 		}
-		add_trait = nede
-	}
-	else_if = {
-		limit = {
-			has_culture_group = orcish
+		else_if = {
+			limit = {
+				has_culture_group = nede
+			}
+			add_trait = nede
 		}
-		add_trait = orc
-	}
-	else_if = {
-		limit = {
-			has_culture_group = minotaurish
+		else_if = {
+			limit = {
+				has_culture_group = orcish
+			}
+			add_trait = orc
 		}
-		add_trait = minotaur
+		else_if = {
+			limit = {
+				has_culture_group = minotauric
+			}
+			add_trait = minotaur
+		}
+		else_if = {
+			limit = {
+				has_culture_group = khajiit
+			}
+			add_trait = khajiit
+		}
+		else_if = {
+			limit = {
+				has_culture_group = imga
+			}
+			add_trait = imga
+		}
+		else_if = {
+			limit = {
+				has_culture_group = argonian
+			}
+			add_trait = argonian
+		}
+		else_if = {
+			limit = {
+				has_culture_group = nordic
+			}
+			add_trait = nord
+		}
 	}
 }

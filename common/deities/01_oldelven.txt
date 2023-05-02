@@ -113,37 +113,8 @@ deity_moawita = {
 	}
 	
 	on_activate = {
-		if = {
-			limit = {
-				exists = scope:deified_ruler
-				any_character = {
-					has_any_position = yes
-					NOT = { has_religion = scope:deified_ruler.religion }
-				}
-			}
-			custom_tooltip = converts_one_employed_character
-		}
-		else_if = {
-			custom_tooltip = no_converts
-		}
-		hidden_effect = {
-			while = {
-				count = 2
-				limit = {
-					exists = scope:deified_ruler
-					any_character = {
-						has_any_position = yes
-						NOT = { has_religion = scope:deified_ruler.religion }
-					}
-				}
-				random_character = {
-					limit = {
-						has_any_position = yes
-						NOT = { has_religion = scope:deified_ruler.religion }
-					}
-					set_character_religion = scope:deified_ruler.religion
-				}
-			}
+		capital_scope = {
+			create_2_freemen_effect = yes
 		}
 	}
 }

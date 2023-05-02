@@ -38,7 +38,7 @@
 	
 	bosmer_path_1 = { ###bosmer path
 		modifier = { 
-			new_bo_archers_offensive = 0.1
+			lv_archers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -55,7 +55,7 @@
 	bosmer_path_3 = { ###bosmer path
 		modifier = { 
 			forest_combat_bonus = 0.25
-			new_bo_militia_offensive = 0.1
+			lv_lightinfantry_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = greek_states_path_7
@@ -64,8 +64,8 @@
 	
 	bosmer_path_4a = { ###bosmer path
 		modifier = { 
-			new_bo_archers_offensive = 0.1
-			new_bo_archers_discipline = 0.1
+			lv_archers_offensive = 0.1
+			lv_archers_discipline = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_3}
@@ -81,8 +81,8 @@
 	
 	bosmer_path_6a = { ###bosmer path
 		modifier = { 
-			new_bo_beasts_discipline = 0.1
-			new_bo_beasts_defensive = 0.1
+			lv_warhounds_discipline = 0.1
+			lv_warhounds_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_5a}
@@ -137,7 +137,7 @@
 	
 	bosmer_path_end_bonus = { ###bosmer path
 		modifier = { 
-			new_bo_archers_offensive = 0.15
+			lv_archers_offensive = 0.15
 			forest_combat_bonus = 0.25
 		}
 		icon = greek_states_path_7

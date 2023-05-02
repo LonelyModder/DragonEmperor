@@ -15,8 +15,7 @@ militarism_events.1 = {
 		if = {
 			limit = {
 				OR = {
-					country_culture_group = goblin	
-					country_culture_group = orcish	
+					country_culture_group = goblin
 				}				
 			}
 			add_country_modifier = {
@@ -27,9 +26,10 @@ militarism_events.1 = {
 		else_if = {
 			limit = {
 				OR = {
-					country_culture_group = nede
 					country_culture_group = bosmer
 					country_culture_group = minotauric
+					country_culture_group = nordic
+					country_culture_group = orcish
 				}				
 			}
 			add_country_modifier = {
@@ -39,8 +39,10 @@ militarism_events.1 = {
 		}
 		else_if = {
 			limit = {
-				country_culture_group = altmer
-				country_culture_group = ayleid				
+				OR = {
+					country_culture_group = altmer
+					country_culture_group = imga					
+				}				
 			}
 			add_country_modifier = {
 				name = pacifist_culture

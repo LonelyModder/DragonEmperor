@@ -9,8 +9,6 @@ deity_trinimac = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
-			
-			
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}
@@ -264,6 +262,33 @@ deity_phynaster = {
 	icon = deity_eloquence
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
+	religion = elven_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_elvenancestors = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = elven_pantheon
+			}
+			
+			deity:omen_elvenancestors = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_eloquence
+	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
+	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
 	religion = elven_pantheon
 	deity_category = culture #This Deity uses a Culture Slot
 	deification_trigger = {

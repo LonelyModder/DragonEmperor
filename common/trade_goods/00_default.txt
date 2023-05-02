@@ -34,18 +34,15 @@ salt = { #177 territories
 iron = { #119 territories
 	category = 0
 	
-	#allow_unit_type = modded_swordsmen
-	#allow_unit_type = modded_axemen
+	allow_unit_type = lv_heavyinfantry
 	gold = 0.3
 	
 	province = {
 		local_tax_modifier = 0.02
 	}
 	country = {
-		new_go_warriors_defensive = 0.05
-		new_ne_hoplites_defensive = 0.05
-		new_he_soldiers_defensive = 0.05
-		new_ay_footmen_defensive = 0.05
+		lv_lightinfantry_defensive = 0.05
+		lv_heavyinfantry_defensive = 0.05
 	}
 
 	color = hsv { 0.0 0.0 0.11 }
@@ -53,21 +50,49 @@ iron = { #119 territories
 
 ebon = { #Added
 	category = 0
-	#allow_unit_type = modded_swordsmen
-	#allow_unit_type = modded_axemen
+	allow_unit_type =lv_heavyinfantry
 	gold = 0.5
 	
 	province = {
 		local_tax_modifier = 0.05
 	}
 	country = {
-		new_go_warriors_defensive = 0.05
-		new_ne_hoplites_defensive = 0.05
-		new_he_soldiers_defensive = 0.05
-		new_ay_footmen_defensive = 0.05
+		lv_heavyinfantry_defensive = 0.05
 	} 
 	
 	color = hsv { 0.76 0.83 0.39 }
+}
+
+dwemersteel = { #Added
+	category = 0
+	allow_unit_type = lv_centurions
+	gold = 0.5
+	
+	province = {
+		local_tax_modifier = 0.05
+	}
+	country = {
+		lv_heavyinfantry_defensive = 0.05
+		lv_crossbowmen_defensive = 0.05
+	} 
+	
+	color = rgb { 140 78 15 }
+}
+
+dwemerplans = { #Added
+	category = 0
+	allow_unit_type = lv_crossbowmen
+	allow_unit_type = lv_centurions
+	gold = 0.5
+	
+	province = {
+		local_tax_modifier = 0.05
+	}
+	country = {
+		lv_crossbowmen_defensive = 0.05
+	} 
+	
+	color = rgb { 222 185 149 }
 }
 
 moonstone = { #Added
@@ -79,8 +104,7 @@ moonstone = { #Added
 		local_tax_modifier = 0.02
 	}
 	country = {
-		new_he_soldiers_defensive = 0.05
-		new_ay_footmen_defensive = 0.05
+		lv_lightinfantry_defensive = 0.05
 	} 
 	
 	color = hsv { 0.18 0.44 0.66 }
@@ -95,8 +119,8 @@ malachite = { #Added
 		local_tax_modifier = 0.02
 	}
 	country = {
-		new_he_soldiers_defensive = 0.05
-		new_ay_footmen_defensive = 0.05
+		lv_lightinfantry_defensive = 0.05
+		
 	} 
 	
 	color = hsv { 0.18 0.44 0.66 }
@@ -184,6 +208,37 @@ stone = { #282 territories
 	color = hsv { 0.6 0.2 0.3 }
 }
 
+limestone = { #282 territories
+	category = 5
+	
+	gold = 0.35
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		build_cost = -0.05
+	}
+	
+	color = hsv { 0.01 0.06 0.61 }
+}
+
+elephants = { #82 territories
+	category = 0
+	allow_unit_type = lv_elephants
+	
+	gold = 0.3
+	
+	province = {
+		local_output_modifier = 0.03
+	}
+	country = {
+		lv_elephants_discipline = 0.1
+	}
+	
+	color = hsv { 0.6 0.2 0.4 }	
+}
+
 fish = { #335 territories
 	category = 1
 	
@@ -216,7 +271,7 @@ spices = { #58 territories
 
 griphons = { #Added
 	category = 0
-	allow_unit_type = new_he_griphons
+	allow_unit_type = lv_gryphons
 	
 	gold = 0.3
 	
@@ -224,7 +279,7 @@ griphons = { #Added
 		local_output_modifier = 0.03
 	}
 	country = {
-		new_he_griphons_discipline = 0.1
+		lv_gryphons_discipline = 0.1
 	}
 	
 	color = hsv { 0.01 1 0.81 }	
@@ -269,23 +324,37 @@ wild_game = { #190 territories
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		new_bo_archers_discipline = 0.1
-		new_ay_whitegryphons_discipline = 0.1
+		lv_archers_discipline = 0.1
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
 }
 
+stafftrees = { #190 territories
+	category = 5
+	
+	gold = 0.5
+	
+	province = {
+		local_citizen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_offensive = 0.1
+	}
+
+	color = rgb { 247 163 104 }
+}
+
 beasts = { #Added
 	category = 0
-	allow_unit_type = new_bo_beasts
+	allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		new_bo_beasts_discipline = 0.1
+		lv_warhounds_discipline = 0.1
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
@@ -293,14 +362,14 @@ beasts = { #Added
 
 durzogs = { #Added
 	category = 0
-	allow_unit_type = new_go_durzogs
+	allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		new_go_durzogs_discipline = 0.1
+		lv_warhounds_discipline = 0.1
 	}
 
 	color = rgb { 56 32 15 }
@@ -315,10 +384,26 @@ soul_gems = { #Added
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		new_ay_mages_offensive = 0.1
+		lv_mages_offensive = 0.1
 	}
 
 	color = rgb { 255 255 255 }
+}
+
+guar = { #90 territories
+	category = 0
+	allow_unit_type = lv_guarcavalry
+	
+	gold = 0.25
+	
+	province = {
+		local_output_modifier = 0.01
+	}
+	country = {
+		lv_guarcavalry_discipline = 0.1
+	}
+	
+	color = rgb { 63 107 15 }
 }
 
 precious_metals = { #107 territories
@@ -336,26 +421,9 @@ precious_metals = { #107 territories
 	color = hsv { 0.085 0.95 1 }
 }
 
-#steppe_horses = { #90 territories
-#	category = 0
-#	allow_unit_type = modded_horse_archers
-#	
-#	gold = 0.25
-#	
-#	province = {
-#		local_output_modifier = 0.01
-#	}
-#	country = {
-#		modded_horse_archers_discipline = 0.1
-#	}
-#	
-#	color = hsv { 0.1 0.5 0.8 }
-#}
-
-horses = { #276 territories
+steppe_horses = { #90 territories
 	category = 0
-	allow_unit_type = new_ay_whitegryphons
-	allow_unit_type = new_le_cavalry
+	allow_unit_type = lv_horsearchers
 	
 	gold = 0.25
 	
@@ -363,8 +431,23 @@ horses = { #276 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		new_le_cavalry_discipline = 0.1
-		new_ay_whitegryphons_discipline = 0.1
+		lv_horsearchers_discipline = 0.1
+	}
+	
+	color = hsv { 0.1 0.5 0.8 }
+}
+
+horses = { #276 territories
+	category = 0
+	allow_unit_type = lv_cavalry
+	
+	gold = 0.25
+	
+	province = {
+		local_output_modifier = 0.01
+	}
+	country = {
+		lv_cavalry_discipline = 0.1
 	}
 
 	color = hsv { 0.05 0.9 0.5 }
@@ -417,16 +500,14 @@ dye = { #48 territories
 
 circle_of_mages = { #Added
 	category = 0
-	allow_unit_type = new_he_battlemages
-	allow_unit_type = new_ay_mages
+	allow_unit_type = lv_mages
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		new_ay_mages_discipline = 0.1
-		new_he_battlemages_discipline = 0.1
+		lv_mages_discipline = 0.1
 	}
 	
 	color = { 0.57 0.95 0.78 }
@@ -434,14 +515,14 @@ circle_of_mages = { #Added
 
 cabal_of_witches = { #Added
 	category = 0
-	allow_unit_type = new_de_dremora
+	allow_unit_type = lv_dremora
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		new_de_dremora_discipline = 0.1
+		lv_dremora_discipline = 0.1
 	}
 	
 	color = { 0.0 0.0 0.0 }
@@ -449,14 +530,14 @@ cabal_of_witches = { #Added
 
 necromancers = { #Added
 	category = 0
-	allow_unit_type = new_un_corpse
+	allow_unit_type = lv_undead
 	gold = 0.4
 
 	province = {
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		new_un_corpse_discipline = 0.1
+		lv_undead_discipline = 0.1
 	}
 	
 	color = { 0.0 0.04 0.4 }
@@ -501,11 +582,26 @@ leather = { #338 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		new_go_warriors_defensive = 0.1
-		new_bo_archers_defensive = 0.1
+		lv_lightinfantry_defensive = 0.1
+		lv_archers_defensive = 0.1
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
+}
+
+wool = { #338 territories
+	category = 4
+
+	gold = 0.2
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		local_freemen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 158 167 181 }
 }
 
 woad = { #141 territories
@@ -551,6 +647,21 @@ honey = { #86 territories
 	}
 	
 	color = { 0.9 0.8 0.2 }
+}
+
+maplesyrup = { #86 territories
+	category = 1
+
+	gold = 0.4
+
+	province = {
+		local_monthly_food_modifier = 0.03
+	}
+	country = {
+		global_freemen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 10 110 17 }
 }
 
 incense = { #55 territories
@@ -614,7 +725,7 @@ gems = { #44 Territories
 }
 
 camel = { #63 territories
-	#allow_unit_type = modded_camels
+	allow_unit_type = lv_camels
 	category = 0
 	
 	gold = 0.25
@@ -623,7 +734,7 @@ camel = { #63 territories
 		state_commerce_modifier = 0.02
 	}
 	country = {
-		cavalry_camels_discipline = 0.1
+		lv_camels_discipline = 0.1
 	}
 	
 	color = { 0.6 0.3 0.2 }
@@ -672,4 +783,19 @@ dates = { #60 Territories
 	}
 	
 	color = { 0.18 0.01 0.24 }
+}
+
+tea = { #60 Territories
+	category = 4
+
+	gold = 0.3
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		global_commerce_modifier = 0.05
+	}
+	
+	color = rgb { 166 77 33 }
 }

@@ -1,55 +1,128 @@
-﻿#Test
-
-538=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="talandan"
-	province_rank="city"
-	religion="green_pantheon"
+﻿761={ 
 	terrain="plains"
-	trade_goods="beasts"
-	nobles=
-	{
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="talandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
 		amount=1
-	}
-	citizen=
-	{
-		amount=3
-	}
-	freemen=
-	{
-		amount=8
-	}
-	slaves=
-	{
-		amount=2
-	}
-	tribesmen=
-	{
-		amount=2
 	}
 }
 
-539=
-{
-	barbarian_power=0
-	civilization_value=0
-	culture="talandan"
-	province_rank="settlement"
+762={ 
+	terrain="hills"
+	trade_goods="salt"
 	religion="green_pantheon"
-	terrain="plains"
-	trade_goods="fish"
-	freemen=
-	{
+	culture="talandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
 		amount=2
 	}
-	slaves=
-	{
+	tribesmen={
+		amount=4
+	}
+	slaves={
 		amount=1
 	}
-	tribesmen=
-	{
+}
+
+763={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="talandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+764={ 
+	terrain="plains"
+	trade_goods="amber"
+	religion="green_pantheon"
+	culture="talandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+765={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
+	}
+	freemen={
+		amount=2
+		religion="green_pantheon"
+		culture="talandan"
+	}
+	slaves={
+		amount=4
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+	tribesmen={
+		amount=6
+		religion="green_pantheon"
+		culture="talandan"
+	}
+}
+
+766={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="talandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }

@@ -1,535 +1,539 @@
-﻿#Altmer Griphons
+﻿#Light Infantry
 
-new_he_griphons_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-new_he_griphons_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_griphons.dds"
+lv_lightinfantry_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_lightinfantry.dds"
 }
 
-#Altmer Soldiers
+#Heavy Infantry
 
-new_he_soldiers_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-new_he_soldiers_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_soldiers.dds"
+lv_heavyinfantry_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_heavyinfantry.dds"
 }
 
-#Altmer Battlemages
+#Archers
 
-new_he_battlemages_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-new_he_battlemages_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_he_battlemages.dds"
+lv_archers_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_archers.dds"
 }
 
-#Goblin Warriors
+#Scirmishers
 
-new_go_warriors_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-new_go_warriors_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_warriors.dds"
+lv_scirmishers_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_scirmishers.dds"
 }
 
-#Goblin Durzogs
+#Crossbowmen
 
-new_go_durzogs_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-new_go_durzogs_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-new_go_durzogs_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-new_go_durzogs_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-new_go_durzogs_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-new_go_durzogs_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_go_durzogs.dds"
+lv_crossbowmen_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
 }
 
-#Nedic Hoplites
+lv_crossbowmen_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_crossbowmen.dds"
+}
+
+#Camels
 
-new_ne_hoplites_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-new_ne_hoplites_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_hoplites.dds"
+lv_camels_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_camels.dds"
 }
 
-#Nedic Spearthrowers
+#Mages
 
-new_ne_spearthrowers_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-new_ne_spearthrowers_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ne_spearthrowers.dds"
+lv_mages_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_mages.dds"
 }
 
-#Bosmer Archers
+#Cavalry
 
-new_bo_archers_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-new_bo_archers_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_archers.dds"
+lv_cavalry_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_cavalry.dds"
 }
 
-#Bosmer Beasts
+#Kajiiti Cavalry
 
-new_bo_beasts_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-new_bo_beasts_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_bo_beasts.dds"
+lv_khajiiticavalry_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_khajiiticavalry.dds"
 }
 
-#Ayleid Footmen
+#Guar Cavalry
 
-new_ay_footmen_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-new_ay_footmen_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_footmen.dds"
+lv_guarcavalry_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_guarcavalry.dds"
 }
 
-#Ayleid Mages
+#War Hounds
 
-new_ay_mages_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-new_ay_mages_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_mages.dds"
+lv_warhounds_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_warhounds.dds"
 }
 
-#Ayleid Horsearchers
+#Horse Archers
 
-new_ay_whitegryphons_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-new_ay_whitegryphons_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_ay_whitegryphons.dds"
+lv_horsearchers_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_horsearchers.dds"
 }
 
-#Daedric Dremora
+#Minotaurs
 
-new_de_dremora_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-new_de_dremora_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_de_dremora.dds"
+lv_minotaurs_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_minotaurs.dds"
 }
 
-#Undead Corpse
+#Centurions
 
-new_un_corpse_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-new_un_corpse_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_un_corpse.dds"
+lv_centurions_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_centurions.dds"
 }
 
-#Legionary Cohort
+#Dremoras
 
-new_le_cohort_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-new_le_cohort_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cohort.dds"
+lv_dremoras_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_dremoras.dds"
 }
 
-#Legionary Archers
+#Undead
 
-new_le_archers_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-new_le_archers_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_archers.dds"
+lv_undead_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_undead.dds"
 }
 
-#Legionary Cavalry
+#Gryphons
 
-new_le_cavalry_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-new_le_cavalry_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_le_cavalry.dds"
+lv_gryphons_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
-#Minotaur
+#Elephants
 
-new_mi_minotaur_discipline = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_morale = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_offensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_defensive = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_maintenance_cost = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }
 
-new_mi_minotaur_movement_speed = {
-    positive = "gfx/interface/icons/font_icons/font_icon_new_mi_minotaur.dds"
+lv_elephants_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_lv_elephants.dds"
 }

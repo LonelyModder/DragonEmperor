@@ -1,0 +1,150 @@
+﻿nordic_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = nordic }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = nordic
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nordic
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nordic
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_nordic"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:nordic	
+				}
+			}
+		}
+	}
+	
+	nordic_path_1 = { ###nordic path
+		modifier = { 
+			lv_heavyinfantry_defensive = 0.1
+		}
+		enable_tactic = greek_phalanx
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	nordic_path_2= { ###nordic path
+		modifier = { 
+			lv_scirmishers_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_1}
+	}
+	
+	nordic_path_2a= { ###nordic path
+		modifier = { 
+			lv_cavalry_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2}
+	}
+	
+	nordic_path_3a= { ###nordic path
+		modifier = { 
+			lv_mages_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2a}
+	}
+	
+	nordic_path_4a= { ###nordic path
+		modifier = { 
+			fort_limit = 1
+			global_defensive = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_3a}
+	}
+	
+	nordic_path_2b= { ###nordic path
+		modifier = { 
+			navy_maintenance_cost = -0.10
+			naval_damage_taken = -0.1
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2}
+		on_activate = {
+			ordered_owned_province = {
+				limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				add_building_level = port_building
+			}
+		}
+	}
+	
+	nordic_path_3b= { ###nordic path
+		modifier = { 
+			ocean_combat_bonus = 0.2
+			coastal_terrain_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2b}
+	}
+	
+	nordic_path_4b= { ###nordic path
+		modifier = { 
+			naval_damage_done = 0.15
+			global_ship_recruit_speed = 0.15
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_3b}
+	}
+	
+	nordic_path_2c= { ###nordic path
+		modifier = { 
+			hills_combat_bonus = 0.2
+			mountain_combat_bonus = 0.2
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2}
+	}
+	
+	nordic_path_3c= { ###nordic path
+		modifier = { 
+			lv_heavyinfantry_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_2c}
+	}
+	
+	nordic_path_4c= { ###nordic path
+		modifier = { 
+			lv_heavyinfantry_cost = -0.25
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_3c}
+	}
+	
+	nordic_path_end_bonus= { ###nordic path
+		modifier = { 
+			lv_heavyinfantry_offensive = 0.1
+			naval_damage_done = 0.15
+		}
+		icon = greek_states_path_7
+		requires = {nordic_path_4a nordic_path_4b nordic_path_4c}
+	}
+}

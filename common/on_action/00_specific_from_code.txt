@@ -806,31 +806,6 @@ on_character_death = {
 				destroy_unit = yes
 			}
 		}
-		if = { # Pyrrhus dies abroard
-			limit = {
-				this = char:70
-				is_ruler = no
-				age <= 22
-				NOT = { employer = c:EPI }
-				c:EPI = { has_land = yes }
-			}
-			c:EPI = {
-				
-			}
-		}
-		if = { # Pyrrhus - Memorable Life
-			limit = {
-				this = char:70
-				is_ruler = yes
-				employer = { 
-					has_land = yes
-				}
-			}
-			employer = {
-				
-				
-			}
-		}
 		# Wealth Inheritance
 		if = { # Monarchy only - Ruler passes wealth to heir if they are related
 			limit = {
