@@ -189,3 +189,14 @@ orsinium_FLAG = { #Kingdom of Orsinium
 		color1 = rgb { 153 20 20 }
 	}
 }
+
+auridon_FLAG = { #Kinlordship of Auridon
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_auridon.dds"
+		color1 = rgb { 232 149 26 }
+	}
+}
