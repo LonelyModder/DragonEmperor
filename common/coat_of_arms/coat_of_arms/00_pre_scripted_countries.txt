@@ -200,3 +200,14 @@ auridon_FLAG = { #Kinlordship of Auridon
 		color1 = rgb { 232 149 26 }
 	}
 }
+
+colovia_FLAG = { #Kinlordship of Colovia
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_colovia.dds"
+		color1 = rgb { 74 74 72 }
+	}
+}
