@@ -201,7 +201,7 @@ auridon_FLAG = { #Kinlordship of Auridon
 	}
 }
 
-colovia_FLAG = { #Kinlordship of Colovia
+colovia_FLAG = { #Kingdom of Colovia
 	pattern = "pattern_solid.tga"
 	color1 = "offwhite"
 	color2 = "offwhite"
@@ -209,5 +209,16 @@ colovia_FLAG = { #Kinlordship of Colovia
 	colored_emblem = {
 		texture = "ce_colovia.dds"
 		color1 = rgb { 74 74 72 }
+	}
+}
+
+niben_FLAG = { #Kingdom of Nibenay
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_niben.dds"
+		color1 = rgb { 240 187 12 }
 	}
 }
