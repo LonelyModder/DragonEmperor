@@ -222,3 +222,14 @@ niben_FLAG = { #Kingdom of Nibenay
 		color1 = rgb { 240 187 12 }
 	}
 }
+
+sommerset_FLAG = { #Kingdom of Nibenay
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_sommerset.dds"
+		color1 = rgb { 255 203 43 }
+	}
+}
