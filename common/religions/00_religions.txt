@@ -112,3 +112,13 @@ slavic_pantheon = { # Heretic Faith
 	}
 	religion_category = pantheon
 }
+
+imperial_pantheon = { # Eight Devines Faith
+	color = hsv { 0.85 0.93 0.79 }
+	modifier = { 
+		stability_cost_modifier = -0.2
+		global_monthly_state_loyalty = 0.04
+		improve_relation_impact = -0.1
+	}
+	religion_category = pantheon
+}

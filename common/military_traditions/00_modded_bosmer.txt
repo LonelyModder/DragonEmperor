@@ -46,7 +46,7 @@
 	
 	bosmer_path_2 = { ###bosmer path
 		modifier = { 
-			new_bo_beasts_offensive = 0.1
+			lv_warhounds_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_1}
