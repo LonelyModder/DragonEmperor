@@ -1,0 +1,215 @@
+﻿namespace = alessian_revolt
+
+alessian_revolt.1 = { # Revolt of ayleid slaves
+	type = country_event
+	title = "alessian_revolt.1.t"
+	desc = "alessian_revolt.1.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		NOT = { has_global_variable = alesh }
+		AND = {
+			current_date > 242.1.1 # 114 Testy 242
+			p:1071.owner = {
+				religion = deadric_pantheon
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = alesh
+		}
+		#Alessian Revolt
+		p:1290 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = freemen
+                culture = nedeken
+                religion = nedic_pantheon
+                }
+            }                
+        }
+		p:1290 = {
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = nedeken
+				set_country_religion = nedic_pantheon
+				change_country_name = "Alessia_NAME"
+				change_country_adjective = "Alessia_ADJECTIVE"
+				change_country_flag = alessian_FLAG
+			}
+		}
+		p:1290.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 1290
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_lightinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				duration = 7300 # 10 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 150
+		}
+		create_character = {
+           	first_name = "Alessia"
+           	family_name = "Cyrod"
+           	no_stats = yes
+			add_trait="nede"
+			add_trait="dragonblood"
+           	culture = nedeken
+           	religion = nedic_pantheon
+           	female = yes
+           	age = 18
+           	bad_martial_effect = yes
+           	good_charisma_effect = yes
+        	average_finesse_effect = yes
+        	average_zeal_effect = yes
+        	save_scope_as = alessia_gov
+        }
+		p:1290.owner = {
+			set_as_ruler = scope:alessia_gov
+			current_ruler = {
+				add_popularity = 100
+			}
+			region:modded_dusk_region = { formable_region_province_effect = yes }
+			region:modded_shimmerene_region = { formable_region_province_effect = yes }
+			region:modded_etonnir_region = { formable_region_province_effect = yes }
+			region:modded_alinor_region = { formable_region_province_effect = yes }
+			region:modded_auridon_region = { formable_region_province_effect = yes }
+		}
+		p:1288.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:1290
+				target = p:1290.owner
+			}	
+		}
+	}
+	
+	option = {
+		name = alessian_revolt.1.a
+	}
+}
+
+alessian_revolt.2 = { # Revolt of ayleid slaves
+	type = country_event
+	title = "alessian_revolt.2.t"
+	desc = "alessian_revolt.2.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		current_date > 244.1.1 # 116 Testy 244
+		p:1290.owner = {
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+		NOT = { has_country_modifier = cymmerian_invasion_modifier }
+		OR = {
+			religion = nedic_pantheon
+			religion = nordic_pantheon
+			religion = elven_pantheon
+		}
+		capital_scope = { 
+			OR = {
+				is_in_region = modded_goldcoast_region
+				is_in_region = modded_kvatch_region
+				is_in_region = modded_skingrad_region
+				is_in_region = modded_chorrol_region
+				is_in_region = modded_sjerall_region
+			}
+		}
+	}
+	
+	option = {
+		name = alessian_revolt.2.a
+		every_owned_province = {
+			set_conquered_by = p:1290.owner
+		}
+		#c:EAG = { # For elven call to surrender
+        #    make_subject = {
+        #        target = c:EAI
+        #        type = feudatory
+        #    }
+        #}
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	option = {
+		name = alessian_revolt.2.b
+		ai_chance = {
+            factor = 20
+        }
+	}
+}

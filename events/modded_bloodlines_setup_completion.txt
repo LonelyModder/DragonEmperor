@@ -135,6 +135,18 @@ bloodlines_setup_completion.1 = {
 			}
 			if = {
 				limit = {
+					exists = father
+					father = {
+						has_trait = dragonblood
+					}
+					NOT = {
+						has_trait = dragonblood
+					}
+				}
+				add_trait = dragonblood
+			}
+			if = {
+				limit = {
 					exists = mother
 					mother = {
 						has_trait = aranas
@@ -252,6 +264,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = camoran	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = dragonblood
+					}
+					NOT = {
+						has_trait = dragonblood
+					}
+				}
+				add_trait = dragonblood	
 			}
 		}
 	}

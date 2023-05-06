@@ -16,6 +16,7 @@ pass_down_traits_effect = {
 						has_trait = ninendava
 						has_trait = miscarcandite
 						has_trait = camoran
+						has_trait = dragonblood
 					}
 				}
 						
@@ -129,6 +130,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = camoran
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = dragonblood
+					}
+					NOT = {
+						has_trait = dragonblood
+					}
+				}
+				add_trait = dragonblood
 			}
 			
 		}
@@ -252,6 +264,18 @@ pass_down_traits_effect = {
 			}
 			add_trait = camoran
 		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = dragonblood
+				}
+				NOT = {
+					has_trait = dragonblood
+				}
+			}
+			add_trait = dragonblood
+		}
 	}
 }
 
@@ -335,5 +359,13 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = camoran
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = dragonblood
+			}
+		}
+		add_trait = dragonblood
 	}
 }

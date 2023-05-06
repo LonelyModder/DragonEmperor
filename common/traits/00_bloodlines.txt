@@ -147,3 +147,18 @@ camoran = {
 	}
 	
 }
+
+dragonblood = {
+	type = status
+	
+	prominence = 20
+	martial = 10
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		ruler_popularity_gain = 0.05
+		monthly_legitimacy = 0.05
+	}
+	
+}

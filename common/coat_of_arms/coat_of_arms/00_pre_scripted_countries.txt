@@ -179,6 +179,17 @@ XCY = { #High Kingdom of Cyrod
 	}
 }
 
+alessian_FLAG = { #Alessians
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_cyrod.dds"
+		color1 = rgb { 240 12 12 }
+	}
+}
+
 orsinium_FLAG = { #Kingdom of Orsinium
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 0 0 }
@@ -196,7 +207,7 @@ auridon_FLAG = { #Kinlordship of Auridon
 	color2 = "offwhite"
 
 	colored_emblem = {
-		texture = "ce_auridon.dds"
+		texture = "ce_sommerset.dds"
 		color1 = rgb { 232 149 26 }
 	}
 }
@@ -229,7 +240,7 @@ sommerset_FLAG = { #Kingdom of Nibenay
 	color2 = rgb { 0 0 0 }
 
 	colored_emblem = {
-		texture = "ce_sommerset.dds"
+		texture = "ce_auridon.dds"
 		color1 = rgb { 255 203 43 }
 	}
 }

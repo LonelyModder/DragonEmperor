@@ -22,6 +22,16 @@ devine_events.1 = {
 		current_ruler = {
 			set_character_religion = imperial_pantheon
 		}
+		p:1071 = {
+            while = {
+                count = 10
+                define_pop = {
+                type = freemen
+                culture = nedeken
+                religion = imperial_pantheon
+                }
+            }                
+        }
 		ai_chance = {
             factor = 70
         }
