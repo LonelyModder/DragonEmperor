@@ -10,7 +10,9 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	trigger = {
 		NOT = { has_global_variable = alesh }
 		AND = {
-			current_date > 242.1.1 # 114 Testy 242
+			p:1594.owner = {
+				religion = deadric_pantheon
+			}
 			p:1071.owner = {
 				religion = deadric_pantheon
 			}
@@ -116,7 +118,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 			}
 			add_country_modifier = {
 				name = cymmerian_invasion_modifier
-				duration = 7300 # 10 years
+				duration = 14600 # 10 years
 			}
 			every_unit = {
 				add_food = 100
@@ -200,15 +202,18 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
 	picture = alessian_revolution
 	
 	trigger = {
-		current_date > 244.1.1 # 116 Testy 244
 		p:1290.owner = {
 			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
 		}
 		NOT = { has_country_modifier = cymmerian_invasion_modifier }
 		OR = {
 			religion = nedic_pantheon
 			religion = nordic_pantheon
 			religion = elven_pantheon
+			religion = deadric_pantheon
 		}
 		capital_scope = { 
 			OR = {
@@ -216,7 +221,6 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
 				is_in_region = modded_kvatch_region
 				is_in_region = modded_skingrad_region
 				is_in_region = modded_chorrol_region
-				is_in_region = modded_sjerall_region
 			}
 		}
 	}
@@ -254,9 +258,11 @@ alessian_revolt.3 = { # Alessian cores
 	picture = alessian_revolution
 	
 	trigger = {
-		current_date > 243.1.1 # 115 Testy 243
 		p:1290.owner = {
 			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
 		}
 		NOT = { has_country_modifier = cymmerian_invasion_modifier }
 		capital_scope = { 
