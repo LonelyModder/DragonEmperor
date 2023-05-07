@@ -395,9 +395,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
-	785 = {
-		port_building = 1
-	}
 	1557 = {
 		port_building = 2
 	}
@@ -1653,7 +1650,7 @@ country = {
 		}
 		
 		CAG = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = kvatchan
 			religion = nedic_pantheon
 			capital = 831
@@ -2743,7 +2740,7 @@ country = {
 		}
 		
 		CCI = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = gemhan
 			religion = elven_pantheon
 			capital = 1145
@@ -2779,7 +2776,7 @@ country = {
 		}
 		
 		CCK = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nsedoran
 			religion = nedic_pantheon
 			capital = 1390
@@ -2815,7 +2812,7 @@ country = {
 		}
 		
 		CCO = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = ketite
 			religion = elven_pantheon
 			capital = 1570
@@ -3075,7 +3072,7 @@ country = {
 		}
 		
 		VAO = {   
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = sorkite
 			religion = nedic_pantheon
 			capital = 931
@@ -3086,7 +3083,7 @@ country = {
 		}
 		
 		VAP = {   
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = bricraric
 			religion = nedic_pantheon
 			capital = 872

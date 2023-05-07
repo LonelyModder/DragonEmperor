@@ -114,15 +114,13 @@ esfa_traits.1 = {
 				limit = {
 					has_trait = altmer
 					OR = {
-						OR = {
-							AND = {
-								father = { has_trait = pure }
-								mother = { has_trait = impure }
-							}
-							AND = {
-								father = { has_trait = impure }
-								mother = { has_trait = pure }
-							}
+						AND = {
+							father = { has_trait = pure }
+							mother = { has_trait = impure }
+						}
+						AND = {
+							father = { has_trait = impure }
+							mother = { has_trait = pure }
 						}
 						AND = {
 							father = { 
