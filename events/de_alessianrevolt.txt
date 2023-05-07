@@ -62,29 +62,6 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
@@ -237,14 +214,14 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
         #    }
         #}
 		ai_chance = {
-            factor = 80
+            factor = 70
         }
 	}
 	
 	option = {
 		name = alessian_revolt.2.b
 		ai_chance = {
-            factor = 20
+            factor = 30
         }
 	}
 }
