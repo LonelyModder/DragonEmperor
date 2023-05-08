@@ -14,6 +14,22 @@
 	color = hsv { 0.156 0.8 0.5 }
 }
 
+fruitsoftheforest = { #430 territories
+	category = 1
+
+	gold = 0.15
+	
+	province = { 
+		local_monthly_food = 2.5
+	}
+	
+	country = { 
+		global_monthly_food_modifier = 0.02
+	}
+	
+	color = rgb { 242 54 44 }
+}
+
 salt = { #177 territories
 	category = 1
 	
@@ -233,7 +249,7 @@ elephants = { #82 territories
 		local_output_modifier = 0.03
 	}
 	country = {
-		lv_elephants_discipline = 0.1
+		lv_elephants_discipline = 0.05
 	}
 	
 	color = hsv { 0.6 0.2 0.4 }	
@@ -279,7 +295,7 @@ griphons = { #Added
 		local_output_modifier = 0.03
 	}
 	country = {
-		lv_gryphons_discipline = 0.1
+		lv_gryphons_discipline = 0.05
 	}
 	
 	color = hsv { 0.01 1 0.81 }	
@@ -298,6 +314,21 @@ papyrus = { #23 territories
 	}
 	
 	color = { 0.9 0.8 0.65 }
+}
+
+kallopi = { #23 territories
+	category = 2
+	
+	gold = 0.5
+	
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		global_nobles_output = output_small_svalue
+	}
+	
+	color = rgb { 173 83 14 }
 }
 
 cloth = { #232 territories
@@ -324,7 +355,7 @@ wild_game = { #190 territories
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_archers_discipline = 0.1
+		lv_archers_discipline = 0.05
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
@@ -339,7 +370,7 @@ stafftrees = { #190 territories
 		local_citizen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_mages_offensive = 0.1
+		lv_mages_offensive = 0.05
 	}
 
 	color = rgb { 247 163 104 }
@@ -354,7 +385,7 @@ beasts = { #Added
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.1
+		lv_warhounds_discipline = 0.05
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
@@ -362,14 +393,14 @@ beasts = { #Added
 
 durzogs = { #Added
 	category = 0
-	allow_unit_type = lv_warhounds
+	#allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.1
+		lv_warhounds_discipline = 0.05
 	}
 
 	color = rgb { 56 32 15 }
@@ -384,10 +415,25 @@ soul_gems = { #Added
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_mages_offensive = 0.1
+		lv_mages_offensive = 0.05
 	}
 
 	color = rgb { 255 255 255 }
+}
+
+nirnroot = { #Added
+	category = 4
+	
+	gold = 0.5
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_offensive = 0.05
+	}
+
+	color = rgb { 109 230 57 }
 }
 
 guar = { #90 territories
@@ -400,7 +446,7 @@ guar = { #90 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		lv_guarcavalry_discipline = 0.1
+		lv_guarcavalry_discipline = 0.05
 	}
 	
 	color = rgb { 63 107 15 }
@@ -431,7 +477,7 @@ steppe_horses = { #90 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		lv_horsearchers_discipline = 0.1
+		lv_horsearchers_discipline = 0.05
 	}
 	
 	color = hsv { 0.1 0.5 0.8 }
@@ -447,7 +493,7 @@ horses = { #276 territories
 		local_output_modifier = 0.01
 	}
 	country = {
-		lv_cavalry_discipline = 0.1
+		lv_cavalry_discipline = 0.05
 	}
 
 	color = hsv { 0.05 0.9 0.5 }
@@ -507,7 +553,7 @@ circle_of_mages = { #Added
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_mages_discipline = 0.1
+		lv_mages_discipline = 0.05
 	}
 	
 	color = { 0.57 0.95 0.78 }
@@ -522,7 +568,7 @@ cabal_of_witches = { #Added
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_dremora_discipline = 0.1
+		lv_dremora_discipline = 0.05
 	}
 	
 	color = { 0.0 0.0 0.0 }
@@ -537,7 +583,7 @@ necromancers = { #Added
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_undead_discipline = 0.1
+		lv_undead_discipline = 0.05
 	}
 	
 	color = { 0.0 0.04 0.4 }
@@ -582,8 +628,8 @@ leather = { #338 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_lightinfantry_defensive = 0.1
-		lv_archers_defensive = 0.1
+		lv_lightinfantry_defensive = 0.05
+		lv_archers_defensive = 0.05
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
@@ -603,6 +649,23 @@ wool = { #338 territories
 	
 	color = rgb { 158 167 181 }
 }
+
+coal = { #338 territories
+	category = 4
+
+	gold = 0.4
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_lightinfantry_defensive = 0.05
+		lv_heavyinfantry_defensive = 0.05
+	}
+	
+	color = rgb { 48 45 45 }
+}
+
 
 woad = { #141 territories
 	category = 5
@@ -688,7 +751,7 @@ hemp = { #199 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		naval_damage_done = 0.1
+		naval_damage_done = 0.05
 	}
 	
 	color = hsv { 0.38 0.8 0.3 }
@@ -734,7 +797,7 @@ camel = { #63 territories
 		state_commerce_modifier = 0.02
 	}
 	country = {
-		lv_camels_discipline = 0.1
+		lv_camels_discipline = 0.05
 	}
 	
 	color = { 0.6 0.3 0.2 }

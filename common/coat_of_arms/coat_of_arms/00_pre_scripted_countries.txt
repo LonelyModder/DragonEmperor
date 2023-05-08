@@ -120,7 +120,42 @@ AAL = { #Shimmerine
 	}
 }
 
+CAA = { #Temple of Ancestors
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_whitetower.dds"
+		color1 = rgb { 199 193 10 }
+	}
+}
+
+VAA = { #Valenwood
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_valenwood.dds"
+		color1 = rgb { 161 96 11 }
+		color2 = rgb { 91 219 44 }
+		color3 = rgb { 0 0 0 }
+	}
+}
+
 # Modded emblems for formables
+
+hk_ayleidoon = { #For the Ayleid Empire
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_alinor.dds"
+		color1 = rgb { 199 193 10 }
+	}
+}
 
 hk_alinor = { #For the Aldmeri Dominion
 	pattern = "pattern_solid.tga"
@@ -144,6 +179,17 @@ XCY = { #High Kingdom of Cyrod
 	}
 }
 
+alessian_FLAG = { #Alessians
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_cyrod.dds"
+		color1 = rgb { 240 12 12 }
+	}
+}
+
 orsinium_FLAG = { #Kingdom of Orsinium
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 0 0 }
@@ -152,5 +198,49 @@ orsinium_FLAG = { #Kingdom of Orsinium
 	colored_emblem = {
 		texture = "ce_orsinium.dds"
 		color1 = rgb { 153 20 20 }
+	}
+}
+
+auridon_FLAG = { #Kinlordship of Auridon
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_sommerset.dds"
+		color1 = rgb { 232 149 26 }
+	}
+}
+
+colovia_FLAG = { #Kingdom of Colovia
+	pattern = "pattern_solid.tga"
+	color1 = "offwhite"
+	color2 = "offwhite"
+
+	colored_emblem = {
+		texture = "ce_colovia.dds"
+		color1 = rgb { 74 74 72 }
+	}
+}
+
+niben_FLAG = { #Kingdom of Nibenay
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_niben.dds"
+		color1 = rgb { 240 187 12 }
+	}
+}
+
+sommerset_FLAG = { #Kingdom of Nibenay
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_auridon.dds"
+		color1 = rgb { 255 203 43 }
 	}
 }

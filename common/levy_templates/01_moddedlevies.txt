@@ -3,7 +3,7 @@
 levy_default = {
 	default = yes
 
-	lv_minotaurs = 1
+	lv_lightinfantry = 1
 }
 
 #Altmer
@@ -71,6 +71,13 @@ levy_nedichoplites = { #nedic militia
 	lv_cavalry = 0.1
 }
 
+levy_nedeken = { #nedic slave militia
+	default = no
+
+	lv_archers = 0.3
+	lv_lightinfantry = 0.7
+}
+
 #Minotauric
 
 levy_minotaurish = { #minotaur militia
@@ -94,8 +101,8 @@ levy_orcish = { #orcish militia
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_lightinfantry = 0.3
-	lv_archers = 0.5
+	lv_lightinfantry = 0.4
+	lv_archers = 0.4
 	lv_warhounds = 0.2
 }
 

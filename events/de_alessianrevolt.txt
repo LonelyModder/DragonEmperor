@@ -1,0 +1,271 @@
+﻿namespace = alessian_revolt
+
+alessian_revolt.1 = { # Revolt of ayleid slaves
+	type = country_event
+	title = "alessian_revolt.1.t"
+	desc = "alessian_revolt.1.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		NOT = { has_global_variable = alesh }
+		AND = {
+			p:1594.owner = {
+				religion = deadric_pantheon
+			}
+			p:1071.owner = {
+				religion = deadric_pantheon
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = alesh
+		}
+		#Alessian Revolt
+		p:1290 = {
+            while = {
+                count = 30
+                define_pop = {
+                type = freemen
+                culture = nedeken
+                religion = nedic_pantheon
+                }
+            }                
+        }
+		p:1290 = {
+			create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = nedeken
+				set_country_religion = nedic_pantheon
+				change_country_name = "Alessia_NAME"
+				change_country_adjective = "Alessia_ADJECTIVE"
+				change_country_flag = alessian_FLAG
+				change_country_color =  "KAlessian_color"
+			}
+		}
+		p:1290.owner = {
+			add_country_modifier = {
+				name = fanatical_culture
+				#duration = 365
+			}
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 1290
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				duration = 14600 # 10 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 300
+		
+			create_character = {
+				first_name = "Morihaus"
+				family_name = "Cyrod"
+				no_stats = yes
+				add_trait="minotaur"
+				culture = minotauran
+				religion = nedic_pantheon
+				age = 23
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				save_scope_as = mori_gov
+			}
+			
+			create_character = {
+				first_name = "Alessia"
+				family_name = "Cyrod"
+				no_stats = yes
+				add_trait="nede"
+				add_trait="dragonblood"
+				culture = nedeken
+				religion = nedic_pantheon
+				female = yes
+				age = 18
+				bad_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				save_scope_as = alessia_gov
+				marry_character = scope:mori_gov
+			}
+			
+			create_character = {
+				first_name = "Pelinal"
+				family_name = "Whitestrike"
+				no_stats = yes
+				add_trait="nede"
+				add_trait="shezzarine"
+				culture = nedeken
+				religion = nedic_pantheon
+				age = 30
+				add_martial=10
+				add_charisma=8
+				add_finesse=2
+				add_zeal=10
+				save_scope_as = pelinal_gov
+			}																																			
+		}
+		p:1290.owner = {
+			set_as_ruler = scope:alessia_gov
+			current_ruler = {
+				add_popularity = 100
+			}
+		}
+		p:1288.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:1290
+				target = p:1290.owner
+			}	
+		}
+	}
+	
+	option = {
+		name = alessian_revolt.1.a
+	}
+}
+
+alessian_revolt.2 = { # The Colovian Lords Join Revolt
+	type = country_event
+	title = "alessian_revolt.2.t"
+	desc = "alessian_revolt.2.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		p:1290.owner = {
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
+		}
+		NOT = { has_country_modifier = cymmerian_invasion_modifier }
+		OR = {
+			religion = nedic_pantheon
+			religion = nordic_pantheon
+			religion = elven_pantheon
+			religion = deadric_pantheon
+		}
+		capital_scope = { 
+			OR = {
+				is_in_region = modded_goldcoast_region
+				is_in_region = modded_kvatch_region
+				is_in_region = modded_skingrad_region
+				is_in_region = modded_chorrol_region
+			}
+		}
+	}
+	
+	option = {
+		name = alessian_revolt.2.a
+		every_owned_province = {
+			set_conquered_by = p:1290.owner
+		}
+		#c:EAG = { # For elven call to surrender
+        #    make_subject = {
+        #        target = c:EAI
+        #        type = feudatory
+        #    }
+        #}
+		ai_chance = {
+            factor = 70
+        }
+	}
+	
+	option = {
+		name = alessian_revolt.2.b
+		ai_chance = {
+            factor = 30
+        }
+	}
+}
+
+alessian_revolt.3 = { # Alessian cores
+	type = country_event
+	title = "alessian_revolt.3.t"
+	desc = "alessian_revolt.3.desc"
+	fire_only_once = yes
+	hidden = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		p:1290.owner = {
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
+		}
+		NOT = { has_country_modifier = cymmerian_invasion_modifier }
+		capital_scope = { 
+			OR = {
+				is_in_region = modded_goldcoast_region
+				is_in_region = modded_kvatch_region
+				is_in_region = modded_skingrad_region
+				is_in_region = modded_chorrol_region
+				is_in_region = modded_sjerall_region
+				is_in_region = modded_chaydinhal_region
+				is_in_region = modded_valus_region
+				is_in_region = modded_nibenbasin_region
+				is_in_region = modded_westweald_region
+				is_in_region = modded_lowerniben_region
+				is_in_region = modded_heartlands_region
+			}
+		}
+		OR = {
+			religion = deadric_pantheon
+			religion = elven_pantheon
+			religion = nordic_pantheon
+		}
+	}
+	
+	option = {
+		name = alessian_revolt.3.a
+		every_owned_province = { add_claim = p:1290.owner } 
+	}
+}

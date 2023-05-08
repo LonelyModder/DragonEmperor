@@ -13,6 +13,50 @@ modded_tmp_region = {
 	}
 }
 
+modded_southpoint_region = {
+	areas = {
+		selenesweb_area
+		eldenroot_area
+		medowrun_area
+		southpoint_area
+		brokensails_area
+		haven_area
+	}
+}
+
+modded_grahtwood_region = {
+	areas = {
+		greenheart_area
+		arananga_area
+		whispergrove_area
+		gushnukbur_area
+		tarlain_area
+		bluff_area
+	}
+}
+
+modded_xolo_region = {
+	areas = {
+		ragnthar_area
+		valeguard_area
+		silvenar_area
+		vulkwasten_area
+		belarata_area
+		falinesti_area
+	}
+}
+
+modded_westernreapersmarch_region = {
+	areas = {
+		sphinxmoth_area
+		arenthia_area
+		greenhill_area
+		vinedusk_area
+		jodewood_area
+		greenhall_area
+	}
+}
+
 modded_auridon_region = {
 	areas = {
 		shatteredgrove_area
@@ -29,7 +73,13 @@ modded_auridon_region = {
 
 modded_greenshade_region = {
 	areas = {
-		talanda_area
+		talanda_area #isle
+		woodhearth_area
+		longhaven_area
+		silmoor_area
+		moonhenge_area
+		vullain_area
+		redwatergrove_area
 	}
 }
 

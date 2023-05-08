@@ -7,6 +7,7 @@
 			OR = {
 				country_culture_group = nede
 				country_culture_group = ayleid
+				country_culture_group = minotauric
 				primary_culture =  cyronordic
 			}
 			#is_tribal = yes
@@ -46,7 +47,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 1071
+			owns = 1071
 			owns_area = weye_area
 			owns_area = vindasel_area
 			owns_area = sardavarleed_area
@@ -68,12 +69,13 @@
 					}					
 				}
 				change_country_name = "HKCyrod_name"
+				change_country_flag = XCY
 			}
 			else_if = {
 				limit = { country_culture_group = ayleid }
 				change_country_name = "AyCyrod_name"
+				change_country_flag = hk_ayleidoon
 			}
-			change_country_flag = XCY
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {

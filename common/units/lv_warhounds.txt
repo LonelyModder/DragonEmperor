@@ -1,14 +1,18 @@
 ﻿lv_warhounds = {
 	army = yes
+	is_flank = yes
+	enable=no
 
 	levy_tier = basic
 
+	allow = {
+		trade_good_surplus = { target = beasts value > 0 }
+	}
 	
 	maneuver = 3
 	movement_speed = 4
 	build_time = 45
 	
-	legions = no
 	
 	lv_lightinfantry = 0.9	
 	lv_heavyinfantry = 0.7	

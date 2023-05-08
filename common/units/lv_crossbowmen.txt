@@ -1,8 +1,13 @@
 ﻿lv_crossbowmen = {
 	army = yes
 	assault = yes
+	enable=no
 
 	levy_tier = basic
+	
+	allow = {
+		trade_good_surplus = { target = dwemerplans value > 0 }
+	}
 	
 	maneuver = 2
 	movement_speed = 2.5

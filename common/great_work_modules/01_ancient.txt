@@ -150,6 +150,18 @@ wonder_skytemple={
 	great_work_category_slot=0
 }
 
+wonder_falinesti={
+	entity_name={"wonder_falinesti_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_eldentree={
+	entity_name={"wonder_eldentree_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"

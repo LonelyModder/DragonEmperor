@@ -1,10 +1,15 @@
 ﻿lv_mages = {
 	army = yes
 	assault = yes
+	enable=no
 
 	levy_tier = advanced
 	
-	legions = no
+	allow = {
+		trade_good_surplus = { target = circle_of_mages value > 0 }
+	}
+	
+	
 	maneuver = 1
 	movement_speed = 2.5
 	build_time = 80

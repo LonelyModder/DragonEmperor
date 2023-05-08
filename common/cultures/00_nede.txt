@@ -1,5 +1,5 @@
 ﻿nede = {	
-	color = hsv { 0.85 0.93 0.79 }
+	color = hsv { 0.04 0.55 0.81 }
 
 	primary = lv_archers
 	second = lv_heavyinfantry
@@ -27,9 +27,8 @@
 		Hanison
 	}
 	culture = {
-		nedeken = {}
+		nedeken = {levy_template = levy_nedeken}
 		hernan = {}
-		caspari = {}
 		kvatchan = {}
 		perenan = {}
 		ketite = {}
@@ -37,6 +36,56 @@
 		gemhan = {}
 		nsedoran = {}
 		ronthan = {}
+		dradite = {}
+		vrodrekite = {}
+		chogori = {}
+		suggori = {}
+		hastri = {}
+		kvorgimite = {}
+		bricraric = {}
+		gverinite = {}
+		vakril = {}
+		oggiri = {}
+		kaginhite = {}
+		uvaviri = {}
+		vrunvan = {}
+		larsian = {}
+		smokefrostan = {}
+		skeggan = {}
+		zircenite = {}
+		conranhite = {}
+		agarite = {}
+		kronveri = {}
+		faeregylite = {}
+		kvoran = {}
+		corbolite = {}
+		soydan = {}
+		surkeri = {}
+		ekretchan = {}
+		kruckradan = {}
+		reedmarcher = {}
+		goydonite = {}
+		thugremite = {}
+		korkarudi = {}
+		vorketchite = {}
+		arrian = {}
+		khakriinite = {}
+		dreggan = {}
+		sorkite = {}
+		gikran = {}
+		ghecrotchan = {}
+		draydan = {}
+		thucri = {}
+		zecriinite = {}
+		cegrali = {}
+		lodoveri = {}
+		kronvite = {}
+		cringri = {}
+		gvurvan = {}
+		kravolite = {}
+		pale = {}
+		drirocher = {}
+		nmarcher = {}
 	}
 	
 	barbarian_names = { 

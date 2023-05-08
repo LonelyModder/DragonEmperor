@@ -2,8 +2,14 @@
 	if = {
 		limit = {
 			OR = {
-				NOT = { has_trait = altmer }
-				NOT = { has_trait = pure }
+				NAND = {
+					has_trait = altmer
+					has_trait = pure
+				}
+				NAND = {
+					has_trait = altmer
+					has_trait = impure
+				}
 				NOT = { has_trait = bosmer }
 				NOT = { has_trait = ayleid }
 				NOT = { has_trait = goblin }
@@ -23,6 +29,12 @@
 			}
 			add_trait = altmer
 			add_trait = pure
+		}
+		else_if = {
+			limit = {
+				has_culture_group = venedi
+			}
+			add_trait = halfauroran
 		}
 		else_if = {
 			limit = {

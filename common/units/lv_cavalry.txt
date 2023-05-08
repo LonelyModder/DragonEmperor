@@ -2,15 +2,17 @@
 	
 	army = yes
 	is_flank = yes
+	enable=no
 
 	levy_tier = advanced
 	
-	
+	allow = {
+		trade_good_surplus = { target = horses value > 0 }
+	}
 
 	maneuver = 3
 	movement_speed = 4
 	build_time = 45
-	legions = no
 	
 	lv_lightinfantry = 1.3	
 	lv_heavyinfantry = 0.7	

@@ -1,9 +1,12 @@
 ﻿lv_camels = {
 	army = yes
+	enable=no
 
 	levy_tier = basic
 	
-	
+	allow = {
+		trade_good_surplus = { target = camel value > 0 }
+	}
 	
 	is_flank = yes
 	
@@ -11,7 +14,7 @@
 	movement_speed = 3.5
 
 	build_time = 40
-	legions = no
+	
 	
 	lv_lightinfantry = 1.1	
 	lv_heavyinfantry = 0.7	
@@ -38,7 +41,7 @@
 		manpower = 1
 	}
 	supply_train = 2.0
-	
+	ai_max_percentage = 30
 	
 	food_consumption = 0.1
 	food_storage = 10
