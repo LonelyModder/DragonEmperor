@@ -10,9 +10,10 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	trigger = {
 		NOT = { has_global_variable = alesh }
 		AND = {
-			p:1594.owner = {
-				religion = deadric_pantheon
-			}
+			#p:1594.owner = {
+			#	religion = deadric_pantheon
+			#}
+			exists = c:CCE
 			p:1071.owner = {
 				religion = deadric_pantheon
 			}

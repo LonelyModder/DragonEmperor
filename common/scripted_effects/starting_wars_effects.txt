@@ -7,13 +7,6 @@
 			target = c:CCE
 		}
 	}
-	c:CBE = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
 	c:CBW = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal

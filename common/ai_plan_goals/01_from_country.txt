@@ -24,18 +24,10 @@ is_pacifist_trigger = {
 		OR = {
 			country_culture_group = altmer
 			country_culture_group = imga
-		}
-	}
-	aggressive = -30
-}
-
-is_eplear_trigger = {
-	trigger = {
-		OR = {
 			country_culture_group = bosmer
 		}
 	}
-	aggressive = -50
+	aggressive = -30
 }
 
 is_antagonist_aimod = {
