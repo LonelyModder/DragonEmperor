@@ -251,6 +251,8 @@ provinces = { #Any entry must contain a comment with city name.
 	1557 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	1173 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	2076 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	2102 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	2100 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	
 	#Buildings
 	464 = {
@@ -304,8 +306,14 @@ provinces = { #Any entry must contain a comment with city name.
 	2002 = {
 		port_building = 1
 	}
+	2100 = {
+		port_building = 2
+	}
 	2038 = {
 		fortress_building = 1
+	}
+	2102 = {
+		port_building = 1
 	}
 	1948 = {
 		fortress_building = 1
@@ -3090,6 +3098,31 @@ country = {
 			
 			own_control_core = 	{ 
 				872 871 874 876
+			}
+		}
+		
+		VAR = {          
+			government = despotic_monarchy
+			primary_culture = topalite
+			religion = elven_pantheon
+			capital = 2100
+			
+			poptype_rights = {
+				{
+					culture = nedeken 
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2100 2101 2102 2103 2104 2105 2106
 			}
 		}
 	}

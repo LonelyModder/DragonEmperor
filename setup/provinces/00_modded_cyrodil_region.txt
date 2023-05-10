@@ -17511,58 +17511,168 @@
 }
 
 2100={ 
-	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	terrain="hills"
+	trade_goods="gems"
+	religion="elven_pantheon"
+	culture="topalite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=5
 	}
 	tribesmen={
-		amount=4
+		amount=2
+		culture="tsethauxith"
+		religion="hist_pantheon"
+	}
+	tribesmen={
+		amount=3
+		culture="nibeneank"
+		religion="khajiiti_pantheon"
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 2101={ 
-	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	terrain="hills"
+	trade_goods="ebon"
+	religion="elven_pantheon"
+	culture="topalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
+		amount=3
 	}
 	slaves={
 		amount=1
+	}
+	slaves={
+		amount=2
+		culture="tsethauxith"
+		religion="hist_pantheon"
 	}
 }
 
 2102={ 
-	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	terrain="forest"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="topalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=5
+		culture="tsethauxith"
+		religion="hist_pantheon"
+	}
+	slaves={
+		amount=3
+		culture="tsethauxith"
+		religion="hist_pantheon"
+	}
+}
+
+2103={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="topalite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
 		amount=1
+	}
+	slaves={
+		amount=2
+		religion="elven_pantheon"
+		culture="nedeken"
+	}
+}
+
+2104={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="topalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="elven_pantheon"
+		culture="nedeken"
+	}
+}
+
+2105={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="topalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="elven_pantheon"
+		culture="nedeken"
+	}
+}
+
+2106={ 
+	terrain="farmland"
+	trade_goods="wine"
+	religion="elven_pantheon"
+	culture="topalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		culture="tsethauxith"
+		religion="hist_pantheon"
+	}
+	slaves={
+		amount=2
+		religion="elven_pantheon"
+		culture="nedeken"
 	}
 }

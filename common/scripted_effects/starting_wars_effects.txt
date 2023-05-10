@@ -1,12 +1,5 @@
 ﻿besarabic_war_conflict_effect = {
 	
-	c:CAA = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
 	c:CBW = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
@@ -43,13 +36,6 @@
 		}
 	}
 	c:CCD = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCL = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
 		    province = p:1594

@@ -13,7 +13,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 			#p:1594.owner = {
 			#	religion = deadric_pantheon
 			#}
-			exists = c:CCE
+			NOT = { exists = c:CCE }
 			p:1071.owner = {
 				religion = deadric_pantheon
 			}
