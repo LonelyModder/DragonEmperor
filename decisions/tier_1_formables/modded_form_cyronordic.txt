@@ -1,14 +1,15 @@
 ﻿country_decisions = {
 	
 	# Form High Kingdom of Alinor
-	form_auridon = {
+	form_cyronordic = {
 		
 		potential = {
-			country_culture_group = altmer
+			OR = {
+				primary_culture = cyronordic
+			}
 			#is_tribal = yes
-			NOR = {
-				tag = XAU
-				tag = AAA
+			NOT = {
+				tag = XCN
 			}
 			NOR = {
 				is_tier_1_formable_trigger = yes
@@ -20,30 +21,30 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 722
-					province_id = 677
+					province_id = 1326
+					province_id = 1412
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = auridon_must_not_exist
+				text = cyronordic_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XAU
+						tag = XCN
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 722
-			owns = 677
+			owns= 1326
+			owns_or_subject_owns = 1412
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "KAuridon_name"
-			change_country_flag = auridon_FLAG
+			change_country_name = "KCyroNordic_name"
+			change_country_flag = cyronordic_FLAG
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -54,38 +55,45 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "KAuridon_adj"
-				change_country_color =  "KAuridon_color"
-				change_country_tag = XAU
+				change_country_adjective = "KCyroNordic_adj"
+				change_country_color =  "KCyroNordic_color"
+				change_country_tag = XCN
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 677
+							province_id = 1326
 						}
 					}
 				}
-				set_capital = 677
+				set_capital = 1326
 				hidden_effect = {
-					p:677.state = {
-						set_state_capital = 677
+					p:1326.state = {
+						set_state_capital = 1326
 					}
 				}
 			}
-			#p:677 = {
+			#p:1326 = {
 			#	if = {
 			#		limit = { has_city_status = no }
 			#		set_city_status = city
 			#	}
 			#}
-			p:677 = {
+			p:1326 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_auridon_region = { formable_region_province_effect = yes }
+				region:modded_sjerall_region = { formable_region_province_effect = yes }
+				region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+				region:modded_valus_region = { formable_region_province_effect = yes }
+				region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+				area:caractacus_area = { formable_area_province_effect = yes }
+				area:sercen_area = { formable_area_province_effect = yes }
+				area:vilverin_area = { formable_area_province_effect = yes }
+				area:magia_area = { formable_area_province_effect = yes }
 			}
 		}
 		

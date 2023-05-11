@@ -12,6 +12,7 @@ esfa_startup.1 = { #Sommerset Isles
 
     option = {    
         name = esfa_startup.1.a
+		root = { every_owned_province = { add_claim = p:453.owner } }
     }
 }
 
@@ -57,6 +58,7 @@ esfa_startup.4 = { #Ayleid Empire
 
     option = {    
         name = esfa_startup.4.a
+		every_owned_province = { add_claim = c:CAA } 			
     }
 }
 

@@ -144,6 +144,17 @@ VAA = { #Valenwood
 	}
 }
 
+CAZ = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 194 28 }
+	color2 = rgb { 255 194 28 }
+
+	colored_emblem = {
+		texture = "ce_bruma.dds"
+		color1 = rgb { 0 0 0 }
+	}
+}
+
 # Modded emblems for formables
 
 hk_ayleidoon = { #For the Ayleid Empire
@@ -242,5 +253,16 @@ sommerset_FLAG = { #Kingdom of Nibenay
 	colored_emblem = {
 		texture = "ce_auridon.dds"
 		color1 = rgb { 255 203 43 }
+	}
+}
+
+cyronordic_FLAG = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 194 28 }
+	color2 = rgb { 255 194 28 }
+
+	colored_emblem = {
+		texture = "ce_bruma.dds"
+		color1 = rgb { 0 0 0 }
 	}
 }
