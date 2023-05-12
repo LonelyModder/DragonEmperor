@@ -17676,3 +17676,24 @@
 		culture="nedeken"
 	}
 }
+
+2107={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="lipsandan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="nedeken"
+	}
+}

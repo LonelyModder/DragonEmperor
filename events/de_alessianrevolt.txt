@@ -102,7 +102,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 			}
 			add_country_modifier = {
 				name = cymmerian_invasion_modifier
-				duration = 14600 # 10 years
+				duration = 7300 # 10 years
 			}
 			every_unit = {
 				add_food = 100
