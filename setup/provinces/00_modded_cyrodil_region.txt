@@ -8941,9 +8941,13 @@
 	culture="heartlanderhi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
 		amount=3
