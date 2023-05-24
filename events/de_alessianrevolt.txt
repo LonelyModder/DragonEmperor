@@ -248,31 +248,21 @@ alessian_revolt.3 = { # Alessian cores
 		p:1288.owner = {
 			religion = nedic_pantheon
 		}
-		NOT = { has_country_modifier = cymmerian_invasion_modifier }
-		capital_scope = { 
-			OR = {
-				is_in_region = modded_goldcoast_region
-				is_in_region = modded_kvatch_region
-				is_in_region = modded_skingrad_region
-				is_in_region = modded_chorrol_region
-				is_in_region = modded_sjerall_region
-				is_in_region = modded_chaydinhal_region
-				is_in_region = modded_valus_region
-				is_in_region = modded_nibenbasin_region
-				is_in_region = modded_westweald_region
-				is_in_region = modded_lowerniben_region
-				is_in_region = modded_heartlands_region
-			}
-		}
-		OR = {
-			religion = deadric_pantheon
-			religion = elven_pantheon
-			religion = nordic_pantheon
-		}
+		has_country_modifier = cymmerian_invasion_modifier
 	}
 	
 	option = {
 		name = alessian_revolt.3.a
-		every_owned_province = { add_claim = p:1290.owner } 
+		region:modded_goldcoast_region = { formable_region_province_effect = yes }
+		region:modded_kvatch_region = { formable_region_province_effect = yes }
+		region:modded_skingrad_region = { formable_region_province_effect = yes }
+		region:modded_chorrol_region = { formable_region_province_effect = yes }
+		region:modded_heartlands_region = { formable_region_province_effect = yes }
+		region:modded_westweald_region = { formable_region_province_effect = yes }
+		region:modded_lowerniben_region = { formable_region_province_effect = yes }
+		region:modded_sjerall_region = { formable_region_province_effect = yes }
+		region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+		region:modded_valus_region = { formable_region_province_effect = yes }
+		region:modded_nibenbasin_region = { formable_region_province_effect = yes }
 	}
 }
