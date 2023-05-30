@@ -134,11 +134,13 @@ modded_dusk_region = {
 
 modded_khefrem_region = {
 	areas = {
+		capeshira_area
+		sunkeepmountains_area
 		chain_area #isle
 		herne_area #isle
 		caspar_area #isle
 		strosmkai_area #isle
-		hewsbane_area
+		hewsbane_area #To Bone 
 	}
 }
 
