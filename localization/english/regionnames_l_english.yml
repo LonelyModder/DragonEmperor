@@ -1,6 +1,7 @@
 ﻿l_english:
  #Regions
  modded_tmp_region:0 "temporary"
+ modded_hewsbane_region:0 "Hew's Bane"
  modded_southpoint_region:0 "Grahtwood"
  modded_grahtwood_region:0 "Greenheart"
  modded_xolo_region:0 "Malabal Tor"
@@ -9,7 +10,7 @@
  modded_shimmerene_region:0 "Shimmerene"
  modded_etonnir_region:0 "Eton-Nir"
  modded_dusk_region:0 "Sir-Var"
- modded_khefrem_region:0 "Alik'r"
+ modded_alikr_region:0 "Alik'r"
  modded_greenshade_region:0 "Greenshade"
  modded_auridon_region:0 "Auridon"
  modded_goldcoast_region:0 "Gold Coast"
@@ -25,6 +26,11 @@
  modded_nibenbasin_region:0 "Niben Basin"
  #Areas
  tmp_area:0 "temporary"
+ sentinel_area:0 "Sentinel"
+ easternalikr_area:0 "Eastern Alik'r"
+ centralalikr_area:0 "Central Alik'r"
+ hollowwastes_area:0 "Hollow Wastes"
+ hegathe_area:0 "Hegathe"
  capeshira_area:0 "Cape Shira"
  sunkeepmountains_area:0 "Sunkeep Mountains"
  topalisle_area:0 "Topal Isle"

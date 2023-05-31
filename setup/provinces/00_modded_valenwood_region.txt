@@ -2,7 +2,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -23,7 +23,7 @@
 	terrain="hills"
 	trade_goods="salt"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -44,7 +44,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -65,7 +65,7 @@
 	terrain="plains"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -86,7 +86,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -118,7 +118,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -619,7 +619,7 @@
 }
 
 1785={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="vinedusk"
@@ -638,7 +638,7 @@
 }
 
 1786={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="senali"
@@ -657,7 +657,7 @@
 }
 
 1787={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="jodei"
@@ -676,7 +676,7 @@
 }
 
 1788={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="senali"
@@ -695,7 +695,7 @@
 }
 
 1789={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="vinedusk"
@@ -714,7 +714,7 @@
 }
 
 1790={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vinedusk"
@@ -733,7 +733,7 @@
 }
 
 1791={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="green_pantheon"
 	culture="verda"
@@ -752,7 +752,7 @@
 }
 
 1792={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="verda"
@@ -774,7 +774,7 @@
 }
 
 1793={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="jodei"
@@ -793,7 +793,7 @@
 }
 
 1794={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="verda"
@@ -812,7 +812,7 @@
 }
 
 1795={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="verda"
@@ -831,7 +831,7 @@
 }
 
 1796={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="senali"
@@ -850,7 +850,7 @@
 }
 
 1797={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="stone"
 	religion="green_pantheon"
 	culture="senali"
@@ -907,7 +907,7 @@
 }
 
 1800={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="gurda"
@@ -926,7 +926,7 @@
 }
 
 1801={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="vilgane"
@@ -945,7 +945,7 @@
 }
 
 1802={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vilgane"
@@ -964,7 +964,7 @@
 }
 
 1803={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vilgane"
@@ -1002,7 +1002,7 @@
 }
 
 1805={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="gurda"
@@ -1040,7 +1040,7 @@
 }
 
 1807={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="gurda"
@@ -1062,8 +1062,8 @@
 }
 
 1808={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="gurda"
 	civilization_value=0
@@ -1081,7 +1081,7 @@
 }
 
 1809={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="valeguardic"
@@ -1100,7 +1100,7 @@
 }
 
 1810={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="vinedusk"
@@ -1122,7 +1122,7 @@
 }
 
 1811={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1141,7 +1141,7 @@
 }
 
 1812={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1160,8 +1160,8 @@
 }
 
 1813={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="silvenite"
 	civilization_value=0
@@ -1179,7 +1179,7 @@
 }
 
 1814={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1198,7 +1198,7 @@
 }
 
 1815={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1217,7 +1217,7 @@
 }
 
 1816={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1236,7 +1236,7 @@
 }
 
 1817={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="valeguardic"
@@ -1255,7 +1255,7 @@
 }
 
 1818={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1274,7 +1274,7 @@
 }
 
 1819={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1293,7 +1293,7 @@
 }
 
 1820={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1312,7 +1312,7 @@
 }
 
 1821={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1331,7 +1331,7 @@
 }
 
 1822={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1350,7 +1350,7 @@
 }
 
 1823={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1369,7 +1369,7 @@
 }
 
 1824={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1388,7 +1388,7 @@
 }
 
 1825={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1410,7 +1410,7 @@
 }
 
 1826={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1429,7 +1429,7 @@
 }
 
 1827={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -1448,7 +1448,7 @@
 }
 
 1828={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -1543,7 +1543,7 @@
 }
 
 1833={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="precious_metals"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -1562,7 +1562,7 @@
 }
 
 1834={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1581,7 +1581,7 @@
 }
 
 1835={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="willowan"
@@ -1600,8 +1600,8 @@
 }
 
 1836={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="willowan"
 	civilization_value=0
@@ -1619,8 +1619,8 @@
 }
 
 1837={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="jodei"
 	civilization_value=0
@@ -1638,7 +1638,7 @@
 }
 
 1838={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1657,7 +1657,7 @@
 }
 
 1839={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="jodei"
@@ -1676,7 +1676,7 @@
 }
 
 1840={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="vinedusk"
@@ -1695,7 +1695,7 @@
 }
 
 1841={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -1733,7 +1733,7 @@
 }
 
 1843={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1763,7 +1763,7 @@
 }
 
 1844={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1782,7 +1782,7 @@
 }
 
 1845={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -1801,7 +1801,7 @@
 }
 
 1846={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="valeguardic"
@@ -1820,7 +1820,7 @@
 }
 
 1847={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="valeguardic"
@@ -1839,7 +1839,7 @@
 }
 
 1848={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="valeguardic"
@@ -1861,7 +1861,7 @@
 }
 
 1849={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -1880,7 +1880,7 @@
 }
 
 1850={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1899,7 +1899,7 @@
 }
 
 1851={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -1921,7 +1921,7 @@
 }
 
 1852={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1943,8 +1943,8 @@
 }
 
 1853={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="silvenite"
 	civilization_value=0
@@ -1962,7 +1962,7 @@
 }
 
 1854={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -1981,7 +1981,7 @@
 }
 
 1855={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="silvenite"
@@ -2000,7 +2000,7 @@
 }
 
 1856={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2019,7 +2019,7 @@
 }
 
 1857={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="stafftrees"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2038,7 +2038,7 @@
 }
 
 1858={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2057,7 +2057,7 @@
 }
 
 1859={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2076,7 +2076,7 @@
 }
 
 1860={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2095,7 +2095,7 @@
 }
 
 1861={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="green_pantheon"
 	culture="capanu"
@@ -2114,7 +2114,7 @@
 }
 
 1862={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="capanu"
@@ -2133,7 +2133,7 @@
 }
 
 1863={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -2152,7 +2152,7 @@
 }
 
 1864={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="capanu"
@@ -2171,7 +2171,7 @@
 }
 
 1865={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="green_pantheon"
 	culture="capanu"
@@ -2193,8 +2193,8 @@
 }
 
 1866={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="zennqan"
 	civilization_value=0
@@ -2212,7 +2212,7 @@
 }
 
 1867={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="zennqan"
@@ -2231,7 +2231,7 @@
 }
 
 1868={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="zennqan"
@@ -2250,7 +2250,7 @@
 }
 
 1869={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="cabal_of_witches"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2276,7 +2276,7 @@
 }
 
 1870={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2295,7 +2295,7 @@
 }
 
 1871={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="codeofmalacath_pantheon"
 	culture="drublog"
@@ -2317,7 +2317,7 @@
 }
 
 1872={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="jodei"
@@ -2336,7 +2336,7 @@
 }
 
 1873={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="durzogs"
 	religion="green_pantheon"
 	culture="fulda"
@@ -2355,7 +2355,7 @@
 }
 
 1874={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="fulda"
@@ -2377,7 +2377,7 @@
 }
 
 1875={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2396,7 +2396,7 @@
 }
 
 1876={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="fulda"
@@ -2415,7 +2415,7 @@
 }
 
 1877={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="fulda"
@@ -2434,7 +2434,7 @@
 }
 
 1878={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="codeofmalacath_pantheon"
 	culture="barkbite"
@@ -2453,7 +2453,7 @@
 }
 
 1879={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2472,7 +2472,7 @@
 }
 
 1880={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2665,7 +2665,7 @@
 }
 
 1891={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="salt"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2684,7 +2684,7 @@
 }
 
 1892={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2703,7 +2703,7 @@
 }
 
 1893={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2725,7 +2725,7 @@
 }
 
 1894={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="salt"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2744,7 +2744,7 @@
 }
 
 1895={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2774,7 +2774,7 @@
 }
 
 1896={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="unga"
@@ -2793,7 +2793,7 @@
 }
 
 1897={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2812,7 +2812,7 @@
 }
 
 1898={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="camoran"
@@ -2831,7 +2831,7 @@
 }
 
 1899={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="unga"
@@ -2850,7 +2850,7 @@
 }
 
 1900={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="unga"
@@ -2869,7 +2869,7 @@
 }
 
 1901={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2888,7 +2888,7 @@
 }
 
 1902={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2907,7 +2907,7 @@
 }
 
 1903={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
@@ -2926,7 +2926,7 @@
 }
 
 1904={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="zennqan"
@@ -2964,7 +2964,7 @@
 }
 
 1906={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -2983,7 +2983,7 @@
 }
 
 1907={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3002,7 +3002,7 @@
 }
 
 1908={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3021,7 +3021,7 @@
 }
 
 1909={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3040,7 +3040,7 @@
 }
 
 1910={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3059,7 +3059,7 @@
 }
 
 1911={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3078,7 +3078,7 @@
 }
 
 1912={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3097,7 +3097,7 @@
 }
 
 1913={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3116,7 +3116,7 @@
 }
 
 1914={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3138,7 +3138,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3156,7 +3156,7 @@
 }
 
 1916={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3175,7 +3175,7 @@
 }
 
 1917={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3194,7 +3194,7 @@
 }
 
 1918={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3213,7 +3213,7 @@
 }
 
 1919={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -3232,7 +3232,7 @@
 }
 
 1920={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3251,7 +3251,7 @@
 }
 
 1921={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3270,10 +3270,10 @@
 }
 
 1922={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3291,7 +3291,7 @@
 }
 
 1923={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3313,7 +3313,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3331,7 +3331,7 @@
 }
 
 1925={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3350,7 +3350,7 @@
 }
 
 1926={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3369,7 +3369,7 @@
 }
 
 1927={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3388,7 +3388,7 @@
 }
 
 1928={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="vullaini"
@@ -3407,7 +3407,7 @@
 }
 
 1929={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -3426,7 +3426,7 @@
 }
 
 1930={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="codeofmalacath_pantheon"
 	culture="barkbite"
@@ -3445,7 +3445,7 @@
 }
 
 1931={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3464,7 +3464,7 @@
 }
 
 1932={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3483,7 +3483,7 @@
 }
 
 1933={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3502,8 +3502,8 @@
 }
 
 1934={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="woodhearthan"
 	civilization_value=0
@@ -3521,7 +3521,7 @@
 }
 
 1935={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3540,7 +3540,7 @@
 }
 
 1936={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -3559,7 +3559,7 @@
 }
 
 1937={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -3578,8 +3578,8 @@
 }
 
 1938={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="negekite"
 	civilization_value=0
@@ -3597,8 +3597,8 @@
 }
 
 1939={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="negekite"
 	civilization_value=0
@@ -3616,7 +3616,7 @@
 }
 
 1940={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="negekite"
@@ -3635,7 +3635,7 @@
 }
 
 1941={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3657,7 +3657,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3675,7 +3675,7 @@
 }
 
 1943={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3694,7 +3694,7 @@
 }
 
 1944={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3707,12 +3707,12 @@
 	citizen={
 		amount=3
 		religion="elven_pantheon"
-		culture="hiforested"
+		culture="hijungleed"
 	}
 	freemen={
 		amount=3
 		religion="elven_pantheon"
-		culture="hiforested"
+		culture="hijungleed"
 	}
 	freemen={
 		amount=4
@@ -3733,7 +3733,7 @@
 	terrain="plains"
 	trade_goods="salt"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3751,7 +3751,7 @@
 }
 
 1946={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3770,7 +3770,7 @@
 }
 
 1947={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3789,10 +3789,10 @@
 }
 
 1948={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3810,7 +3810,7 @@
 }
 
 1949={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3829,7 +3829,7 @@
 }
 
 1950={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3848,7 +3848,7 @@
 }
 
 1951={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="geleki"
@@ -3867,7 +3867,7 @@
 }
 
 1952={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3886,7 +3886,7 @@
 }
 
 1953={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="green_pantheon"
 	culture="woodhearthan"
@@ -3905,7 +3905,7 @@
 }
 
 1954={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -3927,7 +3927,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3945,7 +3945,7 @@
 }
 
 1956={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -3967,7 +3967,7 @@
 }
 
 1957={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -3986,7 +3986,7 @@
 }
 
 1958={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4005,7 +4005,7 @@
 }
 
 1959={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4024,7 +4024,7 @@
 }
 
 1960={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4043,7 +4043,7 @@
 }
 
 1961={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4062,7 +4062,7 @@
 }
 
 1962={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4081,7 +4081,7 @@
 }
 
 1963={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4100,7 +4100,7 @@
 }
 
 1964={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4142,7 +4142,7 @@
 }
 
 1966={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4161,7 +4161,7 @@
 }
 
 1967={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4218,7 +4218,7 @@
 }
 
 1970={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="lhurgash"
@@ -4237,7 +4237,7 @@
 }
 
 1971={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="tarlainite"
@@ -4313,7 +4313,7 @@
 }
 
 1975={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="tarlainite"
@@ -4332,7 +4332,7 @@
 }
 
 1976={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4351,7 +4351,7 @@
 }
 
 1977={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="negekite"
@@ -4370,7 +4370,7 @@
 }
 
 1978={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="whisperan"
@@ -4389,7 +4389,7 @@
 }
 
 1979={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4408,7 +4408,7 @@
 }
 
 1980={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="codeofmalacath_pantheon"
 	culture="barkbite"
@@ -4427,7 +4427,7 @@
 }
 
 1981={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4446,7 +4446,7 @@
 }
 
 1982={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4465,7 +4465,7 @@
 }
 
 1983={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4484,7 +4484,7 @@
 }
 
 1984={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4503,7 +4503,7 @@
 }
 
 1985={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4522,7 +4522,7 @@
 }
 
 1986={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4541,7 +4541,7 @@
 }
 
 1987={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4560,7 +4560,7 @@
 }
 
 1988={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4590,7 +4590,7 @@
 }
 
 1989={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4609,7 +4609,7 @@
 }
 
 1990={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4628,7 +4628,7 @@
 }
 
 1991={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="rootwater"
@@ -4647,8 +4647,8 @@
 }
 
 1992={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="rootwater"
 	civilization_value=0
@@ -4666,7 +4666,7 @@
 }
 
 1993={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4685,8 +4685,8 @@
 }
 
 1994={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
 	culture="greenheartan"
 	civilization_value=0
@@ -4704,7 +4704,7 @@
 }
 
 1995={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="fakari"
@@ -4723,7 +4723,7 @@
 }
 
 1996={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="fakari"
@@ -4742,7 +4742,7 @@
 }
 
 1997={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4761,7 +4761,7 @@
 }
 
 1998={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4780,7 +4780,7 @@
 }
 
 1999={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4799,7 +4799,7 @@
 }
 
 2000={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4818,7 +4818,7 @@
 }
 
 2001={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4837,10 +4837,10 @@
 }
 
 2002={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4858,7 +4858,7 @@
 }
 
 2003={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4877,10 +4877,10 @@
 }
 
 2004={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4898,7 +4898,7 @@
 }
 
 2005={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4917,7 +4917,7 @@
 }
 
 2006={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="stafftrees"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4936,7 +4936,7 @@
 }
 
 2007={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="lhurgash"
@@ -4955,7 +4955,7 @@
 }
 
 2008={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4974,7 +4974,7 @@
 }
 
 2009={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -4993,7 +4993,7 @@
 }
 
 2010={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -5012,7 +5012,7 @@
 }
 
 2011={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -5031,7 +5031,7 @@
 }
 
 2012={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="greenheartan"
@@ -5050,7 +5050,7 @@
 }
 
 2013={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="lhurgash"
@@ -5072,7 +5072,7 @@
 }
 
 2014={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="codeofmalacath_pantheon"
 	culture="lhurgash"
@@ -5091,7 +5091,7 @@
 }
 
 2015={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="fammeseni"
@@ -5110,7 +5110,7 @@
 }
 
 2016={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5129,7 +5129,7 @@
 }
 
 2017={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5148,7 +5148,7 @@
 }
 
 2018={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5167,7 +5167,7 @@
 }
 
 2019={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="fammeseni"
@@ -5186,10 +5186,10 @@
 }
 
 2020={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5207,7 +5207,7 @@
 }
 
 2021={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -5226,7 +5226,7 @@
 }
 
 2022={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="fakari"
@@ -5245,7 +5245,7 @@
 }
 
 2023={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="limestone"
 	religion="green_pantheon"
 	culture="fakari"
@@ -5264,7 +5264,7 @@
 }
 
 2024={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="fammeseni"
@@ -5283,7 +5283,7 @@
 }
 
 2025={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="limestone"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -5302,7 +5302,7 @@
 }
 
 2026={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="fakari"
@@ -5321,7 +5321,7 @@
 }
 
 2027={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5340,7 +5340,7 @@
 }
 
 2028={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="fammeseni"
@@ -5359,7 +5359,7 @@
 }
 
 2029={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="fakari"
@@ -5378,7 +5378,7 @@
 }
 
 2030={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="fakari"
@@ -5397,7 +5397,7 @@
 }
 
 2031={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="stone"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5416,7 +5416,7 @@
 }
 
 2032={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -5435,7 +5435,7 @@
 }
 
 2033={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="greenhall"
@@ -5454,7 +5454,7 @@
 }
 
 2034={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5476,7 +5476,7 @@
 }
 
 2035={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="fammeseni"
@@ -5495,8 +5495,8 @@
 }
 
 2036={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="codeofmalacath_pantheon"
 	culture="darkfern"
 	civilization_value=0
@@ -5514,8 +5514,8 @@
 }
 
 2037={ 
-	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	terrain="jungle"
+	trade_goods="fruitsofthejungle"
 	religion="codeofmalacath_pantheon"
 	culture="darkfern"
 	civilization_value=0
@@ -5533,10 +5533,10 @@
 }
 
 2038={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -5562,7 +5562,7 @@
 }
 
 2039={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5581,7 +5581,7 @@
 }
 
 2040={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5600,10 +5600,10 @@
 }
 
 2041={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="salt"
 	religion="elven_pantheon"
-	culture="hiforested"
+	culture="hijungleed"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5621,7 +5621,7 @@
 }
 
 2042={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5640,7 +5640,7 @@
 }
 
 2043={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5659,7 +5659,7 @@
 }
 
 2044={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5678,7 +5678,7 @@
 }
 
 2045={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5697,7 +5697,7 @@
 }
 
 2046={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5716,7 +5716,7 @@
 }
 
 2047={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="meadowite"
@@ -5735,7 +5735,7 @@
 }
 
 2048={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="darkfern"
@@ -5757,7 +5757,7 @@
 }
 
 2049={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="codeofmalacath_pantheon"
 	culture="darkfern"
@@ -5776,7 +5776,7 @@
 }
 
 2050={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="stafftrees"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5795,7 +5795,7 @@
 }
 
 2051={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5814,7 +5814,7 @@
 }
 
 2052={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5843,7 +5843,7 @@
 }
 
 2053={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5862,7 +5862,7 @@
 }
 
 2054={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -5881,7 +5881,7 @@
 }
 
 2055={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5900,7 +5900,7 @@
 }
 
 2056={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5919,7 +5919,7 @@
 }
 
 2057={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5938,7 +5938,7 @@
 }
 
 2058={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="gliverite"
@@ -5957,7 +5957,7 @@
 }
 
 2059={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="salasi"
@@ -5976,7 +5976,7 @@
 }
 
 2060={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="salasi"
@@ -5995,7 +5995,7 @@
 }
 
 2061={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6014,7 +6014,7 @@
 }
 
 2062={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -6033,7 +6033,7 @@
 }
 
 2063={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -6052,7 +6052,7 @@
 }
 
 2064={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -6071,7 +6071,7 @@
 }
 
 2065={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="eldenite"
@@ -6090,7 +6090,7 @@
 }
 
 2066={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="kundu"
@@ -6112,7 +6112,7 @@
 }
 
 2067={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
 	culture="kundu"
@@ -6131,7 +6131,7 @@
 }
 
 2068={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="kundu"
@@ -6150,7 +6150,7 @@
 }
 
 2069={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="kundu"
@@ -6169,7 +6169,7 @@
 }
 
 2070={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6188,7 +6188,7 @@
 }
 
 2071={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="beasts"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6226,7 +6226,7 @@
 }
 
 2073={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6245,7 +6245,7 @@
 }
 
 2074={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6264,7 +6264,7 @@
 }
 
 2075={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
 	culture="salasi"
@@ -6283,7 +6283,7 @@
 }
 
 2076={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6312,7 +6312,7 @@
 }
 
 2077={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6331,7 +6331,7 @@
 }
 
 2078={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6350,7 +6350,7 @@
 }
 
 2079={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6369,7 +6369,7 @@
 }
 
 2080={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="kallopi"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6391,7 +6391,7 @@
 }
 
 2081={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6410,7 +6410,7 @@
 }
 
 2082={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6429,7 +6429,7 @@
 }
 
 2083={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="coal"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6448,7 +6448,7 @@
 }
 
 2084={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6467,7 +6467,7 @@
 }
 
 2085={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6486,7 +6486,7 @@
 }
 
 2086={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="green_pantheon"
 	culture="havenite"
@@ -6505,7 +6505,7 @@
 }
 
 2087={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
 	culture="havenite"

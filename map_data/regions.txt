@@ -132,15 +132,25 @@ modded_dusk_region = {
 	}
 }
 
-modded_khefrem_region = {
+modded_alikr_region = {
 	areas = {
+		sentinel_area
+		easternalikr_area
+		centralalikr_area
+		hollowwastes_area
+		hegathe_area
 		capeshira_area
 		sunkeepmountains_area
 		chain_area #isle
 		herne_area #isle
 		caspar_area #isle
 		strosmkai_area #isle
-		hewsbane_area #To Bone 
+	}
+}
+
+modded_hewsbane_region = {
+	areas = {
+		hewsbane_area 
 	}
 }
 

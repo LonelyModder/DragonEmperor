@@ -55,6 +55,7 @@
 	bosmer_path_3 = { ###bosmer path
 		modifier = { 
 			forest_combat_bonus = 0.25
+			jungle_combat_bonus = 0.25
 			lv_lightinfantry_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
@@ -138,7 +139,7 @@
 	bosmer_path_end_bonus = { ###bosmer path
 		modifier = { 
 			lv_archers_offensive = 0.15
-			forest_combat_bonus = 0.25
+			jungle_combat_bonus = 0.25
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_6a bosmer_path_5b bosmer_path_5c}
