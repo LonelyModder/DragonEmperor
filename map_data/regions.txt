@@ -148,9 +148,34 @@ modded_alikr_region = {
 	}
 }
 
+modded_glenumbra_region = {
+	areas = {
+		balfiera_area 
+	}
+}
+
+modded_dragontailmountains_region = {
+	areas = {
+		lainlyn_area
+		satakalaam_area
+		totambu_area
+	}
+}
+
+modded_easternhewsbay_region = {
+	areas = {
+		rihad_area
+	}
+}
+
 modded_hewsbane_region = {
 	areas = {
-		hewsbane_area 
+		lainebon_area
+		gilane_area
+		princesgate_area
+		abahslanding_area
+		hiradige_area
+		koestaran_area 
 	}
 }
 
