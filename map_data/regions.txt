@@ -67,7 +67,6 @@ modded_auridon_region = {
 		firsthold_area
 		errinorneisle_area #isle
 		skywatch_area
-		dranilkir_area #isle
 	}
 }
 
@@ -165,6 +164,14 @@ modded_dragontailmountains_region = {
 modded_easternhewsbay_region = {
 	areas = {
 		rihad_area
+		northhall_area
+		roseguard_area
+	}
+}
+
+modded_weepingdesert_region = {
+	areas = {
+		stonemoor_area
 	}
 }
 

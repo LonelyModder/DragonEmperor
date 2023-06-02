@@ -1,6 +1,7 @@
 ﻿l_english:
  #Regions
  modded_tmp_region:0 "temporary"
+ modded_weepingdesert_region:0 "Weeping Desert"
  modded_easternhewsbay_region:0 "Eastern Hew' Bay"
  modded_dragontailmountains_region:0 "Dragontail Mountains"
  modded_hewsbane_region:0 "Hew's Bane"
@@ -29,6 +30,9 @@
  modded_glenumbra_region:0 "Glenumbra"
  #Areas
  tmp_area:0 "temporary"
+ stonemoor_area:0 "Stonemoor"
+ roseguard_area:0 "Roseguard"
+ northhall_area:0 "North Hall"
  rihad_area:0 "Rihad"
  satakalaam_area:0 "Satakalaam"
  totambu_area:0 "Totambu"
@@ -165,7 +169,6 @@
  koestaran_area:0 "Ko Estaran"
  strosmkai_area:0 "Stros M'kai"
  shatteredgrove_area:0 "Shattered Grove"
- dranilkir_area:0 "Dranil Kir"
  tanzelwil_area:0 "South Beacon"
  phaer_area:0 "Phaer"
  artaeum_area:0 "Artaeum"
