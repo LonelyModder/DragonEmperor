@@ -970,10 +970,10 @@
 	province_rank=""
 }
 
-103={ #Mountain Range
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+103={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -1470,10 +1470,10 @@
 	province_rank=""
 }
 
-153={ #Mountain Range
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+153={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -6470,10 +6470,10 @@
 	province_rank=""
 }
 
-2266={ #Lands
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+2266={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -6800,30 +6800,30 @@
 	province_rank=""
 }
 
-2725={ #Lands
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+2725={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-2726={ #Lands
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+2726={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
 	province_rank=""
 }
 
-2727={ #Lands
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+2727={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -6831,6 +6831,16 @@
 }
 
 2728={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+2553={ #Lands
 	terrain="impassable_terrain"
 	culture="goblinken"
 	religion="goblin_pantheon"
