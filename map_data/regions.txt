@@ -203,6 +203,10 @@ modded_lowercraglorn_region = {
 modded_weepingdesert_region = {
 	areas = {
 		stonemoor_area
+		southcorten_area
+		northcorten_area
+		fallenwastes_area #desert
+		weepingdesert_area #desert
 	}
 }
 
