@@ -165,7 +165,6 @@ modded_dragontailmountains_region = {
 		totambu_area
 		nilata_area
 		heldornmount_area
-		skaven_area
 	}
 }
 
@@ -202,6 +201,7 @@ modded_lowercraglorn_region = {
 
 modded_weepingdesert_region = {
 	areas = {
+		skaven_area
 		stonemoor_area
 		southcorten_area
 		northcorten_area
