@@ -21,8 +21,12 @@ tmp_area = {
     provinces = {  }    
 }
 
+helkoriplain_area = { 
+    provinces = { 2729 2730 2731 2476 2230 2185 2221 2273 2229 2225 }    
+}
+
 weepingdesert_area = { 
-    provinces = { 2680 2478 2476 2526 2710 2713 2670 2474 }
+    provinces = { 2680 2478 2526 2710 2713 2670 2474 }
 }
 
 fallenwastes_area = { 
