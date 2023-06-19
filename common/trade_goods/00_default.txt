@@ -635,6 +635,22 @@ leather = { #338 territories
 	color = hsv { 0.05 0.35 0.15 }
 }
 
+nirncrux = { #338 territories
+	category = 4
+
+	gold = 0.2
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_lightinfantry_offensive = 0.05
+		lv_heavyinfantry_offensive = 0.05
+	}
+	
+	color = rgb { 181 64 38 }
+}
+
 wool = { #338 territories
 	category = 4
 

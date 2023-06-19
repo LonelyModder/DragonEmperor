@@ -20,6 +20,9 @@ provinces = {
 	2052={ # Elden Root
 		great_work=7
 	}
+	2162={ # Balfiera
+		great_work=8
+	}
 }
 
 great_work_manager={	
@@ -177,6 +180,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_eldentree"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		8={
+			ancient_wonder = yes
+			key="adamantia"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_adamantia"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_adamantia"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_adamantia"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
