@@ -333,27 +333,6 @@ types MultiplayerLobby
 						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'nede'))]"
 						portrait_texture = "gfx/portraits/nede_female.dds"
 					}
-					#Ayleid
-					portrait_button = {
-						size = { 100 160 }
-						position = { 4 36 }
-						using = pt_button_large
-						pop_out = yes
-						tooltipwidget = Character_tooltip
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
-						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'ayleid'))]"
-						portrait_texture = "gfx/portraits/ayleid_male.dds"
-					}
-					portrait_button = {
-						size = { 100 160 }
-						position = { 4 36 }
-						using = pt_button_large
-						pop_out = yes
-						tooltipwidget = Character_tooltip
-						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
-						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'ayleid'))]"
-						portrait_texture = "gfx/portraits/ayleid_female.dds"
-					}
 					#Half-Auroran
 					portrait_button = {
 						size = { 100 160 }

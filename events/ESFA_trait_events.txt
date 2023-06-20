@@ -19,7 +19,6 @@ esfa_traits.1 = {
 						has_trait = impure
 					}
 					NOT = { has_trait = bosmer }
-					NOT = { has_trait = ayleid }
 					NOT = { has_trait = goblin }
 					NOT = { has_trait = nede }
 					NOT = { has_trait = orc }
@@ -38,7 +37,8 @@ esfa_traits.1 = {
 						mother = { has_trait = halfauroran }
 					}
 				}
-				add_trait = halfauroran
+				add_trait = altmer
+				add_trait = pure
 			}
 			else_if = {
 				limit = {
@@ -75,12 +75,6 @@ esfa_traits.1 = {
 			}
 			else_if = { 
 				limit = {
-					mother = { has_trait = ayleid }
-				}
-				add_trait = ayleid
-			}
-			else_if = { 
-				limit = {
 					mother = { has_trait = orc }
 				}
 				add_trait = orc
@@ -112,6 +106,7 @@ esfa_traits.1 = {
 			#Altmer racism
 			if = {
 				limit = {
+					NOT = {has_trait = impure}
 					has_trait = altmer
 					OR = {
 						AND = {
@@ -147,6 +142,7 @@ esfa_traits.1 = {
 			else_if = { 
 				limit = {
 					has_trait = altmer
+					NOT = {has_trait = pure}
 				}
 				add_trait = pure
 			}
