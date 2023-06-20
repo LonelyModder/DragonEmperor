@@ -6,7 +6,7 @@
 		potential = {
 			OR = {
 				country_culture_group = nede
-				country_culture_group = ayleid
+				country_culture_group = altmer
 				country_culture_group = minotauric
 				primary_culture =  cyronordic
 			}
@@ -72,7 +72,7 @@
 				change_country_flag = XCY
 			}
 			else_if = {
-				limit = { country_culture_group = ayleid }
+				limit = { country_culture_group = altmer }
 				change_country_name = "AyCyrod_name"
 				change_country_flag = hk_ayleidoon
 			}
@@ -96,7 +96,7 @@
 					change_country_adjective = "HKCyrod_adj"
 				}
 				else_if = {
-					limit = { country_culture_group = ayleid }
+					limit = { country_culture_group = altmer }
 					change_country_adjective = "AyCyrod_adj"
 				}
 				change_country_color =  "HKCyrod_color"

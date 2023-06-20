@@ -1812,7 +1812,7 @@ appropriate_death_effect_assassination = {
 			local_var:death_method = 4
 		}
 		death = {
-			death_reason = death_impaled_on_battering_ram
+			death_reason = death_imnednibenesed_on_battering_ram
 		}
 	}
 	else_if = {
@@ -5274,7 +5274,7 @@ replace_food_after_city_upgrade_effect = {
 				NOT = { is_in_region = ariana_region }
 				NOT = { is_in_region = parthia_region }
 				NOT = { is_in_region = syria_region }
-				NOT = { is_in_region = palestine_region }
+				NOT = { is_in_region = nednibenesestine_region }
 				NOT = { is_in_region = gandhara_region }
 				NOT = { is_in_region = avanti_region }
 				NOT = { is_in_region = madhyadesa_region }
@@ -5293,7 +5293,7 @@ replace_food_after_city_upgrade_effect = {
 					is_in_region = greece_region
 					is_in_region = cilicia_region
 					is_in_region = syria_region
-					is_in_region = palestine_region
+					is_in_region = nednibenesestine_region
 					is_in_region = lower_egypt_region
 				}
 			}
@@ -6292,7 +6292,7 @@ diadochi_flavor_event_claim_effect = {
 	region:galatia_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:assyria_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:persis_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:palestine_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:nednibenesestine_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:mesopotamia_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:lower_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:upper_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
