@@ -55,7 +55,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 }
 
@@ -73,7 +73,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 }
 
@@ -110,7 +110,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -170,7 +170,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -229,7 +229,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -250,7 +250,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -271,7 +271,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -316,7 +316,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -476,7 +476,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -497,7 +497,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -518,7 +518,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -673,7 +673,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -787,11 +787,7 @@
 		amount=1
 	}
 	freemen={
-		amount=5
-	}
-	freemen={
-		amount=3
-		culture="nedeken"
+		amount=8
 	}
 	tribesmen={
 		amount=5
@@ -811,7 +807,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -945,7 +940,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -965,7 +959,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -1084,7 +1077,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -1105,7 +1098,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1245,7 +1238,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1309,7 +1302,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -1330,7 +1323,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1351,7 +1344,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1391,7 +1384,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1526,7 +1519,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1564,7 +1557,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -1660,7 +1652,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -1718,7 +1709,6 @@
 	province_rank="settlement"
 	freemen={
 		amount=2
-		culture="nedeken"
 	}
 	tribesmen={
 		amount=4
@@ -1837,7 +1827,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1858,7 +1848,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1898,7 +1888,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1919,7 +1909,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1965,7 +1955,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2100,7 +2090,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2140,7 +2130,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2161,7 +2151,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2305,7 +2295,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2350,7 +2340,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2390,7 +2380,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2411,7 +2401,7 @@
 	slaves={
 		amount=3
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2489,7 +2479,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2510,7 +2500,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2569,7 +2559,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2609,7 +2599,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2630,7 +2620,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2691,7 +2681,7 @@
 	}
 	slaves={
 		amount=2
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 }
@@ -2710,7 +2700,7 @@
 	slaves={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2983,7 +2973,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 }
 
@@ -3285,7 +3275,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 }
 
@@ -3359,7 +3349,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3398,7 +3388,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3456,7 +3446,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3593,7 +3583,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -3613,7 +3603,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3633,7 +3623,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -3715,7 +3705,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3792,7 +3782,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -3986,7 +3976,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4007,7 +3997,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4302,7 +4292,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4643,7 +4633,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4740,7 +4730,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4761,7 +4751,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4820,7 +4810,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4841,7 +4831,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -4963,7 +4953,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5097,7 +5087,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5212,7 +5202,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -5271,7 +5261,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nedcolovian"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -5377,7 +5367,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5500,7 +5490,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5935,7 +5925,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5974,7 +5964,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -5994,7 +5984,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6014,7 +6004,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6034,7 +6024,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6054,7 +6044,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6118,7 +6108,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6138,7 +6128,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6197,7 +6187,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6217,7 +6207,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6256,7 +6246,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6371,7 +6361,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6391,7 +6381,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6411,7 +6401,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6431,7 +6421,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6473,7 +6463,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6493,7 +6483,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6532,7 +6522,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6552,7 +6542,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6615,7 +6605,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6635,7 +6625,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6655,7 +6645,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6675,7 +6665,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6695,7 +6685,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6715,7 +6705,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6773,7 +6763,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6812,7 +6802,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -6832,7 +6822,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7137,7 +7127,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7157,7 +7147,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7177,7 +7167,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7197,7 +7187,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7217,7 +7207,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7237,7 +7227,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7257,7 +7247,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7277,7 +7267,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7340,7 +7330,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7420,7 +7410,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7440,7 +7430,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7518,7 +7508,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7538,7 +7528,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7653,7 +7643,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7697,7 +7687,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7717,7 +7707,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7737,7 +7727,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -7778,7 +7768,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8009,7 +7999,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8029,7 +8019,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8070,7 +8060,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8112,7 +8102,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8132,7 +8122,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8349,7 +8339,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8407,7 +8397,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8446,7 +8436,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8485,7 +8475,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8562,7 +8552,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8601,7 +8591,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8621,7 +8611,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8660,7 +8650,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8704,7 +8694,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8724,7 +8714,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8744,7 +8734,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8764,7 +8754,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8803,7 +8793,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8847,7 +8837,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8867,7 +8857,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8887,7 +8877,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8927,7 +8917,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8951,7 +8941,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -8990,7 +8980,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9010,7 +9000,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9030,7 +9020,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9050,7 +9040,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9070,7 +9060,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9090,7 +9080,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9129,7 +9119,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9149,7 +9139,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9169,7 +9159,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9227,7 +9217,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9361,7 +9351,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9405,7 +9395,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9634,7 +9624,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9654,7 +9644,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9674,7 +9664,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9694,7 +9684,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9864,7 +9854,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -9982,7 +9972,7 @@
 	}
 	freemen={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	tribesmen={
@@ -10022,7 +10012,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10118,7 +10108,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10181,7 +10171,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10220,7 +10210,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10297,7 +10287,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10436,7 +10426,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10516,7 +10506,7 @@
 	}
 	freemen={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -10542,7 +10532,7 @@
 	}
 	freemen={
 		amount=6
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 }
@@ -10563,7 +10553,7 @@
 	}
 	freemen={
 		amount=2
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -10599,7 +10589,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10643,7 +10633,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10663,7 +10653,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10778,7 +10768,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10798,7 +10788,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10818,7 +10808,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10838,7 +10828,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10882,7 +10872,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -10943,7 +10933,7 @@
 	}
 	freemen={
 		amount=2
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -11001,7 +10991,7 @@
 	}
 	freemen={
 		amount=2
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -11021,7 +11011,7 @@
 	}
 	freemen={
 		amount=2
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -11233,7 +11223,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -11595,7 +11585,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -11658,7 +11648,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -11754,7 +11744,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -11929,7 +11919,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -11949,7 +11939,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12265,7 +12255,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12285,7 +12275,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12343,7 +12333,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12382,7 +12372,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12421,7 +12411,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12479,7 +12469,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12499,7 +12489,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12541,7 +12531,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12580,7 +12570,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12600,7 +12590,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12889,7 +12879,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12928,7 +12918,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12948,7 +12938,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -12968,7 +12958,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13121,7 +13111,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13246,7 +13236,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13304,7 +13294,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13324,7 +13314,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13367,7 +13357,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13659,7 +13649,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13739,7 +13729,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13778,7 +13768,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13798,7 +13788,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -13818,7 +13808,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14237,7 +14227,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14257,7 +14247,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14372,7 +14362,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14452,7 +14442,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14472,7 +14462,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14530,7 +14520,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14550,7 +14540,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14627,7 +14617,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14685,7 +14675,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14724,7 +14714,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14880,7 +14870,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14900,7 +14890,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14969,7 +14959,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14989,7 +14979,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15066,7 +15056,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15086,7 +15076,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15106,7 +15096,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15126,7 +15116,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15146,7 +15136,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15321,7 +15311,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -15379,7 +15369,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -15456,7 +15446,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -15476,7 +15466,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -15648,7 +15638,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -15709,7 +15699,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15729,7 +15719,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15749,7 +15739,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15769,7 +15759,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15789,7 +15779,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15809,7 +15799,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15829,7 +15819,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15985,7 +15975,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16005,7 +15995,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	freemen={
 		amount=1
@@ -16123,7 +16113,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16395,7 +16385,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16415,7 +16405,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16435,7 +16425,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16455,7 +16445,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16475,7 +16465,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16495,7 +16485,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16515,7 +16505,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16599,7 +16589,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16619,7 +16609,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16796,7 +16786,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16816,7 +16806,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16855,7 +16845,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -16973,7 +16963,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -16994,7 +16984,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17015,7 +17005,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17174,7 +17164,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17195,7 +17185,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17216,7 +17206,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17237,7 +17227,7 @@
 	}
 	slaves={
 		amount=3
-		culture="nedeken"
+		culture="nednibenese"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -17609,7 +17599,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -17630,7 +17620,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -17651,7 +17641,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -17677,7 +17667,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
 
@@ -17698,6 +17688,6 @@
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedeken"
+		culture="nednibenese"
 	}
 }
