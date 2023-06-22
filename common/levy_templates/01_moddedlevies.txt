@@ -136,3 +136,13 @@ levy_nordic = { #nordic militia
 	lv_scirmishers = 0.2
 	lv_cavalry = 0.1
 }
+
+#Breton
+
+levy_bretonic = { #bretonic militia
+	default = no
+
+	lv_heavyinfantry = 0.4
+	lv_mages = 0.2
+	lv_cavalry = 0.4
+}

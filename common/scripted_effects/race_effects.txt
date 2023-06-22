@@ -20,6 +20,7 @@
 				NOT = { has_trait = argonian }
 				NOT = { has_trait = imga }
 				NOT = { has_trait = nord }
+				NOT = { has_trait = breton }
 				NOT = { has_trait = halfauroran }
 			}
 		}
@@ -41,6 +42,12 @@
 				has_culture_group = bosmer
 			}
 			add_trait = bosmer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = breton
+			}
+			add_trait = breton
 		}
 		else_if = {
 			limit = {

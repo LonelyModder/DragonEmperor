@@ -4,7 +4,7 @@
  # Legion name
  GOVERNORSHIP_LEGION_NAME_nede:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_altmer:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
- GOVERNORSHIP_LEGION_NAME_ayleid:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
+ GOVERNORSHIP_LEGION_NAME_breton:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_goblin:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_minotauric:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_orcish:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
@@ -17,6 +17,7 @@
  ### Legion Army name ###
  LEGION_NAME_nede:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_altmer:0 "Cohors $ROMAN$ $BASE$"
+ LEGION_NAME_breton:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_ayleid:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_goblin:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_minotauric:0 "Cohors $ROMAN$ $BASE$"
@@ -30,6 +31,7 @@
  ### Levy name ###
  LEVY_NAME_nede:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_altmer:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
+ LEVY_NAME_breton:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_ayleid:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_goblin:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_minotauric:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"

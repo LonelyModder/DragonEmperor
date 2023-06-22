@@ -27,6 +27,7 @@ esfa_traits.1 = {
 					NOT = { has_trait = argonian }
 					NOT = { has_trait = imga }
 					NOT = { has_trait = nord }
+					NOT = { has_trait = breton }
 					NOT = { has_trait = halfauroran }
 				}
 			}
@@ -66,6 +67,12 @@ esfa_traits.1 = {
 					mother = { has_trait = nede }
 				}
 				add_trait = nede
+			}
+			else_if = { 
+				limit = {
+					mother = { has_trait = breton }
+				}
+				add_trait = breton
 			}
 			else_if = { 
 				limit = {

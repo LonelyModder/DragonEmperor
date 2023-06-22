@@ -166,3 +166,18 @@ esfa_startup.11 = { #Nord
         name = esfa_startup.11.a
     }
 }
+
+esfa_startup.12 = { #Breton
+	type = country_event
+    title = esfa_startup.12.t
+    desc = esfa_startup.12.desc
+    picture = welcoming_window_12
+	
+    trigger = {
+    	country_culture_group = breton
+    }
+
+    option = {    
+        name = esfa_startup.12.a
+    }
+}

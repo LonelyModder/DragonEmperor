@@ -307,6 +307,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2100 = {
 		port_building = 2
 	}
+	2162 = {
+		port_building = 2
+	}
 	2038 = {
 		fortress_building = 1
 	}
@@ -1896,7 +1899,7 @@ country = {
 		}
 		
 		CAG = {          
-			government = despotic_monarchy
+			government = democratic_republic
 			primary_culture = nedcolovian
 			religion = nedic_pantheon
 			capital = 831
@@ -3657,6 +3660,32 @@ country = {
 			
 			own_control_core = 	{ 
 				2100 2101 2102 2103 2104 2105 2106
+			}
+		}
+		
+		VAS = {          
+			government = despotic_monarchy
+			primary_culture = iliacite
+			religion = elven_pantheon
+			capital = 2162
+			
+			poptype_rights = {
+				{
+					culture = bralikrite
+					type = citizen
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2162 2163 2295 2294 2293 2292 2291 2178 2177 2176 2175 2174 2416 
+				2296 2418 2419 2334 2335 2336 2333 2180 2179 2412 2417 2420 2421
 			}
 		}
 	}

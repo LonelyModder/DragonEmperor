@@ -9,6 +9,16 @@
 	
 }
 
+breton = {
+	type = status
+	
+	health = -0.1
+	charisma = 1
+	finesse = 3
+	martial = 2
+	
+}
+
 nede = {
 	type = status
 	charisma = 2
