@@ -1,0 +1,133 @@
+﻿breton_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = greek_states_path_7
+	
+	allow = {
+		trigger_if = {
+			limit = { country_culture_group = breton }
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = breton
+		}
+		trigger_if = {
+			limit = {
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:breton
+				}
+			}
+			any_country_culture = {
+				custom_tooltip = {
+					text = tradition_unlock_requirement_short
+					is_integrated = yes
+					this.culture.culture_group = culture_group:breton
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = "tradition_unlock_requirement_breton"
+				any_country_culture = {
+					is_integrated = yes
+					this.culture.culture_group = culture_group:breton	
+				}
+			}
+		}
+	}
+	
+	breton_path_1 = { ###breton path
+		modifier = { 
+			lv_lightinfantry_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = greek_states_path_7
+		requires = {}
+	}
+	
+	breton_path_2= { ###breton path
+		modifier = { 
+			lv_mages_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_1}
+	}
+	
+	breton_path_3= { ###breton path
+		modifier = { 
+			lv_cavalry_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_2}
+	}
+	
+	breton_path_4a= { ###breton path
+		modifier = { 
+			lv_cavalry_cost = -0.2
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_3}
+	}
+	
+	breton_path_5a= { ###breton path
+		modifier = { 
+			lv_cavalry_morale = 0.1
+			lv_cavalry_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_4a}
+	}
+	
+	breton_path_4b= { ###breton path
+		modifier = { 
+			lv_heavyinfantry_discipline = 0.1
+		}
+		enable_tactic = greek_phalanx
+		icon = greek_states_path_7
+		requires = {breton_path_3}
+	}
+	
+	breton_path_5b= { ###breton path
+		modifier = { 
+			fort_maintenance_cost = -0.1
+			garrison_size = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_4a}
+	}
+	
+	breton_path_6b= { ###breton path
+		modifier = { 
+			hills_combat_bonus = 0.1
+			mountain_combat_bonus = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_5b}
+	}
+	
+	breton_path_4c= { ###breton path
+		modifier = { 
+			lv_mages_discipline = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_3}
+	}
+	
+	breton_path_5c= { ###breton path
+		modifier = { 
+			siege_ability = 0.1
+			assault_ability = 0.3
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_4c}
+	}
+	
+	breton_path_end_bonus= { ###breton path
+		modifier = { 
+			lv_cavalry_offensive = 0.1
+			lv_mages_offensive = 0.1
+		}
+		icon = greek_states_path_7
+		requires = {breton_path_5a breton_path_6b breton_path_5c}
+	}
+}

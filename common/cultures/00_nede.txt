@@ -31,7 +31,6 @@
 		nedcolovian = {}
 		nednibenese = {}
 		nedvalusan = {}
-		nedheartlander = {}
 		nedkeptu = {}
 		hernan = {}
 		nmarcher = {}
@@ -41,8 +40,8 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = aegean_gfx
+	graphical_culture = dunedain_gfx
 	ethnicities = {
-		10 = greek
+		10 = dunedain
 	}
 }
