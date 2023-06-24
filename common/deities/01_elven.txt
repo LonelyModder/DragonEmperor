@@ -304,7 +304,8 @@ deity_beeloni = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			country_culture_group = ayleid
+			primary_culture = besarabicelves
+			primary_culture = heartlanderelves
 			deity:omen_beeloni = {
 				holy_site_deity_check_trigger = yes
 			}

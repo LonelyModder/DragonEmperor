@@ -1,7 +1,5 @@
 ﻿besarabic_war_conflict_effect = {
 	c:CBP = {
-		add_alliance = CBW
-		add_alliance = CBK
 		add_alliance = CBO
 		add_alliance = CCB
 		add_alliance = CCD
@@ -14,8 +12,6 @@
 		}
 	}
 	c:CBP = {
-		break_alliance = CBW
-		break_alliance = CBK
 		break_alliance = CBO
 		break_alliance = CCB
 		break_alliance = CCD

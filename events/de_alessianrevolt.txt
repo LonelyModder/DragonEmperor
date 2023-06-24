@@ -10,12 +10,10 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	trigger = {
 		NOT = { has_global_variable = alesh }
 		AND = {
-			#p:1594.owner = {
-			#	religion = deadric_pantheon
-			#}
+			p:1288.owner = {
+				war = no
+			}
 			AND = {
-				NOT = { p:1525.owner = c:CCE }
-				NOT = { p:1488.owner = c:CCE }
 				NOT = { p:1609.owner = c:CCE }
 				NOT = { p:1594.owner = c:CCE }
 				NOT = { p:1542.owner = c:CCE }
@@ -36,7 +34,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
                 count = 30
                 define_pop = {
                 type = freemen
-                culture = nedeken
+                culture = nednibenese
                 religion = nedic_pantheon
                 }
             }                
@@ -206,6 +204,9 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
 				is_in_region = modded_skingrad_region
 				is_in_region = modded_chorrol_region
 			}
+		}
+		current_ruler = {
+			has_bloodline_trigger = no
 		}
 	}
 	

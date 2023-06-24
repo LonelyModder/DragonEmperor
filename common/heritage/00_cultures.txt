@@ -42,7 +42,10 @@ ayleid_heritage = {
 	}
 	
 	trigger = {
-		primary_culture = heartlanderelves
+		OR = {
+			primary_culture = heartlanderelves
+			primary_culture = besarabicelves
+		}
 	}
 }
 
