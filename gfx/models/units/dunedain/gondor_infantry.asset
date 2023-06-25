@@ -708,37 +708,83 @@ entity = {
 ##############
 
 entity = {
-	name = "GON_archers"
-	clone = "GON_light_infantry"
-}
-
-entity = {
-	name = "GON_camels"
-	clone = "GON_light_infantry"
-}
-
-entity = {
-	name = "GON_chariots"
-	clone = "GON_light_infantry"
-}
-
-entity = {
-	name = "GON_heavy_cavalry"
+	name = "dunedain_gfx_lv_lightinfantry"
 	clone = "GON_heavy_infantry"
 }
-
 entity = {
-	name = "GON_horse_archers"
-	clone = "GON_light_infantry"
+	name = "dunedain_gfx_lv_heavyinfantry"
+	clone = "GON_heavy_infantry"
 }
-
 entity = {
-	name = "GON_light_cavalry"
-	clone = "GON_light_infantry"
+	name = "dunedain_gfx_lv_archers"
+	clone = "GON_heavy_infantry"
 }
-
 entity = {
-	name = "GON_warelephant"
+	name = "dunedain_gfx_lv_scirmishers"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_crossbowmen"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_camels"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_mages"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_cavalry"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_khajiiticavalry"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_guarcavalry"
+	clone = "GON_heavy_infantry"
+}		
+entity = {
+	name = "dunedain_gfx_lv_warhounds"
+	clone = "GON_heavy_infantry"
+}	
+entity = {
+	name = "dunedain_gfx_lv_horsearchers"
+	clone = "GON_heavy_infantry"
+}		
+entity = {
+	name = "dunedain_gfx_lv_minotaurs"
+	clone = "GON_heavy_infantry"
+}		
+entity = {
+	name = "dunedain_gfx_lv_centurions"
+	clone = "GON_heavy_infantry"
+}		
+entity = {
+	name = "dunedain_gfx_lv_dremoras"
+	clone = "GON_heavy_infantry"
+}			
+entity = {
+	name = "dunedain_gfx_lv_undead"
+	clone = "GON_heavy_infantry"
+}
+entity = {
+	name = "dunedain_gfx_lv_gryphons"
+	clone = "GON_heavy_infantry"
+}
+entity = {
+	name = "dunedain_gfx_lv_elephants"
+	clone = "GON_heavy_infantry"
+}
+entity = {
+	name = "dunedain_gfx_supply_train"
+	clone = "GON_heavy_infantry"
+}
+entity = {
+	name = "dunedain_gfx_engineer_cohort"
 	clone = "GON_heavy_infantry"
 }
 
@@ -749,142 +795,202 @@ entity = {
 ##############
 # Do one for each unit type
 
-### Archers ----------------------------------------------------------------
+### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_archers"
+	name = "dunedain_gfx_levy_lv_lightinfantry"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_archers"
+	name = "dunedain_gfx_legion_lv_lightinfantry"
+	clone = "GON_light_infantry"
+}
+
+### Heavy Infantry ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_heavyinfantry"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_heavyinfantry"
+	clone = "GON_light_infantry"
+}
+
+### Archers ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_archers"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_archers"
+	clone = "GON_light_infantry"
+}
+
+### Scirmishers ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_scirmishers"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_scirmishers"
+	clone = "GON_light_infantry"
+}
+
+### Crossbowmen ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_crossbowmen"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_crossbowmen"
 	clone = "GON_light_infantry"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_camels"
+	name = "dunedain_gfx_levy_lv_camels"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_camels"
-	clone = "GON_light_infantry"
-}
-
-### Chariots ----------------------------------------------------------------
-entity ={
-	name = "GON_levy_chariots"
-	clone = "GON_light_infantry"
-}
-entity ={
-	name = "GON_legion_chariots"
+	name = "dunedain_gfx_legion_lv_camels"
 	clone = "GON_light_infantry"
 }
 
-### Engineer Cohort ----------------------------------------------------------------
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_engineer_cohort"
+	name = "dunedain_gfx_levy_lv_mages"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_engineer_cohort"
+	name = "dunedain_gfx_legion_lv_mages"
 	clone = "GON_light_infantry"
 }
 
-### Heavy Cavalry ----------------------------------------------------------------
+### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_heavy_cavalry"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_levy_lv_cavalry"
+	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_heavy_cavalry"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_legion_lv_cavalry"
+	clone = "GON_light_infantry"
 }
 
-### Heavy Infantry ----------------------------------------------------------------
+### Khajiit Cavalry ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_heavy_infantry"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_levy_lv_khajiiticavalry"
+	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_heavy_infantry"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_legion_lv_khajiiticavalry"
+	clone = "GON_light_infantry"
+}
+
+### Guar Cavalry ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_guarcavalry"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_guarcavalry"
+	clone = "GON_light_infantry"
+}
+
+### Warhounds ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_warhounds"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_warhounds"
+	clone = "GON_light_infantry"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_horse_archers"
+	name = "dunedain_gfx_levy_lv_horsearchers"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_horse_archers"
-	clone = "GON_light_infantry"
-}
-
-### Light Cavalry ----------------------------------------------------------------
-entity ={
-	name = "GON_levy_light_cavalry"
-	clone = "GON_light_infantry"
-}
-entity ={
-	name = "GON_legion_light_cavalry"
+	name = "dunedain_gfx_legion_lv_horsearchers"
 	clone = "GON_light_infantry"
 }
 
-### Light Infantry ----------------------------------------------------------------
+### Minotaurs ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_light_infantry"
+	name = "dunedain_gfx_levy_lv_minotaurs"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_light_infantry"
+	name = "dunedain_gfx_legion_lv_minotaurs"
+	clone = "GON_light_infantry"
+}
+
+### Centurions ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_centurions"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_centurions"
+	clone = "GON_light_infantry"
+}
+
+### Dremoras ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_dremoras"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_dremoras"
+	clone = "GON_light_infantry"
+}
+
+### Undead ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_undead"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_undead"
+	clone = "GON_light_infantry"
+}
+
+### Gryphons ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_gryphons"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_gryphons"
+	clone = "GON_light_infantry"
+}
+
+### Elephants ----------------------------------------------------------------
+entity ={
+	name = "dunedain_gfx_levy_lv_elephants"
+	clone = "GON_light_infantry"
+}
+entity ={
+	name = "dunedain_gfx_legion_lv_elephants"
 	clone = "GON_light_infantry"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_supply_train"
+	name = "dunedain_gfx_levy_supply_train"
 	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_supply_train"
+	name = "dunedain_gfx_legion_supply_train"
 	clone = "GON_light_infantry"
 }
 
-### War Elephant ----------------------------------------------------------------
+### Engineer Cohort ----------------------------------------------------------------
 entity ={
-	name = "GON_levy_warelephant"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_levy_engineer_cohort"
+	clone = "GON_light_infantry"
 }
 entity ={
-	name = "GON_legion_warelephant"
-	clone = "GON_heavy_infantry"
-}
-
-### Dunedain Archers ----------------------------------------------------------------
-entity ={
-	name = "GON_levy_dunedain_archers"
-	clone = "GON_heavy_infantry"
-}
-entity ={
-	name = "GON_legion_dunedain_archers"
-	clone = "GON_heavy_infantry"
-}
-
-### Dunedain Cavalry ----------------------------------------------------------------
-entity ={
-	name = "GON_levy_dunedain_cavalry"
-	clone = "GON_heavy_infantry"
-}
-entity ={
-	name = "GON_legion_dunedain_cavalry"
-	clone = "GON_heavy_infantry"
-}
-
-### Dunedain Infantry ----------------------------------------------------------------
-entity ={
-	name = "GON_levy_dunedain_infantry"
-	clone = "GON_heavy_infantry"
-}
-entity ={
-	name = "GON_legion_dunedain_infantry"
-	clone = "GON_heavy_infantry"
+	name = "dunedain_gfx_legion_engineer_cohort"
+	clone = "GON_light_infantry"
 }
