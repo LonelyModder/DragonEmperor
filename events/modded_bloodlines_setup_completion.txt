@@ -137,6 +137,18 @@ bloodlines_setup_completion.1 = {
 				limit = {
 					exists = father
 					father = {
+						has_trait = direnni
+					}
+					NOT = {
+						has_trait = direnni
+					}
+				}
+				add_trait = direnni
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
 						has_trait = dragonblood
 					}
 					NOT = {
@@ -264,6 +276,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = camoran	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = direnni
+					}
+					NOT = {
+						has_trait = direnni
+					}
+				}
+				add_trait = direnni	
 			}
 			if = {
 				limit = {

@@ -1,0 +1,24 @@
+﻿"VAS"={
+	country="VAS"
+	12={
+		#first_name="Eplear"
+		family = c:VAS.fam:Direnni
+		birth_date=10.1.1
+		culture="iliacite"
+		religion="elven_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=6
+		add_finesse=12
+		add_zeal=6
+		no_traits=yes
+		add_trait="altmer"
+		add_trait="direnni"
+		add_gold=500
+		add_popularity=100
+		c:VAS={
+			set_as_ruler=char:12
+		}
+		#dna=""
+	}
+}

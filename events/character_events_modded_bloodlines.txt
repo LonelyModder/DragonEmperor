@@ -20,6 +20,7 @@ character_events.35 = {
 						has_trait = ninendava
 						has_trait = miscarcandite
 						has_trait = camoran
+						has_trait = direnni
 						has_trait = dragonblood
 					}
 				}
@@ -122,6 +123,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = camoran
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = direnni
+					}
+					NOT = {
+						has_trait = direnni
+					}
+				}
+				add_trait = direnni
 			}
 			if = {
 				limit = {
@@ -242,6 +254,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = camoran	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = direnni
+				}
+				NOT = {
+					has_trait = direnni
+				}
+			}
+			add_trait = direnni	
 		}
 		if = {
 			limit = {

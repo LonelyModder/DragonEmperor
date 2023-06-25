@@ -148,6 +148,21 @@ camoran = {
 	
 }
 
+direnni = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_mages_offensive = 0.1
+		research_points_modifier = 0.05
+	}
+	
+}
+
 dragonblood = {
 	type = status
 	
