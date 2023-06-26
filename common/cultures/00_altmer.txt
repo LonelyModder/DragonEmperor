@@ -30,6 +30,22 @@
 	culture = {
 		sommersetic = {} 
 		auridonic = {levy_template = levy_auridonic}
+		northelves = {
+			levy_template = levy_ayleid
+			male_names = {
+				Ruuluamalor Fidelirint Djym Nyl Hessel Laleyttemis Luudhun Cenralind Reynris Timerogal
+				Djol Rem Foleshame Gyradhunys Verhel Heyrerrunt Dulo Tendordol Duusta Vuastur
+			}
+			female_names = {
+				Vuhaa Cerol Hahannas Lallol Mannyrri Ollinwu Hyrreth Wyhurroth Oramith Pomie
+				Luzen Cyrra Nihornu Devin Perraldel Sezil Salli Navulse Lirelash Ezamnula
+			}
+			family = {
+				Lumerugum Qun Adim Gamon Dogestadul Donhel Fus Rimdind Loneysdudond Vonyscasa
+				Gesdim Fuadunt Gonuattimi Rinhuulasont Lomhesdisynt Fiduulmugus Hegydhar Nend Garettagus 
+				Nisdyruusem
+			}
+		}
 		deathelves = {
 			levy_template = levy_ayleid
 			male_names = {
