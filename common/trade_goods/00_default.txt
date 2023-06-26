@@ -374,14 +374,14 @@ stafftrees = { #190 territories
 
 beasts = { #Added
 	category = 0
-	allow_unit_type = lv_warhounds
+	#allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.05
+		lv_lightinfantry_discipline = 0.05
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
@@ -396,7 +396,7 @@ durzogs = { #Added
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.05
+		lv_lightinfantry_discipline = 0.05
 	}
 
 	color = rgb { 56 32 15 }
