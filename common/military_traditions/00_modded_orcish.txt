@@ -55,7 +55,7 @@
 	orcish_path_3a = { ###orcish path
 		modifier = { 
 			lv_heavyinfantry_defensive = 0.1
-			lv_scirmishers_offensive = 0.1
+			lv_crossbowmen_offensive = 0.1
 		}
 		enable_tactic = greek_phalanx
 		icon = greek_states_path_7

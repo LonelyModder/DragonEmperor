@@ -47,7 +47,7 @@
 	
 	nordic_path_2= { ###nordic path
 		modifier = { 
-			lv_scirmishers_offensive = 0.1
+			lv_archers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {nordic_path_1}

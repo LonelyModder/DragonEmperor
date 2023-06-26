@@ -54,7 +54,7 @@
 	
 	argonian_path_3= { ###argonian path
 		modifier = { 
-			lv_scirmishers_discipline = 0.1
+			lv_archers_discipline = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = greek_states_path_7
@@ -71,7 +71,7 @@
 	
 	argonian_path_4a= { ###argonian path
 		modifier = { 
-			lv_warhounds_cost = -0.15
+			lv_lightinfantry_cost = -0.15
 		}
 		icon = greek_states_path_7
 		requires = {argonian_path_3a}

@@ -16,7 +16,7 @@ units_allowance_events.1 = {
 		name = "OK"
 		allow_lv_lightinfantry = yes
 		allow_lv_archers = yes	
-		allow_lv_scirmishers = yes
+		allow_lv_crossbowmen = yes
 		if = {
 			limit =  {
 				any_owned_province = {
@@ -30,20 +30,6 @@ units_allowance_events.1 = {
 		}
 		else = {
 			disallow_lv_heavyinfantry = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = dwemerplans
-						trade_goods = dwemerplans
-					}					
-				}
-			}
-			allow_lv_crossbowmen = yes
-		}
-		else = {
-			disallow_lv_crossbowmen = yes
 		}
 		if = {
 			limit =  {
@@ -86,18 +72,6 @@ units_allowance_events.1 = {
 		}
 		else = {
 			disallow_lv_cavalry = yes
-		}
-		if = {
-			limit =  {
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:khajiit
-				}
-			}
-			allow_lv_khajiiticavalry = yes
-		}
-		else = {
-			disallow_lv_khajiiticavalry = yes
 		}	
 		if = {
 			limit =  {
@@ -117,22 +91,6 @@ units_allowance_events.1 = {
 			limit =  {
 				any_owned_province = {
 					OR = {
-						is_importing_trade_good = beasts
-						trade_goods = beasts
-						is_importing_trade_good = durzogs
-						trade_goods = durzogs
-					}					
-				}
-			}
-			allow_lv_warhounds = yes
-		}
-		else = {
-			disallow_lv_warhounds = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
 						is_importing_trade_good = steppe_horses
 						trade_goods = steppe_horses
 					}					
@@ -142,38 +100,6 @@ units_allowance_events.1 = {
 		}
 		else = {
 			disallow_lv_horsearchers = yes
-		}
-		if = {
-			limit =  {
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:minotauric
-				}
-			}
-			allow_lv_minotaurs = yes
-		}
-		else = {
-			disallow_lv_minotaurs = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					AND = { 
-						OR = {
-							is_importing_trade_good = dwemerplans
-							trade_goods = dwemerplans
-						}
-						OR = {
-							is_importing_trade_good = dwemersteel
-							trade_goods = dwemersteel
-						}
-					}					
-				}
-			}
-			allow_lv_centurions = yes
-		}
-		else = {
-			disallow_lv_centurions = yes
 		}
 		if = {
 			limit =  {
@@ -243,20 +169,6 @@ units_allowance_events.1 = {
 		}
 		else = {
 			disallow_lv_gryphons = yes
-		}
-		if = {
-			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = elephants
-						trade_goods = elephants
-					}					
-				}
-			}
-			allow_lv_elephants = yes
-		}
-		else = {
-			disallow_lv_elephants = yes
 		}
 		allow_supply_train = yes
 		allow_engineer_cohort = yes

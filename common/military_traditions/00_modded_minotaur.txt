@@ -38,7 +38,7 @@
 	
 	minotauric_path_1 = { ###minotauric path
 		modifier = { 
-			lv_minotaurs_offensive = 0.1
+			lv_heavyinfantry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -46,8 +46,8 @@
 	
 	minotauric_path_2 = { ###minotauric path
 		modifier = { 
-			lv_warhounds_cost = -0.25
-			lv_warhounds_offensive = 0.1
+			lv_heavyinfantry_cost = -0.25
+			lv_heavyinfantry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {minotauric_path_1}
@@ -55,7 +55,7 @@
 	
 	minotauric_path_3 = { ###minotauric path
 		modifier = { 
-			lv_scirmishers_offensive = 0.1
+			lv_archers_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = greek_states_path_7
@@ -122,7 +122,7 @@
 	minotauric_path_end_bonus= { ###minotauric path
 		modifier = { 
 			land_morale_modifier = 0.1
-			lv_minotaurs_offensive = 0.1
+			lv_heavyinfantry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {minotauric_path_5a minotauric_path_6b}

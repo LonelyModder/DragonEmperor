@@ -81,7 +81,6 @@ ebon = { #Added
 
 dwemersteel = { #Added
 	category = 0
-	allow_unit_type = lv_centurions
 	gold = 0.5
 	
 	province = {
@@ -97,8 +96,6 @@ dwemersteel = { #Added
 
 dwemerplans = { #Added
 	category = 0
-	allow_unit_type = lv_crossbowmen
-	allow_unit_type = lv_centurions
 	gold = 0.5
 	
 	province = {
@@ -241,7 +238,6 @@ limestone = { #282 territories
 
 elephants = { #82 territories
 	category = 0
-	allow_unit_type = lv_elephants
 	
 	gold = 0.3
 	
@@ -249,7 +245,7 @@ elephants = { #82 territories
 		local_output_modifier = 0.03
 	}
 	country = {
-		lv_elephants_discipline = 0.05
+		lv_archers_discipline = 0.05
 	}
 	
 	color = hsv { 0.6 0.2 0.4 }	

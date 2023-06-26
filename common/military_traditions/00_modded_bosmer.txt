@@ -39,6 +39,7 @@
 	bosmer_path_1 = { ###bosmer path
 		modifier = { 
 			lv_archers_offensive = 0.1
+			lv_horsearchers_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {}
@@ -46,7 +47,7 @@
 	
 	bosmer_path_2 = { ###bosmer path
 		modifier = { 
-			lv_warhounds_offensive = 0.1
+			lv_lightinfantry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_1}
@@ -65,7 +66,7 @@
 	
 	bosmer_path_4a = { ###bosmer path
 		modifier = { 
-			lv_archers_offensive = 0.1
+			lv_horsearchers_offensive = 0.1
 			lv_archers_discipline = 0.1
 		}
 		icon = greek_states_path_7
@@ -82,8 +83,8 @@
 	
 	bosmer_path_6a = { ###bosmer path
 		modifier = { 
-			lv_warhounds_discipline = 0.1
-			lv_warhounds_defensive = 0.1
+			lv_lightinfantry_discipline = 0.1
+			lv_lightinfantry_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {bosmer_path_5a}

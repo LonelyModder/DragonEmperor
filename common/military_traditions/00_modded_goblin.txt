@@ -73,8 +73,8 @@
 	
 	goblin_path_2b = { ###goblin path
 		modifier = { 
-			lv_scirmishers_offensive = 0.05
-			lv_scirmishers_defensive = 0.05
+			lv_archers_offensive = 0.05
+			lv_archers_defensive = 0.05
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}
@@ -131,7 +131,7 @@
 	
 	goblin_path_2c = { ###goblin path
 		modifier = { 
-			lv_warhounds_offensive = 0.1
+			lv_lightinfantry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_1}
@@ -139,7 +139,7 @@
 	
 	goblin_path_3c = { ###goblin path
 		modifier = { 
-			lv_warhounds_defensive = 0.1
+			lv_lightinfantry_defensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {goblin_path_2c}

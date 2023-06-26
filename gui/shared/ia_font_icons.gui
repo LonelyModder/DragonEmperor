@@ -258,15 +258,6 @@ texticon = {
         offset = { 0 6 }
         fontsize = 16
     }
-}	
-texticon = {
-    icon = lv_scirmishers
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_scirmishers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
 }
 texticon = {
     icon = lv_crossbowmen
@@ -305,27 +296,9 @@ texticon = {
     }
 }	
 texticon = {
-    icon = lv_khajiiticavalry
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_khajiiticavalry.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}		
-texticon = {
     icon = lv_guarcavalry
     iconsize = {
         texture = "gfx/interface/icons/subunits/lv_guarcavalry.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}	
-texticon = {
-    icon = lv_warhounds
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_warhounds.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
@@ -335,24 +308,6 @@ texticon = {
     icon = lv_horsearchers
     iconsize = {
         texture = "gfx/interface/icons/subunits/lv_horsearchers.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}	
-texticon = {
-    icon = lv_minotaurs
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_minotaurs.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}		
-texticon = {
-    icon = lv_centurions
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_centurions.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16
@@ -380,15 +335,6 @@ texticon = {
     icon = lv_gryphons
     iconsize = {
         texture = "gfx/interface/icons/subunits/lv_gryphons.dds"
-        size = { 25 25 }
-        offset = { 0 6 }
-        fontsize = 16
-    }
-}	
-texticon = {
-    icon = lv_elephants
-    iconsize = {
-        texture = "gfx/interface/icons/subunits/lv_elephants.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16

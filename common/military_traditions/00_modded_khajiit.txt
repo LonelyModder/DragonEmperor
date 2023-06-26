@@ -55,7 +55,7 @@
 	
 	khajiit_path_2a = { ###khajiit path
 		modifier = { 
-			lv_scirmishers_offensive = 0.1
+			lv_archers_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
 		icon = greek_states_path_7
@@ -72,8 +72,8 @@
 	
 	khajiit_path_4a = { ###khajiit path
 		modifier = { 
-			lv_khajiiticavalry_discipline = 0.1
-			lv_khajiiticavalry_offensive = 0.1
+			lv_cavalry_discipline = 0.1
+			lv_cavalry_offensive = 0.1
 		}
 		icon = greek_states_path_7
 		requires = {khajiit_path_3a}
