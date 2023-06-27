@@ -61,6 +61,15 @@ marsh = {
 	}
 }
 
+oasis = {
+	color = {0.16 0.88 0.46 }
+	combat_width = 20
+
+	modifier = {
+		#local_population_capacity_modifier  = 0.1
+		local_monthly_food = 3
+	}
+}
 
 jungle = {
 	combat_width = 18

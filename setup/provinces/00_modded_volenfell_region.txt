@@ -531,13 +531,16 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
@@ -551,13 +554,16 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
@@ -687,38 +693,46 @@
 2297={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="balfieric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
+	citizen={
+		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
-		amount=1
+		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
 2298={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="balfieric"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
+	citizen={
+		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
-		amount=1
+		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
@@ -1238,8 +1252,8 @@
 2326={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1257,8 +1271,8 @@
 2327={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1276,8 +1290,8 @@
 2328={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1295,19 +1309,22 @@
 2329={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -1352,8 +1369,8 @@
 2332={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1378,13 +1395,16 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
@@ -1398,18 +1418,21 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
 2335={ 
-	terrain="desert"
+	terrain="oasis"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="balfieric"
@@ -1418,13 +1441,16 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
@@ -1438,21 +1464,24 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
 2337={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1470,8 +1499,8 @@
 2338={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1489,8 +1518,8 @@
 2340={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1508,8 +1537,8 @@
 2341={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1565,8 +1594,8 @@
 2344={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1679,8 +1708,8 @@
 2350={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1698,8 +1727,8 @@
 2351={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2648,8 +2677,8 @@
 2401={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2667,8 +2696,8 @@
 2402={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2686,8 +2715,8 @@
 2403={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2705,8 +2734,8 @@
 2404={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2838,8 +2867,8 @@
 2411={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2855,7 +2884,7 @@
 }
 
 2412={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="balfieric"
@@ -2877,8 +2906,8 @@
 2413={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2896,8 +2925,8 @@
 2414={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2915,8 +2944,8 @@
 2415={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2952,7 +2981,7 @@
 }
 
 2417={ 
-	terrain="plains"
+	terrain="desert"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="balfieric"
@@ -3012,7 +3041,7 @@
 }
 
 2420={ 
-	terrain="plains"
+	terrain="desert"
 	trade_goods="spices"
 	religion="elven_pantheon"
 	culture="balfieric"
@@ -3041,21 +3070,24 @@
 	province_rank="settlement"
 	citizen={
 		amount=2
-		culture="iliacite"
 	}
 	freemen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=2
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 }
 
 2422={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3187,8 +3219,8 @@
 2429={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4004,8 +4036,8 @@
 2472={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4061,8 +4093,8 @@
 2477={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4669,8 +4701,8 @@
 2511={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5030,8 +5062,8 @@
 2532={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5049,8 +5081,8 @@
 2533={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5427,29 +5459,35 @@
 }
 
 2554={ 
-	terrain="desert"
+	terrain="oasis"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
+	citizen={
+		amount=1
+	}
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 2555={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5486,8 +5524,8 @@
 2557={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5505,8 +5543,8 @@
 2559={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7538,8 +7576,8 @@
 2671={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7918,8 +7956,8 @@
 2709={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

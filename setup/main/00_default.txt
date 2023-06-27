@@ -1798,7 +1798,7 @@ country = {
 		
 		CAC = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 806
 			
@@ -1832,7 +1832,7 @@ country = {
 		
 		CAD = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 849
 			
@@ -1865,7 +1865,7 @@ country = {
 		
 		CAE = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 856
 			
@@ -1899,7 +1899,7 @@ country = {
 		
 		CAF = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 901
 			
@@ -1947,7 +1947,7 @@ country = {
 		CAH = {  
 			family = 9
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 889
 			
@@ -1984,7 +1984,7 @@ country = {
 		
 		CAI = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = deadric_pantheon
 			capital = 908
 			
@@ -3136,7 +3136,7 @@ country = {
 		
 		CCS = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = elven_pantheon
 			capital = 1008
 			
@@ -3706,6 +3706,7 @@ country = {
 			own_control_core = 	{ 
 				2162 2163 2295 2294 2293 2292 2291 2178 2177 2176 2175 2174 2416 
 				2296 2418 2419 2334 2335 2336 2333 2180 2179 2412 2417 2420 2421
+				2297 2298
 			}
 		}
 		
@@ -3784,6 +3785,45 @@ country = {
 			
 			own_control_core = 	{ 
 				2475 2715 2720
+			}
+		}
+		
+		VAY = {          
+			government = tribal_kingdom
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2554
+			
+			own_control_core = 	{ 
+				2559 2671 2554 2429 2341 2337 2338 2411 2413 2414 2415
+				2472 2344 2709 2557 2555 2533 2532 2477 2511 2422
+				2340 2332 2328 2327 2326 2351 2350 2401 2402 2403 2404 
+			}
+		}
+		
+		VAZ = {          
+			government = despotic_monarchy
+			primary_culture = deathelves
+			religion = elven_pantheon
+			capital = 2329
+			
+			poptype_rights = {
+				{
+					culture = hernan
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2329 2302 2299 2300 2330 2313 2306 2303 2305 
+				2301 2304 2314 2312 2308 2310 2307 2309
 			}
 		}
 	}
