@@ -365,15 +365,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 1
 	}
-	1123 = {
-		fortress_building = 1
-	}
-	1246 = {
-		fortress_building = 1
-	}
-	1238 = {
-		fortress_building = 1
-	}
 	1220 = {
 		fortress_building = 1
 	}
@@ -1431,7 +1422,7 @@ country = {
 		}
 		
 		AAD = {          
-			government = theocratic_monarchy
+			government = theocratic_republic
 			primary_culture = psijic
 			religion = oldelven_pantheon
 			capital = 675
@@ -1754,10 +1745,10 @@ country = {
 		
 		CAA = {
 			family = 2
-			government = theocratic_monarchy
+			government = despotic_monarchy
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon
-			capital = 1071
+			capital = 814
 			
 			poptype_rights = {
 				{
@@ -1788,11 +1779,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094
-				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082
-				787 788 789 814 816 815 818 817 1100 1098 1099 1096 1097
-				1123 1121 1117 1118 1219 1220 1221 1227 1236 1246 1247 1256 1257 1238 1237
-				802 801 809 813 799 808 812 819 820 15 821 851 1217 1218 1222 1224 1228 
+				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 
 			}
 		}
 		
@@ -2135,7 +2122,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1102 1104 1105 1110 1107 1103 
+				  1102 1104 1107 1103 
 			}
 		}
 		
@@ -2169,7 +2156,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  976 973 975 974 979 1108 983 959 971 969 972 1111 1109 1113 1112 1114 1115
+				  976 973 975 974 979 1108 983 959 971 969 972 1111 1109 1113 
 				  1106 984 1101 982 981 958 948 956 977 945 980 946 943 944 937 939 
 				  940 955
 			}
@@ -2204,7 +2191,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1233 1229 1232 1230 1251 1260 1235 1234
+				  1233 1229 1232 1230 1251 1260 1235 1234 1237 1238 1236
 			}
 		}
 		
@@ -2356,7 +2343,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1240 1239 1249 1241 1242 1243 1244 1245 1252 1253 1255 1250
+				1240 1239 1249 1241 1242 1243 1244 1252 1253 1255 1250
 				1265 1259 1258 
 			}
 		} 
@@ -3070,7 +3057,7 @@ country = {
 		
 		CCU = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = elven_pantheon
 			capital = 951
 			
@@ -3103,7 +3090,7 @@ country = {
 		
 		CCT = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = elven_pantheon
 			capital = 988
 			
@@ -3169,7 +3156,7 @@ country = {
 		
 		CCR = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = elven_pantheon
 			capital = 1038
 			
@@ -3203,7 +3190,7 @@ country = {
 		
 		CCP = {          
 			government = despotic_monarchy
-			primary_culture = heartlanderelves
+			primary_culture = colovianelves
 			religion = elven_pantheon
 			capital = 1059
 			
@@ -3824,6 +3811,82 @@ country = {
 			own_control_core = 	{ 
 				2329 2302 2299 2300 2330 2313 2306 2303 2305 
 				2301 2304 2314 2312 2308 2310 2307 2309
+			}
+		}
+		
+		VBA = {          
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = elven_pantheon
+			capital = 1246
+			
+			poptype_rights = {
+				{
+					culture = hernan
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1246 1247 1257 1256 1245
+			}
+		}
+		
+		VBB = {          
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = elven_pantheon
+			capital = 1105
+			
+			poptype_rights = {
+				{
+					culture = hernan
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1105 1117 1118 1121 1123 1110 1112 1115 1114
+			}
+		}
+		
+		VBC = {          
+			government = theocratic_republic
+			primary_culture = heartlanderelves
+			religion = deadric_pantheon
+			capital = 1071
+			
+			poptype_rights = {
+				{
+					culture = hernan
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
+				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
 			}
 		}
 	}

@@ -21,6 +21,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 			p:1071.owner = {
 				religion = deadric_pantheon
 			}
+			NOT = { p:1071.owner = c:VBC }
 		}
 	}
 	
