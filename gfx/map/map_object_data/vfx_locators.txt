@@ -1,4 +1,4 @@
-﻿game_object_locator={
+game_object_locator={
 	name="vfx"
 	clamp_to_water_level=no
 	render_under_water=no
@@ -16394,6 +16394,12 @@
 		{
 			id=2731
 			position={ 2798.000000 0.000000 2020.000000 }
+			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
+			scale={ 1.000000 1.000000 1.000000 }
+		}
+		{
+			id=2732
+			position={ 3004.000000 0.000000 2238.000000 }
 			rotation={ -0.000000 -0.000000 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}

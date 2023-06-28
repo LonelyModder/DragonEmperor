@@ -189,7 +189,7 @@ family={
 		10={
 			key="Camoran"
 			owner=VAA
-			culture = camoran
+			culture = bosmalabal
 			prestige=300
 		}
 		11={
@@ -1405,7 +1405,7 @@ country = {
 		
 		AAB = {
 			government = tribal_kingdom
-			primary_culture = coralsplitter
+			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 605
 			
@@ -1454,7 +1454,7 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = talandan 
+					culture = bostalandan 
 					type = citizen
 				}
 			}
@@ -1488,7 +1488,7 @@ country = {
 		
 		AAH = {
 			government = tribal_kingdom
-			primary_culture = chained
+			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 669
 			
@@ -2518,7 +2518,7 @@ country = {
 			capital = 1298
 			
 			own_control_core = 	{ 
-				 1298 1295 1297 1296 1299 1302 1303 1304
+				 1298 1295 1297 1296 1299 1302 1303 1304 2732
 			}
 		}
 		
@@ -2850,9 +2850,8 @@ country = {
 			
 			own_control_core = 	{ 
 				1594 1605 1609 1542 1583 1584 1593 1579 1576 1565 1564 1567 1566 1563 1548 1549 1610 1596 1598 1597 1600 1599 1611
-				1545 1544 1539 1543 1561 1546 1547 
+				1545 1544 1539 1543 1561 1546 1547 1572 1588 1604 1590 1589 1580 1534 
 				1585 1575 1586 1574 1573 1510 1541 1509 1582 1595 1581 1578 1577 1568 1562 
-				1572 1588 1604 1590 1589 1580 1507 1534 
 			}
 		}
 		
@@ -3256,7 +3255,7 @@ country = {
 		
 		CCG = {          
 			government = tribal_kingdom
-			primary_culture = nakadesh
+			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1623
 			
@@ -3267,7 +3266,7 @@ country = {
 		
 		CCH = {          
 			government = tribal_kingdom
-			primary_culture = sulxan
+			primary_culture = argblackwood
 			religion = deadric_pantheon
 			capital = 1669
 			
@@ -3407,7 +3406,7 @@ country = {
 		
 		CAM = {          
 			government = tribal_kingdom
-			primary_culture = bluehorns
+			primary_culture = minotauran
 			religion = nedic_pantheon
 			capital = 1013
 			
@@ -3418,7 +3417,7 @@ country = {
 		
 		CAR = {          
 			government = tribal_kingdom
-			primary_culture = redhorns
+			primary_culture = minotauran
 			religion = nedic_pantheon
 			capital = 1003
 			
@@ -3440,7 +3439,7 @@ country = {
 		
 		CBC = {          
 			government = tribal_kingdom
-			primary_culture = xalvaral
+			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1647
 			
@@ -3451,7 +3450,7 @@ country = {
 		
 		CBD = {          
 			government = tribal_kingdom
-			primary_culture = xalialun
+			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1655
 			
@@ -3462,7 +3461,7 @@ country = {
 		
 		CBF = {          
 			government = tribal_kingdom
-			primary_culture = krar
+			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1616
 			
@@ -3485,7 +3484,7 @@ country = {
 		VAA = {   
 			family = 10
 			government = aristocratic_monarchy
-			primary_culture = camoran
+			primary_culture = bosmalabal
 			religion = green_pantheon
 			capital = 1895
 			
@@ -3496,7 +3495,7 @@ country = {
 				1837 1836 1822 1824 1823 1821 1819 1818 1820 1838 1872 1834 1829 1830 1831 1832 1833 1835 1826 1825 1827 1828 2021 2025
 			    1933 1921 1923 1925 1935 1951 1911 1912 1913 1914 1916 1917 1908 1909 1910 1772 1773 1774 1775 1776 1777 1796 1778
 				1918 1926 1927 1907 1928 1905 1900 1906 1904 1919 1929 1954 1956 1957 1982 1983 1984 1985 1986 1981
-				1989 1988 1990 1993 1999 2000 1994 1992 1971 1975 1995 1996 2022 2026 2023 2029
+				1989 1988 1990 1993 1999 2000 1994 1992 1971 1975 1995 1996 2022 2026 2023 2029 1862 1861
 				1979 1959 1977 1958 1962 1940 1960 1939 1961 1938 1937 1991 1997 1998 1978 1976 1963 1967 2006
 			    1966 1968 1969 1964 1936 2005 2010 2009 2008 2012 2011 1786 1788 1779 1780 1781 1782 1783 1784 1785 1787 1866 1867 1868
 				2015 2019 2024 2028 2052 2053 2054 2034 2031 2033 2051 2050 2062 2063 2064 2065 2030 2032 2040 2047 2035 2046 2045 2044 2039 2061
@@ -3550,7 +3549,7 @@ country = {
 		
 		VAF = {   
 			government = tribal_kingdom
-			primary_culture = kundu
+			primary_culture = gaimga
 			religion = green_pantheon
 			capital = 2066
 			
@@ -3572,7 +3571,7 @@ country = {
 		
 		VAH = {   
 			government = tribal_kingdom
-			primary_culture = gurda
+			primary_culture = gaimga
 			religion = green_pantheon
 			capital = 1807
 			
@@ -3583,7 +3582,7 @@ country = {
 		
 		VAI = {   
 			government = tribal_kingdom
-			primary_culture = fulda
+			primary_culture = gaimga
 			religion = green_pantheon
 			capital = 1874
 			
@@ -3594,7 +3593,7 @@ country = {
 		
 		VAJ = {   
 			government = tribal_kingdom
-			primary_culture = verda
+			primary_culture = gaimga
 			religion = green_pantheon
 			capital = 1792
 			
@@ -3605,12 +3604,12 @@ country = {
 		
 		VAN = {   
 			government = tribal_kingdom
-			primary_culture = capanu
+			primary_culture = gaimga
 			religion = green_pantheon
 			capital = 1865
 			
 			own_control_core = 	{ 
-				1865 1864 1861 1862
+				1865 1864 1866
 			}
 		}
 		
@@ -3744,7 +3743,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1511 1512 1513 1514 1517 1518 1519 1520 1521 1534
+				1511 1512 1513 1514 1517 1518 1519 1520 1521 1534 1507
 				1497 1500 1501 1502 1505 1503 1506 1504 1523 1522
 				1525 1526 1527 1530 1531 1536 1537 1533 1532 1529 1524 1528
 			}
@@ -3796,7 +3795,7 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = hernan
+					culture = nedkeptu
 					type = slaves
 				}
 			}
@@ -3822,7 +3821,15 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = hernan
+					culture = nedcolovian
+					type = slaves
+				}
+				{
+					culture = nednibenese
+					type = slaves
+				}
+				{
+					culture = nedstrident
 					type = slaves
 				}
 			}
@@ -3847,7 +3854,15 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = hernan
+					culture = nedcolovian
+					type = slaves
+				}
+				{
+					culture = nednibenese
+					type = slaves
+				}
+				{
+					culture = nedstrident
 					type = slaves
 				}
 			}
@@ -3872,7 +3887,15 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = hernan
+					culture = nedcolovian
+					type = slaves
+				}
+				{
+					culture = nednibenese
+					type = slaves
+				}
+				{
+					culture = nedstrident
 					type = slaves
 				}
 			}

@@ -7,7 +7,12 @@ esfa_startup.1 = { #Sommerset Isles
     picture = welcoming_window_1
 	
     trigger = {
-			country_culture_group = altmer
+		OR = {
+			primary_culture = sommersetic
+			primary_culture = auridonic
+			primary_culture = hiforested
+			primary_culture = psijic
+		}
     }
 
     option = {    
@@ -53,12 +58,18 @@ esfa_startup.4 = { #Ayleid Empire
     picture = welcoming_window_2
 	
     trigger = {
-    	country_culture_group = ayleid
+    	OR = {
+			primary_culture = colovianelves
+			primary_culture = northelves
+			primary_culture = deathelves
+			primary_culture = besarabicelves
+			primary_culture = heartlanderelves
+		}
     }
 
     option = {    
         name = esfa_startup.4.a
-		every_owned_province = { add_claim = c:CAA } 			
+		#every_owned_province = { add_claim = c:CAA } 			
     }
 }
 
@@ -175,6 +186,21 @@ esfa_startup.12 = { #Breton
 	
     trigger = {
     	country_culture_group = breton
+    }
+
+    option = {    
+        name = esfa_startup.12.a
+    }
+}
+
+esfa_startup.13 = { #Direnni
+	type = country_event
+    title = esfa_startup.13.t
+    desc = esfa_startup.13.desc
+    picture = welcoming_window_13
+	
+    trigger = {
+    	primary_culture = iliacite
     }
 
     option = {    

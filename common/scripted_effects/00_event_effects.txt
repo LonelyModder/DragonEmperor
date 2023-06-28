@@ -7615,8 +7615,8 @@ clear_loyalty_effect = {
 		remove_loyalty = loyalty_consort_initiative_rejected
 	}
 	if = {
-		limit = { has_loyalty = loyalty_banished_affair }
-		remove_loyalty = loyalty_banished_affair
+		limit = { has_loyalty = loyalty_gobcyrodic_affair }
+		remove_loyalty = loyalty_gobcyrodic_affair
 	}
 	if = {
 		limit = { has_loyalty = loyalty_leader_imprisoned }
@@ -8639,8 +8639,8 @@ clear_loyalty_effect = {
 		remove_loyalty = loyalty_executed_druidess
 	}
 	if = {
-		limit = { has_loyalty = loyalty_banished_druidess }
-		remove_loyalty = loyalty_banished_druidess
+		limit = { has_loyalty = loyalty_gobcyrodic_druidess }
+		remove_loyalty = loyalty_gobcyrodic_druidess
 	}
 	if = {
 		limit = { has_loyalty = loyalty_allowed_druidess }

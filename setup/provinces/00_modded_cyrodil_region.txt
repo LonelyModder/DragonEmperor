@@ -81,7 +81,7 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="goblin_pantheon"
-	culture="poisoned"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2218,7 +2218,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2237,7 +2237,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2341,7 +2341,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2400,7 +2400,7 @@
 	terrain="plains"
 	trade_goods="olive"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2419,7 +2419,7 @@
 	terrain="plains"
 	trade_goods="leather"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2499,7 +2499,7 @@
 	terrain="plains"
 	trade_goods="olive"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2518,7 +2518,7 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2781,7 +2781,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2800,7 +2800,7 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="goblin_pantheon"
-	culture="bitterfish"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2979,7 +2979,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="cyrodi"
+		culture="gaimga"
 	}
 }
 
@@ -3073,7 +3073,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="cyrodi"
+		culture="gaimga"
 	}
 }
 
@@ -3170,7 +3170,7 @@
 	slaves={
 		amount=3
 		religion="green_pantheon"
-		culture="cyrodi"
+		culture="gaimga"
 	}
 }
 
@@ -3723,7 +3723,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3742,7 +3742,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3781,7 +3781,7 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3997,7 +3997,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4113,7 +4113,7 @@
 	terrain="hills"
 	trade_goods="moonstone"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4132,7 +4132,7 @@
 	terrain="hills"
 	trade_goods="moonstone"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4151,7 +4151,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4173,7 +4173,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="nedic_pantheon"
-	culture="redhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4311,7 +4311,7 @@
 	terrain="hills"
 	trade_goods="gems"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4330,7 +4330,7 @@
 	terrain="mountain"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4349,7 +4349,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4371,7 +4371,7 @@
 	terrain="hills"
 	trade_goods="moonstone"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4390,7 +4390,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4475,7 +4475,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="greyhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4515,7 +4515,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="greyhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4534,7 +4534,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="greyhorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4553,7 +4553,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="bluehorns"
+	culture="minotauran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4600,7 +4600,7 @@
 	}
 	slaves={
 		amount=4
-		culture="greyhorns"
+		culture="minotauran"
 		religion="nedic_pantheon"
 	}
 	slaves={
@@ -5088,7 +5088,7 @@
 	terrain="forest"
 	trade_goods="coal"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5491,7 +5491,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5926,7 +5926,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6046,7 +6046,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6149,7 +6149,7 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8344,7 +8344,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8363,7 +8363,7 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="goblin_pantheon"
-	culture="rottenlogs"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10961,7 +10961,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11058,7 +11058,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11077,7 +11077,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11096,7 +11096,7 @@
 	terrain="hills"
 	trade_goods="maplesyrup"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11115,7 +11115,7 @@
 	terrain="hills"
 	trade_goods="griphons"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11134,7 +11134,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11153,7 +11153,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="gnollgoblin"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11172,7 +11172,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11235,7 +11235,7 @@
 	terrain="hills"
 	trade_goods="wool"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11254,7 +11254,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11273,7 +11273,7 @@
 	terrain="hills"
 	trade_goods="griphons"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11292,7 +11292,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11311,7 +11311,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11330,7 +11330,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11349,7 +11349,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11387,7 +11387,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11406,7 +11406,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11425,7 +11425,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11463,7 +11463,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11482,7 +11482,7 @@
 	terrain="mountain"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="dreadofjerall"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11539,7 +11539,7 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11558,7 +11558,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="banished"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13896,7 +13896,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13915,7 +13915,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13934,7 +13934,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13972,7 +13972,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13991,7 +13991,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14010,7 +14010,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14029,7 +14029,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14048,7 +14048,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14374,7 +14374,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="goblin_pantheon"
-	culture="forestterror"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15516,7 +15516,7 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15592,7 +15592,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15611,7 +15611,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16007,7 +16007,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16026,7 +16026,7 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16045,7 +16045,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16064,7 +16064,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16083,7 +16083,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="krar"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16149,7 +16149,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="drarkah"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16168,7 +16168,7 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
-	culture="drarkah"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16187,7 +16187,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="drarkah"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16206,7 +16206,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="nakadesh"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16225,7 +16225,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="nakadesh"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16244,7 +16244,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="nakadesh"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16263,7 +16263,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="nakadesh"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16282,7 +16282,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="drarkah"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16301,7 +16301,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16320,7 +16320,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16339,7 +16339,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="drarkah"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16358,7 +16358,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16551,7 +16551,7 @@
 	slaves={
 		amount=4
 		religion="hist_pantheon"
-		culture="saxhleelken"
+		culture="argblackwood"
 	}
 	slaves={
 		amount=1
@@ -16562,7 +16562,7 @@
 	terrain="marsh"
 	trade_goods="leather"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16631,7 +16631,7 @@
 	slaves={
 		amount=4
 		religion="hist_pantheon"
-		culture="saxhleelken"
+		culture="argblackwood"
 	}
 	slaves={
 		amount=1
@@ -16642,7 +16642,7 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="hist_pantheon"
-	culture="nilxian"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16661,7 +16661,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16680,7 +16680,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16699,7 +16699,7 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16721,7 +16721,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16740,7 +16740,7 @@
 	terrain="marsh"
 	trade_goods="leather"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16759,7 +16759,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="xalvaral"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16818,7 +16818,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="nilxian"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16857,7 +16857,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16879,7 +16879,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16898,7 +16898,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16917,7 +16917,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
-	culture="nilxian"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16936,7 +16936,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17040,7 +17040,7 @@
 	terrain="marsh"
 	trade_goods="beasts"
 	religion="hist_pantheon"
-	culture="nilxian"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17059,7 +17059,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="nilxian"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17078,7 +17078,7 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="hist_pantheon"
-	culture="sulxan"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17097,7 +17097,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="xalialun"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17116,7 +17116,7 @@
 	terrain="marsh"
 	trade_goods="guar"
 	religion="hist_pantheon"
-	culture="sulxan"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17135,7 +17135,7 @@
 	terrain="marsh"
 	trade_goods="cabal_of_witches"
 	religion="hist_pantheon"
-	culture="sulxan"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17240,7 +17240,7 @@
 	terrain="marsh"
 	trade_goods="durzogs"
 	religion="hist_pantheon"
-	culture="sulxan"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17335,7 +17335,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="colxen"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17354,7 +17354,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="hist_pantheon"
-	culture="colxen"
+	culture="argblackwood"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17526,7 +17526,7 @@
 	}
 	tribesmen={
 		amount=2
-		culture="tsethauxith"
+		culture="argblackwood"
 		religion="hist_pantheon"
 	}
 	tribesmen={
@@ -17555,7 +17555,7 @@
 	}
 	slaves={
 		amount=2
-		culture="tsethauxith"
+		culture="argblackwood"
 		religion="hist_pantheon"
 	}
 }
@@ -17576,12 +17576,12 @@
 	}
 	tribesmen={
 		amount=3
-		culture="tsethauxith"
+		culture="argblackwood"
 		religion="hist_pantheon"
 	}
 	slaves={
 		amount=1
-		culture="tsethauxith"
+		culture="argblackwood"
 		religion="hist_pantheon"
 	}
 }
@@ -17665,7 +17665,7 @@
 	}
 	slaves={
 		amount=2
-		culture="tsethauxith"
+		culture="argblackwood"
 		religion="hist_pantheon"
 	}
 	slaves={
@@ -17679,7 +17679,26 @@
 	terrain="mountain"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="greyhorns"
+	culture="minotauran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2732={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
