@@ -910,7 +910,7 @@
 	terrain="jungle"
 	trade_goods="wild_game"
 	religion="green_pantheon"
-	culture="gaimga"
+	culture="bosmalabal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1005,7 +1005,7 @@
 	terrain="jungle"
 	trade_goods="honey"
 	religion="green_pantheon"
-	culture="gaimga"
+	culture="bosmalabal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2174,13 +2174,10 @@
 	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="green_pantheon"
-	culture="gaimga"
+	culture="bosmalabal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -2196,7 +2193,7 @@
 	terrain="jungle"
 	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
-	culture="gaimga"
+	culture="bosmalabal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2909,8 +2906,8 @@
 1903={ 
 	terrain="jungle"
 	trade_goods="honey"
-	religion="codeofmalacath_pantheon"
-	culture="abamath"
+	religion="green_pantheon"
+	culture="bosmalabal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3353,7 +3350,7 @@
 	terrain="jungle"
 	trade_goods="fur"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3600,7 +3597,7 @@
 	terrain="jungle"
 	trade_goods="fruitsofthejungle"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3619,10 +3616,13 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -3989,7 +3989,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4027,10 +4027,13 @@
 	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4065,7 +4068,7 @@
 	terrain="jungle"
 	trade_goods="leather"
 	religion="green_pantheon"
-	culture="bosgreenshade"
+	culture="gaimga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

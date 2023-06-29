@@ -21,7 +21,6 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 			p:1071.owner = {
 				religion = deadric_pantheon
 			}
-			NOT = { p:1071.owner = c:VBC }
 		}
 	}
 	
@@ -177,7 +176,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	}
 }
 
-alessian_revolt.2 = { # The Colovian Lords Join Revolt
+alessian_revolt.2 = { # The Choice
 	type = country_event
 	title = "alessian_revolt.2.t"
 	desc = "alessian_revolt.2.desc"
@@ -200,10 +199,10 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
 		}
 		capital_scope = { 
 			OR = {
-				is_in_region = modded_goldcoast_region
-				is_in_region = modded_kvatch_region
-				is_in_region = modded_skingrad_region
-				is_in_region = modded_chorrol_region
+				is_in_region = modded_westweald_region
+				is_in_region = modded_sjerall_region
+				is_in_region = modded_chaydinhal_region
+				is_in_region = modded_nibenbasin_region
 			}
 		}
 		current_ruler = {

@@ -48,6 +48,11 @@ esfa_startup.3 = { #Vallenwood
 
     option = {    
         name = esfa_startup.3.a
+		region:modded_southpoint_region = { formable_region_province_effect = yes }
+		region:modded_grahtwood_region = { formable_region_province_effect = yes }
+		region:modded_xolo_region = { formable_region_province_effect = yes }
+		region:modded_westernreapersmarch_region = { formable_region_province_effect = yes }
+		region:modded_greenshade_region = { formable_region_province_effect = yes }
     }
 }
 

@@ -2969,17 +2969,18 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="colovianelves"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		religion="green_pantheon"
-		culture="gaimga"
+		amount=1
 	}
 }
 
@@ -3063,17 +3064,18 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="colovianelves"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		religion="green_pantheon"
-		culture="gaimga"
+		amount=1
 	}
 }
 

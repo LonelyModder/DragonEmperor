@@ -21,6 +21,11 @@
 		amount=6
 		culture="balfieric"
 	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
 	slaves={
 		amount=4
 	}
@@ -82,6 +87,11 @@
 	citizen={
 		amount=3
 		religion="deadric_pantheon"
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
 	}
 	freemen={
 		amount=6
