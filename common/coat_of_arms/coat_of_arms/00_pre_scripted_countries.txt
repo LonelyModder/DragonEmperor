@@ -155,6 +155,18 @@ CAZ = { #Cyro-Nordic Kingdom
 	}
 }
 
+VAS = { #Direnni Hegemony
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 189 39 6 }
+	color2 = rgb { 189 39 6 }
+
+	colored_emblem = {
+		texture = "ce_direnni.dds"
+		color1 = rgb { 217 212 212 }
+		color2 = rgb { 64 62 62 }
+	}
+}
+
 # Modded emblems for formables
 
 hk_ayleidoon = { #For the Ayleid Empire

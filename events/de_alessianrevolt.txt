@@ -199,7 +199,6 @@ alessian_revolt.2 = { # The Choice
 		}
 		capital_scope = { 
 			OR = {
-				is_in_region = modded_westweald_region
 				is_in_region = modded_sjerall_region
 				is_in_region = modded_chaydinhal_region
 				is_in_region = modded_nibenbasin_region

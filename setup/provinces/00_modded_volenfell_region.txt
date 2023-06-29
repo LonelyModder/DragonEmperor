@@ -763,8 +763,13 @@
 	freemen={
 		amount=4
 	}
-	tribesmen={
+	freemen={
 		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	tribesmen={
+		amount=6
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
@@ -784,17 +789,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -807,17 +815,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -830,17 +841,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -852,16 +866,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -874,17 +888,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -896,16 +913,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -917,16 +934,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -939,17 +956,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -961,16 +981,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -983,17 +1003,20 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=3
+		amount=1
 		religion="green_pantheon"
 		culture="bosiliacite"
 	}
-	slaves={
-		amount=1
+	tribesmen={
+		amount=3
 		religion="nedic_pantheon"
 		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -1005,27 +1028,30 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
 2311={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1045,16 +1071,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -1066,16 +1092,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
@@ -1087,27 +1113,30 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
 2315={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1122,8 +1151,8 @@
 2316={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1141,8 +1170,8 @@
 2317={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1160,8 +1189,8 @@
 2318={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1179,8 +1208,8 @@
 2319={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1198,8 +1227,8 @@
 2320={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1217,8 +1246,8 @@
 2321={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1236,11 +1265,14 @@
 2322={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1255,8 +1287,8 @@
 2323={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1274,8 +1306,8 @@
 2324={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1293,8 +1325,8 @@
 2325={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="mindeathl"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1401,24 +1433,24 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
-		religion="nedic_pantheon"
-		culture="nedkeptu"
 	}
 }
 
 2331={ 
 	terrain="desert"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

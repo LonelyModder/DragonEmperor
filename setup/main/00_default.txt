@@ -1105,6 +1105,9 @@ provinces = { #Any entry must contain a comment with city name.
 	46 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
+	1749 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	50 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3918,6 +3921,39 @@ country = {
 			own_control_core = 	{ 
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
+			}
+		}
+		
+		VBD = {          
+			government = tribal_kingdom
+			primary_culture = mindeathl
+			religion = nedic_pantheon
+			capital = 2322
+			
+			own_control_core = 	{ 
+				2322 2321 2320 2323 2324 2325
+			}
+		}
+		
+		VBE = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2315
+			
+			own_control_core = 	{ 
+				2315 2316 2319 2331
+			}
+		}
+		
+		VBF = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2311
+			
+			own_control_core = 	{ 
+				2311 2317 2318
 			}
 		}
 	}
