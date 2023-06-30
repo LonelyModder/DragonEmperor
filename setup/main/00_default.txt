@@ -3792,9 +3792,7 @@ country = {
 			capital = 2554
 			
 			own_control_core = 	{ 
-				2559 2671 2554 2429 2341 2337 2338 2411 2413 2414 2415
-				2472 2344 2709 2557 2555 2533 2532 2477 2511 2422
-				2340 2332 2328 2327 2326 2351 2350 2401 2402 2403 2404 
+				2341 2671 2554 2429 					
 			}
 		}
 		
@@ -3954,6 +3952,17 @@ country = {
 			
 			own_control_core = 	{ 
 				2311 2317 2318
+			}
+		}
+		
+		VBG = {          
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 2653
+			
+			own_control_core = 	{ 
+				2653 2649 2648 2647 2645
 			}
 		}
 	}
