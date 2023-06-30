@@ -4515,16 +4515,17 @@
 2495={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
@@ -4534,16 +4535,17 @@
 2496={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
@@ -4553,35 +4555,41 @@
 2497={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+		religion="deadric_pantheon"
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 2498={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
@@ -4686,16 +4694,17 @@
 2505={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="deathelves"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
+	}
+	slaves={
+		amount=3
+		culture="nedkeptu"
 	}
 	slaves={
 		amount=1
@@ -7200,8 +7209,8 @@
 2643={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

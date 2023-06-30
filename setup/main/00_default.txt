@@ -3962,7 +3962,32 @@ country = {
 			capital = 2653
 			
 			own_control_core = 	{ 
-				2653 2649 2648 2647 2645
+				2653 2649 2648 2647 2645 2643
+			}
+		}
+		
+		VBH = {          
+			government = despotic_monarchy
+			primary_culture = deathelves
+			religion = deadric_pantheon
+			capital = 2497
+			
+			poptype_rights = {
+				{
+					culture = nedkeptu
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2497 2498 2496 2505 2495
 			}
 		}
 	}
