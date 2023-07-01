@@ -274,6 +274,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	2441 = {
+		port_building = 2
+	}
 	2715 = {
 		port_building = 2
 	}
@@ -3988,6 +3991,203 @@ country = {
 			
 			own_control_core = 	{ 
 				2497 2498 2496 2505 2495
+			}
+		}
+		
+		VBI = {          
+			government = despotic_monarchy
+			primary_culture = deathelves
+			religion = deadric_pantheon
+			capital = 2441
+			
+			poptype_rights = {
+				{
+					culture = goblinken
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2441 2442 2440 2443 2444 2438 2439 2445 2447 2446
+			}
+		}
+		
+		VBJ = {          
+			government = tribal_kingdom
+			primary_culture = mindeathl
+			religion = nedic_pantheon
+			capital = 2702
+			
+			own_control_core = 	{ 
+				2702 2704 2705 2703 
+			}
+		}
+		
+		VBK = {          
+			government = tribal_kingdom
+			primary_culture = mindeathl
+			religion = nedic_pantheon
+			capital = 2185
+			
+			own_control_core = 	{ 
+				2185 2221 2453
+			}
+		}
+		
+		VBL = {          
+			government = tribal_kingdom
+			primary_culture = mindeathl
+			religion = nedic_pantheon
+			capital = 2690
+			
+			own_control_core = 	{ 
+				2690 2689 2716 2701
+			}
+		}
+		
+		VBM = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2531
+			
+			own_control_core = 	{ 
+				2531 2523 2527 2528 2570
+			}
+		}
+		
+		VBN = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2530
+			
+			own_control_core = 	{ 
+				2530 2504 2529 
+			}
+		}
+		
+		VBO = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2518
+			
+			own_control_core = 	{ 
+				2518 2520 2517 2551 2552 2519 2516 2515 2574 2514 2507 2509 2506 2508 2510
+			}
+		}
+		
+		VBP = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2573
+			
+			own_control_core = 	{ 
+				2573 2694 2691
+			}
+		}
+		
+		VBR = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2697
+			
+			own_control_core = 	{ 
+				2697 2493 2698 2700
+			}
+		}
+		
+		VBS = {          
+			government = despotic_monarchy
+			primary_culture = deathelves
+			religion = deadric_pantheon
+			capital = 2656
+			
+			poptype_rights = {
+				{
+					culture = nedkeptu
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2656 2655 2654 2658 2657 2660
+			}
+		}
+		
+		VBT = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2650
+			
+			own_control_core = 	{ 
+				2650 2652 2651
+			}
+		}
+		
+		VBU = {          
+			government = despotic_monarchy
+			primary_culture = deathelves
+			religion = deadric_pantheon
+			capital = 2646
+			
+			poptype_rights = {
+				{
+					culture = nedkeptu
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2646 2644
+			}
+		}
+		
+		VBW = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2632
+			
+			own_control_core = 	{ 
+				2637 2636 2635 2634 2633 2632 2631 2638 2639 2630
+				2642 2640 2629 2627 2625
+			}
+		}
+		
+		VBY = {          
+			government = despotic_monarchy
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2608
+			
+			own_control_core = 	{ 
+				2610 2609 2614 2598 2599 2597 2596 2615 2589 2590 2616 2600 2594 2595 2608 2611 2617 2593 2601
 			}
 		}
 	}

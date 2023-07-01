@@ -105,3 +105,29 @@ deity_celestials = {
 		military_apotheosis_defensive_effect = yes
 	}
 }
+
+deity_shada = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			deity:omen_shada = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_war
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = nedic_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
