@@ -278,3 +278,25 @@ cyronordic_FLAG = { #Cyro-Nordic Kingdom
 		color1 = rgb { 0 0 0 }
 	}
 }
+
+craglorn_FLAG = { #Craglorn
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 186 72 19 }
+	color2 = rgb { 186 72 19 }
+
+	colored_emblem = {
+		texture = "ce_craglorn.dds"
+		color1 = rgb { 237 198 0 }
+	}
+}
+
+HKDeathlands_FLAG = { #Craglorn
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 247 77 }
+	color2 = rgb { 247 247 77 }
+
+	colored_emblem = {
+		texture = "ce_deathlands.dds"
+		color1 = rgb { 61 61 59 }
+	}
+}

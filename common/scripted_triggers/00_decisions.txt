@@ -5,6 +5,7 @@
 		tag = XNI #Nibenay
 		tag = XSO #Sommerset
 		tag = XCN #Cyro-Nordic
+		tag = XCR #Craglorn
 	}
 }
 
@@ -14,6 +15,7 @@ is_tier_2_formable_trigger = {
 		tag = XAL #Kingdom of Alinor
 		tag = XCY #Kingdom of Cyrod
 		tag = VAA #Kingdom of Valenwood
+		tag = XHM #Kingdom of Deathlands
 	}
 }
 
