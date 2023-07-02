@@ -1124,6 +1124,57 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	2189 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2196 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2275 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2255 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	46 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2277 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2278 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2249 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2251 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2264 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2247 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2268 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2181 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2199 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2233 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2210 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2238 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	46 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3699,7 +3750,7 @@ country = {
 		
 		VAS = { 
 			family = 12
-			government = despotic_monarchy
+			government = aristocratic_monarchy
 			primary_culture = iliacite
 			religion = elven_pantheon
 			capital = 2162
