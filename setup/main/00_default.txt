@@ -3836,7 +3836,7 @@ country = {
 		VAW = {          
 			government = despotic_monarchy
 			primary_culture = northelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 2715
 			
 			poptype_rights = {
@@ -3877,7 +3877,7 @@ country = {
 			
 			poptype_rights = {
 				{
-					culture = nedkeptu
+					culture = gobdeathlander
 					type = slaves
 				}
 			}
@@ -4382,7 +4382,7 @@ country = {
 			}
 		}
 		
-		VCJ = {          
+		VCK = {          
 			government = tribal_chiefdom
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
@@ -4393,7 +4393,7 @@ country = {
 			}
 		}
 		
-		VCK = {          
+		VCL = {          
 			government = tribal_kingdom
 			primary_culture = gobcyrodic
 			religion = goblin_pantheon
@@ -4404,7 +4404,7 @@ country = {
 			}
 		}
 		
-		VCL = {          
+		VCM = {          
 			government = tribal_kingdom
 			primary_culture = gobcyrodic
 			religion = goblin_pantheon
@@ -4415,7 +4415,7 @@ country = {
 			}
 		}
 		
-		VCM = {          
+		VCN= {          
 			government = tribal_chiefdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon

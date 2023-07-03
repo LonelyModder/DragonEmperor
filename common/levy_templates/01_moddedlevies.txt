@@ -12,31 +12,36 @@ levy_sommersetan = { #altmer militia
 	default = no
 
 	lv_gryphons = 0.2
-	lv_lightinfantry = 0.5
-	lv_mages = 0.3
+	lv_lightinfantry = 0.4
+	lv_archers = 0.1
+	lv_cavalry = 0.1
+	lv_mages = 0.2
 }
 
 levy_auridonic = { #altmer militia
 	default = no
 
 	lv_cavalry = 0.2
-	lv_lightinfantry = 0.5
+	lv_lightinfantry = 0.4
+	lv_archers = 0.1
 	lv_mages = 0.3
 }
 
 levy_psijic = { #altmer militia
 	default = no
 
-	lv_lightinfantry = 0.4
+	lv_lightinfantry = 0.3
+	lv_cavalry = 0.1
 	lv_mages = 0.6
 }
 
 levy_ayleid = { #ayleid militia
 	default = no
 
-	lv_lightinfantry = 0.5
-	lv_mages = 0.4
-	lv_gryphons = 0.1
+	lv_lightinfantry = 0.4
+	lv_archers = 0.1
+	lv_mages = 0.3
+	lv_cavalry = 0.2
 }
 
 #Goblin
@@ -44,8 +49,9 @@ levy_ayleid = { #ayleid militia
 levy_goblinwarriors = { #goblin militia
 	default = no
 
-	lv_lightinfantry = 0.8
+	lv_lightinfantry = 0.7
 	lv_archers = 0.2
+	lv_mages = 0.1
 }
 
 #Bosmer
@@ -63,9 +69,19 @@ levy_bosmer = { #bosmer militia
 levy_nedichoplites = { #nedic militia
 	default = no
 
-	lv_heavyinfantry = 0.6
-	lv_archers = 0.3
+	lv_lightinfantry = 0.4
+	lv_heavyinfantry = 0.3
+	lv_archers = 0.2
 	lv_cavalry = 0.1
+}
+
+levy_keptu = { #keptu militia
+	default = no
+
+	lv_lightinfantry = 0.4
+	lv_archers = 0.2
+	lv_camels = 0.2
+	lv_cavalry = 0.2
 }
 
 #Minotauric
