@@ -2,7 +2,11 @@
 
 is_agressive_culture_aimod = {
 	trigger = {
-		primary_culture = nedeken
+		OR = {
+			primary_culture = nednibenese
+			tag = VAS
+		}
+		NOT = { is_tribal = yes }
 		manpower > 4
 	}
 	ae_ceiling = 30
@@ -13,7 +17,11 @@ is_lacking_levies_pseudo_trigger = {
 	trigger = {
 		military_experience > 80
 		military_experience < 85
-		primary_culture = nedeken
+		OR = {
+			primary_culture = nednibenese
+			tag = VAS
+		}
+		NOT = { is_tribal = yes }
 	}
 	
 	aggressive = -500

@@ -31,12 +31,12 @@
 			add_trait = altmer
 			add_trait = pure
 		}
-		else_if = {
-			limit = {
-				has_culture_group = venedi
-			}
-			add_trait = halfauroran
-		}
+		#else_if = {
+		#	limit = {
+		#		has_culture_group = venedi
+		#	}
+		#	add_trait = halfauroran
+		#}
 		else_if = {
 			limit = {
 				has_culture_group = bosmer

@@ -7,16 +7,11 @@ noldor = {
 	template = "ethnities_template"
 
 	skin_color = {
-		10 = { 0.0 0.0 
-			   0.0 0.0 }
+		98 = { 0.0 0.0 0.0001 0.0001 }
 	}
 	eye_color = {
-		#Blue
-		98 = { 0.0 0.0 0.0 0.0 }
-		#Green
-		1 = { 0.33 0.35 0.67 0.65 }
-		#Brown
-		1 = { 0.67 0.5 1.0 1.0 }				
+		#Yellow
+		98 = { 0.0 0.0 0.0001 0.0001 }				
 	}
 	hair_color = {
 		# Blonde

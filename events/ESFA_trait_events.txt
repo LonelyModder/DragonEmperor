@@ -31,16 +31,6 @@ esfa_traits.1 = {
 					NOT = { has_trait = halfauroran }
 				}
 			}
-			if = {
-				limit = {
-					OR = {
-						father = { has_trait = halfauroran }
-						mother = { has_trait = halfauroran }
-					}
-				}
-				add_trait = altmer
-				add_trait = pure
-			}
 			else_if = {
 				limit = {
 					OR = {
@@ -116,13 +106,9 @@ esfa_traits.1 = {
 					NOT = {has_trait = impure}
 					has_trait = altmer
 					OR = {
-						AND = {
-							father = { has_trait = pure }
+						OR = {
 							mother = { has_trait = impure }
-						}
-						AND = {
 							father = { has_trait = impure }
-							mother = { has_trait = pure }
 						}
 						AND = {
 							father = { 

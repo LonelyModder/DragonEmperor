@@ -336,6 +336,8 @@ tribal_chiefdom = {
 	}
 	base = {
 		global_tribesmen_happyness = happiness_large_svalue
+		discipline = -0.2
+		land_morale_modifier = -0.2
 	}
 
 	election_delay = 0
@@ -355,6 +357,8 @@ tribal_kingdom = {
 	}
 	base = {
 		country_civilization_value = 5
+		discipline = -0.2
+		land_morale_modifier = -0.2
 	}
 
 	election_delay = 0
@@ -378,6 +382,8 @@ tribal_federation = {
 	}
 	base = {
 		country_civilization_value = 10
+		discipline = -0.2
+		land_morale_modifier = -0.2
 	}
 
 	election_delay = 0
