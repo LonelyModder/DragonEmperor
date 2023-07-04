@@ -56,7 +56,7 @@
 
 768={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="hernan"
 	civilization_value=0
@@ -113,7 +113,7 @@
 
 771={ 
 	terrain="plains"
-	trade_goods="dates"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="hernan"
 	civilization_value=0
@@ -189,7 +189,7 @@
 
 775={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -284,7 +284,7 @@
 
 780={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -341,7 +341,7 @@
 
 783={ 
 	terrain="plains"
-	trade_goods="dates"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -417,7 +417,7 @@
 
 2174={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cloth"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -440,7 +440,7 @@
 
 2175={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -500,7 +500,7 @@
 
 2178={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -574,7 +574,7 @@
 
 2291={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -594,7 +594,7 @@
 
 2292={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -634,7 +634,7 @@
 
 2294={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -654,7 +654,7 @@
 
 2295={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -682,7 +682,7 @@
 
 2296={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -705,7 +705,7 @@
 
 2297={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -887,7 +887,7 @@
 
 2305={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -929,7 +929,7 @@
 
 2307={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -992,7 +992,7 @@
 
 2310={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -1098,7 +1098,7 @@
 
 2315={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -1158,7 +1158,7 @@
 
 2318={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -1294,7 +1294,7 @@
 
 2325={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -1313,7 +1313,7 @@
 
 2326={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1332,7 +1332,7 @@
 
 2327={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1397,7 +1397,7 @@
 
 2330={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -1437,7 +1437,7 @@
 
 2332={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1456,8 +1456,7 @@
 
 2333={ 
 	terrain="desert"
-	trade_goods="spices"
-	religion="elven_pantheon"
+	trade_goods="cheese"
 	culture="balfieric"
 	civilization_value=0
 	barbarian_power=0
@@ -1479,7 +1478,7 @@
 
 2334={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -1548,7 +1547,7 @@
 
 2337={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1567,7 +1566,7 @@
 
 2338={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1586,7 +1585,7 @@
 
 2340={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1605,7 +1604,7 @@
 
 2341={ 
 	terrain="desert"
-	trade_goods="dates"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1643,7 +1642,7 @@
 
 2343={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1662,7 +1661,7 @@
 
 2344={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -1719,7 +1718,7 @@
 
 2347={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -1814,7 +1813,7 @@
 
 2352={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -1909,7 +1908,7 @@
 
 2357={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1985,7 +1984,7 @@
 
 2361={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2061,7 +2060,7 @@
 
 2365={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2121,7 +2120,7 @@
 
 2368={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2159,7 +2158,7 @@
 
 2370={ 
 	terrain="forest"
-	trade_goods="fruitsoftheforest"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2178,7 +2177,7 @@
 
 2371={ 
 	terrain="forest"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2444,7 +2443,7 @@
 
 2385={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2463,7 +2462,7 @@
 
 2386={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2482,7 +2481,7 @@
 
 2387={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2520,7 +2519,7 @@
 
 2389={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2539,7 +2538,7 @@
 
 2390={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2558,7 +2557,7 @@
 
 2391={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2615,7 +2614,7 @@
 
 2394={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2634,7 +2633,7 @@
 
 2395={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2653,7 +2652,7 @@
 
 2396={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2710,7 +2709,7 @@
 
 2399={ 
 	terrain="forest"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -2747,8 +2746,8 @@
 }
 
 2401={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="desert"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -2805,7 +2804,7 @@
 
 2404={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -2843,7 +2842,7 @@
 
 2406={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -2922,7 +2921,7 @@
 
 2410={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -2960,7 +2959,7 @@
 
 2412={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -2980,7 +2979,7 @@
 
 2413={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -3018,7 +3017,7 @@
 
 2415={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -3117,7 +3116,7 @@
 
 2420={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -3137,7 +3136,7 @@
 
 2421={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="limestone"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -3179,7 +3178,7 @@
 
 2423={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -3236,7 +3235,7 @@
 
 2426={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3255,7 +3254,7 @@
 
 2427={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3274,7 +3273,7 @@
 
 2428={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3293,7 +3292,7 @@
 
 2429={ 
 	terrain="desert"
-	trade_goods="dates"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -3331,7 +3330,7 @@
 
 2431={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -3388,7 +3387,7 @@
 
 2434={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3448,7 +3447,7 @@
 
 2437={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="olive"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3569,7 +3568,7 @@
 
 2442={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="coconut"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -3725,7 +3724,7 @@
 
 2448={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3744,7 +3743,7 @@
 
 2449={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3763,7 +3762,7 @@
 
 2450={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3820,7 +3819,7 @@
 
 2453={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -3839,7 +3838,7 @@
 
 2454={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3858,7 +3857,7 @@
 
 2455={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3877,7 +3876,7 @@
 
 2456={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3915,7 +3914,7 @@
 
 2458={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3934,7 +3933,7 @@
 
 2459={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -3991,7 +3990,7 @@
 
 2462={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4010,7 +4009,7 @@
 
 2463={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4029,7 +4028,7 @@
 
 2464={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4048,7 +4047,7 @@
 
 2465={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4086,7 +4085,7 @@
 
 2467={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4162,7 +4161,7 @@
 
 2471={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4181,7 +4180,7 @@
 
 2472={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4200,7 +4199,7 @@
 
 2474={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4355,7 +4354,7 @@
 
 2484={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4670,7 +4669,7 @@
 
 2501={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4689,7 +4688,7 @@
 
 2502={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -4766,7 +4765,7 @@
 
 2506={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4785,7 +4784,7 @@
 
 2507={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4804,7 +4803,7 @@
 
 2508={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4823,7 +4822,7 @@
 
 2509={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4861,7 +4860,7 @@
 
 2511={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4918,7 +4917,7 @@
 
 2514={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4937,7 +4936,7 @@
 
 2515={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4956,7 +4955,7 @@
 
 2516={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4975,7 +4974,7 @@
 
 2517={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -4994,7 +4993,7 @@
 
 2518={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5038,7 +5037,7 @@
 
 2520={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5057,7 +5056,7 @@
 
 2522={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5076,7 +5075,7 @@
 
 2523={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5095,7 +5094,7 @@
 
 2525={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5152,7 +5151,7 @@
 
 2528={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5171,7 +5170,7 @@
 
 2529={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5240,7 +5239,7 @@
 
 2532={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5259,7 +5258,7 @@
 
 2533={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5297,7 +5296,7 @@
 
 2535={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5354,7 +5353,7 @@
 
 2538={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5392,7 +5391,7 @@
 
 2540={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5411,7 +5410,7 @@
 
 2541={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5490,7 +5489,7 @@
 
 2545={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5547,7 +5546,7 @@
 
 2548={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5566,7 +5565,7 @@
 
 2549={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5585,7 +5584,7 @@
 
 2550={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5646,7 +5645,7 @@
 
 2554={ 
 	terrain="oasis"
-	trade_goods="camel"
+	trade_goods="dates"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5690,7 +5689,7 @@
 
 2556={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5709,7 +5708,7 @@
 
 2557={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5728,7 +5727,7 @@
 
 2559={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5804,7 +5803,7 @@
 
 2564={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5823,7 +5822,7 @@
 
 2565={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -5959,7 +5958,7 @@
 
 2573={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -5984,7 +5983,7 @@
 
 2574={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6003,7 +6002,7 @@
 
 2575={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6022,7 +6021,7 @@
 
 2576={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6041,7 +6040,7 @@
 
 2577={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6062,7 +6061,7 @@
 
 2578={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6202,7 +6201,7 @@
 
 2585={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6243,7 +6242,7 @@
 
 2587={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6269,7 +6268,7 @@
 
 2588={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6288,7 +6287,7 @@
 
 2589={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6307,7 +6306,7 @@
 
 2590={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6326,7 +6325,7 @@
 
 2591={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6364,7 +6363,7 @@
 
 2593={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6383,7 +6382,7 @@
 
 2594={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6421,7 +6420,7 @@
 
 2596={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6440,7 +6439,7 @@
 
 2597={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6459,7 +6458,7 @@
 
 2598={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6497,7 +6496,7 @@
 
 2600={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6516,7 +6515,7 @@
 
 2601={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="limestone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6594,7 +6593,7 @@
 
 2605={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -6654,7 +6653,7 @@
 
 2608={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6679,7 +6678,7 @@
 
 2609={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6698,7 +6697,7 @@
 
 2610={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6776,7 +6775,7 @@
 
 2614={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6795,7 +6794,7 @@
 
 2615={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -6814,7 +6813,7 @@
 
 2616={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7007,7 +7006,7 @@
 
 2626={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7045,7 +7044,7 @@
 
 2628={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7064,7 +7063,7 @@
 
 2629={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7083,7 +7082,7 @@
 
 2630={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7102,7 +7101,7 @@
 
 2631={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7121,7 +7120,7 @@
 
 2632={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7203,7 +7202,7 @@
 
 2636={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7222,7 +7221,7 @@
 
 2637={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7241,7 +7240,7 @@
 
 2638={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7260,7 +7259,7 @@
 
 2639={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7279,7 +7278,7 @@
 
 2640={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7298,7 +7297,7 @@
 
 2641={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="coal"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7317,7 +7316,7 @@
 
 2642={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7375,8 +7374,8 @@
 }
 
 2645={ 
-	terrain="plains"
-	trade_goods="hills"
+	terrain="hills"
+	trade_goods="beasts"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7457,7 +7456,7 @@
 
 2649={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7476,7 +7475,7 @@
 
 2650={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7502,7 +7501,7 @@
 
 2651={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7562,7 +7561,7 @@
 
 2654={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -7583,7 +7582,7 @@
 
 2655={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -7628,7 +7627,7 @@
 
 2657={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -7649,7 +7648,7 @@
 
 2658={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="deathelves"
 	civilization_value=0
@@ -7669,8 +7668,8 @@
 }
 
 2659={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="hills"
+	trade_goods="ebon"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7688,7 +7687,7 @@
 }
 
 2660={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="moonstone"
 	religion="elven_pantheon"
 	culture="deathelves"
@@ -7710,7 +7709,7 @@
 
 2661={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7729,7 +7728,7 @@
 
 2662={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7805,7 +7804,7 @@
 
 2669={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7824,7 +7823,7 @@
 
 2670={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="steppe_horses"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7862,7 +7861,7 @@
 
 2680={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -7881,7 +7880,7 @@
 
 2689={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -7900,7 +7899,7 @@
 
 2690={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -7922,7 +7921,7 @@
 
 2691={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7941,7 +7940,7 @@
 
 2694={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7960,7 +7959,7 @@
 
 2695={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -7979,7 +7978,7 @@
 
 2696={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8042,7 +8041,7 @@
 
 2699={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8080,7 +8079,7 @@
 
 2701={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8099,7 +8098,7 @@
 
 2702={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8121,7 +8120,7 @@
 
 2703={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8140,7 +8139,7 @@
 
 2704={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8159,7 +8158,7 @@
 
 2705={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8178,7 +8177,7 @@
 
 2706={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8197,7 +8196,7 @@
 
 2707={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8216,7 +8215,7 @@
 
 2708={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8235,7 +8234,7 @@
 
 2709={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8276,7 +8275,7 @@
 
 2713={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8314,7 +8313,7 @@
 
 2716={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8333,7 +8332,7 @@
 
 2717={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8352,7 +8351,7 @@
 
 2718={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="nedkeptu"
 	civilization_value=0
@@ -8371,7 +8370,7 @@
 
 2729={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -8390,7 +8389,7 @@
 
 2730={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -8409,7 +8408,7 @@
 
 2731={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -8428,7 +8427,7 @@
 
 2230={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0
@@ -8469,7 +8468,7 @@
 
 2221={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nedic_pantheon"
 	culture="mindeathl"
 	civilization_value=0
@@ -8507,7 +8506,7 @@
 
 2229={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="goblin_pantheon"
 	culture="gobdeathlander"
 	civilization_value=0

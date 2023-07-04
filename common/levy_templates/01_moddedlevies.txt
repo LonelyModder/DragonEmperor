@@ -81,7 +81,7 @@ levy_keptu = { #keptu militia
 	lv_lightinfantry = 0.4
 	lv_archers = 0.2
 	lv_camels = 0.2
-	lv_cavalry = 0.2
+	lv_horsearchers = 0.2
 }
 
 #Minotauric
@@ -98,15 +98,17 @@ levy_minotaurish = { #minotaur militia
 levy_orcish = { #orcish militia
 	default = no
 
-	lv_heavyinfantry = 0.8
+	lv_lightinfantry = 0.3
+	lv_heavyinfantry = 0.5
 	lv_crossbowmen = 0.2
 }
 
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_lightinfantry = 0.4
-	lv_archers = 0.6
+	lv_heavyinfantry = 0.2
+	lv_lightinfantry = 0.3
+	lv_archers = 0.5
 }
 
 #Imga
@@ -124,7 +126,8 @@ levy_imgan = { #imga militia
 levy_khajiit = { #khajiit militia
 	default = no
 
-	lv_camels = 0.5
+	lv_lightinfantry = 0.2
+	lv_camels = 0.3
 	lv_archers = 0.3
 	lv_cavalry = 0.2
 }
@@ -144,7 +147,8 @@ levy_argonian = { #argonian militia
 levy_nordic = { #nordic militia
 	default = no
 
-	lv_heavyinfantry = 0.7
+	lv_lightinfantry = 0.4
+	lv_heavyinfantry = 0.3
 	lv_archers = 0.2
 	lv_cavalry = 0.1
 }
@@ -155,6 +159,7 @@ levy_bretonic = { #bretonic militia
 	default = no
 
 	lv_lightinfantry = 0.4
-	lv_mages = 0.2
-	lv_cavalry = 0.4
+	lv_heavyinfantry = 0.2
+	lv_mages = 0.1
+	lv_cavalry = 0.3
 }

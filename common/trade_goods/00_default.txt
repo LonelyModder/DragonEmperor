@@ -739,6 +739,21 @@ maplesyrup = { #86 territories
 	color = rgb { 10 110 17 }
 }
 
+coconut = { #86 territories
+	category = 3
+
+	gold = 0.3
+
+	province = {
+		local_monthly_food_modifier = 0.03
+	}
+	country = {
+		local_citizen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 140 70 15 }
+}
+
 incense = { #55 territories
 	category = 2
 	
