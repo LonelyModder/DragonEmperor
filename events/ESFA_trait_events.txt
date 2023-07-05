@@ -10,13 +10,13 @@ esfa_traits.1 = {
 		if = {
 			limit = {
 				AND = {
-					NAND = {
-						has_trait = altmer
-						has_trait = pure
+					AND = {
+						NOT = { has_trait = altmer }
+						NOT = { has_trait = pure }
 					}
-					NAND = {
-						has_trait = altmer
-						has_trait = impure
+					AND = {
+						NOT = { has_trait = altmer }
+						NOT = { has_trait = impure }
 					}
 					NOT = { has_trait = bosmer }
 					NOT = { has_trait = goblin }
@@ -31,7 +31,7 @@ esfa_traits.1 = {
 					NOT = { has_trait = halfauroran }
 				}
 			}
-			else_if = {
+			if = {
 				limit = {
 					OR = {
 						father = { has_trait = minotaur }

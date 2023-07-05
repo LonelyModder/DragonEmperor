@@ -2,16 +2,15 @@
 	if = {
 		limit = {
 			OR = {
-				NAND = {
-					has_trait = altmer
-					has_trait = pure
+				AND = {
+					NOT = { has_trait = altmer }
+					NOT = { has_trait = pure }
 				}
-				NAND = {
-					has_trait = altmer
-					has_trait = impure
+				AND = {
+					NOT = { has_trait = altmer }
+					NOT = { has_trait = impure }
 				}
 				NOT = { has_trait = bosmer }
-				NOT = { has_trait = ayleid }
 				NOT = { has_trait = goblin }
 				NOT = { has_trait = nede }
 				NOT = { has_trait = orc }
@@ -31,12 +30,6 @@
 			add_trait = altmer
 			add_trait = pure
 		}
-		#else_if = {
-		#	limit = {
-		#		has_culture_group = venedi
-		#	}
-		#	add_trait = halfauroran
-		#}
 		else_if = {
 			limit = {
 				has_culture_group = bosmer
@@ -48,12 +41,6 @@
 				has_culture_group = breton
 			}
 			add_trait = breton
-		}
-		else_if = {
-			limit = {
-				has_culture_group = ayleid
-			}
-			add_trait = ayleid
 		}
 		else_if = {
 			limit = {
