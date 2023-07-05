@@ -7481,16 +7481,16 @@
 	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=4
-		religion="deadric_pantheon"
-	}
+	province_rank="settlement"
 	freemen={
-		amount=7
+		amount=4
 	}
 	slaves={
 		amount=3
+		culture="nednibenese"
+	}
+	slaves={
+		amount=1
 	}
 }
 

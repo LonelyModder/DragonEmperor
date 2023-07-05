@@ -149,6 +149,18 @@ bloodlines_setup_completion.1 = {
 				limit = {
 					exists = father
 					father = {
+						has_trait = alesh
+					}
+					NOT = {
+						has_trait = alesh
+					}
+				}
+				add_trait = alesh
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
 						has_trait = dragonblood
 					}
 					NOT = {
@@ -288,6 +300,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = direnni	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = alesh
+					}
+					NOT = {
+						has_trait = alesh
+					}
+				}
+				add_trait = alesh	
 			}
 			if = {
 				limit = {

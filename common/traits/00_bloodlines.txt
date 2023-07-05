@@ -163,6 +163,21 @@ direnni = {
 	
 }
 
+alesh = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		omen_power = 0.1
+		ruler_popularity_gain = 0.05
+	}
+	
+}
+
 dragonblood = {
 	type = status
 	

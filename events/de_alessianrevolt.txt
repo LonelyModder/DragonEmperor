@@ -52,7 +52,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 		}
 		p:1290.owner = {
 			add_country_modifier = {
-				name = fanatical_culture
+				name = militarized_culture
 				#duration = 365
 			}
 			capital_scope.governorship = {
@@ -128,6 +128,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 				no_stats = yes
 				add_trait="nede"
 				add_trait="dragonblood"
+				add_trait="alesh"
 				culture = nednibenese
 				religion = nedic_pantheon
 				female = yes
@@ -264,5 +265,71 @@ alessian_revolt.3 = { # Alessian cores
 		region:modded_chaydinhal_region = { formable_region_province_effect = yes }
 		region:modded_valus_region = { formable_region_province_effect = yes }
 		region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+	}
+}
+
+alessian_revolt.4 = { #Dragonblood
+
+	type = country_event
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		has_country_modifier = cymmerian_invasion_modifier
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = scope:alessia_gov
+			}
+			add_trait = alesh
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	}
+
+}
+
+alessian_revolt.5 = { # Capital in Sancre Tor
+	type = country_event
+	title = "alessian_revolt.5.t"
+	desc = "alessian_revolt.5.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		p:1290.owner = {
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
+		}
+		has_country_modifier = cymmerian_invasion_modifier
+	}
+	
+	option = {
+		name = alessian_revolt.5.a
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1288
+					}
+				}
+			}
+			set_capital = 1288
+			hidden_effect = {
+				p:1288.state = {
+					set_state_capital = 1288
+				}
+			}
+		}
+		p:1288 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
 	}
 }
