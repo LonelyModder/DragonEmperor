@@ -24,15 +24,12 @@
 			scope:province = {
 				OR = {
 					province_id = 1071
-					is_in_area = weye_area
-					is_in_area = vindasel_area
-					is_in_area = sardavarleed_area
-					is_in_area = magia_area
-					is_in_area = vilverin_area
-					is_in_area = sercen_area
-					is_in_area = caractacus_area
-					is_in_area = westerncityisle_area
-					is_in_area = easterncityisle_area
+					province_id = 1102
+					province_id = 1105
+					province_id = 1127
+					province_id = 1233
+					province_id = 1240
+					province_id = 1246
 				}
 			}
 		}
@@ -48,15 +45,12 @@
 			}
 			can_form_nation_trigger = yes
 			owns = 1071
-			owns_area = weye_area
-			owns_area = vindasel_area
-			owns_area = sardavarleed_area
-			owns_area = magia_area
-			owns_area = vilverin_area
-			owns_area = sercen_area
-			owns_area = caractacus_area
-			owns_area = westerncityisle_area
-			owns_area = easterncityisle_area
+			owns_or_subject_owns = 1102
+			owns_or_subject_owns = 1105
+			owns_or_subject_owns = 1127
+			owns_or_subject_owns = 1233
+			owns_or_subject_owns = 1240
+			owns_or_subject_owns = 1246
 		}
 		
 		effect = {

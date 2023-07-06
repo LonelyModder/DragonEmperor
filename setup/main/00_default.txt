@@ -221,7 +221,9 @@ family={
 		}
 }
 diplomacy = {
-	
+	#Direnni Influence
+	dependency = { first = VAS second = VBH subject_type = feudatory }
+	dependency = { first = VAS second = VAZ subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
