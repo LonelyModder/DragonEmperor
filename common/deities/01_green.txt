@@ -14,7 +14,7 @@ deity_ius = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_ius
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { modded_beasts_offensive = 0.1 } #Bonus from Omen
 	religion = green_pantheon
