@@ -259,7 +259,7 @@ deity_phynaster = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_phynaster
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
 	religion = elven_pantheon
