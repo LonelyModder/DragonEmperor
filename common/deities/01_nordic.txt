@@ -14,7 +14,7 @@ deity_shor = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_shor
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = nordic_pantheon
