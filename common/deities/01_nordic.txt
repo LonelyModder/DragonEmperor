@@ -40,7 +40,7 @@ deity_tsun = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_tsun
 	passive_modifier = { global_freemen_output = deity_global_freemen_output_svalue }
 	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } #Bonus from Omen
 	religion = nordic_pantheon
@@ -66,7 +66,7 @@ deity_stuhn = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_stuhn
 	passive_modifier = { fabricate_claim_speed = deity_fabricate_claim_speed_svalue }
 	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
 	religion = nordic_pantheon
@@ -92,7 +92,7 @@ deity_kyne = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_kyne
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = nordic_pantheon
@@ -118,7 +118,7 @@ deity_nmara = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_mara
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = nordic_pantheon
@@ -144,7 +144,7 @@ deity_ndibella = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_dibella
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { happiness_for_same_culture_modifier = omen_happiness_for_same_culture_modifier_svalue } #Bonus from Omen
 	religion = nordic_pantheon
@@ -170,7 +170,7 @@ deity_orkey = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_orkey
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { war_exhaustion = omen_war_exhaustion } #Bonus from Omen
 	religion = nordic_pantheon
@@ -196,7 +196,7 @@ deity_ysmir = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_ysmir
 	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = nordic_pantheon
