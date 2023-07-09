@@ -89,8 +89,9 @@ levy_keptu = { #keptu militia
 levy_minotaurish = { #minotaur militia
 	default = no
 
-	lv_heavyinfantry = 0.8
+	lv_heavyinfantry = 0.7
 	lv_archers = 0.2
+	lv_mages = 0.1
 }
 
 #Orcish
@@ -99,16 +100,18 @@ levy_orcish = { #orcish militia
 	default = no
 
 	lv_lightinfantry = 0.3
-	lv_heavyinfantry = 0.5
+	lv_heavyinfantry = 0.4
 	lv_crossbowmen = 0.2
+	lv_mages = 0.1
 }
 
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_heavyinfantry = 0.2
+	lv_heavyinfantry = 0.1
 	lv_lightinfantry = 0.3
 	lv_archers = 0.5
+	lv_mages = 0.1
 }
 
 #Imga
