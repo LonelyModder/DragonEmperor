@@ -558,6 +558,8 @@ circle_of_mages = { #Added
 cabal_of_witches = { #Added
 	category = 0
 	allow_unit_type = lv_dremora
+	allow_unit_type = lv_atronach
+	allow_unit_type = lv_clanfear
 	gold = 0.4
 
 	province = {
@@ -573,6 +575,8 @@ cabal_of_witches = { #Added
 necromancers = { #Added
 	category = 0
 	allow_unit_type = lv_undead
+	allow_unit_type = lv_bonelord
+	allow_unit_type = lv_bonewalker
 	gold = 0.4
 
 	province = {

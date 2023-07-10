@@ -349,4 +349,58 @@ texticon = {
         offset = { 0 6 }
         fontsize = 16
     }
-}	 
+}
+texticon = {
+    icon = lv_warriors
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_warriors.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}	
+texticon = {
+    icon = lv_raiders
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_raiders.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+} 
+texticon = {
+    icon = lv_atronach
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_atronach.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+} 
+texticon = {
+    icon = lv_clanfear
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_clanfear.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+} 
+texticon = {
+    icon = lv_bonelord
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_bonelord.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+} 
+texticon = {
+    icon = lv_bonewalker
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/lv_bonewalker.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+} 

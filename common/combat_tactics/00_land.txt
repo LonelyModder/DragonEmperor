@@ -24,9 +24,15 @@ shock_action = {
 		lv_cavalry = 0		
 		lv_guarcavalry = 2		
 		lv_horsearchers = 2		
-		lv_dremoras = 0	
+		lv_dremoras = 2	
 		lv_undead = 0	
-		lv_gryphons = 2	
+		lv_gryphons = 1.5
+		lv_warriors = 2
+		lv_raiders = 2
+		lv_atronach = 0
+		lv_clanfear = 2
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -52,8 +58,13 @@ envelopment = {
 		lv_horsearchers = 2		
 		lv_dremoras = 0	
 		lv_undead = 0	
-		lv_gryphons = 2	
-		lv_elephants = 0
+		lv_gryphons = 2
+		lv_warriors = 0
+		lv_raiders = 0
+		lv_atronach = 2
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -82,6 +93,12 @@ skirmishing = {
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 2	
+		lv_warriors = 1.5
+		lv_raiders = 1.5
+		lv_atronach = 2
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -108,6 +125,12 @@ deception = {
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 2	
+		lv_warriors = 1.5
+		lv_raiders = 1.5
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -134,6 +157,12 @@ bottleneck = {
 		lv_dremoras = 2	
 		lv_undead = 0	
 		lv_gryphons = 0	
+		lv_warriors = 0
+		lv_raiders = 0
+		lv_atronach = 2
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -164,6 +193,12 @@ greek_phalanx = { #Good vs Shock - Bad vs Envelopment
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 0	
+		lv_warriors = 1.5
+		lv_raiders = 0
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -191,6 +226,12 @@ triplex_acies = { #Good vs Envelopment - Bad vs Skirmishing
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 0	
+		lv_warriors = 0
+		lv_raiders = 0
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -220,6 +261,12 @@ cavalry_skirmish = {
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 0	
+		lv_warriors = 0
+		lv_raiders = 0
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -249,6 +296,12 @@ padma_vyuha = {
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 0	
+		lv_warriors = 0
+		lv_raiders = 0
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }
 
@@ -279,5 +332,11 @@ hit_and_run_tactics = {
 		lv_dremoras = 0	
 		lv_undead = 0	
 		lv_gryphons = 2
+		lv_warriors = 1.5
+		lv_raiders = 1.5
+		lv_atronach = 0
+		lv_clanfear = 0
+		lv_bonelord = 0
+		lv_bonewalker = 0
 	}
 }

@@ -1,4 +1,4 @@
-﻿lv_lightinfantry = {
+﻿lv_warriors = {
 		
 	army = yes
 	assault = yes
@@ -10,22 +10,22 @@
 	movement_speed = 2.5
 	build_time = 30
 
-	lv_lightinfantry = 1
+	lv_lightinfantry = 0.9
 	lv_heavyinfantry = 0.7	
 	lv_archers =  0.7		
 	lv_crossbowmen = 0.9	
-	lv_camels = 0.9
+	lv_camels = 0.7
 	lv_mages = 	0.7	
 	lv_cavalry = 0.7		
 	lv_guarcavalry = 0.7
 	lv_horsearchers = 0.5	
 	lv_dremoras = 0.5	
-	lv_undead = 0.7	
+	lv_undead = 1.1	
 	lv_gryphons = 0.5
-	lv_warriors = 1.1
-	lv_raiders = 0.9
+	lv_warriors = 1
+	lv_raiders = 0.7
 	lv_atronach = 0.7
-	lv_clanfear = 0.7
+	lv_clanfear = 0.5
 	lv_bonelord = 0.7
 	lv_bonewalker = 0.7
 	supply_train = 2.0
@@ -38,7 +38,7 @@
 	morale_damage_taken = 0.9
 	
 	build_cost = {
-		gold = 8
+		gold = 4
 		manpower = 1
 	}
 }
