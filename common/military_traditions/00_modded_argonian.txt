@@ -1,6 +1,6 @@
 ﻿argonian_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
-	image = greek_states_path_7
+	image = argonian_philosophy
 	
 	allow = {
 		trigger_if = {
@@ -40,7 +40,7 @@
 		modifier = { 
 			marsh_combat_bonus = 0.2
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {}
 	}
 	
@@ -48,7 +48,7 @@
 		modifier = { 
 			lv_lightinfantry_defensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_1}
 	}
 	
@@ -57,7 +57,7 @@
 			lv_archers_discipline = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_2}
 	}
 	
@@ -65,7 +65,7 @@
 		modifier = { 
 			lv_guarcavalry_cost = -0.15
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3}
 	}
 	
@@ -73,7 +73,7 @@
 		modifier = { 
 			lv_lightinfantry_cost = -0.15
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3a}
 	}
 	
@@ -81,7 +81,7 @@
 		modifier = { 
 			jungle_combat_bonus = 0.2
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3}
 	}
 	
@@ -89,7 +89,7 @@
 		modifier = { 
 			land_unit_attrition = -0.15
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3b}
 	}
 	
@@ -98,7 +98,7 @@
 			navy_maintenance_cost = -0.10
 			naval_damage_taken = -0.1
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3}
 		on_activate = {
 			ordered_owned_province = {
@@ -115,7 +115,7 @@
 		modifier = { 
 			naval_morale = 0.1
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_3c}
 	}
 	
@@ -124,7 +124,7 @@
 			naval_damage_done = 0.15
 			global_ship_recruit_speed = 0.15
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_4c}
 	}
 	
@@ -133,7 +133,7 @@
 			marsh_combat_bonus = 0.2
 			coastal_terrain_combat_bonus = 0.2
 		}
-		icon = greek_states_path_7
+		icon = argon_mini_trad
 		requires = {argonian_path_4a argonian_path_4b argonian_path_5c}
 	}
 	

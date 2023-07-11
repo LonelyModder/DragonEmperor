@@ -1,6 +1,6 @@
-﻿altmer_philosophy = { 
+﻿aldmer_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
-	image = greek_states_path_7
+	image = aldmer_philosophy
 	
 	allow = {
 		trigger_if = {
@@ -15,22 +15,38 @@
 				any_country_culture = {
 					is_integrated = yes
 					this.culture.culture_group = culture_group:altmer
+					OR = {
+						this.culture.culture_group = culture_group:altmer
+						this.culture.culture_group = culture_group:bosmer
+						this.culture.culture_group = culture_group:breton
+						this.culture.culture_group = culture_group:imga
+					}
 				}
 			}
 			any_country_culture = {
 				custom_tooltip = {
 					text = tradition_unlock_requirement_short
 					is_integrated = yes
-					this.culture.culture_group = culture_group:altmer
+					OR = {
+						this.culture.culture_group = culture_group:altmer
+						this.culture.culture_group = culture_group:bosmer
+						this.culture.culture_group = culture_group:breton
+						this.culture.culture_group = culture_group:imga
+					}
 				}
 			}
 		}
 		trigger_else = {
 			custom_tooltip = {
-				text = "tradition_unlock_requirement_altmer"
+				text = "tradition_unlock_requirement_aldmer"
 				any_country_culture = {
 					is_integrated = yes
-					this.culture.culture_group = culture_group:altmer	
+					OR = {
+						this.culture.culture_group = culture_group:altmer
+						this.culture.culture_group = culture_group:bosmer
+						this.culture.culture_group = culture_group:breton
+						this.culture.culture_group = culture_group:imga
+					}	
 				}
 			}
 		}
@@ -40,7 +56,7 @@
 		modifier = { 
 			lv_lightinfantry_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {}
 	}
 	
@@ -49,16 +65,15 @@
 			lv_lightinfantry_defensive = 0.1
 		}
 		enable_tactic = greek_phalanx
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_1}
 	}
 	
 	altmer_path_3 = { ###altmer path
 		modifier = { 
 			lv_lightinfantry_discipline = 0.2
-			lv_scirmishers_offensive = 0.2
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_2}
 	}
 	
@@ -66,7 +81,7 @@
 		modifier = { 
 			lv_archers_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_3}
 	}
 	
@@ -74,7 +89,7 @@
 		modifier = { 
 			lv_mages_defensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_3a}
 	}
 	
@@ -83,7 +98,7 @@
 			lv_mages_offensive = 0.1
 			assault_ability = 0.5
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_4a}
 	}
 	
@@ -91,7 +106,7 @@
 		modifier = { 
 			lv_gryphons_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_5a}
 	}
 	
@@ -99,7 +114,7 @@
 		modifier = { 
 			naval_morale_recovery = 0.25
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_3}
 		on_activate = {
 			ordered_owned_province = {
@@ -121,7 +136,7 @@
 			coastal_terrain_combat_bonus = 0.2
 		}
 		allow_unit_type = octere
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_3b}
 		on_activate = {
 			random_owned_province = {
@@ -146,7 +161,7 @@
 			global_ship_recruit_speed = 0.15
 		}
 		allow_unit_type = mega_galley
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_4b}
 		on_activate = {
 			random_owned_province = {
@@ -169,7 +184,7 @@
 			lv_mages_offensive = 0.1
 			naval_damage_done = 0.15
 		}
-		icon = greek_states_path_7
+		icon = mer_mini_trad
 		requires = {altmer_path_6a altmer_path_5b}
 	}
 	

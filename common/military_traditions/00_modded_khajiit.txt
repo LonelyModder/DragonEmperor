@@ -1,6 +1,6 @@
 ﻿khajiit_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
-	image = greek_states_path_7
+	image = khajiit_philosophy
 	
 	allow = {
 		trigger_if = {
@@ -40,7 +40,7 @@
 		modifier = { 
 			lv_lightinfantry_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {}
 	}
 	
@@ -49,7 +49,7 @@
 			global_cohort_start_experience = 5
 			experience_decay = -0.005
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_1}
 	}
 	
@@ -58,7 +58,7 @@
 			lv_archers_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_2}
 	}
 	
@@ -66,7 +66,7 @@
 		modifier = { 
 			lv_camels_discipline = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_2a}
 	}
 	
@@ -75,7 +75,7 @@
 			lv_cavalry_discipline = 0.1
 			lv_cavalry_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_3a}
 	}
 	
@@ -83,7 +83,7 @@
 		modifier = { 
 			lv_mages_offensive = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_4a}
 	}
 	
@@ -91,7 +91,7 @@
 		modifier = { 
 			army_movement_speed = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_2}
 	}
 	
@@ -99,7 +99,7 @@
 		modifier = { 
 			desert_combat_bonus = 0.2
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_2b}
 	}
 	
@@ -107,7 +107,7 @@
 		modifier = { 
 			jungle_combat_bonus = 0.2
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_3b}
 	}
 	
@@ -115,7 +115,7 @@
 		modifier = { 
 			siege_ability = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_4b}
 	}
 	
@@ -124,7 +124,7 @@
 			land_morale_modifier = 0.1
 			army_movement_speed = 0.1
 		}
-		icon = greek_states_path_7
+		icon = cat_mini_trad
 		requires = {khajiit_path_5a khajiit_path_5b}
 	}
 }
