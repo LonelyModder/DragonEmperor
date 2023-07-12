@@ -38,7 +38,7 @@
 	
 	khajiit_path_1 = { ###khajiit path
 		modifier = { 
-			lv_lightinfantry_offensive = 0.1
+			lv_warriors_offensive = 0.1
 		}
 		icon = cat_mini_trad
 		requires = {}
@@ -46,85 +46,11 @@
 	
 	khajiit_path_2 = { ###khajiit path
 		modifier = { 
-			global_cohort_start_experience = 5
-			experience_decay = -0.005
+			lv_cavalry_offensive = 0.1
+			lv_discipline_offensive = 0.1
 		}
 		icon = cat_mini_trad
 		requires = {khajiit_path_1}
 	}
 	
-	khajiit_path_2a = { ###khajiit path
-		modifier = { 
-			lv_archers_offensive = 0.1
-		}
-		enable_tactic = hit_and_run_tactics
-		icon = cat_mini_trad
-		requires = {khajiit_path_2}
-	}
-	
-	khajiit_path_3a = { ###khajiit path
-		modifier = { 
-			lv_camels_discipline = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_2a}
-	}
-	
-	khajiit_path_4a = { ###khajiit path
-		modifier = { 
-			lv_cavalry_discipline = 0.1
-			lv_cavalry_offensive = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_3a}
-	}
-	
-	khajiit_path_5a = { ###khajiit path
-		modifier = { 
-			lv_mages_offensive = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_4a}
-	}
-	
-	khajiit_path_2b = { ###khajiit path
-		modifier = { 
-			army_movement_speed = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_2}
-	}
-	
-	khajiit_path_3b = { ###khajiit path
-		modifier = { 
-			desert_combat_bonus = 0.2
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_2b}
-	}
-	
-	khajiit_path_4b = { ###khajiit path
-		modifier = { 
-			jungle_combat_bonus = 0.2
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_3b}
-	}
-	
-	khajiit_path_5b = { ###khajiit path
-		modifier = { 
-			siege_ability = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_4b}
-	}
-	
-	khajiit_path_end_bonus = { ###khajiit path
-		modifier = { 
-			land_morale_modifier = 0.1
-			army_movement_speed = 0.1
-		}
-		icon = cat_mini_trad
-		requires = {khajiit_path_5a khajiit_path_5b}
-	}
 }

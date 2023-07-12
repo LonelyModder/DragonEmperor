@@ -51,7 +51,7 @@
 	
 	nede_path_1 = { ###nede path
 		modifier = { 
-			lv_lightinfantry_offensive = 0.1
+			lv_warriors_offensive = 0.1
 		}
 		icon = nede_mini_trad
 		requires = {}
@@ -60,113 +60,10 @@
 	nede_path_2 = { ###nede path
 		modifier = { 
 			lv_heavyinfantry_offensive = 0.1
-			lv_archers_offensive = 0.1
 		}
 		enable_tactic = greek_phalanx
 		icon = nede_mini_trad
 		requires = {nede_path_1}
 	}
 	
-	nede_path_3a = { ###nede path
-		modifier = { 
-			discipline = 0.05
-			lv_heavyinfantry_offensive = 0.1
-			lv_archers_offensive = 0.1
-		}
-		enable_tactic = triplex_acies
-		icon = nede_mini_trad
-		requires = {nede_path_2}
-	}
-	
-	nede_path_4a = { ###nede path
-		modifier = { 
-			lv_cavalry_offensive = 0.1
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_3a}
-	}
-	
-	nede_path_5a = { ###nede path
-		modifier = { 
-			levy_size_multiplier = 0.025
-			lv_heavyinfantry_morale = 0.1
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_4a}
-	}
-	
-	nede_path_3b = { ###nede path
-		modifier = { 
-			cohort_cost = -0.1
-			supply_train_cost = -0.15
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_2}
-		on_activate = {
-			add_4_free_province_investments = yes
-		}
-	}
-	
-	nede_path_4b = { ###nede path
-		modifier = { 
-			engineer_cohort_cost = -0.15
-			army_maintenance_cost = -0.1
-		}
-		enable_ability = border_forts
-		icon = nede_mini_trad
-		requires = {nede_path_3b}
-	}
-	
-	nede_path_5b = { ###nede path
-		modifier = { 
-			siege_engineers = 1
-			siege_ability = 0.1
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_4b}
-		on_activate = {
-			capital_scope = {
-				add_building_level = fortress_building
-			}
-		}
-	}
-	
-	nede_path_6b = { ###nede path
-		modifier = { 
-			fort_limit = 1
-			global_defensive = 0.1
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_5b}
-		on_activate = {
-			add_innovation = 3
-		}
-	}
-	
-	nede_path_3c = { ###nede path
-		modifier = { 
-			navy_maintenance_cost = -0.10
-			naval_damage_taken = -0.1
-		}
-		icon = nede_mini_trad
-		requires = {nede_path_2}
-		on_activate = {
-			ordered_owned_province = {
-				limit = {
-					is_coastal = yes
-					can_build_building = port_building
-				}
-				add_building_level = port_building
-			}
-		}
-	}
-	
-	nede_path_end_bonus = { ###Latin 4B
-		modifier = { 
-			land_morale_modifier = 0.2
-			cohort_cost = -0.1
-		}
-		requires = { nede_path_5a nede_path_6b nede_path_3c }
-		icon = latin_roman_path_end_bonus
-	}
 }
