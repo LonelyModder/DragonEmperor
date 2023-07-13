@@ -51,9 +51,25 @@
 			lv_warriors_offensive = 0.1
 			lv_warriors_discipline = 0.1
 		}
-		enable_tactic = greek_phalanx
 		icon = orc_mini_trad
 		requires = {}
+	}
+	
+	orcish_path_2 = { ###orcish path
+		modifier = {
+			monthly_legitimacy = 0.01
+		}
+		on_activate = {
+			custom_tooltip = "create_high_martial_rising_star"
+			hidden_effect = {
+				create_character = {
+					add_martial = 8
+					add_trait = victorious
+				}
+			}
+		}
+		icon = orc_mini_trad
+		requires = {orcish_path_1}
 	}
 	
 	orcish_path_2a = { ###orcish path
@@ -61,8 +77,9 @@
 			lv_heavyinfantry_offensive = 0.1
 			lv_heavyinfantry_discipline = 0.1
 		}
+		enable_tactic = greek_phalanx
 		icon = orc_mini_trad
-		requires = {orcish_path_1}
+		requires = {orcish_path_2}
 	}
 	
 	orcish_path_3a = { ###orcish path
@@ -109,15 +126,15 @@
 		modifier = { 
 			lv_archers_offensive = 0.1
 		}
-		enable_tactic = hit_and_run_tactics
 		icon = orc_mini_trad
-		requires = {orcish_path_1}
+		requires = {orcish_path_2}
 	}
 	
 	orcish_path_3b = { ###orcish path
 		modifier = { 
 			lv_raiders_offensive = 0.1
 		}
+		enable_tactic = hit_and_run_tactics
 		icon = orc_mini_trad
 		requires = {orcish_path_1}
 	}

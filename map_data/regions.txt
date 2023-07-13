@@ -65,7 +65,6 @@ modded_auridon_region = {
 		greenwatercove_area
 		northbeacon_area
 		firsthold_area
-		errinorneisle_area #isle
 		skywatch_area
 	}
 }
@@ -102,7 +101,6 @@ modded_shimmerene_region = {
 		eldbur_area
 		kingshaven_area
 		gardenofsacrednumbers_area
-		
 	}
 }
 
@@ -114,7 +112,6 @@ modded_etonnir_region = {
 		corgrad_area
 		lillandril_area
 		seakeep_area
-		sapiarchisle_area #isle
 		eyevea_area #isle
 	}
 }
@@ -139,9 +136,7 @@ modded_alikr_region = {
 		hegathe_area
 		capeshira_area
 		sunkeepmountains_area
-		chain_area #isle
 		herne_area #isle
-		caspar_area #isle
 		strosmkai_area #isle
 	}
 }

@@ -651,19 +651,15 @@ stirk_area = {
 }
 
 strosmkai_area = { 
-    provinces = { 778 779 780 781 782 783 784 785 }
+    provinces = { 778 779 780 781 782 783 784 785 669 670 }
 }
 
 herne_area = { 
-    provinces = { 767 768 769 770 771 772 773 }
-}
-
-caspar_area = { 
-    provinces = { 774 775 776 777 }
+    provinces = { 767 768 769 770 771 772 773 774 775 776 777 }
 }
 
 shatteredgrove_area = { 
-    provinces = { 718 719 721 725 717 732 733 734 735 756 742 737 }
+    provinces = { 718 719 721 725 717 732 733 734 756 742 737 731 }
 }
 
 tanzelwil_area = { 
@@ -671,19 +667,15 @@ tanzelwil_area = {
 }
 
 phaer_area = { 
-    provinces = { 745 736 729 730 755 759 754 753 750 751 749 }
+    provinces = { 745 736 729 730 755 759 754 753 750 751 749 735 }
 }
 
 skywatch_area = { 
-    provinces = { 722 723 724 726 715 716 713 714 712 731 720 }
+    provinces = { 722 723 724 726 715 716 713 714 712 720 727 728 }
 }
 
 firsthold_area = { 
     provinces = { 677 678 679 680 681 682 683 685 686 699 700 701 }
-}
-
-errinorneisle_area = { 
-    provinces = { 727 728 }
 }
 
 greenwatercove_area = { 
@@ -698,16 +690,8 @@ talanda_area = {
     provinces = { 761 762 763 764 765 766 }
 }
 
-chain_area = { 
-    provinces = { 669 670 }
-}
-
-sapiarchisle_area = { 
-    provinces = { 661 662 663 }
-}
-
 westerncoraldale_area = { 
-    provinces = { 664 665 666 667 668 }
+    provinces = { 664 665 666 667 668 661 662 663 }
 }
 
 lillandril_area = { 

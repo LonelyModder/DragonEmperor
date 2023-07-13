@@ -53,4 +53,12 @@
 		requires = {khajiit_path_1}
 	}
 	
+	khajiit_path_3 = { ###khajiit path
+		modifier = { 
+			lv_archers_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = cat_mini_trad
+		requires = {khajiit_path_2}
+	}
 }
