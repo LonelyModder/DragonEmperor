@@ -352,6 +352,7 @@ wild_game = { #190 territories
 	}
 	country = {
 		lv_archers_discipline = 0.05
+		lv_warriors_discipline = 0.05
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
@@ -381,7 +382,7 @@ beasts = { #Added
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_lightinfantry_discipline = 0.05
+		lv_warriors_discipline = 0.05
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
@@ -396,7 +397,7 @@ durzogs = { #Added
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_lightinfantry_discipline = 0.05
+		lv_raiders_discipline = 0.05
 	}
 
 	color = rgb { 56 32 15 }
@@ -567,6 +568,8 @@ cabal_of_witches = { #Added
 	}
 	country = {
 		lv_dremora_discipline = 0.05
+		lv_atronach_discipline = 0.05
+		lv_clanfear_discipline = 0.05
 	}
 	
 	color = { 0.0 0.0 0.0 }
@@ -584,6 +587,8 @@ necromancers = { #Added
 	}
 	country = {
 		lv_undead_discipline = 0.05
+		lv_bonelord_discipline = 0.05
+		lv_bonewalker_discipline = 0.05
 	}
 	
 	color = { 0.0 0.04 0.4 }
@@ -644,8 +649,8 @@ nirncrux = { #338 territories
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_lightinfantry_offensive = 0.05
-		lv_heavyinfantry_offensive = 0.05
+		lv_warriors_offensive = 0.05
+		lv_raiders_offensive = 0.05
 	}
 	
 	color = rgb { 181 64 38 }

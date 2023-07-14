@@ -39,12 +39,38 @@
  ######
  #####Nede
  ######
- nede_philosophy:1 "Nede Traditions"
- nede_philosophydesc:3 ""
+ nede_philosophy:1 "Imperial Traditions"
+ nede_philosophydesc:3 "Nedes inhabit nearly every province of Tamriel. For most of their history they have been subjects to elven empires and klearned much from them adapting their tactics to one day take over as dominant race on Tamriel."
  tradition_unlock_requirement_nede:0 "You don't have enough of Nedes to unlock the tradition or they are not integrated culture. "
  #Traditions
- nede_path_1:0 "Tribal Wariors"
- nede_path_1_desc:0 ""
+ nede_path_1:0 "Humble Beginings"
+ nede_path_1_desc:0 "Axe wilding warriors were the basis of nedic military in it's early days. Even later spliting oponents skull open in a duel was the most popular way of solving disputes especially in less civilised areas like colovia."
+ nede_path_2:0 "Nedic Hoplites"
+ nede_path_2_desc:0 "Adapting to the elven tactics the nedes worked on their weponry and formed a phalanx formation of heavily armoured hoplites. They might not have been as mobile as elven units but cerainly could withstand the constant barrage of arrows and fireballs."
+ nede_path_2a:0 "Elven Traitors"
+ nede_path_2a_desc:0 "During the Nedic revolts from which Alessian Revolt is best known some elven rulers sympathized with the rebels and in cooperation with them a new formation was created utilizing the durability of a phalanx with addition of greater mobility. Phalanx was devided on smaller units that could operate in difficult terrain."
+ nede_path_3a:0 "Auxiliary Units"
+ nede_path_3a_desc:0 "Thou infantry was the core of new tactics it could not operate alone. New approach demanded use of archers to tire enemy forces and cavalry to prevent their escape. The archers atacked first and scouted the field while cavalry was surrounding the enemy."
+ nede_path_4a:0 "Officers' Staff"
+ nede_path_4a_desc:0 "As the empire grew in size it became clear that to keep the peace army will be necessary and army needs well trained officers that can lead it. That's why the imperial chain of command was created from legionary to legate."
+ nede_path_5a:0 "Officers' Staff"
+ nede_path_5a_desc:0 "Even the heavily forested area of imperial province is hard not saying anything of other provinces. When campaining the legion is supported by engineer core that makes sure the legionaries don't have to care about suplies and can focus on enemy ahead."
+ nede_path_6a:0 "Imperial Forts"
+ nede_path_6a_desc:0 "Legion builds defences every time when needs to stop. Sometimes these defences become more permanent when the army stays in one place for longer period of time. They are visible proof of imperial presence and help maintain stability in a region."
+ nede_path_7a:0 "Roads to the Capital"
+ nede_path_7a_desc:0 "As saying goes all roads lead to the Imperial City. Really thou most of the roads in less civilised ares were built by army to provide fast way of retreat in case of troubles or to allow supplies to reach the legion far from capital. "
+ nede_path_2b:0 "Ket-Keptu"
+ nede_path_2b_desc:0 "The tribes from what is today Hamerfell were sometimes collectively called Keptu and were on higher level of civilisation that their cusins in Cyrodiil. They usually served as camp doctors, engineers or in other roles requiring more knowledge."
+ nede_path_3b:0 "Deserts of the West"
+ nede_path_3b_desc:0 "Many Nedes left the war thorn regions and moved into the deserts of the Deathlands. This unhospitable region was perfect place for all kind of refugees looking to start a new life. At some point the Nedic tribes started using camels for their wool, milk and durability."
+ nede_path_4b:0 "Kingdoms of Reach"
+ nede_path_4b_desc:0 "Reachmen might not look like Nedes but both groups are related. That's why empire always tried to control the region. Additionally Reach is a Strategic region laying between 3 provinces so any army that want to avoid a marchthrou Deathlands must go throu Reach."
+ nede_path_2c:0 "Waterfront"
+ nede_path_2c_desc:0 "The large docks of the Waterfront served as a home of Ayleid fleed patroling the Niben. Imperials learned to use the vassels left by elves to protect the fastest way of transport in the region. Additionally they created many new ports as resuply depots."
+ nede_path_3c:0 "Imperial Navy"
+ nede_path_3c_desc:0 "Not as large as elven one her purpose was mostly to carry troops from place to place and keep waters safe from pirates. On that second field the new fleet had biggest successes capturing many famous banes of the seas. Imperial patrol boats even penetrated rivers of Argonia on ocasion, something noone before even thought about."
+ nede_states_path_end_bonus:0 "Red Legions"
+ nede_states_path_end_bonus_desc:0 "Imperial Legion became the symbol of piece and stability for imperial citizens and nightmares for emperors enemies. The organisation of empires soldiers allowed them to face any oponent anytime and in even harshest conditions."
  ######
  #####Orcish
  ######
