@@ -138,7 +138,7 @@
 	adaptation_path_1c = { ###altmer path
 		modifier = { 
 			levy_size_multiplier = 0.025
-			lv_warriors_discipline
+			lv_warriors_discipline = 0.1
 		}
 		icon = mer_mini_trad
 		requires = {altmer_path_1}
