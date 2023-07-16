@@ -10,27 +10,54 @@
 			}
 			country_culture_group = nordic
 		}
-		trigger_if = {
+		trigger_else_if = {
 			limit = {
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:nordic
+				AND = {
+					OR = {
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+					}
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:nordic
+					}
 				}
 			}
 			any_country_culture = {
-				custom_tooltip = {
-					text = tradition_unlock_requirement_short
-					is_integrated = yes
-					this.culture.culture_group = culture_group:nordic
+				AND = {
+					OR = {
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+					}
+					custom_tooltip = {
+						text = tradition_unlock_requirement_short
+						is_integrated = yes
+						this.culture.culture_group = culture_group:nordic
+					}
 				}
 			}
 		}
 		trigger_else = {
-			custom_tooltip = {
-				text = "tradition_unlock_requirement_nordic"
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:nordic	
+			AND = {
+				OR = {
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+				}
+				custom_tooltip = {
+					text = "tradition_unlock_requirement_nordic"
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:nordic	
+					}
 				}
 			}
 		}
@@ -161,8 +188,8 @@
 	
 	nordic_states_path_end_bonus = { ###nordic path
 		modifier = { 
-			navy_movement_speed = 0.25
-			navy_maintenance_cost = -0.2
+			lv_heavyinfantry_offensive = 0.1
+			land_morale_modifier = 0.1
 		}
 		icon = nord_mini_trad
 		requires = {nordic_path_5a nordic_path_3b nordic_path_3c}

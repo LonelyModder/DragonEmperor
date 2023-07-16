@@ -4,46 +4,83 @@
 	
 	allow = {
 		trigger_if = {
-			limit = { country_culture_group = nede }
+			limit = { 
+				OR = {
+					country_culture_group = nede
+					country_culture_group = breton
+					country_culture_group = minotauric
+				}				
+			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = nede
+			OR = {
+				country_culture_group = nede
+				country_culture_group = breton
+				country_culture_group = minotauric
+			}
 		}
-		trigger_if = {
+		trigger_else_if = {
 			limit = {
-				any_country_culture = {
-					is_integrated = yes
-					this.culture.culture_group = culture_group:nede
+				AND = {
 					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+					}
+					any_country_culture = {
+						is_integrated = yes
 						this.culture.culture_group = culture_group:nede
-						this.culture.culture_group = culture_group:breton
-						this.culture.culture_group = culture_group:minotauric
+						OR = {
+							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:breton
+							this.culture.culture_group = culture_group:minotauric							
+						}
 					}
 				}
 			}
 			any_country_culture = {
-				custom_tooltip = {
-					text = tradition_unlock_requirement_short
-					is_integrated = yes
+				AND = {
 					OR = {
-						this.culture.culture_group = culture_group:nede
-						this.culture.culture_group = culture_group:breton
-						this.culture.culture_group = culture_group:minotauric
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
 					}
+					custom_tooltip = {
+						text = tradition_unlock_requirement_short
+						is_integrated = yes
+						OR = {
+							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:breton
+							this.culture.culture_group = culture_group:minotauric
+						}
+					}							
 				}
 			}
 		}
 		trigger_else = {
-			custom_tooltip = {
-				text = "tradition_unlock_requirement_nede"
-				any_country_culture = {
-					is_integrated = yes
-					OR = {
-						this.culture.culture_group = culture_group:nede
-						this.culture.culture_group = culture_group:breton
-						this.culture.culture_group = culture_group:minotauric
-					}	
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+				}
+				custom_tooltip = {
+					text = "tradition_unlock_requirement_nede"
+					any_country_culture = {
+						is_integrated = yes
+						OR = {
+							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:breton
+							this.culture.culture_group = culture_group:minotauric
+						}	
+					}
 				}
 			}
 		}
