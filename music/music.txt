@@ -1,46 +1,46 @@
 ﻿track1 = {
-	music = "event:/MUSIC/BaseGame/MainMenu/mx_maintheme_02"
+	music = "file:/music/MT1.wav"
 	weight = 25
 	can_be_interrupted = yes
 }
 
 track2 = {
-	music = "event:/MUSIC/BaseGame/MainMenu/mx_maintheme_03"
+	music = "file:/music/MT2.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track3 = {
-	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_01"
+	music = "file:/music/idle1.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track4 = {
-	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_02"
+	music = "file:/music/idle2.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track5 = {
-	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_03"
+	music = "file:/music/idle3.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track6 = {
-	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_04"
+	music = "file:/music/idle4.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track7 = {
-	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_05"
+	music = "file:/music/idle5.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
