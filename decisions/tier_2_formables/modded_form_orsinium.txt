@@ -46,6 +46,7 @@
 					switch_government_type_event_clearup_effect = yes
 				}
 			}
+			add_stability = 25
 			capital_scope = {
 				if = {
 					limit = { has_city_status = no }

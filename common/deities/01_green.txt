@@ -9,6 +9,12 @@ deity_ius = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = khajiiti_pantheon
+			}
 			deity:omen_ius = {
 				holy_site_deity_check_trigger = yes
 			}

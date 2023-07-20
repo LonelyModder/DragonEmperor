@@ -111,12 +111,7 @@
 					}
 				}
 			}
-			#p:1071 = {
-			#	if = {
-			#		limit = { has_city_status = no }
-			#		set_city_status = city
-			#	}
-			#}
+			add_stability = 25
 			p:1071 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes

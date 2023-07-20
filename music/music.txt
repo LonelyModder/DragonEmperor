@@ -47,57 +47,57 @@ track7 = {
 }
 
 track8 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_01"
+	music = "file:/music/battle1.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track9 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_02"
+	music = "file:/music/battle2.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track10 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_03"
+	music = "file:/music/battle3.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track11 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_04"
+	music = "file:/music/battle4.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track12 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_05"
+	music = "file:/music/battle5.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track13 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_06"
+	music = "file:/music/battle6.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
 track14 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_07"
+	music = "file:/music/battle7.wav"
 	weight = 25
 	mood = yes
 	can_be_interrupted = yes
 }
 
-track15 = {
-	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_08"
-	weight = 25
-	mood = yes
-	can_be_interrupted = yes
-}
+#track15 = {
+#	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_08"
+#	weight = 25
+#	mood = yes
+#	can_be_interrupted = yes
+#}
