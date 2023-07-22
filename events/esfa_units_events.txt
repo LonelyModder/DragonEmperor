@@ -129,10 +129,6 @@ units_allowance_events.1 = {
 						}
 					}
 					religion = deadric_pantheon
-					any_country_culture = {
-						is_integrated = yes
-						this.culture.culture_group = culture_group:ayleid
-					}
 				}
 			}
 			allow_lv_dremoras = yes
