@@ -13,6 +13,18 @@ modded_tmp_region = {
 	}
 }
 
+modded_glenumbra_region = {
+	areas = {
+		balfiera_area #isle
+		betnikh_area
+		daggerfall_area
+		knightstown_area
+		glenpointfoothills_area
+		aldcroft_area
+		hagfen_area
+	}
+}
+
 modded_southpoint_region = {
 	areas = {
 		selenesweb_area
@@ -138,18 +150,6 @@ modded_alikr_region = {
 		sunkeepmountains_area
 		herne_area #isle
 		strosmkai_area #isle
-	}
-}
-
-modded_daggerfall_region = {
-	areas = {
-		betnikh_area
-	}
-}
-
-modded_glenumbra_region = {
-	areas = {
-		balfiera_area 
 	}
 }
 
