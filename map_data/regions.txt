@@ -15,13 +15,22 @@ modded_tmp_region = {
 
 modded_glenumbra_region = {
 	areas = {
-		balfiera_area #isle
 		betnikh_area
 		daggerfall_area
 		knightstown_area
 		glenpointfoothills_area
-		aldcroft_area
+		cambrayhills_area
+	}
+}
+
+modded_lowerglenumbra_region = {
+	areas = {
+		balfiera_area #isle
 		hagfen_area
+		westtry_area
+		aldcroft_area
+		cathbedraud_area
+		crosswych_area
 	}
 }
 

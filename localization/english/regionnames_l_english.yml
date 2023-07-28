@@ -1,6 +1,7 @@
 ﻿l_english:
  #Regions
  modded_tmp_region:0 "temporary"
+ modded_lowerglenumbra_region:0 "Upper Glenumbra"
  modded_uppercraglorn_region:0 "Upper Craglorn"
  modded_lowercraglorn_region:0 "Lower Craglorn"
  modded_weepingdesert_region:0 "Weeping Desert"
@@ -29,9 +30,13 @@
  modded_chaydinhal_region:0 "Chaydinhal"
  modded_valus_region:0 "Western Valus Mountains"
  modded_nibenbasin_region:0 "Niben Basin"
- modded_glenumbra_region:0 "Glenumbra"
+ modded_glenumbra_region:0 "Lower Glenumbra"
  #Areas
  tmp_area:0 "temporary"
+ cathbedraud_area:0 "Cath Bedraud"
+ crosswych_area:0 "Crosswych"
+ cambrayhills_area:0 "Cambray Hills"
+ westtry_area:0 "Camlorn"
  hagfen_area:0 "Hag Fen"
  aldcroft_area:0 "Mire Falls"
  glenpointfoothills_area:0 "Glenpoint Foothills"
