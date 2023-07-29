@@ -13,6 +13,19 @@ modded_tmp_region = {
 	}
 }
 
+modded_rivenspire_region = {
+	areas = {
+		meirdarguard_area
+		crestshade_area
+		doomcrag_area
+		shornhelm_area
+		northpoint_area
+		hoarfrost_area
+		fellsrun_area
+		greyhome_area #isle
+	}
+}
+
 modded_glenumbra_region = {
 	areas = {
 		betnikh_area
