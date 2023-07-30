@@ -13,6 +13,30 @@ modded_tmp_region = {
 	}
 }
 
+modded_wrothgar_region = {
+	areas = {
+		oldorsinium_area
+		frostbreak_area
+		morkul_area
+		snowline_area
+		shatul_area
+		fharun_area
+		forgottenvale_area
+	}
+}
+
+modded_stormhaven_region = {
+	areas = {
+		alcaire_area
+		golad_area
+		stormhavenhills_area
+		soulshriven_area
+		wayrest_area
+		shinjisscarp_area
+		evermoore_area
+	}
+}
+
 modded_rivenspire_region = {
 	areas = {
 		meirdarguard_area
