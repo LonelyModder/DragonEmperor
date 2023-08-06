@@ -549,10 +549,103 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
-	1393  = { 
+	3042 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
-	1372  = { 
+	3134 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3084 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3212 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3217 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3197 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3124 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3096 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3065 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3061 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3270 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3260 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3250 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3210 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3059 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3166 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3165 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3045 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2978 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2976 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2974 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3002 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3019 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3020 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2984 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2964 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2992 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2991 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2944 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2949 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	2950 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1393 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	1372 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	2593  = { 
@@ -4425,6 +4518,24 @@ country = {
 			
 			own_control_core = 	{ 
 				2543 2539 2544 2545 2561 2562 2550
+			}
+		}
+		
+		HAA = {          
+			government = theocratic_republic
+			primary_culture = falwestern
+			religion = elven_pantheon
+			capital = 3272
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3272 3270
 			}
 		}
 	}

@@ -7,6 +7,7 @@
 			limit = { 
 				OR = {
 					country_culture_group = altmer 
+					country_culture_group = falmer
 					country_culture_group = bosmer
 					country_culture_group = breton
 					country_culture_group = imga
@@ -16,7 +17,8 @@
 				text = "began_with_tradition_group"
 			}
 			OR = {
-				country_culture_group = altmer 
+				country_culture_group = altmer
+				country_culture_group = falmer
 				country_culture_group = bosmer
 				country_culture_group = breton
 				country_culture_group = imga
@@ -37,6 +39,7 @@
 						this.culture.culture_group = culture_group:altmer
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton
 							this.culture.culture_group = culture_group:imga
@@ -58,6 +61,7 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton
 							this.culture.culture_group = culture_group:imga
@@ -81,6 +85,7 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton
 							this.culture.culture_group = culture_group:imga

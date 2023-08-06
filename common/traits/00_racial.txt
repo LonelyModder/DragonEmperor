@@ -75,14 +75,14 @@ minotaur = {
 	martial = 4
 }
 
-ayleid = {
+falmer = {
 	type = status
 	
 	fertility = -0.3
 	health = 3.0
-	finesse = 2
-	martial = 1
-	zeal = 3
+	finesse = 1
+	martial = 3
+	zeal = 2
 	
 }
 

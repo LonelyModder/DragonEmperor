@@ -12,7 +12,30 @@ altmer_heritage = {
 	
 	trigger = {
 		country_culture_group = altmer
-		NOT = { primary_culture = heartlanderelves }
+		NOT = { 
+			OR = {
+				primary_culture = heartlanderelves
+				primary_culture = besarabicelves
+				primary_culture = deathelves
+				primary_culture = northelves
+				primary_culture = colovianelves
+			} 
+		}
+	}
+}
+
+falmer_heritage = { 
+	modifier = {
+		#good
+		omen_power = 0.2
+		lv_cavlary_cost = -0.2
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		country_culture_group = falmer
 	}
 }
 

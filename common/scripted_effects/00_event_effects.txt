@@ -2537,48 +2537,6 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = ayleid
-			}
-		}
-		commander = {
-			add_gold = -20
-		}
-		random_list = {
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = circle_of_mages
-								trade_goods = circle_of_mages
-							}
-						}
-					}
-				}
-				add_loyal_subunit = lv_mages
-			}
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = lv_gryphons
-			}
-			25 = {
-				add_loyal_subunit = lv_lightinfantry
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			exists = commander
-			commander = {
 				has_culture_group = bosmer
 			}
 		}
@@ -2597,7 +2555,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = lv_warhounds
+				add_loyal_subunit = lv_lightinfantry
 			}
 			25 = {
 				add_loyal_subunit = lv_archers
@@ -2619,7 +2577,7 @@ add_relevant_loyal_subunit_effect = {
 				add_loyal_subunit = lv_heavyinfantry
 			}
 			25 = {
-				add_loyal_subunit = lv_scirmishers
+				add_loyal_subunit = lv_archers
 			}
 		}
 	}
@@ -2635,7 +2593,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = lv_lightinfantry
+				add_loyal_subunit = lv_warriors
 			}
 			25 = {
 				trigger = {
@@ -2648,7 +2606,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = lv_warhounds
+				add_loyal_subunit = lv_lightinfantry
 			}
 		}
 	}
@@ -2728,7 +2686,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = lv_minotaurs
+				add_loyal_subunit = lv_warriors
 			}
 		}
 	}
@@ -2745,6 +2703,38 @@ add_relevant_loyal_subunit_effect = {
 		random_list = {
 			25 = {
 				add_loyal_subunit = lv_heavyinfantry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = breton
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_cavalry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = falmer
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_cavalry
 			}
 		}
 	}

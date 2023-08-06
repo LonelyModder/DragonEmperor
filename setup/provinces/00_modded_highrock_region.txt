@@ -6395,20 +6395,17 @@
 
 3270={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="falwestern"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -6433,21 +6430,25 @@
 
 3272={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="falwestern"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
+	holy_site="omen_auriel"
 }
 
 3273={ 
