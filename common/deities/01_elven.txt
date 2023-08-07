@@ -66,9 +66,11 @@ deity_jephre = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
-			
 			common_deity_trigger = {
 				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = druidic_pantheon
 			}
 			
 			deity:omen_jephre = {

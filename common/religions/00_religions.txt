@@ -81,6 +81,7 @@ green_pantheon = { # Bosmer Faith
 		stability_cost_modifier = 0.2
 	}
 	religion_category = pantheon
+	can_deify_ruler = no
 }
 
 deadric_pantheon = { # Deadric Faith
@@ -121,4 +122,15 @@ imperial_pantheon = { # Eight Devines Faith
 		improve_relation_impact = -0.1
 	}
 	religion_category = pantheon
+}
+
+druidic_pantheon = { # Druidic Faith
+	color = rgb { 0 235 63 }
+	modifier = { 
+		omen_power = 0.2
+		global_monthly_state_loyalty = 0.04
+		stability_cost_modifier = 0.2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
 }

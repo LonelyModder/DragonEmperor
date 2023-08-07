@@ -30,6 +30,9 @@
 	}
 	culture = {
 		balfieric = {}
+		glenumbran = {}
+		druidic = {levy_template = levy_druidic}
+		wyrdite = {levy_template = levy_druidic}
 	}
 	
 	barbarian_names = { 

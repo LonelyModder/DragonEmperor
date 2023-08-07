@@ -886,16 +886,19 @@
 2979={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="druidic_pantheon"
+	culture="druidic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
 		amount=1
@@ -943,8 +946,8 @@
 2982={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="druidic_pantheon"
+	culture="druidic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1133,8 +1136,8 @@
 2992={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="druidic_pantheon"
+	culture="druidic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

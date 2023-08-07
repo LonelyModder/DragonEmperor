@@ -4538,6 +4538,17 @@ country = {
 				3272 3270
 			}
 		}
+		
+		HAB= {          
+			government = tribal_federation
+			primary_culture = druidic
+			religion = druidic_pantheon
+			capital = 2979
+			
+			own_control_core = 	{ 
+				2979 2992 2982
+			}
+		}
 	}
 }
 

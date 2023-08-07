@@ -172,6 +172,15 @@ levy_bretonic = { #bretonic militia
 	lv_cavalry = 0.3
 }
 
+levy_druidic = { #druid militia
+	default = no
+
+	lv_warriors = 0.4
+	lv_raiders = 0.2
+	lv_archers = 0.2
+	lv_mages = 0.2
+}
+
 #Falmer
 
 levy_falmeri = { #falmer militia
