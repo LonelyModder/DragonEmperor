@@ -39,6 +39,21 @@ falmer_heritage = {
 	}
 }
 
+dwemer_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.2
+		global_monthly_state_loyalty = 0.025
+		
+		#bad
+		omen_power = -0.2
+	}
+	
+	trigger = {
+		country_culture_group = dwemer
+	}
+}
+
 breton_heritage = { 
 	modifier = {
 		#good

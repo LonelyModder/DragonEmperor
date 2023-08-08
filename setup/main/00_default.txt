@@ -4549,6 +4549,24 @@ country = {
 				2979 2992 2982
 			}
 		}
+		
+		HAC = {          
+			government = oligarchic_republic
+			primary_culture = dworgothic
+			religion = nirnic_pantheon
+			capital = 3252
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3252
+			}
+		}
 	}
 }
 

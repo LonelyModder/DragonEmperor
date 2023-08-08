@@ -1624,6 +1624,59 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
+							#Dwemer
+							portrait_button = {
+								name = "rulerpic29"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_dwemer_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/dwemer_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic30"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_dwemer_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/dwemer_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
 
 							#portrait_button = {
 							#	name = "consortpic"
@@ -1916,7 +1969,7 @@ base_window = {
 							}
 							#Falmer
 							portrait_button = {
-								name = "consortpic23"
+								name = "consortpic25"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1929,7 +1982,7 @@ base_window = {
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
 							portrait_button = {
-								name = "consortpic24"
+								name = "consortpic26"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1939,6 +1992,33 @@ base_window = {
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
 								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
 								#portrait_texture = "gfx/portraits/falmer_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							#Dwemer
+							portrait_button = {
+								name = "consortpic27"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								#datacontext = "[GetScriptedGui('is_an_dwemer_male')]"
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								#portrait_texture = "gfx/portraits/dwemer_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							portrait_button = {
+								name = "consortpic28"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								#datacontext = "[GetScriptedGui('is_an_dwemer_female')]"
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								#portrait_texture = "gfx/portraits/dwemer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
 
@@ -2620,7 +2700,7 @@ base_window = {
 							
 							#Falmer
 							portrait_button = {
-								name = "corulerpic25"
+								name = "corulerpic27"
 								size = { 130 195 }
 								parentanchor = bottom|right
 								position = { 4 14 }
@@ -2646,7 +2726,7 @@ base_window = {
 								}
 							}
 							portrait_button = {
-								name = "corulerpic26"
+								name = "corulerpic28"
 								size = { 130 195 }
 								parentanchor = bottom|right
 								position = { 4 14 }
@@ -2655,6 +2735,59 @@ base_window = {
 								datacontext = "[GetScriptedGui('is_an_falmer_female')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/falmer_female.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Dwemer
+							portrait_button = {
+								name = "corulerpic29"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_dwemer_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/dwemer_male.dds"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "corulerpic30"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_dwemer_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								portrait_texture = "gfx/portraits/dwemer_female.dds"
 								icon_card = {
 									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
 									size = { 40 40 }

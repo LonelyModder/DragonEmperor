@@ -20,6 +20,7 @@
 			NOT = { has_trait = nord }
 			NOT = { has_trait = breton }
 			NOT = { has_trait = falmer }
+			NOT = { has_trait = dwemer }
 			NOT = { has_trait = halfauroran }
 		}
 		if = {
@@ -49,6 +50,12 @@
 				has_culture_group = falmer
 			}
 			add_trait = falmer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = dwemer
+			}
+			add_trait = dwemer
 		}
 		else_if = {
 			limit = {

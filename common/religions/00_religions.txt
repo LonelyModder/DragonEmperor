@@ -134,3 +134,16 @@ druidic_pantheon = { # Druidic Faith
 	religion_category = prophets
 	can_deify_ruler = no
 }
+
+nirnic_pantheon = { # Dwemer Faith
+	color = rgb { 99 94 93 }
+	modifier = { 
+		research_points_modifier = 0.2
+		global_monthly_state_loyalty = 0.04
+		global_monthly_civilization = 0.05
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}

@@ -1,5 +1,5 @@
 ﻿dwemer = {	
-	color = hsv { 0.04 0.70 0.48 }
+	color = rgb { 99 94 93 }
 
 	primary = lv_crossbowmen
 	second = lv_heavyinfantry
@@ -9,34 +9,36 @@
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_nedic
+	levy_template = levy_dwemer
 
 	male_names = {
-		Eariielandil Rimarnimarco Kaelaril Merived Trecerion Yaronniss Angamon Ingarmowe Suurntar Gyron
-		Vinalmo Estrim Uulochtus Kaearion Eramircil Aslimo Hidle Erunrionamion Lylimilrmerel Rulirynil 
-		Quaewynn Arrmaillin Tumrynil Ungadurcar Ulunndilnalus Ravelcalin Solierion Morontar Tusaliongrim 
-		Ryatarandil Marduk 
+		Achynch Cbramrond Chramin Sthohld Jnafrak Cuoznak Gouthzgar Chralzrak Yafk Yragrac Tzodgir 
+		Nevimgar Chrathld Dzrabond Dadrak Cnagvin Ghrofrak Dhafuan Jnaharn Chuafuan Mihrk Nevigrum 
+		Tnahrek Jlaregrum Jlaregvin Ghalchond Rhzoren Ctuvraz Cnadchu Dazgar Tzofgru Jrudchu Nevizdir 
+		Cuobrec Mzuren Ythanac Nendam Rkugr Bthuvin Ythadchu 
 	}
 	female_names = {
-		Camunayne Arision Giarie Elawen Helefire Arqkrand Camiine Eilente Erranwe Arienn Celsha Sondsse 
-		Caraion Curen Estitelle Angnde Carmia Tenril Aranwy Erranande Iniorne Taairdalin Mirarie
-		Eilesse Curna Varende Elarane Ardassa Elanarume 
+		Ichugzis Craglern Csinhatch Mraftris Dathanch Kanadis Ryalirda Thrizshen Nriznara Yzraflis Jarevrash 
+		Irdalamch Krihken Morlis Sohvlin Jrimris Yzragrida Chlitchis Chrohken Chlifwinn Mhelnif Chlibwyr 
+		Jarerlis Shigven Ithodilan Chzaglern Jozara Rzubrina Chzaflis Bluvlara Rzuthanch Dremdida Kalirda 
+		Alzibryn Gomzlin Cramdida Tatrez Ichuhzis Chligriln Gomris 
 	}
 	family = {
-		Khraemlock Aedoth Salingorin Aedosin Spellihle Laemahl Grayaere Gaethfaere Laraethious Aedbinder 
-		Aedaire Thromorinh Chamiane Faethaer Tahrombinder Aelsoniuth Siliniane Aedahl Chaefaere Silinifeth
-		Loraethor Chaebinder Tahromian Salinguseus Khraeman Saelinorin
+		Bregrozsch Ishemratz Bnohuanch Szoglynsh Grimorn Yahuanch Djumorn Asravarn Gebchasz Chralrohn
+		Yagarn Mromratz Kredzach Trohatch Mzagrozsch Trobnanch Gzodchan Nhevarn Kolchanf Brezalf Kzrerzhurk
+		Azanard Mrolchanf Nhelzarf Rhozhurz Snemorn Raovnorz Czazhurz Choatarn Bnozlurch Djugrenz Bredchan
+		Agazlurch Tchavarn Jafnyg Inradchan Bhazalf Azarlatz Jlehron Ynzangnthumz
 	}
 	culture = {
-		imgan = {}
+		dworgothic = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = nedic_gfx
+	graphical_culture = noldor_gfx
 	ethnicities = {
-		10 = greek
+		10 = dwemer
 	}
 }

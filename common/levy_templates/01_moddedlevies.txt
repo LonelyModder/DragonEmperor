@@ -191,3 +191,13 @@ levy_falmeri = { #falmer militia
 	lv_mages = 0.1
 	lv_cavalry = 0.4
 }
+
+#Dwemer
+
+levy_dwemer = { #dwemer militia
+	default = no
+
+	lv_heavyinfantry = 0.6
+	lv_crossbowmen = 0.3
+	lv_cavalry = 0.1
+}

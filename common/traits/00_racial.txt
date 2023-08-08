@@ -86,6 +86,17 @@ falmer = {
 	
 }
 
+dwemer = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	finesse = 3
+	martial = 2
+	charisma = 1
+	
+}
+
 bosmer = {
 	type = status
 	

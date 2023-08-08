@@ -28,6 +28,7 @@ esfa_traits.1 = {
 				NOT = { has_trait = nord }
 				NOT = { has_trait = breton }
 				NOT = { has_trait = falmer }
+				NOT = { has_trait = dwemer }
 				NOT = { has_trait = halfauroran }
 			}
 			if = {
@@ -73,6 +74,13 @@ esfa_traits.1 = {
 					mother = { has_trait = falmer }
 				}
 				add_trait = falmer
+			}
+			else_if = { 
+				limit = {
+					NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = dwemer }
+				}
+				add_trait = dwemer
 			}
 			else_if = { 
 				limit = {
@@ -140,6 +148,7 @@ esfa_traits.1 = {
 									has_trait = nord
 									has_trait = minotaur
 									has_trait = falmer
+									has_trait = dwemer
 									has_trait = breton
 									has_trait = halfauroran
 								} 
