@@ -2,7 +2,7 @@
  ######
  #####Altmer
  ######
- aldmer_philosophy:1 "Traditions of Aldmeris"
+ aldmer_philosophy:1 "Aldmer Traditions"
  aldmer_philosophydesc:3 "Long ago the elves (mer) spread from mythical Aldmeris all over Nirn. Their natural adaptability, maritime skills and natural gift of magic enabled them to populate most of the known world."
  tradition_unlock_requirement_aldmer:0 "You don't have enough of elves to unlock the tradition or they are not integrated culture. "
  #Traditions
@@ -183,4 +183,13 @@
  nordic_path_3c_desc:0 "After conquest of Skyrim and the dethronement of dragons nords spread around the northern Tamriel like wildfire. They swore that they never allow men to suffer under elven domination. Many oportunistic leaders appeared to carry out new expeditions to colonize new regions of the continent."
  nordic_states_path_end_bonus:0 "Sons of Kyne"
  nordic_states_path_end_bonus_desc:0 "Nords are the most warlike of all human races and newer allowed to be dominated by othewrs no matted how strong they were and what powers they had. With their axes and voices they carried freedom to humans throuthout Tamriel."
+ ######
+ #####Dwemer
+ ######
+ dwemer_philosophy:1 "Dwemer Traditions"
+ dwemer_philosophydesc:3 "Dwemer are the race of elves living deep uder the Tamriels surface. They dislike using magic and instead they focus on taming world around them with knowledge. They are renowned as brutal but honourable warriors. "
+ tradition_unlock_requirement_dwemer:0 "You don't have enough of Dwemer to unlock the tradition or they are not integrated culture. "
+ #Traditions
+ dwemer_path_1:0 "TMP"
+ dwemer_path_1_desc:0 ""
  

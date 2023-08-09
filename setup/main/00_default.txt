@@ -138,6 +138,13 @@ treasure_manager = {
 				local_citizen_happyness = 0.1
 			}
 		}
+		20 = { # Chantry of Auri-El
+			key = "treasure_auriels_bow"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.1
+			}
+		}
     }
 }
 family={
@@ -272,6 +279,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	2650 = { # Elinhir
 		treasure_slots = { 	treasures = { 19 } }
+	}
+	3272 = { # Chantry of Auri-El
+		treasure_slots = { 	treasures = { 20 } }
 	}
 
 	#Pirates
