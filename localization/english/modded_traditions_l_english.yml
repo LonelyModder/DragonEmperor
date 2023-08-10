@@ -190,6 +190,42 @@
  dwemer_philosophydesc:3 "Dwemer are the race of elves living deep uder the Tamriels surface. They dislike using magic and instead they focus on taming world around them with knowledge. They are renowned as brutal but honourable warriors. "
  tradition_unlock_requirement_dwemer:0 "You don't have enough of Dwemer to unlock the tradition or they are not integrated culture. "
  #Traditions
- dwemer_path_1:0 "TMP"
- dwemer_path_1_desc:0 ""
+ dwemer_path_1:0 "Non-Elven Approach"
+ dwemer_path_1_desc:0 "Most elven nations use more mobile light armour. This allows them to make full use of their greater mobility. The Dwemer decided instead to utilize their mines to equip their warriors with top tier heavy armour. In the underground tunnels there is no place for elaborate manuveurs so the dwemer soldiers need way more protection to withstand enemy assault. "
+ dwemer_path_2:0 "Tonal Architecture"
+ dwemer_path_2_desc:0 "Dwemer wepons and armour are special. Normal wepons will rust or oxidize with time but not the dwemer ones. The deep elves use technique call tonal architecture to protect their creations from passing of time so they always look like made yesterday."
+ dwemer_path_2a:0 "Automatons"
+ dwemer_path_2a_desc:0 "Also called dwemer animunculi are mobile machines sometimes used for defense purposes that are powered by soul gems placed inside them. Althou the common knowledge states that the gems are too weak to power machines that big for long thats why many suggest that the dwarven engineers hide something from the rest of the world and their own society."
+ dwemer_path_3a:0 "Dwarven Crossbows"
+ dwemer_path_3a_desc:0 "Dwemer spend most of their time on research so they don't have time to train archery (at least 5 years are needed plus regular training). Thats why the favor the use of a crossbow. They even developed crossbows that can fire multiple projectiles before reloading."
+ dwemer_path_4a:0 "Centurions"
+ dwemer_path_4a_desc:0 "Most animunculi becomes inactive after being taken out of the dwemer cities but not centurions. These large humanoid machines powered by gods know what can stay operational for days and sprwead terror on the battle field but must be constantly repaired and can only act as support unit."
+ dwemer_path_5a:0 "Underground Roads"
+ dwemer_path_5a_desc:0 "The Dwemer armies can sometimes appear out of nowhere. Thats because as subterrainian race they posess vast underground network of tunnels below northern Tamriel which allows them to move troops undetected. Their vast empire of mines and caves are the prime reason why other races envy them."
+ dwemer_path_2b:0 "Engineer Core"
+ dwemer_path_2b_desc:0 "Various new technologies invented in dwemer laboratories allowed for a creation of one of the best Engineer Cores on Nirn. The dwemer do not have to feed their horses cause they use machines that do not tire and do not care about the weather. They can also carry more than any known animal."
+ dwemer_path_3b:0 "Metal Fortifications"
+ dwemer_path_3b_desc:0 "Dwemer are the masters of stonemasonry but when the stone is inaccesible or it's use is not possible they make use of their knoledge of tonal architecture. That's why in places like Vvardenfell or Alik'r the Dwemer Cities are made of metal. Tonal Architects can make it last longer than any stone in the vulcanic or desert heat."
+ dwemer_path_4b:0 "Defence Mechanisms"
+ dwemer_path_4b_desc:0 "Once built the deep elven structures are made to last for eternity. The animunculi are programmed to fix them and in case of being destroyed one can fix the other. That's why dwemer engineers could focus on creating multiple layers of defences against intruders. You can literally die without ever seeing the defender."
+ dwemer_states_path_end_bonus:0 "The Enlithened Soldiers"
+ dwemer_states_path_end_bonus_desc:0 "Dwemer were often discarded by the Tamrielic society. They knew they needed to be able to defend themselves if they were to survive. So they made changed their knowledge into their most powerful wepon. After all the common saying says knowledge is power and dwemer are the most advanced society on Tamriel."
+ ######
+ #####Dwemer
+ ######
+ necrom_philosophy:1 "Necromantic Traditions"
+ necrom_philosophydesc:3 "Necromancy is the manipulation of corpses and souls of the dead. One can persuit the necromancy for a lot of reasons from gaining the army to achieving immortality. Some even tried to attain godhood. Necromantic rituals are believed to be evil by the most of Tamriel."
+ tradition_unlock_requirement_necrom:0 "You need necromancers and be far from vangeful gaze of Meridia. "
+ #Traditions
+ necrom_path_1:0 "TMP"
+ necrom_path_1_desc:0 ""
+ ######
+ #####Dwemer
+ ######
+ daedra_philosophy:1 "Daedric Traditions"
+ daedra_philosophydesc:3 "It is very dangerous to deal with Daedric Lords. These immortal beings rule over the other dimensions and often interact with mortals. One must remember that these powerful demons always have their own motives and can betray you immidiately after you overgrown your usefulness."
+ tradition_unlock_requirement_daedra:0 "You need to officially worship Daedric Prince or gain support of Daedra Worshippers. "
+ #Traditions
+ daedra_path_1:0 "TMP"
+ daedra_path_1_desc:0 ""
  

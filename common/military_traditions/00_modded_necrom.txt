@@ -1,0 +1,72 @@
+﻿necrom_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = necrom_philosophy
+	
+	allow = {
+		trigger_if = {
+			limit = {
+				AND = {
+					any_owned_province = {
+						OR = {
+							is_importing_trade_good = necromancers
+							trade_goods = necromancers
+						}					
+					}
+					NAND = {
+						has_deity_in_pantheon = deity:omen_meridia
+						deity:omen_meridia = { has_holy_site = yes }
+					}
+				}
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			AND = {
+				any_owned_province = {
+					OR = {
+						is_importing_trade_good = necromancers
+						trade_goods = necromancers
+					}					
+				}
+				NAND = {
+					has_deity_in_pantheon = deity:omen_meridia
+					deity:omen_meridia = { has_holy_site = yes }
+				}
+			}
+		}
+		trigger_else = {
+			custom_tooltip = {
+				text = tradition_unlock_requirement_necrom
+				AND = {
+					any_owned_province = {
+						OR = {
+							is_importing_trade_good = necromancers
+							trade_goods = necromancers
+						}					
+					}
+					NAND = {
+						has_deity_in_pantheon = deity:omen_meridia
+						deity:omen_meridia = { has_holy_site = yes }
+					}
+				}
+			}
+		}
+	}
+	
+	necrom_path_1 = { ###altmer path
+		modifier = { 
+			lv_heavyinfantry_discipline = 0.1
+		}
+		icon = necrom_mini_trad
+		requires = {}
+	}
+	
+	necrom_states_path_end_bonus = {
+		modifier = { 
+			lv_heavyinfantry_offensive = 0.15
+			mountain_combat_bonus = 0.2
+		}
+		requires = { necrom_path_1 } 
+		icon = necrom_mini_trad 
+	}
+}

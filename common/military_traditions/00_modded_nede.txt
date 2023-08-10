@@ -143,6 +143,16 @@
 		requires = {nede_path_3a}
 	}
 	
+	nede_path_7a = { ###nede path
+		modifier = { 
+			lv_heavyinfantry_movement_speed = 0.1
+			lv_heavyinfantry_discipline = 0.1
+		}
+		enable_ability = road_building
+		icon = nede_mini_trad
+		requires = {nede_path_4a}
+	}
+	
 	nede_path_5a = { ###nede path
 		modifier = { 
 			cohort_cost = -0.1
@@ -150,7 +160,7 @@
 			engineer_cohort_cost = -0.15
 		}
 		icon = nede_mini_trad
-		requires = {nede_path_4a}
+		requires = {nede_path_7a}
 	}
 	
 	nede_path_6a = { ###nede path
@@ -160,16 +170,6 @@
 		enable_ability = border_forts
 		icon = nede_mini_trad
 		requires = {nede_path_5a}
-	}
-	
-	nede_path_7a = { ###nede path
-		modifier = { 
-			lv_heavyinfantry_movement_speed = 0.1
-			lv_heavyinfantry_discipline = 0.1
-		}
-		enable_ability = road_building
-		icon = nede_mini_trad
-		requires = {nede_path_6a}
 	}
 	
 	nede_path_2b = { ###nede path
@@ -238,6 +238,6 @@
 			discipline = 0.1
 		}
 		icon = nede_mini_trad
-		requires = {nede_path_7a nede_path_4b nede_path_3c}
+		requires = {nede_path_6a nede_path_4b nede_path_3c}
 	}
 }
