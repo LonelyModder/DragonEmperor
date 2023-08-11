@@ -55,16 +55,42 @@
 	
 	necrom_path_1 = { ###altmer path
 		modifier = { 
-			lv_heavyinfantry_discipline = 0.1
+			lv_undead_offensive = 0.1
 		}
 		icon = necrom_mini_trad
 		requires = {}
 	}
 	
+	necrom_path_2 = { ###altmer path
+		modifier = { 
+			levy_size_multiplier = 0.025
+		}
+		icon = necrom_mini_trad
+		requires = {necrom_path_1}
+	}
+	
+	necrom_path_2a = { ###altmer path
+		modifier = { 
+			lv_undead_defensive = 0.1
+			lv_undead_discipline = 0.1
+		}
+		icon = necrom_mini_trad
+		requires = {necrom_path_2}
+	}
+	
+	necrom_path_3a = { ###altmer path
+		modifier = { 
+			army_movement_speed = 0.2
+			movement_speed_if_no_road = 0.2
+		}
+		icon = daedra_mini_trad
+		requires = {necrom_path_2a}
+	}
+	
 	necrom_states_path_end_bonus = {
 		modifier = { 
-			lv_heavyinfantry_offensive = 0.15
-			mountain_combat_bonus = 0.2
+			lv_bonelord_offensive = 0.15
+			levy_size_multiplier = 0.025
 		}
 		requires = { necrom_path_1 } 
 		icon = necrom_mini_trad 

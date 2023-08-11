@@ -39,7 +39,8 @@ militarism_events.1 = {
 		else_if = {
 			limit = {
 				OR = {
-					country_culture_group = imga					
+					country_culture_group = imga
+					country_culture_group = dwemer					
 				}				
 			}
 			add_country_modifier = {

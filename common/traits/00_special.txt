@@ -3,7 +3,31 @@
 	
 	prominence = 20
 	martial = 10
-	charisma = 4
+	charisma = 6
 	
 	
+}
+
+lower_vampire = {
+	type = status
+	
+	prominence = 20
+	martial = 3
+	finesse = 1
+}
+
+half_vampire = {
+	type = status
+	
+	prominence = 20
+	martial = 6
+	finesse = 2
+}
+
+full_vampire = {
+	type = status
+	
+	prominence = 20
+	martial = 10
+	charisma = 5
 }

@@ -9,5 +9,10 @@
 }
 
 is_immortal_trigger = {
-	has_trait = halfauroran
+	OR = {
+		has_trait = halfauroran
+		has_trait = lower_vampire
+		has_trait = half_vampire
+		has_trait = full_vampire
+	}
 }
