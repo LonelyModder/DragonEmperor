@@ -91,7 +91,7 @@
 	
 	daedra_path_1 = { ###altmer path
 		modifier = { 
-			levy_size_multiplier = 0.025
+			lv_dremoras_discipline = 0.1
 		}
 		icon = daedra_mini_trad
 		requires = {}
@@ -99,7 +99,7 @@
 	
 	daedra_path_2 = { ###altmer path
 		modifier = { 
-			lv_dremoras_discipline = 0.1
+			levy_size_multiplier = 0.025
 		}
 		icon = daedra_mini_trad
 		requires = {daedra_path_1}
@@ -132,7 +132,7 @@
 	
 	daedra_path_2b = { ###altmer path
 		modifier = { 
-			manpower_recovery_speed = 0.1
+			manpower_recovery_speed = 0.2
 		}
 		icon = daedra_mini_trad
 		requires = {daedra_path_2}

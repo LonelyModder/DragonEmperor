@@ -87,12 +87,54 @@
 		requires = {necrom_path_2a}
 	}
 	
+	necrom_path_4a = { ###altmer path
+		modifier = { 
+			lv_bonewalker_offensive = 0.1
+			lv_bonewalker_defensive = 0.1
+		}
+		icon = daedra_mini_trad
+		requires = {necrom_path_3a}
+	}
+	
+	necrom_path_5a = { ###altmer path
+		modifier = { 
+			siege_ability = 0.5
+		}
+		icon = daedra_mini_trad
+		requires = {necrom_path_4a}
+	}
+	
+	necrom_path_2b = { ###altmer path
+		modifier = { 
+			lv_bonelord_offensive = 0.2
+		}
+		icon = necrom_mini_trad
+		requires = {necrom_path_2}
+	}
+	
+	necrom_path_3b = { ###altmer path
+		modifier = { 
+			lv_bonelord_defensive = 0.1
+			lv_bonelord_discipline = 0.1
+		}
+		icon = necrom_mini_trad
+		requires = {necrom_path_2b}
+	}
+	
+	necrom_path_4b = { ###altmer path
+		modifier = { 
+			levy_size_multiplier = 0.025
+		}
+		icon = necrom_mini_trad
+		requires = {necrom_path_3b}
+	}
+	
 	necrom_states_path_end_bonus = {
 		modifier = { 
 			lv_bonelord_offensive = 0.15
 			levy_size_multiplier = 0.025
 		}
-		requires = { necrom_path_1 } 
+		requires = { necrom_path_5a necrom_path_4b } 
 		icon = necrom_mini_trad 
 	}
 }

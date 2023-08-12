@@ -42,12 +42,12 @@ beards = {
 }
 
 clothes = {
-    11 =  { name = teleri_clothes            range = { 0.0 1.0 } }
+    11 =  { name = roman_clothes            range = { 0.0 1.0 } } #teleri_clothes
     #2 = { name = no_clothes            range = { 0.0 1.0 } }
 }
 
 clothes_layer2 = {
-    11 =  { name = teleri_top_layer            range = { 0.0 1.0 } }
+    11 =  { name = roman_top_layer            range = { 0.0 1.0 } } #teleri_top_layer
 }
 
 ears = {
