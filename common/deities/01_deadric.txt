@@ -69,9 +69,11 @@ deity_clavicusvile = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = night_pantheon
 			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
@@ -135,7 +137,9 @@ deity_hircine = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = night_pantheon
+			}
 			deity:omen_hircine = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -308,7 +312,9 @@ deity_molagbal = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = night_pantheon
+			}
 			deity:omen_molagbal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -368,7 +374,9 @@ deity_nocturnal = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = night_pantheon
+			}
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}
@@ -431,7 +439,9 @@ deity_sanguine = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = night_pantheon
+			}
 			deity:omen_sanguine = {
 				holy_site_deity_check_trigger = yes
 			}

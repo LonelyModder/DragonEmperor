@@ -147,3 +147,25 @@ nirnic_pantheon = { # Dwemer Faith
 	sacrifice_icon = sacrifice_incense
 	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
 }
+
+night_pantheon = { # Vampire/Werewolf Faith
+	color = rgb { 156 19 9 }
+	modifier = { 
+		omen_power = 0.2
+		levy_size_multiplier = 0.05
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
+blackworm_pantheon = { # Necromantic Faith
+	color = rgb { 20 16 16 }
+	modifier = { 
+		omen_power = 0.2
+		levy_size_multiplier = 0.05
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
