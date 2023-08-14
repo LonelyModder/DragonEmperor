@@ -159,7 +159,7 @@ night_pantheon = { # Vampire/Werewolf Faith
 	can_deify_ruler = no
 }
 
-blackworm_pantheon = { # Necromantic Faith
+idealmasters_pantheon = { # Ideal Masters Faith
 	color = rgb { 20 16 16 }
 	modifier = { 
 		omen_power = 0.2

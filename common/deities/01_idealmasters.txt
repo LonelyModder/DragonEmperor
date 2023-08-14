@@ -2,14 +2,14 @@
 
 ### Exclusive Deity Checks ###
 
-deity_blackgems = {
+deity_soulcairn = {
 	trigger = {
-		religion = blackworm_pantheon
+		religion = idealmasters_pantheon
 	}
-	icon = deity_blackgems
-	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	icon = deity_soulcairn
+	passive_modifier = { monthly_wage_modifier = deity_monthly_wage_modifier_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
-	religion = blackworm_pantheon
+	religion = idealmasters_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	
 	on_activate = {
@@ -23,14 +23,14 @@ deity_blackgems = {
 	}
 }
 
-deity_wormacolytes = {
+deity_blackgems = {
 	trigger = {
-		religion = blackworm_pantheon
+		religion = idealmasters_pantheon
 	}
-	icon = deity_wormacolytes
-	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
+	icon = deity_blackgems
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_slaves_output = omen_global_slaves_output_svalue } #Bonus from Omen
-	religion = blackworm_pantheon
+	religion = idealmasters_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	on_activate = {
 		capital_scope = {
@@ -43,14 +43,14 @@ deity_wormacolytes = {
 	}
 }
 
-deity_kingofworms = {
+deity_idealmasters = {
 	trigger = {
-		religion = blackworm_pantheon
+		religion = idealmasters_pantheon
 	}
-	icon = deity_kingofworms
-	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
+	icon = deity_idealmasters
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
-	religion = blackworm_pantheon
+	religion = idealmasters_pantheon
 	deity_category = culture #This Deity uses a Culture Slot'
 	on_activate = {
 		add_research = {
@@ -64,14 +64,14 @@ deity_kingofworms = {
 	}
 }
 
-deity_willtodominate = {
+deity_damnedsouls = {
 	trigger = {
-		religion = blackworm_pantheon
+		religion = idealmasters_pantheon
 	}
-	icon = deity_willtodominate
-	passive_modifier = { global_manpower_modifier = deity_global_manpower_modifier_svalue }
+	icon = deity_damnedsouls
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
-	religion = blackworm_pantheon
+	religion = idealmasters_pantheon
 	deity_category = war #This Deity uses a War slot.
 
 	deification_trigger = {
