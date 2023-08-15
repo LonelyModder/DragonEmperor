@@ -305,6 +305,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	2939 = {
+		port_building = 1
+	}
 	2441 = {
 		port_building = 2
 	}
@@ -559,7 +562,19 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	3145 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3150 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	3042 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3038 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3075 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	3134 = { 
@@ -4550,9 +4565,9 @@ country = {
 		}
 		
 		HAB= {          
-			government = tribal_federation
-			primary_culture = druidic
-			religion = druidic_pantheon
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
 			capital = 2979
 			
 			own_control_core = 	{ 
@@ -4575,6 +4590,39 @@ country = {
 			
 			own_control_core = 	{ 
 				3252
+			}
+		}
+		
+		HAD= {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 2964
+			
+			own_control_core = 	{ 
+				2964 2961 2965
+			}
+		}
+		
+		HAE= {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3206
+			
+			own_control_core = 	{ 
+				3206 3207 3205
+			}
+		}
+		
+		HAF= {          
+			government = tribal_kingdom
+			primary_culture = seaorc
+			religion = codeofmalacath_pantheon
+			capital = 2939
+			
+			own_control_core = 	{ 
+				2939 2940 2941 2943 2942
 			}
 		}
 	}

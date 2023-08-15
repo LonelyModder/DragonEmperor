@@ -139,7 +139,7 @@ wonder_dusk_tower={
 }
 
 wonder_imperial_city={
-	entity_name={"wonder_imperial_city_entity"}
+	entity_name={"building_special_imperial_city_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
@@ -163,7 +163,7 @@ wonder_eldentree={
 }
 
 wonder_adamantia={
-	entity_name={"wonder_adamantia_entity"}
+	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }

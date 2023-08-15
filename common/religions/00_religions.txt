@@ -135,12 +135,23 @@ druidic_pantheon = { # Druidic Faith
 	can_deify_ruler = no
 }
 
+wyrdite_pantheon = { # Wyrd Faith
+	color = rgb { 59 94 34 }
+	modifier = { 
+		omen_power = 0.2
+		global_monthly_state_loyalty = 0.04
+		stability_cost_modifier = 0.2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
 nirnic_pantheon = { # Dwemer Faith
 	color = rgb { 99 94 93 }
 	modifier = { 
 		research_points_modifier = 0.2
 		global_monthly_state_loyalty = 0.04
-		global_monthly_civilization = 0.05
+		diplomatic_reputation = -2
 	}
 	religion_category = prophets
 	can_deify_ruler = no

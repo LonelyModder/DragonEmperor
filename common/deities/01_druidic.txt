@@ -4,7 +4,10 @@
 
 deity_trueway = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_trueway
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
@@ -25,7 +28,10 @@ deity_trueway = {
 
 deity_unathegreenelk = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_unathegreenelk
 	passive_modifier = { build_time = deity_build_time_svalue }
@@ -46,7 +52,10 @@ deity_unathegreenelk = {
 
 deity_oakspromise = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_oakspromise
 	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
@@ -66,7 +75,10 @@ deity_oakspromise = {
 
 deity_marastearandstendarsshadow = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_marastearandstendarsshadow
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
@@ -86,7 +98,10 @@ deity_marastearandstendarsshadow = {
 
 deity_ritual = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_ritual
 	passive_modifier = { monthly_tyranny = deity_monthly_tyranny_svalue }
@@ -107,7 +122,10 @@ deity_ritual = {
 
 deity_evergrowthandallwither = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_evergrowthandallwither
 	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
@@ -128,7 +146,10 @@ deity_evergrowthandallwither = {
 
 deity_wrathofnature = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_wrathofnature
 	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
@@ -153,7 +174,10 @@ deity_wrathofnature = {
 
 deity_elkofarrows = {
 	trigger = {
-		religion = druidic_pantheon
+		OR = {
+			religion = druidic_pantheon
+			religion = wyrdite_pantheon
+		}
 	}
 	icon = deity_hircine
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
