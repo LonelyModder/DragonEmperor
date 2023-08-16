@@ -83,7 +83,7 @@
 			army_movement_speed = 0.2
 			movement_speed_if_no_road = 0.2
 		}
-		icon = daedra_mini_trad
+		icon = necrom_mini_trad
 		requires = {necrom_path_2a}
 	}
 	
@@ -92,7 +92,7 @@
 			lv_bonewalker_offensive = 0.1
 			lv_bonewalker_defensive = 0.1
 		}
-		icon = daedra_mini_trad
+		icon = necrom_mini_trad
 		requires = {necrom_path_3a}
 	}
 	
@@ -100,7 +100,7 @@
 		modifier = { 
 			siege_ability = 0.5
 		}
-		icon = daedra_mini_trad
+		icon = necrom_mini_trad
 		requires = {necrom_path_4a}
 	}
 	

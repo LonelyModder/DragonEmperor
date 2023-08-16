@@ -159,7 +159,7 @@
 			land_morale_modifier = 0.2
 		}
 		icon = daedra_mini_trad
-		requires = {}
+		requires = {daedra_path_4b}
 	}
 	
 	daedra_states_path_end_bonus = {

@@ -121,19 +121,19 @@ wonder_stonehenge_event={
 }
 
 wonder_crystal_tower={
-	entity_name={"wonder_crystal_tower_entity"}
+	entity_name={"building_special_crystal_like_law_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_ceporah_tower={
-	entity_name={"wonder_ceporah_tower_entity"}
+	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_dusk_tower={
-	entity_name={"wonder_dusk_tower_entity"}
+	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
