@@ -12,6 +12,9 @@ deity_lorkhan = {
 			deity:omen_lorkhan = {
 				holy_site_deity_check_trigger = yes
 			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 		}
 		NOT = { religion = elven_pantheon }
 		NOT = { country_culture_group = altmer }
@@ -36,6 +39,9 @@ deity_dibella = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
 			}
 			deity:omen_mara = {
 				holy_site_deity_check_trigger = yes
@@ -63,6 +69,9 @@ deity_kynareth = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			deity:omen_kynareth = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -88,6 +97,9 @@ deity_celestials = {
 		OR = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
 			}
 			deity:omen_celestials = {
 				holy_site_deity_check_trigger = yes

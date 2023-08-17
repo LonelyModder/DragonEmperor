@@ -86,6 +86,15 @@ levy_keptu = { #keptu militia
 	lv_cavalry = 0.2
 }
 
+levy_reachmen = { #reachmen militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.1
+	lv_raiders = 0.3
+	lv_cavalry = 0.1
+}
+
 #Minotauric
 
 levy_minotaurish = { #minotaur militia
@@ -200,4 +209,12 @@ levy_dwemer = { #dwemer militia
 	lv_heavyinfantry = 0.6
 	lv_crossbowmen = 0.3
 	lv_raiders = 0.1
+}
+
+levy_verkarthic = { #vampiric militia
+	default = no
+
+	lv_undead = 0.6
+	lv_bonelord = 0.2
+	lv_bonewalker = 0.2
 }

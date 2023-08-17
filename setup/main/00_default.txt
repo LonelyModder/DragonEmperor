@@ -305,7 +305,13 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	3204 = {
+		port_building = 2
+	}
 	2939 = {
+		port_building = 1
+	}
+	3129 = {
 		port_building = 1
 	}
 	2441 = {
@@ -4243,13 +4249,13 @@ country = {
 		}
 		
 		VBM = {          
-			government = tribal_kingdom
-			primary_culture = nedkeptu
-			religion = nedic_pantheon
+			government = despotic_monarchy
+			primary_culture = greykeptu
+			religion = night_pantheon
 			capital = 2531
 			
 			own_control_core = 	{ 
-				2531 2523 2527 2528 2570
+				2531 2523 2527 2528 2570 3129 3128 3127
 			}
 		}
 		
@@ -4623,6 +4629,35 @@ country = {
 			
 			own_control_core = 	{ 
 				2939 2940 2941 2943 2942
+			}
+		}
+		
+		HAG = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = elven_pantheon
+			capital = 3204
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3204 3203 3202 3201 3143
+			}
+		}
+		
+		HAH= {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3210
+			
+			own_control_core = 	{ 
+				3210 3211 3212
 			}
 		}
 	}

@@ -282,7 +282,7 @@ deity_elvenancestors = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
-			
+			country_culture_group = altmer
 			deity:omen_elvenancestors = {
 				holy_site_deity_check_trigger = yes
 			}

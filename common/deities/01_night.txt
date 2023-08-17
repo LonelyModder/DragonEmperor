@@ -13,7 +13,7 @@ deity_lamaebal = {
 	icon = deity_lamaebal
 	passive_modifier = { monthly_tyranny = deity_monthly_tyranny_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
-	religion = nirnic_pantheon
+	religion = night_pantheon
 	deity_category = culture #This Deity uses a Culture Slot'
 	on_activate = {
 		add_research = {

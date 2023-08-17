@@ -140,6 +140,9 @@ deity_hircine = {
 			common_deity_trigger = {
 				RELIGION = night_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			deity:omen_hircine = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -199,7 +202,9 @@ deity_malacath = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			deity:omen_malacath = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -229,7 +234,9 @@ deity_mechrunesdagon = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}
@@ -315,6 +322,9 @@ deity_molagbal = {
 			common_deity_trigger = {
 				RELIGION = night_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			deity:omen_molagbal = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -344,7 +354,9 @@ deity_namira = {
 			common_deity_trigger = {
 				RELIGION = nedic_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}
@@ -406,7 +418,9 @@ deity_peryite = {
 			common_deity_trigger = {
 				RELIGION = deadric_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = reachmen_pantheon
+			}
 			common_deity_trigger = {
 				RELIGION = goblin_pantheon
 			}

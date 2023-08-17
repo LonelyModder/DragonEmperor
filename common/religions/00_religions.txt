@@ -160,13 +160,13 @@ nirnic_pantheon = { # Dwemer Faith
 }
 
 night_pantheon = { # Vampire/Werewolf Faith
-	color = rgb { 156 19 9 }
+	color = rgb { 44 45 46 }
 	modifier = { 
 		omen_power = 0.2
 		levy_size_multiplier = 0.05
 		diplomatic_reputation = -2
 	}
-	religion_category = prophets
+	religion_category = pantheon
 	can_deify_ruler = no
 }
 
@@ -179,4 +179,14 @@ idealmasters_pantheon = { # Ideal Masters Faith
 	}
 	religion_category = prophets
 	can_deify_ruler = no
+}
+
+reachmen_pantheon = { # Reachmen Faith
+	color = rgb { 130 72 10 }
+	modifier = { 
+		war_exhaustion = -0.025
+		agressive_expansion_monthly_change = -0.025
+		stability_cost_modifier = 0.2
+	}
+	religion_category = pantheon
 }
