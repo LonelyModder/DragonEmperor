@@ -311,6 +311,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2939 = {
 		port_building = 1
 	}
+	3126 = {
+		port_building = 1
+	}
 	3129 = {
 		port_building = 1
 	}
@@ -4658,6 +4661,86 @@ country = {
 			
 			own_control_core = 	{ 
 				3210 3211 3212
+			}
+		}
+		
+		HAI= {          
+			government = despotic_monarchy
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3149
+			
+			own_control_core = 	{ 
+				3149 3126 3152 3151 3153 3155 3154 3125 3121 3124 3123 3130 3122
+			}
+		}
+		
+		HAJ = {          
+			government = oligarchic_republic
+			primary_culture = dworgothic
+			religion = nirnic_pantheon
+			capital = 3267
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3267
+			}
+		}
+		
+		HAK= {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3249
+			
+			own_control_core = 	{ 
+				3249 3282 3214 3250
+			}
+		}
+		
+		HAL = {          
+			government = despotic_monarchy
+			primary_culture = awrothgari
+			religion = idealmasters_pantheon
+			capital = 3223
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3223 3221 3224 3225
+			}
+		}
+		
+		HAM= {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3215
+			
+			own_control_core = 	{ 
+				3215 3213 3248 3253 3247
+			}
+		}
+		
+		HAN= {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3218
+			
+			own_control_core = 	{ 
+				3218 3197 3199 3200 3217 3142
 			}
 		}
 	}

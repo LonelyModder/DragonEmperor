@@ -4,7 +4,7 @@
 	form_orsinium = {
 		potential = {
 			NOT = {
-				tag = XOR
+				tag = HAI
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -21,7 +21,7 @@
 				text = orsinium_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XOR
+						tag = HAI
 					}
 				}
 			}
@@ -35,7 +35,7 @@
 				change_country_adjective = "orsinium_ADJECTIVE"
 				change_country_tag = XOR
 				change_country_color = "orsinium_color"
-				change_country_flag = orsinium_FLAG
+				change_country_flag = HAI
 				if = {
 					limit = { is_tribal = yes }
 					add_country_modifier = {
