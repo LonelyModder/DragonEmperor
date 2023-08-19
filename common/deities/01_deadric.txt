@@ -295,7 +295,11 @@ deity_meridia = {
 			}
 			deity:omen_meridia = {
 				holy_site_deity_check_trigger = yes
-			}
+			}	
+		}
+		NAND = {
+			has_deity_in_pantheon = deity:omen_molagbal
+			deity:omen_molagbal = { has_holy_site = yes }
 		}
 	}
 	icon = deity_meridia
@@ -328,6 +332,10 @@ deity_molagbal = {
 			deity:omen_molagbal = {
 				holy_site_deity_check_trigger = yes
 			}
+		}
+		NAND = {
+			has_deity_in_pantheon = deity:omen_meridia
+			deity:omen_meridia = { has_holy_site = yes }
 		}
 	}
 	icon = deity_molagbal

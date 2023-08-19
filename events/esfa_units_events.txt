@@ -142,15 +142,20 @@ units_allowance_events.1 = {
 		}
 		if = {
 			limit =  {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = necromancers
-						trade_goods = necromancers
-					}					
-				}
-				NAND = {
-					has_deity_in_pantheon = deity:omen_meridia
-					deity:omen_meridia = { has_holy_site = yes }
+				OR = {
+					AND = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = necromancers
+								trade_goods = necromancers
+							}					
+						}
+						NAND = {
+							has_deity_in_pantheon = deity:omen_meridia
+							deity:omen_meridia = { has_holy_site = yes }
+						}
+					}
+					religion = idealmasters_pantheon
 				}
 			}
 			allow_lv_undead = yes

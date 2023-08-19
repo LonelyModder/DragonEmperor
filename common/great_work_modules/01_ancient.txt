@@ -168,6 +168,18 @@ wonder_adamantia={
 	great_work_category_slot=0
 }
 
+wonder_doomcrag={
+	entity_name={"building_special_ada_mantia_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_wyrdtree={
+	entity_name={"wonder_eldentree_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"
