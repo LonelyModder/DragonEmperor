@@ -329,6 +329,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	3164 = {
+		fortress_building = 1
+	}
 	3073 = {
 		fortress_building = 1
 	}
@@ -338,6 +341,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	2956 = {
+		port_building = 2
+	}
 	3064 = {
 		port_building = 2
 	}
@@ -345,6 +351,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	2939 = {
+		port_building = 1
+	}
+	3011 = {
 		port_building = 1
 	}
 	3280 = {
@@ -3944,7 +3953,11 @@ country = {
 			own_control_core = 	{ 
 				2162 2163 2295 2294 2293 2292 2291 2178 2177 2176 2175 2174 2416 
 				2296 2418 2419 2334 2335 2336 2333 2180 2179 2412 2417 2420 2421
-				2297 2298
+				2297 2298 
+				3077 3078 3162 3164 3168 3161 3159 3039 3045 3031 3030 3022 3016 
+				3018 3013 3014 3000 2999 2998 2997 2990 2987 2967 3017 2969 2968 
+				2985 2970 2966 2963 2962 3163 3160 3156 3157 3158 3165 3170 3171 
+				3169 
 			}
 		}
 		
@@ -4831,6 +4844,90 @@ country = {
 			
 			own_control_core = 	{ 
 				3276 3280 3274 3275 3278 3279 3277 3141
+			}
+		}
+		
+		HAT = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3268
+			
+			own_control_core = 	{ 
+				3268 3254 3271 3273
+			}
+		}
+		
+		HAU = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3256
+			
+			own_control_core = 	{ 
+				3256 3251 3257
+			}
+		}
+		
+		HAW = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3260
+			
+			own_control_core = 	{ 
+				3260 3259 3258
+			}
+		}
+		
+		HAY = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 3281
+			
+			own_control_core = 	{ 
+				3281 3222 3260
+			}
+		}
+		
+		HAZ = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = deadric_pantheon
+			capital = 2958
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				2958 2973 2974 2956 2957 2954
+			}
+		}
+		
+		HBA = {          
+			government = tribal_federation
+			primary_culture = druidic
+			religion = druidic_pantheon
+			capital = 3010
+			
+			own_control_core = 	{ 
+				3010 3006 3003 3004 3005 3009 3012 3011
+			}
+		}
+		
+		HBB = {          
+			government = tribal_kingdom
+			primary_culture = seaorc
+			religion = codeofmalacath_pantheon
+			capital = 2949
+			
+			own_control_core = 	{ 
+				2949 2948 2952 2951 2950 2953
 			}
 		}
 	}

@@ -5,7 +5,6 @@
 		has_trait = falmer
 		has_trait = dwemer
 		has_trait = bosmer
-		has_trait = werewolf
 	}
 }
 
@@ -15,6 +14,7 @@ is_immortal_trigger = {
 		has_trait = lower_vampire
 		has_trait = half_vampire
 		has_trait = full_vampire
+		has_trait = lesser_lich
 		has_trait = lich
 	}
 }

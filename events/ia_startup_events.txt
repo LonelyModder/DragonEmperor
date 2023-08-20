@@ -227,3 +227,18 @@ esfa_startup.14 = { #Falmer
         name = esfa_startup.14.a
     }
 }
+
+esfa_startup.15 = { #Dwemer
+	type = country_event
+    title = esfa_startup.15.t
+    desc = esfa_startup.15.desc
+    picture = welcoming_window_15
+	
+    trigger = {
+    	country_culture_group = dwemer
+    }
+
+    option = {    
+        name = esfa_startup.15.a
+    }
+}
