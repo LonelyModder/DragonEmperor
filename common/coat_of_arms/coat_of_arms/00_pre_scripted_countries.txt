@@ -36,6 +36,17 @@ PIR = {
 	}
 }
 
+VBM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 150 9 28 }
+	color2 = rgb { 150 9 28 }
+
+	colored_emblem = {
+		texture = "ce_greyhost.dds"
+		color1 = rgb { 36 33 33 }
+	}
+}
+
 #Modded Emblems fo starting countries
 #Also for HK of Alinor
 AAA = { #Alinor

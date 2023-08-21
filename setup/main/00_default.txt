@@ -329,6 +329,15 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	2968 = {
+		fortress_building = 1
+	}
+	2987 = {
+		fortress_building = 1
+	}
+	3023 = {
+		fortress_building = 1
+	}
 	3164 = {
 		fortress_building = 1
 	}
@@ -338,10 +347,28 @@ provinces = { #Any entry must contain a comment with city name.
 	2421 = {
 		fortress_building = 1
 	}
+	3157 = {
+		fortress_building = 1
+	}
 	2174 = {
 		port_building = 2
 	}
+	3240 = {
+		port_building = 1
+	}
+	2994 = {
+		port_building = 2
+	}
+	3159 = {
+		port_building = 2
+	}
+	2987 = {
+		port_building = 2
+	}
 	2956 = {
+		port_building = 2
+	}
+	3022 = {
 		port_building = 2
 	}
 	3064 = {
@@ -3957,7 +3984,7 @@ country = {
 				3077 3078 3162 3164 3168 3161 3159 3039 3045 3031 3030 3022 3016 
 				3018 3013 3014 3000 2999 2998 2997 2990 2987 2967 3017 2969 2968 
 				2985 2970 2966 2963 2962 3163 3160 3156 3157 3158 3165 3170 3171 
-				3169 
+				3169 3023 3026 3019
 			}
 		}
 		
@@ -4928,6 +4955,100 @@ country = {
 			
 			own_control_core = 	{ 
 				2949 2948 2952 2951 2950 2953
+			}
+		}
+		
+		HBC = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = deadric_pantheon
+			capital = 3001
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3001 2994 3008 3002
+			}
+		}
+		
+		HBD= {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3180
+			
+			own_control_core = 	{ 
+				3180 3173 3179
+			}
+		}
+		
+		HBE = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = deadric_pantheon
+			capital = 3035
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3035 3033 3034 3036
+			}
+		}
+		
+		HBF = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = deadric_pantheon
+			capital = 3182
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3182 3184 3185 3181
+			}
+		}
+		
+		HBG = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3240
+			
+			own_control_core = 	{ 
+				3240 3241 3237 3239 3261 3244
+			}
+		}
+		
+		HBH = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = elven_pantheon
+			capital = 3111
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3111 3114 3112 3108 3107
 			}
 		}
 	}

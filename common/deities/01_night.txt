@@ -5,10 +5,10 @@
 deity_lamaebal = {
 	trigger = {
 		religion = night_pantheon
-		NAND = {
-			has_deity_in_pantheon = deity:omen_molagbal
-			deity:omen_molagbal = { has_holy_site = yes }
-		}
+		#NAND = {
+		#	has_deity_in_pantheon = deity:omen_molagbal
+		#	deity:omen_molagbal = { has_holy_site = yes }
+		#}
 	}
 	icon = deity_lamaebal
 	passive_modifier = { monthly_tyranny = deity_monthly_tyranny_svalue }
