@@ -380,6 +380,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2939 = {
 		port_building = 1
 	}
+	2980 = {
+		port_building = 1
+	}
 	3011 = {
 		port_building = 1
 	}
@@ -4656,10 +4659,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = wyrdite
 			religion = wyrdite_pantheon
-			capital = 2982
+			capital = 2979
 			
 			own_control_core = 	{ 
-				2979 2992 2982
+				2979 2978 2975 2976 
 			}
 		}
 		
@@ -4943,7 +4946,7 @@ country = {
 			capital = 3010
 			
 			own_control_core = 	{ 
-				3010 3006 3003 3004 3005 3009 3012 3011
+				3010 3006 3003 3004 3005 3009 3012 3011 2982 2992
 			}
 		}
 		
@@ -5049,6 +5052,61 @@ country = {
 			
 			own_control_core = 	{ 
 				3111 3114 3112 3108 3107
+			}
+		}
+		
+		HBI = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3263
+			
+			own_control_core = 	{ 
+				3263 3264 3265 3262 3266 3255
+			}
+		}
+		
+		HBJ = {          
+			government = despotic_monarchy
+			primary_culture = glenumbran
+			religion = druidic_pantheon
+			capital = 2980
+			
+			own_control_core = 	{ 
+				2980 
+			}
+		}
+		
+		HBK = {          
+			government = despotic_monarchy
+			primary_culture = glenumbran
+			religion = druidic_pantheon
+			capital = 2995
+			
+			own_control_core = 	{ 
+				2995 2996 2993 
+			}
+		}
+		
+		HBL = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 2972
+			
+			own_control_core = 	{ 
+				2972 2977 2971 
+			}
+		}
+		
+		HBM = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 2946
+			
+			own_control_core = 	{ 
+				2946 2947 2955 2944 2991 2960 2945 2959
 			}
 		}
 	}
