@@ -356,6 +356,9 @@ provinces = { #Any entry must contain a comment with city name.
 	3240 = {
 		port_building = 1
 	}
+	3174 = {
+		port_building = 1
+	}
 	2994 = {
 		port_building = 2
 	}
@@ -3965,10 +3968,14 @@ country = {
 			poptype_rights = {
 				{
 					culture = balfieric
-					type = nobles
+					type = citizen
 				}
 				{
-					culture = nedkeptu
+					culture = glenumbran
+					type = citizen
+				}
+				{
+					culture = bhavenite
 					type = citizen
 				}
 			}
@@ -4917,7 +4924,7 @@ country = {
 			capital = 3281
 			
 			own_control_core = 	{ 
-				3281 3222 3260
+				3281 3222 3269
 			}
 		}
 		
@@ -4946,7 +4953,8 @@ country = {
 			capital = 3010
 			
 			own_control_core = 	{ 
-				3010 3006 3003 3004 3005 3009 3012 3011 2982 2992
+				3010 3006 3003 3004 3005 3009 3012 3011 2982 2992 2989 
+				3015 3007 3021 2984 2988 2986 3020 3025 3024 3028 3029
 			}
 		}
 		
@@ -5095,7 +5103,7 @@ country = {
 			capital = 2972
 			
 			own_control_core = 	{ 
-				2972 2977 2971 
+				2972 2977 2971 2981 2983 
 			}
 		}
 		
@@ -5107,6 +5115,218 @@ country = {
 			
 			own_control_core = 	{ 
 				2946 2947 2955 2944 2991 2960 2945 2959
+			}
+		}
+		
+		HBN = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3235
+			
+			own_control_core = 	{ 
+				3235 3236
+			}
+		}
+		
+		HBO = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3048
+			
+			own_control_core = 	{ 
+				3048 3049
+			}
+		}
+		
+		HBP = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3131
+			
+			own_control_core = 	{ 
+				3131 3084 3132 3134
+			}
+		}
+		
+		HBR = {          
+			government = tribal_kingdom
+			primary_culture = wyrdite
+			religion = wyrdite_pantheon
+			capital = 3094
+			
+			own_control_core = 	{ 
+				3094 3093 3095
+			}
+		}
+		
+		HBS = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = elven_pantheon
+			capital = 3115
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3115 3117 3116 3113 3110 3109 3096
+			}
+		}
+		
+		HBT = {          
+			government = despotic_monarchy
+			primary_culture = northelves
+			religion = elven_pantheon
+			capital = 3079
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				3079 3080 3097 3098 3100
+			}
+		}
+		
+		HBU = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3082
+			
+			own_control_core = 	{ 
+				3082 3081 3076 3083 3075
+			}
+		}
+		
+		HBW = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3085
+			
+			own_control_core = 	{ 
+				3085 3069 3068 3087 3086 3088 3089
+			}
+		}
+		
+		HBY = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3234
+			
+			own_control_core = 	{ 
+				3234 3238 3243 3242
+			}
+		}
+		
+		HBZ = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3230
+			
+			own_control_core = 	{ 
+				3230 3227 3232 3233 3231
+			}
+		}
+		
+		HCA = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3228
+			
+			own_control_core = 	{ 
+				3228 3229
+			}
+		}
+		
+		HCB = {          
+			government = tribal_kingdom
+			primary_culture = abamath
+			religion = codeofmalacath_pantheon
+			capital = 3187
+			
+			own_control_core = 	{ 
+				3187 3188 3190 3186 3183
+			}
+		}
+		
+		HCC = {          
+			government = tribal_kingdom
+			primary_culture = abamath
+			religion = codeofmalacath_pantheon
+			capital = 3192
+			
+			own_control_core = 	{ 
+				3192 3191 3189 3193
+			}
+		}
+		
+		HCD = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3103
+			
+			own_control_core = 	{ 
+				3103 3099 3102 3101 3105 3106 3104
+			}
+		}
+		
+		HCE = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3118
+			
+			own_control_core = 	{ 
+				3118 3090 3120 3119
+			}
+		}
+		
+		HCF = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3066
+			
+			own_control_core = 	{ 
+				3066 3071 3070 3056 3057 3054
+			}
+		}
+		
+		HCG = {          
+			government = despotic_monarchy
+			primary_culture = glenumbran
+			religion = elven_pantheon
+			capital = 3037
+			
+			own_control_core = 	{ 
+				3037 3032 3027 3043 3044
+			}
+		}
+		
+		HCH = {          
+			government = despotic_monarchy
+			primary_culture = bhavenite
+			religion = elven_pantheon
+			capital = 3174
+			
+			own_control_core = 	{ 
+				3174 3172 3178 3175 3177 3176
 			}
 		}
 	}
