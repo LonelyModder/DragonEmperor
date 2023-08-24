@@ -250,8 +250,8 @@ family={
 }
 diplomacy = {
 	#Direnni Influence
-	dependency = { first = VAS second = VBH subject_type = feudatory }
-	dependency = { first = VAS second = VAZ subject_type = feudatory }
+	dependency = { first = VAS second = HBU subject_type = feudatory }
+	dependency = { first = VAS second = HBW subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -324,6 +324,10 @@ provinces = { #Any entry must contain a comment with city name.
 	2076 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	2102 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	2100 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	3129 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	3240 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	3011 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	3204 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	
 	#Buildings
 	464 = {
@@ -354,6 +358,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	3240 = {
+		port_building = 1
+	}
+	3060 = {
 		port_building = 1
 	}
 	3174 = {
@@ -1334,6 +1341,51 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	2890 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2851 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2861 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2844 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2904 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2909 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2918 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2924 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2884 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2913 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2834 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2839 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2900 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2930 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	2864 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	2189 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -4760,7 +4812,7 @@ country = {
 			capital = 3149
 			
 			own_control_core = 	{ 
-				3149 3126 3152 3151 3153 3155 3154 3125 3121 3124 3123 3130 3122
+				3149 3126 3152 3151 3153 3155 3154 3125 3121 3124 3123 3130 3122 3145 3138
 			}
 		}
 		
@@ -5327,6 +5379,105 @@ country = {
 			
 			own_control_core = 	{ 
 				3174 3172 3178 3175 3177 3176
+			}
+		}
+		
+		HCI = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3050
+			
+			own_control_core = 	{ 
+				3050 3059 3053
+			}
+		}
+		
+		HCJ = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3047
+			
+			own_control_core = 	{ 
+				3047 3041 3042 3038 3052
+			}
+		}
+		
+		HCK = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 3055
+			
+			own_control_core = 	{ 
+				3055 3067
+			}
+		}
+		
+		HCL = {          
+			government = despotic_monarchy
+			primary_culture = rivenite
+			religion = elven_pantheon
+			capital = 3060
+			
+			own_control_core = 	{ 
+				3060 3061 3058
+			}
+		}
+		
+		HCM = {          
+			government = tribal_kingdom
+			primary_culture = seaorc
+			religion = codeofmalacath_pantheon
+			capital = 3046
+			
+			own_control_core = 	{ 
+				3046 3040 3051
+			}
+		}
+		
+		HCO = {          
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3148
+			
+			own_control_core = 	{ 
+				3148 3146 3147 3150 3194
+			}
+		}
+		
+		HCP = {          
+			government = despotic_monarchy
+			primary_culture = bhavenite
+			religion = elven_pantheon
+			capital = 3135
+			
+			own_control_core = 	{ 
+				3135 3136 3133 3137 3140 3144
+			}
+		}
+		
+		HCR = {          
+			government = despotic_monarchy
+			primary_culture = bhavenite
+			religion = elven_pantheon
+			capital = 3166
+			
+			own_control_core = 	{ 
+				3167 3166
+			}
+		}
+		
+		HCS = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 3139
+			
+			own_control_core = 	{ 
+				3139
 			}
 		}
 	}

@@ -311,3 +311,14 @@ HKDeathlands_FLAG = { #Kingdom of Deathlands
 		color1 = rgb { 61 61 59 }
 	}
 }
+
+HKHighRock_FLAG = { #Kingdom of High Rock
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 29 4 194 }
+	color2 = rgb { 29 4 194 }
+
+	colored_emblem = {
+		texture = "ce_highrock.dds"
+		color1 = rgb { 255 255 255 }
+	}
+}

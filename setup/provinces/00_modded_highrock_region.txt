@@ -185,7 +185,7 @@
 
 2942={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="codeofmalacath_pantheon"
 	culture="seaorc"
 	civilization_value=0
@@ -302,7 +302,7 @@
 
 2948={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="codeofmalacath_pantheon"
 	culture="seaorc"
 	civilization_value=0
@@ -459,7 +459,7 @@
 
 2956={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -581,7 +581,7 @@
 
 2962={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="druidic_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -601,7 +601,7 @@
 
 2963={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="druidic_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -682,7 +682,7 @@
 
 2967={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -702,7 +702,7 @@
 
 2968={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="elven_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -992,7 +992,7 @@
 
 2982={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="druidic_pantheon"
 	culture="druidic"
 	civilization_value=0
@@ -1088,7 +1088,7 @@
 
 2987={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -1230,7 +1230,7 @@
 
 2994={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -1250,7 +1250,7 @@
 
 2995={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="druidic_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -1476,7 +1476,7 @@
 
 3006={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="druidic_pantheon"
 	culture="druidic"
 	civilization_value=0
@@ -1534,7 +1534,7 @@
 
 3009={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="druidic_pantheon"
 	culture="druidic"
 	civilization_value=0
@@ -1575,7 +1575,7 @@
 
 3011={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="druidic_pantheon"
 	culture="druidic"
 	civilization_value=0
@@ -1914,7 +1914,7 @@
 
 3028={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="druidic_pantheon"
 	culture="druidic"
 	civilization_value=0
@@ -2099,7 +2099,7 @@
 
 3037={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="elven_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -2122,8 +2122,8 @@
 3038={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2161,16 +2161,18 @@
 3040={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	tribesmen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="elven_pantheon"
+		culture="rivenite"
 	}
 	slaves={
 		amount=1
@@ -2180,8 +2182,8 @@
 3041={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2199,8 +2201,8 @@
 3042={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2275,12 +2277,15 @@
 
 3046={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2295,13 +2300,16 @@
 3047={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -2355,13 +2363,16 @@
 3050={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -2374,8 +2385,8 @@
 3051={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2393,8 +2404,8 @@
 3052={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2412,8 +2423,8 @@
 3053={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2450,11 +2461,14 @@
 3055={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2507,8 +2521,8 @@
 3058={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2526,8 +2540,8 @@
 3059={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2545,27 +2559,30 @@
 3060={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=6
 	}
 	tribesmen={
-		amount=4
+		amount=2
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 3061={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2582,7 +2599,7 @@
 
 3062={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -2687,8 +2704,8 @@
 3067={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2762,7 +2779,7 @@
 
 3071={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="rivenite"
 	civilization_value=0
@@ -2801,7 +2818,7 @@
 
 3073={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -2951,7 +2968,7 @@
 
 3080={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -3072,7 +3089,7 @@
 
 3086={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="rivenite"
 	civilization_value=0
@@ -3094,7 +3111,7 @@
 
 3087={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="rivenite"
 	civilization_value=0
@@ -3170,7 +3187,7 @@
 
 3091={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -3349,7 +3366,7 @@
 
 3100={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -3407,7 +3424,7 @@
 
 3103={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="elven_pantheon"
 	culture="rivenite"
 	civilization_value=0
@@ -3546,7 +3563,7 @@
 
 3110={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="maplesyrup"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -3710,7 +3727,7 @@
 
 3118={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="elven_pantheon"
 	culture="rivenite"
 	civilization_value=0
@@ -3789,7 +3806,7 @@
 
 3122={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -3827,7 +3844,7 @@
 
 3124={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -4005,8 +4022,8 @@
 3133={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4043,13 +4060,16 @@
 3135={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -4061,9 +4081,9 @@
 
 3136={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4080,9 +4100,9 @@
 
 3137={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4100,8 +4120,8 @@
 3138={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4119,16 +4139,19 @@
 3139={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
+	freemen={
+		amount=2
+	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
 		amount=1
@@ -4138,8 +4161,8 @@
 3140={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4194,7 +4217,7 @@
 
 3143={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -4216,8 +4239,8 @@
 3144={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4235,8 +4258,8 @@
 3145={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4254,16 +4277,18 @@
 3146={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	tribesmen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
 	}
 	slaves={
 		amount=1
@@ -4273,16 +4298,18 @@
 3147={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	tribesmen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
 	}
 	slaves={
 		amount=1
@@ -4292,11 +4319,14 @@
 3148={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4310,7 +4340,7 @@
 
 3149={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -4336,8 +4366,8 @@
 3150={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4496,7 +4526,7 @@
 
 3158={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4563,7 +4593,7 @@
 
 3161={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4668,13 +4698,16 @@
 3166={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
@@ -4687,8 +4720,8 @@
 3167={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4705,7 +4738,7 @@
 
 3168={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4745,7 +4778,7 @@
 
 3170={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4815,6 +4848,8 @@
 	}
 	tribesmen={
 		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
 	}
 	slaves={
 		amount=1
@@ -4823,7 +4858,7 @@
 
 3174={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4864,7 +4899,7 @@
 
 3176={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4883,7 +4918,7 @@
 
 3177={ 
 	terrain="farmland"
-	trade_goods="spices"
+	trade_goods="grain"
 	religion="elven_pantheon"
 	culture="bhavenite"
 	civilization_value=0
@@ -4932,6 +4967,8 @@
 	}
 	tribesmen={
 		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
 	}
 	slaves={
 		amount=1
@@ -4969,10 +5006,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=4
 		culture="bhavenite"
 	}
 	slaves={
@@ -5025,17 +5062,17 @@
 
 3184={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=4
 		culture="bhavenite"
 	}
 	slaves={
@@ -5052,10 +5089,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	slaves={
-		amount=2
+		amount=4
 		culture="bhavenite"
 	}
 	slaves={
@@ -5084,7 +5121,7 @@
 
 3187={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="codeofmalacath_pantheon"
 	culture="abamath"
 	civilization_value=0
@@ -5112,11 +5149,13 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
-	}
 	tribesmen={
+		amount=2
+	}
+	slaves={
 		amount=4
+		culture="bhavenite"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -5224,8 +5263,8 @@
 3194={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5359,7 +5398,7 @@
 
 3201={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="northelves"
 	civilization_value=0
@@ -5730,7 +5769,7 @@
 
 3220={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -6063,7 +6102,7 @@
 
 3236={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="maplesyrup"
 	religion="wyrdite_pantheon"
 	culture="wyrdite"
 	civilization_value=0
@@ -6161,7 +6200,7 @@
 
 3241={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="maplesyrup"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -6218,7 +6257,7 @@
 
 3244={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -6613,7 +6652,7 @@
 
 3264={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -6670,7 +6709,7 @@
 
 3267={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="dwemerplans"
 	religion="nirnic_pantheon"
 	culture="dworgothic"
 	civilization_value=0
@@ -6848,7 +6887,7 @@
 
 3276={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
@@ -6928,7 +6967,7 @@
 
 3280={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="codeofmalacath_pantheon"
 	culture="worgothianorc"
 	civilization_value=0
