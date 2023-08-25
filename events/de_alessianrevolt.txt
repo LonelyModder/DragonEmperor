@@ -281,7 +281,7 @@ alessian_revolt.4 = { #Dragonblood
 	immediate = {
 		every_character = {
 			limit = {
-				has_same_family = scope:alessia_gov
+				has_same_family = scope:current_ruler
 			}
 			add_trait = alesh
 		
