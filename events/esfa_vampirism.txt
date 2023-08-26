@@ -1,0 +1,59 @@
+﻿namespace = vampirism
+
+vampirism.1 = {
+	type = character_event
+	title = "vampirism.1.t"
+	desc = "vampirism.1.desc"
+	picture = vampirism_spread
+	
+	left_portrait = root
+	right_portrait = scope:targeter
+	
+	trigger = {
+		exists = scope:targeter
+		scope:targeter = {
+			employer = { 
+				has_land = yes
+			}
+			is_alive = yes
+			is_adult = yes
+			NOT = {	has_trait = lower_vampire }
+			NOT = {	has_trait = half_vampire }
+			NOT = {	has_trait = full_vampire }
+			NOT = {	has_trait = werewolf }
+			religion = night_pantheon
+		}
+	}
+	
+	option = { # Change faith
+		name = "vampirism.1.a"
+		scope:targeter = { add_trait = lower_vampire }
+		ai_chance = {
+            factor = 20
+        }
+	}
+	
+	option = { 
+		name = "vampirism.1.b"
+		scope:targeter = { add_trait = half_vampire }
+		ai_chance = {
+            factor = 20
+        }
+	}
+	
+	option = { 
+		name = "vampirism.1.c"
+		scope:targeter = { add_trait = werewolf }
+		ai_chance = {
+            factor = 20
+        }
+	}
+	
+	option = { 
+		name = "vampirism.1.d"
+		add_rival = scope:targeter
+		ai_chance = {
+            factor = 40
+        }
+	}
+}
