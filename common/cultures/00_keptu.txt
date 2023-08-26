@@ -1,15 +1,15 @@
-﻿nede = {	
-	color = hsv { 0 0.95 1 }
+﻿keptu = {	
+	color = hsv { 0 0.62 1 }
 
 	primary = lv_archers
-	second = lv_heavyinfantry
+	second = lv_lightinfantry
 	flank = lv_cavalry
 	
 	primary_navy = tetrere
 	secondary_navy = octere
 	flank_navy = liburnian
 	
-	levy_template = levy_nedichoplites
+	levy_template = levy_keptu
 
 	male_names = {
 		 Dahi Rystedok Rehres Urder Zavnizos Bilron Vrenas Rerlen Yneth Nhudraozes
@@ -27,18 +27,16 @@
 		Hanison
 	}
 	culture = {
-		nedstrident = {}
-		nedcolovian = {}
-		nednibenese = {}
-		nedvalusan = {}
-		nmarcher = {}
+		nedkeptu = {}
+		hernan = {}
+		greykeptu = {levy_template = levy_verkarthic}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = dunedain_gfx
+	graphical_culture = arabian_gfx
 	ethnicities = {
 		10 = dunedain
 	}

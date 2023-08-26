@@ -1737,7 +1737,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="druidic_pantheon"
-	culture="glenumbran"
+	culture="druidic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1877,7 +1877,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="druidic_pantheon"
-	culture="glenumbran"
+	culture="druidic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3229,7 +3229,7 @@
 	terrain="hills"
 	trade_goods="fur"
 	religion="wyrdite_pantheon"
-	culture="wyrdite"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3270,7 +3270,7 @@
 	terrain="hills"
 	trade_goods="moonstone"
 	religion="wyrdite_pantheon"
-	culture="wyrdite"
+	culture="rivenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4041,8 +4041,8 @@
 3134={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="wyrdite_pantheon"
-	culture="wyrdite"
+	religion="elven_pantheon"
+	culture="bhavenite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

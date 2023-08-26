@@ -7,7 +7,10 @@
 			limit = { 
 				OR = {
 					country_culture_group = nede
+					country_culture_group = keptu
+					country_culture_group = reachmenic
 					country_culture_group = breton
+					country_culture_group = druid
 					country_culture_group = minotauric
 				}				
 			}
@@ -16,7 +19,10 @@
 			}
 			OR = {
 				country_culture_group = nede
+				country_culture_group = keptu
+				country_culture_group = reachmenic
 				country_culture_group = breton
+				country_culture_group = druid
 				country_culture_group = minotauric
 			}
 		}
@@ -36,6 +42,9 @@
 						this.culture.culture_group = culture_group:nede
 						OR = {
 							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:keptu
+							this.culture.culture_group = culture_group:druid
+							this.culture.culture_group = culture_group:reachmenic
 							this.culture.culture_group = culture_group:breton
 							this.culture.culture_group = culture_group:minotauric							
 						}
@@ -57,7 +66,10 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:keptu
+							this.culture.culture_group = culture_group:reachmenic
 							this.culture.culture_group = culture_group:breton
+							this.culture.culture_group = culture_group:druid
 							this.culture.culture_group = culture_group:minotauric
 						}
 					}							
@@ -80,7 +92,10 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:nede
+							this.culture.culture_group = culture_group:keptu
+							this.culture.culture_group = culture_group:reachmenic
 							this.culture.culture_group = culture_group:breton
+							this.culture.culture_group = culture_group:druid
 							this.culture.culture_group = culture_group:minotauric
 						}	
 					}

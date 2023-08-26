@@ -2566,7 +2566,11 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = nede
+				OR = {
+					has_culture_group = nede
+					has_culture_group = keptu
+					has_culture_group = reachmenic
+				}
 			}
 		}
 		commander = {
@@ -2710,7 +2714,10 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = breton
+				OR = {
+					has_culture_group = breton
+					has_culture_group = druid
+				}
 			}
 		}
 		commander = {

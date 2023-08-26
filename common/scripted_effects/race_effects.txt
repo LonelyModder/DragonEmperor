@@ -41,7 +41,10 @@
 		}
 		else_if = {
 			limit = {
-				has_culture_group = breton
+				OR = {
+					has_culture_group = breton
+					has_culture_group = druid
+				}
 			}
 			add_trait = breton
 		}
@@ -65,7 +68,11 @@
 		}
 		else_if = {
 			limit = {
-				has_culture_group = nede
+				OR = {
+					has_culture_group = nede
+					has_culture_group = keptu
+					has_culture_group = reachmenic
+				}
 			}
 			add_trait = nede
 		}

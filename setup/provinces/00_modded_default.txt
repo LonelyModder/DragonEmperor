@@ -8920,10 +8920,10 @@
 	province_rank=""
 }
 
-2916={ #Lands
-	terrain="impassable_terrain"
-	culture="goblinken"
-	religion="goblin_pantheon"
+2916={ #Sailable
+	terrain="ocean"
+	culture=""
+	religion=""
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0

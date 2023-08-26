@@ -115,7 +115,11 @@ esfa_startup.7 = { #Nedes
     picture = welcoming_window_7
 	
     trigger = {
-    	country_culture_group = nede
+		OR = {
+			country_culture_group = nede
+			country_culture_group = keptu
+			country_culture_group = reachmenic
+		}
     }
 
     option = {    
@@ -190,7 +194,10 @@ esfa_startup.12 = { #Breton
     picture = welcoming_window_12
 	
     trigger = {
-    	country_culture_group = breton
+		OR = {
+			country_culture_group = breton
+			country_culture_group = druid
+		}
     }
 
     option = {    

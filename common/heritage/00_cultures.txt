@@ -65,7 +65,10 @@ breton_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = breton
+		OR = {
+			country_culture_group = breton
+			country_culture_group = druid
+		}
 	}
 }
 
@@ -101,7 +104,11 @@ nede_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = nede
+		OR = {
+			country_culture_group = nede
+			country_culture_group = keptu
+			country_culture_group = reachmenic
+		}
 	}
 }
 
