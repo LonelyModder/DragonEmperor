@@ -29,8 +29,11 @@
 	
 	culture = {
 		nedkeptu = {}
+		sunkeptu = {}
+		windkeptu = {}
+		norhtkeptu = {}
 		hernan = {}
-		greykeptu = {levy_template = levy_verkarthic}
+		greykeptu = { levy_template = levy_verkarthic }
 	}
 	
 	barbarian_names = { 

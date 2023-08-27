@@ -6,11 +6,16 @@
 		trigger_if = {
 			limit = {
 				AND = {
-					any_owned_province = {
-						OR = {
-							is_importing_trade_good = necromancers
-							trade_goods = necromancers
-						}					
+					OR = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = necromancers
+								trade_goods = necromancers
+							}					
+						}
+						religion = idealmasters_pantheon
+						religion = night_pantheon
+						
 					}
 					NAND = {
 						has_deity_in_pantheon = deity:omen_meridia
@@ -22,11 +27,15 @@
 				text = "began_with_tradition_group"
 			}
 			AND = {
-				any_owned_province = {
-					OR = {
-						is_importing_trade_good = necromancers
-						trade_goods = necromancers
-					}					
+				OR = {
+					any_owned_province = {
+						OR = {
+							is_importing_trade_good = necromancers
+							trade_goods = necromancers
+						}					
+					}
+					religion = idealmasters_pantheon
+					religion = night_pantheon
 				}
 				NAND = {
 					has_deity_in_pantheon = deity:omen_meridia
@@ -38,11 +47,15 @@
 			custom_tooltip = {
 				text = tradition_unlock_requirement_necrom
 				AND = {
-					any_owned_province = {
-						OR = {
-							is_importing_trade_good = necromancers
-							trade_goods = necromancers
-						}					
+					OR = {
+						any_owned_province = {
+							OR = {
+								is_importing_trade_good = necromancers
+								trade_goods = necromancers
+							}					
+						}
+						religion = idealmasters_pantheon
+						religion = night_pantheon
 					}
 					NAND = {
 						has_deity_in_pantheon = deity:omen_meridia

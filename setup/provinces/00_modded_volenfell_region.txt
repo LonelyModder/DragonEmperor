@@ -540,12 +540,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -563,12 +563,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -694,12 +694,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -717,12 +717,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -740,12 +740,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -776,7 +776,7 @@
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -1315,7 +1315,7 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1334,7 +1334,7 @@
 	terrain="plains"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1353,7 +1353,7 @@
 	terrain="plains"
 	trade_goods="coconut"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1439,7 +1439,7 @@
 	terrain="plains"
 	trade_goods="coconut"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1468,12 +1468,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -1491,12 +1491,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -1514,12 +1514,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -1537,12 +1537,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -1550,7 +1550,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1569,7 +1569,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1588,7 +1588,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1607,7 +1607,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1626,7 +1626,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1645,7 +1645,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1664,7 +1664,7 @@
 	terrain="desert"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1778,7 +1778,7 @@
 	terrain="hills"
 	trade_goods="iron"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1797,7 +1797,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2750,7 +2750,7 @@
 	terrain="desert"
 	trade_goods="cheese"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2769,7 +2769,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2788,7 +2788,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2807,7 +2807,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2943,7 +2943,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2982,7 +2982,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3001,7 +3001,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3020,7 +3020,7 @@
 	terrain="hills"
 	trade_goods="moonstone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3149,12 +3149,12 @@
 	freemen={
 		amount=4
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 	slaves={
 		amount=2
 		religion="nedic_pantheon"
-		culture="nedkeptu"
+		culture="sunkeptu"
 	}
 }
 
@@ -3162,7 +3162,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3181,7 +3181,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3295,7 +3295,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3314,7 +3314,7 @@
 	terrain="desert"
 	trade_goods="wool"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3333,7 +3333,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4145,7 +4145,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4164,7 +4164,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4183,7 +4183,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4202,7 +4202,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4240,7 +4240,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4278,7 +4278,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4300,7 +4300,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4319,7 +4319,7 @@
 	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4338,7 +4338,7 @@
 	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4357,7 +4357,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4376,7 +4376,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4395,7 +4395,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4414,7 +4414,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4433,7 +4433,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4471,7 +4471,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4531,7 +4531,7 @@
 	terrain="hills"
 	trade_goods="iron"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4578,7 +4578,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedkeptu"
+		culture="norhtkeptu"
 	}
 	slaves={
 		amount=1
@@ -4598,7 +4598,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedkeptu"
+		culture="norhtkeptu"
 	}
 	slaves={
 		amount=1
@@ -4642,7 +4642,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedkeptu"
+		culture="norhtkeptu"
 	}
 	slaves={
 		amount=1
@@ -4653,7 +4653,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4729,7 +4729,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4757,7 +4757,7 @@
 	}
 	slaves={
 		amount=4
-		culture="nedkeptu"
+		culture="norhtkeptu"
 	}
 	slaves={
 		amount=1
@@ -4768,7 +4768,7 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4787,7 +4787,7 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4806,7 +4806,7 @@
 	terrain="plains"
 	trade_goods="earthware"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4825,7 +4825,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4844,7 +4844,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4863,7 +4863,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4920,7 +4920,7 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4939,7 +4939,7 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4958,7 +4958,7 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4977,7 +4977,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4996,7 +4996,7 @@
 	terrain="plains"
 	trade_goods="earthware"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -5021,7 +5021,7 @@
 	terrain="plains"
 	trade_goods="moonstone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5040,7 +5040,7 @@
 	terrain="plains"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5059,7 +5059,7 @@
 	terrain="desert"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5097,7 +5097,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5173,7 +5173,7 @@
 	terrain="desert"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5192,7 +5192,7 @@
 	terrain="oasis"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -5242,7 +5242,7 @@
 	terrain="desert"
 	trade_goods="gems"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5261,7 +5261,7 @@
 	terrain="desert"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5394,7 +5394,7 @@
 	terrain="plains"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5413,7 +5413,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5530,7 +5530,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5606,7 +5606,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5627,7 +5627,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5648,7 +5648,7 @@
 	terrain="oasis"
 	trade_goods="dates"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -5673,7 +5673,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5692,7 +5692,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5711,7 +5711,7 @@
 	terrain="desert"
 	trade_goods="wool"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5730,7 +5730,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5844,7 +5844,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5863,7 +5863,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5882,7 +5882,7 @@
 	terrain="oasis"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5923,7 +5923,7 @@
 	terrain="desert"
 	trade_goods="beasts"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5942,7 +5942,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5961,7 +5961,7 @@
 	terrain="hills"
 	trade_goods="earthware"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -5986,7 +5986,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7712,7 +7712,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7731,7 +7731,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7750,7 +7750,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7769,7 +7769,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7788,7 +7788,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7807,7 +7807,7 @@
 	terrain="desert"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7826,7 +7826,7 @@
 	terrain="desert"
 	trade_goods="horses"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7845,7 +7845,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7924,7 +7924,7 @@
 	terrain="desert"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7943,7 +7943,7 @@
 	terrain="desert"
 	trade_goods="precious_metals"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7962,7 +7962,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7981,7 +7981,7 @@
 	terrain="desert"
 	trade_goods="camel"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8000,7 +8000,7 @@
 	terrain="oasis"
 	trade_goods="dates"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -8025,7 +8025,7 @@
 	terrain="oasis"
 	trade_goods="dates"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8044,7 +8044,7 @@
 	terrain="desert"
 	trade_goods="leather"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8063,7 +8063,7 @@
 	terrain="oasis"
 	trade_goods="dates"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="norhtkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8180,7 +8180,7 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8199,7 +8199,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8218,7 +8218,7 @@
 	terrain="plains"
 	trade_goods="fur"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8237,7 +8237,7 @@
 	terrain="desert"
 	trade_goods="precious_metals"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="sunkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8278,7 +8278,7 @@
 	terrain="desert"
 	trade_goods="cheese"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8297,7 +8297,7 @@
 	terrain="desert"
 	trade_goods="wild_game"
 	religion="nedic_pantheon"
-	culture="nedkeptu"
+	culture="windkeptu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
