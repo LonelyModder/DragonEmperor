@@ -1,33 +1,51 @@
 ﻿namespace = vampirism
 
+vampirism.10 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = VBM
+	}
+	
+	immediate = { 
+		random_character = {
+			limit = {
+				employer = { 
+					has_land = yes
+				}
+				is_alive = yes
+				is_adult = yes
+				NOT = {	has_trait = lower_vampire }
+				NOT = {	has_trait = half_vampire }
+				NOT = {	has_trait = full_vampire }
+				NOT = {	has_trait = werewolf }
+			}
+			save_scope_as = candidate_gov
+		}
+		trigger_event = {
+			id = vampirism.1
+		}
+	}
+	
+}
+
 vampirism.1 = {
-	type = character_event
+	type = country_event
 	title = "vampirism.1.t"
 	desc = "vampirism.1.desc"
 	picture = vampirism_spread
 	
-	left_portrait = root
-	right_portrait = scope:targeter
+	left_portrait = root.current_ruler
+	right_portrait = scope:candidate_gov
 	
 	trigger = {
-		exists = scope:targeter
-		scope:targeter = {
-			employer = { 
-				has_land = yes
-			}
-			is_alive = yes
-			is_adult = yes
-			NOT = {	has_trait = lower_vampire }
-			NOT = {	has_trait = half_vampire }
-			NOT = {	has_trait = full_vampire }
-			NOT = {	has_trait = werewolf }
-			religion = night_pantheon
-		}
+		
 	}
 	
 	option = { # Change faith
 		name = "vampirism.1.a"
-		scope:targeter = { add_trait = lower_vampire }
+		scope:candidate_gov = { add_trait = lower_vampire }
 		ai_chance = {
             factor = 20
         }
@@ -35,7 +53,7 @@ vampirism.1 = {
 	
 	option = { 
 		name = "vampirism.1.b"
-		scope:targeter = { add_trait = half_vampire }
+		scope:candidate_gov = { add_trait = half_vampire }
 		ai_chance = {
             factor = 20
         }
@@ -43,7 +61,7 @@ vampirism.1 = {
 	
 	option = { 
 		name = "vampirism.1.c"
-		scope:targeter = { add_trait = werewolf }
+		scope:candidate_gov = { add_trait = werewolf }
 		ai_chance = {
             factor = 20
         }
@@ -51,7 +69,6 @@ vampirism.1 = {
 	
 	option = { 
 		name = "vampirism.1.d"
-		add_rival = scope:targeter
 		ai_chance = {
             factor = 40
         }
