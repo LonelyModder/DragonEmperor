@@ -1812,7 +1812,7 @@ appropriate_death_effect_assassination = {
 			local_var:death_method = 4
 		}
 		death = {
-			death_reason = death_impaled_on_battering_ram
+			death_reason = death_imnednibenesed_on_battering_ram
 		}
 	}
 	else_if = {
@@ -2537,48 +2537,6 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = ayleid
-			}
-		}
-		commander = {
-			add_gold = -20
-		}
-		random_list = {
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = circle_of_mages
-								trade_goods = circle_of_mages
-							}
-						}
-					}
-				}
-				add_loyal_subunit = lv_mages
-			}
-			25 = {
-				trigger = {
-					commander.employer = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = horses
-								trade_goods = horses
-							}
-						}
-					}
-				}
-				add_loyal_subunit = lv_gryphons
-			}
-			25 = {
-				add_loyal_subunit = lv_lightinfantry
-			}
-		}
-	}
-	else_if = {
-		limit = {
-			exists = commander
-			commander = {
 				has_culture_group = bosmer
 			}
 		}
@@ -2597,7 +2555,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = lv_warhounds
+				add_loyal_subunit = lv_lightinfantry
 			}
 			25 = {
 				add_loyal_subunit = lv_archers
@@ -2608,7 +2566,11 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = nede
+				OR = {
+					has_culture_group = nede
+					has_culture_group = keptu
+					has_culture_group = reachmenic
+				}
 			}
 		}
 		commander = {
@@ -2619,7 +2581,7 @@ add_relevant_loyal_subunit_effect = {
 				add_loyal_subunit = lv_heavyinfantry
 			}
 			25 = {
-				add_loyal_subunit = lv_scirmishers
+				add_loyal_subunit = lv_archers
 			}
 		}
 	}
@@ -2635,7 +2597,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = lv_lightinfantry
+				add_loyal_subunit = lv_warriors
 			}
 			25 = {
 				trigger = {
@@ -2648,7 +2610,7 @@ add_relevant_loyal_subunit_effect = {
 						}
 					}
 				}
-				add_loyal_subunit = lv_warhounds
+				add_loyal_subunit = lv_lightinfantry
 			}
 		}
 	}
@@ -2728,7 +2690,7 @@ add_relevant_loyal_subunit_effect = {
 		}
 		random_list = {
 			25 = {
-				add_loyal_subunit = lv_minotaurs
+				add_loyal_subunit = lv_warriors
 			}
 		}
 	}
@@ -2737,6 +2699,57 @@ add_relevant_loyal_subunit_effect = {
 			exists = commander
 			commander = {
 				has_culture_group = nordic
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_heavyinfantry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				OR = {
+					has_culture_group = breton
+					has_culture_group = druid
+				}
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_cavalry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = falmer
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_cavalry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = dwemer
 			}
 		}
 		commander = {
@@ -5274,7 +5287,7 @@ replace_food_after_city_upgrade_effect = {
 				NOT = { is_in_region = ariana_region }
 				NOT = { is_in_region = parthia_region }
 				NOT = { is_in_region = syria_region }
-				NOT = { is_in_region = palestine_region }
+				NOT = { is_in_region = nednibenesestine_region }
 				NOT = { is_in_region = gandhara_region }
 				NOT = { is_in_region = avanti_region }
 				NOT = { is_in_region = madhyadesa_region }
@@ -5293,7 +5306,7 @@ replace_food_after_city_upgrade_effect = {
 					is_in_region = greece_region
 					is_in_region = cilicia_region
 					is_in_region = syria_region
-					is_in_region = palestine_region
+					is_in_region = nednibenesestine_region
 					is_in_region = lower_egypt_region
 				}
 			}
@@ -6292,7 +6305,7 @@ diadochi_flavor_event_claim_effect = {
 	region:galatia_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:assyria_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:persis_region = { diadochi_flavor_1_region_claim_effect = yes }
-	region:palestine_region = { diadochi_flavor_1_region_claim_effect = yes }
+	region:nednibenesestine_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:mesopotamia_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:lower_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
 	region:upper_egypt_region = { diadochi_flavor_1_region_claim_effect = yes }
@@ -7615,8 +7628,8 @@ clear_loyalty_effect = {
 		remove_loyalty = loyalty_consort_initiative_rejected
 	}
 	if = {
-		limit = { has_loyalty = loyalty_banished_affair }
-		remove_loyalty = loyalty_banished_affair
+		limit = { has_loyalty = loyalty_gobcyrodic_affair }
+		remove_loyalty = loyalty_gobcyrodic_affair
 	}
 	if = {
 		limit = { has_loyalty = loyalty_leader_imprisoned }
@@ -8639,8 +8652,8 @@ clear_loyalty_effect = {
 		remove_loyalty = loyalty_executed_druidess
 	}
 	if = {
-		limit = { has_loyalty = loyalty_banished_druidess }
-		remove_loyalty = loyalty_banished_druidess
+		limit = { has_loyalty = loyalty_gobcyrodic_druidess }
+		remove_loyalty = loyalty_gobcyrodic_druidess
 	}
 	if = {
 		limit = { has_loyalty = loyalty_allowed_druidess }

@@ -1,66 +1,19 @@
 ﻿besarabic_war_conflict_effect = {
-	
-	c:CAA = {
+	c:CBP = {
+		add_alliance = CBO
+		add_alliance = CCB
+		add_alliance = CCD
+	} 
+	c:CCE = {
 		declare_war_with_wargoal = {
 			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBE = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBW = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBK = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CBO = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
+		    province = p:1618
+			target = c:CBP
 		}
 	}
 	c:CBP = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCB = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCD = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
-	c:CCL = {
-		declare_war_with_wargoal = {
-			war_goal = conquer_wargoal
-		    province = p:1594
-			target = c:CCE
-		}
-	}
+		break_alliance = CBO
+		break_alliance = CCB
+		break_alliance = CCD
+	} 
 }

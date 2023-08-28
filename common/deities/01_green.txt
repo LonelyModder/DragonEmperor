@@ -9,12 +9,18 @@ deity_ius = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = nedic_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = khajiiti_pantheon
+			}
 			deity:omen_ius = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_ius
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { modded_beasts_offensive = 0.1 } #Bonus from Omen
 	religion = green_pantheon
@@ -40,7 +46,7 @@ deity_wilderking = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_wilderking
 	passive_modifier = { modded_beasts_offensive = 0.05 }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = green_pantheon
@@ -66,7 +72,7 @@ deity_greenlady = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_greenlady
 	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
 	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } #Bonus from Omen
 	religion = green_pantheon
@@ -92,7 +98,7 @@ deity_silvenar = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_silvenar
 	passive_modifier = { diplomatic_relations = deity_diplomatic_relations_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
 	religion = green_pantheon
@@ -118,7 +124,7 @@ deity_zenithar = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_zenit
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { global_nobles_happiness = omen_global_nobles_happiness_svalue } #Bonus from Omen
 	religion = green_pantheon

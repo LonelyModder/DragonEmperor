@@ -81,7 +81,6 @@ ebon = { #Added
 
 dwemersteel = { #Added
 	category = 0
-	allow_unit_type = lv_centurions
 	gold = 0.5
 	
 	province = {
@@ -97,8 +96,6 @@ dwemersteel = { #Added
 
 dwemerplans = { #Added
 	category = 0
-	allow_unit_type = lv_crossbowmen
-	allow_unit_type = lv_centurions
 	gold = 0.5
 	
 	province = {
@@ -241,7 +238,6 @@ limestone = { #282 territories
 
 elephants = { #82 territories
 	category = 0
-	allow_unit_type = lv_elephants
 	
 	gold = 0.3
 	
@@ -249,7 +245,7 @@ elephants = { #82 territories
 		local_output_modifier = 0.03
 	}
 	country = {
-		lv_elephants_discipline = 0.05
+		lv_archers_discipline = 0.05
 	}
 	
 	color = hsv { 0.6 0.2 0.4 }	
@@ -356,6 +352,7 @@ wild_game = { #190 territories
 	}
 	country = {
 		lv_archers_discipline = 0.05
+		lv_warriors_discipline = 0.05
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
@@ -378,14 +375,14 @@ stafftrees = { #190 territories
 
 beasts = { #Added
 	category = 0
-	allow_unit_type = lv_warhounds
+	#allow_unit_type = lv_warhounds
 	gold = 0.2
 	
 	province = {
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.05
+		lv_warriors_discipline = 0.05
 	}
 
 	color = hsv { 0.07 0.84 0.54 }
@@ -400,7 +397,7 @@ durzogs = { #Added
 		local_tribesmen_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_warhounds_discipline = 0.05
+		lv_raiders_discipline = 0.05
 	}
 
 	color = rgb { 56 32 15 }
@@ -562,6 +559,8 @@ circle_of_mages = { #Added
 cabal_of_witches = { #Added
 	category = 0
 	allow_unit_type = lv_dremora
+	allow_unit_type = lv_atronach
+	allow_unit_type = lv_clanfear
 	gold = 0.4
 
 	province = {
@@ -569,6 +568,8 @@ cabal_of_witches = { #Added
 	}
 	country = {
 		lv_dremora_discipline = 0.05
+		lv_atronach_discipline = 0.05
+		lv_clanfear_discipline = 0.05
 	}
 	
 	color = { 0.0 0.0 0.0 }
@@ -577,6 +578,8 @@ cabal_of_witches = { #Added
 necromancers = { #Added
 	category = 0
 	allow_unit_type = lv_undead
+	allow_unit_type = lv_bonelord
+	allow_unit_type = lv_bonewalker
 	gold = 0.4
 
 	province = {
@@ -584,6 +587,8 @@ necromancers = { #Added
 	}
 	country = {
 		lv_undead_discipline = 0.05
+		lv_bonelord_discipline = 0.05
+		lv_bonewalker_discipline = 0.05
 	}
 	
 	color = { 0.0 0.04 0.4 }
@@ -633,6 +638,22 @@ leather = { #338 territories
 	}
 	
 	color = hsv { 0.05 0.35 0.15 }
+}
+
+nirncrux = { #338 territories
+	category = 4
+
+	gold = 0.2
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_warriors_offensive = 0.05
+		lv_raiders_offensive = 0.05
+	}
+	
+	color = rgb { 181 64 38 }
 }
 
 wool = { #338 territories
@@ -725,6 +746,21 @@ maplesyrup = { #86 territories
 	}
 	
 	color = rgb { 10 110 17 }
+}
+
+coconut = { #86 territories
+	category = 3
+
+	gold = 0.3
+
+	province = {
+		local_monthly_food_modifier = 0.03
+	}
+	country = {
+		local_citizen_happyness = happiness_large_svalue
+	}
+	
+	color = rgb { 140 70 15 }
 }
 
 incense = { #55 territories

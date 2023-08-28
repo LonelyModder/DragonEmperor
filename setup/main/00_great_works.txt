@@ -20,6 +20,15 @@ provinces = {
 	2052={ # Elden Root
 		great_work=7
 	}
+	2162={ # Balfiera
+		great_work=8
+	}
+	3073={ # Doomcrag
+		great_work=9
+	}
+	2979={ # Bedlama Wyrd
+		great_work=10
+	}
 }
 
 great_work_manager={	
@@ -177,6 +186,75 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_eldentree"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		8={
+			ancient_wonder = yes
+			key="adamantia"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_adamantia"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_adamantia"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_adamantia"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		9={
+			ancient_wonder = yes
+			key="doomcrag"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_doomcrag"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_doomcrag"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_doomcrag"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		10={
+			ancient_wonder = yes
+			key="wyrdtree"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_wyrdtree"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_wyrdtree"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_wyrdtree"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

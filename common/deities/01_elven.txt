@@ -17,7 +17,7 @@ deity_trinimac = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_trinimac
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = elven_pantheon
@@ -45,7 +45,7 @@ deity_syrabane = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_syrabane
 	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = elven_pantheon
@@ -66,9 +66,11 @@ deity_jephre = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
-			
 			common_deity_trigger = {
 				RELIGION = green_pantheon
+			}
+			common_deity_trigger = {
+				RELIGION = druidic_pantheon
 			}
 			
 			deity:omen_jephre = {
@@ -76,7 +78,7 @@ deity_jephre = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_jephre
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = elven_pantheon
@@ -107,7 +109,7 @@ deity_xarxes = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_xarxes
 	passive_modifier = { global_citizen_output = deity_global_citizen_output_svalue }
 	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
 	religion = elven_pantheon
@@ -138,7 +140,7 @@ deity_auriel = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_auriel
 	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
 	religion = elven_pantheon
@@ -169,7 +171,7 @@ deity_mara = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_mara
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = elven_pantheon
@@ -197,7 +199,7 @@ deity_magnus = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_magnus
 	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
 	omen = { 
 		new_he_battlemages_offensive = 0.1 
@@ -231,7 +233,7 @@ deity_stendarr = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_stendarr
 	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
 	religion = elven_pantheon
@@ -259,7 +261,7 @@ deity_phynaster = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_phynaster
 	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
 	omen = { global_population_happiness = omen_global_population_happiness } #Bonus from Omen
 	religion = elven_pantheon
@@ -280,13 +282,13 @@ deity_elvenancestors = {
 			common_deity_trigger = {
 				RELIGION = elven_pantheon
 			}
-			
+			country_culture_group = altmer
 			deity:omen_elvenancestors = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_elvenancestors
 	passive_modifier = { stability_monthly_change = deity_stability_monthly_change }
 	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
 	religion = elven_pantheon
@@ -304,13 +306,14 @@ deity_beeloni = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
-			country_culture_group = ayleid
+			primary_culture = besarabicelves
+			primary_culture = heartlanderelves
 			deity:omen_beeloni = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_beeloni
 	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = elven_pantheon

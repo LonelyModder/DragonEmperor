@@ -81,6 +81,7 @@ green_pantheon = { # Bosmer Faith
 		stability_cost_modifier = 0.2
 	}
 	religion_category = pantheon
+	can_deify_ruler = no
 }
 
 deadric_pantheon = { # Deadric Faith
@@ -119,6 +120,73 @@ imperial_pantheon = { # Eight Devines Faith
 		stability_cost_modifier = -0.2
 		global_monthly_state_loyalty = 0.04
 		improve_relation_impact = -0.1
+	}
+	religion_category = pantheon
+}
+
+druidic_pantheon = { # Druidic Faith
+	color = rgb { 0 235 63 }
+	modifier = { 
+		omen_power = 0.2
+		global_monthly_state_loyalty = 0.04
+		stability_cost_modifier = 0.2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
+wyrdite_pantheon = { # Wyrd Faith
+	color = rgb { 59 94 34 }
+	modifier = { 
+		omen_power = 0.2
+		global_monthly_state_loyalty = 0.04
+		stability_cost_modifier = 0.2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
+nirnic_pantheon = { # Dwemer Faith
+	color = rgb { 99 94 93 }
+	modifier = { 
+		research_points_modifier = 0.2
+		global_monthly_state_loyalty = 0.04
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+	sacrifice_icon = sacrifice_incense
+	sacrifice_sound = "event:/SFX/UI/Religion/sfx_ui_religion_generic_sacrifice"
+}
+
+night_pantheon = { # Vampire/Werewolf Faith
+	color = rgb { 44 45 46 }
+	modifier = { 
+		omen_power = 0.2
+		levy_size_multiplier = 0.05
+		diplomatic_reputation = -2
+	}
+	religion_category = pantheon
+	can_deify_ruler = no
+}
+
+idealmasters_pantheon = { # Ideal Masters Faith
+	color = rgb { 20 16 16 }
+	modifier = { 
+		omen_power = 0.2
+		levy_size_multiplier = 0.05
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
+reachmen_pantheon = { # Reachmen Faith
+	color = rgb { 130 72 10 }
+	modifier = { 
+		war_exhaustion = -0.025
+		agressive_expansion_monthly_change = -0.025
+		stability_cost_modifier = 0.2
 	}
 	religion_category = pantheon
 }

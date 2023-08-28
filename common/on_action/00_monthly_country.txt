@@ -15,6 +15,8 @@
 		alessian_revolt.1
 		alessian_revolt.2
 		alessian_revolt.3
+		alessian_revolt.4
+		alessian_revolt.5
 		#Invasions
 		#cymmerian_invasion.1
 		#Militarism
@@ -28,11 +30,16 @@
 		#Units
 		units_allowance_events.1
 		#Modded events
+		#Becoming a Pure-Blood Vampire
+		vampirism.2
+		vampirism.3
+		vampirism.4
 	}
 	
 	random_events = {
 		595 = 0
 		5 = comet.4
+		50 = vampirism.10
 	}
 	
 	on_actions = {		

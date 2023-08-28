@@ -63,6 +63,10 @@ on_game_initialized = {
 		esfa_startup.9
 		esfa_startup.10
 		esfa_startup.11
+		esfa_startup.12
+		esfa_startup.13
+		esfa_startup.14
+		esfa_startup.15
 		#Bloodlines
 		bloodlines_startup.1  #Aranas
 		bloodlines_startup.2  #Umaril
@@ -73,6 +77,9 @@ on_game_initialized = {
 		bloodlines_startup.7  #Ceya-Tar Clan
 		bloodlines_startup.8  #Ninendava Clan
 		bloodlines_startup.9  #Miscarcand Clan
+		bloodlines_startup.10  #Camoran Clan
+		bloodlines_startup.11  #Direnni Clan
+		bloodlines_startup.12  #Direnni Clan - Shimmerene
 		#Militarism level mechanic
 		militarism_events.1
 	}

@@ -87,12 +87,7 @@
 					}
 				}
 			}
-			#p:453 = {
-			#	if = {
-			#		limit = { has_city_status = no }
-			#		set_city_status = city
-			#	}
-			#}
+			add_stability = 25
 			p:453 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes

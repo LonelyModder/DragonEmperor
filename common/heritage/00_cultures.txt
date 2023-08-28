@@ -12,6 +12,63 @@ altmer_heritage = {
 	
 	trigger = {
 		country_culture_group = altmer
+		NOT = { 
+			OR = {
+				primary_culture = heartlanderelves
+				primary_culture = besarabicelves
+				primary_culture = deathelves
+				primary_culture = northelves
+				primary_culture = colovianelves
+			} 
+		}
+	}
+}
+
+falmer_heritage = { 
+	modifier = {
+		#good
+		omen_power = 0.2
+		lv_cavlary_cost = -0.2
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		country_culture_group = falmer
+	}
+}
+
+dwemer_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.2
+		global_monthly_state_loyalty = 0.025
+		
+		#bad
+		omen_power = -0.2
+	}
+	
+	trigger = {
+		country_culture_group = dwemer
+	}
+}
+
+breton_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.1
+		lv_cavalry_offensive = 0.1
+		
+		#bad
+		improve_relation_impact = -0.25
+	}
+	
+	trigger = {
+		OR = {
+			country_culture_group = breton
+			country_culture_group = druid
+		}
 	}
 }
 
@@ -26,7 +83,13 @@ ayleid_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = ayleid
+		OR = {
+			primary_culture = heartlanderelves
+			primary_culture = besarabicelves
+			primary_culture = deathelves
+			primary_culture = northelves
+			primary_culture = colovianelves
+		}
 	}
 }
 
@@ -41,7 +104,11 @@ nede_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = nede
+		OR = {
+			country_culture_group = nede
+			country_culture_group = keptu
+			country_culture_group = reachmenic
+		}
 	}
 }
 

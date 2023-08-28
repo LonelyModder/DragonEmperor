@@ -36,6 +36,17 @@ PIR = {
 	}
 }
 
+VBM = {
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 150 9 28 }
+	color2 = rgb { 150 9 28 }
+
+	colored_emblem = {
+		texture = "ce_greyhost.dds"
+		color1 = rgb { 36 33 33 }
+	}
+}
+
 #Modded Emblems fo starting countries
 #Also for HK of Alinor
 AAA = { #Alinor
@@ -120,7 +131,7 @@ AAL = { #Shimmerine
 	}
 }
 
-CAA = { #Temple of Ancestors
+VBC = { #Temple of Ancestors
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 255 255 }
 	color2 = rgb { 255 255 255 }
@@ -141,6 +152,29 @@ VAA = { #Valenwood
 		color1 = rgb { 161 96 11 }
 		color2 = rgb { 91 219 44 }
 		color3 = rgb { 0 0 0 }
+	}
+}
+
+CAZ = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 194 28 }
+	color2 = rgb { 255 194 28 }
+
+	colored_emblem = {
+		texture = "ce_bruma.dds"
+		color1 = rgb { 0 0 0 }
+	}
+}
+
+VAS = { #Direnni Hegemony
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 140 42 0 }
+	color2 = rgb { 140 42 0 }
+
+	colored_emblem = {
+		texture = "ce_direnni.dds"
+		color1 = rgb { 217 212 212 }
+		color2 = rgb { 64 62 62 }
 	}
 }
 
@@ -190,7 +224,7 @@ alessian_FLAG = { #Alessians
 	}
 }
 
-orsinium_FLAG = { #Kingdom of Orsinium
+HAI = { #Kingdom of Orsinium
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 0 0 }
 	color2 = rgb { 0 0 0 }
@@ -242,5 +276,49 @@ sommerset_FLAG = { #Kingdom of Nibenay
 	colored_emblem = {
 		texture = "ce_auridon.dds"
 		color1 = rgb { 255 203 43 }
+	}
+}
+
+cyronordic_FLAG = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 194 28 }
+	color2 = rgb { 255 194 28 }
+
+	colored_emblem = {
+		texture = "ce_bruma.dds"
+		color1 = rgb { 0 0 0 }
+	}
+}
+
+craglorn_FLAG = { #Craglorn
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 186 72 19 }
+	color2 = rgb { 186 72 19 }
+
+	colored_emblem = {
+		texture = "ce_craglorn.dds"
+		color1 = rgb { 237 198 0 }
+	}
+}
+
+HKDeathlands_FLAG = { #Kingdom of Deathlands
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 247 77 }
+	color2 = rgb { 247 247 77 }
+
+	colored_emblem = {
+		texture = "ce_deathlands.dds"
+		color1 = rgb { 61 61 59 }
+	}
+}
+
+HKHighRock_FLAG = { #Kingdom of High Rock
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 29 4 194 }
+	color2 = rgb { 29 4 194 }
+
+	colored_emblem = {
+		texture = "ce_highrock.dds"
+		color1 = rgb { 255 255 255 }
 	}
 }

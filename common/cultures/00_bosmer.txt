@@ -3,7 +3,7 @@
 
 	primary = lv_archers
 	second = lv_lightinfantry
-	flank = lv_warhounds
+	flank = lv_horsearchers
 
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -27,33 +27,14 @@
 		Roseblossom Rosebranch Balfrun Sagethorn Softdale Barkgrove Applewood Forestblossom Riverlake
 	}
 	culture = {
-		talandan = {}
-		camoran = {}
-		silvenite = {}
-		bmarcher = {}
-		eldenite = {}
-		havenite = {}
-		greenheartan = {}
-		rootwater = {}
-		vinedusk = {}
-		willowan = {}
-		gliverite = {}
-		woodhearthan = {}
-		whisperan = {}
-		geleki = {}	
-		valeguardic	= {}
-		vullaini = {}	
-		greenhall = {}
-		zennqan = {}
-		negekite = {}
-		tarlainite = {}
-		salasi = {}
-		meadowite = {}
-		fammeseni = {}
-		fakari = {}
-		jodei = {}
-		senali = {}
-		vilgane = {}
+		bosiliacite = {}
+		bosmalabal = {}
+		bosgrahtwood = {}
+		bosgreenheart = {}
+		bosgreenshade = {}
+		boscrescent = {}
+		bostalandan = {}
+		bosmarcher = {}	
 	}
 	
 	barbarian_names = { 

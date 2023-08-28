@@ -5,8 +5,8 @@
  deity_lorkhan_AAG:0 "Shezarr"
  omen_lorkhan_AAG:1 "Shezarr"
  deity_lorkhan:0 "$omen_lorkhan$"
- omen_lorkhan:1 "Lorkhan"
- omen_lorkhan_desc:4 "A Lorkhan called Shor or Shezarr by the Nords and Imperials respectively. God of mankind and creator of the mortal world. Killed for betraying his brothers and dismembered."
+ omen_lorkhan:1 "Shezarr"
+ omen_lorkhan_desc:4 "Lorkhan called Shor or Shezarr by the Nords and Imperials respectively. God of mankind and creator of the mortal world. Killed for betraying his brothers and dismembered."
  deity_dibella_AAF:0 "Dibe"
  omen_dibella_AAF:1 "Dibe"
  deity_dibella_AAG:0 "Dibe"
@@ -24,4 +24,6 @@
  deity_celestials:0 "$omen_celestials$"
  omen_celestials:1 "Celestials"
  omen_celestials_desc:4 "Celestials are god like beings that inhabit the night sky and ocasionally visit the Nirn. For most they are known as Mage, Warrior and Thief. There is also the villanous Serpent that constantly tries to sneak past the three main constellations and reach mortal plain. It is rumoured that they are ancient nedes that ascended godhood."
- 
+ deity_shada:0 "$omen_shada$"
+ omen_shada:1 "Shada"
+ omen_shada_desc:4 "Shad is a minor but incretibly potent water spirit. She is able to use the water source to give power to their folowers but as saying goes everything has a price. The warriors basicly sacrifice their bodies and souls to the creature."

@@ -6,12 +6,11 @@
 		potential = {
 			OR = {
 				country_culture_group = nede
-				country_culture_group = ayleid
+				country_culture_group = altmer
 			}
 			#is_tribal = yes
 			NOT = {
 				tag = XNI
-				primary_culture = nedeken
 			}
 			NOR = {
 				is_tier_1_formable_trigger = yes

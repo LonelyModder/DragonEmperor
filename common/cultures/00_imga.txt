@@ -2,8 +2,8 @@
 	color = hsv { 0.04 0.70 0.48 }
 
 	primary = lv_archers
-	second = lv_lightinfantry
-	flank = lv_scirmishers
+	second = lv_warriors
+	flank = lv_raiders
 	
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -28,14 +28,7 @@
 		Loraethor Chaebinder Tahromian Salinguseus Khraeman Saelinorin
 	}
 	culture = {
-		unga = {}
-		kundu = {}
-		gurda = {}
-		fulda = {}
-		verda = {}
-		gruni = {}
-		capanu = {}
-		cyrodi = {}
+		gaimga = {}
 	}
 	
 	barbarian_names = { 

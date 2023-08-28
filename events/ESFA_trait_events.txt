@@ -10,37 +10,28 @@ esfa_traits.1 = {
 		if = {
 			limit = {
 				AND = {
-					NAND = {
-						has_trait = altmer
-						has_trait = pure
-					}
-					NAND = {
-						has_trait = altmer
-						has_trait = impure
-					}
-					NOT = { has_trait = bosmer }
-					NOT = { has_trait = ayleid }
-					NOT = { has_trait = goblin }
-					NOT = { has_trait = nede }
-					NOT = { has_trait = orc }
-					NOT = { has_trait = minotaur }
-					NOT = { has_trait = khajiit }
-					NOT = { has_trait = argonian }
-					NOT = { has_trait = imga }
-					NOT = { has_trait = nord }
-					NOT = { has_trait = halfauroran }
+					NOT = { has_trait = altmer }
+					NOT = { has_trait = pure }
 				}
+				AND = {
+					NOT = { has_trait = altmer }
+					NOT = { has_trait = impure }
+				}
+				NOT = { has_trait = bosmer }
+				NOT = { has_trait = goblin }
+				NOT = { has_trait = nede }
+				NOT = { has_trait = orc }
+				NOT = { has_trait = minotaur }
+				NOT = { has_trait = khajiit }
+				NOT = { has_trait = argonian }
+				NOT = { has_trait = imga }
+				NOT = { has_trait = nord }
+				NOT = { has_trait = breton }
+				NOT = { has_trait = falmer }
+				NOT = { has_trait = dwemer }
+				NOT = { has_trait = halfauroran }
 			}
 			if = {
-				limit = {
-					OR = {
-						father = { has_trait = halfauroran }
-						mother = { has_trait = halfauroran }
-					}
-				}
-				add_trait = halfauroran
-			}
-			else_if = {
 				limit = {
 					OR = {
 						father = { has_trait = minotaur }
@@ -51,60 +42,84 @@ esfa_traits.1 = {
 			}
 			else_if = {
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = altmer }
 				}
 				add_trait = altmer
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = bosmer }
 				}
 				add_trait = bosmer
 			}	
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = nede }
 				}
 				add_trait = nede
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = breton }
+				}
+				add_trait = breton
+			}
+			else_if = { 
+				limit = {
+					NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = falmer }
+				}
+				add_trait = falmer
+			}
+			else_if = { 
+				limit = {
+					NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = dwemer }
+				}
+				add_trait = dwemer
+			}
+			else_if = { 
+				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = goblin }
 				}
 				add_trait = goblin
 			}
 			else_if = { 
 				limit = {
-					mother = { has_trait = ayleid }
-				}
-				add_trait = ayleid
-			}
-			else_if = { 
-				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = orc }
 				}
 				add_trait = orc
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = imga }
 				}
 				add_trait = imga
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = khajiit }
 				}
 				add_trait = khajiit
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = argonian }
 				}
 				add_trait = argonian
 			}
 			else_if = { 
 				limit = {
+					NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = nord }
 				}
 				add_trait = nord
@@ -112,15 +127,12 @@ esfa_traits.1 = {
 			#Altmer racism
 			if = {
 				limit = {
+					NOT = {has_trait = impure}
 					has_trait = altmer
 					OR = {
-						AND = {
-							father = { has_trait = pure }
+						OR = {
 							mother = { has_trait = impure }
-						}
-						AND = {
 							father = { has_trait = impure }
-							mother = { has_trait = pure }
 						}
 						AND = {
 							father = { 
@@ -135,6 +147,9 @@ esfa_traits.1 = {
 									has_trait = imga
 									has_trait = nord
 									has_trait = minotaur
+									has_trait = falmer
+									has_trait = dwemer
+									has_trait = breton
 									has_trait = halfauroran
 								} 
 							}
@@ -147,6 +162,7 @@ esfa_traits.1 = {
 			else_if = { 
 				limit = {
 					has_trait = altmer
+					NOT = {has_trait = pure}
 				}
 				add_trait = pure
 			}

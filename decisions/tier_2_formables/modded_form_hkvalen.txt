@@ -7,7 +7,7 @@
 			OR = {
 				country_culture_group = bosmer
 				country_culture_group = imga
-				country_culture_group = orcish
+				primary_culture = abamath
 				country_culture_group = altmer
 			}
 			#is_tribal = yes
@@ -84,12 +84,7 @@
 					}
 				}
 			}
-			#p:1895 = {
-			#	if = {
-			#		limit = { has_city_status = no }
-			#		set_city_status = city
-			#	}
-			#}
+			add_stability = 25
 			p:1895 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes

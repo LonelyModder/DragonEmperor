@@ -6,8 +6,9 @@
 		potential = {
 			country_culture_group = altmer
 			#is_tribal = yes
-			NOT = {
+			NOR = {
 				tag = XAU
+				tag = AAA
 			}
 			NOR = {
 				is_tier_1_formable_trigger = yes

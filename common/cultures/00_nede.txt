@@ -1,5 +1,5 @@
 ﻿nede = {	
-	color = hsv { 0.04 0.55 0.81 }
+	color = hsv { 0 0.95 1 }
 
 	primary = lv_archers
 	second = lv_heavyinfantry
@@ -27,64 +27,10 @@
 		Hanison
 	}
 	culture = {
-		nedeken = {levy_template = levy_nedeken}
-		hernan = {}
-		kvatchan = {}
-		perenan = {}
-		ketite = {}
-		haredan = {}
-		gemhan = {}
-		nsedoran = {}
-		ronthan = {}
-		dradite = {}
-		vrodrekite = {}
-		chogori = {}
-		suggori = {}
-		hastri = {}
-		kvorgimite = {}
-		bricraric = {}
-		gverinite = {}
-		vakril = {}
-		oggiri = {}
-		kaginhite = {}
-		uvaviri = {}
-		vrunvan = {}
-		larsian = {}
-		smokefrostan = {}
-		skeggan = {}
-		zircenite = {}
-		conranhite = {}
-		agarite = {}
-		kronveri = {}
-		faeregylite = {}
-		kvoran = {}
-		corbolite = {}
-		soydan = {}
-		surkeri = {}
-		ekretchan = {}
-		kruckradan = {}
-		reedmarcher = {}
-		goydonite = {}
-		thugremite = {}
-		korkarudi = {}
-		vorketchite = {}
-		arrian = {}
-		khakriinite = {}
-		dreggan = {}
-		sorkite = {}
-		gikran = {}
-		ghecrotchan = {}
-		draydan = {}
-		thucri = {}
-		zecriinite = {}
-		cegrali = {}
-		lodoveri = {}
-		kronvite = {}
-		cringri = {}
-		gvurvan = {}
-		kravolite = {}
-		pale = {}
-		drirocher = {}
+		nedstrident = {}
+		nedcolovian = {}
+		nednibenese = {}
+		nedvalusan = {}
 		nmarcher = {}
 	}
 	
@@ -92,8 +38,8 @@
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = aegean_gfx
+	graphical_culture = imperial_gfx
 	ethnicities = {
-		10 = greek
+		10 = dunedain
 	}
 }

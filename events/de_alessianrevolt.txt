@@ -10,8 +10,13 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	trigger = {
 		NOT = { has_global_variable = alesh }
 		AND = {
-			p:1594.owner = {
-				religion = deadric_pantheon
+			p:1288.owner = {
+				war = no
+			}
+			AND = {
+				NOT = { p:1609.owner = c:CCE }
+				NOT = { p:1594.owner = c:CCE }
+				NOT = { p:1542.owner = c:CCE }
 			}
 			p:1071.owner = {
 				religion = deadric_pantheon
@@ -29,7 +34,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
                 count = 30
                 define_pop = {
                 type = freemen
-                culture = nedeken
+                culture = nednibenese
                 religion = nedic_pantheon
                 }
             }                
@@ -37,7 +42,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 		p:1290 = {
 			create_country = {
 				change_government = despotic_monarchy
-				set_primary_culture = nedeken
+				set_primary_culture = nednibenese
 				set_country_religion = nedic_pantheon
 				change_country_name = "Alessia_NAME"
 				change_country_adjective = "Alessia_ADJECTIVE"
@@ -47,7 +52,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 		}
 		p:1290.owner = {
 			add_country_modifier = {
-				name = fanatical_culture
+				name = militarized_culture
 				#duration = 365
 			}
 			capital_scope.governorship = {
@@ -123,7 +128,8 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 				no_stats = yes
 				add_trait="nede"
 				add_trait="dragonblood"
-				culture = nedeken
+				add_trait="alesh"
+				culture = nednibenese
 				religion = nedic_pantheon
 				female = yes
 				age = 18
@@ -141,7 +147,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 				no_stats = yes
 				add_trait="nede"
 				add_trait="shezzarine"
-				culture = nedeken
+				culture = nednibenese
 				religion = nedic_pantheon
 				age = 30
 				add_martial=10
@@ -171,7 +177,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 	}
 }
 
-alessian_revolt.2 = { # The Colovian Lords Join Revolt
+alessian_revolt.2 = { # The Choice
 	type = country_event
 	title = "alessian_revolt.2.t"
 	desc = "alessian_revolt.2.desc"
@@ -194,11 +200,13 @@ alessian_revolt.2 = { # The Colovian Lords Join Revolt
 		}
 		capital_scope = { 
 			OR = {
-				is_in_region = modded_goldcoast_region
-				is_in_region = modded_kvatch_region
-				is_in_region = modded_skingrad_region
-				is_in_region = modded_chorrol_region
+				is_in_region = modded_sjerall_region
+				is_in_region = modded_chaydinhal_region
+				is_in_region = modded_nibenbasin_region
 			}
+		}
+		current_ruler = {
+			has_bloodline_trigger = no
 		}
 	}
 	
@@ -241,31 +249,88 @@ alessian_revolt.3 = { # Alessian cores
 		p:1288.owner = {
 			religion = nedic_pantheon
 		}
-		NOT = { has_country_modifier = cymmerian_invasion_modifier }
-		capital_scope = { 
-			OR = {
-				is_in_region = modded_goldcoast_region
-				is_in_region = modded_kvatch_region
-				is_in_region = modded_skingrad_region
-				is_in_region = modded_chorrol_region
-				is_in_region = modded_sjerall_region
-				is_in_region = modded_chaydinhal_region
-				is_in_region = modded_valus_region
-				is_in_region = modded_nibenbasin_region
-				is_in_region = modded_westweald_region
-				is_in_region = modded_lowerniben_region
-				is_in_region = modded_heartlands_region
-			}
-		}
-		OR = {
-			religion = deadric_pantheon
-			religion = elven_pantheon
-			religion = nordic_pantheon
-		}
+		has_country_modifier = cymmerian_invasion_modifier
 	}
 	
 	option = {
 		name = alessian_revolt.3.a
-		every_owned_province = { add_claim = p:1290.owner } 
+		region:modded_goldcoast_region = { formable_region_province_effect = yes }
+		region:modded_kvatch_region = { formable_region_province_effect = yes }
+		region:modded_skingrad_region = { formable_region_province_effect = yes }
+		region:modded_chorrol_region = { formable_region_province_effect = yes }
+		region:modded_heartlands_region = { formable_region_province_effect = yes }
+		region:modded_westweald_region = { formable_region_province_effect = yes }
+		region:modded_lowerniben_region = { formable_region_province_effect = yes }
+		region:modded_sjerall_region = { formable_region_province_effect = yes }
+		region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+		region:modded_valus_region = { formable_region_province_effect = yes }
+		region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+	}
+}
+
+alessian_revolt.4 = { #Dragonblood
+
+	type = country_event
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		has_country_modifier = cymmerian_invasion_modifier
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = scope:current_ruler
+			}
+			add_trait = alesh
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	}
+
+}
+
+alessian_revolt.5 = { # Capital in Sancre Tor
+	type = country_event
+	title = "alessian_revolt.5.t"
+	desc = "alessian_revolt.5.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		p:1290.owner = {
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+		p:1288.owner = {
+			religion = nedic_pantheon
+		}
+		has_country_modifier = cymmerian_invasion_modifier
+	}
+	
+	option = {
+		name = alessian_revolt.5.a
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1288
+					}
+				}
+			}
+			set_capital = 1288
+			hidden_effect = {
+				p:1288.state = {
+					set_state_capital = 1288
+				}
+			}
+		}
+		p:1288 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		add_stability = 25
 	}
 }

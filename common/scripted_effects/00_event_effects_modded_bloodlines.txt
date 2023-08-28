@@ -16,6 +16,8 @@ pass_down_traits_effect = {
 						has_trait = ninendava
 						has_trait = miscarcandite
 						has_trait = camoran
+						has_trait = direnni
+						has_trait = alesh
 						has_trait = dragonblood
 					}
 				}
@@ -130,6 +132,28 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = camoran
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = direnni
+					}
+					NOT = {
+						has_trait = direnni
+					}
+				}
+				add_trait = direnni
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = alesh
+					}
+					NOT = {
+						has_trait = alesh
+					}
+				}
+				add_trait = alesh
 			}
 			if = {
 				limit = {
@@ -268,6 +292,30 @@ pass_down_traits_effect = {
 			limit = {
 				exists = mother
 				mother = {
+					has_trait = direnni
+				}
+				NOT = {
+					has_trait = direnni
+				}
+			}
+			add_trait = direnni
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = alesh
+				}
+				NOT = {
+					has_trait = alesh
+				}
+			}
+			add_trait = alesh
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
 					has_trait = dragonblood
 				}
 				NOT = {
@@ -359,6 +407,22 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = camoran
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = direnni
+			}
+		}
+		add_trait = direnni
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = alesh
+			}
+		}
+		add_trait = alesh
 	}
 	if = {
 		limit = {

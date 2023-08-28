@@ -14,7 +14,7 @@ deity_istendarr = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_stendarr
 	passive_modifier = { agressive_expansion_monthly_change = deity_agressive_expansion_monthly_change_svalue }
 	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } #Bonus from Omen
 	religion = imperial_pantheon
@@ -42,7 +42,7 @@ deity_ikynareth = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_kynareth
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
 	omen = { global_monthly_food = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = imperial_pantheon
@@ -68,7 +68,7 @@ deity_izenithar = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_zenit
 	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
 	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
 	religion = imperial_pantheon
@@ -94,7 +94,7 @@ deity_idibella = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_dibella
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = imperial_pantheon
@@ -120,7 +120,7 @@ deity_imara = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_mara
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = imperial_pantheon
@@ -146,7 +146,7 @@ deity_iakatosh = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_akatosh
 	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
 	religion = imperial_pantheon
@@ -172,7 +172,7 @@ deity_iarkay = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_arkay
 	passive_modifier = { stability_monthly = deity_stability_monthly_decay }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = imperial_pantheon
@@ -198,7 +198,7 @@ deity_ijulianos = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_julianos
 	passive_modifier = { research_points_modifier = deity_research_points_modifier_svalue }
 	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
 	religion = imperial_pantheon

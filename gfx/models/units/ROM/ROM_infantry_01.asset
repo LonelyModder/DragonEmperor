@@ -1709,53 +1709,84 @@ entity = {
 ##############
 
 entity = {
-	name = "ROM_gfx_missile_archers"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_lightinfantry"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_missile_spearthrowers"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_heavyinfantry"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_cavalry_camels"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_archers"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_chariot_light"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_scirmishers"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_crossbowmen"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_camels"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_mages"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_cavalry"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_khajiiticavalry"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_guarcavalry"
+	clone = "ROM_heavy_infantry"
+}		
+entity = {
+	name = "imperial_gfx_lv_warhounds"
+	clone = "ROM_heavy_infantry"
+}	
+entity = {
+	name = "imperial_gfx_lv_horsearchers"
+	clone = "ROM_heavy_infantry"
+}		
+entity = {
+	name = "imperial_gfx_lv_minotaurs"
+	clone = "ROM_heavy_infantry"
+}		
+entity = {
+	name = "imperial_gfx_lv_centurions"
+	clone = "ROM_heavy_infantry"
+}		
+entity = {
+	name = "imperial_gfx_lv_dremoras"
+	clone = "ROM_heavy_infantry"
+}			
+entity = {
+	name = "imperial_gfx_lv_undead"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_chariot_heavy"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_gryphons"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_cavalry_horse_archers"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_lv_elephants"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_cavalry_light"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_supply_train"
+	clone = "ROM_heavy_infantry"
 }
-
 entity = {
-	name = "ROM_gfx_elephant_african"
-	clone = "ROM_gfx_light_infantry"
-}
-
-entity = {
-	name = "ROM_gfx_elephant_forest"
-	clone = "ROM_gfx_light_infantry"
-}
-
-entity = {
-	name = "ROM_gfx_elephant_indian"
-	clone = "ROM_gfx_light_infantry"
+	name = "imperial_gfx_engineer_cohort"
+	clone = "ROM_heavy_infantry"
 }
 
 
@@ -1765,147 +1796,215 @@ entity = {
 ##############
 # Do one for each unit type
 
-### Archers ----------------------------------------------------------------
+
+entity = {
+	name = "ROM_levy"
+	clone = "roman_levies_light_infantry_01_entity"
+}
+
+entity = {
+	name = "ROM_legion"
+	clone = "roman_legion_heavy_infantry_01_entity"
+}
+
+
+
+### Light Infantry ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_missile_archers"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_lightinfantry"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_missile_archers"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_lightinfantry"
+	clone = "ROM_legion"
+}
+
+### Heavy Infantry ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_heavyinfantry"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_heavyinfantry"
+	clone = "ROM_legion"
+}
+
+### Archers ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_archers"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_archers"
+	clone = "ROM_legion"
 }
 
 ### Scirmishers ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_missile_spearthrowers"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_scirmishers"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_missile_spearthrowers"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_scirmishers"
+	clone = "ROM_legion"
+}
+
+### Crossbowmen ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_crossbowmen"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_crossbowmen"
+	clone = "ROM_legion"
 }
 
 ### Camels ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_cavalry_camels"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_camels"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_cavalry_camels"
-	clone = "ROM_gfx_heavy_infantry"
-}
-
-### Chariots ----------------------------------------------------------------
-entity ={
-	name = "ROM_gfx_levy_chariot_light"
-	clone = "ROM_levies_infantry"
-}
-entity ={
-	name = "ROM_gfx_legion_chariot_light"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_camels"
+	clone = "ROM_legion"
 }
 
+### Mages ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_chariot_heavy"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_mages"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_chariot_heavy"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_mages"
+	clone = "ROM_legion"
 }
 
-### Engineer Cohort ----------------------------------------------------------------
+### Cavalry ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_engineer_cohort"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_cavalry"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_engineer_cohort"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_cavalry"
+	clone = "ROM_legion"
+}
+
+### Khajiit Cavalry ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_khajiiticavalry"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_khajiiticavalry"
+	clone = "ROM_legion"
+}
+
+### Guar Cavalry ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_guarcavalry"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_guarcavalry"
+	clone = "ROM_legion"
+}
+
+### Warhounds ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_warhounds"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_warhounds"
+	clone = "ROM_legion"
 }
 
 ### Horse Archers ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_cavalry_horse_archers"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_horsearchers"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_cavalry_horse_archers"
-	clone = "ROM_gfx_heavy_infantry"
-}
-
-### Light Cavalry ----------------------------------------------------------------
-entity ={
-	name = "ROM_gfx_levy_cavalry_light"
-	clone = "ROM_levies_infantry"
-}
-entity ={
-	name = "ROM_gfx_legion_cavalry_light"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_horsearchers"
+	clone = "ROM_legion"
 }
 
-### Infantry ----------------------------------------------------------------
+### Minotaurs ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_light_spearmen"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_minotaurs"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_light_spearmen"
-	clone = "ROM_gfx_heavy_infantry"
-}
-
-entity ={
-	name = "ROM_gfx_levy_light_swordsmen"
-	clone = "ROM_levies_infantry"
-}
-entity ={
-	name = "ROM_gfx_legion_light_swordsmen"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_minotaurs"
+	clone = "ROM_legion"
 }
 
+### Centurions ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_axemen_heavy"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_lv_centurions"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_axemen_heavy"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_lv_centurions"
+	clone = "ROM_legion"
+}
+
+### Dremoras ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_dremoras"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_dremoras"
+	clone = "ROM_legion"
+}
+
+### Undead ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_undead"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_undead"
+	clone = "ROM_legion"
+}
+
+### Gryphons ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_gryphons"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_gryphons"
+	clone = "ROM_legion"
+}
+
+### Elephants ----------------------------------------------------------------
+entity ={
+	name = "imperial_gfx_levy_lv_elephants"
+	clone = "ROM_levy"
+}
+entity ={
+	name = "imperial_gfx_legion_lv_elephants"
+	clone = "ROM_legion"
 }
 
 ### Supply Train ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_supply_train"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_supply_train"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_supply_train"
-	clone = "ROM_gfx_heavy_infantry"
-}
-
-### War Elephant ----------------------------------------------------------------
-entity ={
-	name = "ROM_gfx_levy_elephant_african"
-	clone = "ROM_levies_infantry"
-}
-entity ={
-	name = "ROM_gfx_legion_elephant_african"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_supply_train"
+	clone = "ROM_legion"
 }
 
+### Engineer Cohort ----------------------------------------------------------------
 entity ={
-	name = "ROM_gfx_levy_elephant_forest"
-	clone = "ROM_levies_infantry"
+	name = "imperial_gfx_levy_engineer_cohort"
+	clone = "ROM_levy"
 }
 entity ={
-	name = "ROM_gfx_legion_elephant_forest"
-	clone = "ROM_gfx_heavy_infantry"
-}
-
-entity ={
-	name = "ROM_gfx_levy_elephant_indian"
-	clone = "ROM_levies_infantry"
-}
-entity ={
-	name = "ROM_gfx_legion_elephant_indian"
-	clone = "ROM_gfx_heavy_infantry"
+	name = "imperial_gfx_legion_engineer_cohort"
+	clone = "ROM_legion"
 }
