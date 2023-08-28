@@ -163,7 +163,7 @@ units_allowance_events.1 = {
 			allow_lv_bonewalker = yes
 		}
 		else = {
-			disallow_undead = yes
+			disallow_lv_undead = yes
 			disallow_lv_bonelord = yes
 			disallow_lv_bonewalker = yes
 		}

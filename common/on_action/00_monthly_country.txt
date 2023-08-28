@@ -30,12 +30,16 @@
 		#Units
 		units_allowance_events.1
 		#Modded events
+		#Becoming a Pure-Blood Vampire
+		vampirism.2
+		vampirism.3
+		vampirism.4
 	}
 	
 	random_events = {
 		595 = 0
 		5 = comet.4
-		5 = vampirism.10
+		50 = vampirism.10
 	}
 	
 	on_actions = {		
