@@ -227,7 +227,7 @@ esfa_startup.14 = { #Falmer
     picture = welcoming_window_14
 	
     trigger = {
-    	primary_culture = iliacite
+    	country_culture_group = falmer
     }
 
     option = {    

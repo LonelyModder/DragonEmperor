@@ -29,6 +29,9 @@ provinces = {
 	2979={ # Bedlama Wyrd
 		great_work=10
 	}
+	1089={ # Tower of Mages
+		great_work=11
+	}
 }
 
 great_work_manager={	
@@ -255,6 +258,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_wyrdtree"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		11={
+			ancient_wonder = yes
+			key="arcaneuniversity"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_arcaneuniversity"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_arcaneuniversity"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_arcaneuniversity"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
