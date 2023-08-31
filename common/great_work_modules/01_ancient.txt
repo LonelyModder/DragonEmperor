@@ -186,6 +186,18 @@ wonder_arcaneuniversity={
 	great_work_category_slot=0
 }
 
+wonder_templegarrison={
+	entity_name={"building_special_imperial_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_waterfront={
+	entity_name={"building_special_waterfront_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"

@@ -32,6 +32,12 @@ provinces = {
 	1089={ # Tower of Mages
 		great_work=11
 	}
+	1084={ # Temple Garrison
+		great_work=12
+	}
+	1079={ # Waterfront
+		great_work=13
+	}
 }
 
 great_work_manager={	
@@ -281,6 +287,52 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_arcaneuniversity"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		12={
+			ancient_wonder = yes
+			key="templegarrison"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_templegarrison"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_templegarrison"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_templegarrison"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		13={
+			ancient_wonder = yes
+			key="waterfront"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_waterfront"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_waterfront"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_waterfront"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
