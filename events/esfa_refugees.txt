@@ -93,4 +93,112 @@ refugees.1 = { # Arrival of Corelanya Clan
         }
 	}
 }
+
+refugees.2 = { # Ayleid Refugees from Jerall Mountains
+	type = country_event
+	title = "refugees.2.t"
+	desc = "refugees.2.desc"
+	fire_only_once = yes
+	picture = corelanya_clan
+	
+	left_portrait = root.current_ruler
+	
+	trigger = {
+		tag = VAS
+		NOT = { exists = CBN } 
+		NOT = { exists = CBS }
+		NOT = { exists = CAW }
+		NOT = { exists = CAY }
+		NOT = { exists = CBG }
+		NOT = { exists = CBH }
+		NOT = { exists = CBL }
+		p:1330.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1360.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1342.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1316.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1306.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1291.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:1288.owner = {
+			OR = {
+				religion = nedic_pantheon
+				religion = nordic_pantheon
+				religion = imperial_pantheon
+			}
+		}
+		p:2162.owner = {
+			tag = VAS
+		}
+	}
+	
+	option = {
+		name = refugees.2.a
+		p:2329 = {
+            while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = heartlanderelves
+                religion = deadric_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = heartlanderelves
+                religion = deadric_pantheon
+                }
+            } 			
+        }
+		add_treasury = 200
+		add_stability = -10
+		ai_chance = {
+            factor = 80
+        }
+	}
+	
+	option = {
+		name = refugees.2.b
+		ai_chance = {
+            factor = 20
+        }
+	}
+}
+	
 	
