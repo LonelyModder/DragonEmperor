@@ -119,6 +119,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 				good_charisma_effect = yes
 				average_finesse_effect = yes
 				average_zeal_effect = yes
+				add_gold=500
 				save_scope_as = mori_gov
 			}
 			
@@ -138,6 +139,7 @@ alessian_revolt.1 = { # Revolt of ayleid slaves
 				average_finesse_effect = yes
 				average_zeal_effect = yes
 				save_scope_as = alessia_gov
+				add_gold=500
 				marry_character = scope:mori_gov
 			}
 			

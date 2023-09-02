@@ -163,6 +163,21 @@ direnni = {
 	
 }
 
+corelanya = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		global_capital_trade_routes = 2
+		global_commerce_modifier = 0.15
+	}
+	
+}
+
 alesh = {
 	type = status
 	

@@ -22,6 +22,7 @@ character_events.35 = {
 						has_trait = camoran
 						has_trait = direnni
 						has_trait = alesh
+						has_trait = corelanya
 						has_trait = dragonblood
 					}
 				}
@@ -146,6 +147,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = alesh
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = corelanya
+					}
+					NOT = {
+						has_trait = corelanya
+					}
+				}
+				add_trait = corelanya
 			}
 			if = {
 				limit = {
@@ -290,6 +302,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = alesh	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = corelanya
+				}
+				NOT = {
+					has_trait = corelanya
+				}
+			}
+			add_trait = corelanya	
 		}
 		if = {
 			limit = {

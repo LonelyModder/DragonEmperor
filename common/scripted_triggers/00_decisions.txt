@@ -23,6 +23,7 @@ is_tier_2_formable_trigger = {
 is_endgame_tag_trigger = {
 	OR = {
 		tag = XAD #Aldmeri Dominion
+		tag = XDC #Dagerfall Covenant
 	}
 }
 

@@ -2769,6 +2769,112 @@ JominiMultiplayerLobby = {
 				}			
 			}
 			
+			country_flag = {
+				name = "DirenniHegemony"
+				tooltip = "DirenniINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VAS').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[HasDlc( 'The Punic Wars' )]"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('VAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('VAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('VAS')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "DirenniHegemony2"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VAS').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
+				enabled = no
+				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('VAS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('VAS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('VAS')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "GreyHost"
+				tooltip = "GreyINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VBM').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[HasDlc( 'The Punic Wars' )]"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('VBM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('VBM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('VBM')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "GreyHost2"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('VBM').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
+				enabled = no
+				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('VBM').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('VBM').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('VBM')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
 			#New suggested countries
 		}
 	}
