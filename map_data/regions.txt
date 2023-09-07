@@ -13,6 +13,16 @@ modded_tmp_region = {
 	}
 }
 
+modded_quinrawlpeninsula_region = {
+	areas = {
+		senchal_area
+		darvulk_area
+		southguard_area
+		hallsofthecolossus_area
+		kenarthisroost_area #isle
+	}
+}
+
 modded_wrothgar_region = {
 	areas = {
 		oldorsinium_area
