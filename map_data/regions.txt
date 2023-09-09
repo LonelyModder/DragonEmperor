@@ -13,30 +13,43 @@ modded_tmp_region = {
 	}
 }
 
-modded_dune_region = {
+modded_reapersmarch_region = {
 	areas = {
 		darglade_area
 		dune_area
 		srenja_area
-		talongulch_area
-		merryvale_area
-		orcrest_area
-		rimmen_area
 		riverhold_area
 		starhaven_area
 		nightmareplateau_area
-		hakoshae_area
 		lynmount_area
+	}
+}
+
+modded_scar_region = {
+	areas = {
+		nequinal_area
+		darkarn_area
+		helkarn_area
+		hakoshae_area
+		rimmen_area
+		corinthe_area
+		talongulch_area
+		merryvale_area
+		orcrest_area
+	}
+}
+
+modded_quinrawlpeninsula_region = {
+	areas = {
 		senchal_area
 		southguard_area
-		brukra_area
-		alabasti_area
 		darvulk_area
-		torval_area
-		tenmarforest_area
+		brukra_area
 		blackheights_area
 		hallsofthecolossus_area
-		corinthe_area
+		alabasti_area
+		torval_area
+		tenmarforest_area
 		kenarthisroost_area #isle
 	}
 }
