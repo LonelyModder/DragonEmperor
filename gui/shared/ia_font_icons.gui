@@ -51,6 +51,26 @@ texticon = {
 }
 
 texticon = {
+    icon = skooma
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/skooma.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = moonsugar
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/moonsugar.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = ebon
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/ebon.dds"

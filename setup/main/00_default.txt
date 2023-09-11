@@ -674,6 +674,99 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	3662 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3470 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3495 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3505 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3516 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3455 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3511 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3590 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3592 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3631 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3611 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3656 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3660 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3621 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3575 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3577 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3593 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3588 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3584 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3532 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3517 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3493 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3473 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3431 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3434 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3486 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3148 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3091 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3266 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3246 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	3145 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -1761,7 +1854,7 @@ country = {
 		}
 		
 		AAB = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 605
@@ -1837,7 +1930,7 @@ country = {
 		}
 		
 		AAH = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 669
@@ -4108,7 +4201,9 @@ country = {
 			capital = 2554
 			
 			own_control_core = 	{ 
-				2341 2671 2554 2429 					
+				2341 2671 2554 2429 2559 2337 2338 2472 2344 2411 2413 2415 2414 
+				2477 2422 2533 2532 2555 2326 2327 2328 2332 2340 2709 2557 2351
+				2350 2401 2402 2403 2404 2511
 			}
 		}
 		
@@ -4379,18 +4474,18 @@ country = {
 		}
 		
 		VBN = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = sunkeptu
 			religion = nedic_pantheon
 			capital = 2530
 			
 			own_control_core = 	{ 
-				2530 2504 2529 
+				2530 2504 2529 2522 2525
 			}
 		}
 		
 		VBO = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = norhtkeptu
 			religion = nedic_pantheon
 			capital = 2518
@@ -4401,18 +4496,18 @@ country = {
 		}
 		
 		VBP = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = windkeptu
 			religion = nedic_pantheon
 			capital = 2573
 			
 			own_control_core = 	{ 
-				2573 2694 2691
+				2573 2694 2691 2572 2696 2699 2695 
 			}
 		}
 		
 		VBR = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = norhtkeptu
 			religion = nedic_pantheon
 			capital = 2697
@@ -4448,7 +4543,7 @@ country = {
 		}
 		
 		VBT = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2650
@@ -4484,7 +4579,7 @@ country = {
 		}
 		
 		VBW = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2632
@@ -4496,7 +4591,7 @@ country = {
 		}
 		
 		VBY = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2608
@@ -4507,7 +4602,7 @@ country = {
 		}
 		
 		VBZ = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2587
@@ -4524,7 +4619,7 @@ country = {
 			capital = 2480
 			
 			own_control_core = 	{ 
-				2480 2481 2482 2483 2423 2484 2485 2487 2486
+				2480 2481 2482 2483 2423 2484 2485 2487 2486 2488 2490
 			}
 		}
 		
@@ -4573,7 +4668,7 @@ country = {
 		}
 		
 		VCF = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2710
@@ -4628,7 +4723,7 @@ country = {
 		}
 		
 		VCK = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = windkeptu
 			religion = nedic_pantheon
 			capital = 2558
@@ -4661,7 +4756,7 @@ country = {
 		}
 		
 		VCN= {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2543
@@ -4901,7 +4996,7 @@ country = {
 		}
 		
 		HAS = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3276
@@ -5062,7 +5157,7 @@ country = {
 		}
 		
 		HBG = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3240
@@ -5453,6 +5548,17 @@ country = {
 			
 			own_control_core = 	{ 
 				3139
+			}
+		}
+		
+		KAA = {          
+			government = tribal_kingdom
+			primary_culture = senchalan
+			religion = khajiiti_pantheon
+			capital = 3444
+			
+			own_control_core = 	{ 
+				3444
 			}
 		}
 	}
