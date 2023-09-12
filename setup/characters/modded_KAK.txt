@@ -6,6 +6,7 @@
 		birth_date=90.1.1
 		culture="hollowfang"
 		religion="night_pantheon"
+		female=yes
 		no_stats=yes
 		add_martial=7
 		add_charisma=4
@@ -20,5 +21,62 @@
 		c:KAK={
 			set_as_ruler=char:23
 		}
+	}
+	
+	24={
+		#first_name="Nisaazda"
+		family = c:KAK.fam:Hollowfang
+		birth_date=90.1.1
+		culture="hollowfang"
+		religion="night_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=2
+		no_traits=yes
+		add_trait="khajiit"
+		add_trait="lower_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	25={
+		#first_name="Nisaazda"
+		family = c:KAK.fam:Hollowfang
+		birth_date=90.1.1
+		culture="hollowfang"
+		religion="night_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=2
+		no_traits=yes
+		add_trait="khajiit"
+		add_trait="lower_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	26={
+		#first_name="Nisaazda"
+		family = c:KAK.fam:Hollowfang
+		birth_date=90.1.1
+		culture="hollowfang"
+		religion="night_pantheon"
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=6
+		add_zeal=2
+		no_traits=yes
+		add_trait="khajiit"
+		add_trait="lower_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
 	}
 }

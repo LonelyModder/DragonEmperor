@@ -1557,6 +1557,7 @@
 	slaves={
 		amount=6
 	}
+	holy_site="omen_nirni"
 }
 
 3493={ 
@@ -2256,7 +2257,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2275,7 +2276,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2294,7 +2295,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2468,7 +2469,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2487,18 +2488,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -2506,7 +2510,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2525,7 +2529,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2544,7 +2548,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2620,7 +2624,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2658,7 +2662,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2677,7 +2681,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2696,7 +2700,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2715,7 +2719,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2734,7 +2738,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2753,7 +2757,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2772,7 +2776,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2791,18 +2795,24 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
 	}
 	tribesmen={
-		amount=4
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -2810,7 +2820,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2829,7 +2839,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2848,7 +2858,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="nequinalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3256,7 +3266,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3275,7 +3285,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3294,7 +3304,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3351,7 +3361,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3370,7 +3380,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3389,7 +3399,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3408,7 +3418,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3427,7 +3437,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3446,7 +3456,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3465,18 +3475,21 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3484,18 +3497,21 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -3503,7 +3519,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3522,7 +3538,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3541,7 +3557,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3560,7 +3576,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3579,7 +3595,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3598,7 +3614,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3617,7 +3633,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3636,7 +3652,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3655,7 +3671,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3674,7 +3690,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3693,7 +3709,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3712,7 +3728,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3731,18 +3747,21 @@
 	terrain="farmland"
 	trade_goods="grain"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3750,7 +3769,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3769,7 +3788,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3788,7 +3807,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3807,7 +3826,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3826,7 +3845,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3845,7 +3864,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3864,7 +3883,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3883,7 +3902,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3902,7 +3921,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3921,7 +3940,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3940,7 +3959,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3959,7 +3978,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3978,7 +3997,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3997,7 +4016,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4016,7 +4035,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4035,7 +4054,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4054,7 +4073,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4073,18 +4092,21 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -4092,7 +4114,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4111,18 +4133,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -4130,7 +4155,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4149,7 +4174,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4168,7 +4193,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4187,7 +4212,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4206,7 +4231,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4225,7 +4250,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4244,7 +4269,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4263,7 +4288,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4282,7 +4307,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="rimmenic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4301,7 +4326,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4320,7 +4345,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4339,7 +4364,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4358,7 +4383,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4377,7 +4402,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4396,7 +4421,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="orcrestan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4415,7 +4440,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4434,7 +4459,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4453,7 +4478,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4472,7 +4497,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4491,18 +4516,21 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -4510,7 +4538,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4529,7 +4557,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4548,7 +4576,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4567,7 +4595,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4586,7 +4614,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4605,7 +4633,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4624,7 +4652,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4643,7 +4671,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4662,7 +4690,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4681,7 +4709,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4700,18 +4728,21 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="riverholdan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -4719,7 +4750,7 @@
 	terrain="desert"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4738,7 +4769,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4757,7 +4788,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4776,7 +4807,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4795,7 +4826,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4814,7 +4845,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4833,7 +4864,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4852,7 +4883,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4871,7 +4902,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4890,7 +4921,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4909,7 +4940,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4928,18 +4959,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -4947,7 +4981,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4966,7 +5000,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4985,7 +5019,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5004,7 +5038,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5023,7 +5057,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5042,7 +5076,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5061,7 +5095,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5080,7 +5114,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5099,7 +5133,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5118,7 +5152,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5137,18 +5171,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -5156,7 +5193,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="dunaic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5175,7 +5212,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5194,18 +5231,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -5213,7 +5253,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5232,7 +5272,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5251,7 +5291,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5270,7 +5310,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5289,7 +5329,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5308,7 +5348,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5327,18 +5367,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -5346,7 +5389,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5365,7 +5408,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5384,7 +5427,7 @@
 	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
-	culture="wvenedi"
+	culture="kverkarthan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

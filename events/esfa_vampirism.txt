@@ -125,11 +125,11 @@ vampirism.3 = {
 	right_portrait = root.consort
 	
 	trigger = {
+		religion = night_pantheon
 		consort = {
 			NOT = {	has_trait = full_vampire }
 			is_female = yes
 		}
-		religion = night_pantheon
 	}
 	
 	option = { 
