@@ -71,6 +71,16 @@ texticon = {
 }
 
 texticon = {
+    icon = sweats
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/sweats.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = ebon
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/ebon.dds"

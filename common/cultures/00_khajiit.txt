@@ -34,6 +34,7 @@
 		alabastite = {}
 		tenmari = {}
 		corinthan = {}
+		kenarthian = {}
 		#Anequina
 		merivalan = {}
 		orcrestan = {}
@@ -43,7 +44,7 @@
 		riverholdan = {}
 		kverkarthan = {}
 		dunaic = {}
-		hollowfang = {}
+		hollowfang = {levy_template = levy_verkarthic}
 	}
 	
 	barbarian_names = { 

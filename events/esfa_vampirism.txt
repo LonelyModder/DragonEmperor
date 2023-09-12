@@ -5,7 +5,10 @@ vampirism.10 = {
 	hidden = yes
 	
 	trigger = {
-		tag = VBM
+		current_ruler = {
+			has_trait = full_vampire
+		}
+		religion = night_pantheon
 	}
 	
 	immediate = { 
@@ -47,7 +50,7 @@ vampirism.1 = {
 		name = "vampirism.1.a"
 		scope:candidate_gov = { add_trait = lower_vampire }
 		ai_chance = {
-            factor = 20
+            factor = 40
         }
 	}
 	
@@ -55,15 +58,18 @@ vampirism.1 = {
 		name = "vampirism.1.b"
 		scope:candidate_gov = { add_trait = half_vampire }
 		ai_chance = {
-            factor = 20
+            factor = 5
         }
 	}
 	
 	option = { 
 		name = "vampirism.1.c"
+		trigger = { 
+        	tag = VBM
+        }
 		scope:candidate_gov = { add_trait = werewolf }
 		ai_chance = {
-            factor = 20
+            factor = 15
         }
 	}
 	
@@ -84,7 +90,6 @@ vampirism.2 = {
 	left_portrait = root.current_ruler
 	
 	trigger = {
-		tag = VBM
 		current_ruler = {
 			NOT = {	has_trait = full_vampire }
 		}
@@ -120,7 +125,6 @@ vampirism.3 = {
 	right_portrait = root.consort
 	
 	trigger = {
-		tag = VBM
 		consort = {
 			NOT = {	has_trait = full_vampire }
 			is_female = yes
@@ -164,7 +168,6 @@ vampirism.4 = {
 	hidden = yes
 	
 	trigger = {
-		tag = VBM
 		religion = night_pantheon
 	}
 	
@@ -209,7 +212,6 @@ vampirism.5 = {
 	left_portrait = scope:childofnight
 	
 	trigger = {
-		tag = VBM
 		scope:childofnight = {
 			NOT = {	has_trait = full_vampire }
 		}
