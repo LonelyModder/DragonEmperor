@@ -178,6 +178,21 @@ corelanya = {
 	
 }
 
+banequina = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		lv_archars_offensive = 0.1
+		ruler_popularity_gain = 0.05
+	}
+	
+}
+
 alesh = {
 	type = status
 	

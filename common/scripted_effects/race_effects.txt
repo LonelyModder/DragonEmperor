@@ -11,7 +11,7 @@
 			}
 			NOT = { has_trait = bosmer }
 			NOT = { has_trait = goblin }
-			NOT = { has_trait = nede }
+			NOT = { has_trait = tnede }
 			NOT = { has_trait = orc }
 			NOT = { has_trait = minotaur }
 			NOT = { has_trait = khajiit }
@@ -69,12 +69,12 @@
 		else_if = {
 			limit = {
 				OR = {
-					has_culture_group = nede
+					has_culture_group = tnede
 					has_culture_group = keptu
 					has_culture_group = reachmenic
 				}
 			}
-			add_trait = nede
+			add_trait = tnede
 		}
 		else_if = {
 			limit = {

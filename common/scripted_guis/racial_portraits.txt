@@ -126,7 +126,7 @@ is_an_nede_male = {
  
     }
     is_shown = {
-        has_trait = nede
+        has_trait = tnede
 		is_male = yes
     }
 }
@@ -138,7 +138,7 @@ is_an_nede_female = {
  
     }
     is_shown = {
-        has_trait = nede
+        has_trait = tnede
 		is_male = no
     }
 }

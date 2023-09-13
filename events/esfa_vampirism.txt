@@ -126,7 +126,7 @@ vampirism.3 = {
 	
 	trigger = {
 		religion = night_pantheon
-		consort = {
+		root.consort = {
 			NOT = {	has_trait = full_vampire }
 			is_female = yes
 		}
@@ -134,7 +134,7 @@ vampirism.3 = {
 	
 	option = { 
 		name = "vampirism.3.a"
-		consort = {
+		root.consort = {
 			remove_trait = werewolf
 			remove_trait = lower_vampire
 			remove_trait = half_vampire
@@ -142,11 +142,11 @@ vampirism.3 = {
 		}
 		random = {
 			chance = 25
-			consort = { add_trait = depressed }
+			root.consort = { add_trait = depressed }
 		}
 		random = {
 			chance = 25
-			consort = { add_trait = schizophrenic }
+			root.consort = { add_trait = schizophrenic }
 		}
 		capital_scope = {
 			while = {

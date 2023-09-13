@@ -284,6 +284,12 @@ family={
 			culture = hollowfang
 			prestige=300
 		}
+		16={
+			key="Anequina"
+			owner=KAL
+			culture = nequinalan
+			prestige=300
+		}
 		
 		}
 }
@@ -5758,7 +5764,8 @@ country = {
 			}
 		}
 		
-		KAL = {          
+		KAL = { 
+			family = 16
 			government = tribal_kingdom
 			primary_culture = nequinalan
 			religion = khajiiti_pantheon
