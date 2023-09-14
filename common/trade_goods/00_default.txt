@@ -462,6 +462,21 @@ soul_gems = { #Added
 	color = rgb { 255 255 255 }
 }
 
+aeonstone = { #Added
+	category = 4
+	
+	gold = 0.5
+	
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_defensive = 0.05
+	}
+
+	color = rgb { 84 204 33 }
+}
+
 nirnroot = { #Added
 	category = 4
 	

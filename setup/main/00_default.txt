@@ -3810,7 +3810,7 @@ country = {
 		}
 		
 		CCI = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1145
@@ -3854,7 +3854,7 @@ country = {
 		}
 		
 		CCO = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1570
@@ -5754,7 +5754,7 @@ country = {
 		
 		KAK = { 
 			family = 15		
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = hollowfang
 			religion = night_pantheon
 			capital = 3523

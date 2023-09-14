@@ -69,7 +69,7 @@
 		else_if = {
 			limit = {
 				OR = {
-					has_culture_group = tnede
+					has_culture_group = nede
 					has_culture_group = keptu
 					has_culture_group = reachmenic
 				}

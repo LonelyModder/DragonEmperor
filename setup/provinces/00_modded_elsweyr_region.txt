@@ -100,7 +100,7 @@
 
 3366={ 
 	terrain="hills"
-	trade_goods="fish"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="senchalan"
 	civilization_value=0
@@ -119,7 +119,7 @@
 
 3367={ 
 	terrain="hills"
-	trade_goods="salt"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="senchalan"
 	civilization_value=0
@@ -280,7 +280,7 @@
 
 3427={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="senchalan"
 	civilization_value=0
@@ -397,7 +397,7 @@
 
 3433={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="khajiiti_pantheon"
 	culture="senchalan"
 	civilization_value=0
@@ -416,7 +416,7 @@
 
 3434={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="khajiiti_pantheon"
 	culture="senchalan"
 	civilization_value=0
@@ -745,7 +745,7 @@
 
 3451={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -764,7 +764,7 @@
 
 3452={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -802,7 +802,7 @@
 
 3454={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -859,7 +859,7 @@
 
 3457={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -878,7 +878,7 @@
 
 3458={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -897,7 +897,7 @@
 
 3459={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -916,7 +916,7 @@
 
 3460={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="paalatiinite"
 	civilization_value=0
@@ -1128,7 +1128,7 @@
 
 3471={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -1147,7 +1147,7 @@
 
 3472={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -1286,7 +1286,7 @@
 
 3479={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="hemp"
 	religion="khajiiti_pantheon"
 	culture="alabastite"
 	civilization_value=0
@@ -1400,7 +1400,7 @@
 
 3485={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="brukrite"
 	civilization_value=0
@@ -1419,7 +1419,7 @@
 
 3486={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="khajiiti_pantheon"
 	culture="alabastite"
 	civilization_value=0
@@ -1581,7 +1581,7 @@
 
 3494={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="alabastite"
 	civilization_value=0
@@ -1600,7 +1600,7 @@
 
 3495={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -1619,7 +1619,7 @@
 
 3496={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -1793,7 +1793,7 @@
 
 3505={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -1831,7 +1831,7 @@
 
 3507={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -1850,7 +1850,7 @@
 
 3508={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -1907,7 +1907,7 @@
 
 3511={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -1926,7 +1926,7 @@
 
 3512={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="khajiiti_pantheon"
 	culture="alabastite"
 	civilization_value=0
@@ -1983,7 +1983,7 @@
 
 3515={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -2002,7 +2002,7 @@
 
 3516={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -2021,7 +2021,7 @@
 
 3517={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="aeonstone"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -2059,7 +2059,7 @@
 
 3519={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -2078,7 +2078,7 @@
 
 3520={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="night_pantheon"
 	culture="hollowfang"
 	civilization_value=0
@@ -2119,7 +2119,7 @@
 
 3522={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2179,7 +2179,7 @@
 
 3525={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="night_pantheon"
 	culture="hollowfang"
 	civilization_value=0
@@ -2198,7 +2198,7 @@
 
 3526={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2217,7 +2217,7 @@
 
 3527={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2236,7 +2236,7 @@
 
 3528={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="torvalite"
 	civilization_value=0
@@ -2293,7 +2293,7 @@
 
 3531={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2331,7 +2331,7 @@
 
 3533={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2350,7 +2350,7 @@
 
 3534={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2369,7 +2369,7 @@
 
 3535={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -2410,7 +2410,7 @@
 
 3537={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -2429,7 +2429,7 @@
 
 3538={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -2448,7 +2448,7 @@
 
 3539={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2467,7 +2467,7 @@
 
 3540={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2527,7 +2527,7 @@
 
 3543={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2546,7 +2546,7 @@
 
 3544={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2565,7 +2565,7 @@
 
 3545={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -2584,7 +2584,7 @@
 
 3546={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="khajiiti_pantheon"
 	culture="corinthan"
 	civilization_value=0
@@ -2603,7 +2603,7 @@
 
 3547={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2641,7 +2641,7 @@
 
 3549={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2774,7 +2774,7 @@
 
 3556={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2818,7 +2818,7 @@
 
 3558={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2837,7 +2837,7 @@
 
 3559={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2856,7 +2856,7 @@
 
 3560={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="nequinalan"
 	civilization_value=0
@@ -2875,7 +2875,7 @@
 
 3561={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2894,7 +2894,7 @@
 
 3562={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2913,7 +2913,7 @@
 
 3563={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -2932,7 +2932,7 @@
 
 3564={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2951,7 +2951,7 @@
 
 3565={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -2989,7 +2989,7 @@
 
 3567={ 
 	terrain="desert"
-	trade_goods="wild_game"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -3008,7 +3008,7 @@
 
 3568={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="helkarnite"
 	civilization_value=0
@@ -3188,7 +3188,7 @@
 
 3577={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -3226,7 +3226,7 @@
 
 3579={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -3321,7 +3321,7 @@
 
 3584={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -3340,7 +3340,7 @@
 
 3585={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="merivalan"
 	civilization_value=0
@@ -3359,7 +3359,7 @@
 
 3586={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3378,7 +3378,7 @@
 
 3587={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3397,7 +3397,7 @@
 
 3588={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3416,7 +3416,7 @@
 
 3589={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3435,7 +3435,7 @@
 
 3590={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3593,7 +3593,7 @@
 
 3598={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -3631,7 +3631,7 @@
 
 3600={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -3805,7 +3805,7 @@
 
 3609={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -3843,7 +3843,7 @@
 
 3611={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -3862,7 +3862,7 @@
 
 3612={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -3881,7 +3881,7 @@
 
 3613={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3900,7 +3900,7 @@
 
 3614={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -3919,7 +3919,7 @@
 
 3615={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -3995,7 +3995,7 @@
 
 3619={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4014,7 +4014,7 @@
 
 3620={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4052,7 +4052,7 @@
 
 3622={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4071,7 +4071,7 @@
 
 3623={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4090,7 +4090,7 @@
 
 3624={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4153,7 +4153,7 @@
 
 3627={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4191,7 +4191,7 @@
 
 3629={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4210,7 +4210,7 @@
 
 3630={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4248,7 +4248,7 @@
 
 3632={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4267,7 +4267,7 @@
 
 3633={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4286,7 +4286,7 @@
 
 3634={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4305,7 +4305,7 @@
 
 3635={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="rimmenic"
 	civilization_value=0
@@ -4343,7 +4343,7 @@
 
 3637={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4362,7 +4362,7 @@
 
 3638={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4400,7 +4400,7 @@
 
 3640={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4419,7 +4419,7 @@
 
 3641={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="orcrestan"
 	civilization_value=0
@@ -4438,7 +4438,7 @@
 
 3642={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4612,7 +4612,7 @@
 
 3651={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -4631,7 +4631,7 @@
 
 3652={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4650,7 +4650,7 @@
 
 3653={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4669,7 +4669,7 @@
 
 3654={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4688,7 +4688,7 @@
 
 3655={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="riverholdan"
 	civilization_value=0
@@ -4748,7 +4748,7 @@
 
 3658={ 
 	terrain="desert"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -4786,7 +4786,7 @@
 
 3660={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -4805,7 +4805,7 @@
 
 3661={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -4824,7 +4824,7 @@
 
 3662={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -4919,7 +4919,7 @@
 
 3667={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -4938,7 +4938,7 @@
 
 3668={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -4979,7 +4979,7 @@
 
 3670={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5036,7 +5036,7 @@
 
 3673={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5055,7 +5055,7 @@
 
 3674={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5112,7 +5112,7 @@
 
 3677={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5131,7 +5131,7 @@
 
 3678={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5150,7 +5150,7 @@
 
 3679={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -5191,7 +5191,7 @@
 
 3681={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="khajiiti_pantheon"
 	culture="dunaic"
 	civilization_value=0
@@ -5210,7 +5210,7 @@
 
 3682={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -5251,7 +5251,7 @@
 
 3684={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -5270,7 +5270,7 @@
 
 3685={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -5289,7 +5289,7 @@
 
 3686={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0
@@ -5327,7 +5327,7 @@
 
 3688={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="khajiiti_pantheon"
 	culture="kverkarthan"
 	civilization_value=0

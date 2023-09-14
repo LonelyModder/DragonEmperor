@@ -201,14 +201,7 @@ alessian_revolt.2 = { # The Choice
 			religion = deadric_pantheon
 		}
 		capital_scope = { 
-			OR = {
-				is_in_region = modded_sjerall_region
-				is_in_region = modded_chaydinhal_region
-				is_in_region = modded_nibenbasin_region
-			}
-		}
-		current_ruler = {
-			has_bloodline_trigger = no
+			is_in_region = modded_sjerall_region
 		}
 	}
 	
@@ -224,22 +217,20 @@ alessian_revolt.2 = { # The Choice
         #    }
         #}
 		ai_chance = {
-            factor = 70
+            factor = 90
         }
 	}
 	
 	option = {
 		name = alessian_revolt.2.b
 		ai_chance = {
-            factor = 30
+            factor = 10
         }
 	}
 }
 
 alessian_revolt.3 = { # Alessian cores
 	type = country_event
-	title = "alessian_revolt.3.t"
-	desc = "alessian_revolt.3.desc"
 	fire_only_once = yes
 	hidden = yes
 	picture = alessian_revolution
@@ -254,8 +245,7 @@ alessian_revolt.3 = { # Alessian cores
 		has_country_modifier = cymmerian_invasion_modifier
 	}
 	
-	option = {
-		name = alessian_revolt.3.a
+	immediate = {
 		region:modded_goldcoast_region = { formable_region_province_effect = yes }
 		region:modded_kvatch_region = { formable_region_province_effect = yes }
 		region:modded_skingrad_region = { formable_region_province_effect = yes }
@@ -283,9 +273,10 @@ alessian_revolt.4 = { #Dragonblood
 	immediate = {
 		every_character = {
 			limit = {
-				has_same_family = scope:current_ruler
+				has_same_family = scope:alessia_gov
 			}
-			add_trait = alesh
+			NOT = { has_trait = dragonblood }
+			add_trait = dragonblood
 		
 		}
 		hidden_effect = {
@@ -334,5 +325,26 @@ alessian_revolt.5 = { # Capital in Sancre Tor
 			formable_capital_modifier_normal_effect = yes
 		}
 		add_stability = 25
+	}
+}
+
+alessian_revolt.6 = { # Pelinal Leadership
+	type = country_event
+	title = "alessian_revolt.6.t"
+	desc = "alessian_revolt.6.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		has_country_modifier = cymmerian_invasion_modifier
+		scope:pelinal_gov = { is_alive = yes }
+		stability <= 30
+	}
+	
+	option = {
+		name = alessian_revolt.6.a
+		add_stability = 50
 	}
 }
