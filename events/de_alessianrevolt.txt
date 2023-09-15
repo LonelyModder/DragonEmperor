@@ -200,6 +200,7 @@ alessian_revolt.2 = { # The Choice
 				is_in_region = modded_chaydinhal_region
 			}
 		}
+		p:1290.owner = { is_ai = yes }
 	}
 	
 	option = {
