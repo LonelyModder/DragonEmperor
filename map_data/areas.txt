@@ -898,7 +898,7 @@ shatteredgrove_area = {
 }
 
 tanzelwil_area = { 
-    provinces = { 738 739 741 743 744 746 747 748 752 758 757 740 }
+    provinces = { 738 739 741 743 744 746 747 748 752 758 757 }
 }
 
 phaer_area = { 
@@ -1026,5 +1026,5 @@ crystaltower_area = {
 }
 
 artaeum_area = { 
-    provinces = { 8 10 671 672 673 674 675 676 }
+    provinces = { 8 10 671 672 673 674 675 676 740 }
 }

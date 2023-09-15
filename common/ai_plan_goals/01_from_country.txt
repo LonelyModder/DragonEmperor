@@ -31,6 +31,7 @@ is_noninvader_trigger = {
 	trigger = {
 		OR = {
 			country_culture_group = imga
+			country_culture_group = khajiit
 			country_culture_group = bosmer
 		}
 	}

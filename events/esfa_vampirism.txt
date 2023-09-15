@@ -128,7 +128,6 @@ vampirism.3 = {
 		religion = night_pantheon
 		root.consort = {
 			NOT = {	has_trait = full_vampire }
-			is_female = yes
 		}
 	}
 	

@@ -194,14 +194,11 @@ alessian_revolt.2 = { # The Choice
 			religion = nedic_pantheon
 		}
 		NOT = { has_country_modifier = cymmerian_invasion_modifier }
-		OR = {
-			religion = nedic_pantheon
-			religion = nordic_pantheon
-			religion = elven_pantheon
-			religion = deadric_pantheon
-		}
-		capital_scope = { 
-			is_in_region = modded_sjerall_region
+		capital_scope = {
+			OR = {
+				is_in_region = modded_sjerall_region
+				is_in_region = modded_chaydinhal_region
+			}
 		}
 	}
 	
@@ -339,7 +336,7 @@ alessian_revolt.6 = { # Pelinal Leadership
 	
 	trigger = {
 		has_country_modifier = cymmerian_invasion_modifier
-		scope:pelinal_gov = { is_alive = yes }
+		trigger = { exists = scope:pelinal_gov }
 		stability <= 30
 	}
 	

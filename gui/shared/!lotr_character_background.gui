@@ -517,19 +517,6 @@ types WotrGuiTypes
       visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)2531'), And( Not(Character.HasArmy), Character.IsAlive )))]"
     }
 	icon = {
-      texture = "gfx/interface/portrait/background_bosmer_huge.dds"
-      spriteType = Corneredtiled
-      size = { 100% 100% }
-      modify_texture = {
-        name = "Alpha"
-        block "AlphaTexture" { texture = "gfx/interface/base_parts/portrait_x32y32bd_alpha.dds" }
-        blend_mode = alphamultiply
-        spriteType = Corneredtiled
-        spriteborder = { 4 4 }
-      }
-      visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)1895'), And( Not(Character.HasArmy), Character.IsAlive )))]"
-    }
-	icon = {
       texture = "gfx/interface/portrait/background_whitegold_huge.dds"
       spriteType = Corneredtiled
       size = { 100% 100% }
@@ -541,6 +528,19 @@ types WotrGuiTypes
         spriteborder = { 4 4 }
       }
       visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)1071'), And( Not(Character.HasArmy), Character.IsAlive )))]"
+    }
+	icon = {
+      texture = "gfx/interface/portrait/background_bosmer_huge.dds"
+      spriteType = Corneredtiled
+      size = { 100% 100% }
+      modify_texture = {
+        name = "Alpha"
+        block "AlphaTexture" { texture = "gfx/interface/base_parts/portrait_x32y32bd_alpha.dds" }
+        blend_mode = alphamultiply
+        spriteType = Corneredtiled
+        spriteborder = { 4 4 }
+      }
+      visible = "[And( EqualTo_int32(Character.GetLocation.GetId, '(int32)1895'), And( Not(Character.HasArmy), Character.IsAlive )))]"
     }
     icon = {
       texture = "gfx/interface/portrait/background_mordor_huge.dds"
