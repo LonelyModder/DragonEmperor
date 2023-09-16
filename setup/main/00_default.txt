@@ -290,6 +290,18 @@ family={
 			culture = nequinalan
 			prestige=300
 		}
+		17={
+			key="Walya"
+			owner=CBY
+			culture = heartlanderelves
+			prestige=300
+		}
+		18={
+			key="Tharn"
+			owner=CBY
+			culture = nednibenese
+			prestige=300
+		}
 		
 		}
 }
@@ -3257,7 +3269,9 @@ country = {
 			}
 		}
 		
-		CBY = {          
+		CBY = {    
+			family = 17
+			family = 18
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon

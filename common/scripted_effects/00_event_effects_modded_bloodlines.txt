@@ -21,6 +21,7 @@ pass_down_traits_effect = {
 						has_trait = corelanya
 						has_trait = banequina
 						has_trait = dragonblood
+						has_trait = tharn
 					}
 				}
 						
@@ -190,7 +191,17 @@ pass_down_traits_effect = {
 				}
 				add_trait = dragonblood
 			}
-			
+			if = {
+				limit = {
+					father = {
+						has_trait = tharn
+					}
+					NOT = {
+						has_trait = tharn
+					}
+				}
+				add_trait = tharn
+			}
 		}
 		if = {
 			limit = {
@@ -372,6 +383,18 @@ pass_down_traits_effect = {
 			}
 			add_trait = dragonblood
 		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = tharn
+				}
+				NOT = {
+					has_trait = tharn
+				}
+			}
+			add_trait = tharn
+		}
 	}
 }
 
@@ -495,5 +518,13 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = dragonblood
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = tharn
+			}
+		}
+		add_trait = tharn
 	}
 }

@@ -193,6 +193,21 @@ banequina = {
 	
 }
 
+tharn = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		global_tax_modifier = 0.10
+		global_slaves_output = 0.1
+	}
+	
+}
+
 alesh = {
 	type = status
 	
