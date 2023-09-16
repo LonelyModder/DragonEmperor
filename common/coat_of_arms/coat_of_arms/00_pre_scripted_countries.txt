@@ -322,3 +322,51 @@ HKHighRock_FLAG = { #Kingdom of High Rock
 		color1 = rgb { 255 255 255 }
 	}
 }
+
+KAL = { #Kingdom of Anequina
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 105 36 12 }
+	color2 = rgb { 105 36 12 }
+
+	colored_emblem = {
+		texture = "ce_anequina.dds"
+		color1 = rgb { 224 144 22 }
+		color2 = rgb { 255 255 255 }
+	}
+}
+
+KAC = { #Kingdom of Palatine
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 230 150 30 }
+	color2 = rgb { 230 150 30 }
+
+	colored_emblem = {
+		texture = "ce_palatine.dds"
+		color1 = rgb { 69 30 8 }
+		color2 = rgb { 255 255 255 }
+	}
+}
+
+HKElsweyr_flag = { #Kingdom of Elsweyr
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 140 41 24 }
+	color2 = rgb { 140 41 24 }
+
+	colored_emblem = {
+		texture = "ce_elsweyr.dds"
+		color1 = rgb { 184 121 6 }
+		color2 = rgb { 242 187 85 }
+	}
+}
+
+EMoonEmpire_flag = { #Moon Empire
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 140 41 24 }
+	color2 = rgb { 140 41 24 }
+
+	colored_emblem = {
+		texture = "ce_moonempire.dds"
+		color1 = rgb { 184 121 6 }
+		color2 = rgb { 242 187 85 }
+	}
+}

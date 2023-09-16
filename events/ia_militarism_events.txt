@@ -29,6 +29,7 @@ militarism_events.1 = {
 					country_culture_group = orcish
 					country_culture_group = bosmer
 					country_culture_group = nordic
+					country_culture_group = khajiit
 				}				
 			}
 			add_country_modifier = {
@@ -39,8 +40,7 @@ militarism_events.1 = {
 		else_if = {
 			limit = {
 				OR = {
-					country_culture_group = imga
-					country_culture_group = dwemer					
+					country_culture_group = imga				
 				}				
 			}
 			add_country_modifier = {

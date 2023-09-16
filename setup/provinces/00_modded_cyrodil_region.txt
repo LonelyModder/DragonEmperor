@@ -81,7 +81,7 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="goblin_pantheon"
-	culture="gobsea"
+	culture="nedstrident"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7746,8 +7746,8 @@
 	}
 	slaves={
 		amount=4
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
+		culture="nednibenese"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -7787,8 +7787,8 @@
 	}
 	slaves={
 		amount=4
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
+		culture="nednibenese"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -7798,8 +7798,8 @@
 1189={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7855,8 +7855,8 @@
 1192={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7893,8 +7893,8 @@
 1194={ 
 	terrain="forest"
 	trade_goods="leather"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7931,8 +7931,8 @@
 1196={ 
 	terrain="forest"
 	trade_goods="leather"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7950,8 +7950,8 @@
 1197={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="nednibenese"
+	religion="khajiiti_pantheon"
+	culture="nibeneank"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8028,22 +8028,24 @@
 1201={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="heartlanderelves"
+	religion="khajiiti_pantheon"
+	culture="nibeneank"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=2
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
 	}
 	slaves={
 		amount=1
 	}
+	holy_site="omen_magrus"
 }
 
 1202={ 
@@ -8141,8 +8143,8 @@
 	}
 	slaves={
 		amount=4
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
+		culture="nednibenese"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -8162,8 +8164,8 @@
 	}
 	slaves={
 		amount=4
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
+		culture="nednibenese"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -8173,8 +8175,8 @@
 1208={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8192,8 +8194,8 @@
 1209={ 
 	terrain="forest"
 	trade_goods="salt"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8211,8 +8213,8 @@
 1210={ 
 	terrain="forest"
 	trade_goods="wild_game"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8230,19 +8232,16 @@
 1211={ 
 	terrain="forest"
 	trade_goods="amber"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=2
-	}
 	tribesmen={
-		amount=5
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8252,8 +8251,8 @@
 1212={ 
 	terrain="forest"
 	trade_goods="amber"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8271,8 +8270,8 @@
 1213={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8290,8 +8289,8 @@
 1214={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="khajiiti_pantheon"
-	culture="nibeneank"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17284,7 +17283,7 @@
 
 1676={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="nednibenese"
 	civilization_value=0
@@ -17341,7 +17340,7 @@
 
 1679={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
 	culture="argblackwood"
 	civilization_value=0
@@ -17539,8 +17538,8 @@
 	}
 	tribesmen={
 		amount=3
-		culture="nibeneank"
-		religion="khajiiti_pantheon"
+		culture="nednibenese"
+		religion="elven_pantheon"
 	}
 	slaves={
 		amount=3

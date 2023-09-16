@@ -2,6 +2,7 @@
 
 	events = {
 		race_startup.1 
+		race_startup.2
 		family_events.1 #Rise of a Family
 		family_events.2 #Prune Family
 		family_events.5 #Rise of new Royal Dynasty
@@ -37,6 +38,8 @@
 		#Refugees in Direnni lands
 		refugees.1
 		refugees.2
+		#The Pelinal Leadership (workround)
+		alessian_revolt.6 
 	}
 	
 	random_events = {

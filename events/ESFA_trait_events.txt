@@ -19,7 +19,7 @@ esfa_traits.1 = {
 				}
 				NOT = { has_trait = bosmer }
 				NOT = { has_trait = goblin }
-				NOT = { has_trait = nede }
+				NOT = { has_trait = tnede }
 				NOT = { has_trait = orc }
 				NOT = { has_trait = minotaur }
 				NOT = { has_trait = khajiit }
@@ -33,93 +33,90 @@ esfa_traits.1 = {
 			}
 			if = {
 				limit = {
-					OR = {
-						father = { has_trait = minotaur }
-						mother = { has_trait = minotaur }
-					}
+					mother = { has_trait = minotaur } # Create the Half-Breeds? 
 				}
 				add_trait = minotaur
 			}
 			else_if = {
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = altmer }
 				}
 				add_trait = altmer
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = bosmer }
 				}
 				add_trait = bosmer
 			}	
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
-					mother = { has_trait = nede }
+					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = tnede }
 				}
-				add_trait = nede
+				add_trait = tnede
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = breton }
 				}
 				add_trait = breton
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = falmer }
 				}
 				add_trait = falmer
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = dwemer }
 				}
 				add_trait = dwemer
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = goblin }
 				}
 				add_trait = goblin
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = orc }
 				}
 				add_trait = orc
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = imga }
 				}
 				add_trait = imga
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = khajiit }
 				}
 				add_trait = khajiit
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = argonian }
 				}
 				add_trait = argonian
 			}
 			else_if = { 
 				limit = {
-					NOT = { father = { has_trait = minotaur } }
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = nord }
 				}
 				add_trait = nord
@@ -139,7 +136,7 @@ esfa_traits.1 = {
 								OR = { 
 									has_trait = ayleid
 									has_trait = bosmer 	
-									has_trait = nede 
+									has_trait = tnede 
 									has_trait = goblin 
 									has_trait = orc
 									has_trait = khajiit

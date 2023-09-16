@@ -147,7 +147,7 @@ treasure_manager = {
 		}
 		21 = { # Dark Witness Clan
 			key = "treasure_hagravenmatriarch"
-			icon = "treasure_starue"
+			icon = "treasure_architecture"
 			state_modifier = {
 				local_tribesmen_happyness = 0.1
 			}
@@ -164,6 +164,27 @@ treasure_manager = {
 			icon = "treasure_chest"
 			state_modifier = {
 				local_manpower_modifier = 0.1
+			}
+		}
+		24 = { # Torval
+			key = "treasure_mane"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_manpower_modifier = 0.1
+			}
+		}
+		25 = { # Borderwatch
+			key = "treasure_prophecies"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_tribesmen_happyness = 0.1
+			}
+		}
+		26 = { # Garlas Malatar
+			key = "treasure_rightwrathstone"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
 			}
 		}
     }
@@ -257,6 +278,18 @@ family={
 			culture = greykeptu
 			prestige=300
 		}
+		15={
+			key="Hollowfang"
+			owner=KAK
+			culture = hollowfang
+			prestige=300
+		}
+		16={
+			key="Anequina"
+			owner=KAL
+			culture = nequinalan
+			prestige=300
+		}
 		
 		}
 }
@@ -293,7 +326,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 11 } }
 	}
 	814 = { # Garlas Malatar
-		treasure_slots = { 	treasures = { 12 } }
+		treasure_slots = { 	treasures = { 12 26 } }
 	}
 	889 = { # Miscarcand
 		treasure_slots = { 	treasures = { 13 } }
@@ -325,8 +358,16 @@ provinces = { #Any entry must contain a comment with city name.
 	3276 = { # Fharun
 		treasure_slots = { 	treasures = { 23 } }
 	}
+	3492 = { # Torval
+		treasure_slots = { 	treasures = { 24 } }
+	}
+	1201 = { # Borderwatch
+		treasure_slots = { 	treasures = { 25 } }
+	}
 
 	#Pirates
+	3368 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	3362 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	787 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	765 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
 	770 = { modifier = { modifier = pirate_haven_modifier always = yes } } 
@@ -335,7 +376,6 @@ provinces = { #Any entry must contain a comment with city name.
 	1173 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	2076 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	2102 = { modifier = { modifier = pirate_haven_modifier always = yes } }
-	2100 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3129 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3240 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3011 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -370,6 +410,28 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	3240 = {
+		port_building = 1
+	}
+	3478 = {
+		port_building = 1
+	}
+	3362 = {
+		port_building = 1
+	}
+	3431 = {
+		port_building = 1
+	}
+	3424 = {
+		port_building = 1
+		fortress_building = 1
+	}
+	3368 = {
+		port_building = 1
+	}
+	3444 = {
+		port_building = 1
+	}
+	3367 = {
 		port_building = 1
 	}
 	3103 = {
@@ -674,6 +736,99 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	3662 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3470 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3495 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3505 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3516 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3455 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3511 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3590 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3592 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3631 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3611 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3656 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3660 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3621 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3575 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3577 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3593 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3588 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3584 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3532 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3517 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3493 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3473 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3431 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3434 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3486 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3148 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3091 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3266 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3246 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	3145 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -1356,6 +1511,30 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	3417 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3376 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3393 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3398 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3408 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3412 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3406 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3389 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	2890 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -1761,7 +1940,7 @@ country = {
 		}
 		
 		AAB = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 605
@@ -1837,7 +2016,7 @@ country = {
 		}
 		
 		AAH = {
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 669
@@ -2129,7 +2308,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 
+				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 790
 			}
 		}
 		
@@ -2971,9 +3150,8 @@ country = {
 			own_control_core = 	{ 
 				1199 1635 1636 1634 1633 1632 1631 1618 1617
 				1651 1641 1637 1200 1652 1642 1638 1654 1643 1639
-				1190 1191 1193 1195 1197 1603 1607 1608 1606 
+				1190 1191 1193 1195 1603 1607 1608 1606 1196
 				1653 1644 1640 1630 1629 1619 1620 1189 1192 1194 
-				1196 1198
 			}
 		}
 		
@@ -3300,7 +3478,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				1201 1202 1203 1205 1206 1208 1210 1209 1207 1216 1215 1204
+				1202 1203 1205 1206 1208 1210 1209 1207 1216 1215 1204 1211 1212 1213 1214
 			}
 		}
 		
@@ -3632,7 +3810,7 @@ country = {
 		}
 		
 		CCI = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1145
@@ -3676,7 +3854,7 @@ country = {
 		}
 		
 		CCO = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1570
@@ -3745,10 +3923,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = nibeneank
 			religion = khajiiti_pantheon
-			capital = 1211
+			capital = 1201
 			
 			own_control_core = 	{ 
-				1211 1212 1213 1214
+				1201 1198 1197
 			}
 		}
 		
@@ -4108,7 +4286,9 @@ country = {
 			capital = 2554
 			
 			own_control_core = 	{ 
-				2341 2671 2554 2429 					
+				2341 2671 2554 2429 2559 2337 2338 2472 2344 2411 2413 2415 2414 
+				2477 2422 2533 2532 2555 2326 2327 2328 2332 2340 2709 2557 2351
+				2350 2401 2402 2403 2404 2511
 			}
 		}
 		
@@ -4379,18 +4559,18 @@ country = {
 		}
 		
 		VBN = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = sunkeptu
 			religion = nedic_pantheon
 			capital = 2530
 			
 			own_control_core = 	{ 
-				2530 2504 2529 
+				2530 2504 2529 2522 2525
 			}
 		}
 		
 		VBO = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = norhtkeptu
 			religion = nedic_pantheon
 			capital = 2518
@@ -4401,18 +4581,18 @@ country = {
 		}
 		
 		VBP = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = windkeptu
 			religion = nedic_pantheon
 			capital = 2573
 			
 			own_control_core = 	{ 
-				2573 2694 2691
+				2573 2694 2691 2572 2696 2699 2695 
 			}
 		}
 		
 		VBR = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = norhtkeptu
 			religion = nedic_pantheon
 			capital = 2697
@@ -4448,7 +4628,7 @@ country = {
 		}
 		
 		VBT = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2650
@@ -4484,7 +4664,7 @@ country = {
 		}
 		
 		VBW = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2632
@@ -4496,7 +4676,7 @@ country = {
 		}
 		
 		VBY = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2608
@@ -4507,7 +4687,7 @@ country = {
 		}
 		
 		VBZ = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = nedkeptu
 			religion = nedic_pantheon
 			capital = 2587
@@ -4524,7 +4704,7 @@ country = {
 			capital = 2480
 			
 			own_control_core = 	{ 
-				2480 2481 2482 2483 2423 2484 2485 2487 2486
+				2480 2481 2482 2483 2423 2484 2485 2487 2486 2488 2490
 			}
 		}
 		
@@ -4546,7 +4726,7 @@ country = {
 			capital = 2366
 			
 			own_control_core = 	{ 
-				2366 2363 2362 2371 2370
+				2366 2363 2362 2371 2370 2361
 			}
 		}
 		
@@ -4557,7 +4737,7 @@ country = {
 			capital = 2406
 			
 			own_control_core = 	{ 
-				2406 2405 2399 2407 2424
+				2406 2405 2399 2407 2424 2408 2409 2410
 			}
 		}
 		
@@ -4568,18 +4748,18 @@ country = {
 			capital = 2435
 			
 			own_control_core = 	{ 
-				2435 2436 2457
+				2435 2436 2457 2460 2459 2458 2437 2450 2449
 			}
 		}
 		
 		VCF = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2710
 			
 			own_control_core = 	{ 
-				2710 2526
+				2710 2526 2680 2478
 			}
 		}
 		
@@ -4628,13 +4808,13 @@ country = {
 		}
 		
 		VCK = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = windkeptu
 			religion = nedic_pantheon
 			capital = 2558
 			
 			own_control_core = 	{ 
-				2558 2343
+				2558 2343 2556 2471 2669 2474
 			}
 		}
 		
@@ -4661,7 +4841,7 @@ country = {
 		}
 		
 		VCN= {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2543
@@ -4901,7 +5081,7 @@ country = {
 		}
 		
 		HAS = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3276
@@ -5062,7 +5242,7 @@ country = {
 		}
 		
 		HBG = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3240
@@ -5453,6 +5633,461 @@ country = {
 			
 			own_control_core = 	{ 
 				3139
+			}
+		}
+		
+		KAA = {          
+			government = tribal_kingdom
+			primary_culture = senchalan
+			religion = khajiiti_pantheon
+			capital = 3444
+			
+			own_control_core = 	{ 
+				3444 3443 3441 3440 3439 3438 3435 3436 3437
+				3424 3423 3370 3368 3369 3425 3426 3427 3428 3429
+				3430 3431 3433 3434 3432 3366 3367 
+			}
+		}
+		
+		KAB = {          
+			government = tribal_kingdom
+			primary_culture = kenarthian
+			religion = khajiiti_pantheon
+			capital = 3362
+			
+			own_control_core = 	{ 
+				3362 3363 3364 3365 3361
+			}
+		}
+		
+		KAC = {          
+			government = tribal_kingdom
+			primary_culture = paalatiinite
+			religion = khajiiti_pantheon
+			capital = 3448
+			
+			own_control_core = 	{ 
+				3448 3447 3449 3453 3454 3455 3452 3464
+				3442 3451 3456 3457 3458 3459 3460 3466
+			}
+		}
+		
+		KAD = {          
+			government = tribal_kingdom
+			primary_culture = torvalite
+			religion = khajiiti_pantheon
+			capital = 3492
+			
+			own_control_core = 	{ 
+				3492 3473 3467 3468 3469 3470 3471 3472 3516
+				3474 3490 3491 3499 3508 3493 3509 3515 3528
+				3518 3517 3500 3519 3511 3506
+			}
+		}
+		
+		KAE = {          
+			government = tribal_kingdom
+			primary_culture = tenmari
+			religion = khajiiti_pantheon
+			capital = 3463
+			
+			own_control_core = 	{ 
+				3463 3461 3462 3465 3487 3488 3489 3498 3497 3503 
+			}
+		}
+		
+		KAF = {          
+			government = tribal_kingdom
+			primary_culture = brukrite
+			religion = khajiiti_pantheon
+			capital = 3476
+			
+			own_control_core = 	{ 
+				3476 3475 3445 3446 3450 3482 3481 3484 3483 3501 3485 3502
+			}
+		}
+		
+		KAG = {          
+			government = tribal_kingdom
+			primary_culture = alabastite
+			religion = khajiiti_pantheon
+			capital = 3478
+			
+			own_control_core = 	{ 
+				3478 3477 3480 3479 3486 3494 3512 3510 3513 3514
+			}
+		}
+		
+		KAH = {          
+			government = tribal_kingdom
+			primary_culture = corinthan
+			religion = khajiiti_pantheon
+			capital = 3536
+			
+			own_control_core = 	{ 
+				3536 3505 3504 3496 3495 3537 3538 3535 3545 3546 3507
+			}
+		}
+		
+		KAI = {          
+			government = tribal_kingdom
+			primary_culture = helkarnite
+			religion = khajiiti_pantheon
+			capital = 3569
+			
+			own_control_core = 	{ 
+				3532 3568 3564 3565 3569 3547 3567 3566 3561 3562 3549 3539
+			}
+		}
+		
+		KAJ = {          
+			government = tribal_kingdom
+			primary_culture = merivalan
+			religion = khajiiti_pantheon
+			capital = 3574
+			
+			own_control_core = 	{ 
+				3572 3573 3574 3577 3579 3575 3576 3585 3584 3580 3570 3571
+				3563 3534 3533 3521 3524 3578 3522 3527 3526
+			}
+		}
+		
+		KAK = { 
+			family = 15		
+			government = despotic_monarchy
+			primary_culture = hollowfang
+			religion = night_pantheon
+			capital = 3523
+			
+			own_control_core = 	{ 
+				3523 3520 3525
+			}
+		}
+		
+		KAL = { 
+			family = 16
+			government = tribal_kingdom
+			primary_culture = nequinalan
+			religion = khajiiti_pantheon
+			capital = 3557
+			
+			own_control_core = 	{ 
+				3558 3559 3556 3557 3554 3555 3560 3550 3551 3552
+				3530 3531 3541 3544 3543 3542 3540 3548 3553 3529
+			}
+		}
+		
+		KAM = {          
+			government = tribal_kingdom
+			primary_culture = rimmenic
+			religion = khajiiti_pantheon
+			capital = 3606
+			
+			own_control_core = 	{ 
+				3601 3607 3608 3605 3606 3602 3600 3603 3610 3604 3609 3599
+				3598 3597 3596 3595 3594 3611 3622 3619 3620 3623 3624 3612
+				3631 3628 3627 3625 3629 3626 3633 3635 3634 3632 3630
+			}
+		}
+		
+		KAN = {          
+			government = tribal_kingdom
+			primary_culture = orcrestan
+			religion = khajiiti_pantheon
+			capital = 3592
+			
+			own_control_core = 	{ 
+				3592 3591 3593 3586 3587 3588 3590 3613 3618 3589 3641 3615 3616 3617 
+			}
+		}
+		
+		KAO = {          
+			government = tribal_kingdom
+			primary_culture = riverholdan
+			religion = khajiiti_pantheon
+			capital = 3646
+			
+			own_control_core = 	{ 
+				 3645 3646 3643 3644 3648 3649 3650 3636 3647 3639
+				 3657 3656 3655 3654 3642 3640 3637 3638 3653 3652
+			}
+		}
+		
+		KAP = {          
+			government = tribal_kingdom
+			primary_culture = dunaic
+			religion = khajiiti_pantheon
+			capital = 3680
+			
+			own_control_core = 	{ 
+				 3651 3668 3667 3669 3670 3672 3671 3674 3673 3675 3676
+				 3680 3681 3678 3677
+			}
+		}
+		
+		KAR = {          
+			government = tribal_kingdom
+			primary_culture = kverkarthan
+			religion = khajiiti_pantheon
+			capital = 3683
+			
+			own_control_core = 	{ 
+				3689 3693 3692 3691 3690 3666 3665 3663 3583 3581 3582 3664
+				3688 3685 3682 3683 3686 3687 3684 3679 3662 3614 3621 3661 
+				3659 3658 3660
+			}
+		}
+		
+		KAS = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 783
+			
+			own_control_core = 	{ 
+				778 779 780 781 782 783 784 785
+			}
+		}
+		
+		KAT = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 777
+			
+			own_control_core = 	{ 
+				777 774 775 776
+			}
+		}
+		
+		KAU = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 792
+			
+			own_control_core = 	{ 
+				792 791 796 795 794 793
+			}
+		}
+		
+		KAW = {          
+			government = tribal_kingdom
+			primary_culture = windkeptu
+			religion = nedic_pantheon
+			capital = 2706
+			
+			own_control_core = 	{ 
+				2706 2707 2708 2670 2713
+			}
+		}
+		
+		KAY = {          
+			government = tribal_kingdom
+			primary_culture = sunkeptu
+			religion = nedic_pantheon
+			capital = 2431
+			
+			own_control_core = 	{ 
+				2431 2470 2499 2430
+			}
+		}
+		
+		KAZ = {          
+			government = tribal_kingdom
+			primary_culture = nedkeptu
+			religion = nedic_pantheon
+			capital = 2659
+			
+			own_control_core = 	{ 
+				2659 2718 2717
+			}
+		}
+		
+		KBA = {          
+			government = tribal_kingdom
+			primary_culture = windkeptu
+			religion = nedic_pantheon
+			capital = 2661
+			
+			own_control_core = 	{ 
+				2661 2571 2664 2662 2663
+			}
+		}
+		
+		KBB = {          
+			government = tribal_kingdom
+			primary_culture = windkeptu
+			religion = nedic_pantheon
+			capital = 2566
+			
+			own_control_core = 	{ 
+				2566 2567 2549 2548 2666 2342 2714
+			}
+		}
+		
+		KBC = {          
+			government = tribal_kingdom
+			primary_culture = windkeptu
+			religion = nedic_pantheon
+			capital = 2541
+			
+			own_control_core = 	{ 
+				2541 2540 2547
+			}
+		}
+		
+		KBD = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2476
+			
+			own_control_core = 	{ 
+				2476 2230 2729 2730 2731 2229
+			}
+		}
+		
+		KBE = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2273
+			
+			own_control_core = 	{ 
+				2273 2225 2455 2452 2451
+			}
+		}
+		
+		KBF = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2469
+			
+			own_control_core = 	{ 
+				2469 2448 2466 2454 2467 2456 2468 2465 2565 2564 
+			}
+		}
+		
+		KBG = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2432
+			
+			own_control_core = 	{ 
+				2432 2427 2425 2428 2464 2463 2462 2433 2434 2461 
+			}
+		}
+		
+		KBH = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2537
+			
+			own_control_core = 	{ 
+				2537 2426 2502 2503 2512 2536 2538
+			}
+		}
+		
+		KBI = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2546
+			
+			own_control_core = 	{ 
+				 2546 2535 2542 2513 2501 2534 2563
+			}
+		}
+		
+		KBJ = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2360
+			
+			own_control_core = 	{ 
+				 2360 2359 2400 2352 2354 2358
+			}
+		}
+		
+		KBK = {          
+			government = tribal_kingdom
+			primary_culture = gobdeathlander
+			religion = goblin_pantheon
+			capital = 2347
+			
+			own_control_core = 	{ 
+				 2347 2345 2346 2348 2349 2353 2355
+			}
+		}
+		
+		KBL = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2384
+			
+			own_control_core = 	{ 
+				2384 2356 2357 2385 2383 2382 2386
+			}
+		}
+		
+		KBM = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2373
+			
+			own_control_core = 	{ 
+				2373 2372 786 2374
+			}
+		}
+		
+		KBN = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2377
+			
+			own_control_core = 	{ 
+				2377 2376 2375 2381 2367 2378 2380
+			}
+		}
+		
+		KBO = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2369
+			
+			own_control_core = 	{ 
+				2369 2379 2368 2365 2364 
+			}
+		}
+		
+		KBP = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2389
+			
+			own_control_core = 	{ 
+				2389 2387 2388 2390 2391
+			}
+		}
+		
+		KBR = {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 2394
+			
+			own_control_core = 	{ 
+				2394 2392 2393 2395 2397 2396 2398
 			}
 		}
 	}

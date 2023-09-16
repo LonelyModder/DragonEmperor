@@ -27,15 +27,15 @@ is_lacking_levies_pseudo_trigger = {
 	aggressive = -500
 }
 
-is_pacifist_trigger = {
+is_noninvader_trigger = {
 	trigger = {
 		OR = {
-			country_culture_group = altmer
 			country_culture_group = imga
+			country_culture_group = khajiit
 			country_culture_group = bosmer
 		}
 	}
-	aggressive = -30
+	aggressive = -100
 }
 
 is_antagonist_aimod = {
