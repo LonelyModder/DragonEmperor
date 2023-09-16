@@ -133,6 +133,11 @@ vampirism.3 = {
 	
 	option = { 
 		name = "vampirism.3.a"
+		trigger = { 
+        	root.consort = {
+				is_female = yes
+			}
+        }
 		root.consort = {
 			remove_trait = werewolf
 			remove_trait = lower_vampire
@@ -146,6 +151,29 @@ vampirism.3 = {
 		random = {
 			chance = 25
 			root.consort = { add_trait = schizophrenic }
+		}
+		capital_scope = {
+			while = {
+				count = 2
+				random_pops_in_province = {
+					kill_pop = yes
+				}
+			}
+		}
+	}
+	
+	option = { 
+		name = "vampirism.3.b"
+		trigger = { 
+        	root.consort = {
+				is_female = no
+			}
+        }
+		root.consort = {
+			remove_trait = werewolf
+			remove_trait = lower_vampire
+			remove_trait = half_vampire
+			add_trait = full_vampire 
 		}
 		capital_scope = {
 			while = {
