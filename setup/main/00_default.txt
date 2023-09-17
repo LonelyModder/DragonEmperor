@@ -187,6 +187,13 @@ treasure_manager = {
 				local_nobles_happyness = 0.1
 			}
 		}
+		27 = { # Nenalata
+			key = "treasure_meridiasbeacon"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
     }
 }
 family={
@@ -302,6 +309,18 @@ family={
 			culture = nednibenese
 			prestige=300
 		}
+		19={
+			key="Varla"
+			owner=CAO
+			culture = heartlanderelves
+			prestige=300
+		}
+		20={
+			key="Cyrod"
+			owner=CAO
+			culture = nednibenese
+			prestige=300
+		}
 		
 		}
 }
@@ -332,7 +351,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 7 8 9 } }
 	}
 	1557 = { # Nenalata
-		treasure_slots = { 	treasures = { 10 } }
+		treasure_slots = { 	treasures = { 10 27 } }
 	}
 	1068 = { # Lindai
 		treasure_slots = { 	treasures = { 11 } }
@@ -2572,7 +2591,9 @@ country = {
 			}
 		}
 		
-		CAO = {          
+		CAO = {    
+			family = 19
+			family = 20
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon
