@@ -1,0 +1,48 @@
+﻿"CAO"={
+	country="CAO"
+	
+	30={
+		#first_name="Nisaazda"
+		family = c:CAO.fam:Varla
+		birth_date=90.1.1
+		culture="heartlanderelves"
+		religion="elven_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=7
+		add_charisma=4
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_trait="altmer"
+		add_trait="pure"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:CAO={
+			set_as_ruler=char:30
+		}
+	}
+	
+	31={
+		#first_name="Nisaazda"
+		family = c:CAO.fam:Cyrod
+		birth_date=90.1.1
+		culture="nednibenese"
+		religion="elven_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=6
+		add_charisma=4
+		add_finesse=4
+		add_zeal=2
+		no_traits=yes
+		add_trait="tnede"
+		add_trait="alesh"
+		add_trait="dragonblood"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+}

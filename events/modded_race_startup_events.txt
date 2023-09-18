@@ -47,12 +47,23 @@ race_startup.2 = {
 				}
 				if = {
 					limit = {
+						NOR = {
+							has_culture_group = altmer
+							has_culture_group = venedi
+						}
+					}
+					remove_trait = pure
+					remove_trait = impure
+				}
+				if = {
+					limit = {
 						OR = {
 							has_culture_group = altmer
 							has_culture_group = venedi
 						}
 					}
 					add_trait = altmer
+					add_trait = pure
 				}
 				else_if = {
 					limit = {

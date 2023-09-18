@@ -324,3 +324,53 @@ bloodlines_startup.13 = { #Anequina clan
 	}
 
 }
+
+bloodlines_startup.14 = { #Tharn family
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CBY
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:29
+			}
+			add_trait = tharn
+		
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.15 = { #Alesh family in Sardavar Leed family
+
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = CAO
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:31
+			}
+			add_trait = alesh
+			add_trait = dragonblood
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
