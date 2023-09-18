@@ -2819,7 +2819,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1316 1308 1314 1321 1225 1231 1320 1323 1324 1315 1322 1336
+				1316 1308 1314 1321 1225 1231 1320 1323 1324 1336
 			}
 		}
 		
@@ -2870,9 +2870,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1068 1282 1284 1283 1063 1069 1281 1223
-				1062 1067 1066 1285 1289 1070 1226 1293
-				1294 1287 1286 1057 1054 1064				
+				1068 1282 1283 1063 1069 1281 1223
+				1062 1067 1070 1226 1287 1286 1057 1054 1064
 			}
 		}
 		
@@ -2939,7 +2938,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1305 1310 1306 1307 1313 1311 1301 1309
+				1305 1310 1306 1307 1301 1309 1313
 			}
 		}
 		
@@ -2973,7 +2972,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1291 1292 1300
+				1291 1300
 			}
 		}
 		
@@ -3113,7 +3112,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1329 1330 1331 1332 1335 1334 1333 1317 1312 1319 1328 1318 
+				1329 1330 1331 1332 1333 1317 1312 1319 1328 1318 
 			}
 		}
 		
@@ -6123,6 +6122,28 @@ country = {
 			
 			own_control_core = 	{ 
 				2394 2392 2393 2395 2397 2396 2398
+			}
+		}
+		
+		KBS = {          
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = nedic_pantheon
+			capital = 1289
+			
+			own_control_core = 	{ 
+				1289 1285 1293 1292 1066 1284 1294
+			}
+		}
+		
+		KBT = {          
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = nedic_pantheon
+			capital = 1311
+			
+			own_control_core = 	{ 
+				1311 1315 1322 1335 1334
 			}
 		}
 	}

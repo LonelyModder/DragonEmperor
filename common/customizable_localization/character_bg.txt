@@ -34,4 +34,11 @@
     }
   }
   
+  text = {
+    localization_key = background_adamantia
+    trigger = {
+	  is_at_location = p:2162
+    }
+  }
+  
 }
