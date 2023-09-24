@@ -5,11 +5,17 @@ modded_sea_region = {
 	}
 }
 
-#Sommerset
-
 modded_tmp_region = {
 	areas = {
 		tmp_area
+	}
+}
+
+modded_winterhold_region = {
+	areas = {
+		skaal_area
+		karstaag_area
+		ravenrock_area
 	}
 }
 
