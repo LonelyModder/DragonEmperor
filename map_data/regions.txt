@@ -11,11 +11,25 @@ modded_tmp_region = {
 	}
 }
 
+modded_windhelm_region = {
+	areas = {
+		windhelm_area
+		morvunskar_area
+		kynesgrove_area
+	}
+}
+
 modded_winterhold_region = {
 	areas = {
 		skaal_area
 		karstaag_area
 		ravenrock_area
+		northeasternisles_area
+		collegeofwinterhold_area
+		winterhold_area
+		snowveil_area
+		alftand_area
+		olenveld_area #isle
 	}
 }
 

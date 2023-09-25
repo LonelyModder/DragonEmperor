@@ -1,6 +1,7 @@
 ﻿l_english:
  #Regions
  modded_tmp_region:0 "temporary"
+ modded_windhelm_region:0 "Windhelm"
  modded_winterhold_region:0 "Winterhold"
  modded_reapersmarch_region:0 "Reaper's March"
  modded_scar_region:0 "Scar"
@@ -39,6 +40,15 @@
  modded_nibenbasin_region:0 "Niben Basin"
  modded_glenumbra_region:0 "Lower Glenumbra"
  #Areas
+ kynesgrove_area:0 "Kynesgrove"
+ morvunskar_area:0 "Morvunskar"
+ windhelm_area:0 "Windhelm"
+ alftand_area:0 "Alftand"
+ snowveil_area:0 "Snow Veil"
+ winterhold_area:0 "Winterhold"
+ collegeofwinterhold_area:0 "College of Winterhold"
+ northeasternisles_area:0 "North-Eastern Isles"
+ olenveld_area:0 "Olenveld"
  skaal_area:0 "Skaal"
  karstaag_area:0 "Karstaag"
  ravenrock_area:0 "Ravenrock"
