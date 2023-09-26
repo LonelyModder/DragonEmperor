@@ -11,11 +11,24 @@ modded_tmp_region = {
 	}
 }
 
+modded_rift_region = {
+	areas = {
+		shorsstone_area
+		riften_area
+		largashbur_area
+		tevaswatch_area
+		ivarstead_area
+	}
+}
+
 modded_windhelm_region = {
 	areas = {
 		windhelm_area
 		morvunskar_area
 		kynesgrove_area
+		mzulft_area
+		mistwatch_area
+		amol_area
 	}
 }
 
