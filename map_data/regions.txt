@@ -11,6 +11,18 @@ modded_tmp_region = {
 	}
 }
 
+modded_pale_region = {
+	areas = {
+		yorgrim_area
+		korvanjund_area
+		dunstad_area
+		fallhammer_area
+		dawnstar_area
+		ustengrav_area
+		frostisles_area #isles
+	}
+}
+
 modded_rift_region = {
 	areas = {
 		shorsstone_area
