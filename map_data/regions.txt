@@ -11,6 +11,28 @@ modded_tmp_region = {
 	}
 }
 
+modded_falkreath_region = {
+	areas = {
+		palepass_area
+		helgen_area
+		falkreath_area
+		ilinalta_area
+		lastvalley_area
+	}
+}
+
+modded_whiterun_region = {
+	areas = {
+		valtheim_area
+		riverwood_area
+		whiterun_area
+		greymoor_area
+		greenspringhollow_area
+		brokenfang_area
+		rorikstead_area
+	}
+}
+
 modded_pale_region = {
 	areas = {
 		yorgrim_area
