@@ -11,6 +11,31 @@ modded_tmp_region = {
 	}
 }
 
+modded_solitude_region = {
+	areas = {
+		morthal_area
+		rannweigsfast_area
+		folgunthur_area
+		snowhawk_area
+		dragonbridge_area
+		solitude_area
+		northwatch_area
+		volkihar_area
+		icereach_area
+	}
+}
+
+modded_reach_region = {
+	areas = {
+		oldhroldan_area
+		hagrock_area
+		markarth_area
+		moldering_area
+		karthwasten_area
+		bthardamz_area
+	}
+}
+
 modded_falkreath_region = {
 	areas = {
 		palepass_area
