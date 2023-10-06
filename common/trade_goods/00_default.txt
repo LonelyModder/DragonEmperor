@@ -20,11 +20,11 @@ fruitsoftheforest = { #430 territories
 	gold = 0.15
 	
 	province = { 
-		local_monthly_food = 2.5
+		local_monthly_food = 1.5
 	}
 	
 	country = { 
-		global_monthly_food_modifier = 0.02
+		local_citizen_happyness = happiness_small_svalue
 	}
 	
 	color = rgb { 242 54 44 }
