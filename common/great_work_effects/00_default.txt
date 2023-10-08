@@ -2236,6 +2236,11 @@ gw_effect_crystal_tower = {
 				global_monthly_civilization = 0.05
 				stability_monthly_change = 0.16
 			}
+			
+			province_modifier = {
+				garrison_size = 4
+				fort_level = 4
+			}
 		}
 	}
 }
@@ -2518,6 +2523,11 @@ gw_effect_imperial_city = {
 				ruler_popularity_gain = 0.1
 				omen_power = 0.2
 			}
+			
+			province_modifier = {
+				garrison_size = 4
+				fort_level = 4
+			}
 		}
 	}
 }
@@ -2564,6 +2574,11 @@ gw_effect_templegarrison = {
 				discipline = 0.05
 				land_morale_modifier = 0.05
 				manpower_recovery_speed = 0.08
+			}
+			
+			province_modifier = {
+				garrison_size = 4
+				fort_level = 4
 			}
 		}
 	}
@@ -2846,6 +2861,11 @@ gw_effect_adamantia = {
 				monthly_legitimacy = 0.06
 				call_omen_cost_modifier = -0.2
 				lv_mages_offensive = 0.2
+			}
+			
+			province_modifier = {
+				garrison_size = 4
+				fort_level = 4
 			}
 		}
 	}
