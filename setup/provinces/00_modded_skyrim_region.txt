@@ -136,8 +136,8 @@
 4005={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="tirsk"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -326,27 +326,30 @@
 4015={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="tirsk"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4016={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -364,8 +367,8 @@
 4017={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -405,8 +408,8 @@
 4019={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -443,8 +446,8 @@
 4021={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -462,8 +465,8 @@
 4022={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -481,8 +484,8 @@
 4023={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1070,27 +1073,30 @@
 4054={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4055={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1108,8 +1114,8 @@
 4056={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

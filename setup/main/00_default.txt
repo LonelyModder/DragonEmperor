@@ -443,6 +443,9 @@ provinces = { #Any entry must contain a comment with city name.
 	3240 = {
 		port_building = 1
 	}
+	4054 = {
+		port_building = 1
+	}
 	3478 = {
 		port_building = 1
 	}
@@ -6400,7 +6403,29 @@ country = {
 			capital = 4018
 			
 			own_control_core = 	{ 
-				4018
+				4018 4023 4022 4021 4016 4017 4019
+			}
+		}
+		
+		SAB = {          
+			government = tribal_kingdom
+			primary_culture = tirsk
+			religion = allmaker_pantheon
+			capital = 4015
+			
+			own_control_core = 	{ 
+				4015 4005
+			}
+		}
+		
+		SAC = {          
+			government = tribal_kingdom
+			primary_culture = atmoran
+			religion = allmaker_pantheon
+			capital = 4054
+			
+			own_control_core = 	{ 
+				4054 4055 4056
 			}
 		}
 	}
