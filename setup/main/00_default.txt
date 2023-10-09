@@ -6392,6 +6392,17 @@ country = {
 				1311 1315 1322 1335 1334
 			}
 		}
+		
+		SAA = {          
+			government = tribal_kingdom
+			primary_culture = skaal
+			religion = allmaker_pantheon
+			capital = 4018
+			
+			own_control_core = 	{ 
+				4018
+			}
+		}
 	}
 }
 

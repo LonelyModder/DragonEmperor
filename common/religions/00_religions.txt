@@ -190,3 +190,13 @@ reachmen_pantheon = { # Reachmen Faith
 	}
 	religion_category = pantheon
 }
+
+allmaker_pantheon = { # Skaal Faith
+	color = rgb { 107 137 156 }
+	modifier = { 
+		global_manpower_modifier = 0.1
+		omen_power = 0.2
+		global_pop_conversion_speed_modifier = -0.5
+	}
+	religion_category = prophets
+}

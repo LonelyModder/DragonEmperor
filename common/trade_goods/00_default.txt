@@ -66,7 +66,7 @@ iron = { #119 territories
 
 ebon = { #Added
 	category = 0
-	allow_unit_type =lv_heavyinfantry
+	#allow_unit_type =lv_heavyinfantry
 	gold = 0.5
 	
 	province = {
@@ -711,6 +711,22 @@ nirncrux = { #338 territories
 	}
 	
 	color = rgb { 181 64 38 }
+}
+
+stalhrim = { #338 territories
+	category = 4
+
+	gold = 0.5
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_warriors_offensive = 0.05
+		lv_raiders_offensive = 0.05
+	}
+	
+	color = rgb { 107 137 156 }
 }
 
 wool = { #338 territories
