@@ -32,10 +32,14 @@
 		#Units
 		units_allowance_events.1
 		#Modded events
-		#Becoming a Pure-Blood Vampire
+		#Vampire Events
 		vampirism.2
 		vampirism.3
 		vampirism.4
+		#Werewolf Events
+		lycans.2
+		lycans.3
+		lycans.4
 		#Refugees in Direnni lands
 		refugees.1
 		refugees.2
@@ -47,6 +51,7 @@
 		595 = 0
 		5 = comet.4
 		50 = vampirism.10
+		50 = lycans.10
 	}
 	
 	on_actions = {		

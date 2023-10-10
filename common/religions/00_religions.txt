@@ -200,3 +200,14 @@ allmaker_pantheon = { # Skaal Faith
 	}
 	religion_category = prophets
 }
+
+dragoncult_pantheon = { # Dragon Cult Faith
+	color = rgb { 122 26 47 }
+	modifier = { 
+		omen_power = 0.2
+		global_manpower_modifier = 0.1
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
