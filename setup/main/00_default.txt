@@ -321,6 +321,12 @@ family={
 			culture = nednibenese
 			prestige=300
 		}
+		21={
+			key="Frostmoon"
+			owner=SAE
+			culture = frostmoon
+			prestige=300
+		}
 		
 		}
 }
@@ -440,10 +446,16 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	4010 = {
+		port_building = 2
+	}
 	3240 = {
 		port_building = 1
 	}
 	4054 = {
+		port_building = 1
+	}
+	4104 = {
 		port_building = 1
 	}
 	3478 = {
@@ -6403,7 +6415,7 @@ country = {
 			capital = 4018
 			
 			own_control_core = 	{ 
-				4018 4023 4022 4021 4016 4017 4019
+				4018 4023 4022 4021 4016 4017 4019 4024
 			}
 		}
 		
@@ -6414,7 +6426,7 @@ country = {
 			capital = 4015
 			
 			own_control_core = 	{ 
-				4015 4005
+				4015 4005 4006 4011
 			}
 		}
 		
@@ -6426,6 +6438,51 @@ country = {
 			
 			own_control_core = 	{ 
 				4054 4055 4056
+			}
+		}
+		
+		SAD = {          
+			government = theocratic_monarchy
+			primary_culture = ndragoncult
+			religion = dragoncult_pantheon
+			capital = 4198
+			
+			own_control_core = 	{ 
+				4198
+			}
+		}
+		
+		SAE = { 
+			family = 21
+			government = tribal_kingdom
+			primary_culture = frostmoon
+			religion = night_pantheon
+			capital = 4008
+			
+			own_control_core = 	{ 
+				4008 4007 4012 4013
+			}
+		}
+		
+		SAF = {          
+			government = oligarchic_republic
+			primary_culture = dvardenan
+			religion = nirnic_pantheon
+			capital = 4010
+			
+			own_control_core = 	{ 
+				4010
+			}
+		}
+		
+		SAG = {          
+			government = aristocratic_monarchy
+			primary_culture = eastholder
+			religion = nordic_pantheon
+			capital = 4104
+			
+			own_control_core = 	{ 
+				4104 4102 4103 4105
 			}
 		}
 	}

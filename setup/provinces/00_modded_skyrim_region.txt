@@ -155,8 +155,8 @@
 4006={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="tirsk"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -174,8 +174,8 @@
 4007={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="frostmoon"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -193,11 +193,14 @@
 4008={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="frostmoon"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -230,28 +233,31 @@
 
 4010={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="dwemersteel"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
 4011={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="tirsk"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -269,8 +275,8 @@
 4012={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="frostmoon"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -288,8 +294,8 @@
 4013={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="frostmoon"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -503,8 +509,8 @@
 4024={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="allmaker_pantheon"
+	culture="skaal"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1988,8 +1994,8 @@
 4102={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="eastholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2007,8 +2013,8 @@
 4103={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="eastholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2026,27 +2032,33 @@
 4104={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="eastholder"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
+	citizen={
+		amount=6
+	}
 	freemen={
-		amount=1
+		amount=10
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
 4105={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="eastholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2461,7 +2473,7 @@
 }
 
 4127={ 
-	terrain="marsh"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2480,7 +2492,7 @@
 }
 
 4128={ 
-	terrain="marsh"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -3811,20 +3823,23 @@
 
 4198={ 
 	terrain="mountain"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="leather"
+	religion="dragoncult_pantheon"
+	culture="ndragoncult"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
