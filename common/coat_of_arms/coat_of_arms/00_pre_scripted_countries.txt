@@ -178,6 +178,41 @@ VAS = { #Direnni Hegemony
 	}
 }
 
+SAI = { #Whiterun
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 246 240 }
+	color2 = rgb { 247 246 240 }
+
+	colored_emblem = {
+		texture = "ce_whiterun.dds"
+		color1 = rgb { 232 201 12 }
+		color2 = rgb { 33 33 32 }
+	}
+}
+
+SAG = { #East Skyrim
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 246 240 }
+	color2 = rgb { 247 246 240 }
+
+	colored_emblem = {
+		texture = "ce_windhelm.dds"
+		color1 = rgb { 33 33 32 }
+		color2 = rgb { 31 39 161 }
+	}
+}
+
+SAH = { #East Skyrim
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 72 72 74 }
+	color2 = rgb { 72 72 74 }
+
+	colored_emblem = {
+		texture = "ce_riften.dds"
+		color1 = rgb { 153 139 11 }
+	}
+}
+
 # Modded emblems for formables
 
 hk_ayleidoon = { #For the Ayleid Empire
