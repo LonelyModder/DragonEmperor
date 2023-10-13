@@ -374,3 +374,26 @@ bloodlines_startup.15 = { #Alesh family in Sardavar Leed family
 	}
 
 }
+
+bloodlines_startup.16 = { #House of Ysgramor
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = SAG
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:37
+			}
+			add_trait = ysgramorsson
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}

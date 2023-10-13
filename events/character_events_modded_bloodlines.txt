@@ -26,6 +26,9 @@ character_events.35 = {
 						has_trait = banequina
 						has_trait = dragonblood
 						has_trait = tharn
+						has_trait = ysgramorsson
+						has_trait = werewolf
+						has_trait = companion
 					}
 				}
 			}
@@ -39,6 +42,39 @@ character_events.35 = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = companion
+					}
+					NOT = {
+						has_trait = companion
+					}
+				}
+				add_trait = companion
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = werewolf
+					}
+					NOT = {
+						has_trait = werewolf
+					}
+				}
+				add_trait = werewolf
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = ysgramorsson
+					}
+					NOT = {
+						has_trait = ysgramorsson
+					}
+				}
+				add_trait = ysgramorsson
 			}
 			if = {
 				limit = {
@@ -206,6 +242,42 @@ character_events.35 = {
 				}
 			}
 			add_trait = aranas	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = companion
+				}
+				NOT = {
+					has_trait = companion
+				}
+			}
+			add_trait = companion	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = werewolf
+				}
+				NOT = {
+					has_trait = werewolf
+				}
+			}
+			add_trait = werewolf	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = ysgramorsson
+				}
+				NOT = {
+					has_trait = ysgramorsson
+				}
+			}
+			add_trait = ysgramorsson	
 		}
 		if = {
 			limit = {

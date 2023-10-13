@@ -208,6 +208,36 @@ tharn = {
 	
 }
 
+ysgramorsson = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		discipline = 0.1
+		ruler_popularity_gain = 0.05
+	}
+	
+}
+
+companion = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		discipline = 0.1
+		lv_heavyinfantry_offensive = 0.1
+	}
+	
+}
+
 alesh = {
 	type = status
 	

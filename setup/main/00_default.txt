@@ -327,6 +327,12 @@ family={
 			culture = frostmoon
 			prestige=300
 		}
+		22={
+			key="Ysgramorsson"
+			owner=SAG
+			culture = eastholder
+			prestige=300
+		}
 		
 		}
 }
@@ -6499,18 +6505,26 @@ country = {
 			}
 		}
 		
-		SAG = {          
+		SAG = {  
+			family=22
 			government = aristocratic_monarchy
 			primary_culture = eastholder
 			religion = nordic_pantheon
 			capital = 4104
+			
+			poptype_rights = {
+				{
+					culture = winterholdan 
+					type = citizen
+				}
+			}
 			
 			own_control_core = 	{ 
 				4104 4102 4103 4105 4077 4078 4076 4075 4073 4072 4074 4071 4069 4070 4053 4052 4066 4064 4065 4062 
 				4048 4047 4061 4060 4050 4049 4051 4068 4067 4063 4081 4101 4059 4058 4057 4044 4045 4111 4110 4108
 				4123 4107 4106 4112 4113 4124 4127 4152 4142 4150 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
 				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
-				4176 4178 4154 
+				4176 4178 4154 4182 4180 4181 4189 4188 4187 4190
 			}
 		}
 		
@@ -6542,18 +6556,20 @@ country = {
 		
 		SAJ = {          
 			government = despotic_monarchy
-			primary_culture = eastholder
+			primary_culture = palan
 			religion = nordic_pantheon
 			capital = 4277
 			
 			own_control_core = 	{ 
-				4277
+				4277 4278 4275 4276 4281 4114 4269 4266 4271 4267 4272 4274 4235 4238 4250 4249 4251 4252 4256 4257 4258
+				4296 4297 4298 4285 4279 4280 4295 4286 4294 4293 4288 4261 4260 4259 4262 4264 4265 4263 4287 4291 4268
+				4255 4254 4237 4236 4253
 			}
 		}
 		
 		SAK = {          
 			government = despotic_monarchy
-			primary_culture = westholder
+			primary_culture = morthalan
 			religion = nordic_pantheon
 			capital = 4499
 			
@@ -6564,7 +6580,7 @@ country = {
 		
 		SAL = {          
 			government = despotic_monarchy
-			primary_culture = westholder
+			primary_culture = solitudan
 			religion = nordic_pantheon
 			capital = 4528
 			
