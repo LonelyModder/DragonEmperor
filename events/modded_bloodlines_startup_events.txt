@@ -397,3 +397,38 @@ bloodlines_startup.16 = { #House of Ysgramor
 	}
 
 }
+
+bloodlines_startup.17 = { #companions Descendants
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		OR = {
+			tag = SAL
+			tag = SAK
+			tag = SAI
+			tag = SAH
+		}
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				OR = {
+					has_same_family = char:40
+					has_same_family = char:41
+					has_same_family = char:42
+					has_same_family = char:43
+					has_same_family = char:44
+					has_same_family = char:45
+				}
+			}
+			add_trait = companion
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}

@@ -333,6 +333,48 @@ family={
 			culture = eastholder
 			prestige=300
 		}
+		23={
+			key="Lonewolf"
+			owner=SAL
+			culture = solitudan
+			prestige=300
+		}
+		24={
+			key="Morthsson"
+			owner=SAK
+			culture = morthalan
+			prestige=300
+		}
+		25={
+			key="Riverborn"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		26={
+			key="Battleborn"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		27={
+			key="Greymane"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		28={
+			key="Ironarm"
+			owner=SAH
+			culture = southholder
+			prestige=300
+		}
+		29={
+			key="Volkihar"
+			owner=SAN
+			culture = volkiharan
+			prestige=300
+		}
 		
 		}
 }
@@ -429,6 +471,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	4060 = {
+		fortress_building = 1
+	}
+	4188 = {
+		fortress_building = 1
+	}
+	4518 = {
+		fortress_building = 1
+	}
+	4255 = {
 		fortress_building = 1
 	}
 	4168 = {
@@ -6524,11 +6575,12 @@ country = {
 				4048 4047 4061 4060 4050 4049 4051 4068 4067 4063 4081 4101 4059 4058 4057 4044 4045 4111 4110 4108
 				4123 4107 4106 4112 4113 4124 4127 4152 4142 4150 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
 				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
-				4176 4178 4154 4182 4180 4181 4189 4188 4187 4190
+				4176 4178 4154 4182 4180 4181 4189 4188 4187 4190 4079 4080 4083 4082 4230 4234
 			}
 		}
 		
-		SAH = {          
+		SAH = {  
+			family = 28
 			government = despotic_monarchy
 			primary_culture = southholder
 			religion = nordic_pantheon
@@ -6540,7 +6592,10 @@ country = {
 			}
 		}
 		
-		SAI = {          
+		SAI = {  
+			family = 25
+			family = 26
+			family = 27
 			government = despotic_monarchy
 			primary_culture = westholder
 			religion = nordic_pantheon
@@ -6567,25 +6622,52 @@ country = {
 			}
 		}
 		
-		SAK = {          
+		SAK = { 
+			family = 24
 			government = despotic_monarchy
 			primary_culture = morthalan
 			religion = nordic_pantheon
 			capital = 4499
 			
 			own_control_core = 	{ 
-				4499
+				4499 4497 4310 4308 4300 4299 4306 4498 4309 4501 4500 4491 4347 4495 4496 4492 4493 4489 4470 4488 4473
+				4301 4305 4307 4503 4504 4502 4494 4505 4506 4508 4509 4507 4487 4490 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519
 			}
 		}
 		
-		SAL = {          
+		SAL = {
+			family = 23
 			government = despotic_monarchy
 			primary_culture = solitudan
 			religion = nordic_pantheon
 			capital = 4528
 			
 			own_control_core = 	{ 
-				4528 4527
+				4528 4527 4526 4539 4538 4540 4529 4544 4542 4543 4545 4525 4520 4486 4521 4522 4523 4524 4537 4532 4531 4530 4534 4484
+				4552 4553 4554 4535 4533 4536 4551 4549 4548 4550 4547 4546 4559 4557 4555 4560 4561
+			}
+		}
+		
+		SAM = {          
+			government = despotic_monarchy
+			primary_culture = nkreathan
+			religion = nordic_pantheon
+			capital = 4375
+			
+			own_control_core = 	{ 
+				4375 4380 4379 4378 4377 4376 4374 4372 4371 4202 4392 4391 4373 4381
+			}
+		}
+		
+		SAN = { 
+			family = 29
+			government = despotic_monarchy
+			primary_culture = volkiharan
+			religion = night_pantheon
+			capital = 4575
+			
+			own_control_core = 	{ 
+				4575 4573 4574 4572 4568 4567 4564 4562 
 			}
 		}
 	}

@@ -8,7 +8,10 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 	
 	trigger = {
 		owns = p:1288
-		religion = nedic_pantheon
+		OR = {
+			religion = nedic_pantheon
+			primary_culture = cyronordic
+		}
 		NOT = { has_global_variable = alesh }
 		AND = {
 			p:1288.owner = {
