@@ -247,6 +247,18 @@ SAL = { #Solitude
 	}
 }
 
+SAN = { #Volkihar
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 22 23 22 }
+	color2 = rgb { 22 23 22 }
+
+	colored_emblem = {
+		texture = "ce_volkihar.dds"
+		color1 = rgb { 203 209 29 }
+		color2 = rgb { 204 43 14 }
+	}
+}
+
 # Modded emblems for formables
 
 hk_ayleidoon = { #For the Ayleid Empire

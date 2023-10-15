@@ -133,43 +133,31 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
+				country_culture_group = "nordic"
+			}
+			10 = "ce_solitude.dds"
+			10 = "ce_morthal.dds"
+			10 = "ce_dawnstar.dds"
+			10 = "ce_riften.dds"
+			10 = "ce_windhelm.dds"
+			10 = "ce_whiterun.dds"
+			10 = "ce_bruma.dds"
+		}
+		special_selection = {
+			trigger = {
 				OR = {
 					country_culture_group = nede
 					country_culture_group = keptu
 					country_culture_group = reachmenic
 				}
 			}
-			10 = "ce_hellenic_1.dds"
-			10 = "ce_hellenic_2.dds"
-			10 = "ce_hellenic_3.dds"
-			10 = "ce_hellenic_4.dds"
-			10 = "ce_hellenic_5.dds"
-			10 = "ce_macedonian_sun.dds"
-			10 = "ce_samnite.dds"
-			
-			#grekoid
-			10 = "ce_bull_01.dds"
-			10 = "ce_chariot_01.dds"
-			10 = "ce_eagle_01.dds"
-			10 = "ce_horse_02.dds"
-			10 = "ce_ianus_01.dds"
-			10 = "ce_pegasus_01.dds"
-			10 = "ce_pottery_01.dds"
-			10 = "ce_snake_01.dds"
-			10 = "ce_water_nymph_01.dds"
-			10 = "ce_wheel_02.dds"
-			10 = "ce_wheel_03.dds"
-			10 = "ce_phrygia.dds"
-			
-			#latin
-			10 = "ce_bolts_01.dds"
-			10 = "ce_bull_02.dds"
-			10 = "ce_cat_01.dds"
-			10 = "ce_head_02.dds"
-			10 = "ce_wolf_01.dds"
-			10 = "ce_3.dds"
-			10 = "ce_4.dds"
-			
+			10 = "ce_solitude.dds"
+			10 = "ce_morthal.dds"
+			10 = "ce_dawnstar.dds"
+			10 = "ce_riften.dds"
+			10 = "ce_windhelm.dds"
+			10 = "ce_whiterun.dds"
+			10 = "ce_bruma.dds"
 		}
 		
 		special_selection = {

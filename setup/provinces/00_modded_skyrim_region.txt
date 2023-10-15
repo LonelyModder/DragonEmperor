@@ -2310,8 +2310,8 @@
 4118={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="palan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3927,8 +3927,8 @@
 4202={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7162,8 +7162,8 @@
 4371={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7181,8 +7181,8 @@
 4372={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7200,8 +7200,8 @@
 4373={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7219,8 +7219,8 @@
 4374={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7282,8 +7282,8 @@
 4377={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7301,8 +7301,8 @@
 4378={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7320,8 +7320,8 @@
 4379={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7339,8 +7339,8 @@
 4380={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7358,8 +7358,8 @@
 4381={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7548,8 +7548,8 @@
 4391={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7567,8 +7567,8 @@
 4392={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7833,19 +7833,22 @@
 4406={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=8
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -9315,8 +9318,8 @@
 4484={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9353,8 +9356,8 @@
 4486={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10008,27 +10011,30 @@
 4520={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4521={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10046,8 +10052,8 @@
 4522={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10065,8 +10071,8 @@
 4523={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10084,8 +10090,8 @@
 4524={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10103,8 +10109,8 @@
 4525={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10122,8 +10128,8 @@
 4526={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10188,8 +10194,8 @@
 4529={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10245,8 +10251,8 @@
 4532={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10264,8 +10270,8 @@
 4533={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10283,8 +10289,8 @@
 4534={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10302,8 +10308,8 @@
 4535={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10321,8 +10327,8 @@
 4536={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10340,8 +10346,8 @@
 4537={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10359,8 +10365,8 @@
 4538={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10378,8 +10384,8 @@
 4539={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10397,8 +10403,8 @@
 4540={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10435,8 +10441,8 @@
 4542={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10454,8 +10460,8 @@
 4543={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10473,8 +10479,8 @@
 4544={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10492,8 +10498,8 @@
 4545={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10511,8 +10517,8 @@
 4546={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10530,8 +10536,8 @@
 4547={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10549,8 +10555,8 @@
 4548={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10568,8 +10574,8 @@
 4549={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10587,8 +10593,8 @@
 4550={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10606,8 +10612,8 @@
 4551={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10625,8 +10631,8 @@
 4552={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10682,8 +10688,8 @@
 4555={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10720,8 +10726,8 @@
 4557={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10758,8 +10764,8 @@
 4559={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10777,8 +10783,8 @@
 4560={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="solitudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10815,8 +10821,8 @@
 4562={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10853,8 +10859,8 @@
 4564={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10910,8 +10916,8 @@
 4567={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10929,8 +10935,8 @@
 4568={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11005,8 +11011,8 @@
 4572={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11024,8 +11030,8 @@
 4573={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11043,8 +11049,8 @@
 4574={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11062,18 +11068,24 @@
 4575={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="night_pantheon"
+	culture="volkiharan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
