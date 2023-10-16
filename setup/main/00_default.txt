@@ -6554,6 +6554,13 @@ country = {
 			religion = nirnic_pantheon
 			capital = 4010
 			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
 			own_control_core = 	{ 
 				4010
 			}
@@ -6620,8 +6627,8 @@ country = {
 			
 			own_control_core = 	{ 
 				4277 4278 4275 4276 4281 4114 4269 4266 4271 4267 4272 4274 4235 4238 4250 4249 4251 4252 4256 4257 4258
-				4296 4297 4298 4285 4279 4280 4295 4286 4294 4293 4288 4261 4260 4259 4262 4264 4265 4263 4287 4291 4268
-				4255 4254 4237 4236 4253 4118
+				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
+				4255 4254 4237 4236 4253 4118 4289
 			}
 		}
 		
@@ -6646,8 +6653,8 @@ country = {
 			capital = 4528
 			
 			own_control_core = 	{ 
-				4528 4527 4526 4539 4538 4540 4529 4544 4542 4543 4545 4525 4520 4486 4521 4522 4523 4524 4537 4532 4534 4484
-				4552 4535 4533 4536 4551 4549 4548 4550 4547 4546 4559 4557 4555 4560
+				4528 4527 4526 4539 4538 4540 4529 4544 4542 4543 4545 4525 4520 4486 4521 4522 4523 4524 4537 4534 4484
+				4552 4535 4536 4551 4549 4548 4550 4547 4546 4559 4557 4555 4560
 			}
 		}
 		
@@ -6681,7 +6688,304 @@ country = {
 			capital = 4406
 			
 			own_control_core = 	{ 
-				4406 
+				4406 4405 4404 4403 4407 4408 4402 4400 4384 4412 4411 4410 4409 4385
+			}
+		}
+		
+		SAP = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4109
+			
+			own_control_core = 	{ 
+				4109 
+			}
+		}
+		
+		SAR = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4223
+			
+			own_control_core = 	{ 
+				4223 
+			}
+		}
+		
+		SAS = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4429
+			
+			own_control_core = 	{ 
+				4429 
+			}
+		}
+		
+		SAT = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4485
+			
+			own_control_core = 	{ 
+				4485
+			}
+		}
+		
+		SAU = { 
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4530
+			
+			own_control_core = 	{ 
+				4530 4531 4553 4554 4561 4532 4533
+			}
+		}
+		
+		SAW = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4121
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4121
+			}
+		}
+		
+		SAY = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4157
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4157
+			}
+		}
+		
+		SAZ = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4239
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4239
+			}
+		}
+		
+		SBA = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4087
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4087
+			}
+		}
+		
+		SBB = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4151
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4151
+			}
+		}
+		
+		SBC = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4260
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4260
+			}
+		}
+		
+		SBD = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4286
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4286
+			}
+		}
+		
+		SBE = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4430
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4430
+			}
+		}
+		
+		SBF = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4477
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4477
+			}
+		}
+		
+		SBG = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4442
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4442
+			}
+		}
+		
+		SBH = { 
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4027
+			
+			own_control_core = 	{ 
+				4027 4028 4025 4026 4029
+			}
+		}
+		
+		SBI = { 
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4009
+			
+			own_control_core = 	{ 
+				4009 4014 4020 
+			}
+		}
+		
+		SBJ = { 
+			government = tribal_kingdom
+			primary_culture = vertheall
+			religion = allmaker_pantheon
+			capital = 4003
+			
+			own_control_core = 	{ 
+				4003 4001 4002 4030
+			}
+		}
+		
+		SBK = { 
+			government = tribal_kingdom
+			primary_culture = kolbjorn
+			religion = allmaker_pantheon
+			capital = 3999
+			
+			own_control_core = 	{ 
+				3999 4000 3998 4004
+			}
+		}
+		
+		SBL = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4225
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4225
 			}
 		}
 	}
