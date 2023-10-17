@@ -375,6 +375,18 @@ family={
 			culture = volkiharan
 			prestige=300
 		}
+		30={
+			key="Begalin"
+			owner=SAJ
+			culture = palan
+			prestige=300
+		}
+		31={
+			key="Dovahkul"
+			owner=SAD
+			culture = ndragoncult
+			prestige=300
+		}
 		
 		}
 }
@@ -382,6 +394,9 @@ diplomacy = {
 	#Direnni Influence
 	dependency = { first = VAS second = HBU subject_type = feudatory }
 	dependency = { first = VAS second = HBW subject_type = feudatory }
+	dependency = { first = VAS second = HCG subject_type = feudatory }
+	dependency = { first = VAS second = HCR subject_type = feudatory }
+	dependency = { first = VAS second = HCI subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -6525,7 +6540,8 @@ country = {
 			}
 		}
 		
-		SAD = {          
+		SAD = { 
+			family=31
 			government = theocratic_monarchy
 			primary_culture = ndragoncult
 			religion = dragoncult_pantheon
@@ -6541,10 +6557,10 @@ country = {
 			government = tribal_kingdom
 			primary_culture = frostmoon
 			religion = night_pantheon
-			capital = 4008
+			capital = 4012
 			
 			own_control_core = 	{ 
-				4008 4007 4012 4013
+				4012
 			}
 		}
 		
@@ -6598,7 +6614,8 @@ country = {
 			
 			own_control_core = 	{ 
 				4200 4206 4208 4217 4209 4199 4192 4191 4168 4194 4207				
-				4167 4169 4166 4164 4165 4159 4158 4132 4129 4193
+				4167 4169 4166 4164 4165 4159 4158 4132 4129 4193 
+				4156 4155 4160 4170 4210 4171 4213 4172 4186 4185
 			}
 		}
 		
@@ -6619,7 +6636,8 @@ country = {
 			}
 		}
 		
-		SAJ = {          
+		SAJ = { 
+			family=30
 			government = despotic_monarchy
 			primary_culture = palan
 			religion = nordic_pantheon
@@ -6628,7 +6646,7 @@ country = {
 			own_control_core = 	{ 
 				4277 4278 4275 4276 4281 4114 4269 4266 4271 4267 4272 4274 4235 4238 4250 4249 4251 4252 4256 4257 4258
 				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
-				4255 4254 4237 4236 4253 4118 4289
+				4255 4254 4237 4236 4253 4118 4289 4240 4241 4119 4120 4153
 			}
 		}
 		
@@ -6682,10 +6700,24 @@ country = {
 		}
 		
 		SAO = { 
-			government = tribal_kingdom
-			primary_culture = nedkreathan
-			religion = reachmen_pantheon
+			government = despotic_monarchy
+			primary_culture = skyrimelves
+			religion = deadric_pantheon
 			capital = 4406
+			
+			poptype_rights = {
+				{
+					culture = nedkreathan
+					type = slaves
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
 			own_control_core = 	{ 
 				4406 4405 4404 4403 4407 4408 4402 4400 4384 4412 4411 4410 4409 4385
@@ -6815,7 +6847,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4087
+				4087 4090
 			}
 		}
 		
@@ -6945,7 +6977,7 @@ country = {
 			capital = 4009
 			
 			own_control_core = 	{ 
-				4009 4014 4020 
+				4009 4014 4020 4013
 			}
 		}
 		
@@ -6956,7 +6988,7 @@ country = {
 			capital = 4003
 			
 			own_control_core = 	{ 
-				4003 4001 4002 4030
+				4003 4001 4002 4030 4007
 			}
 		}
 		
@@ -6967,7 +6999,7 @@ country = {
 			capital = 3999
 			
 			own_control_core = 	{ 
-				3999 4000 3998 4004
+				3999 4000 3998 4004 4008
 			}
 		}
 		
@@ -6986,6 +7018,46 @@ country = {
 			
 			own_control_core = 	{ 
 				4225
+			}
+		}
+		
+		SBM = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4026
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4026
+			}
+		}
+		
+		SBN = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4394
+			
+			own_control_core = 	{ 
+				4394 4393 4395 4396 
+			}
+		}
+		
+		HBO = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4032
+			
+			own_control_core = 	{ 
+				4032 4031
 			}
 		}
 	}

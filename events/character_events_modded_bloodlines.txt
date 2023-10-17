@@ -29,6 +29,7 @@ character_events.35 = {
 						has_trait = ysgramorsson
 						has_trait = werewolf
 						has_trait = companion
+						has_trait = begalin
 					}
 				}
 			}
@@ -42,6 +43,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = begalin
+					}
+					NOT = {
+						has_trait = begalin
+					}
+				}
+				add_trait = begalin
 			}
 			if = {
 				limit = {
@@ -242,6 +254,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = aranas	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = begalin
+				}
+				NOT = {
+					has_trait = begalin
+				}
+			}
+			add_trait = begalin	
 		}
 		if = {
 			limit = {

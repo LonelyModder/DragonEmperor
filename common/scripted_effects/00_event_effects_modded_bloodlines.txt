@@ -25,6 +25,7 @@ pass_down_traits_effect = {
 						has_trait = ysgramorsson
 						has_trait = werewolf
 						has_trait = companion
+						has_trait = begalin
 					}
 				}
 						
@@ -39,6 +40,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = begalin
+					}
+					NOT = {
+						has_trait = begalin
+					}
+				}
+				add_trait = begalin
 			}
 			if = {
 				limit = {
@@ -250,6 +262,18 @@ pass_down_traits_effect = {
 				}
 			}
 			add_trait = aranas
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = begalin
+				}
+				NOT = {
+					has_trait = begalin
+				}
+			}
+			add_trait = begalin
 		}
 		if = {
 			limit = {
@@ -478,6 +502,14 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = aranas
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = begalin
+			}
+		}
+		add_trait = begalin
 	}
 	if = {
 		limit = {

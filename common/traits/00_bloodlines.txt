@@ -238,6 +238,21 @@ companion = {
 	
 }
 
+begalin = {
+	type = status
+	
+	prominence = 20
+	martial = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		discipline = 0.1
+		lv_warriors_offensive = 0.1
+	}
+	
+}
+
 alesh = {
 	type = status
 	

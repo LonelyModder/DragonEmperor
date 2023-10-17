@@ -133,22 +133,11 @@ colored_emblem_texture_lists = {
 		}
 		special_selection = {
 			trigger = {
-				country_culture_group = "nordic"
-			}
-			10 = "ce_solitude.dds"
-			10 = "ce_morthal.dds"
-			10 = "ce_dawnstar.dds"
-			10 = "ce_riften.dds"
-			10 = "ce_windhelm.dds"
-			10 = "ce_whiterun.dds"
-			10 = "ce_bruma.dds"
-		}
-		special_selection = {
-			trigger = {
 				OR = {
-					country_culture_group = nede
-					country_culture_group = keptu
-					country_culture_group = reachmenic
+					country_culture_group = "nede"
+					country_culture_group = "keptu"
+					country_culture_group = "reachmenic"
+					country_culture_group = "nordic"
 				}
 			}
 			10 = "ce_solitude.dds"

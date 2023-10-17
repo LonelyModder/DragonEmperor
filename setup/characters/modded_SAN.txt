@@ -6,7 +6,7 @@
 		family = c:SAN.fam:Volkihar
 		birth_date=70.1.1
 		culture="volkiharan"
-		religion="nordic_pantheon"
+		religion="night_pantheon"
 		no_stats=yes
 		add_martial=8
 		add_charisma=7
@@ -28,7 +28,7 @@
 		family = c:SAN.fam:Volkihar
 		birth_date=75.1.1
 		culture="volkiharan"
-		religion="nordic_pantheon"
+		religion="night_pantheon"
 		female=yes
 		no_stats=yes
 		add_martial=4
@@ -49,7 +49,7 @@
 		family = c:SAN.fam:Volkihar
 		birth_date=95.1.1
 		culture="volkiharan"
-		religion="nordic_pantheon"
+		religion="night_pantheon"
 		no_stats=yes
 		father="char:46"
 		mother="char:47"

@@ -65,6 +65,7 @@ esfa_startup.4 = { #Ayleid Empire
     trigger = {
     	OR = {
 			primary_culture = colovianelves
+			primary_culture = skyrimelves
 			primary_culture = northelves
 			primary_culture = deathelves
 			primary_culture = besarabicelves

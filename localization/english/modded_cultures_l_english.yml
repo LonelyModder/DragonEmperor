@@ -13,6 +13,7 @@
  psijic:0 "Psijic"
  hiforested:0 "Woodlander"
  awrothgari:0 "Wrothgari"
+ skyrimelves:0 "Merethi"
  altmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  altmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Goblin
@@ -146,6 +147,7 @@
  #Falmer
  falmer:2 "Falmer"
  falwestern:0 "Worgothi"
+ falmerethi:0 "Merethi"
  falmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  falmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Dwemer

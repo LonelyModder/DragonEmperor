@@ -1,0 +1,26 @@
+﻿"SAD"={
+	country="SAD"
+	
+	50={
+		first_name="Randagulf"
+		family = c:SAD.fam:Dovahkul
+		birth_date=80.1.1
+		culture="ndragoncult"
+		religion="dragoncult_pantheon"
+		no_stats=yes
+		add_martial=3
+		add_charisma=5
+		add_finesse=3
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="dragonpriest"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:SAD={
+			set_as_ruler=char:50
+		}
+	}
+	
+}
