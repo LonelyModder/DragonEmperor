@@ -488,6 +488,9 @@ provinces = { #Any entry must contain a comment with city name.
 	4520 = {
 		fortress_building = 1
 	}
+	4389 = {
+		fortress_building = 1
+	}
 	4060 = {
 		fortress_building = 1
 	}
@@ -535,6 +538,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	2174 = {
 		port_building = 2
+	}
+	4037 = {
+		port_building = 1
 	}
 	4010 = {
 		port_building = 2
@@ -6613,7 +6619,7 @@ country = {
 			capital = 4200
 			
 			own_control_core = 	{ 
-				4200 4206 4208 4217 4209 4199 4192 4191 4168 4194 4207				
+				4200 4206 4208 4209 4199 4192 4191 4168 4194 4207				
 				4167 4169 4166 4164 4165 4159 4158 4132 4129 4193 
 				4156 4155 4160 4170 4210 4171 4213 4172 4186 4185
 			}
@@ -6721,6 +6727,7 @@ country = {
 			
 			own_control_core = 	{ 
 				4406 4405 4404 4403 4407 4408 4402 4400 4384 4412 4411 4410 4409 4385
+				4398 4397 4399 4401 4413 4416 4417 4390 4389 4388 4387 4386 4414 4415 4418 4419
 			}
 		}
 		
@@ -7050,7 +7057,7 @@ country = {
 			}
 		}
 		
-		HBO = {          
+		SBO = {          
 			government = tribal_kingdom
 			primary_culture = gobrock
 			religion = goblin_pantheon
@@ -7058,6 +7065,39 @@ country = {
 			
 			own_control_core = 	{ 
 				4032 4031
+			}
+		}
+		
+		SBP = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4035
+			
+			own_control_core = 	{ 
+				4034 4033 4035
+			}
+		}
+		
+		SBR = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4043
+			
+			own_control_core = 	{ 
+				4043 4042 4041 4046
+			}
+		}
+		
+		SBS = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4037
+			
+			own_control_core = 	{ 
+				4037 4036 4038 4039 4040
 			}
 		}
 	}
