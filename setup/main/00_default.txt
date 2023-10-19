@@ -466,6 +466,10 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 
 	#Pirates
+	4054 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4565 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4282 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4037 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3368 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3362 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	787 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -539,7 +543,16 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	4282 = {
+		port_building = 2
+	}
 	4037 = {
+		port_building = 1
+	}
+	4565 = {
+		port_building = 1
+	}
+	4574 = {
 		port_building = 1
 	}
 	4010 = {
@@ -3582,8 +3595,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1353 1354 1355 1365 1360 1363 1361 1366 1362 1371 1356
-				1359 1358 1357 1348 1370 1372 1367 1364
+				1365 1360 1363 1361 1366 1362 1371 1356
+				1359 1370 1372 1367 1364
 				
 			}
 		}
@@ -5554,7 +5567,7 @@ country = {
 		}
 		
 		HBA = {          
-			government = tribal_federation
+			government = theocratic_monarchy
 			primary_culture = druidic
 			religion = druidic_pantheon
 			capital = 3010
@@ -6605,7 +6618,7 @@ country = {
 			own_control_core = 	{ 
 				4104 4102 4103 4105 4077 4078 4076 4075 4073 4072 4074 4071 4069 4070 4053 4052 4066 4064 4065 4062 
 				4048 4047 4061 4060 4050 4049 4051 4068 4067 4063 4081 4101 4059 4058 4057 4044 4045 4111 4110 4108
-				4123 4107 4106 4112 4113 4124 4127 4152 4142 4150 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
+				4123 4107 4106 4112 4113 4124 4127 4152 4142 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
 				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
 				4176 4178 4154 4182 4180 4181 4189 4188 4187 4190 4079 4080 4083 4082 4230 4234
 			}
@@ -6619,7 +6632,7 @@ country = {
 			capital = 4200
 			
 			own_control_core = 	{ 
-				4200 4206 4208 4209 4199 4192 4191 4168 4194 4207				
+				4200 4206 4208 4209 4199 4192 4191 4168 4207				
 				4167 4169 4166 4164 4165 4159 4158 4132 4129 4193 
 				4156 4155 4160 4170 4210 4171 4213 4172 4186 4185
 			}
@@ -6689,7 +6702,7 @@ country = {
 			capital = 4375
 			
 			own_control_core = 	{ 
-				4375 4380 4379 4378 4377 4374 4372 4371 4202 4392 4391 4373 4381
+				4375 4380 4379 4378 4377 4374 4372 4371 4202 4392 4391 4373 4381 4376
 			}
 		}
 		
@@ -6926,7 +6939,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4430
+				4430 4431
 			}
 		}
 		
@@ -7046,7 +7059,7 @@ country = {
 			}
 		}
 		
-		SBN = { 
+		SBY = { 
 			government = tribal_kingdom
 			primary_culture = obloodfall
 			religion = codeofmalacath_pantheon
@@ -7094,10 +7107,284 @@ country = {
 			government = tribal_kingdom
 			primary_culture = gobrock
 			religion = goblin_pantheon
-			capital = 4037
+			capital = 4038
 			
 			own_control_core = 	{ 
 				4037 4036 4038 4039 4040
+			}
+		}
+		
+		SBT = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4117
+			
+			own_control_core = 	{ 
+				4117 4116 4115 4273 4270 4096 4097 4094 4095 4093
+			}
+		}
+		
+		SBU = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4086
+			
+			own_control_core = 	{ 
+				4091 4092 4088 4089 4085 4086 4084
+			}
+		}
+		
+		SBW = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4098
+			
+			own_control_core = 	{ 
+				4098 4099 4100
+			}
+		}
+		
+		SBZ = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4282
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4284 4283 4282
+			}
+		}
+		
+		SCA = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4197
+			
+			own_control_core = 	{ 
+				4197 4194 4195 4196 4204
+			}
+		}
+		
+		SCB = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4232
+			
+			own_control_core = 	{ 
+				4232 4233 4231
+			}
+		}
+		
+		SCC = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4203
+			
+			own_control_core = 	{ 
+				4203 4201
+			}
+		}
+		
+		SCD = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4220
+			
+			own_control_core = 	{ 
+				4220 4221 4222
+			}
+		}
+		
+		SCE = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4226
+			
+			own_control_core = 	{ 
+				4226 4227 4224
+			}
+		}
+		
+		SCF = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4214
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4214 4215 4211 4212 4216 4228 4229
+			}
+		}
+		
+		SCG = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4217
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4217 4218 4219 4205
+			}
+		}
+		
+		SCH = {          
+			government = tribal_kingdom
+			primary_culture = gobcyrodic
+			religion = goblin_pantheon
+			capital = 1355
+			
+			own_control_core = 	{ 
+				1355 1348 1353 1354 1357 1358
+			}
+		}
+		
+		SCI = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4150
+			
+			own_control_core = 	{ 
+				4150
+			}
+		}
+		
+		SCJ = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4292
+			
+			own_control_core = 	{ 
+				4292 4290
+			}
+		}
+		
+		SCK = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4541
+			
+			own_control_core = 	{ 
+				4541
+			}
+		}
+		
+		SCL = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4570
+			
+			own_control_core = 	{ 
+				4570 4571 4569
+			}
+		}
+		
+		SCM = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4563
+			
+			own_control_core = 	{ 
+				4563
+			}
+		}
+		
+		SCN = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4565
+			
+			own_control_core = 	{ 
+				4565 4566 4558 4556
+			}
+		}
+		
+		SCO = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4433
+			
+			own_control_core = 	{ 
+				4433 4434 4432
+			}
+		}
+		
+		SCP = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4466
+			
+			own_control_core = 	{ 
+				4466 4471 4459 4458 4448
+			}
+		}
+		
+		SCR = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4447
+			
+			own_control_core = 	{ 
+				4447 4446 4445
+			}
+		}
+		
+		SCS = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4451
+			
+			own_control_core = 	{ 
+				4451 4452 4455 4456
+			}
+		}
+		
+		SCT = {          
+			government = tribal_kingdom
+			primary_culture = northkeptu
+			religion = reachmen_pantheon
+			capital = 4422
+			
+			own_control_core = 	{ 
+				4421 4422 4420
 			}
 		}
 	}

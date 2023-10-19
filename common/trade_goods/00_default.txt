@@ -729,6 +729,22 @@ stalhrim = { #338 territories
 	color = rgb { 107 137 156 }
 }
 
+aetherium = { #338 territories
+	category = 4
+
+	gold = 0.5
+
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		lv_mages_offensive = 0.05
+		lv_mages_defensive = 0.05
+	}
+	
+	color = rgb { 12 119 196 }
+}
+
 wool = { #338 territories
 	category = 4
 

@@ -21,7 +21,7 @@
 
 3999={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="kolbjorn"
 	civilization_value=0
@@ -43,7 +43,7 @@
 
 4000={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="kolbjorn"
 	civilization_value=0
@@ -62,7 +62,7 @@
 
 4001={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -81,7 +81,7 @@
 
 4002={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -100,7 +100,7 @@
 
 4003={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -141,7 +141,7 @@
 
 4005={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="tirsk"
 	civilization_value=0
@@ -217,7 +217,7 @@
 
 4009={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -321,7 +321,7 @@
 
 4014={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -340,7 +340,7 @@
 
 4015={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="tirsk"
 	civilization_value=0
@@ -362,7 +362,7 @@
 
 4016={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -381,7 +381,7 @@
 
 4017={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -441,7 +441,7 @@
 
 4020={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -517,7 +517,7 @@
 
 4024={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -656,7 +656,7 @@
 
 4031={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -675,7 +675,7 @@
 
 4032={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -773,34 +773,34 @@
 
 4037={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobrock"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
-	freemen={
-		amount=2
-	}
-	tribesmen={
-		amount=6
-	}
-	slaves={
-		amount=3
-	}
-}
-
-4038={ 
-	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+4038={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobrock"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1026,7 +1026,7 @@
 
 4050={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1102,7 +1102,7 @@
 
 4054={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="atmoran"
 	civilization_value=0
@@ -1124,7 +1124,7 @@
 
 4055={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="atmoran"
 	civilization_value=0
@@ -1143,7 +1143,7 @@
 
 4056={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="atmoran"
 	civilization_value=0
@@ -1682,8 +1682,8 @@
 4084={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1701,8 +1701,8 @@
 4085={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1720,11 +1720,14 @@
 4086={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1761,8 +1764,8 @@
 4088={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1780,8 +1783,8 @@
 4089={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1815,8 +1818,8 @@
 4091={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1834,8 +1837,8 @@
 4092={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1853,8 +1856,8 @@
 4093={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1872,8 +1875,8 @@
 4094={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1891,8 +1894,8 @@
 4095={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1910,8 +1913,8 @@
 4096={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1929,8 +1932,8 @@
 4097={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1948,11 +1951,14 @@
 4098={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1967,8 +1973,8 @@
 4099={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1986,8 +1992,8 @@
 4100={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2280,8 +2286,8 @@
 4115={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2299,8 +2305,8 @@
 4116={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2318,11 +2324,14 @@
 4117={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2494,7 +2503,7 @@
 
 4126={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2954,25 +2963,28 @@
 4150={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="nordic_pantheon"
-	culture="eastholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4151={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="aetherium"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -3301,7 +3313,7 @@
 
 4168={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3323,7 +3335,7 @@
 
 4169={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3627,7 +3639,7 @@
 
 4185={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3646,7 +3658,7 @@
 
 4186={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3744,7 +3756,7 @@
 
 4191={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3763,7 +3775,7 @@
 
 4192={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3802,8 +3814,8 @@
 4194={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="nordic_pantheon"
-	culture="southholder"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3821,8 +3833,8 @@
 4195={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3840,8 +3852,8 @@
 4196={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3859,11 +3871,14 @@
 4197={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -3899,7 +3914,7 @@
 
 4199={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3918,7 +3933,7 @@
 
 4200={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3944,8 +3959,8 @@
 4201={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3982,11 +3997,14 @@
 4203={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4001,8 +4019,8 @@
 4204={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4019,9 +4037,9 @@
 
 4205={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4038,7 +4056,7 @@
 
 4206={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -4076,7 +4094,7 @@
 
 4208={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -4095,7 +4113,7 @@
 
 4209={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -4133,9 +4151,9 @@
 
 4211={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4152,9 +4170,9 @@
 
 4212={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4190,28 +4208,34 @@
 
 4214={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4215={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4228,9 +4252,9 @@
 
 4216={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4248,27 +4272,33 @@
 4217={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4218={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4285,9 +4315,9 @@
 
 4219={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4305,11 +4335,14 @@
 4220={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4323,9 +4356,9 @@
 
 4221={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4343,8 +4376,8 @@
 4222={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4383,9 +4416,9 @@
 
 4224={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4425,11 +4458,14 @@
 4226={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4444,8 +4480,8 @@
 4227={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4462,9 +4498,9 @@
 
 4228={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4481,9 +4517,9 @@
 
 4229={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4500,7 +4536,7 @@
 
 4230={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -4519,9 +4555,9 @@
 
 4231={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4539,11 +4575,14 @@
 4232={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4558,8 +4597,8 @@
 4233={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4576,7 +4615,7 @@
 
 4234={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -5273,8 +5312,8 @@
 4270={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5330,8 +5369,8 @@
 4273={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5507,27 +5546,33 @@
 4282={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4283={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5545,8 +5590,8 @@
 4284={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="falmerethi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5662,8 +5707,8 @@
 4290={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5700,11 +5745,14 @@
 4292={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -6180,7 +6228,7 @@
 
 4317={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6202,7 +6250,7 @@
 
 4318={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6221,7 +6269,7 @@
 
 4319={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6278,7 +6326,7 @@
 
 4322={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6297,7 +6345,7 @@
 
 4323={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -7314,8 +7362,8 @@
 4376={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nordic_pantheon"
+	culture="nkreathan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7408,7 +7456,7 @@
 
 4381={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7465,8 +7513,8 @@
 
 4384={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7484,8 +7532,8 @@
 
 4385={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7503,8 +7551,8 @@
 
 4386={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7522,8 +7570,8 @@
 
 4387={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7541,8 +7589,8 @@
 
 4388={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7560,7 +7608,7 @@
 
 4389={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="skyrimelves"
 	civilization_value=0
@@ -7584,8 +7632,8 @@
 
 4390={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7721,7 +7769,7 @@
 4397={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7740,7 +7788,7 @@
 4398={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7759,7 +7807,7 @@
 4399={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7777,8 +7825,8 @@
 
 4400={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7797,7 +7845,7 @@
 4401={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7815,8 +7863,8 @@
 
 4402={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7834,8 +7882,8 @@
 
 4403={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7853,8 +7901,8 @@
 
 4404={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7872,8 +7920,8 @@
 
 4405={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7891,7 +7939,7 @@
 
 4406={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="skyrimelves"
 	civilization_value=0
@@ -7915,8 +7963,8 @@
 
 4407={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7934,8 +7982,8 @@
 
 4408={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7953,8 +8001,8 @@
 
 4409={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7972,8 +8020,8 @@
 
 4410={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -7991,8 +8039,8 @@
 
 4411={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8010,8 +8058,8 @@
 
 4412={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8029,8 +8077,8 @@
 
 4413={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8049,7 +8097,7 @@
 4414={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8068,7 +8116,7 @@
 4415={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8086,8 +8134,8 @@
 
 4416={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8105,8 +8153,8 @@
 
 4417={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="reachmen_pantheon"
+	trade_goods="wood"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8125,7 +8173,7 @@
 4418={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8144,7 +8192,7 @@
 4419={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="reachmen_pantheon"
+	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
 	barbarian_power=0
@@ -8163,8 +8211,8 @@
 4420={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8182,8 +8230,8 @@
 4421={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8201,11 +8249,14 @@
 4422={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -8220,8 +8271,8 @@
 4423={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8239,8 +8290,8 @@
 4424={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8258,8 +8309,8 @@
 4425={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8277,8 +8328,8 @@
 4426={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8296,8 +8347,8 @@
 4427={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8315,8 +8366,8 @@
 4428={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8378,15 +8429,15 @@
 4431={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nirnic_pantheon"
+	culture="dskyrimic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
 	slaves={
@@ -8397,8 +8448,8 @@
 4432={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8416,11 +8467,14 @@
 4433={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -8435,8 +8489,8 @@
 4434={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobskyrim"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8454,8 +8508,8 @@
 4435={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8473,8 +8527,8 @@
 4436={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8492,8 +8546,8 @@
 4437={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8511,8 +8565,8 @@
 4438={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8530,8 +8584,8 @@
 4439={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8549,8 +8603,8 @@
 4440={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8568,8 +8622,8 @@
 4441={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8609,8 +8663,8 @@
 4443={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8628,8 +8682,8 @@
 4444={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8647,8 +8701,8 @@
 4445={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8666,8 +8720,8 @@
 4446={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8685,11 +8739,14 @@
 4447={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -8704,8 +8761,8 @@
 4448={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8723,8 +8780,8 @@
 4449={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8742,8 +8799,8 @@
 4450={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8761,27 +8818,30 @@
 4451={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4452={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8799,8 +8859,8 @@
 4453={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8818,8 +8878,8 @@
 4454={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8837,8 +8897,8 @@
 4455={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8856,8 +8916,8 @@
 4456={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8875,8 +8935,8 @@
 4457={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8894,8 +8954,8 @@
 4458={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8913,8 +8973,8 @@
 4459={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8932,8 +8992,8 @@
 4460={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8951,8 +9011,8 @@
 4461={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8970,8 +9030,8 @@
 4462={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8989,8 +9049,8 @@
 4463={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9008,8 +9068,8 @@
 4464={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9027,8 +9087,8 @@
 4465={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9046,27 +9106,30 @@
 4466={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4467={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9084,8 +9147,8 @@
 4468={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9103,8 +9166,8 @@
 4469={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9141,8 +9204,8 @@
 4471={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9160,8 +9223,8 @@
 4472={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9198,8 +9261,8 @@
 4474={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9217,8 +9280,8 @@
 4475={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9236,8 +9299,8 @@
 4476={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9277,8 +9340,8 @@
 4478={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9296,8 +9359,8 @@
 4479={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9315,8 +9378,8 @@
 4480={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9334,8 +9397,8 @@
 4481={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9353,8 +9416,8 @@
 4482={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9372,8 +9435,8 @@
 4483={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10501,11 +10564,14 @@
 4541={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -10786,8 +10852,8 @@
 4556={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10824,8 +10890,8 @@
 4558={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10919,11 +10985,14 @@
 4563={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -10956,28 +11025,31 @@
 
 4565={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 4566={ 
 	terrain="forest"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="reachmen_pantheon"
+	culture="reachmen"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11033,8 +11105,8 @@
 4569={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11052,11 +11124,14 @@
 4570={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -11071,8 +11146,8 @@
 4571={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
