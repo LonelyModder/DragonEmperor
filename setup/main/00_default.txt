@@ -7285,18 +7285,18 @@ country = {
 			capital = 4292
 			
 			own_control_core = 	{ 
-				4292 4290
+				4292 4290 4541
 			}
 		}
 		
 		SCK = {          
 			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4541
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4425
 			
 			own_control_core = 	{ 
-				4541
+				4425 4424 4423 4426
 			}
 		}
 		
@@ -7307,18 +7307,18 @@ country = {
 			capital = 4570
 			
 			own_control_core = 	{ 
-				4570 4571 4569
+				4570 4571 4569 4563
 			}
 		}
 		
 		SCM = {          
 			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4563
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4436
 			
 			own_control_core = 	{ 
-				4563
+				4436 4428 4427
 			}
 		}
 		
