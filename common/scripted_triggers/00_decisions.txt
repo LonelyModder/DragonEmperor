@@ -8,6 +8,9 @@
 		tag = XCR #Craglorn
 		tag = XAN #Anequina
 		tag = XPL #Pellitine
+		tag = SAG #East Skyrim?
+		tag = XWS #West Skyri
+		tag = XRE #Reach
 	}
 }
 
@@ -20,6 +23,7 @@ is_tier_2_formable_trigger = {
 		tag = XHM #Kingdom of Deathlands
 		tag = XHR #Kingdom of High Rock
 		tag = XEL #Kingdom of Elsweyr
+		tag = XSK #Kingdom of Skyrim
 	}
 }
 
@@ -28,6 +32,7 @@ is_endgame_tag_trigger = {
 		tag = XAD #Aldmeri Dominion
 		tag = XDC #Dagerfall Covenant
 		tag = XME #Moon Empire
+		tag = XMA #Empire of Man
 	}
 }
 

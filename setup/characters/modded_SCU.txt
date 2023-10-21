@@ -1,0 +1,105 @@
+﻿"SCU"={
+	country="SCU"
+	
+	51={
+		first_name="Belain"
+		family = c:SCU.fam:Nighthollow
+		birth_date=90.1.1
+		culture="nighthollow"
+		religion="night_pantheon"
+		no_stats=yes
+		female=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=8
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="full_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:SCU={
+			set_as_ruler=char:51
+		}
+	}
+	
+	52={
+		#first_name="Belain"
+		family = c:SCU.fam:Nighthollow
+		birth_date=90.1.1
+		culture="nighthollow"
+		religion="half_vampire"
+		no_stats=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=8
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="half_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	53={
+		#first_name="Belain"
+		family = c:SCU.fam:Nighthollow
+		birth_date=90.1.1
+		culture="nighthollow"
+		religion="half_vampire"
+		no_stats=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=8
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="half_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	54={
+		#first_name="Belain"
+		family = c:SCU.fam:Nighthollow
+		birth_date=90.1.1
+		culture="nighthollow"
+		religion="night_pantheon"
+		no_stats=yes
+		female=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=8
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="lower_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	55={
+		#first_name="Belain"
+		family = c:SCU.fam:Nighthollow
+		birth_date=90.1.1
+		culture="nighthollow"
+		religion="night_pantheon"
+		no_stats=yes
+		female=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=8
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="lower_vampire"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+}

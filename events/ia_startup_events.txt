@@ -185,6 +185,7 @@ esfa_startup.11 = { #Nord
 
     option = {    
         name = esfa_startup.11.a
+		root = { every_owned_province = { add_claim = p:4104.owner } }
     }
 }
 

@@ -387,6 +387,12 @@ family={
 			culture = ndragoncult
 			prestige=300
 		}
+		32={
+			key="Nighthollow"
+			owner=SCU
+			culture = nighthollow
+			prestige=300
+		}
 		
 		}
 }
@@ -490,6 +496,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	4520 = {
+		fortress_building = 1
+	}
+	4504 = {
+		fortress_building = 1
+	}
+	4269 = {
+		fortress_building = 1
+	}
+	4261 = {
 		fortress_building = 1
 	}
 	4389 = {
@@ -6663,7 +6678,7 @@ country = {
 			capital = 4277
 			
 			own_control_core = 	{ 
-				4277 4278 4275 4276 4281 4114 4269 4266 4271 4267 4272 4274 4235 4238 4250 4249 4251 4252 4256 4257 4258
+				4277 4278 4275 4276 4281 4114 4266 4271 4267 4272 4274 4235 4238 4250 4249 4251 4252 4256 4257 4258
 				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
 				4255 4254 4237 4236 4253 4118 4289 4240 4241 4119 4120 4153
 			}
@@ -6678,7 +6693,7 @@ country = {
 			
 			own_control_core = 	{ 
 				4499 4497 4310 4308 4300 4299 4306 4498 4309 4501 4500 4491 4347 4495 4496 4492 4493 4489 4470 4488 4473
-				4301 4305 4307 4503 4504 4502 4494 4505 4506 4508 4509 4507 4487 4490 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519
+				4301 4305 4307 4503 4502 4494 4505 4506 4508 4509 4507 4487 4490 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519
 			}
 		}
 		
@@ -7385,6 +7400,117 @@ country = {
 			
 			own_control_core = 	{ 
 				4421 4422 4420
+			}
+		}
+		
+		SCU = { 
+			family = 32
+			government = despotic_monarchy
+			primary_culture = nighthollow
+			religion = night_pantheon
+			capital = 4464
+			
+			own_control_core = 	{ 
+				4464 4504 4269
+			}
+		}
+		
+		SCW = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4439
+			
+			own_control_core = 	{ 
+				4439 4441 4443 4437 4435
+			}
+		}
+		
+		SCY = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4438
+			
+			own_control_core = 	{ 
+				4438 4444 4440 
+			}
+		}
+		
+		SCZ = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4476
+			
+			own_control_core = 	{ 
+				4476 4450 4449 4474
+			}
+		}
+		
+		SDA = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4481
+			
+			own_control_core = 	{ 
+				4481 4482 4483 4480
+			}
+		}
+		
+		SDB = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4479
+			
+			own_control_core = 	{ 
+				4479 4478 4475
+			}
+		}
+		
+		SDC = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4460
+			
+			own_control_core = 	{ 
+				4460 4465 4457
+			}
+		}
+		
+		SDD = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4469
+			
+			own_control_core = 	{ 
+				4469 4472 4467
+			}
+		}
+		
+		SDE = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4462
+			
+			own_control_core = 	{ 
+				4462 4468 4461
+			}
+		}
+		
+		SDF = {          
+			government = tribal_kingdom
+			primary_culture = reachmen
+			religion = reachmen_pantheon
+			capital = 4454
+			
+			own_control_core = 	{ 
+				4454 4453 4463
 			}
 		}
 	}
