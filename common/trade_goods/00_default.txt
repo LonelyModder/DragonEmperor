@@ -237,9 +237,9 @@ limestone = { #282 territories
 }
 
 elephants = { #82 territories
-	category = 0
+	category = 3
 	
-	gold = 0.3
+	gold = 0.5
 	
 	province = {
 		local_output_modifier = 0.03

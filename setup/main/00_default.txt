@@ -194,6 +194,41 @@ treasure_manager = {
 				local_nobles_happyness = 0.1
 			}
 		}
+		28 = { # Old Hroldan
+			key = "treasure_totemofclawandfang"
+			icon = "treasure_chest"
+			state_modifier = {
+				garrison_size = 0.5
+			}
+		}
+		29 = { # Whiterun
+			key = "treasure_gildergreen"
+			icon = "treasure_architecture"
+			state_modifier = {
+				base_resources = 0.5
+			}
+		}
+		30 = { # Whiterun
+			key = "treasure_skyforge"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 0.2
+			}
+		}
+		31 = { # Windhelm
+			key = "treasure_jaggedcrown"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		32 = { # Windhelm
+			key = "treasure_wuuthrad"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
     }
 }
 family={
@@ -469,6 +504,15 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	1201 = { # Borderwatch
 		treasure_slots = { 	treasures = { 25 } }
+	}
+	4451 = { # Old Hroldan
+		treasure_slots = { 	treasures = { 28 } }
+	}
+	4314 = { # Whiterun
+		treasure_slots = { 	treasures = { 29 30 } }
+	}
+	4104 = { # Windhelm
+		treasure_slots = { 	treasures = { 31 32 } }
 	}
 
 	#Pirates
