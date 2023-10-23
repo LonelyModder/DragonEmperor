@@ -583,6 +583,22 @@ earthware = { #168 territories
 	color = { 0.62 0.3 0.08 }
 }
 
+horker = { #168 territories
+	category = 4
+
+	gold = 0.4
+
+	province = {
+		local_monthly_food = 2.5
+	}
+	country = {
+		lv_warriors_defensive = 0.05
+		lv_raiders_defensive = 0.05
+	}
+	
+	color = rgb { 66 65 63 }
+}
+
 dye = { #48 territories
 	category = 2
 

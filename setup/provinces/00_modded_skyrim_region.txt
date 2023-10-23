@@ -100,7 +100,7 @@
 
 4003={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -122,7 +122,7 @@
 
 4004={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="ebon"
 	religion="allmaker_pantheon"
 	culture="kolbjorn"
 	civilization_value=0
@@ -160,7 +160,7 @@
 
 4006={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="allmaker_pantheon"
 	culture="tirsk"
 	civilization_value=0
@@ -179,7 +179,7 @@
 
 4007={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -302,7 +302,7 @@
 
 4013={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stalhrim"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -340,7 +340,7 @@
 
 4015={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="allmaker_pantheon"
 	culture="tirsk"
 	civilization_value=0
@@ -422,7 +422,7 @@
 
 4019={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stalhrim"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -479,7 +479,7 @@
 
 4022={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -498,7 +498,7 @@
 
 4023={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="allmaker_pantheon"
 	culture="skaal"
 	civilization_value=0
@@ -536,7 +536,7 @@
 
 4025={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -599,7 +599,7 @@
 
 4028={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -618,7 +618,7 @@
 
 4029={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -637,7 +637,7 @@
 
 4030={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="allmaker_pantheon"
 	culture="vertheall"
 	civilization_value=0
@@ -694,7 +694,7 @@
 
 4033={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -732,7 +732,7 @@
 
 4035={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -912,7 +912,7 @@
 
 4044={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stalhrim"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -931,7 +931,7 @@
 
 4045={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -1200,7 +1200,7 @@
 
 4059={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="stalhrim"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1219,7 +1219,7 @@
 
 4060={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1263,7 +1263,7 @@
 
 4062={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1301,7 +1301,7 @@
 
 4064={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1339,7 +1339,7 @@
 
 4066={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1358,7 +1358,7 @@
 
 4067={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1415,7 +1415,7 @@
 
 4070={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1491,7 +1491,7 @@
 
 4074={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1510,7 +1510,7 @@
 
 4075={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1529,7 +1529,7 @@
 
 4076={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1605,7 +1605,7 @@
 
 4080={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1624,7 +1624,7 @@
 
 4081={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -1643,7 +1643,7 @@
 
 4082={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="nordic_pantheon"
 	culture="winterholdan"
 	civilization_value=0
@@ -1763,7 +1763,7 @@
 
 4088={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1782,7 +1782,7 @@
 
 4089={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1801,7 +1801,7 @@
 
 4090={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -1817,7 +1817,7 @@
 
 4091={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1836,7 +1836,7 @@
 
 4092={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1855,7 +1855,7 @@
 
 4093={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1931,7 +1931,7 @@
 
 4097={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -1950,7 +1950,7 @@
 
 4098={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stalhrim"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -2010,7 +2010,7 @@
 
 4101={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2067,7 +2067,7 @@
 
 4104={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2093,7 +2093,7 @@
 
 4105={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2131,7 +2131,7 @@
 
 4107={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2210,7 +2210,7 @@
 
 4111={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2365,7 +2365,7 @@
 
 4119={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -2384,7 +2384,7 @@
 
 4120={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -2403,7 +2403,7 @@
 
 4121={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="dwemerplans"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -2425,7 +2425,7 @@
 
 4122={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2466,7 +2466,7 @@
 
 4124={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2523,7 +2523,7 @@
 
 4127={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2583,7 +2583,7 @@
 
 4130={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2602,7 +2602,7 @@
 
 4131={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2640,7 +2640,7 @@
 
 4133={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2659,7 +2659,7 @@
 
 4134={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2678,7 +2678,7 @@
 
 4135={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2754,7 +2754,7 @@
 
 4139={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2773,7 +2773,7 @@
 
 4140={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2792,7 +2792,7 @@
 
 4141={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2887,7 +2887,7 @@
 
 4146={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -2963,7 +2963,7 @@
 
 4150={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -3102,7 +3102,7 @@
 
 4157={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="dwemersteel"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -3162,7 +3162,7 @@
 
 4160={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="malachite"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3238,7 +3238,7 @@
 
 4164={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3295,7 +3295,7 @@
 
 4167={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3355,7 +3355,7 @@
 
 4170={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3374,7 +3374,7 @@
 
 4171={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -3507,7 +3507,7 @@
 
 4178={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -3583,7 +3583,7 @@
 
 4182={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="ebon"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -3678,7 +3678,7 @@
 
 4187={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="vegetables"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -3719,7 +3719,7 @@
 
 4189={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -3738,7 +3738,7 @@
 
 4190={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="soul_gems"
 	religion="nordic_pantheon"
 	culture="eastholder"
 	civilization_value=0
@@ -3833,7 +3833,7 @@
 
 4195={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -3871,7 +3871,7 @@
 
 4197={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -3978,7 +3978,7 @@
 
 4202={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -3997,7 +3997,7 @@
 
 4203={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -4133,7 +4133,7 @@
 
 4210={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nordic_pantheon"
 	culture="southholder"
 	civilization_value=0
@@ -4171,7 +4171,7 @@
 
 4212={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="falmerethi"
 	civilization_value=0
@@ -4209,7 +4209,7 @@
 
 4214={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="falmerethi"
 	civilization_value=0
@@ -4297,7 +4297,7 @@
 
 4218={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="elven_pantheon"
 	culture="falmerethi"
 	civilization_value=0
@@ -4316,7 +4316,7 @@
 
 4219={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="falmerethi"
 	civilization_value=0
@@ -4335,7 +4335,7 @@
 
 4220={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -4458,7 +4458,7 @@
 
 4226={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -4499,7 +4499,7 @@
 
 4228={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="elven_pantheon"
 	culture="falmerethi"
 	civilization_value=0
@@ -4575,7 +4575,7 @@
 
 4232={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="malachite"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -4634,8 +4634,8 @@
 }
 
 4235={ 
-	terrain="mountainmountain"
-	trade_goods="spices"
+	terrain="mountain"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -4654,7 +4654,7 @@
 
 4236={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -4711,7 +4711,7 @@
 
 4239={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="dwemersteel"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -4752,7 +4752,7 @@
 
 4241={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -4812,7 +4812,7 @@
 
 4244={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -4831,7 +4831,7 @@
 
 4245={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -4869,7 +4869,7 @@
 
 4247={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -4964,7 +4964,7 @@
 
 4252={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -4983,7 +4983,7 @@
 
 4253={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5043,7 +5043,7 @@
 
 4256={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5062,7 +5062,7 @@
 
 4257={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5239,7 +5239,7 @@
 
 4266={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5258,7 +5258,7 @@
 
 4267={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5277,7 +5277,7 @@
 
 4268={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5375,7 +5375,7 @@
 
 4273={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -5413,7 +5413,7 @@
 
 4275={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5432,7 +5432,7 @@
 
 4276={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5634,7 +5634,7 @@
 
 4286={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -5694,7 +5694,7 @@
 
 4289={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5830,7 +5830,7 @@
 
 4296={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
@@ -5887,7 +5887,7 @@
 
 4299={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -6020,7 +6020,7 @@
 
 4306={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -6039,7 +6039,7 @@
 
 4307={ 
 	terrain="marsh"
-	trade_goods="wild_game"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -6198,7 +6198,7 @@
 
 4315={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6217,7 +6217,7 @@
 
 4316={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6296,7 +6296,7 @@
 
 4320={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6315,7 +6315,7 @@
 
 4321={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6353,7 +6353,7 @@
 
 4323={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6562,7 +6562,7 @@
 
 4334={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6619,7 +6619,7 @@
 
 4337={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6638,7 +6638,7 @@
 
 4338={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6676,7 +6676,7 @@
 
 4340={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6695,7 +6695,7 @@
 
 4341={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6714,7 +6714,7 @@
 
 4342={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6733,7 +6733,7 @@
 
 4343={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6752,7 +6752,7 @@
 
 4344={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6771,7 +6771,7 @@
 
 4345={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6790,7 +6790,7 @@
 
 4346={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6847,7 +6847,7 @@
 
 4349={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6885,7 +6885,7 @@
 
 4351={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6904,7 +6904,7 @@
 
 4352={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6923,7 +6923,7 @@
 
 4353={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -6999,7 +6999,7 @@
 
 4357={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="elephants"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -7018,7 +7018,7 @@
 
 4358={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cattle"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -7056,7 +7056,7 @@
 
 4360={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="nordic_pantheon"
 	culture="westholder"
 	civilization_value=0
@@ -7268,7 +7268,7 @@
 
 4371={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7287,7 +7287,7 @@
 
 4372={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7325,7 +7325,7 @@
 
 4374={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7344,7 +7344,7 @@
 
 4375={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7369,7 +7369,7 @@
 
 4376={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7388,7 +7388,7 @@
 
 4377={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7407,7 +7407,7 @@
 
 4378={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="nkreathan"
 	civilization_value=0
@@ -7697,7 +7697,7 @@
 
 4393={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7716,7 +7716,7 @@
 
 4394={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7738,7 +7738,7 @@
 
 4395={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -7757,7 +7757,7 @@
 
 4396={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="codeofmalacath_pantheon"
 	culture="obloodfall"
 	civilization_value=0
@@ -8066,7 +8066,7 @@
 
 4412={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="maplesyrup"
 	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
@@ -8123,7 +8123,7 @@
 
 4415={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="nedic_pantheon"
 	culture="nedkreathan"
 	civilization_value=0
@@ -8256,7 +8256,7 @@
 
 4422={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="necromancers"
 	religion="reachmen_pantheon"
 	culture="northkeptu"
 	civilization_value=0
@@ -8278,7 +8278,7 @@
 
 4423={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8297,7 +8297,7 @@
 
 4424={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8316,7 +8316,7 @@
 
 4425={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8439,7 +8439,7 @@
 
 4431={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="nirnic_pantheon"
 	culture="dskyrimic"
 	civilization_value=0
@@ -8499,7 +8499,7 @@
 
 4434={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="goblin_pantheon"
 	culture="gobskyrim"
 	civilization_value=0
@@ -8559,7 +8559,7 @@
 
 4437={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8578,7 +8578,7 @@
 
 4438={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8641,7 +8641,7 @@
 
 4441={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8682,7 +8682,7 @@
 
 4443={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8701,7 +8701,7 @@
 
 4444={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8739,7 +8739,7 @@
 
 4446={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8837,7 +8837,7 @@
 
 4451={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8879,7 +8879,7 @@
 
 4453={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8939,7 +8939,7 @@
 
 4456={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8958,7 +8958,7 @@
 
 4457={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8977,7 +8977,7 @@
 
 4458={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="moonstone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -8996,7 +8996,7 @@
 
 4459={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9141,7 +9141,7 @@
 
 4466={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9299,7 +9299,7 @@
 
 4474={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="malachite"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9381,7 +9381,7 @@
 
 4478={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9400,7 +9400,7 @@
 
 4479={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9463,7 +9463,7 @@
 
 4482={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="malachite"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -9580,7 +9580,7 @@
 
 4488={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -9770,7 +9770,7 @@
 
 4498={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -9871,7 +9871,7 @@
 
 4503={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10045,7 +10045,7 @@
 
 4512={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10064,7 +10064,7 @@
 
 4513={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10102,7 +10102,7 @@
 
 4515={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10121,7 +10121,7 @@
 
 4516={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10140,7 +10140,7 @@
 
 4517={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10159,7 +10159,7 @@
 
 4518={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="nordic_pantheon"
 	culture="morthalan"
 	civilization_value=0
@@ -10200,7 +10200,7 @@
 
 4520={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nordic_pantheon"
 	culture="solitudan"
 	civilization_value=0
@@ -10358,7 +10358,7 @@
 
 4528={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="nordic_pantheon"
 	culture="solitudan"
 	civilization_value=0
@@ -10443,7 +10443,7 @@
 
 4532={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="reachmen_pantheon"
 	culture="reachmen"
 	civilization_value=0
@@ -10538,7 +10538,7 @@
 
 4537={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="nordic_pantheon"
 	culture="solitudan"
 	civilization_value=0
@@ -10576,7 +10576,7 @@
 
 4539={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="nordic_pantheon"
 	culture="solitudan"
 	civilization_value=0
@@ -10709,7 +10709,7 @@
 
 4546={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="nordic_pantheon"
 	culture="solitudan"
 	civilization_value=0
@@ -11032,7 +11032,7 @@
 
 4563={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -11133,7 +11133,7 @@
 
 4568={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="gems"
 	religion="night_pantheon"
 	culture="volkiharan"
 	civilization_value=0
@@ -11152,7 +11152,7 @@
 
 4569={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobrock"
 	civilization_value=0
@@ -11212,7 +11212,7 @@
 
 4572={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="night_pantheon"
 	culture="volkiharan"
 	civilization_value=0
@@ -11231,7 +11231,7 @@
 
 4573={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="night_pantheon"
 	culture="volkiharan"
 	civilization_value=0

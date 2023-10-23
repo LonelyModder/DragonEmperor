@@ -1980,6 +1980,60 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	3997 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3918 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3890 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3931 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3877 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3843 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3827 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3858 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3850 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3897 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3904 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3872 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3961 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3993 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3982 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3974 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3917 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3911 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	3417 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
