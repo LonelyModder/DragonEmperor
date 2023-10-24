@@ -102,7 +102,10 @@ race_startup.2 = {
 				}
 				else_if = {
 					limit = {
-						has_culture_group = goblin
+						OR = {
+							has_culture_group = goblin
+							has_culture_group = riekling
+						}
 					}
 					add_trait = goblin
 					remove_trait = pure

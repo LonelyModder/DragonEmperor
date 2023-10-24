@@ -28,7 +28,10 @@ esfa_startup.2 = { #Goblins
     picture = welcoming_window_4
 	
     trigger = {
-    	country_culture_group = goblin
+		OR = {
+			country_culture_group = goblin
+			country_culture_group = rielking
+		}
     }
 
     option = {    

@@ -198,6 +198,12 @@ wonder_moongate={
 	great_work_category_slot=0
 }
 
+wonder_palaceofkings={
+	entity_name={"dunedain_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_waterfront={
 	entity_name={"building_special_waterfront_entity"}
 	great_work_category="gw_category_ancient"

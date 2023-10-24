@@ -1980,6 +1980,9 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	3836 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	3997 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}

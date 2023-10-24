@@ -19,13 +19,17 @@
  #Goblin
  goblin:2 "Goblin"
  gobsea:0 "Sea Goblin"
- gobrock:0 "Riekling"
  gobskyrim:0 "Muruthi"
  gobcyrodic:0 "Cyrodic Goblin"
  gobdeathlander:0 "Desert Goblin"
  goblinken:0 "Goblin-Ken"
  goblin_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  goblin_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Riekling
+ riekling:2 "Riekling"
+ gobrock:0 "Riekling"
+ riekling_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ riekling_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Bosmer
  bosmer:2 "Bosmer"
  bosiliacite:0 "Iliacite"

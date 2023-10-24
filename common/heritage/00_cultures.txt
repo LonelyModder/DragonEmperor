@@ -125,7 +125,10 @@ goblin_heritage = {
 	}
 	
 	trigger = {
-		country_culture_group = goblin
+		OR = {
+			country_culture_group = goblin
+			country_culture_group = rielking
+		}
 	}
 }
 
