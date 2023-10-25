@@ -229,6 +229,20 @@ treasure_manager = {
 				local_manpower_modifier = 0.5
 			}
 		}
+		33 = { # Kagrenzel
+			key = "treasure_leftwrathstone"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		34 = { # Nighthollow Keep
+			key = "treasure_darkheart"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
     }
 }
 family={
@@ -513,6 +527,12 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	4104 = { # Windhelm
 		treasure_slots = { 	treasures = { 31 32 } }
+	}
+	4157 = { # Kagrenzel
+		treasure_slots = { 	treasures = { 33 } }
+	}
+	4464 = { # Kagrenzel
+		treasure_slots = { 	treasures = { 34 } }
 	}
 
 	#Pirates
