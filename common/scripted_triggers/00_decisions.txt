@@ -8,9 +8,10 @@
 		tag = XCR #Craglorn
 		tag = XAN #Anequina
 		tag = XPL #Pellitine
-		tag = SAG #East Skyrim?
+		tag = SAG #East Skyrim
 		tag = XWS #West Skyri
 		tag = XRE #Reach
+		tag = XST #Solstheim
 	}
 }
 
@@ -33,6 +34,7 @@ is_endgame_tag_trigger = {
 		tag = XDC #Dagerfall Covenant
 		tag = XME #Moon Empire
 		tag = XMA #Empire of Man
+		tag = XNE #Nordic Empire
 	}
 }
 

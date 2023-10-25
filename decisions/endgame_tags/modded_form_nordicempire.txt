@@ -1,0 +1,131 @@
+﻿country_decisions = {
+	
+	# Form Nordic Empire
+	form_nordicempire = {
+		
+		potential = {
+			country_culture_group = nordic
+			#is_tribal = yes
+			NOT = {
+				tag = XNE
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4104
+					province_id = 4200
+					province_id = 4060
+					province_id = 4277
+					province_id = 4528
+					province_id = 4499
+					province_id = 4314
+					province_id = 4406
+					province_id = 3276
+					province_id = 3280
+					province_id = 3085
+					province_id = 2954
+					province_id = 3012
+					province_id = 2608
+					province_id = 2650
+					province_id = 2632
+					province_id = 2583
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = nordicempire_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XNE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 4104
+			owns_or_subject_owns = 4200
+			owns_or_subject_owns = 4060
+			owns_or_subject_owns = 4277
+			owns_or_subject_owns = 4528
+			owns_or_subject_owns = 4499
+			owns_or_subject_owns = 4314
+			owns_or_subject_owns = 4406
+			owns_or_subject_owns = 3276
+			owns_or_subject_owns = 3280
+			owns_or_subject_owns = 3085
+			owns_or_subject_owns = 2954
+			owns_or_subject_owns = 3012
+			owns_or_subject_owns = 2608
+			owns_or_subject_owns = 2650
+			owns_or_subject_owns = 2632
+			owns_or_subject_owns = 2583
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "Nordicempire_name"
+			change_country_flag = SAG
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "Nordicempire_adj"
+				change_country_color =  "Nordicempire_color"
+				change_country_tag = XNE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4104
+						}
+					}
+				}
+				set_capital = 4104
+				hidden_effect = {
+					p:4104.state = {
+						set_state_capital = 4104
+					}
+				}
+				p:4104 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_rift_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }
+				region:modded_whiterun_region = { formable_region_province_effect = yes }
+				region:modded_solitude_region = { formable_region_province_effect = yes }
+				region:modded_falkreath_region = { formable_region_province_effect = yes }
+				region:modded_wrothgar_region = { formable_region_province_effect = yes }
+				region:modded_stormhaven_region = { formable_region_province_effect = yes }
+				region:modded_rivenspire_region = { formable_region_province_effect = yes }
+				region:modded_glenumbra_region = { formable_region_province_effect = yes }
+				region:modded_lowerglenumbra_region = { formable_region_province_effect = yes }
+				region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
