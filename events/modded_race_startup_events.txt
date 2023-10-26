@@ -49,6 +49,7 @@ race_startup.2 = {
 					limit = {
 						NOR = {
 							has_culture_group = altmer
+							has_culture_group = ayleid
 							has_culture_group = venedi
 						}
 					}
@@ -59,6 +60,7 @@ race_startup.2 = {
 					limit = {
 						OR = {
 							has_culture_group = altmer
+							has_culture_group = ayleid
 							has_culture_group = venedi
 						}
 					}

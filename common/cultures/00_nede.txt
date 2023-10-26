@@ -33,6 +33,23 @@
 		nedvalusan = {}
 		nmarcher = {}
 		nedkreathan = {}
+		cyronordic = {
+			levy_template = levy_nordic
+			male_names = {
+				Hroiatr Ysgraak Dengnal Sabngrim Vorsll Eorlald Barijorn Brongen Brorreid Raned 
+				Ataald Eitrbald Sighjolf Snies Koriny Tovwulf Hyllki Aldirul Holmstaag Eimim 
+			}
+			female_names = {
+				Nara Mavemir Katrne Anissta Mersl Rikkver Angiis Voral Ronara Botiis Aegide
+				Svanmir Ronaen Maveen Eldafrodi Threly Svarold Frukete Frila Kirsritte Arilla 
+				Adisar Elsealla Gislalla 
+			}
+			family = {
+				Hard-Foot Ice-Skinner Oath-Wife Shadow-Foot Large Ironkettle Walker Engmaensson Mojanssson Mjoranerson
+				Shallow-Beard Brittle-Pommel Green-Smasher Worm-Robber Maulhand Windcaller Man Ulfransson Alreldson
+				Fjeldsson Hand-Versed Round-Healer Strong-Arm Head-Defender Colossus Ingmenrsdottir Argisordottir Starkad
+			}
+		}
 	}
 	
 	barbarian_names = { 
