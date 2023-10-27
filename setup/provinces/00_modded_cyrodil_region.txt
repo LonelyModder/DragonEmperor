@@ -10502,7 +10502,7 @@
 1325={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -10521,7 +10521,7 @@
 1326={ 
 	terrain="hills"
 	trade_goods="fur"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -10548,7 +10548,7 @@
 1327={ 
 	terrain="hills"
 	trade_goods="leather"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -10928,7 +10928,7 @@
 1346={ 
 	terrain="plains"
 	trade_goods="cattle"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -10986,7 +10986,7 @@
 1349={ 
 	terrain="plains"
 	trade_goods="cattle"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -11006,7 +11006,7 @@
 1350={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -11026,7 +11026,7 @@
 1351={ 
 	terrain="forest"
 	trade_goods="maplesyrup"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -11045,7 +11045,7 @@
 1352={ 
 	terrain="mountain"
 	trade_goods="beasts"
-	religion="nordic_pantheon"
+	religion="elven_pantheon"
 	culture="cyronordic"
 	civilization_value=0
 	barbarian_power=0
@@ -17723,5 +17723,149 @@
 	}
 	slaves={
 		amount=1
+	}
+}
+
+4577={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
+	}
+}
+
+4578={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
+	}
+}
+
+4579={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
+	}
+}
+
+4580={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
+	}
+}
+
+4581={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
+	}
+}
+
+4582={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="heartlanderelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=16
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=4
 	}
 }

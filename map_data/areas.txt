@@ -989,7 +989,11 @@ weye_area = {
 }
 
 westerncityisle_area = { 
-    provinces = { 1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 }
+    provinces = { 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 }
+}
+
+imperialcity_area = { 
+    provinces = { 1071 4577 4578 4579 4580 4581 4582 }
 }
 
 easterncityisle_area = { 
