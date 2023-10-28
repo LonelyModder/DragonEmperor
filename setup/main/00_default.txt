@@ -2271,6 +2271,22 @@ provinces = { #Any entry must contain a comment with city name.
 
 road_network = {
 	#Cyrodiil
+	1073=4577
+	4577=1071
+	1071=4578
+	1071=4579
+	1071=4580
+	1071=4581
+	1071=4582
+	4577=4578
+	4577=4579
+	4582=4580
+	4582=4581
+	4579=4580
+	4578=4581
+	4579=1078
+	4580=1087
+	4581=1083
 	1078=1079
 	1087=1089
 	1083=1084
@@ -2821,20 +2837,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 814
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			pantheon = {
 			
@@ -2860,20 +2863,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 806
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2894,20 +2884,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 849
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2927,20 +2904,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 856
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3009,20 +2973,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 889
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3075,20 +3026,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1163
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3110,20 +3048,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1127
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3172,20 +3097,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1102
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3206,20 +3118,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 976
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3241,20 +3140,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1233
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3274,20 +3160,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1342
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3307,20 +3180,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1316
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3336,16 +3196,9 @@ country = {
 		
 		CAZ = {          
 			government = tribal_kingdom
-			primary_culture = cyronordic
+			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1326
-			
-			poptype_rights = {
-				{
-					culture = nednibenese
-					type = citizen
-				}
-			}
 			
 			own_control_core = 	{ 
 				1326 1327 1325 1346 1350 1349 1351 1352
@@ -3358,20 +3211,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1068
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3392,20 +3232,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1240
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3426,20 +3253,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1306
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3460,20 +3274,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1291
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3522,20 +3323,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1268
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3556,20 +3344,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1288
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3600,20 +3375,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1330
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3634,20 +3396,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1557
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3668,20 +3417,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1618
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3704,20 +3440,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1360
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3739,20 +3462,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1381
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3772,20 +3482,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1463
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3808,20 +3505,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1406
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3841,20 +3525,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1550
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3874,20 +3545,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1459
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3934,20 +3592,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1427
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3967,20 +3612,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1663
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4000,20 +3632,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1203
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4033,20 +3652,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1168
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4067,20 +3673,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1120
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4100,20 +3693,7 @@ country = {
 			religion = elven_pantheon
 			capital = 967
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4133,20 +3713,7 @@ country = {
 			religion = elven_pantheon
 			capital = 951
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4166,20 +3733,7 @@ country = {
 			religion = elven_pantheon
 			capital = 988
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4199,20 +3753,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1008
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4232,20 +3773,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1038
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4266,20 +3794,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1059
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4299,20 +3814,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1041
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4679,20 +4181,7 @@ country = {
 			religion = elven_pantheon
 			capital = 2100
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4869,20 +4358,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1246
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4902,20 +4378,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1105
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4935,20 +4398,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1071
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -6830,7 +6280,7 @@ country = {
 		
 		SAM = {          
 			government = tribal_kingdom
-			primary_culture = cyronordic
+			primary_culture = nedkreathan
 			religion = reachmen_pantheon
 			capital = 4375
 			
@@ -6857,12 +6307,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 4406
 			
-			poptype_rights = {
-				{
-					culture = nedkreathan
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }

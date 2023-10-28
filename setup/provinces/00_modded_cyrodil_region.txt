@@ -3165,17 +3165,18 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="colovianelves"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		religion="green_pantheon"
-		culture="gaimga"
+		amount=1
 	}
 }
 
@@ -3333,16 +3334,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3372,16 +3372,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3430,16 +3429,15 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3567,16 +3565,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nedcolovian"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3587,16 +3584,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3607,16 +3603,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nedcolovian"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3689,16 +3684,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -3766,16 +3760,15 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -4938,17 +4931,16 @@
 1042={ 
 	terrain="forest"
 	trade_goods="beasts"
-	religion="deadric_pantheon"
-	culture="heartlanderelves"
+	religion="elven_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5072,17 +5064,16 @@
 1049={ 
 	terrain="forest"
 	trade_goods="beasts"
-	religion="deadric_pantheon"
-	culture="heartlanderelves"
+	religion="elven_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5353,16 +5344,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5476,16 +5466,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5950,16 +5939,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5970,16 +5958,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -5990,16 +5977,15 @@
 	terrain="farmland"
 	trade_goods="grain"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6010,16 +5996,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6030,16 +6015,15 @@
 	terrain="farmland"
 	trade_goods="tea"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6094,16 +6078,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6114,16 +6097,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6173,16 +6155,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6193,16 +6174,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6232,16 +6212,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6347,16 +6326,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6367,16 +6345,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6387,16 +6364,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6407,16 +6383,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6449,16 +6424,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6469,16 +6443,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6508,16 +6481,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6528,16 +6500,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6591,16 +6562,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6611,16 +6581,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6631,16 +6600,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6651,16 +6619,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6671,16 +6638,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6691,16 +6657,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6711,16 +6676,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6731,16 +6695,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6751,16 +6714,15 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6790,16 +6752,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -6810,16 +6771,15 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7115,16 +7075,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7135,16 +7094,15 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7155,16 +7113,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7175,16 +7132,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7195,16 +7151,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7215,16 +7170,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7235,16 +7189,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7255,16 +7208,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7299,16 +7251,15 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7319,16 +7270,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7339,16 +7289,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7400,16 +7349,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7420,16 +7368,15 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7478,16 +7425,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7498,16 +7444,15 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7518,16 +7463,15 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7633,16 +7577,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7677,16 +7620,15 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7697,16 +7639,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7717,16 +7658,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7758,16 +7698,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -7989,16 +7928,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8009,16 +7947,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8052,16 +7989,15 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8094,16 +8030,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8114,16 +8049,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8328,16 +8262,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8386,16 +8319,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8425,16 +8357,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8445,16 +8376,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8465,16 +8395,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8485,16 +8414,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8543,16 +8471,15 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8563,16 +8490,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8583,16 +8509,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8603,16 +8528,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8642,16 +8566,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8686,16 +8609,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8706,16 +8628,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8726,16 +8647,15 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8746,16 +8666,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8785,16 +8704,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8829,16 +8747,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8849,16 +8766,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8869,16 +8785,15 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8909,16 +8824,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8976,16 +8890,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -8996,16 +8909,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9016,16 +8928,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9036,16 +8947,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9056,16 +8966,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9076,16 +8985,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9115,16 +9023,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9135,16 +9042,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9155,16 +9061,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9213,16 +9118,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9347,16 +9251,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9391,16 +9294,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9620,16 +9522,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9640,16 +9541,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -9660,16 +9560,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10105,16 +10004,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10168,16 +10066,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10207,16 +10104,15 @@
 	terrain="forest"
 	trade_goods="maplesyrup"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10287,16 +10183,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10426,16 +10321,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10503,7 +10397,7 @@
 	terrain="mountain"
 	trade_goods="stone"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10522,7 +10416,7 @@
 	terrain="hills"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -10549,7 +10443,7 @@
 	terrain="hills"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10632,16 +10526,15 @@
 	terrain="hills"
 	trade_goods="malachite"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10652,16 +10545,15 @@
 	terrain="hills"
 	trade_goods="maplesyrup"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10767,16 +10659,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10787,16 +10678,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10807,16 +10697,15 @@
 	terrain="forest"
 	trade_goods="maplesyrup"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10827,16 +10716,15 @@
 	terrain="forest"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10871,16 +10759,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -10929,7 +10816,7 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10987,7 +10874,7 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11007,7 +10894,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11027,7 +10914,7 @@
 	terrain="forest"
 	trade_goods="maplesyrup"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11046,7 +10933,7 @@
 	terrain="mountain"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="cyronordic"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -11224,17 +11111,16 @@
 1361={ 
 	terrain="hills"
 	trade_goods="stone"
-	religion="elven_pantheon"
-	culture="heartlanderelves"
+	religion="goblin_pantheon"
+	culture="gobcyrodic"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -11590,16 +11476,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -11653,16 +11538,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -11749,16 +11633,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -11924,16 +11807,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -11944,16 +11826,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12260,16 +12141,15 @@
 	terrain="forest"
 	trade_goods="precious_metals"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12280,16 +12160,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12338,16 +12217,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12377,16 +12255,15 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12416,16 +12293,15 @@
 	terrain="plains"
 	trade_goods="wool"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12474,16 +12350,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12536,16 +12411,15 @@
 	terrain="forest"
 	trade_goods="gems"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12575,16 +12449,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12595,16 +12468,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12884,16 +12756,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12923,16 +12794,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12943,16 +12813,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -12963,16 +12832,15 @@
 	terrain="forest"
 	trade_goods="stafftrees"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13241,16 +13109,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13299,16 +13166,15 @@
 	terrain="forest"
 	trade_goods="coal"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13319,16 +13185,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13654,16 +13519,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13734,16 +13598,15 @@
 	terrain="plains"
 	trade_goods="cattle"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13773,16 +13636,15 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13793,16 +13655,15 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13813,16 +13674,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14041,8 +13901,8 @@
 1505={ 
 	terrain="forest"
 	trade_goods="beasts"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14060,8 +13920,8 @@
 1506={ 
 	terrain="forest"
 	trade_goods="beasts"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14232,16 +14092,15 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14252,16 +14111,15 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14367,16 +14225,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14386,8 +14243,8 @@
 1523={ 
 	terrain="forest"
 	trade_goods="fur"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14447,16 +14304,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14467,16 +14323,15 @@
 	terrain="forest"
 	trade_goods="stafftrees"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14525,16 +14380,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14545,16 +14399,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14622,16 +14475,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14680,16 +14532,15 @@
 	terrain="forest"
 	trade_goods="coal"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14719,16 +14570,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14875,16 +14725,15 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14895,16 +14744,15 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14964,16 +14812,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -14984,16 +14831,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15081,16 +14927,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15101,16 +14946,15 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15121,16 +14965,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15316,18 +15159,17 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -15374,18 +15216,17 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -15451,18 +15292,17 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -15471,18 +15311,17 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -15643,18 +15482,17 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -15704,16 +15542,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15724,16 +15561,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15744,16 +15580,15 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15764,16 +15599,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15784,16 +15618,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15804,16 +15637,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15824,16 +15656,15 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -15980,16 +15811,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16000,18 +15830,17 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
-		culture="nednibenese"
-	}
-	freemen={
 		amount=1
 	}
 }
@@ -16118,16 +15947,15 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16390,16 +16218,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16410,16 +16237,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16430,16 +16256,15 @@
 	terrain="forest"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16450,16 +16275,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16470,16 +16294,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16490,16 +16313,15 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16510,16 +16332,15 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16594,16 +16415,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16614,16 +16434,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16791,16 +16610,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16811,16 +16629,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16850,16 +16667,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16968,17 +16784,15 @@
 	terrain="forest"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -16989,17 +16803,15 @@
 	terrain="forest"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17010,17 +16822,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17169,17 +16979,15 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17190,17 +16998,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17211,17 +17017,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17232,17 +17036,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=4
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -17728,7 +17530,7 @@
 
 4577={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17752,7 +17554,7 @@
 
 4578={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="cloth"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17776,7 +17578,7 @@
 
 4579={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17800,7 +17602,7 @@
 
 4580={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="glass"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17824,7 +17626,7 @@
 
 4581={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="stafftrees"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17848,7 +17650,7 @@
 
 4582={ 
 	terrain="plains"
-	trade_goods="circle_of_mages"
+	trade_goods="cloth"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
