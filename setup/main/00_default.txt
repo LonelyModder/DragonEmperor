@@ -3545,8 +3545,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 1459
 			
-			
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -3564,13 +3562,6 @@ country = {
 			primary_culture = besarabicelves
 			religion = elven_pantheon
 			capital = 1594
-			
-			poptype_rights = {
-				{
-					culture = nednibenese
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4012,7 +4003,7 @@ country = {
 		
 		CBJ = {          
 			government = tribal_kingdom
-			primary_culture = nednibenese
+			primary_culture = nedhorwalli
 			religion = elven_pantheon
 			capital = 1683
 			

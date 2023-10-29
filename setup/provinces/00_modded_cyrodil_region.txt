@@ -662,18 +662,16 @@
 825={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1029,7 +1027,7 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="nedic_pantheon"
-	culture="nedstrident"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1087,18 +1085,16 @@
 847={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1227,18 +1223,16 @@
 854={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1291,18 +1285,16 @@
 857={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedstrident"
 	}
 	slaves={
 		amount=1
@@ -1312,18 +1304,16 @@
 858={ 
 	terrain="plains"
 	trade_goods="hemp"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1333,18 +1323,16 @@
 859={ 
 	terrain="plains"
 	trade_goods="hemp"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1373,18 +1361,16 @@
 861={ 
 	terrain="plains"
 	trade_goods="vegetables"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1508,18 +1494,16 @@
 868={ 
 	terrain="hills"
 	trade_goods="fur"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -1892,18 +1876,16 @@
 888={ 
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2071,18 +2053,16 @@
 897={ 
 	terrain="plains"
 	trade_goods="cheese"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2130,18 +2110,16 @@
 900={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2274,18 +2252,16 @@
 907={ 
 	terrain="plains"
 	trade_goods="olive"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2319,18 +2295,16 @@
 909={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2340,8 +2314,8 @@
 910={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2378,18 +2352,16 @@
 912={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2399,8 +2371,8 @@
 913={ 
 	terrain="plains"
 	trade_goods="olive"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2459,18 +2431,16 @@
 916={ 
 	terrain="farmland"
 	trade_goods="tea"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2480,18 +2450,16 @@
 917={ 
 	terrain="farmland"
 	trade_goods="wine"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2501,8 +2469,8 @@
 918={ 
 	terrain="plains"
 	trade_goods="olive"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2539,18 +2507,16 @@
 920={ 
 	terrain="farmland"
 	trade_goods="wine"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2579,18 +2545,16 @@
 922={ 
 	terrain="farmland"
 	trade_goods="grain"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2600,18 +2564,16 @@
 923={ 
 	terrain="farmland"
 	trade_goods="grain"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2680,18 +2642,16 @@
 927={ 
 	terrain="farmland"
 	trade_goods="wine"
-	religion="elven_pantheon"
-	culture="colovianelves"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		religion="nedic_pantheon"
-		culture="nedcolovian"
 	}
 	slaves={
 		amount=1
@@ -2783,8 +2743,8 @@
 932={ 
 	terrain="hills"
 	trade_goods="limestone"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="nedic_pantheon"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3334,7 +3294,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3684,7 +3644,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedcolovian"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5484,8 +5444,8 @@
 1070={ 
 	terrain="forest"
 	trade_goods="fur"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6135,8 +6095,8 @@
 1106={ 
 	terrain="forest"
 	trade_goods="leather"
-	religion="goblin_pantheon"
-	culture="gobcyrodic"
+	religion="elven_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7738,7 +7698,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7757,7 +7717,7 @@
 	terrain="forest"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7773,10 +7733,10 @@
 }
 
 1191={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7792,10 +7752,10 @@
 }
 
 1192={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7811,10 +7771,10 @@
 }
 
 1193={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7830,10 +7790,10 @@
 }
 
 1194={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7849,10 +7809,10 @@
 }
 
 1195={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7868,10 +7828,10 @@
 }
 
 1196={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7887,7 +7847,7 @@
 }
 
 1197={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="khajiiti_pantheon"
 	culture="nibeneank"
@@ -7906,7 +7866,7 @@
 }
 
 1198={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
 	culture="nibeneank"
@@ -7928,7 +7888,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7947,7 +7907,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7963,7 +7923,7 @@
 }
 
 1201={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="khajiiti_pantheon"
 	culture="nibeneank"
@@ -7986,10 +7946,10 @@
 }
 
 1202={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8005,7 +7965,7 @@
 }
 
 1203={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -8030,7 +7990,7 @@
 	terrain="plains"
 	trade_goods="horses"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8049,7 +8009,7 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8065,20 +8025,18 @@
 }
 
 1206={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
-		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -8086,20 +8044,18 @@
 }
 
 1207={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
-		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -8107,10 +8063,10 @@
 }
 
 1208={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8126,10 +8082,10 @@
 }
 
 1209={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="salt"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8145,10 +8101,10 @@
 }
 
 1210={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8164,10 +8120,10 @@
 }
 
 1211={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8183,10 +8139,10 @@
 }
 
 1212={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8202,10 +8158,10 @@
 }
 
 1213={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8224,7 +8180,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8262,7 +8218,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -8871,14 +8827,14 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=2
-	}
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -14630,7 +14586,7 @@
 	terrain="hills"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14649,7 +14605,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14668,7 +14624,7 @@
 	terrain="hills"
 	trade_goods="stone"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14687,7 +14643,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14706,7 +14662,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14725,7 +14681,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14744,7 +14700,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14888,7 +14844,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14907,16 +14863,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -14927,7 +14882,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14946,7 +14901,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14965,7 +14920,7 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14984,16 +14939,15 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="besarabicelves"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
 	}
 	slaves={
 		amount=1
@@ -15004,7 +14958,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15102,7 +15056,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15121,7 +15075,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15140,7 +15094,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15159,7 +15113,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15178,7 +15132,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15197,7 +15151,7 @@
 	terrain="hills"
 	trade_goods="limestone"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15216,7 +15170,7 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15235,7 +15189,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15254,7 +15208,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15273,7 +15227,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15292,7 +15246,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15311,7 +15265,7 @@
 	terrain="forest"
 	trade_goods="leather"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15330,7 +15284,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15349,7 +15303,7 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15365,7 +15319,7 @@
 }
 
 1587={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15406,7 +15360,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15425,7 +15379,7 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15441,7 +15395,7 @@
 }
 
 1591={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15460,7 +15414,7 @@
 }
 
 1592={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15482,7 +15436,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15523,7 +15477,7 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15542,7 +15496,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15561,7 +15515,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15580,7 +15534,7 @@
 	terrain="forest"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15599,7 +15553,7 @@
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15618,7 +15572,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15675,7 +15629,7 @@
 	terrain="forest"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15694,7 +15648,7 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15732,7 +15686,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15751,7 +15705,7 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15770,7 +15724,7 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15811,7 +15765,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15830,7 +15784,7 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15846,7 +15800,7 @@
 }
 
 1612={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15903,7 +15857,7 @@
 }
 
 1615={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15922,7 +15876,7 @@
 }
 
 1616={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -15947,7 +15901,7 @@
 	terrain="forest"
 	trade_goods="nirnroot"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -15987,7 +15941,7 @@
 }
 
 1619={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -16006,7 +15960,7 @@
 }
 
 1620={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -16025,7 +15979,7 @@
 }
 
 1621={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -16215,10 +16169,10 @@
 }
 
 1631={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16234,10 +16188,10 @@
 }
 
 1632={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16256,7 +16210,7 @@
 	terrain="forest"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16272,10 +16226,10 @@
 }
 
 1634={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16291,10 +16245,10 @@
 }
 
 1635={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16310,10 +16264,10 @@
 }
 
 1636={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16329,10 +16283,10 @@
 }
 
 1637={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16348,7 +16302,7 @@
 }
 
 1638={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -16372,7 +16326,7 @@
 }
 
 1639={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -16412,10 +16366,10 @@
 }
 
 1641={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16431,10 +16385,10 @@
 }
 
 1642={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16450,7 +16404,7 @@
 }
 
 1643={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -16607,10 +16561,10 @@
 }
 
 1651={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16626,10 +16580,10 @@
 }
 
 1652={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16664,10 +16618,10 @@
 }
 
 1654={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16781,10 +16735,10 @@
 }
 
 1660={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16800,10 +16754,10 @@
 }
 
 1661={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="hemp"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16819,10 +16773,10 @@
 }
 
 1662={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16838,7 +16792,7 @@
 }
 
 1663={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -16979,7 +16933,7 @@
 	terrain="marsh"
 	trade_goods="fur"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -16995,10 +16949,10 @@
 }
 
 1671={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17014,10 +16968,10 @@
 }
 
 1672={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17033,10 +16987,10 @@
 }
 
 1673={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17071,10 +17025,10 @@
 }
 
 1675={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17090,10 +17044,10 @@
 }
 
 1676={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17109,10 +17063,10 @@
 }
 
 1677={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17128,10 +17082,10 @@
 }
 
 1678={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="salt"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17147,7 +17101,7 @@
 }
 
 1679={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fruitsoftheforest"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -17166,7 +17120,7 @@
 }
 
 1680={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="argblackwood"
@@ -17188,7 +17142,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17207,7 +17161,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17223,10 +17177,10 @@
 }
 
 1683={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17245,10 +17199,10 @@
 }
 
 1684={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17264,10 +17218,10 @@
 }
 
 1685={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="amber"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17283,10 +17237,10 @@
 }
 
 1686={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17302,10 +17256,10 @@
 }
 
 1687={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -17346,7 +17300,7 @@
 	}
 	tribesmen={
 		amount=3
-		culture="nednibenese"
+		culture="nednibenu"
 		religion="elven_pantheon"
 	}
 	slaves={
@@ -17376,7 +17330,7 @@
 }
 
 2102={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -17402,7 +17356,7 @@
 }
 
 2103={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -17418,12 +17372,12 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nednibenese"
+		culture="nednibenu"
 	}
 }
 
 2104={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -17439,12 +17393,12 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nednibenese"
+		culture="nednibenu"
 	}
 }
 
 2105={ 
-	terrain="forest"
+	terrain="jungle"
 	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
@@ -17460,7 +17414,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nednibenese"
+		culture="nednibenu"
 	}
 }
 
@@ -17486,7 +17440,7 @@
 	slaves={
 		amount=2
 		religion="elven_pantheon"
-		culture="nednibenese"
+		culture="nednibenu"
 	}
 }
 
@@ -17626,7 +17580,7 @@
 
 4581={ 
 	terrain="plains"
-	trade_goods="stafftrees"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
