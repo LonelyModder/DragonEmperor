@@ -559,6 +559,27 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	1071 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4577 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4578 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4579 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4580 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4581 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4582 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
 	4520 = {
 		fortress_building = 1
 	}
