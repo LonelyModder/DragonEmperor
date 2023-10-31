@@ -7637,17 +7637,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
-		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
@@ -7677,17 +7675,15 @@
 	terrain="forest"
 	trade_goods="wild_game"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=1
 	}
-	slaves={
+	tribesmen={
 		amount=4
-		culture="nednibenese"
-		religion="elven_pantheon"
 	}
 	slaves={
 		amount=1
