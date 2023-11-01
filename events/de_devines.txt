@@ -15,7 +15,7 @@ devine_events.1 = {
 			country_culture_group = nede
 			country_culture_group = keptu
 		}
-		owns=1071
+		owns = p:4579
 	}
 	
 	option = { # Change faith
@@ -24,7 +24,7 @@ devine_events.1 = {
 		current_ruler = {
 			set_character_religion = imperial_pantheon
 		}
-		p:1071 = {
+		p:4579 = {
             while = {
                 count = 10
                 define_pop = {

@@ -243,6 +243,13 @@ treasure_manager = {
 				local_manpower_modifier = 0.5
 			}
 		}
+		35 = { # Imperial City
+			key = "treasure_sublimeblazier"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_unrest = -0.1
+			}
+		}
     }
 }
 family={
@@ -472,7 +479,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 6 } }
 	}
 	1071 = { # Imperial City
-		treasure_slots = { 	treasures = { 7 8 9 } }
+		treasure_slots = { 	treasures = { 8 9 } }
 	}
 	1557 = { # Nenalata
 		treasure_slots = { 	treasures = { 10 27 } }
@@ -533,6 +540,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	4464 = { # Nighthollow Keep
 		treasure_slots = { 	treasures = { 34 } }
+	}
+	4579 = { # Temple District
+		treasure_slots = { 	treasures = { 7 35 } }
 	}
 
 	#Pirates
@@ -875,9 +885,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	1030 = {
-		fortress_building = 1
-	}
-	1084 = {
 		fortress_building = 1
 	}
 	685 = {

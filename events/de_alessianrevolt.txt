@@ -354,10 +354,16 @@ alessian_revolt.1 = { # The Choice
 	
 	immediate = {
 		hidden_effect = {
-			#set_primary_culture_cleanup_effect = {
-			#	NEW_PRIMARY_CULTURE = nednibenese
-			#	MAKE_OLD_CULTURE_INTEGRATED = yes
-			#} Fix the Imperialisation 
+			if = {
+				limit = { 
+					NOT = { primary_culture = nednibenese }
+					owns = p:1288
+				}
+				set_primary_culture_cleanup_effect = {
+					NEW_PRIMARY_CULTURE = nednibenese
+					MAKE_OLD_CULTURE_INTEGRATED = yes
+				} 
+			}
 			ordered_character = {
 				limit = {
 					AND = {

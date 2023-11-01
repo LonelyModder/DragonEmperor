@@ -5738,7 +5738,7 @@
 
 1087={ 
 	terrain="plains"
-	trade_goods="dye"
+	trade_goods="cattle"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17548,35 +17548,31 @@
 	slaves={
 		amount=4
 	}
+	holy_site="omen_iakatosh"
 }
 
 4580={ 
-	terrain="plains"
-	trade_goods="glass"
+	terrain="forest"
+	trade_goods="stafftrees"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city_metropolis"
-	nobles={
-		amount=6
-		religion="deadric_pantheon"
-	}
+	province_rank="settlement"
 	citizen={
-		amount=16
-		religion="deadric_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=12
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 }
 
 4581={ 
 	terrain="plains"
-	trade_goods="soul_gems"
+	trade_goods="dye"
 	religion="elven_pantheon"
 	culture="heartlanderelves"
 	civilization_value=0
@@ -17605,19 +17601,14 @@
 	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city_metropolis"
-	nobles={
-		amount=6
-		religion="deadric_pantheon"
-	}
+	province_rank="settlement"
 	citizen={
-		amount=16
-		religion="deadric_pantheon"
+		amount=2
 	}
 	freemen={
-		amount=12
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=2
 	}
 }
