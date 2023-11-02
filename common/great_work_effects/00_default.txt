@@ -2238,8 +2238,8 @@ gw_effect_crystal_tower = {
 			}
 			
 			province_modifier = {
-				garrison_size = 4
-				fort_level = 4
+				garrison_size = 6
+				fort_level = 1
 			}
 		}
 	}
@@ -2572,8 +2572,8 @@ gw_effect_imperial_city = {
 			}
 			
 			province_modifier = {
-				garrison_size = 4
-				fort_level = 4
+				garrison_size = 6
+				fort_level = 1
 			}
 		}
 	}
@@ -2672,8 +2672,8 @@ gw_effect_templegarrison = {
 			}
 			
 			province_modifier = {
-				garrison_size = 4
-				fort_level = 4
+				garrison_size = 6
+				fort_level = 1
 			}
 		}
 	}
@@ -3100,8 +3100,8 @@ gw_effect_adamantia = {
 			}
 			
 			province_modifier = {
-				garrison_size = 4
-				fort_level = 4
+				garrison_size = 6
+				fort_level = 1
 			}
 		}
 	}
