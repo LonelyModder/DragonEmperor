@@ -120,6 +120,14 @@
 				region:modded_lowerglenumbra_region = { formable_region_province_effect = yes }
 				region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
 				region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_sjerall_region = { formable_region_province_effect = yes }
+				region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+				region:modded_valus_region = { formable_region_province_effect = yes }
+				region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+				area:caractacus_area = { formable_area_province_effect = yes }
+				area:sercen_area = { formable_area_province_effect = yes }
+				area:vilverin_area = { formable_area_province_effect = yes }
+				area:magia_area = { formable_area_province_effect = yes }
 			}
 		}
 		

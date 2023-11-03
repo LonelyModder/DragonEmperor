@@ -3548,7 +3548,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3567,7 +3567,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3586,7 +3586,7 @@
 	terrain="hills"
 	trade_goods="ebon"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3681,7 +3681,7 @@
 	terrain="plains"
 	trade_goods="vegetables"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3700,15 +3700,18 @@
 	terrain="farmland"
 	trade_goods="grain"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles={
 		amount=1
 	}
+	citizen={
+		amount=5
+	}
 	freemen={
-		amount=3
+		amount=8
 	}
 	tribesmen={
 		amount=6
@@ -3722,7 +3725,7 @@
 	terrain="hills"
 	trade_goods="wool"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3741,7 +3744,7 @@
 	terrain="plains"
 	trade_goods="soul_gems"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4540,7 +4543,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4619,7 +4622,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordic_pantheon"
-	culture="eastholder"
+	culture="southholder"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4655,20 +4658,23 @@
 
 4236={ 
 	terrain="mountain"
-	trade_goods="leather"
+	trade_goods="precious_metals"
 	religion="nordic_pantheon"
 	culture="palan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -5028,11 +5034,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
-	citizen={
+	nobles={
 		amount=1
 	}
+	citizen={
+		amount=5
+	}
 	freemen={
-		amount=3
+		amount=8
 	}
 	tribesmen={
 		amount=6
@@ -5106,15 +5115,18 @@
 	culture="palan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -7198,19 +7210,25 @@
 4367={ 
 	terrain="plains"
 	trade_goods="beasts"
-	religion="reachmen_pantheon"
-	culture="ereachmen"
+	religion="nordic_pantheon"
+	culture="westholder"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=8
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
