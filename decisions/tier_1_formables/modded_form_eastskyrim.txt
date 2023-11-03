@@ -1,0 +1,130 @@
+﻿country_decisions = {
+	
+	# Form Kingdom of East skyrim
+	form_eastskyrim = {
+		
+		potential = {
+			OR = {
+				country_culture_group = nordic
+				country_culture_group = falmer
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = SAG
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4104
+					province_id = 4200
+					province_id = 4060
+					province_id = 4277
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = eastskyrim_must_not_exist
+				NOT = {
+					any_country = {
+						tag = SAG
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns= 4104
+			owns_or_subject_owns = 4200
+			owns_or_subject_owns = 4260
+			owns_or_subject_owns = 4277
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			if = {
+				limit = { 
+							OR = {
+								country_culture_group = falmer
+								country_culture_group = dwemer	
+							}
+						}
+			change_country_name = "KEastSkyrimf_name"
+			}
+			if = {
+				limit = { country_culture_group = nordic }
+			change_country_name = "KEastSkyrim_name"
+			}
+			change_country_flag = SAG
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				if = {
+					limit = { 
+							OR = {
+								country_culture_group = falmer
+								country_culture_group = dwemer	
+							}
+						}
+					change_country_adjective = "KEastSkyrimf_adj"
+				}
+				if = {
+					limit = { country_culture_group = nordic }
+					change_country_adjective = "KEastSkyrim_adj"
+				}
+				change_country_color =  "KEastSkyrim_color"
+				change_country_tag = SAG
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 4104
+						}
+					}
+				}
+				set_capital = 4104
+				hidden_effect = {
+					p:4104.state = {
+						set_state_capital = 4104
+					}
+				}
+			}
+			#p:4104 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:4104 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_rift_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

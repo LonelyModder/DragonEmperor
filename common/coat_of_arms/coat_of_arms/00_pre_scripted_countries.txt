@@ -178,7 +178,133 @@ VAS = { #Direnni Hegemony
 	}
 }
 
+SAI = { #Whiterun
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 246 240 }
+	color2 = rgb { 247 246 240 }
+
+	colored_emblem = {
+		texture = "ce_whiterun.dds"
+		color1 = rgb { 232 201 12 }
+		color2 = rgb { 33 33 32 }
+	}
+}
+
+SAG = { #East Skyrim
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 247 246 240 }
+	color2 = rgb { 247 246 240 }
+
+	colored_emblem = {
+		texture = "ce_windhelm.dds"
+		color1 = rgb { 33 33 32 }
+		color2 = rgb { 31 39 161 }
+	}
+}
+
+SAH = { #Riften
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 72 72 74 }
+	color2 = rgb { 72 72 74 }
+
+	colored_emblem = {
+		texture = "ce_riften.dds"
+		color1 = rgb { 153 139 11 }
+	}
+}
+
+SAJ = { #Dawnstar
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 64 63 62 }
+	color2 = rgb { 64 63 62 }
+
+	colored_emblem = {
+		texture = "ce_dawnstar.dds"
+		color1 = rgb { 217 216 215 }
+	}
+}
+
+SAK = { #Morthal
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 12 112 9 }
+	color2 = rgb { 12 112 9 }
+
+	colored_emblem = {
+		texture = "ce_morthal.dds"
+		color1 = rgb { 22 23 22 }
+	}
+}
+
+SAL = { #Solitude
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 130 14 14 }
+	color2 = rgb { 130 14 14 }
+
+	colored_emblem = {
+		texture = "ce_solitude.dds"
+		color1 = rgb { 232 232 232 }
+		color2 = rgb { 31 30 30 }
+	}
+}
+
+SAN = { #Volkihar Clan
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 22 23 22 }
+	color2 = rgb { 22 23 22 }
+
+	colored_emblem = {
+		texture = "ce_volkihar.dds"
+		color1 = rgb { 203 209 29 }
+		color2 = rgb { 204 43 14 }
+	}
+}
+
+SCU = { #Nighthollow Clan
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 87 84 84 }
+	color2 = rgb { 87 84 84 }
+
+	colored_emblem = {
+		texture = "ce_nighthollow.dds"
+		color1 = rgb { 18 18 18 }
+	}
+}
+
 # Modded emblems for formables
+
+solstheim_FLAG = { #Solstheim
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 23 22 22 }
+	color2 = rgb { 23 22 22 }
+
+	colored_emblem = {
+		texture = "ce_circle_01.dds"
+		color1 = rgb { 204 0 0 }
+	}
+}
+
+hk_ayleidoon = { #For the Kingdom of Reach
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 25 125 43 }
+	color2 = rgb { 25 125 43 }
+
+	colored_emblem = {
+		texture = "ce_reach.dds"
+		color1 = rgb { 212 174 51 }
+		color2 = rgb { 20 20 18 }
+	}
+}
+
+dragon_FLAG = { #For the Empire of Man
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 199 16 6 }
+	color2 = rgb { 199 16 6 }
+
+	colored_emblem = {
+		texture = "ce_imperialdragon.dds"
+		color1 = rgb { 209 196 15 }
+	}
+}
 
 hk_ayleidoon = { #For the Ayleid Empire
 	pattern = "pattern_solid.tga"

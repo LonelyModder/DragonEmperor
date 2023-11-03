@@ -9,6 +9,7 @@ vampirism.10 = {
 			has_trait = full_vampire
 		}
 		religion = night_pantheon
+		NOT = { primary_culture = frostmoon }
 	}
 	
 	immediate = { 
@@ -93,6 +94,7 @@ vampirism.2 = {
 		current_ruler = {
 			NOT = {	has_trait = full_vampire }
 		}
+		NOT = { primary_culture = frostmoon }
 		religion = night_pantheon
 	}
 	
@@ -126,6 +128,7 @@ vampirism.3 = {
 	
 	trigger = {
 		religion = night_pantheon
+		NOT = { primary_culture = frostmoon }
 		root.consort = {
 			NOT = {	has_trait = full_vampire }
 		}
@@ -196,6 +199,7 @@ vampirism.4 = {
 	
 	trigger = {
 		religion = night_pantheon
+		NOT = { primary_culture = frostmoon }
 	}
 	
 	immediate = {

@@ -7,6 +7,7 @@
 			limit = { 
 				OR = {
 					country_culture_group = altmer 
+					country_culture_group = ayleid
 					country_culture_group = falmer
 					country_culture_group = bosmer
 					country_culture_group = breton
@@ -18,6 +19,7 @@
 			}
 			OR = {
 				country_culture_group = altmer
+				country_culture_group = ayleid
 				country_culture_group = falmer
 				country_culture_group = bosmer
 				country_culture_group = breton
@@ -40,6 +42,7 @@
 						this.culture.culture_group = culture_group:altmer
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:ayleid
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton
@@ -63,6 +66,7 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:ayleid
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton
@@ -88,6 +92,7 @@
 						is_integrated = yes
 						OR = {
 							this.culture.culture_group = culture_group:altmer
+							this.culture.culture_group = culture_group:ayleid
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
 							this.culture.culture_group = culture_group:breton

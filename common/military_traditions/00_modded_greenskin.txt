@@ -8,6 +8,7 @@
 				OR = {
 					country_culture_group = orcish 
 					country_culture_group = goblin 
+					country_culture_group = riekling 
 				}
 			}
 			custom_tooltip = {
@@ -16,6 +17,7 @@
 			OR = {
 				country_culture_group = orcish 
 				country_culture_group = goblin 
+				country_culture_group = riekling 
 			}
 		}
 		trigger_else_if = {
@@ -35,6 +37,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:orcish
 							this.culture.culture_group = culture_group:goblin
+							this.culture.culture_group = culture_group:riekling
 						}
 					}
 				}
@@ -55,6 +58,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:orcish
 							this.culture.culture_group = culture_group:goblin
+							this.culture.culture_group = culture_group:riekling
 						}
 					}
 				}
@@ -77,6 +81,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:orcish
 							this.culture.culture_group = culture_group:goblin
+							this.culture.culture_group = culture_group:riekling
 						}	
 					}
 				}

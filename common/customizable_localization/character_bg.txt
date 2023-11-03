@@ -41,4 +41,18 @@
     }
   }
   
+  text = {
+    localization_key = background_whiterun
+    trigger = {
+	  is_at_location = p:4314
+    }
+  }
+  
+  text = {
+    localization_key = background_palaceofkings
+    trigger = {
+	  is_at_location = p:4104
+    }
+  }
+  
 }

@@ -58,3 +58,12 @@ lich = {
 	martial = 8
 	finesse = 5
 }
+
+dragonpriest = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	martial = 8
+	finesse = 5
+}

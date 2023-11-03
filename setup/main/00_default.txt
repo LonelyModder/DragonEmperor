@@ -194,6 +194,62 @@ treasure_manager = {
 				local_nobles_happyness = 0.1
 			}
 		}
+		28 = { # Old Hroldan
+			key = "treasure_totemofclawandfang"
+			icon = "treasure_chest"
+			state_modifier = {
+				garrison_size = 0.5
+			}
+		}
+		29 = { # Whiterun
+			key = "treasure_gildergreen"
+			icon = "treasure_architecture"
+			state_modifier = {
+				base_resources = 0.5
+			}
+		}
+		30 = { # Whiterun
+			key = "treasure_skyforge"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 0.2
+			}
+		}
+		31 = { # Windhelm
+			key = "treasure_jaggedcrown"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		32 = { # Windhelm
+			key = "treasure_wuuthrad"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
+		33 = { # Kagrenzel
+			key = "treasure_leftwrathstone"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		34 = { # Nighthollow Keep
+			key = "treasure_darkheart"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
+		35 = { # Imperial City
+			key = "treasure_sublimeblazier"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_unrest = -0.1
+			}
+		}
     }
 }
 family={
@@ -321,6 +377,78 @@ family={
 			culture = nednibenese
 			prestige=300
 		}
+		21={
+			key="Frostmoon"
+			owner=SAE
+			culture = frostmoon
+			prestige=300
+		}
+		22={
+			key="Ysgramorsson"
+			owner=SAG
+			culture = eastholder
+			prestige=300
+		}
+		23={
+			key="Lonewolf"
+			owner=SAL
+			culture = solitudan
+			prestige=300
+		}
+		24={
+			key="Morthsson"
+			owner=SAK
+			culture = morthalan
+			prestige=300
+		}
+		25={
+			key="Riverborn"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		26={
+			key="Battleborn"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		27={
+			key="Greymane"
+			owner=SAI
+			culture = westholder
+			prestige=300
+		}
+		28={
+			key="Ironarm"
+			owner=SAH
+			culture = southholder
+			prestige=300
+		}
+		29={
+			key="Volkihar"
+			owner=SAN
+			culture = volkiharan
+			prestige=300
+		}
+		30={
+			key="Begalin"
+			owner=SAJ
+			culture = palan
+			prestige=300
+		}
+		31={
+			key="Dovahkul"
+			owner=SAD
+			culture = ndragoncult
+			prestige=300
+		}
+		32={
+			key="Nighthollow"
+			owner=SCU
+			culture = nighthollow
+			prestige=300
+		}
 		
 		}
 }
@@ -328,6 +456,9 @@ diplomacy = {
 	#Direnni Influence
 	dependency = { first = VAS second = HBU subject_type = feudatory }
 	dependency = { first = VAS second = HBW subject_type = feudatory }
+	dependency = { first = VAS second = HCG subject_type = feudatory }
+	dependency = { first = VAS second = HCR subject_type = feudatory }
+	dependency = { first = VAS second = HCI subject_type = feudatory }
 }
 
 provinces = { #Any entry must contain a comment with city name.
@@ -348,7 +479,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 6 } }
 	}
 	1071 = { # Imperial City
-		treasure_slots = { 	treasures = { 7 8 9 } }
+		treasure_slots = { 	treasures = { 8 9 } }
 	}
 	1557 = { # Nenalata
 		treasure_slots = { 	treasures = { 10 27 } }
@@ -395,8 +526,30 @@ provinces = { #Any entry must contain a comment with city name.
 	1201 = { # Borderwatch
 		treasure_slots = { 	treasures = { 25 } }
 	}
+	4451 = { # Old Hroldan
+		treasure_slots = { 	treasures = { 28 } }
+	}
+	4314 = { # Whiterun
+		treasure_slots = { 	treasures = { 29 30 } }
+	}
+	4104 = { # Windhelm
+		treasure_slots = { 	treasures = { 31 32 } }
+	}
+	4157 = { # Kagrenzel
+		treasure_slots = { 	treasures = { 33 } }
+	}
+	4464 = { # Nighthollow Keep
+		treasure_slots = { 	treasures = { 34 } }
+	}
+	4579 = { # Temple District
+		treasure_slots = { 	treasures = { 7 35 } }
+	}
 
 	#Pirates
+	4054 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4565 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4282 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	4037 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3368 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3362 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	787 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -414,6 +567,66 @@ provinces = { #Any entry must contain a comment with city name.
 	
 	#Buildings
 	464 = {
+		fortress_building = 1
+	}
+	1071 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4577 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4578 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4579 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4580 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4581 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4582 = {
+		modifier = { modifier = ic_defences always = yes }
+	}
+	4520 = {
+		fortress_building = 1
+	}
+	4504 = {
+		fortress_building = 1
+	}
+	4269 = {
+		fortress_building = 1
+	}
+	4261 = {
+		fortress_building = 1
+	}
+	4389 = {
+		fortress_building = 1
+	}
+	4060 = {
+		fortress_building = 1
+	}
+	4188 = {
+		fortress_building = 1
+	}
+	4518 = {
+		fortress_building = 1
+	}
+	4255 = {
+		fortress_building = 1
+	}
+	4168 = {
+		fortress_building = 1
+	}
+	4317 = {
+		fortress_building = 1
+	}
+	4242 = {
+		fortress_building = 1
+	}
+	4364 = {
 		fortress_building = 1
 	}
 	2968 = {
@@ -440,7 +653,34 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	4282 = {
+		port_building = 2
+	}
+	4037 = {
+		port_building = 1
+	}
+	4565 = {
+		port_building = 1
+	}
+	4574 = {
+		port_building = 1
+	}
+	4010 = {
+		port_building = 2
+	}
 	3240 = {
+		port_building = 1
+	}
+	4527 = {
+		port_building = 1
+	}
+	4277 = {
+		port_building = 1
+	}
+	4054 = {
+		port_building = 1
+	}
+	4104 = {
 		port_building = 1
 	}
 	3478 = {
@@ -450,6 +690,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 1
 	}
 	3431 = {
+		port_building = 1
+	}
+	4050 = {
 		port_building = 1
 	}
 	3424 = {
@@ -644,9 +887,6 @@ provinces = { #Any entry must contain a comment with city name.
 	1030 = {
 		fortress_building = 1
 	}
-	1084 = {
-		fortress_building = 1
-	}
 	685 = {
 		fortress_building = 1
 	}
@@ -767,6 +1007,252 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	3195 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4460 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4199 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4238 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4227 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4113 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4498 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4344 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4222 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4271 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4102 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4470 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4524 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4480 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4482 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4488 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4438 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4458 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4379 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4375 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4494 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4012 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4030 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4008 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4026 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4449 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4548 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4446 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4472 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4382 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4455 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4429 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4427 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4426 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4419 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4195 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4204 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4167 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4149 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4144 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4093 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4210 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4178 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4179 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4173 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4249 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4151 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4265 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4280 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4115 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4114 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4067 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4063 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4090 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4101 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4248 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4132 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4160 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4159 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4166 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4186 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4193 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4201 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4370 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4320 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4398 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4393 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4377 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4371 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4243 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4265 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4369 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4441 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4539 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4537 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4533 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4531 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4484 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3252 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3257 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	3247 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	3662 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -1542,6 +2028,63 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	3836 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3997 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3918 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3890 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3931 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3877 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3843 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3827 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3858 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3850 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3897 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3904 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3872 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3961 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3993 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3982 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3974 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3917 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	3911 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	3417 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -1756,12 +2299,24 @@ provinces = { #Any entry must contain a comment with city name.
 
 road_network = {
 	#Cyrodiil
-	1071=1078
-	1071=1073
+	1073=4577
+	4577=1071
+	1071=4578
+	1071=4579
+	1071=4580
+	1071=4581
+	1071=4582
+	4577=4578
+	4577=4579
+	4582=4580
+	4582=4581
+	4579=4580
+	4578=4581
+	4579=1078
+	4580=1087
+	4581=1083
 	1078=1079
-	1071=1087
 	1087=1089
-	1071=1083
 	1083=1084
 	#Auridon
 	677=678
@@ -2310,20 +2865,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 814
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			pantheon = {
 			
@@ -2349,20 +2891,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 806
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2383,20 +2912,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 849
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2416,20 +2932,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 856
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2498,20 +3001,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 889
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2564,20 +3054,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1163
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2599,20 +3076,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1127
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2661,20 +3125,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1102
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2695,20 +3146,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 976
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2730,20 +3168,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1233
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2763,20 +3188,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1342
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2796,20 +3208,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1316
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2824,17 +3223,10 @@ country = {
 		}
 		
 		CAZ = {          
-			government = despotic_monarchy
-			primary_culture = cyronordic
-			religion = nordic_pantheon
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = elven_pantheon
 			capital = 1326
-			
-			poptype_rights = {
-				{
-					culture = nednibenese 
-					type = citizen
-				}
-			}
 			
 			own_control_core = 	{ 
 				1326 1327 1325 1346 1350 1349 1351 1352
@@ -2847,20 +3239,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1068
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2881,20 +3260,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1240
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2915,20 +3281,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1306
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -2949,20 +3302,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1291
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3011,20 +3351,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1268
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3045,20 +3372,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1288
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3089,20 +3403,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1330
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3123,20 +3424,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1557
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3157,20 +3445,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1618
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3193,20 +3468,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1360
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3216,8 +3478,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1353 1354 1355 1365 1360 1363 1361 1366 1362 1371 1356
-				1359 1358 1357 1348 1370 1372 1367 1364
+				1365 1360 1363 1361 1366 1362 1371 1356
+				1359 1370 1372 1367 1364
 				
 			}
 		}
@@ -3228,20 +3490,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1381
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3261,20 +3510,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1463
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3297,20 +3533,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1406
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3330,20 +3553,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1550
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3363,21 +3573,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 1459
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -3395,13 +3590,6 @@ country = {
 			primary_culture = besarabicelves
 			religion = elven_pantheon
 			capital = 1594
-			
-			poptype_rights = {
-				{
-					culture = nednibenese
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3423,20 +3611,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1427
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3456,20 +3631,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1663
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3489,20 +3651,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1203
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3522,20 +3671,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1168
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3556,20 +3692,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1120
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3589,20 +3712,7 @@ country = {
 			religion = elven_pantheon
 			capital = 967
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3622,20 +3732,7 @@ country = {
 			religion = elven_pantheon
 			capital = 951
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3655,20 +3752,7 @@ country = {
 			religion = elven_pantheon
 			capital = 988
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3688,20 +3772,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1008
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3721,20 +3792,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1038
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3755,20 +3813,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1059
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3788,20 +3833,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1041
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -3999,7 +4031,7 @@ country = {
 		
 		CBJ = {          
 			government = tribal_kingdom
-			primary_culture = nednibenese
+			primary_culture = nedhorwalli
 			religion = elven_pantheon
 			capital = 1683
 			
@@ -4168,20 +4200,7 @@ country = {
 			religion = elven_pantheon
 			capital = 2100
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4358,20 +4377,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1246
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4391,20 +4397,7 @@ country = {
 			religion = elven_pantheon
 			capital = 1105
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4424,20 +4417,7 @@ country = {
 			religion = deadric_pantheon
 			capital = 1071
 			
-			poptype_rights = {
-				{
-					culture = nedcolovian
-					type = slaves
-				}
-				{
-					culture = nednibenese
-					type = slaves
-				}
-				{
-					culture = nedstrident
-					type = slaves
-				}
-			}
+			
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4449,6 +4429,7 @@ country = {
 			own_control_core = 	{ 
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
+				4577 4578 4579 4580 4581 4582
 			}
 		}
 		
@@ -5188,7 +5169,7 @@ country = {
 		}
 		
 		HBA = {          
-			government = tribal_federation
+			government = theocratic_monarchy
 			primary_culture = druidic
 			religion = druidic_pantheon
 			capital = 3010
@@ -6128,7 +6109,7 @@ country = {
 		KBS = {          
 			government = tribal_kingdom
 			primary_culture = nednibenese
-			religion = nedic_pantheon
+			religion = elven_pantheon
 			capital = 1289
 			
 			own_control_core = 	{ 
@@ -6139,11 +6120,1029 @@ country = {
 		KBT = {          
 			government = tribal_kingdom
 			primary_culture = nednibenese
-			religion = nedic_pantheon
+			religion = elven_pantheon
 			capital = 1311
 			
 			own_control_core = 	{ 
 				1311 1315 1322 1335 1334
+			}
+		}
+		
+		SAA = {          
+			government = tribal_kingdom
+			primary_culture = skaal
+			religion = allmaker_pantheon
+			capital = 4018
+			
+			own_control_core = 	{ 
+				4018 4023 4022 4021 4016 4017 4019 4024
+			}
+		}
+		
+		SAB = {          
+			government = tribal_kingdom
+			primary_culture = tirsk
+			religion = allmaker_pantheon
+			capital = 4015
+			
+			own_control_core = 	{ 
+				4015 4005 4006 4011
+			}
+		}
+		
+		SAC = {          
+			government = tribal_kingdom
+			primary_culture = atmoran
+			religion = nordic_pantheon
+			capital = 4054
+			
+			own_control_core = 	{ 
+				4054 4055 4056
+			}
+		}
+		
+		SAD = { 
+			family=31
+			government = theocratic_monarchy
+			primary_culture = ndragoncult
+			religion = dragoncult_pantheon
+			capital = 4198
+			
+			own_control_core = 	{ 
+				4198
+			}
+		}
+		
+		SAE = { 
+			family = 21
+			government = tribal_kingdom
+			primary_culture = frostmoon
+			religion = night_pantheon
+			capital = 4012
+			
+			own_control_core = 	{ 
+				4012
+			}
+		}
+		
+		SAF = {          
+			government = oligarchic_republic
+			primary_culture = dvardenan
+			religion = nirnic_pantheon
+			capital = 4010
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4010
+			}
+		}
+		
+		SAG = {  
+			family=22
+			government = aristocratic_monarchy
+			primary_culture = eastholder
+			religion = nordic_pantheon
+			capital = 4104
+			
+			poptype_rights = {
+				{
+					culture = winterholdan 
+					type = citizen
+				}
+			}
+			
+			own_control_core = 	{ 
+				4104 4102 4103 4105 4077 4078 4076 4075 4073 4072 4074 4071 4069 4070 4053 4052 4066 4064 4065 4062 
+				4048 4047 4061 4060 4050 4049 4051 4068 4067 4063 4081 4101 4059 4058 4057 4044 4045 4111 4110 4108
+				4123 4107 4106 4112 4113 4124 4127 4152 4142 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
+				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
+				4176 4178 4154 4079 4080 4083 4082
+			}
+		}
+		
+		SDI = {  
+			government = despotic_monarchy
+			primary_culture = southholder
+			religion = nordic_pantheon
+			capital = 4188
+			
+			own_control_core = 	{ 
+				4188 4190 4187 4189 4182 4180 4181 4230 4234
+			}
+		}
+		
+		SAH = {  
+			family = 28
+			government = despotic_monarchy
+			primary_culture = southholder
+			religion = nordic_pantheon
+			capital = 4200
+			
+			own_control_core = 	{ 
+				4200 4206 4208 4209 4199 4192 4191 4168 4207				
+				4167 4169 4166 4164 4165 4159 4158 4132 4129 4193 
+				4156 4155 4160 4170 4210 4171 4213 4172 4186 4185
+			}
+		}
+		
+		SAI = {  
+			family = 25
+			family = 26
+			family = 27
+			government = despotic_monarchy
+			primary_culture = westholder
+			religion = nordic_pantheon
+			capital = 4314
+			
+			own_control_core = 	{ 
+				4314 4326 4325 4324 4317 4318 4319 4322 4323 4316 4311 4313 4312 4315 4248 4247 4320 4321 
+				4243 4244 4184 4183 4242 4246 4245 4302 4303 4327 4328 4329 4330 4331 4332 4334 4335 4336
+				4333 4304 4337 4338 4339 4350 4343 4341 4342 4344 4345 4346 4349 4348 4361 4340 4351 4352 
+				4353 4354 4370 4358 
+			}
+		}
+		
+		SDG = {
+			government = despotic_monarchy
+			primary_culture = westholder
+			religion = nordic_pantheon
+			capital = 4367
+			
+			own_control_core = 	{ 
+				4367 4368 4366 4357 4369 4356 4360 4363 4364 4382 4355 4359 4362 4365 4383
+			}
+		}
+		
+		SAJ = { 
+			family=30
+			government = despotic_monarchy
+			primary_culture = palan
+			religion = nordic_pantheon
+			capital = 4277
+			
+			own_control_core = 	{ 
+				4277 4278 4275 4276 4281 4114 4266 4271 4267 4272 4274
+				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
+			    4118 4289 
+			}
+		}
+		
+		SDH = { 
+			government = despotic_monarchy
+			primary_culture = palan
+			religion = nordic_pantheon
+			capital = 4255
+			
+			own_control_core = 	{ 
+				4255 4254 4237 4236 4253 4251 4252 4256 4257 4258 4238 4235 4120 4153 4119 4250 4249 4240 4241 
+			}
+		}
+		
+		SAK = { 
+			family = 24
+			government = despotic_monarchy
+			primary_culture = morthalan
+			religion = nordic_pantheon
+			capital = 4499
+			
+			own_control_core = 	{ 
+				4499 4497 4310 4308 4300 4299 4306 4498 4309 4501 4500 4491 4347 4495 4496 4492 4493 4489 4470 4488 4473
+				4301 4305 4307 4503 4502 4494 4505 4506 4508 4509 4507 4487 4490 4510 4511 4512 4513 4514 4515 4516 4517 4518 4519
+			}
+		}
+		
+		SAL = {
+			family = 23
+			government = despotic_monarchy
+			primary_culture = solitudan
+			religion = nordic_pantheon
+			capital = 4528
+			
+			own_control_core = 	{ 
+				4528 4527 4526 4539 4538 4540 4529 4544 4542 4543 4545 4525 4520 4486 4521 4522 4523 4524 4537 4534 4484
+				4552 4535 4536 4551 4549 4548 4550 4547 4546 4559 4557 4555 4560
+			}
+		}
+		
+		SAM = {          
+			government = tribal_kingdom
+			primary_culture = nedkreathan
+			religion = reachmen_pantheon
+			capital = 4375
+			
+			own_control_core = 	{ 
+				4375 4380 4379 4378 4377 4374 4372 4371 4202 4392 4391 4373 4381 4376
+			}
+		}
+		
+		SAN = { 
+			family = 29
+			government = despotic_monarchy
+			primary_culture = volkiharan
+			religion = night_pantheon
+			capital = 4575
+			
+			own_control_core = 	{ 
+				4575 4573 4574 4572 4568 4567 4564 4562 
+			}
+		}
+		
+		SAO = { 
+			government = despotic_monarchy
+			primary_culture = skyrimelves
+			religion = deadric_pantheon
+			capital = 4406
+			
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4406 4407 4408 4403 4398 4397 4399 4401 4404 4405 4400 4402 4384   
+			}
+		}
+		
+		SDJ = { 
+			government = despotic_monarchy
+			primary_culture = skyrimelves
+			religion = deadric_pantheon
+			capital = 4389
+			
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				4389 4390 4388 4387 4386 4385 4409 4410 4411 4412 4414 4415 4418 4419 4413 4416 4417 
+			}
+		}
+		
+		SAP = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4109
+			
+			own_control_core = 	{ 
+				4109 
+			}
+		}
+		
+		SAR = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4223
+			
+			own_control_core = 	{ 
+				4223 
+			}
+		}
+		
+		SAS = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4429
+			
+			own_control_core = 	{ 
+				4429 
+			}
+		}
+		
+		SAT = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4485
+			
+			own_control_core = 	{ 
+				4485
+			}
+		}
+		
+		SAU = { 
+			government = tribal_kingdom
+			primary_culture = nreachmen
+			religion = reachmen_pantheon
+			capital = 4530
+			
+			own_control_core = 	{ 
+				4530 4531 4553 4554 4561 4532 4533
+			}
+		}
+		
+		SAW = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4121
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4121
+			}
+		}
+		
+		SAY = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4157
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4157
+			}
+		}
+		
+		SAZ = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4239
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4239
+			}
+		}
+		
+		SBA = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4087
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4087 4090
+			}
+		}
+		
+		SBB = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4151
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4151
+			}
+		}
+		
+		SBC = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4260
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4260
+			}
+		}
+		
+		SBD = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4286
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4286
+			}
+		}
+		
+		SBE = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4430
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4430 4431
+			}
+		}
+		
+		SBF = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4477
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4477
+			}
+		}
+		
+		SBG = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4442
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4442
+			}
+		}
+		
+		SBH = { 
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4027
+			
+			own_control_core = 	{ 
+				4027 4028 4025 4029
+			}
+		}
+		
+		SBI = { 
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4009
+			
+			own_control_core = 	{ 
+				4009 4014 4020 4013
+			}
+		}
+		
+		SBJ = { 
+			government = tribal_kingdom
+			primary_culture = vertheall
+			religion = allmaker_pantheon
+			capital = 4003
+			
+			own_control_core = 	{ 
+				4003 4001 4002 4030 4007
+			}
+		}
+		
+		SBK = { 
+			government = tribal_kingdom
+			primary_culture = kolbjorn
+			religion = allmaker_pantheon
+			capital = 3999
+			
+			own_control_core = 	{ 
+				3999 4000 3998 4004 4008
+			}
+		}
+		
+		SBL = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4225
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4225
+			}
+		}
+		
+		SBM = { 
+			government = oligarchic_republic
+			primary_culture = dskyrimic
+			religion = nirnic_pantheon
+			capital = 4026
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4026
+			}
+		}
+		
+		SBY = { 
+			government = tribal_kingdom
+			primary_culture = obloodfall
+			religion = codeofmalacath_pantheon
+			capital = 4394
+			
+			own_control_core = 	{ 
+				4394 4393 4395 4396 
+			}
+		}
+		
+		SBO = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4032
+			
+			own_control_core = 	{ 
+				4032 4031
+			}
+		}
+		
+		SBP = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4035
+			
+			own_control_core = 	{ 
+				4034 4033 4035
+			}
+		}
+		
+		SBR = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4043
+			
+			own_control_core = 	{ 
+				4043 4042 4041 4046
+			}
+		}
+		
+		SBS = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4038
+			
+			own_control_core = 	{ 
+				4037 4036 4038 4039 4040
+			}
+		}
+		
+		SBT = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4117
+			
+			own_control_core = 	{ 
+				4117 4116 4115 4273 4270 4096 4097 4094 4095 4093
+			}
+		}
+		
+		SBU = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4086
+			
+			own_control_core = 	{ 
+				4091 4092 4088 4089 4085 4086 4084
+			}
+		}
+		
+		SBW = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4098
+			
+			own_control_core = 	{ 
+				4098 4099 4100
+			}
+		}
+		
+		SBZ = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4282
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4284 4283 4282
+			}
+		}
+		
+		SCA = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4197
+			
+			own_control_core = 	{ 
+				4197 4194 4195 4196 4204
+			}
+		}
+		
+		SCB = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4232
+			
+			own_control_core = 	{ 
+				4232 4233 4231
+			}
+		}
+		
+		SCC = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4203
+			
+			own_control_core = 	{ 
+				4203 4201
+			}
+		}
+		
+		SCD = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4220
+			
+			own_control_core = 	{ 
+				4220 4221 4222
+			}
+		}
+		
+		SCE = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4226
+			
+			own_control_core = 	{ 
+				4226 4227 4224
+			}
+		}
+		
+		SCF = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4214
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4214 4215 4211 4212 4216 4228 4229
+			}
+		}
+		
+		SCG = {          
+			government = despotic_monarchy
+			primary_culture = falmerethi
+			religion = elven_pantheon
+			capital = 4217
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4217 4218 4219 4205
+			}
+		}
+		
+		SCH = {          
+			government = tribal_kingdom
+			primary_culture = gobcyrodic
+			religion = goblin_pantheon
+			capital = 1355
+			
+			own_control_core = 	{ 
+				1355 1348 1353 1354 1357 1358
+			}
+		}
+		
+		SCI = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4150
+			
+			own_control_core = 	{ 
+				4150
+			}
+		}
+		
+		SCJ = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4292
+			
+			own_control_core = 	{ 
+				4292 4290 4541
+			}
+		}
+		
+		SCK = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4425
+			
+			own_control_core = 	{ 
+				4425 4424 4423 4426
+			}
+		}
+		
+		SCL = {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 4570
+			
+			own_control_core = 	{ 
+				4570 4571 4569 4563
+			}
+		}
+		
+		SCM = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4436
+			
+			own_control_core = 	{ 
+				4436 4428 4427
+			}
+		}
+		
+		SCN = {          
+			government = tribal_kingdom
+			primary_culture = nreachmen
+			religion = reachmen_pantheon
+			capital = 4565
+			
+			own_control_core = 	{ 
+				4565 4566 4558 4556
+			}
+		}
+		
+		SCO = {          
+			government = tribal_kingdom
+			primary_culture = gobskyrim
+			religion = goblin_pantheon
+			capital = 4433
+			
+			own_control_core = 	{ 
+				4433 4434 4432
+			}
+		}
+		
+		SCP = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4466
+			
+			own_control_core = 	{ 
+				4466 4471 4459 4458 4448
+			}
+		}
+		
+		SCR = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4447
+			
+			own_control_core = 	{ 
+				4447 4446 4445
+			}
+		}
+		
+		SCS = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4451
+			
+			own_control_core = 	{ 
+				4451 4452 4455 4456
+			}
+		}
+		
+		SCT = {          
+			government = tribal_kingdom
+			primary_culture = northkeptu
+			religion = reachmen_pantheon
+			capital = 4422
+			
+			own_control_core = 	{ 
+				4421 4422 4420
+			}
+		}
+		
+		SCU = { 
+			family = 32
+			government = despotic_monarchy
+			primary_culture = nighthollow
+			religion = night_pantheon
+			capital = 4464
+			
+			own_control_core = 	{ 
+				4464 4504 4269
+			}
+		}
+		
+		SCW = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4439
+			
+			own_control_core = 	{ 
+				4439 4441 4443 4437 4435
+			}
+		}
+		
+		SCY = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4438
+			
+			own_control_core = 	{ 
+				4438 4444 4440 
+			}
+		}
+		
+		SCZ = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4476
+			
+			own_control_core = 	{ 
+				4476 4450 4449 4474
+			}
+		}
+		
+		SDA = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4481
+			
+			own_control_core = 	{ 
+				4481 4482 4483 4480
+			}
+		}
+		
+		SDB = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4479
+			
+			own_control_core = 	{ 
+				4479 4478 4475
+			}
+		}
+		
+		SDC = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4460
+			
+			own_control_core = 	{ 
+				4460 4465 4457
+			}
+		}
+		
+		SDD = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4469
+			
+			own_control_core = 	{ 
+				4469 4472 4467
+			}
+		}
+		
+		SDE = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4462
+			
+			own_control_core = 	{ 
+				4462 4468 4461
+			}
+		}
+		
+		SDF = {          
+			government = tribal_kingdom
+			primary_culture = ereachmen
+			religion = reachmen_pantheon
+			capital = 4454
+			
+			own_control_core = 	{ 
+				4454 4453 4463
 			}
 		}
 	}

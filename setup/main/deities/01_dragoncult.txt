@@ -1,0 +1,21 @@
+deity_manager = {
+	deities_database = { ### KEYS 10321-10340 ###
+		10321 = {
+			key = omen_lesserspirits
+			deity = deity_lesserspirits
+		}
+		10322 = {
+			key = omen_godkings
+			deity = deity_godkings
+		}
+		10323 = {
+			key = omen_dragonpriests
+			deity = deity_dragonpriests
+		}
+		10324 = {
+			key = omen_worldeater
+			deity = deity_worldeater
+		}
+	}
+}
+

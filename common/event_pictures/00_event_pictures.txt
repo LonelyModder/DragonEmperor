@@ -18,6 +18,16 @@ vampirism_spread = {
 	picture = "gfx/interface/event_window/vampirism_spread.dds"
 }
 
+werewolf_spread = {
+	theme = Honor
+	picture = "gfx/interface/event_window/werewolf_spread.dds"
+}
+
+new_dragonpriest = {
+	theme = Honor
+	picture = "gfx/interface/event_window/new_dragonpriest.dds"
+}
+
 welcoming_window_1 = {
 	theme = Honor
 	picture = "gfx/interface/event_window/welcoming_window_1.dds"

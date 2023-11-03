@@ -229,3 +229,11 @@ bad_efficiency = {
 tmp_efficiency = {
 	
 }
+
+#Imperial City Defences
+
+ic_defences = {
+	local_defensive = 0.4
+	local_population_happiness = 0.1
+	local_tax_modifier = 0.1
+}

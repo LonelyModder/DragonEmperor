@@ -5,11 +5,103 @@ modded_sea_region = {
 	}
 }
 
-#Sommerset
-
 modded_tmp_region = {
 	areas = {
 		tmp_area
+	}
+}
+
+modded_solitude_region = {
+	areas = {
+		morthal_area
+		rannweigsfast_area
+		folgunthur_area
+		snowhawk_area
+		dragonbridge_area
+		solitude_area
+		northwatch_area
+		volkihar_area
+		icereach_area
+	}
+}
+
+modded_reach_region = {
+	areas = {
+		oldhroldan_area
+		hagrock_area
+		markarth_area
+		moldering_area
+		karthwasten_area
+		bthardamz_area
+	}
+}
+
+modded_falkreath_region = {
+	areas = {
+		palepass_area
+		helgen_area
+		falkreath_area
+		ilinalta_area
+		lastvalley_area
+	}
+}
+
+modded_whiterun_region = {
+	areas = {
+		valtheim_area
+		riverwood_area
+		whiterun_area
+		greymoor_area
+		greenspringhollow_area
+		brokenfang_area
+		rorikstead_area
+	}
+}
+
+modded_pale_region = {
+	areas = {
+		yorgrim_area
+		korvanjund_area
+		dunstad_area
+		fallhammer_area
+		dawnstar_area
+		ustengrav_area
+		frostisles_area #isles
+	}
+}
+
+modded_rift_region = {
+	areas = {
+		shorsstone_area
+		riften_area
+		largashbur_area
+		tevaswatch_area
+		ivarstead_area
+	}
+}
+
+modded_windhelm_region = {
+	areas = {
+		windhelm_area
+		morvunskar_area
+		kynesgrove_area
+		mzulft_area
+		mistwatch_area
+		amol_area
+	}
+}
+
+modded_winterhold_region = {
+	areas = {
+		skaal_area
+		karstaag_area
+		ravenrock_area
+		northeasternisles_area
+		collegeofwinterhold_area
+		winterhold_area
+		snowveil_area
+		alftand_area
+		olenveld_area #isle
 	}
 }
 
@@ -363,6 +455,7 @@ modded_heartlands_region = {
 		vilverin_area
 		sercen_area
 		caractacus_area
+		imperialcity_area #capital
 	}
 }
 

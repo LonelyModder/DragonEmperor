@@ -363,6 +363,9 @@ deity_namira = {
 				RELIGION = nedic_pantheon
 			}
 			common_deity_trigger = {
+				RELIGION = night_pantheon
+			}
+			common_deity_trigger = {
 				RELIGION = reachmen_pantheon
 			}
 			common_deity_trigger = {

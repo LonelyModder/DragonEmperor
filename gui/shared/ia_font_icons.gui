@@ -41,6 +41,16 @@ texticon = {
 }
 
 texticon = {
+    icon = horker
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/horker.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = durzogs
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/durzogs.dds"
@@ -64,6 +74,16 @@ texticon = {
     icon = moonsugar
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/moonsugar.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = stalhrim
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/stalhrim.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16

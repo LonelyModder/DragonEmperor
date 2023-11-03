@@ -38,19 +38,28 @@ levy_psijic = { #altmer militia
 levy_ayleid = { #ayleid militia
 	default = no
 
-	lv_lightinfantry = 0.4
+	lv_dremoras = 0.5
 	lv_archers = 0.1
-	lv_mages = 0.3
-	lv_cavalry = 0.2
+	lv_mages = 0.2
+	lv_cavalry = 0.15
+	lv_gryphons = 0.05
+}
+
+levy_besarabic = { #besarabic militia
+	default = no
+
+	lv_undead = 0.6
+	lv_bonewalker = 0.2
+	lv_mages = 0.1
+	lv_cavalry = 0.1
 }
 
 levy_awrothgari = { #wrothgar militia
 	default = no
 
-	lv_undead = 0.6
-	lv_bonelord = 0.2
+	lv_undead = 0.7
+	lv_bonewalker = 0.2
 	lv_mages = 0.1
-	lv_cavalry = 0.1
 }
 
 #Goblin
@@ -184,9 +193,9 @@ levy_nordic = { #nordic militia
 levy_bretonic = { #bretonic militia
 	default = no
 
+	lv_archers = 0.1
 	lv_lightinfantry = 0.4
-	lv_heavyinfantry = 0.2
-	lv_mages = 0.1
+	lv_mages = 0.2
 	lv_cavalry = 0.3
 }
 

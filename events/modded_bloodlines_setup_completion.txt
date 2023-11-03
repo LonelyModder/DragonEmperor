@@ -29,6 +29,54 @@ bloodlines_setup_completion.1 = {
 				limit = {
 					exists = father
 					father = {
+						has_trait = begalin
+					}
+					NOT = {
+						has_trait = begalin
+					}
+				}
+				add_trait = begalin
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = companion
+					}
+					NOT = {
+						has_trait = companion
+					}
+				}
+				add_trait = companion
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = werewolf
+					}
+					NOT = {
+						has_trait = werewolf
+					}
+				}
+				add_trait = werewolf
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
+						has_trait = ysgramorsson
+					}
+					NOT = {
+						has_trait = ysgramorsson
+					}
+				}
+				add_trait = ysgramorsson
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
 						has_trait = tharn
 					}
 					NOT = {
@@ -216,6 +264,54 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = aranas	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = begalin
+					}
+					NOT = {
+						has_trait = begalin
+					}
+				}
+				add_trait = begalin	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = companion
+					}
+					NOT = {
+						has_trait = companion
+					}
+				}
+				add_trait = companion	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = werewolf
+					}
+					NOT = {
+						has_trait = werewolf
+					}
+				}
+				add_trait = werewolf	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = ysgramorsson
+					}
+					NOT = {
+						has_trait = ysgramorsson
+					}
+				}
+				add_trait = ysgramorsson	
 			}
 			if = {
 				limit = {

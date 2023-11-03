@@ -198,8 +198,38 @@ wonder_moongate={
 	great_work_category_slot=0
 }
 
+wonder_palaceofkings={
+	entity_name={"dunedain_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_hallsofthecolossus={
+	entity_name={"wonder_erebor_gate_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_icarena={
+	entity_name={"building_special_colosseum_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_templeoftheone={
+	entity_name={"special_dome_of_the_rock_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_waterfront={
 	entity_name={"building_special_waterfront_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_dragonsreach={
+	entity_name={"building_special_dragonsreach_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }

@@ -109,7 +109,18 @@
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_southpoint_region = { formable_region_province_effect = yes }
+				region:modded_wrothgar_region = { formable_region_province_effect = yes }
+				region:modded_stormhaven_region = { formable_region_province_effect = yes }
+				region:modded_rivenspire_region = { formable_region_province_effect = yes }
+				region:modded_glenumbra_region = { formable_region_province_effect = yes }
+				region:modded_lowerglenumbra_region = { formable_region_province_effect = yes }
+				region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_weepingdesert_region = { formable_region_province_effect = yes }
+				region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
+				region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
+				region:modded_hewsbane_region = { formable_region_province_effect = yes }
+				region:modded_alikr_region = { formable_region_province_effect = yes }
 			}
 		}
 		

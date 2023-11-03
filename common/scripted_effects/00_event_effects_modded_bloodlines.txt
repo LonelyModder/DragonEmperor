@@ -22,6 +22,10 @@ pass_down_traits_effect = {
 						has_trait = banequina
 						has_trait = dragonblood
 						has_trait = tharn
+						has_trait = ysgramorsson
+						has_trait = werewolf
+						has_trait = companion
+						has_trait = begalin
 					}
 				}
 						
@@ -36,6 +40,50 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = begalin
+					}
+					NOT = {
+						has_trait = begalin
+					}
+				}
+				add_trait = begalin
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = companion
+					}
+					NOT = {
+						has_trait = companion
+					}
+				}
+				add_trait = companion
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = werewolf
+					}
+					NOT = {
+						has_trait = werewolf
+					}
+				}
+				add_trait = werewolf
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = ysgramorsson
+					}
+					NOT = {
+						has_trait = ysgramorsson
+					}
+				}
+				add_trait = ysgramorsson
 			}
 			if = {
 				limit = {
@@ -214,6 +262,54 @@ pass_down_traits_effect = {
 				}
 			}
 			add_trait = aranas
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = begalin
+				}
+				NOT = {
+					has_trait = begalin
+				}
+			}
+			add_trait = begalin
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = companion
+				}
+				NOT = {
+					has_trait = companion
+				}
+			}
+			add_trait = companion
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = werewolf
+				}
+				NOT = {
+					has_trait = werewolf
+				}
+			}
+			add_trait = werewolf
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = ysgramorsson
+				}
+				NOT = {
+					has_trait = ysgramorsson
+				}
+			}
+			add_trait = ysgramorsson
 		}
 		if = {
 			limit = {
@@ -406,6 +502,38 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = aranas
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = begalin
+			}
+		}
+		add_trait = begalin
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = companion
+			}
+		}
+		add_trait = companion
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = werewolf
+			}
+		}
+		add_trait = werewolf
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = ysgramorsson
+			}
+		}
+		add_trait = ysgramorsson
 	}
 	if = {
 		limit = {

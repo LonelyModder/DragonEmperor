@@ -1,0 +1,25 @@
+﻿namespace = dragoncults
+
+dragoncults.1 = {
+	type = country_event
+	title = "dragoncults.1.t"
+	desc = "dragoncults.1.desc"
+	picture = new_dragonpriest
+	
+	left_portrait = root.current_ruler
+	
+	trigger = {
+		current_ruler = {
+			NOT = {	has_trait = dragonpriest }
+		}
+		primary_culture = frostmoon
+		religion = night_pantheon
+	}
+	
+	option = { 
+		name = "dragoncults.1.a"
+		current_ruler = {
+			add_trait = dragonpriest 
+		}
+	}
+}

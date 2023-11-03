@@ -1,5 +1,173 @@
 ﻿namespace = alessian_revolt
 
+alessian_revolt.11 = { # Revolt of Alessia the automatic option
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		NOT = { has_global_variable = alesh }
+		AND = {
+			p:1288.owner = {
+				war = no
+			}
+			AND = {
+				#Besarabics Loose
+				NOT = { p:1609.owner = c:CCE }
+				NOT = { p:1594.owner = c:CCE }
+				NOT = { p:1542.owner = c:CCE }
+				#Fall of Northern Rebelion
+				p:1326.owner = { country_culture_group = ayleid }
+				p:1289.owner = { country_culture_group = ayleid }
+				p:1311.owner = { country_culture_group = ayleid }
+			}
+			p:1071.owner = {
+				religion = deadric_pantheon
+			}
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = alesh
+		}
+		#Alessian Revolt
+		p:1289 = {
+            while = {
+                count = 20
+                define_pop = {
+                type = freemen
+                culture = nednibenese
+                religion = nedic_pantheon
+                }
+            }                
+        }
+		p:1289 = { #Alessian Revolt
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				change_country_name = "Alessia_NAME"
+				change_country_adjective = "Alessia_ADJECTIVE"
+				change_country_flag = alessian_FLAG
+				change_country_color =  "KAlessian_color"
+			}
+		}
+		p:1289.owner = {
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						location = 1288
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			add_country_modifier = {
+				name = cymmerian_invasion_modifier
+				duration = 14600 # 10 years
+			}
+			every_unit = {
+				add_food = 100
+			}
+			add_treasury = 300
+		
+			create_character = {
+				first_name = "Morihaus"
+				family_name = "Cyrod"
+				no_stats = yes
+				add_trait="minotaur"
+				culture = minotauran
+				religion = nedic_pantheon
+				age = 23
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=500
+				save_scope_as = mori_gov
+			}
+			
+			create_character = {
+				first_name = "Alessia"
+				family_name = "Cyrod"
+				no_stats = yes
+				add_trait="tnede"
+				add_trait="dragonblood"
+				add_trait="alesh"
+				culture = nednibenese
+				religion = nedic_pantheon
+				female = yes
+				age = 18
+				bad_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				save_scope_as = alessia_gov
+				add_gold=500
+			}
+			
+			create_character = {
+				first_name = "Pelinal"
+				family_name = "Whitestrike"
+				no_stats = yes
+				add_trait="tnede"
+				add_trait="shezzarine"
+				culture = nednibenese
+				religion = nedic_pantheon
+				age = 30
+				add_martial=10
+				add_charisma=8
+				add_finesse=2
+				add_zeal=10
+				save_scope_as = pelinal_gov
+			}																																			
+		}
+		p:1289.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:1288
+				target = p:1288.owner
+			}
+		}
+	}
+	
+}
+
 alessian_revolt.10 = { # Revolt of ayleid slaves
 	type = country_event
 	hidden = yes
@@ -8,7 +176,11 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 	
 	trigger = {
 		owns = p:1288
-		religion = nedic_pantheon
+		OR = {
+			country_culture_group = nede
+			country_culture_group = keptu
+			country_culture_group = rechmenic
+		}
 		NOT = { has_global_variable = alesh }
 		AND = {
 			p:1288.owner = {
@@ -42,7 +214,6 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
         }
 		change_government = despotic_monarchy
 		switch_government_type_event_clearup_effect = yes
-		set_primary_culture = nednibenese
 		change_country_name = "Alessia_NAME"
 		change_country_adjective = "Alessia_ADJECTIVE"
 		change_country_flag = alessian_FLAG
@@ -151,9 +322,9 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 				save_scope_as = pelinal_gov
 			}																																			
 		}
-		trigger_event = {
-			id = alessian_revolt.1 
-		}
+		#trigger_event = {
+		#	id = alessian_revolt.1 
+		#}
 	}
 	
 }
@@ -171,7 +342,38 @@ alessian_revolt.1 = { # The Choice
 	right_portrait = scope:pelinal_gov
 	
 	trigger = {
-		
+		p:1288.owner = {
+			OR = {
+				country_culture_group = nede
+				country_culture_group = keptu
+				country_culture_group = rechmenic
+			}
+			has_country_modifier = cymmerian_invasion_modifier
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = { 
+					NOT = { primary_culture = nednibenese }
+					owns = p:1288
+				}
+				set_primary_culture_cleanup_effect = {
+					NEW_PRIMARY_CULTURE = nednibenese
+					MAKE_OLD_CULTURE_INTEGRATED = yes
+				} 
+			}
+			ordered_character = {
+				limit = {
+					AND = {
+						has_trait = dragonblood
+						has_trait = alesh
+					}
+				}
+				save_scope_as = alessia_gov
+			}
+		}
 	}
 	
 	option = {
@@ -217,7 +419,11 @@ alessian_revolt.2 = { # The Choice
 	
 	trigger = {
 		p:1288.owner = {
-			religion = nedic_pantheon
+			OR = {
+				country_culture_group = nede
+				country_culture_group = keptu
+				country_culture_group = reachmenic
+			}
 			has_country_modifier = cymmerian_invasion_modifier
 		}
 		capital_scope = {
@@ -261,7 +467,11 @@ alessian_revolt.3 = { # Alessian cores
 	
 	trigger = {
 		p:1288.owner = {
-			religion = nedic_pantheon
+			OR = {
+				country_culture_group = nede
+				country_culture_group = keptu
+				country_culture_group = rechmenic
+			}
 			has_country_modifier = cymmerian_invasion_modifier
 		}
 		owns = p:1288
@@ -317,7 +527,11 @@ alessian_revolt.5 = { # Capital in Sancre Tor
 	
 	trigger = {
 		p:1288.owner = {
-			religion = nedic_pantheon
+			OR = {
+				country_culture_group = nede
+				country_culture_group = keptu
+				country_culture_group = reachmenic
+			}
 			has_country_modifier = cymmerian_invasion_modifier
 		}
 		has_country_modifier = cymmerian_invasion_modifier

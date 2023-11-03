@@ -2495,7 +2495,10 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = altmer
+				OR = {
+					has_culture_group = altmer
+					has_culture_group = ayleid
+				}
 			}
 		}
 		commander = {
@@ -2589,7 +2592,10 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = goblin
+				OR = {
+					has_culture_group = goblin
+					has_culture_group = rielking
+				}
 			}
 		}
 		commander = {

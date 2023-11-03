@@ -1,0 +1,86 @@
+﻿"SAE"={
+	country="SAE"
+	
+	32={
+		first_name="Ivar"
+		family = c:SAE.fam:Frostmoon
+		birth_date=90.1.1
+		culture="frostmoon"
+		religion="night_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=4
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="werewolf"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:SAE={
+			set_as_ruler=char:32
+		}
+	}
+	
+	33={
+		#first_name="Ivar"
+		family = c:SAE.fam:Frostmoon
+		birth_date=90.1.1
+		culture="frostmoon"
+		religion="night_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=5
+		add_charisma=4
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="werewolf"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	34={
+		#first_name="Ivar"
+		family = c:SAE.fam:Frostmoon
+		birth_date=90.1.1
+		culture="frostmoon"
+		religion="night_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=3
+		add_charisma=4
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="werewolf"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	35={
+		#first_name="Ivar"
+		family = c:SAE.fam:Frostmoon
+		birth_date=90.1.1
+		culture="frostmoon"
+		religion="night_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=3
+		add_charisma=4
+		add_finesse=3
+		add_zeal=2
+		no_traits=yes
+		add_trait="nord"
+		add_trait="werewolf"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+}
