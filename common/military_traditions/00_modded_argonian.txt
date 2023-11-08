@@ -167,7 +167,7 @@
 	argonian_states_path_end_bonus = {
 		modifier = { 
 			lv_warriors_offensive = 0.15
-			marsh_terrain_bonus = 0.1
+			marsh_combat_bonus = 0.1
 		}
 		requires = { argonian_path_5a argonian_path_5b } 
 		icon = argon_mini_trad 

@@ -411,7 +411,7 @@ skooma = { #Added
 		local_citizen_happyness = happiness_small_svalue
 	}
 	country = {
-		global_citizen_happiness = 0.06
+		global_citizen_happyness = happiness_large_svalue
 	}
 
 	color = rgb { 202 111 227 }
@@ -425,7 +425,7 @@ moonsugar = { #Added
 		local_freemen_happyness = happiness_small_svalue
 	}
 	country = {
-		global_freemen_happiness = 0.06
+		global_freemen_happyness = happiness_large_svalue
 	}
 
 	color = rgb { 56 32 15 }
@@ -439,7 +439,7 @@ sweats = { #Added
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		global_nobles_happiness = 0.03
+		global_nobles_happyness = happiness_large_svalue
 	}
 
 	color = rgb { 120 49 11 }
