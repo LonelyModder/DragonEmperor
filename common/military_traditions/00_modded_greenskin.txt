@@ -149,8 +149,8 @@
 	
 	orcish_path_5a = { ###orcish path
 		modifier = { 
-			hills_terrain_bonus = 0.1
-			mountain_terrain_bonus = 0.1
+			hills_combat_bonus = 0.1
+			mountain_combat_bonus = 0.1
 		}
 		icon = orc_mini_trad
 		requires = {orcish_path_4a}
@@ -184,8 +184,8 @@
 	
 	orcish_path_4b = { ###orcish path
 		modifier = { 
-			jungle_terrain_bonus = 0.1
-			forest_terrain_bonus = 0.1
+			jungle_combat_bonus = 0.1
+			forest_combat_bonus = 0.1
 		}
 		icon = orc_mini_trad
 		requires = {orcish_path_3b}

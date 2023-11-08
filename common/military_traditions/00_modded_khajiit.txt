@@ -124,8 +124,8 @@
 	
 	khajiit_path_3b = { ###khajiit path
 		modifier = { 
-			desert_terrain_bonus = 0.1
-			jungle_terrain_bonus = 0.1
+			desert_combat_bonus = 0.1
+			jungle_combat_bonus = 0.1
 		}
 		icon = cat_mini_trad
 		requires = {khajiit_path_2b}

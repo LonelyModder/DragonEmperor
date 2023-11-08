@@ -96,8 +96,8 @@
 	
 	nordic_path_3a = { ###nordic path
 		modifier = { 
-			hills_terrain_bonus = 0.1
-			mountain_terrain_bonus = 0.1
+			hills_combat_bonus = 0.1
+			mountain_combat_bonus = 0.1
 		}
 		icon = nord_mini_trad
 		requires = {nordic_path_2a}
