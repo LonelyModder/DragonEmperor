@@ -2248,7 +2248,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = cavalry_camels
+				add_subunit = lv_camels
 			}
 			25 = {
 				trigger = {
@@ -2261,10 +2261,10 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = light_cavalry
+				add_subunit = lv_horsearchers
 			}
 			25 = {
-				add_subunit = light_infantry
+				add_subunit = lv_cavalry
 			}
 			25 = {
 				trigger = {
@@ -2277,7 +2277,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = cavalry_light
+				add_subunit = lv_horsearchers
 			}
 		}
 	}
@@ -2297,7 +2297,7 @@ add_relevant_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_subunit = light_infantry
+				add_subunit = lv_cavalry
 			}
 			30 = {
 				trigger = {
@@ -2310,10 +2310,10 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = heavy_infantry
+				add_subunit = lv_cavalry
 			}
 			20 = {
-				add_subunit = archers
+				add_subunit = lv_archers
 			}
 			20 = {
 				trigger = {
@@ -2326,7 +2326,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = light_cavalry
+				add_subunit = lv_cavalry
 			}
 			10 = {
 				trigger = {
@@ -2339,7 +2339,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = warelephant
+				add_subunit = lv_cavalry
 			}
 		}
 	}
@@ -2359,7 +2359,7 @@ add_relevant_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_subunit = light_infantry
+				add_subunit = lv_cavalry
 			}
 			10 = {
 				trigger = {
@@ -2372,10 +2372,10 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = heavy_infantry
+				add_subunit = lv_cavalry
 			}
 			30 = {
-				add_subunit = archers
+				add_subunit = lv_archers
 			}
 			20 = {
 				trigger = {
@@ -2388,10 +2388,10 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = warelephant
+				add_subunit = lv_cavalry
 			}
 			20 = {
-				add_subunit = chariots
+				add_subunit = lv_cavalry
 			}
 		}
 	}
@@ -2406,7 +2406,7 @@ add_relevant_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_subunit = light_infantry
+				add_subunit = lv_cavalry
 			}
 			20 = {
 				trigger = {
@@ -2419,7 +2419,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = heavy_cavalry
+				add_subunit = lv_cavalry
 			}
 			40 = {
 				trigger = {
@@ -2432,7 +2432,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = horse_archers
+				add_subunit = lv_horsearchers
 			}
 			20 = {
 				trigger = {
@@ -2445,7 +2445,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = light_cavalry
+				add_subunit = lv_cavalry
 			}
 		}
 	}
@@ -2455,10 +2455,10 @@ add_relevant_subunit_effect = {
 		}
 		random_list = {
 			20 = {
-				add_subunit = chariots
+				add_subunit = lv_cavalry
 			}
 			20 = {
-				add_subunit = light_infantry
+				add_subunit = lv_cavalry
 			}
 			40 = {
 				trigger = {
@@ -2471,7 +2471,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = light_cavalry
+				add_subunit = lv_cavalry
 			}
 			20 = {
 				trigger = {
@@ -2484,7 +2484,7 @@ add_relevant_subunit_effect = {
 						}
 					}
 				}
-				add_subunit = heavy_infantry
+				add_subunit = lv_cavalry
 			}
 		}
 	}
