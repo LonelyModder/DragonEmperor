@@ -126,7 +126,7 @@ deity_zenithar = {
 	}
 	icon = deity_zenit
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
-	omen = { global_nobles_happiness = omen_global_nobles_happiness_svalue } #Bonus from Omen
+	omen = { global_nobles_happyness = omen_global_nobles_happiness_svalue } #Bonus from Omen
 	religion = green_pantheon
 	deity_category = economy #This Deity uses a Economy Slot
 	deification_trigger = {
