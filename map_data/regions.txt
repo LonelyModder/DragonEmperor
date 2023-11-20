@@ -11,6 +11,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_velothi_region = {
+	areas = {
+		blacklight_area
+		cormaris_area
+		greatvalley_area
+		selethis_area
+		silgrad_area
+		verarchen_area
+	}
+}
+
 modded_solitude_region = {
 	areas = {
 		morthal_area
