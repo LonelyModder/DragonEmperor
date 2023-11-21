@@ -11,6 +11,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_stonefalls_region = {
+	areas = {
+		karthtor_area
+		heimlyn_area
+		kragenmoor_area
+		ebonheart_area
+		arand_area
+		devonswatch_area
+	}
+}
+
 modded_velothi_region = {
 	areas = {
 		blacklight_area
