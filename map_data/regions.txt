@@ -11,6 +11,18 @@ modded_tmp_region = {
 	}
 }
 
+modded_deshaan_region = {
+	areas = {
+		taldeicfortress_area
+		mournhold_area
+		shadastula_area
+		narsis_area
+		zeren_area
+		balfoyen_area
+		alvelis_area
+	}
+}
+
 modded_stonefalls_region = {
 	areas = {
 		karthtor_area
@@ -19,6 +31,7 @@ modded_stonefalls_region = {
 		ebonheart_area
 		arand_area
 		devonswatch_area
+		muthgnaar_area
 	}
 }
 
