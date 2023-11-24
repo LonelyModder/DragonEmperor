@@ -11,6 +11,19 @@ modded_tmp_region = {
 	}
 }
 
+modded_northargonia_region = {
+	areas = {
+		saltflats_area
+		tear_area
+		rathendisfalls_area
+		silnimvale_area
+		southernmarshes_area
+		oldkeep_area
+		andaram_area
+		thir_area
+	}
+}
+
 modded_deshaan_region = {
 	areas = {
 		taldeicfortress_area
