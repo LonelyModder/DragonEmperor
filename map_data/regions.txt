@@ -11,6 +11,12 @@ modded_tmp_region = {
 	}
 }
 
+modded_upperdeshaan_region = {
+	areas = {
+		necrom_area
+	}
+}
+
 modded_northargonia_region = {
 	areas = {
 		saltflats_area
