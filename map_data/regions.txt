@@ -11,6 +11,21 @@ modded_tmp_region = {
 	}
 }
 
+modded_telvannipeninsula_region = {
+	areas = {
+		draloris_area
+		greenheights_area
+		helnimwall_area
+		secrarsil_area
+		llothanisheights_area
+		firewatch_area
+		velothishaven_area
+		porttelvannis_area
+		galde_area
+		zildina_area #isle
+	}
+}
+
 modded_upperdeshaan_region = {
 	areas = {
 		necrom_area

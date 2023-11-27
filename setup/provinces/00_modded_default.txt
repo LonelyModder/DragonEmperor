@@ -13879,10 +13879,10 @@
 	province_rank=""
 }
 
-4621={ #Sailable
-	terrain="coastal_terrain"
-	culture=""
-	religion=""
+4621={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -13909,10 +13909,10 @@
 	province_rank=""
 }
 
-4624={ #Sailable
-	terrain="ocean"
-	culture=""
-	religion=""
+4624={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -14549,10 +14549,10 @@
 	province_rank=""
 }
 
-4688={ #Sailable
-	terrain="ocean"
-	culture=""
-	religion=""
+4688={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
 	trade_goods=""
 	civilization_value=0
 	barbarian_power=0
@@ -16520,6 +16520,406 @@
 }
 
 5080={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5351={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5352={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5353={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5354={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5355={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5356={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5357={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5358={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5359={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5360={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5361={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5362={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5363={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5364={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5365={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5366={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5367={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5368={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5369={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5370={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5371={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5372={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5373={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5374={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5375={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5376={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5377={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5378={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5379={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5380={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5381={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5382={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5383={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5384={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5385={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5386={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5387={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5391={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5392={ #Lands
+	terrain="impassable_terrain"
+	culture="goblinken"
+	religion="goblin_pantheon"
+	trade_goods=""
+	civilization_value=0
+	barbarian_power=0
+	province_rank=""
+}
+
+5393={ #Lands
 	terrain="impassable_terrain"
 	culture="goblinken"
 	religion="goblin_pantheon"
