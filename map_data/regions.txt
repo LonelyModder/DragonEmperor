@@ -11,6 +11,50 @@ modded_tmp_region = {
 	}
 }
 
+modded_sheogorad_region = {
+	areas = {
+		zafirbelbay_area
+		indoranyon_area
+		vos_area
+		dagonfel_area
+		centralsh_area
+		westernsh_area
+	}
+}
+
+modded_ashlands_region = {
+	areas = {
+		redmountain_area
+		shishara_area
+		aldruhn_area
+		mzanchend_area
+		bthuand_area
+		falasmaryon_area
+		maargan_area
+	}
+}
+
+modded_molagamur_region = {
+	areas = {
+		telasero_area
+		molagmar_area
+		odirniran_area
+		nebia_area
+		erabenimsun_area
+	}
+}
+
+modded_bittercoast_region = {
+	areas = {
+		seydaneen_area
+		vivec_area
+		amaya_area
+		balmora_area
+		gnaarmok_area
+		gnisis_area
+	}
+}
+
 modded_telvannipeninsula_region = {
 	areas = {
 		draloris_area
