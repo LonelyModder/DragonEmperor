@@ -1,0 +1,50 @@
+﻿chimer = {	
+	color = hsv { 0.84 0.80 0.48 }
+
+	primary = lv_mages
+	second = lv_lightinfantry
+	flank = lv_guarcavalry
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_chimeri
+
+	male_names = {
+		Nalnan Viredar Ligos Rithemil Obragyr Nos Gegamar Derel Vindac Hidemec Benragen Dibrel Bigvas 
+		Enves Gadvoc Irdelan Vigodric His Il Vardes Delneth Lingodath Gilrodil Dan Bic Bor Zongal Solvel 
+		Salnogir Ginreth Nivregic Idrar Ivrigon Ralmoth Nirgan Horlal Dis Ros Dandar Hedven Hol Merathrin 
+		Regvovor Lelnan Narloth Devraner Lothethros Zel Nel Gas 
+	}
+	female_names = {
+		Livare Aru Irihi Valmehi Dalvava Velmo Lisso Dunsia Ulli Vussule Varnaso Anve Melmihe Turnihii 
+		Negevo Tulvari Ervimo Dassesi Mespo Dana Tarva Imu Vigune Mummumo Mannalii Unvu Ilu Unrilu Ella 
+		Mese Aspe Dalviso Mega Lare Ulluni Hivuxu Vummo Anso Ulsu Issia Tino Mummuxa Halmia Allii Nilsiro 
+		Lanri Lega Ivehu Nussehia Ursenu 
+	}
+	family = {
+		Doulred Rutoben Vignol Fadrurad Zormoadrol Mooth Bebomis Rumnin Noalrat Danruvim Voubruvon Baanoth 
+		Gulneth Morles Danrem Nindemal Metohim Zaan Zaad Dinrad Doven Bagnoodroth Zudrenit Boan Raal Mouth
+		Sodrin Hunrit Fandidran Roornos Fomoahal Vubid Ribodos Galret Rillith Rudan Roam Voal Sandis Golnath
+		Nonirel Heladral Zelnid Mateth Bodoazes Botanel Doul Boam Hoon
+	}
+	culture = {
+		telvannic = {}
+		dresite = {}
+		redorani = {}
+		hlaalite = {}
+		indorili = {}
+		dagothi = {}
+		ashlander = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = noldor_gfx
+	ethnicities = {
+		10 = noldor
+	}
+}

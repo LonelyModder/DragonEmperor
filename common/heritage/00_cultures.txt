@@ -15,6 +15,21 @@ altmer_heritage = {
 	}
 }
 
+chimer_heritage = { 
+	modifier = {
+		#good
+		omen_power = 0.2
+		global_slaves_output = 0.2
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		country_culture_group = chimer
+	}
+}
+
 falmer_heritage = { 
 	modifier = {
 		#good

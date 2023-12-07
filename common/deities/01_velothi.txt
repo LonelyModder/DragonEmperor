@@ -1,0 +1,163 @@
+﻿### General Deity Checks ###
+
+### Exclusive Deity Checks ###
+
+deity_ladyofthedawn = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_azura
+	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } 
+	religion = velothi_pantheon
+	deity_category = fertility  
+	
+	on_activate = {
+		add_research = {
+			technology = religious_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_princeofplots = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_boethiah
+	passive_modifier = { build_cost = deity_build_cost_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } 
+	religion = velothi_pantheon
+	deity_category = economy  
+	
+	on_activate = {
+		add_research = {
+			technology = civic_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_spidergod = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_mephala
+	passive_modifier = { fabricate_claim_speed = deity_fabricate_claim_speed_svalue }
+	omen = { stability_monthly_change = omen_stability_monthly_change_svalue } 
+	religion = velothi_pantheon
+	deity_category = culture  
+	
+	on_activate = {
+		add_research = {
+			technology = oratory_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_godoforcs = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_malacath
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
+	omen = { discipline = omen_discipline_svalue } 
+	religion = velothi_pantheon
+	deity_category = war  
+	
+	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_godofenslavement = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_molagbal
+	passive_modifier = { global_slaves_output = deity_global_slaves_output_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } 
+	religion = velothi_pantheon
+	deity_category = war  
+	
+	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_godofmadness = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_sheogorath
+	passive_modifier = { stability_monthly_decay = deity_stability_monthly_decay }
+	omen = { global_population_happiness = omen_global_population_happiness } 
+	religion = velothi_pantheon
+	deity_category = culture  
+	
+	on_activate = {
+		add_research = {
+			technology = oratory_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_godofdestruction = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_mechrunesdagon
+	passive_modifier = { build_time = deity_build_time_svalue }
+	omen = { agressive_expansion_monthly_change = omen_agressive_expansion_monthly_change_svalue } 
+	religion = velothi_pantheon
+	deity_category = economy  
+	
+	on_activate = {
+		add_research = {
+			technology = civic_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
