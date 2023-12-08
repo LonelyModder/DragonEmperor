@@ -91,6 +91,26 @@ texticon = {
 }
 
 texticon = {
+    icon = kwamaegg
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/kwamaegg.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = saltrice
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/saltrice.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = sweats
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/sweats.dds"
