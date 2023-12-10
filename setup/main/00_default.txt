@@ -653,6 +653,9 @@ provinces = { #Any entry must contain a comment with city name.
 	2174 = {
 		port_building = 2
 	}
+	5425 = {
+		port_building = 2
+	}
 	4282 = {
 		port_building = 2
 	}
@@ -1007,6 +1010,174 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	4990 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5040 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5186 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5148 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5150 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4968 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5325 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5336 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5407 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5399 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5329 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5295 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5515 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5511 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5545 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5584 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5598 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4922 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4949 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4997 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5968 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5026 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5017 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5130 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5137 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5135 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5213 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5217 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5433 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5345 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5312 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5327 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5502 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5476 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5447 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5520 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5536 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5551 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5587 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5664 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5675 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5548 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4892 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5223 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5270 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5134 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5035 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5015 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5011 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4992 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4878 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4898 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4901 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4919 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4927 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	4942 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	3195 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -7143,6 +7314,24 @@ country = {
 			
 			own_control_core = 	{ 
 				4454 4453 4463
+			}
+		}
+		
+		MAA = {          
+			government = oligarchic_republic
+			primary_culture = telvannic
+			religion = deadric_pantheon
+			capital = 5425
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5425 
 			}
 		}
 	}

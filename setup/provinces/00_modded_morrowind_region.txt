@@ -9464,20 +9464,23 @@
 
 5425={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="circle_of_mages"
+	religion="velothi_pantheon"
+	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
