@@ -7320,7 +7320,7 @@ country = {
 		MAA = {          
 			government = oligarchic_republic
 			primary_culture = telvannic
-			religion = deadric_pantheon
+			religion = velothi_pantheon
 			capital = 5425
 			
 			technology={
@@ -7332,6 +7332,96 @@ country = {
 			
 			own_control_core = 	{ 
 				5425 
+			}
+		}
+		
+		MAB = {          
+			government = oligarchic_republic
+			primary_culture = hlaalite
+			religion = velothi_pantheon
+			capital = 5054
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5054 
+			}
+		}
+		
+		MAC = {          
+			government = oligarchic_republic
+			primary_culture = dresite
+			religion = velothi_pantheon
+			capital = 5185
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5185 
+			}
+		}
+		
+		MAD = {          
+			government = oligarchic_republic
+			primary_culture = dagothi
+			religion = velothi_pantheon
+			capital = 5706
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5706 
+			}
+		}
+		
+		MAE = {          
+			government = oligarchic_republic
+			primary_culture = dagothi
+			religion = velothi_pantheon
+			capital = 4946
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4946 
+			}
+		}
+		
+		MAF = {          
+			government = oligarchic_republic
+			primary_culture = indorili
+			religion = velothi_pantheon
+			capital = 4946
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4946 
 			}
 		}
 	}

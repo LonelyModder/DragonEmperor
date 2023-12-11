@@ -1333,19 +1333,22 @@
 4946={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="velothi_pantheon"
+	culture="redorani"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -3366,19 +3369,22 @@
 5054={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="velothi_pantheon"
+	culture="hlaalite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -3594,19 +3600,22 @@
 5066={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="velothi_pantheon"
+	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -5665,19 +5674,22 @@
 5185={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="velothi_pantheon"
+	culture="dresite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -14807,19 +14819,22 @@
 5706={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="velothi_pantheon"
+	culture="dagothi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
