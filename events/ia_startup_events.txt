@@ -269,3 +269,18 @@ esfa_startup.15 = { #Dwemer
         name = esfa_startup.15.a
     }
 }
+
+esfa_startup.16 = { #Chimer
+	type = country_event
+    title = esfa_startup.16.t
+    desc = esfa_startup.16.desc
+    picture = welcoming_window_16
+	
+    trigger = {
+    	country_culture_group = chimer
+    }
+
+    option = {    
+        name = esfa_startup.16.a
+    }
+}

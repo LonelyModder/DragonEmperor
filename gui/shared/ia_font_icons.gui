@@ -121,6 +121,16 @@ texticon = {
 }
 
 texticon = {
+    icon = alcohols
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/alcohols.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = sweats
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/sweats.dds"

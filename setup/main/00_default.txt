@@ -7391,7 +7391,7 @@ country = {
 		
 		MAE = {          
 			government = oligarchic_republic
-			primary_culture = dagothi
+			primary_culture = redorani
 			religion = velothi_pantheon
 			capital = 4946
 			
@@ -7411,7 +7411,7 @@ country = {
 			government = oligarchic_republic
 			primary_culture = indorili
 			religion = velothi_pantheon
-			capital = 4946
+			capital = 5066
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -7421,7 +7421,25 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4946 
+				5066 
+			}
+		}
+		
+		MAG = {          
+			government = oligarchic_republic
+			primary_culture = dvardenan
+			religion = nirnic_pantheon
+			capital = 5577
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5577
 			}
 		}
 	}

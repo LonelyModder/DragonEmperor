@@ -218,6 +218,21 @@ wine = { #240 territories
 	color = hsv { 0.88 1 0.5 }
 }
 
+alcohols = { #240 territories
+	category = 4
+	
+	gold = 0.35
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue 
+	}
+	country = {
+		army_maintenance_cost = -0.05
+	}
+
+	color = rgb { 107 45 0 }
+}
+
 wood = { #558 territories
 	category = 0
 
