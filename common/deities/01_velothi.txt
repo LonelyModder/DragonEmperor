@@ -161,3 +161,25 @@ deity_godofdestruction = {
 		can_deify_trigger = yes
 	}
 }
+
+deity_ancestorspirits = {
+	trigger = {
+		religion = velothi_pantheon
+	}
+	icon = deity_ancestorspirits
+	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } 
+	religion = velothi_pantheon
+	deity_category = culture  
+	
+	on_activate = {
+		add_research = {
+			technology = oratory_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
