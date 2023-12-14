@@ -582,16 +582,55 @@ provinces = { #Any entry must contain a comment with city name.
 	5149 = {
 		fortress_building = 1
 	}
+	5089 = {
+		fortress_building = 1
+	}
+	5297= {
+		fortress_building = 1
+	}
+	5095 = {
+		fortress_building = 1
+	}
+	5120 = {
+		fortress_building = 1
+	}
 	5268 = {
 		fortress_building = 1
 	}
 	5125 = {
 		fortress_building = 1
 	}
+	5002 = {
+		fortress_building = 1
+	}
+	5013 = {
+		fortress_building = 1
+		port_building = 2
+	}
 	5182 = {
 		port_building = 2
 	}
+	4985 = {
+		port_building = 2
+	}
 	5266 = {
+		port_building = 2
+	}
+	5277 = {
+		port_building = 2
+	}
+	5337 = {
+		port_building = 2
+		fortress_building = 1
+	}
+	5629 = {
+		port_building = 2
+		fortress_building = 1
+	}
+	5397 = {
+		port_building = 2
+	}
+	5343 = {
 		port_building = 2
 	}
 	1071 = {
@@ -7454,7 +7493,7 @@ country = {
 			
 			own_control_core = 	{ 
 				5066 5068 5081 5069 5070 5124 5082 5098 5121 5048 5049 5047 5084 5085 5086 5083 5044 5043 5028 5042 5027 5039 5045 5018
-				5089 5088 5099 5100 5101 5102 5103 5090 5092 5091 5087 5093 5094 5097 5096 5095 5040
+				5089 5088 5099 5100 5101 5102 5103 5090 5092 5091 5087 5093 5094 5097 5096 5095 5040 5011 5030 5038
 			}
 		}
 		
@@ -7473,6 +7512,25 @@ country = {
 			
 			own_control_core = 	{ 
 				5577
+			}
+		}
+		
+		MAH = {          
+			government = oligarchic_republic
+			primary_culture = moran
+			religion = velothi_pantheon
+			capital = 4985
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				4966 4967 4981 4977 4982 4983 4984 4985 4986 4995 4999 5001 4998 4994 5002 4991 4992 4993 4996 4997 5003 5004 5000 5017
+				5005 5006 5007 5008 5009 5010 5012 5013 5014 5015
 			}
 		}
 	}

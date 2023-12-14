@@ -2245,6 +2245,58 @@ gw_effect_crystal_tower = {
 	}
 }
 
+gw_effect_skar = {
+	icon = "gw_effect_government_education"	
+
+	flags = {
+		"population"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_skar_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				lglobal_population_capacity_modifier = 0.05
+				global_monthly_civilization = 0.05
+				global_nobles_output = 0.05
+			}
+		}
+		gw_effect_skar_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				global_population_capacity_modifier = 0.065
+				global_monthly_civilization = 0.05
+				global_nobles_output = 0.1
+			}
+		}
+		gw_effect_skar_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				global_population_capacity_modifier = 0.09
+				global_monthly_civilization = 0.05
+				global_nobles_output = 0.15
+			}
+		}
+		gw_effect_skar_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				global_population_capacity_modifier = 0.1
+				global_monthly_civilization = 0.05
+				global_nobles_output = 0.2
+			}
+			
+			province_modifier = {
+				garrison_size = 6
+				fort_level = 1
+			}
+		}
+	}
+}
+
 gw_effect_doomcrag = {
 	icon = "gw_effect_government_education"	
 

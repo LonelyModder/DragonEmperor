@@ -19,6 +19,7 @@
  indorili:0 "Deshaneese"
  dagothi:0 "Vvardeni"
  ashlander:0 "Ashlander"
+ moran:0 "Moran"
  chimer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  chimer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Ayleid
@@ -105,7 +106,8 @@
  minotauric_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Argonian
  argonian:2 "Argonian"
- argblackwood:0 "Blackwood"
+ argblackwood:0 "Naga"
+ ahleel:0 "Hleel"
  argonian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  argonian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Khajiit

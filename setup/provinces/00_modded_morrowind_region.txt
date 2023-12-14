@@ -438,7 +438,7 @@
 }
 
 4899={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -457,7 +457,7 @@
 }
 
 4900={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1524,7 +1524,7 @@
 }
 
 4956={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1543,7 +1543,7 @@
 }
 
 4957={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1562,7 +1562,7 @@
 }
 
 4958={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1619,7 +1619,7 @@
 }
 
 4961={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1714,10 +1714,10 @@
 }
 
 4966={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1733,7 +1733,7 @@
 }
 
 4967={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1771,7 +1771,7 @@
 }
 
 4969={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1790,7 +1790,7 @@
 }
 
 4970={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1809,7 +1809,7 @@
 }
 
 4971={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1828,7 +1828,7 @@
 }
 
 4972={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1847,7 +1847,7 @@
 }
 
 4973={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1866,7 +1866,7 @@
 }
 
 4974={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1904,7 +1904,7 @@
 }
 
 4976={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1923,10 +1923,10 @@
 }
 
 4977={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1961,7 +1961,7 @@
 }
 
 4979={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -1999,10 +1999,10 @@
 }
 
 4981={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2018,10 +2018,10 @@
 }
 
 4982={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2037,10 +2037,10 @@
 }
 
 4983={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moranmoran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2059,7 +2059,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2078,18 +2078,21 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=7
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -2097,7 +2100,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2192,7 +2195,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2211,7 +2214,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2230,7 +2233,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2246,10 +2249,10 @@
 }
 
 4994={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2265,10 +2268,10 @@
 }
 
 4995={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2287,7 +2290,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2306,7 +2309,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2322,10 +2325,10 @@
 }
 
 4998={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2341,10 +2344,10 @@
 }
 
 4999={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="ashlands"
+	trade_goods="ebon"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2363,7 +2366,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2379,10 +2382,10 @@
 }
 
 5001={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="ashlands"
+	trade_goods="ebon"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2398,29 +2401,29 @@
 }
 
 5002={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 5003={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2436,10 +2439,10 @@
 }
 
 5004={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2455,10 +2458,10 @@
 }
 
 5005={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2474,10 +2477,10 @@
 }
 
 5006={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2493,29 +2496,29 @@
 }
 
 5007={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 5008={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2531,10 +2534,10 @@
 }
 
 5009={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2553,7 +2556,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2572,7 +2575,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2591,7 +2594,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2610,18 +2613,18 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -2629,7 +2632,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2648,7 +2651,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2686,7 +2689,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="moran"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2816,7 +2819,7 @@
 }
 
 5025={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -2914,7 +2917,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3066,7 +3069,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
-	culture="wvenedi"
+	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3329,7 +3332,7 @@
 }
 
 5052={ 
-	terrain="mountain"
+	terrain="plains"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="hlaalite"
@@ -3433,15 +3436,15 @@
 	culture="hlaalite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3759,15 +3762,15 @@
 	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3854,15 +3857,15 @@
 	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3962,26 +3965,26 @@
 }
 
 5095={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 5096={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="indorili"
@@ -4044,15 +4047,15 @@
 	culture="indorili"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -4247,7 +4250,7 @@
 }
 
 5110={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4266,7 +4269,7 @@
 }
 
 5111={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4285,7 +4288,7 @@
 }
 
 5112={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4304,7 +4307,7 @@
 }
 
 5113={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4361,7 +4364,7 @@
 }
 
 5116={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4380,7 +4383,7 @@
 }
 
 5117={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4399,7 +4402,7 @@
 }
 
 5118={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4418,7 +4421,7 @@
 }
 
 5119={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4443,15 +4446,15 @@
 	culture="hlaalite"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -4475,7 +4478,7 @@
 }
 
 5122={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4494,7 +4497,7 @@
 }
 
 5123={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4532,7 +4535,7 @@
 }
 
 5125={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4551,7 +4554,7 @@
 }
 
 5126={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4570,7 +4573,7 @@
 }
 
 5127={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4589,7 +4592,7 @@
 }
 
 5128={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4608,7 +4611,7 @@
 }
 
 5129={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4627,7 +4630,7 @@
 }
 
 5130={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4646,7 +4649,7 @@
 }
 
 5131={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4665,7 +4668,7 @@
 }
 
 5132={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4684,7 +4687,7 @@
 }
 
 5133={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4703,7 +4706,7 @@
 }
 
 5134={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4741,7 +4744,7 @@
 }
 
 5136={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4760,7 +4763,7 @@
 }
 
 5137={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4779,7 +4782,7 @@
 }
 
 5138={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4798,7 +4801,7 @@
 }
 
 5139={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4817,7 +4820,7 @@
 }
 
 5140={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -4836,7 +4839,7 @@
 }
 
 5141={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4893,7 +4896,7 @@
 }
 
 5144={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4912,7 +4915,7 @@
 }
 
 5145={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -4931,7 +4934,7 @@
 }
 
 5146={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -5026,7 +5029,7 @@
 }
 
 5151={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="hlaalite"
@@ -5045,7 +5048,7 @@
 }
 
 5152={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="hlaalite"
@@ -5083,7 +5086,7 @@
 }
 
 5154={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="dresite"
@@ -5102,7 +5105,7 @@
 }
 
 5155={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5121,7 +5124,7 @@
 }
 
 5156={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5140,7 +5143,7 @@
 }
 
 5157={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5159,7 +5162,7 @@
 }
 
 5158={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5178,7 +5181,7 @@
 }
 
 5159={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5197,7 +5200,7 @@
 }
 
 5160={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5216,7 +5219,7 @@
 }
 
 5161={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5235,7 +5238,7 @@
 }
 
 5162={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5254,7 +5257,7 @@
 }
 
 5163={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5273,7 +5276,7 @@
 }
 
 5164={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5292,7 +5295,7 @@
 }
 
 5165={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5311,7 +5314,7 @@
 }
 
 5166={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5330,7 +5333,7 @@
 }
 
 5167={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5349,7 +5352,7 @@
 }
 
 5168={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5368,7 +5371,7 @@
 }
 
 5169={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5387,7 +5390,7 @@
 }
 
 5170={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5406,7 +5409,7 @@
 }
 
 5171={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5425,7 +5428,7 @@
 }
 
 5172={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5444,7 +5447,7 @@
 }
 
 5173={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5463,7 +5466,7 @@
 }
 
 5174={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5482,7 +5485,7 @@
 }
 
 5175={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5501,7 +5504,7 @@
 }
 
 5176={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5520,7 +5523,7 @@
 }
 
 5177={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5539,7 +5542,7 @@
 }
 
 5178={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -5558,7 +5561,7 @@
 }
 
 5179={ 
-	terrain="plains"
+	terrain="marsh"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -7433,15 +7436,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -7813,15 +7816,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -8212,15 +8215,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -8573,15 +8576,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -8687,15 +8690,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -8953,15 +8956,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -10717,7 +10720,7 @@
 }
 
 5490={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -10736,7 +10739,7 @@
 }
 
 5491={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -10907,7 +10910,7 @@
 }
 
 5500={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -10926,7 +10929,7 @@
 }
 
 5501={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -10945,7 +10948,7 @@
 }
 
 5502={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11116,7 +11119,7 @@
 }
 
 5511={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11135,7 +11138,7 @@
 }
 
 5512={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11154,7 +11157,7 @@
 }
 
 5513={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11173,7 +11176,7 @@
 }
 
 5514={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11192,7 +11195,7 @@
 }
 
 5515={ 
-	terrain="plains"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -11553,7 +11556,7 @@
 }
 
 5534={ 
-	terrain="plains"
+	terrain="ashlands"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -12981,7 +12984,7 @@
 }
 
 5609={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13000,7 +13003,7 @@
 }
 
 5610={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13019,7 +13022,7 @@
 }
 
 5611={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13057,7 +13060,7 @@
 }
 
 5613={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13076,7 +13079,7 @@
 }
 
 5614={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13095,7 +13098,7 @@
 }
 
 5615={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13133,7 +13136,7 @@
 }
 
 5617={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13152,7 +13155,7 @@
 }
 
 5618={ 
-	terrain="plains"
+	terrain="hills"
 	trade_goods="spices"
 	religion="velothi_pantheon"
 	culture="wvenedi"
@@ -13367,15 +13370,15 @@
 	culture="telvannic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
