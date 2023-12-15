@@ -579,6 +579,12 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	4925 = {
+		fortress_building = 1
+	}
+	5019 = {
+		fortress_building = 1
+	}
 	5149 = {
 		fortress_building = 1
 	}
@@ -7422,6 +7428,7 @@ country = {
 			
 			own_control_core = 	{ 
 				5054 5060 5059 5058 5057 5056 5055 5065 5050 5051 5046 5062 5061 5067 5114 5115 5120 5152 5151 5053 5052
+				5025 5024 5022 5023 5026 5041 5021 5019 5016 4990 4988 4989 4980
 			}
 		}
 		
@@ -7459,7 +7466,9 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5706 
+				4909 4910 4911 4912 4913 4914 4915 4916 4917 4918 4919 4921 4899 4900 4901 4902 4903 4904 4905 4906 4907 4908 5491 5490
+				5700 5707 5706 5701 5708 5709 5704 5710 5703 5702 5696 5705 5699 5670 5673 5565 5581 5580 5582 5595 5591 5457 5645 5641 5639
+				5592 5600 5604 5594 5597 5596 5478 5477 5479 5480 5485 5484 5481 5474 5483 5564 5566 5567 5695 5482 5473 5459 5456 5458
 			}
 		}
 		
@@ -7477,7 +7486,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4946 
+				4946 4945 4947 4948 4944 4943 4950 4949 4953 4955 4951 4952 4957 4961 4979 4978 4954 4956 4958 4959    
+				4932 4933 4934 4936 4937 4938 4939 4940 4941 4942 4987 4920 4922 4923 4924 4925 4926 4927 4928 4929 4930 4935 4931
 			}
 		}
 		
@@ -7534,6 +7544,61 @@ country = {
 			own_control_core = 	{ 
 				4966 4967 4981 4977 4982 4983 4984 4985 4986 4995 4999 5001 4998 4994 5002 4991 4992 4993 4996 4997 5003 5004 5000 5017
 				5005 5006 5007 5008 5009 5010 5012 5013 5014 5015
+			}
+		}
+		
+		MAI = {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 5112
+			
+			own_control_core = 	{ 
+				5112 5063 5064 5111 5113 5116 5117 5118 5119
+			}
+		}
+		
+		MAJ = {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 5159
+			
+			own_control_core = 	{ 
+				5159 5156 5166 5161 5162 5163 5164 5165 5167
+			}
+		}
+		
+		MAK = {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 5160
+			
+			own_control_core = 	{ 
+				5160 5158 5157 5173 5175 5174 5169
+			}
+		}
+		
+		MAL = {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 5171
+			
+			own_control_core = 	{ 
+				5171 5172 5176 5177 5178 5179 5170 5155 5168
+			}
+		}
+		
+		MAM = {          
+			government = despotic_monarchy
+			primary_culture = nedrontha
+			religion = nedic_pantheon
+			capital = 4965
+			
+			own_control_core = 	{ 
+				4965 4964 4960 4962 4963 4969 4973 4970 4968 4971 4976 4972 4974
 			}
 		}
 	}
