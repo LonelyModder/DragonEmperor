@@ -257,6 +257,13 @@ treasure_manager = {
 				local_unrest = -0.1
 			}
 		}
+		37 = { # Mournhold
+			key = "treasure_moonandstar"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
     }
 }
 family={
@@ -554,6 +561,9 @@ provinces = { #Any entry must contain a comment with city name.
 	5268 = { # Necrom
 		treasure_slots = { 	treasures = { 36 } }
 	}
+	5066 = { # Mournhold
+		treasure_slots = { 	treasures = { 37 } }
+	}
 	
 	#Pirates
 	4054 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -577,6 +587,9 @@ provinces = { #Any entry must contain a comment with city name.
 	
 	#Buildings
 	464 = {
+		fortress_building = 1
+	}
+	4946 = {
 		fortress_building = 1
 	}
 	4925 = {
@@ -609,11 +622,46 @@ provinces = { #Any entry must contain a comment with city name.
 	5002 = {
 		fortress_building = 1
 	}
+	4913 = {
+		fortress_building = 1
+	}
+	5591 = {
+		fortress_building = 1
+	}
+	5747 = {
+		fortress_building = 1
+	}
+	5137 = {
+		fortress_building = 1
+	}
+	5491 = {
+		fortress_building = 1
+	}
 	5013 = {
 		fortress_building = 1
 		port_building = 2
 	}
+	5704 = {
+		fortress_building = 1
+		port_building = 2
+	}
+	5641 = {
+		fortress_building = 1
+		port_building = 2
+	}
 	5182 = {
+		port_building = 2
+	}
+	5139 = {
+		port_building = 2
+	}
+	5135 = {
+		port_building = 2
+	}
+	4899 = {
+		port_building = 2
+	}
+	5567 = {
 		port_building = 2
 	}
 	5103 = {
@@ -7427,7 +7475,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5054 5060 5059 5058 5057 5056 5055 5065 5050 5051 5046 5062 5061 5067 5114 5115 5120 5152 5151 5053 5052
+				5054 5060 5059 5058 5057 5056 5055 5065 5050 5051 5046 5114 5115 5120 5152 5151 5053 5052
 				5025 5024 5022 5023 5026 5041 5021 5019 5016 4990 4988 4989 4980
 			}
 		}
@@ -7466,9 +7514,10 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4909 4910 4911 4912 4913 4914 4915 4916 4917 4918 4919 4921 4899 4900 4901 4902 4903 4904 4905 4906 4907 4908 5491 5490
+				4909 4910 4911 4912 4913 4914 4915 4916 4917 4918 4919 4921 4899 4900 4901 4902 4903 4904 4905 4906 4907 4908 5491 5490 
 				5700 5707 5706 5701 5708 5709 5704 5710 5703 5702 5696 5705 5699 5670 5673 5565 5581 5580 5582 5595 5591 5457 5645 5641 5639
-				5592 5600 5604 5594 5597 5596 5478 5477 5479 5480 5485 5484 5481 5474 5483 5564 5566 5567 5695 5482 5473 5459 5456 5458
+				5592 5600 5604 5594 5597 5596 5478 5477 5479 5480 5485 5484 5481 5474 5483 5564 5566 5567 5695 5482 5473 5459 5456 5458 
+				5588 5589 4893 4892 4894 4898
 			}
 		}
 		
@@ -7476,7 +7525,7 @@ country = {
 			government = oligarchic_republic
 			primary_culture = redorani
 			religion = velothi_pantheon
-			capital = 4946
+			capital = 4937
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -7486,8 +7535,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4946 4945 4947 4948 4944 4943 4950 4949 4953 4955 4951 4952 4957 4961 4979 4978 4954 4956 4958 4959    
-				4932 4933 4934 4936 4937 4938 4939 4940 4941 4942 4987 4920 4922 4923 4924 4925 4926 4927 4928 4929 4930 4935 4931
+				4946 4945 4947 4948 4944 4943 4949 4953 4955 4928 4929 4930 4935 4931 4926 4927   
+				4932 4933 4934 4936 4937 4938 4939 4940 4941 4942 4987 4920 4922 4923 4924 4925 
 			}
 		}
 		
@@ -7504,8 +7553,8 @@ country = {
 				religious_tech= { level=2 progress=0  }
 			}
 			
-			own_control_core = 	{ 
-				5066 5068 5081 5069 5070 5124 5082 5098 5121 5048 5049 5047 5084 5085 5086 5083 5044 5043 5028 5042 5027 5039 5045 5018
+			own_control_core = 	{
+				5066 5068 5081 5069 5082 5098 5048 5049 5047 5084 5085 5086 5083 5044 5043 5028 5042 5027 5039 5045 5018
 				5089 5088 5099 5100 5101 5102 5103 5090 5092 5091 5087 5093 5094 5097 5096 5095 5040 5011 5030 5038
 			}
 		}
@@ -7599,6 +7648,88 @@ country = {
 			
 			own_control_core = 	{ 
 				4965 4964 4960 4962 4963 4969 4973 4970 4968 4971 4976 4972 4974
+			}
+		}
+		
+		MAN = {          
+			government = tribal_kingdom
+			primary_culture = ashlander
+			religion = velothi_pantheon
+			capital = 4957
+			
+			own_control_core = 	{ 
+				4957 4961 4979 4978 4951 4952
+			}
+		}
+		
+		MAO = {          
+			government = tribal_kingdom
+			primary_culture = ashlander
+			religion = velothi_pantheon
+			capital = 4958
+			
+			own_control_core = 	{ 
+				4958 4959 4956 4954 4950
+			}
+		}
+		
+		MAP = {          
+			government = tribal_kingdom
+			primary_culture = ashlander
+			religion = velothi_pantheon
+			capital = 5067
+			
+			own_control_core = 	{ 
+				5067 5061 5062
+			}
+		}
+		
+		MAR = {          
+			government = tribal_kingdom
+			primary_culture = ashlander
+			religion = velothi_pantheon
+			capital = 5124
+			
+			own_control_core = 	{ 
+				5124 5070 5121
+			}
+		}
+		
+		MAS = {          
+			government = oligarchic_republic
+			primary_culture = foyenite
+			religion = velothi_pantheon
+			capital = 5139
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				5140 5198 5029 5139 5031 5036 5035 5138 5137 5199 
+				5037 5034 5033 5129 5136 5032 5130 5134 5132 5133 
+				5201 4975 5202 5203 5204 5205 5206 5207 5241 5242
+			}
+		}
+		
+		MAT = {          
+			government = oligarchic_republic
+			primary_culture = drelothi
+			religion = velothi_pantheon
+			capital = 5209
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				5212 5211 5213 5218 5215 5214 5209 5210 5208 5219 5220 5225 5135 5109
 			}
 		}
 	}

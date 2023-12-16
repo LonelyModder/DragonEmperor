@@ -36,8 +36,12 @@
 		hlaalite = {}
 		indorili = {}
 		dagothi = {}
-		ashlander = {}
+		ashlander = {levy_template = levy_ashlander}
 		moran = {}
+		foyenite = {}
+		rendysite = {}
+		drelothi = {}
+		baran = {}
 	}
 	
 	barbarian_names = { 
