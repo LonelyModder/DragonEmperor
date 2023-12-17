@@ -589,6 +589,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	5245 = {
+		fortress_building = 1
+	}
 	4946 = {
 		fortress_building = 1
 	}
@@ -649,10 +652,16 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	5679 = {
+		port_building = 1
+	}
 	5182 = {
 		port_building = 2
 	}
 	5139 = {
+		port_building = 2
+	}
+	5250 = {
 		port_building = 2
 	}
 	5135 = {
@@ -7730,6 +7739,57 @@ country = {
 			
 			own_control_core = 	{
 				5212 5211 5213 5218 5215 5214 5209 5210 5208 5219 5220 5225 5135 5109
+			}
+		}
+		
+		MAU = {          
+			government = oligarchic_republic
+			primary_culture = rendysite
+			religion = velothi_pantheon
+			capital = 5233
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				5233 5231 5232 5230 5228 5229 5243 5244 5245 5250 
+				5253 5251 5252 5254 5256 5255 5258 5248 5247 5246
+				5235 5239 5238 5237 5234 5236 5227 5226 5217 5216 5221
+			}
+		}
+		
+		MAW = {          
+			government = oligarchic_republic
+			primary_culture = baran
+			religion = velothi_pantheon
+			capital = 5289
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{
+				5289 5290 5288 5286 5282 5285 5281 5280 5283 5279 5291 5293 5249
+				5263 5264 5224 5222 5223 5260 5261 5262 5259 5240 5284 5287 5257
+			}
+		}
+		
+		MAX = {          
+			government = tribal_kingdom
+			primary_culture = dagonite
+			religion = allmaker_pantheon
+			capital = 5679
+			
+			own_control_core = 	{ 
+				5679 5674 5669 5667 5668 5676 5680 5682 5666
+				5681 5678 5677 5673 5687 5686 5688 5683 5684 5685 5675
 			}
 		}
 	}
