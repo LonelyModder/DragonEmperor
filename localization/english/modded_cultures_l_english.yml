@@ -11,7 +11,6 @@
  altmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Altmer
  chimer:2 "Chimer"
- sommersetic:0 "Alinori"
  telvannic:0 "Telvanni"
  dresite:0 "Dresan"
  redorani:0 "Redorani"
@@ -20,10 +19,8 @@
  dagothi:0 "Dagothan"
  ashlander:0 "Ashlander"
  moran:0 "Moran"
- foyenite:0 "Foyenite"
- rendysite:0 "Rendysite"
- drelothi:0 "Drelothi"
- baran:0 "Baran"
+ rendysite:0 "Chunzei"
+ sothan:0 "Sothan"
  chimer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  chimer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Ayleid
@@ -162,6 +159,7 @@
  dagonite:0 "Dagonite"
  atmoran:0 "Atmoran"
  ndragoncult:0 "Dovakite"
+ neastern:0 "East Nordic"
  nordic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  nordic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Breton

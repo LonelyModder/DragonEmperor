@@ -17,6 +17,7 @@ militarism_events.1 = {
 				OR = {
 					country_culture_group = goblin
 					country_culture_group = reachmenic
+					primary_culture = ashlander
 				}				
 			}
 			add_country_modifier = {
@@ -45,7 +46,8 @@ militarism_events.1 = {
 					country_culture_group = altmer
 					country_culture_group = ayleid					
 					country_culture_group = chimer
-				}				
+				}	
+				NOT = {primary_culture = ashlander}
 			}
 			add_country_modifier = {
 				name = pacifist_culture

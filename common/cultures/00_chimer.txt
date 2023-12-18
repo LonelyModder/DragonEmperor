@@ -38,17 +38,15 @@
 		dagothi = {}
 		ashlander = {levy_template = levy_ashlander}
 		moran = {}
-		foyenite = {}
 		rendysite = {}
-		drelothi = {}
-		baran = {}
+		sothan = {}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = noldor_gfx
+	graphical_culture = dwemer_gfx
 	ethnicities = {
 		10 = noldor
 	}
