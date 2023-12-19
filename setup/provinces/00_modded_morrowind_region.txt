@@ -1638,7 +1638,7 @@
 
 4961={ 
 	terrain="ashlands"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="velothi_pantheon"
 	culture="ashlander"
 	civilization_value=0
@@ -1948,7 +1948,7 @@
 
 4977={ 
 	terrain="ashlands"
-	trade_goods="spices"
+	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
 	culture="moran"
 	civilization_value=0
@@ -2502,7 +2502,7 @@
 
 5006={ 
 	terrain="ashlands"
-	trade_goods="spices"
+	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
 	culture="moran"
 	civilization_value=0
@@ -2559,7 +2559,7 @@
 
 5009={ 
 	terrain="ashlands"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="velothi_pantheon"
 	culture="moran"
 	civilization_value=0
@@ -3224,7 +3224,7 @@
 
 5045={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="adamantium"
 	religion="velothi_pantheon"
 	culture="indorili"
 	civilization_value=0
@@ -3436,7 +3436,7 @@
 
 5056={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="wine"
 	religion="velothi_pantheon"
 	culture="hlaalite"
 	civilization_value=0
@@ -3709,7 +3709,7 @@
 
 5070={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="adamantium"
 	religion="velothi_pantheon"
 	culture="ashlander"
 	civilization_value=0
@@ -4991,7 +4991,7 @@
 
 5147={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="velothi_pantheon"
 	culture="dresite"
 	civilization_value=0
@@ -6317,7 +6317,7 @@
 
 5216={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="velothi_pantheon"
 	culture="rendysite"
 	civilization_value=0
@@ -6412,7 +6412,7 @@
 
 5221={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="velothi_pantheon"
 	culture="rendysite"
 	civilization_value=0
@@ -7023,20 +7023,23 @@
 
 5253={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="rendysite"
+	trade_goods="dwemersteel"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -7137,7 +7140,7 @@
 
 5259={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="netchleather"
 	religion="velothi_pantheon"
 	culture="rendysite"
 	civilization_value=0
@@ -10244,7 +10247,7 @@
 
 5462={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="wine"
 	religion="velothi_pantheon"
 	culture="sothan"
 	civilization_value=0
@@ -10263,7 +10266,7 @@
 
 5463={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="alcohols"
 	religion="velothi_pantheon"
 	culture="sothan"
 	civilization_value=0
@@ -10320,7 +10323,7 @@
 
 5466={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="circle_of_mages"
 	religion="velothi_pantheon"
 	culture="sothan"
 	civilization_value=0
@@ -10342,7 +10345,7 @@
 
 5467={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="alcohols"
 	religion="velothi_pantheon"
 	culture="sothan"
 	civilization_value=0
@@ -11124,7 +11127,7 @@
 
 5508={ 
 	terrain="ashlands"
-	trade_goods="spices"
+	trade_goods="dwemersteel"
 	religion="nirnic_pantheon"
 	culture="dvardenan"
 	civilization_value=0
@@ -11469,7 +11472,7 @@
 
 5526={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dwemersteel"
 	religion="nirnic_pantheon"
 	culture="dvardenan"
 	civilization_value=0
@@ -11855,20 +11858,23 @@
 
 5546={ 
 	terrain="ashlands"
-	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="ashlander"
+	trade_goods="dwemerplans"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -12572,20 +12578,23 @@
 
 5584={ 
 	terrain="ashlands"
-	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="ashlander"
+	trade_goods="dwemersteel"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -12781,7 +12790,7 @@
 
 5595={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dwemersteel"
 	religion="velothi_pantheon"
 	culture="dagothi"
 	civilization_value=0
@@ -12838,20 +12847,23 @@
 
 5598={ 
 	terrain="mountain"
-	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="ashlander"
+	trade_goods="dwemerplans"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -13183,7 +13195,7 @@
 
 5616={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
 	culture="dagothi"
 	civilization_value=0
@@ -14700,19 +14712,22 @@
 5695={ 
 	terrain="ashlands"
 	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="dagothi"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -14737,20 +14752,23 @@
 
 5697={ 
 	terrain="ashlands"
-	trade_goods="spices"
-	religion="velothi_pantheon"
-	culture="ashlander"
+	trade_goods="dwemersteel"
+	religion="nirnic_pantheon"
+	culture="dvardenan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=10
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
