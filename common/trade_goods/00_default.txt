@@ -155,6 +155,21 @@ moonstone = { #Added
 	color = hsv { 0.18 0.44 0.66 }
 }
 
+adamantium = { #Added
+	category = 4
+
+	gold = 0.4
+	
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		lv_heavyinfantry_defensive = 0.05
+	} 
+	
+	color = rgb { 83 81 133 }
+}
+
 netchleather = { #Added
 	category = 4
 

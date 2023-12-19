@@ -1,0 +1,18 @@
+pdxmesh = {
+	name = "Shroom_3_mesh"
+	file = "Shroom_3.mesh"
+
+	meshsettings = {
+		name = "shroom_3_LOD0"
+		texture_diffuse = "shroom_3_LOD0_color.dds"
+		texture_normal = "shroom_3_LOD0_PDXNormal.dds"
+		texture_specular = "shroom_3_LOD0_Specular.dds"
+		shader = "tree_alpha_to_coverage"
+		shader_file = "gfx/FX/tree.shader"
+	}
+}
+
+entity = {
+	name = "Shroom_3_entity"
+	pdxmesh = "Shroom_3_mesh"
+}
