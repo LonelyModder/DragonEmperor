@@ -185,6 +185,21 @@ netchleather = { #Added
 	color = rgb { 130 45 12 }
 }
 
+bonecrafters = { #Added
+	category = 4
+
+	gold = 0.4
+	
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		lv_lightinfantry_defensive = 0.05
+	} 
+	
+	color = rgb { 179 136 20 }
+}
+
 malachite = { #Added
 	category = 4
 
