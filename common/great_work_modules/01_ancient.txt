@@ -222,6 +222,12 @@ wonder_templeoftheone={
 	great_work_category_slot=0
 }
 
+wonder_telvanniheadquaters={
+	entity_name={"Shroom_3_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_skar={
 	entity_name={"building_special_skar_entity"}
 	great_work_category="gw_category_ancient"

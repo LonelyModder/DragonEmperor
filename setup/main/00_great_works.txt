@@ -59,6 +59,9 @@ provinces = {
 	5561={ # Skar
 		great_work=20
 	}
+	5425={ # Telvanni Headquaters
+		great_work=21
+	}
 }
 
 great_work_manager={	
@@ -515,6 +518,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_skar"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		21={
+			ancient_wonder = yes
+			key="telvanniheadquaters"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_telvanniheadquaters"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_telvanniheadquaters"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_telvanniheadquaters"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}
