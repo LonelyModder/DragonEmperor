@@ -470,6 +470,12 @@ family={
 			culture = nighthollow
 			prestige=300
 		}
+		33={
+			key="Fyr"
+			owner=MAA
+			culture = telvannic
+			prestige=300
+		}
 		
 		}
 }
@@ -600,6 +606,12 @@ provinces = { #Any entry must contain a comment with city name.
 	
 	#Buildings
 	464 = {
+		fortress_building = 1
+	}
+	5469 = {
+		fortress_building = 1
+	}
+	5614 = {
 		fortress_building = 1
 	}
 	4899 = {
@@ -7570,7 +7582,8 @@ country = {
 			}
 		}
 		
-		MAA = {          
+		MAA = {     
+			family=33
 			government = oligarchic_republic
 			primary_culture = telvannic
 			religion = velothi_pantheon
