@@ -32,6 +32,7 @@ militarism_events.1 = {
 					country_culture_group = bosmer
 					country_culture_group = nordic
 					country_culture_group = nede
+					primary_culture = redorani
 				}				
 			}
 			add_country_modifier = {
@@ -48,6 +49,7 @@ militarism_events.1 = {
 					country_culture_group = chimer
 				}	
 				NOT = {primary_culture = ashlander}
+				NOT = {primary_culture = redorani}
 			}
 			add_country_modifier = {
 				name = pacifist_culture
