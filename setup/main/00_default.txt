@@ -2418,6 +2418,12 @@ provinces = { #Any entry must contain a comment with city name.
 	2878 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
+	4828 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	4772 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	4621 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -7724,7 +7730,7 @@ country = {
 			own_control_core = 	{ 
 				5571 5575 5576 5572 5573 5574 5577 5579 5578 5550 5615 5614 5695 5584
 				5585 5598 5599 5499 5664 5665 5698 5697 5671 5663 5550 5507 5476 5475
-				5662 5655 5643 5635 5634 5554 5551 5552 5546 5549 5547 5469 5253
+				5662 5655 5643 5635 5634 5554 5551 5552 5546 5549 5547 5469 5253 5672
 				5553 5557 5558 5508 5504 5712 5535 5534 5536 5532 5533 5531 5545
 				5537 5538 5540 5539 5510 5508 5505 5506 5509 5548 5496 5497 5498
 				5517 5516 5518 5519 5521 5522 5525 5526 5527 5524 5523 5500 5511 5512 5513 5514 5515
@@ -7966,6 +7972,17 @@ country = {
 			
 			own_control_core = 	{ 
 				5529 5528 5530 5520 5543 5542 5541 5544 5555 5556 
+			}
+		}
+		
+		MBC = {
+			government = despotic_monarchy
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 5745
+			
+			own_control_core = 	{ 
+				5737 5738 5739 5740 5741 5742 5743 5744 5745 5746
 			}
 		}
 	}

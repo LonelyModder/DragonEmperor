@@ -1,6 +1,6 @@
 ﻿5737={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="hills"
+	trade_goods="elthericammonites"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -18,8 +18,8 @@
 }
 
 5738={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="hills"
+	trade_goods="precious_metals"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -37,8 +37,8 @@
 }
 
 5739={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="jungle"
+	trade_goods="larimar"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -56,8 +56,8 @@
 }
 
 5740={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="jungle"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -76,7 +76,7 @@
 
 5741={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -95,7 +95,7 @@
 
 5742={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -114,7 +114,7 @@
 
 5743={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -132,8 +132,8 @@
 }
 
 5744={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="hills"
+	trade_goods="larimar"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -152,12 +152,15 @@
 
 5745={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -171,7 +174,7 @@
 
 5746={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0

@@ -672,7 +672,7 @@ earthware = { #168 territories
 		global_freemen_output = output_small_svalue
 	}
 	
-	color = { 0.62 0.3 0.08 }
+	color = hsv { 0.62 0.3 0.08 }
 }
 
 horker = { #168 territories
@@ -703,7 +703,7 @@ dye = { #48 territories
 		global_nobles_happyness = happiness_large_svalue
 	}
 	
-	color = { 0.4 0.1 0.4 }
+	color = hsv { 0.4 0.1 0.4 }
 }
 
 circle_of_mages = { #Added
@@ -719,6 +719,20 @@ circle_of_mages = { #Added
 	}
 	
 	color = { 0.57 0.95 0.78 }
+}
+
+elthericammonites = { #Added
+	category = 0
+	gold = 0.5
+
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_discipline = 0.05
+	}
+	
+	color = rgb { 3 9 171 }
 }
 
 cabal_of_witches = { #Added
@@ -954,7 +968,7 @@ coconut = { #86 territories
 		local_monthly_food_modifier = 0.03
 	}
 	country = {
-		local_citizen_happyness = happiness_large_svalue
+		global_citizen_happyness = happiness_large_svalue
 	}
 	
 	color = rgb { 140 70 15 }
@@ -1018,6 +1032,21 @@ gems = { #44 Territories
 	}
 	
 	color = hsv { 0.55 0.9 0.9 }
+}
+
+larimar = { #44 Territories
+	category = 3
+	
+	gold = 0.5
+	
+	province = {
+		local_nobles_happyness = happiness_small_svalue
+	}
+	country = {
+		global_nobles_happyness = happiness_small_svalue
+	}
+	
+	color = rgb { 42 165 222 }
 }
 
 camel = { #63 territories

@@ -151,6 +151,26 @@ texticon = {
 }
 
 texticon = {
+    icon = larimar
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/larimar.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = elthericammonites
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/elthericammonites.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = sweats
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/sweats.dds"
