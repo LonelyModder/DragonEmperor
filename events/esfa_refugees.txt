@@ -11,7 +11,7 @@ refugees.1 = { # Arrival of Corelanya Clan
 	
 	trigger = {
 		tag = VAS
-		NOT = { exists = AAW }
+		NOT = { exists = AAM }
 		p:2329.owner = {
 			tag = VAS
 		}
