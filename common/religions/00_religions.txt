@@ -1,7 +1,7 @@
 ﻿elven_pantheon = { # Altmer Faith
 	color = hsv { 0.12 0.81 0.96 }
 	modifier = { 
-		global_monthly_civilization = 0.2
+		global_monthly_civilization = 0.04
 		research_points_modifier = 0.2
 		global_pop_conversion_speed_modifier = -0.5
 	}
@@ -199,6 +199,7 @@ allmaker_pantheon = { # Skaal Faith
 		global_pop_conversion_speed_modifier = -0.5
 	}
 	religion_category = prophets
+	can_deify_ruler = no
 }
 
 dragoncult_pantheon = { # Dragon Cult Faith
@@ -207,6 +208,17 @@ dragoncult_pantheon = { # Dragon Cult Faith
 		omen_power = 0.2
 		global_manpower_modifier = 0.1
 		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}
+
+velothi_pantheon = { # Chimer/Dunmer Faith
+	color = hsv { 0.84 0.80 0.48 }
+	modifier = { 
+		omen_power = 0.2
+		global_monthly_civilization = 0.04
+		stability_cost_modifier = 0.2
 	}
 	religion_category = prophets
 	can_deify_ruler = no

@@ -91,6 +91,86 @@ texticon = {
 }
 
 texticon = {
+    icon = kwamaegg
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/kwamaegg.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = saltrice
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/saltrice.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = netchleather
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/netchleather.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = alcohols
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/alcohols.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = adamantium
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/adamantium.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = bonecrafters
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/bonecrafters.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = larimar
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/larimar.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = elthericammonites
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/elthericammonites.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = sweats
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/sweats.dds"

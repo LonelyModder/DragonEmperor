@@ -7,6 +7,12 @@
 		has_trait = dwemer
 		has_trait = bosmer
 	}
+	NOT={ has_trait = halfauroran }
+	NOT={ has_trait = lower_vampire }
+	NOT={ has_trait = half_vampire }
+	NOT={ has_trait = full_vampire }
+	NOT={ has_trait = lesser_lich }
+	NOT={ has_trait = lich }
 }
 
 is_immortal_trigger = {

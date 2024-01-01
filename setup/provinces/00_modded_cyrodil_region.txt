@@ -9554,6 +9554,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -9640,9 +9643,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=2
 	}
@@ -9759,8 +9759,8 @@
 1295={ 
 	terrain="mountain"
 	trade_goods="limestone"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9778,8 +9778,8 @@
 1296={ 
 	terrain="hills"
 	trade_goods="durzogs"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9797,8 +9797,8 @@
 1297={ 
 	terrain="mountain"
 	trade_goods="durzogs"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9816,8 +9816,8 @@
 1298={ 
 	terrain="mountain"
 	trade_goods="iron"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -9840,8 +9840,8 @@
 1299={ 
 	terrain="mountain"
 	trade_goods="iron"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9898,8 +9898,8 @@
 1302={ 
 	terrain="mountain"
 	trade_goods="griphons"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9917,8 +9917,8 @@
 1303={ 
 	terrain="mountain"
 	trade_goods="griphons"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9936,8 +9936,8 @@
 1304={ 
 	terrain="mountain"
 	trade_goods="beasts"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13929,7 +13929,7 @@
 1509={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="elven_pantheon"
+	religion="nedic_pantheon"
 	culture="nedvalusan"
 	civilization_value=0
 	barbarian_power=0
@@ -13948,7 +13948,7 @@
 1510={ 
 	terrain="mountain"
 	trade_goods="beasts"
-	religion="elven_pantheon"
+	religion="nedic_pantheon"
 	culture="nedvalusan"
 	civilization_value=0
 	barbarian_power=0
@@ -14540,7 +14540,7 @@
 1541={ 
 	terrain="hills"
 	trade_goods="beasts"
-	religion="elven_pantheon"
+	religion="nedic_pantheon"
 	culture="nedvalusan"
 	civilization_value=0
 	barbarian_power=0
@@ -14581,7 +14581,7 @@
 1543={ 
 	terrain="hills"
 	trade_goods="leather"
-	religion="elven_pantheon"
+	religion="nedic_pantheon"
 	culture="nednibenu"
 	civilization_value=0
 	barbarian_power=0
@@ -17462,8 +17462,8 @@
 2732={ 
 	terrain="mountain"
 	trade_goods="iron"
-	religion="codeofmalacath_pantheon"
-	culture="obloodfall"
+	religion="reachmen_pantheon"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

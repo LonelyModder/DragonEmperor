@@ -1,0 +1,18 @@
+pdxmesh = {
+	name = "tree_mushroom_01_mesh"
+	file = "tree_mushroom_01.mesh"
+
+	meshsettings = {
+		name = "19382_Short_strange_mushroom_v1"
+		texture_diffuse = "tree_mushroom_diffuse.dds"
+		texture_normal = "tree_mushroom_normal.dds"
+		texture_specular = "tree_mushroom_properties.dds"
+		shader = "standard_snow"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "tree_mushroom_01_entity"
+	pdxmesh = "tree_mushroom_01_mesh"
+}

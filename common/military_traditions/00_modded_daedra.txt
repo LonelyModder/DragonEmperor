@@ -28,7 +28,10 @@
 							}
 						}
 					}
-					religion = deadric_pantheon
+					OR = {
+						religion = deadric_pantheon
+						religion = velothi_pantheon
+					}
 				}
 			}
 			custom_tooltip = {
@@ -57,7 +60,10 @@
 						}
 					}
 				}
-				religion = deadric_pantheon
+				OR = {
+					religion = deadric_pantheon
+					religion = velothi_pantheon
+				}
 				}
 		}
 		trigger_else = {

@@ -12,7 +12,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XSK
+				tag = SAG
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -40,7 +40,7 @@
 				text = hkskyrim_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XSK
+						tag = SAG
 					}
 				}
 			}
@@ -63,7 +63,7 @@
 								  country_culture_group = falmer
 								  country_culture_group = dwemer	
 							}							  
-						}}
+						}
 				change_country_name = "HKSkyrimf_name"
 			}
 			if = {
@@ -105,7 +105,7 @@
 					change_country_adjective = "HKSkyrim_adj"
 				}
 				change_country_color =  "HKSkyrim_color"
-				change_country_tag = XSK
+				change_country_tag = SAG
 			}
 			if = {
 				limit = {

@@ -277,6 +277,18 @@ colored_emblem_texture_lists = {
 		
 		special_selection = {
 			trigger = {
+				country_culture_group = "chimer"
+			}
+			10 = "ce_telvanni.dds"
+			10 = "ce_hlaalu.dds"
+			10 = "ce_dres.dds"
+			10 = "ce_dagoth.dds"
+			10 = "ce_redoran.dds"
+			10 = "ce_indoril.dds"
+		}
+		
+		special_selection = {
+			trigger = {
 				OR = {
 					country_culture_group = "falmer"
 					country_culture_group = "altmer"

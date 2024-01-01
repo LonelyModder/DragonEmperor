@@ -242,7 +242,7 @@
 
 2945={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="adamantium"
 	religion="wyrdite_pantheon"
 	culture="wyrdite"
 	civilization_value=0
@@ -1675,7 +1675,7 @@
 
 3016={ 
 	terrain="marsh"
-	trade_goods="wild_game"
+	trade_goods="adamantium"
 	religion="elven_pantheon"
 	culture="glenumbran"
 	civilization_value=0
@@ -2899,7 +2899,7 @@
 
 3077={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="adamantium"
 	religion="elven_pantheon"
 	culture="balfieric"
 	civilization_value=0
@@ -3793,6 +3793,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4125,6 +4128,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}

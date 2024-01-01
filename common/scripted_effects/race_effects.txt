@@ -36,6 +36,12 @@
 		}
 		else_if = {
 			limit = {
+				has_culture_group = chimer
+			}
+			add_trait = altmer
+		}
+		else_if = {
+			limit = {
 				has_culture_group = bosmer
 			}
 			add_trait = bosmer

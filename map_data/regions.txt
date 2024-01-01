@@ -11,6 +11,132 @@ modded_tmp_region = {
 	}
 }
 
+modded_thras_region = {
+	areas = {
+		systress_area
+	}
+}
+
+modded_sheogorad_region = {
+	areas = {
+		zafirbelbay_area
+		indoranyon_area
+		vos_area
+		dagonfel_area
+		centralsh_area
+		westernsh_area
+	}
+}
+
+modded_ashlands_region = {
+	areas = {
+		redmountain_area
+		shishara_area
+		aldruhn_area
+		mzanchend_area
+		bthuand_area
+		falasmaryon_area
+		maargan_area
+	}
+}
+
+modded_molagamur_region = {
+	areas = {
+		telasero_area
+		molagmar_area
+		odirniran_area
+		nebia_area
+		erabenimsun_area
+	}
+}
+
+modded_bittercoast_region = {
+	areas = {
+		seydaneen_area
+		vivec_area
+		amaya_area
+		balmora_area
+		gnaarmok_area
+		gnisis_area
+	}
+}
+
+modded_telvannipeninsula_region = {
+	areas = {
+		draloris_area
+		greenheights_area
+		helnimwall_area
+		secrarsil_area
+		llothanisheights_area
+		firewatch_area
+		velothishaven_area
+		porttelvannis_area
+		galde_area
+		zildina_area #isle
+	}
+}
+
+modded_upperdeshaan_region = {
+	areas = {
+		necrom_area
+		selenvulgate_area
+		sailenmora_area
+		taldreloth_area
+		cammonaruhn_area
+		telrendys_area
+		kamelze_area
+		telbaro_area
+	}
+}
+
+modded_northargonia_region = {
+	areas = {
+		saltflats_area
+		tear_area
+		rathendisfalls_area
+		silnimvale_area
+		southernmarshes_area
+		oldkeep_area
+		andaram_area
+		thir_area
+	}
+}
+
+modded_deshaan_region = {
+	areas = {
+		taldeicfortress_area
+		mournhold_area
+		shadastula_area
+		narsis_area
+		zeren_area
+		balfoyen_area
+		alvelis_area
+	}
+}
+
+modded_stonefalls_region = {
+	areas = {
+		karthtor_area
+		heimlyn_area
+		kragenmoor_area
+		ebonheart_area
+		arand_area
+		devonswatch_area
+		muthgnaar_area
+	}
+}
+
+modded_velothi_region = {
+	areas = {
+		blacklight_area
+		cormaris_area
+		greatvalley_area
+		selethis_area
+		silgrad_area
+		verarchen_area
+	}
+}
+
 modded_solitude_region = {
 	areas = {
 		morthal_area

@@ -62,6 +62,25 @@ levy_awrothgari = { #wrothgar militia
 	lv_mages = 0.1
 }
 
+#Chimer
+
+levy_chimeri = { #chimer militia
+	default = no
+
+	lv_guarcavalry = 0.2
+	lv_lightinfantry = 0.4
+	lv_archers = 0.2
+	lv_mages = 0.2
+}
+
+levy_ashlander = { #ashlander militia
+	default = no
+
+	lv_guarcavalry = 0.3
+	lv_warriors = 0.5
+	lv_archers = 0.2
+}
+
 #Goblin
 
 levy_goblinwarriors = { #goblin militia

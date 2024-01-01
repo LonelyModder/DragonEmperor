@@ -63,7 +63,7 @@ oligarchic_republic = { #civic party
 	can_deify_ruler = no
 	
 	election_delay = 10
-	ruler_term = 5
+	ruler_term = 400
 	
 	color = hsv { 0.6  0.75  0.6 }
 }

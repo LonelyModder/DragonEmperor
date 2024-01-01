@@ -106,7 +106,7 @@ bloodlines_startup.5 = { #Ulorome Lineage
 	hidden = yes
 	
 	trigger = {
-		tag = AAJ
+		tag = AAA
 	}
 	
 	immediate = {
@@ -281,7 +281,7 @@ bloodlines_startup.12 = { #Direnni clan - the ones that remained
 	hidden = yes
 	
 	trigger = {
-		tag = AAL
+		tag = AAA
 	}
 	
 	immediate = {
@@ -447,6 +447,29 @@ bloodlines_startup.18 = { #Begalin Clan
 				has_same_family = char:49
 			}
 			add_trait = begalin
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.19 = { #Begalin Clan
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = AAM
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:57
+			}
+			add_trait = corelanya
 		}
 		hidden_effect = {
 			trigger_event = { id = bloodlines_setup_completion.1 }
