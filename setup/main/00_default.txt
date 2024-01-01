@@ -476,6 +476,12 @@ family={
 			culture = telvannic
 			prestige=300
 		}
+		34={
+			key="Corelanya"
+			owner=AAM
+			culture = sommersetic
+			prestige=300
+		}
 		
 		}
 }
@@ -3062,6 +3068,7 @@ country = {
 		}
 		
 		AAM = {
+			family = 34
 			government = despotic_monarchy
 			primary_culture = sommersetic
 			religion = elven_pantheon
@@ -3668,8 +3675,8 @@ country = {
 		
 		CBM = {          
 			government = tribal_kingdom
-			primary_culture = obloodfall
-			religion = codeofmalacath_pantheon
+			primary_culture = nednibenese
+			religion = reachmen_pantheon
 			capital = 1298
 			
 			own_control_core = 	{ 
@@ -4561,7 +4568,7 @@ country = {
 		}
 		
 		VAY = {          
-			government = tribal_kingdom
+			government = despotic_monarchy
 			primary_culture = sunkeptu
 			religion = nedic_pantheon
 			capital = 2554
@@ -5210,7 +5217,7 @@ country = {
 			capital = 3149
 			
 			own_control_core = 	{ 
-				3149 3126 3152 3151 3153 3155 3154 3125 3121 3124 3123 3130 3122 3145 3138
+				3149 3126 3152 3151 3153 3155 3154 3130
 			}
 		}
 		
@@ -6565,7 +6572,7 @@ country = {
 			capital = 4375
 			
 			own_control_core = 	{ 
-				4375 4380 4379 4378 4377 4374 4372 4371 4202 4392 4391 4373 4381 4376
+				4375 4380 4379 4392 4391 4373 4381
 			}
 		}
 		
@@ -6596,7 +6603,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				4406 4407 4408 4403 4398 4397 4399 4401 4404 4405 4400 4402 4384   
+				4406 4407 4408 4403 4404 4405 4400 4402 4384   
 			}
 		}
 		
@@ -6615,7 +6622,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				4389 4390 4388 4387 4386 4385 4409 4410 4411 4412 4414 4415 4418 4419 4413 4416 4417 
+				4389 4390 4388 4387 4386 4385 4409 4410 4411 4412 4413 4416 4417 
 			}
 		}
 		
@@ -7762,13 +7769,79 @@ country = {
 		}
 		
 		MBC = {
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 5745
 			
 			own_control_core = 	{ 
 				5737 5738 5739 5740 5741 5742 5743 5744 5745 5746
+			}
+		}
+		
+		MBD = {
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3138
+			
+			own_control_core = 	{ 
+				3138 3145
+			}
+		}
+		
+		MBE = {
+			government = tribal_kingdom
+			primary_culture = worgothianorc
+			religion = codeofmalacath_pantheon
+			capital = 3121
+			
+			own_control_core = 	{ 
+				3121 3125 3124 3123 3122
+			}
+		}
+		
+		MBF = {
+			government = tribal_kingdom
+			primary_culture = nedkreathan
+			religion = reachmen_pantheon
+			capital = 4398
+			
+			own_control_core = 	{ 
+				4398 4397 4399 4401
+			}
+		}
+		
+		MBG = {
+			government = tribal_kingdom
+			primary_culture = nedkreathan
+			religion = reachmen_pantheon
+			capital = 4418
+			
+			own_control_core = 	{ 
+				4418 4414 4415 4419
+			}
+		}
+		
+		MBH = {
+			government = tribal_kingdom
+			primary_culture = nedkreathan
+			religion = reachmen_pantheon
+			capital = 4374
+			
+			own_control_core = 	{ 
+				4374 4372 4371 4202
+			}
+		}
+		
+		MBI = {
+			government = tribal_kingdom
+			primary_culture = nedkreathan
+			religion = reachmen_pantheon
+			capital = 4377
+			
+			own_control_core = 	{ 
+				4377 4378 4376
 			}
 		}
 	}
