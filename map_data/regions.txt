@@ -11,6 +11,18 @@ modded_tmp_region = {
 	}
 }
 
+modded_gloomire_region = {
+	areas = {
+		soulrest_area
+		chasepoint_area
+		notanara_area
+		tharen_area
+		rockgrove_area
+		glenbridge_area
+		gideon_area
+	}
+}
+
 modded_thras_region = {
 	areas = {
 		systress_area
