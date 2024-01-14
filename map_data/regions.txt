@@ -11,9 +11,42 @@ modded_tmp_region = {
 	}
 }
 
-modded_shadowfen_region = {
+modded_murkwood_region = {
 	areas = {
 		
+	}
+}
+
+modded_thornmarsh_region = {
+	areas = {
+		chasecreek_area
+		riverwalk_area
+		thorn_area
+		branchmont_area
+		riverbridge_area
+	}
+}
+
+modded_murkmire_region = {
+	areas = {
+		blackrose_area
+		rootwhisper_area
+		brightthroat_area
+		lilmoth_area
+		norgtzel_area
+	}
+}
+
+modded_shadowfen_region = {
+	areas = {
+		valusridge_area
+		onkobra_area
+		rockguard_area
+		gemin_area
+		loriasel_area
+		stormhold_area
+		zuuk_area
+		altencorimont_area
 	}
 }
 
