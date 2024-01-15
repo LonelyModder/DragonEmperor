@@ -512,7 +512,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 6 } }
 	}
 	1071 = { # Imperial City
-		treasure_slots = { 	treasures = { 8 9 } }
+		treasure_slots = { 	treasures = { 8 9 7 } }
 	}
 	1557 = { # Nenalata
 		treasure_slots = { 	treasures = { 10 27 } }
@@ -574,9 +574,9 @@ provinces = { #Any entry must contain a comment with city name.
 	4464 = { # Nighthollow Keep
 		treasure_slots = { 	treasures = { 34 } }
 	}
-	4579 = { # Temple District
-		treasure_slots = { 	treasures = { 7 35 } }
-	}
+	#4579 = { # Temple District
+	#	treasure_slots = { 	treasures = { 7 35 } }
+	#}
 	5268 = { # Necrom
 		treasure_slots = { 	treasures = { 36 } }
 	}
@@ -3154,12 +3154,10 @@ country = {
 		
 		CAA = {
 			family = 2
-			government = despotic_monarchy
+			government = theocratic_monarchy
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon
-			capital = 814
-			
-			
+			capital = 1071
 			
 			pantheon = {
 			
@@ -3176,6 +3174,9 @@ country = {
 			
 			own_control_core = 	{ 
 				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 790
+				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
+				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
+				4577 4578 4579 4580 4581 4582
 			}
 		}
 		
@@ -4643,28 +4644,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1105 1117 1118 1121 1123 1110 1112 1115 1114
-			}
-		}
-		
-		VBC = {          
-			government = theocratic_republic
-			primary_culture = heartlanderelves
-			religion = deadric_pantheon
-			capital = 1071
-			
-			
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
-				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
-				4577 4578 4579 4580 4581 4582
 			}
 		}
 		

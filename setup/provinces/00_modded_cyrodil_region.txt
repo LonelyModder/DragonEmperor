@@ -15049,8 +15049,8 @@
 }
 
 1573={ 
-	terrain="forest"
-	trade_goods="wood"
+	terrain="hills"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="nednibenu"
 	civilization_value=0
@@ -17548,7 +17548,6 @@
 	slaves={
 		amount=4
 	}
-	holy_site="omen_iakatosh"
 }
 
 4580={ 
@@ -17601,14 +17600,19 @@
 	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city_metropolis"
+	nobles={
+		amount=6
+		religion="deadric_pantheon"
+	}
 	citizen={
-		amount=2
+		amount=16
+		religion="deadric_pantheon"
 	}
 	freemen={
-		amount=4
+		amount=12
 	}
 	slaves={
-		amount=2
+		amount=4
 	}
 }
