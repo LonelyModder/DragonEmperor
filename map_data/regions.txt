@@ -13,7 +13,11 @@ modded_tmp_region = {
 
 modded_murkwood_region = {
 	areas = {
-		
+		onkobra_area
+		greenspring_area
+		helstrom_area
+		seaspring_area
+		greenglade_area
 	}
 }
 
@@ -24,6 +28,8 @@ modded_thornmarsh_region = {
 		thorn_area
 		branchmont_area
 		riverbridge_area
+		crimsoncoast_area
+		seafalls_area
 	}
 }
 
@@ -34,13 +40,14 @@ modded_murkmire_region = {
 		brightthroat_area
 		lilmoth_area
 		norgtzel_area
+		archon_area
+		portdunmont_area
 	}
 }
 
 modded_shadowfen_region = {
 	areas = {
 		valusridge_area
-		onkobra_area
 		rockguard_area
 		gemin_area
 		loriasel_area
@@ -634,6 +641,7 @@ modded_heartlands_region = {
 		caractacus_area
 		imperialcity_area #capital
 	}
+	color = rgb { 181 19 11 }
 }
 
 modded_westweald_region = {
