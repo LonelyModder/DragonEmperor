@@ -179,6 +179,7 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 		OR = {
 			country_culture_group = nede
 			country_culture_group = keptu
+			country_culture_group = kothri
 			country_culture_group = rechmenic
 		}
 		NOT = { has_global_variable = alesh }
@@ -346,6 +347,7 @@ alessian_revolt.1 = { # The Choice
 			OR = {
 				country_culture_group = nede
 				country_culture_group = keptu
+				country_culture_group = kothri
 				country_culture_group = rechmenic
 			}
 			has_country_modifier = cymmerian_invasion_modifier
@@ -422,6 +424,7 @@ alessian_revolt.2 = { # The Choice
 			OR = {
 				country_culture_group = nede
 				country_culture_group = keptu
+				country_culture_group = kothri
 				country_culture_group = reachmenic
 			}
 			has_country_modifier = cymmerian_invasion_modifier
@@ -470,6 +473,7 @@ alessian_revolt.3 = { # Alessian cores
 			OR = {
 				country_culture_group = nede
 				country_culture_group = keptu
+				country_culture_group = kothri
 				country_culture_group = rechmenic
 			}
 			has_country_modifier = cymmerian_invasion_modifier
@@ -530,6 +534,7 @@ alessian_revolt.5 = { # Capital in Sancre Tor
 			OR = {
 				country_culture_group = nede
 				country_culture_group = keptu
+				country_culture_group = kothri
 				country_culture_group = reachmenic
 			}
 			has_country_modifier = cymmerian_invasion_modifier

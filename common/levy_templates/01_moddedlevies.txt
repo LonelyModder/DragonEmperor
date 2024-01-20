@@ -132,6 +132,14 @@ levy_reachmen = { #reachmen militia
 	lv_cavalry = 0.1
 }
 
+levy_kothri = { #reachmen militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.2
+	lv_raiders = 0.3
+}
+
 #Minotauric
 
 levy_minotaurish = { #minotaur militia

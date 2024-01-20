@@ -2498,6 +2498,7 @@ add_relevant_loyal_subunit_effect = {
 				OR = {
 					has_culture_group = altmer
 					has_culture_group = ayleid
+					has_culture_group = chimer
 				}
 			}
 		}
@@ -2572,6 +2573,7 @@ add_relevant_loyal_subunit_effect = {
 				OR = {
 					has_culture_group = nede
 					has_culture_group = keptu
+					has_culture_group = kothri
 					has_culture_group = reachmenic
 				}
 			}

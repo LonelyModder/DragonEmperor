@@ -10,6 +10,10 @@ is_ashlands = {
 	local_tribesmen_desired_pop_ratio = 0.05
 }
 
+is_innerargonia = {
+	local_tribesmen_desired_pop_ratio = 0.05
+}
+
 #invasions
 cymmerian_invasion_modifier = {
     global_tax_income = 16

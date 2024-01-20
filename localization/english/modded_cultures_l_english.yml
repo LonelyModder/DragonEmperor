@@ -66,7 +66,6 @@
  nedcolovian:0 "Colovian"
  nednibenese:0 "Nibenean"
  nednibenu:0 "Nibenu"
- nedhorwalli:0 "Horwalli"
  nedvalusan:0 "Valusi"
  nmarcher:0 "Marcher"
  nedkreathan:0 "Kreathan"
@@ -190,6 +189,10 @@
  dvardenan:0 "Vardenite"
  dwemer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  dwemer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ kothri:2 "Kothri"
+ nedhorwalli:0 "Horwalli"
+ kothri_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ kothri_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
  venedi:2 "Aedric"
  wvenedi:0 "Heresy"

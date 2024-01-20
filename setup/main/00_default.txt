@@ -1235,6 +1235,39 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	6128 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6108 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5885 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6004 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5905 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5906 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5942 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5945 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5955 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5953 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	4990 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -7821,6 +7854,96 @@ country = {
 			
 			own_control_core = 	{ 
 				4377 4378 4376
+			}
+		}
+		
+		AAR = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6114
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6114
+			}
+		}
+		
+		AAS = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5902
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5902
+			}
+		}
+		
+		AAT = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6135
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6135
+			}
+		}
+		
+		AAU = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6141
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6141
+			}
+		}
+		
+		AAW = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5968
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5968
 			}
 		}
 	}
