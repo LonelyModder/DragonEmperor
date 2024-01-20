@@ -729,10 +729,24 @@ elthericammonites = { #Added
 		local_nobles_happyness = happiness_small_svalue
 	}
 	country = {
-		lv_mages_discipline = 0.05
+		lv_mages_offensive = 0.05
 	}
 	
 	color = rgb { 3 9 171 }
+}
+
+histsap = { #Added
+	category = 0
+	gold = 0.5
+
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_warriors_offensive = 0.05
+	}
+	
+	color = rgb { 117 214 51 }
 }
 
 cabal_of_witches = { #Added
