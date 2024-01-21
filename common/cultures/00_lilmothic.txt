@@ -1,0 +1,42 @@
+﻿lilmothic = {	
+	color = hsv { 0.92 0.80 0.86 }
+
+	primary = lv_archers
+	second = lv_warriors
+	flank = lv_guarcavalry
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_lilmothit
+
+	male_names = {
+		Kelvekuj Ralduk-Vyrsuj Risih-Gas Mazzueh-Irru Dhynrenu-Shik Igrarue-Inrun Saddasyrrah Zhagasih Xhavuen
+		Nideh-Zharre Shyfykiran-Giruh Dynrarren Zhasessen Xhiveran-Alliej Relnenah Nylras Vasexarrueh Inu Salli
+		Zhinre Sharshuk-Galdaj Nendu-Erdues Ravynykuh-Eni Gissek Gallagun Zanis-Mynnuj Sifa-Yfaga Ragrue Magun
+	}
+	female_names = {
+		Rhaife Faena-Minies Lieze Zire-Sallak Caath-Rallyrrak Vyla-Nisse Rhela-Xhiddisse Meize-Shazes Cisi-Dhellek
+		Heall-Mende Qaish Fier Haed-Ersij Lairi Caana Vaza-Kelnu Fienna Faashe Fazi-Dhyj Leeth Vhainne Vheelle Maerha
+		Kaefe Hesha Vhinne-Ardues Haarhe-Erdeh Raell-Galvak Kazi-Mirsiej Nenne-Xhydrien Zeeth Meisha-Gyrren Qiazi
+	}
+	family = {
+		Dharshuek Shelnuk Anneka Dellasse-Shaddan Meluj-Sheldih Magelu-Yza Vinirren Niduh Xhyrrak-Chas Shyzzij
+		Zhanaresik-Shenerri Eddus Charrun Zedden-Kah Dhizuk-Darru Sildikin-Shezze Naras-Xhissis Xhalrisu-Xhij
+		Kyzzadegun Rilneh Chalvakaxhi-Erdi Kadak-Nek Xhiveruj Sharsharexij Zhilassin Nassieh-Vej Ilruh-Xhik
+		Nyziles Alrieh-Zilranies Darrueh
+	}
+	culture = {
+		lilmothan = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = argonian_gfx
+	ethnicities = {
+		10 = orcish_ethnicity
+	}
+}

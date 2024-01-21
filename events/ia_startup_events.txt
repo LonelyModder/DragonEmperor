@@ -285,3 +285,18 @@ esfa_startup.16 = { #Chimer
         name = esfa_startup.16.a
     }
 }
+
+esfa_startup.17 = { #Lilmothit
+    type = country_event
+    title = esfa_startup.17.t
+    desc = esfa_startup.17.desc
+    picture = welcoming_window_17
+	
+    trigger = {
+		country_culture_group = lilmothic
+    }
+
+    option = {    
+        name = esfa_startup.17.a
+    }
+}

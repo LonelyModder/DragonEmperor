@@ -263,3 +263,13 @@ levy_verkarthic = { #vampiric militia
 	lv_bonelord = 0.2
 	lv_bonewalker = 0.2
 }
+
+#Foxman of Lilmoth
+
+levy_lilmothit = { #argonian militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.3
+	lv_guarcavalry = 0.2
+}

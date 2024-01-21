@@ -744,6 +744,9 @@ provinces = { #Any entry must contain a comment with city name.
 	4881 = {
 		port_building = 1
 	}
+	5980 = {
+		port_building = 1
+	}
 	5182 = {
 		port_building = 2
 	}
@@ -7944,6 +7947,17 @@ country = {
 			
 			own_control_core = 	{ 
 				5968
+			}
+		}
+		
+		AAY = {          
+			government = tribal_kingdom
+			primary_culture = lilmothan
+			religion = lilmothit_pantheon
+			capital = 5980
+			
+			own_control_core = 	{ 
+				5980
 			}
 		}
 	}

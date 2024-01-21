@@ -223,3 +223,14 @@ velothi_pantheon = { # Chimer/Dunmer Faith
 	religion_category = prophets
 	can_deify_ruler = no
 }
+
+lilmothit_pantheon = { # Fox-folk Faith
+	color = hsv { 0.92 0.80 0.86 }
+	modifier = { 
+		omen_power = 0.2
+		global_manpower_modifier = 0.1
+		diplomatic_reputation = -2
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}

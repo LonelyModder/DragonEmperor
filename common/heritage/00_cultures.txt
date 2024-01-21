@@ -221,6 +221,21 @@ argonian_heritage = {
 	}
 }
 
+lilmothic_heritage = { 
+	modifier = {
+		#good
+		monthly_legitimacy = 0.05
+		omen_power = 0.2
+		
+		#bad
+		global_slaves_output = -0.2
+	}
+	
+	trigger = {
+		country_culture_group = lilmothic
+	}
+}
+
 nordic_heritage = { 
 	modifier = {
 		#good
