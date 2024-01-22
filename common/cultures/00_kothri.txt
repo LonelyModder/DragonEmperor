@@ -1,5 +1,5 @@
 ﻿kothri = {	
-	color = hsv { 0.04 0.78 0.51 }
+	color = hsv { 0.0 1 0.5 }
 
 	primary = lv_archers
 	second = lv_warriors
@@ -29,6 +29,9 @@
 	
 	culture = {
 		nedhorwalli = {}
+		nedorma = {}
+		nedkothringi = {}
+		nedyaspest = {}
 	}
 	
 	barbarian_names = { 

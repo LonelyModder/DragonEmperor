@@ -69,6 +69,7 @@
 	argonian_path_1 = { ###argonian path
 		modifier = { 
 			marsh_combat_bonus = 0.1
+			innerargonia_combat_bonus = 0.2
 		}
 		icon = argon_mini_trad
 		requires = {}

@@ -210,7 +210,7 @@ argonian_heritage = {
 	modifier = {
 		#good
 		hostile_attrition = 0.2
-		army_weight_modifier = -0.1
+		innerargonia_combat_bonus = 0.2
 		
 		#bad
 		research_points_modifier = -0.1

@@ -741,6 +741,9 @@ provinces = { #Any entry must contain a comment with city name.
 	5679 = {
 		port_building = 1
 	}
+	5971 = {
+		port_building = 1
+	}
 	4881 = {
 		port_building = 1
 	}
@@ -4355,8 +4358,8 @@ country = {
 		
 		CBJ = {          
 			government = tribal_kingdom
-			primary_culture = nedhorwalli
-			religion = elven_pantheon
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
 			capital = 1683
 			
 			own_control_core = 	{ 
@@ -7957,7 +7960,54 @@ country = {
 			capital = 5980
 			
 			own_control_core = 	{ 
-				5980
+				5980 5981 5982 5983 5984 5985
+			}
+		}
+		
+		AAZ = {          
+			government = tribal_kingdom
+			primary_culture = lilmothan
+			religion = lilmothit_pantheon
+			capital = 5971
+			
+			own_control_core = 	{ 
+				5971 5973 5974 5975 5972
+			}
+		}
+		
+		ABA = {          
+			government = theocratic_republic
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6096
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6096
+			}
+		}
+		
+		ABB = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5954
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5954
 			}
 		}
 	}

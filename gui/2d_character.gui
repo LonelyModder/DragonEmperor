@@ -664,13 +664,13 @@ types MoreBGsTypes {
 				size = { 100% 100% }
 				datacontext = "[GetScriptedGui('is_an_lilmothit_male')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
-				#texture = "gfx/portraits/lilmothit_male.dds"
+				texture = "gfx/portraits/lilmothit_male.dds"
 			}
 			icon = {
 				size = { 100% 100% }
 				datacontext = "[GetScriptedGui('is_an_lilmothit_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
-				#texture = "gfx/portraits/lilmothit_female.dds"
+				texture = "gfx/portraits/lilmothit_female.dds"
 			}
 			#Falmer
 			icon = {
@@ -872,13 +872,13 @@ types MoreBGsTypes {
 				size = { 100% 100% }
 				datacontext = "[GetScriptedGui('is_an_lilmothit_male')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
-				#texture = "gfx/portraits/lilmothit_male.dds"
+				texture = "gfx/portraits/lilmothit_male.dds"
 			}
 			icon = {
 				size = { 100% 100% }
 				datacontext = "[GetScriptedGui('is_an_lilmothit_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
-				#texture = "gfx/portraits/lilmothit_female.dds"
+				texture = "gfx/portraits/lilmothit_female.dds"
 			}
 			#Falmer
 			icon = {

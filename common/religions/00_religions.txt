@@ -225,7 +225,7 @@ velothi_pantheon = { # Chimer/Dunmer Faith
 }
 
 lilmothit_pantheon = { # Fox-folk Faith
-	color = hsv { 0.92 0.80 0.86 }
+	color = hsv { 0.94 0.88 0.78 }
 	modifier = { 
 		omen_power = 0.2
 		global_manpower_modifier = 0.1

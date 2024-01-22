@@ -133,6 +133,7 @@
 	dwemer_path_3b = { ###altmer path
 		modifier = { 
 			fort_maintenance_cost = -0.15
+			ashlands_combat_bonus = 0.2
 			hills_combat_bonus = 0.2
 			mountain_combat_bonus = 0.2
 		}

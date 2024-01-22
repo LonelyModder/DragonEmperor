@@ -280,7 +280,7 @@ types MultiplayerLobby
 						pop_out = yes
 						tooltipwidget = Character_tooltip
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
-						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothit'))]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothic'))]"
 						portrait_texture = "gfx/portraits/lilmothit_male.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
 					}
@@ -291,7 +291,7 @@ types MultiplayerLobby
 						pop_out = yes
 						tooltipwidget = Character_tooltip
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
-						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothit'))]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothic'))]"
 						portrait_texture = "gfx/portraits/lilmothit_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
 					}
@@ -872,7 +872,7 @@ types MultiplayerLobby
 						pop_out = yes
 						tooltipwidget = Character_tooltip
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
-						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothit'))]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothic'))]"
 						portrait_texture = "gfx/portraits/lilmothit_male.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
 					}
@@ -883,7 +883,7 @@ types MultiplayerLobby
 						pop_out = yes
 						tooltipwidget = Character_tooltip
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
-						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothit'))]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'lilmothic'))]"
 						#portrait_texture = "gfx/portraits/lilmothit_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
 					}

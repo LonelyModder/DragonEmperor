@@ -1,0 +1,21 @@
+deity_manager = {
+	deities_database = { ### KEYS 10361-10380 ###
+		10361 = {
+			key = omen_moonmistress
+			deity = deity_moonmistress
+		}
+		10362 = {
+			key = omen_firstsmith
+			deity = deity_firstsmith
+		}
+		10363 = {
+			key = omen_shamans
+			deity = deity_shamans
+		}
+		10364 = {
+			key = omen_devinehunter
+			deity = deity_devinehunter
+		}
+	}
+}
+

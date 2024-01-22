@@ -1885,19 +1885,22 @@
 5954={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="besarabicelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -2173,27 +2176,30 @@
 5971={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 5972={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2211,8 +2217,8 @@
 5973={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2230,8 +2236,8 @@
 5974={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2249,8 +2255,8 @@
 5975={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2366,8 +2372,8 @@
 5981={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2385,8 +2391,8 @@
 5982={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2404,8 +2410,8 @@
 5983={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2423,8 +2429,8 @@
 5984={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2442,8 +2448,8 @@
 5985={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="lilmothit_pantheon"
+	culture="lilmothan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4380,19 +4386,22 @@
 6096={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="besarabicelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
