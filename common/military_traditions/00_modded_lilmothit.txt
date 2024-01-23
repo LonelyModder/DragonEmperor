@@ -1,48 +1,50 @@
-﻿argonian_philosophy = { 
+﻿lilmothit_philosophy = { 
 	color = hsv { 1.1 1 0.5 }
-	image = argonian_philosophy
+	image = lilmothit_philosophy
 	
 	allow = {
 		trigger_if = {
-			limit = { country_culture_group = argonian }
+			limit = { 
+					country_culture_group = lilmothic
+			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = argonian
+			country_culture_group = lilmothic
 		}
 		trigger_else_if = {
 			limit = {
 				AND = {
 					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
 						has_military_bonus = orcish_states_path_end_bonus
-						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = khajiit_states_path_end_bonus
-						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
 						has_military_bonus = dwemer_states_path_end_bonus
-						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:argonian
+						this.culture.culture_group = culture_group:lilmothit
 					}
 				}
 			}
 			any_country_culture = {
 				AND = {
 					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
 						has_military_bonus = orcish_states_path_end_bonus
-						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = khajiit_states_path_end_bonus
-						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
 						has_military_bonus = dwemer_states_path_end_bonus
-						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes
-						this.culture.culture_group = culture_group:argonian
+						this.culture.culture_group = culture_group:lilmothit
 					}
 				}
 			}
@@ -50,70 +52,68 @@
 		trigger_else = {
 			AND = {
 				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
 					has_military_bonus = orcish_states_path_end_bonus
-					has_military_bonus = nede_states_path_end_bonus
 					has_military_bonus = khajiit_states_path_end_bonus
-					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
 					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
 					has_military_bonus = dwemer_states_path_end_bonus
-					has_military_bonus = lilmothit_states_path_end_bonus
 				}
 				custom_tooltip = {
-					text = "tradition_unlock_requirement_argonian"
+					text = "tradition_unlock_requirement_lilmothiit"
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:argonian	
+						this.culture.culture_group = culture_group:lilmothic
 					}
 				}
 			}
 		}
 	}
 	
-	argonian_path_1 = { ###argonian path
+	lilmothit_path_1 = { ###altmer path
 		modifier = { 
-			marsh_combat_bonus = 0.1
-			innerargonia_combat_bonus = 0.2
+			lv_warriors_discipline = 0.1
 		}
-		icon = argon_mini_trad
+		icon = lilmothit_mini_trad
 		requires = {}
 	}
 	
-	argonian_path_2 = { ###argonian path
+	lilmothit_path_2 = { ###argonian path
 		modifier = { 
 			lv_archers_offensive = 0.1
 		}
 		enable_tactic = hit_and_run_tactics
-		icon = argon_mini_trad
-		requires = {argonian_path_1}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_1}
 	}
 	
-	argonian_path_3 = { ###argonian path
+	lilmothit_path_3a = { ###argonian path
 		modifier = { 
 			lv_guarcavalry_offensive = 0.1
 			lv_guarcavalry_discipline = 0.1
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_2}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_2}
 	}
 	
-	argonian_path_3a = { ###argonian path
+	lilmothit_path_4a = { ###argonian path
 		modifier = { 
-			lv_warriors_offensive = 0.1
-			lv_warriors_defensive = 0.1
+			lv_warriors_offensive = 0.2
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_3}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_3a}
 	}
 	
-	argonian_path_4a = { ###argonian path
+	lilmothit_path_5a = { ###argonian path
 		modifier = { 
-			land_morale_modifier = 0.1
+			lv_crossbowmen_offensive = 0.2
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_3a}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_4a}
 	}
 	
-	argonian_path_5a = { ###argonian path
+	lilmothit_path_3b = { ###argonian path
 		modifier = { 
 			fort_limit = 1
 		}
@@ -122,11 +122,11 @@
 				add_building_level = fortress_building
 			}
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_4a}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_2}
 	}
 	
-	argonian_path_3b = { ###argonian path
+	lilmothit_path_4b = { ###lilmothit path
 		modifier = { 
 			ship_cost = -0.15
 		}
@@ -146,35 +146,34 @@
 				add_building_level = port_building
 			}
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_3}
+		enable_ability = naval_raiding
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_3b}
 	}
 	
-	argonian_path_4b = { ###argonian path
+	lilmothit_path_5b = { ###lilmothit path
 		modifier = { 
 			coastal_terrain_combat_bonus = 0.1
 			riverine_terrain_combat_bonus = 0.15
 		}
-		icon = argon_mini_trad
-		requires = {argonian_path_3b}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_4b}
 	}
 	
-	argonian_path_5b = { ###argonian path
+	lilmothit_path_6b = { ###lilmothit path
 		modifier = { 
 			naval_damage_done = 0.1
 		}
-		enable_ability = naval_raiding
-		icon = argon_mini_trad
-		requires = {argonian_path_4b}
+		icon = lilmothit_mini_trad
+		requires = {lilmothit_path_5b}
 	}
 	
-	argonian_states_path_end_bonus = {
+	lilmothit_states_path_end_bonus = {
 		modifier = { 
 			lv_warriors_offensive = 0.15
-			marsh_combat_bonus = 0.1
+			marsh_combat_bonus = 0.2
 		}
-		requires = { argonian_path_5a argonian_path_5b } 
-		icon = argon_mini_trad 
+		requires = { lilmothit_path_5a lilmothit_path_6b } 
+		icon = lilmothit_mini_trad 
 	}
-	
 }
