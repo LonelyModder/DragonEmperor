@@ -6187,17 +6187,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
-	nobles={
+	citizen={
 		amount=3
 	}
-	citizen={
-		amount=7
-	}
 	freemen={
-		amount=12
+		amount=6
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 
@@ -7720,17 +7717,14 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
-	nobles={
+	citizen={
 		amount=3
 	}
-	citizen={
-		amount=7
-	}
 	freemen={
-		amount=12
+		amount=6
 	}
 	slaves={
-		amount=5
+		amount=4
 	}
 }
 

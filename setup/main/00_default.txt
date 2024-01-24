@@ -8010,6 +8010,28 @@ country = {
 				5954
 			}
 		}
+		
+		ABC = {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 6101
+			
+			own_control_core = 	{ 
+				6101 6090
+			}
+		}
+		
+		ABD = {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5957
+			
+			own_control_core = 	{ 
+				5957 5956 5955
+			}
+		}
 	}
 }
 

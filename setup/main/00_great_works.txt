@@ -62,6 +62,15 @@ provinces = {
 	5425={ # Telvanni Headquaters
 		great_work=21
 	}
+	6084={ # Bogmother
+		great_work=22
+	}
+	6076={ # Hissmir
+		great_work=23
+	}
+	5985={ # Xinchei-Konu
+		great_work=24
+	}
 }
 
 great_work_manager={	
@@ -541,6 +550,75 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_telvanniheadquaters"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		22={
+			ancient_wonder = yes
+			key="bogmother"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_bogmother"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_bogmother"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_bogmother"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		23={
+			ancient_wonder = yes
+			key="hissmir"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_hissmir"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_hissmir"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_hissmir"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		24={
+			ancient_wonder = yes
+			key="xincheikonu"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_xincheikonu"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_xincheikonu"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_xincheikonu"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

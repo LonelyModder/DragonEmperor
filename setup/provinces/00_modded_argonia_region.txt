@@ -1907,8 +1907,8 @@
 5955={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1926,8 +1926,8 @@
 5956={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1945,19 +1945,22 @@
 5957={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -4272,8 +4275,8 @@
 6090={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4484,19 +4487,22 @@
 6101={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
