@@ -744,6 +744,9 @@ provinces = { #Any entry must contain a comment with city name.
 	5971 = {
 		port_building = 1
 	}
+	5847 = {
+		port_building = 1
+	}
 	4881 = {
 		port_building = 1
 	}
@@ -1250,7 +1253,7 @@ provinces = { #Any entry must contain a comment with city name.
 	6108 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
-	5885 = { 
+	5855 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	6004 = { 
@@ -8030,6 +8033,39 @@ country = {
 			
 			own_control_core = 	{ 
 				5957 5956 5955
+			}
+		}
+		
+		ABE = {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5941
+			
+			own_control_core = 	{ 
+				5941 5943 5964 5918 5919
+			}
+		}
+		
+		ABF = {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6052
+			
+			own_control_core = 	{ 
+				6052 6051 6056 6054 6053 6057
+			}
+		}
+		
+		ABG = {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5847
+			
+			own_control_core = 	{ 
+				5858 5859 5847 5857 5846
 			}
 		}
 	}
