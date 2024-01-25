@@ -588,6 +588,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	6203 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	6017 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	5847 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5343 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5679 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	4881 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -738,7 +741,19 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	6138 = {
+		port_building = 1
+	}
+	6203 = {
+		port_building = 1
+	}
 	5679 = {
+		port_building = 1
+	}
+	6115 = {
+		port_building = 1
+	}
+	6017 = {
 		port_building = 1
 	}
 	5971 = {
@@ -7916,7 +7931,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				6135
+				6135 6136 6137 6138 6185 6186
 			}
 		}
 		
@@ -7934,7 +7949,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				6141
+				6141 6115 6116 6117 6118 6119 6142
 			}
 		}
 		
@@ -8066,6 +8081,61 @@ country = {
 			
 			own_control_core = 	{ 
 				5858 5859 5847 5857 5846
+			}
+		}
+		
+		ABH = {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5986
+			
+			own_control_core = 	{ 
+				5986 5987 5989 5994 6011 5995
+			}
+		}
+		
+		ABI = {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5978
+			
+			own_control_core = 	{ 
+				5978 5979 5977 5976 5988 
+			}
+		}
+		
+		ABJ= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6017
+			
+			own_control_core = 	{ 
+				6017 6018
+			}
+		}
+		
+		ABK= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6202
+			
+			own_control_core = 	{ 
+				6202 6203
+			}
+		}
+		
+		ABL= {          
+			government = tribal_kingdom
+			primary_culture = nedhorwalli
+			religion = nedic_pantheon
+			capital = 6148
+			
+			own_control_core = 	{ 
+				6148 6149 6151 6147 
 			}
 		}
 	}
