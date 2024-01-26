@@ -2481,6 +2481,36 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	5844 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6159 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5925 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6035 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5840 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6179 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6199 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5835 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6112 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6037 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	2878 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -8064,7 +8094,7 @@ country = {
 		
 		ABF = {          
 			government = tribal_kingdom
-			primary_culture = apaatru
+			primary_culture = aagaceph
 			religion = hist_pantheon
 			capital = 6052
 			
