@@ -1,0 +1,130 @@
+﻿country_decisions = {
+	
+	# Form Velothi Empire
+	form_evelothi = {
+		
+		potential = {
+			country_culture_group = chimer
+			#is_tribal = yes
+			NOT = {
+				tag = XVE
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5066
+					province_id = 5054
+					province_id = 5185
+					province_id = 5425
+					province_id = 5577
+					province_id = 4881
+					province_id = 4985
+					province_id = 5706
+					province_id = 5460
+					province_id = 6114
+					province_id = 5902
+					province_id = 5852
+					province_id = 6032
+					province_id = 6135
+					province_id = 6141
+					province_id = 5980
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = evelothi_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XVE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 5066
+			owns_or_subject_owns = 5054
+			owns_or_subject_owns = 5185
+			owns_or_subject_owns = 5425
+			owns_or_subject_owns = 5577
+			owns_or_subject_owns = 4881
+			owns_or_subject_owns = 4985
+			owns_or_subject_owns = 5706
+			owns_or_subject_owns = 5460
+			owns_or_subject_owns = 6114
+			owns_or_subject_owns = 5902
+			owns_or_subject_owns = 5852
+			owns_or_subject_owns = 6032
+			owns_or_subject_owns = 6135
+			owns_or_subject_owns = 6141
+			owns_or_subject_owns = 5980
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "EVelohiEmpire_name"
+			change_country_flag = MAF
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "EVelohiEmpire_adj"
+				change_country_color =  "HKResdayn_color"
+				change_country_tag = XVE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 5066
+						}
+					}
+				}
+				set_capital = 5066
+				hidden_effect = {
+					p:5066.state = {
+						set_state_capital = 5066
+					}
+				}
+				p:5066 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_sheogorad_region = { formable_region_province_effect = yes }
+				region:modded_ashlands_region = { formable_region_province_effect = yes }
+				region:modded_molagamur_region = { formable_region_province_effect = yes }
+				region:modded_bittercoast_region = { formable_region_province_effect = yes }
+				region:modded_telvannipeninsula_region = { formable_region_province_effect = yes }
+				region:modded_upperdeshaan_region = { formable_region_province_effect = yes }
+				region:modded_northargonia_region = { formable_region_province_effect = yes }
+				region:modded_deshaan_region = { formable_region_province_effect = yes }
+				region:modded_stonefalls_region = { formable_region_province_effect = yes }
+				region:modded_velothi_region = { formable_region_province_effect = yes }
+				region:modded_gloomire_region = { formable_region_province_effect = yes }
+				region:modded_shadowfen_region = { formable_region_province_effect = yes }
+				region:modded_murkmire_region = { formable_region_province_effect = yes }
+				region:modded_thornmarsh_region = { formable_region_province_effect = yes }
+				region:modded_murkwood_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

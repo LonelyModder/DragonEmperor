@@ -741,7 +741,16 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	5862 = {
+		port_building = 1
+	}
+	5852 = {
+		port_building = 1
+	}
 	6138 = {
+		port_building = 1
+	}
+	6120 = {
 		port_building = 1
 	}
 	6203 = {
@@ -8166,6 +8175,105 @@ country = {
 			
 			own_control_core = 	{ 
 				6148 6149 6151 6147 
+			}
+		}
+		
+		ABM= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5929
+			
+			own_control_core = 	{ 
+				5929 5930 5998 6001 5996 5990 5991
+			}
+		}
+		
+		ABN= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5993
+			
+			own_control_core = 	{ 
+				5993 5992 6002 6005
+			}
+		}
+		
+		ABO= {          
+			government = tribal_kingdom
+			primary_culture = nedhorwalli
+			religion = nedic_pantheon
+			capital = 6146
+			
+			own_control_core = 	{ 
+				6120 6146 6193 6155
+			}
+		}
+		
+		ABP= {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5861
+			
+			own_control_core = 	{ 
+				5861 5860 5862 5863 5864
+			}
+		}
+		
+		ABR= {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5852
+			
+			own_control_core = 	{ 
+				5852 5856 5853 5854 5855 5868 5865
+			}
+		}
+		
+		ABS= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6130
+			
+			own_control_core = 	{ 
+				6130 6131 6129
+			}
+		}
+		
+		ABT= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6128
+			
+			own_control_core = 	{ 
+				6128 6134
+			}
+		}
+		
+		ABU= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6140
+			
+			own_control_core = 	{ 
+				6140 6139 6176 
+			}
+		}
+		
+		ABW= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5952
+			
+			own_control_core = 	{ 
+				5952 5953 5948
 			}
 		}
 	}

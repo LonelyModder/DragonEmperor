@@ -26,6 +26,7 @@ is_tier_2_formable_trigger = {
 		tag = XEL #Kingdom of Elsweyr
 		tag = SAG #Kingdom of Skyrim
 		tag = XRS #Kingdom of Resdayn
+		tag = XAR #Kingdom of Argonia
 	}
 }
 
@@ -36,6 +37,8 @@ is_endgame_tag_trigger = {
 		tag = XME #Moon Empire
 		tag = XMA #Empire of Man
 		tag = XNE #Nordic Empire
+		tag = XAE #Argonian Empire
+		tag = XVE #Velothi Empire
 	}
 }
 

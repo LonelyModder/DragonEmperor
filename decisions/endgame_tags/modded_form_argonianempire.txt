@@ -1,0 +1,108 @@
+﻿country_decisions = {
+	
+	# Form Empire of Argonia
+	form_eargonia = {
+		
+		potential = {
+			country_culture_group = argonian
+			#is_tribal = yes
+			NOT = {
+				tag = XAE
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 6114
+					province_id = 5902
+					province_id = 5852
+					province_id = 6032
+					province_id = 6135
+					province_id = 6141
+					province_id = 5980
+					province_id = 5185
+					province_id = 1215
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = eargonia_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XAE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 6032
+			owns_or_subject_owns = 6135
+			owns_or_subject_owns = 6141
+			owns_or_subject_owns = 5980
+			owns_or_subject_owns = 6114
+			owns_or_subject_owns = 5902
+			owns_or_subject_owns = 5852
+			owns_or_subject_owns = 5185
+			owns_or_subject_owns = 1215
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "EArgonia_name"
+			change_country_flag = HKArgonia_FLAG
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "EArgonia_adj"
+				change_country_color =  "HKArgonia_color"
+				change_country_tag = XAE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 6032
+						}
+					}
+				}
+				set_capital = 6032
+				hidden_effect = {
+					p:6032.state = {
+						set_state_capital = 6032
+					}
+				}
+				p:6032 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_gloomire_region = { formable_region_province_effect = yes }
+				region:modded_shadowfen_region = { formable_region_province_effect = yes }
+				region:modded_murkmire_region = { formable_region_province_effect = yes }
+				region:modded_thornmarsh_region = { formable_region_province_effect = yes }
+				region:modded_murkwood_region = { formable_region_province_effect = yes }
+				region:modded_northargonia_region = { formable_region_province_effect = yes }
+				region:modded_lowerniben_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

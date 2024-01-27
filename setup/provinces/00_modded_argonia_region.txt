@@ -1,6 +1,6 @@
 ﻿5846={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="nedyaspest"
 	civilization_value=0
@@ -19,7 +19,7 @@
 
 5847={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="nedic_pantheon"
 	culture="nedyaspest"
 	civilization_value=0
@@ -79,7 +79,7 @@
 
 5850={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -98,7 +98,7 @@
 
 5851={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -118,27 +118,30 @@
 5852={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 5853={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="salt"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -156,8 +159,8 @@
 5854={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -174,9 +177,9 @@
 
 5855={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -193,9 +196,9 @@
 
 5856={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -212,7 +215,7 @@
 
 5857={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="nedyaspest"
 	civilization_value=0
@@ -231,7 +234,7 @@
 
 5858={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="nedic_pantheon"
 	culture="nedyaspest"
 	civilization_value=0
@@ -250,7 +253,7 @@
 
 5859={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="nedyaspest"
 	civilization_value=0
@@ -269,9 +272,9 @@
 
 5860={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -288,12 +291,15 @@
 
 5861={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -307,9 +313,9 @@
 
 5862={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -326,9 +332,9 @@
 
 5863={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -345,9 +351,9 @@
 
 5864={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -364,9 +370,9 @@
 
 5865={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -421,9 +427,9 @@
 
 5868={ 
 	terrain="jungle"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nedyaspest"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -440,7 +446,7 @@
 
 5869={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -535,7 +541,7 @@
 
 5874={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -554,7 +560,7 @@
 
 5875={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -573,7 +579,7 @@
 
 5876={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -592,7 +598,7 @@
 
 5877={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -611,7 +617,7 @@
 
 5878={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -687,7 +693,7 @@
 
 5882={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -725,7 +731,7 @@
 
 5884={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -896,7 +902,7 @@
 
 5893={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -934,7 +940,7 @@
 
 5895={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1108,7 +1114,7 @@
 
 5904={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1412,7 +1418,7 @@
 
 5920={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1433,18 +1439,22 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1452,7 +1462,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1719,7 +1729,7 @@
 
 5945={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1777,8 +1787,8 @@
 5948={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedkothringi"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1853,11 +1863,14 @@
 5952={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedkothringi"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1871,9 +1884,9 @@
 
 5953={ 
 	terrain="hills"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="stone"
+	religion="nedkothringi"
+	culture="nedkothringi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2010,7 +2023,7 @@
 
 5961={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2029,7 +2042,7 @@
 
 5962={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2143,7 +2156,7 @@
 
 5968={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="besarabicelves"
 	civilization_value=0
@@ -2206,7 +2219,7 @@
 
 5972={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="lilmothit_pantheon"
 	culture="lilmothan"
 	civilization_value=0
@@ -2244,7 +2257,7 @@
 
 5974={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="lilmothit_pantheon"
 	culture="lilmothan"
 	civilization_value=0
@@ -2282,7 +2295,7 @@
 
 5976={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="amurkite"
 	civilization_value=0
@@ -2342,7 +2355,7 @@
 
 5979={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="hist_pantheon"
 	culture="amurkite"
 	civilization_value=0
@@ -2402,7 +2415,7 @@
 
 5982={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="lilmothit_pantheon"
 	culture="lilmothan"
 	civilization_value=0
@@ -2501,7 +2514,7 @@
 
 5987={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="amurkite"
 	civilization_value=0
@@ -2560,7 +2573,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2579,7 +2592,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2598,7 +2611,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="amurkite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2617,18 +2630,22 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="amurkite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=2
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=8
+	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -2674,7 +2691,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2712,7 +2729,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2750,7 +2767,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="anaga"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2769,7 +2786,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="amurkite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2786,7 +2803,7 @@
 
 6003={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2826,7 +2843,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="hist_pantheon"
-	culture="wvenedi"
+	culture="amurkite"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2919,7 +2936,7 @@
 
 6012={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3014,7 +3031,7 @@
 
 6017={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="amurkite"
 	civilization_value=0
@@ -3112,7 +3129,7 @@
 
 6022={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3169,7 +3186,7 @@
 
 6025={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3321,7 +3338,7 @@
 
 6033={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3568,7 +3585,7 @@
 
 6049={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3606,7 +3623,7 @@
 
 6052={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="aagaceph"
 	civilization_value=0
@@ -3647,7 +3664,7 @@
 
 6054={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="aagaceph"
 	civilization_value=0
@@ -3723,7 +3740,7 @@
 
 6058={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3913,7 +3930,7 @@
 
 6068={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3970,7 +3987,7 @@
 
 6072={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -4084,7 +4101,7 @@
 
 6079={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -4429,7 +4446,7 @@
 
 6097={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -4467,7 +4484,7 @@
 
 6099={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -4660,7 +4677,7 @@
 
 6114={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="soul_gems"
 	religion="elven_pantheon"
 	culture="besarabicelves"
 	civilization_value=0
@@ -4701,7 +4718,7 @@
 
 6116={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="nedic_pantheon"
 	culture="nedhorwalli"
 	civilization_value=0
@@ -4739,7 +4756,7 @@
 
 6118={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="nedhorwalli"
 	civilization_value=0
@@ -4758,7 +4775,7 @@
 
 6119={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="nedhorwalli"
 	civilization_value=0
@@ -4778,8 +4795,8 @@
 6120={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4930,11 +4947,14 @@
 6128={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4949,8 +4969,8 @@
 6129={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4967,12 +4987,15 @@
 
 6130={ 
 	terrain="farmland"
-	trade_goods="saltrice"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -4987,8 +5010,8 @@
 6131={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5044,8 +5067,8 @@
 6134={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5141,9 +5164,9 @@
 
 6139={ 
 	terrain="marsh"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5160,12 +5183,15 @@
 
 6140={ 
 	terrain="marsh"
-	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -5239,7 +5265,7 @@
 
 6144={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -5278,11 +5304,14 @@
 6146={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -5413,7 +5442,7 @@
 
 6154={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -5433,8 +5462,8 @@
 6155={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5489,7 +5518,7 @@
 
 6162={ 
 	terrain="innerargonia"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -5679,7 +5708,7 @@
 
 6172={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -5756,8 +5785,8 @@
 6176={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedorma"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5983,7 +6012,7 @@
 
 6190={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="histsap"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6041,8 +6070,8 @@
 6193={ 
 	terrain="marsh"
 	trade_goods="spices"
-	religion="hist_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="nedhorwalli"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -6059,7 +6088,7 @@
 
 6194={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6097,7 +6126,7 @@
 
 6196={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6116,7 +6145,7 @@
 
 6202={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="hist_pantheon"
 	culture="aarnesian"
 	civilization_value=0
@@ -6138,7 +6167,7 @@
 
 6203={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="hist_pantheon"
 	culture="aarnesian"
 	civilization_value=0
@@ -6274,7 +6303,7 @@
 
 6212={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6369,7 +6398,7 @@
 
 6217={ 
 	terrain="marsh"
-	trade_goods="spices"
+	trade_goods="guar"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -6464,7 +6493,7 @@
 
 6222={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="salt"
 	religion="hist_pantheon"
 	culture="wvenedi"
 	civilization_value=0
