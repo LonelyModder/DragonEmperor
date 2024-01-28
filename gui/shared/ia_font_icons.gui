@@ -211,6 +211,16 @@ texticon = {
 }
 
 texticon = {
+    icon = vraxuf
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/vraxuf.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = griphons
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/griphons.dds"

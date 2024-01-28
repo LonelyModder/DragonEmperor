@@ -271,6 +271,34 @@ treasure_manager = {
 				local_monthly_state_loyalty = 0.15
 			}
 		}
+		39 = { # Teeth of Sithis
+			key = "treasure_gaze_of_sithis"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
+		40 = { # Teeth of Sithis
+			key = "treasure_fangs_of_sithis"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
+		41 = { # Hismir
+			key = "treasure_eye_of_argonia"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		42 = { # Hismir
+			key = "treasure_fang_of_haynekhtnamet"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
     }
 }
 family={
@@ -585,6 +613,15 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	5577 = { # Red Keep
 		treasure_slots = { 	treasures = { 38 } }
+	}
+	5996 = { # Teeth of Sithis
+		treasure_slots = { 	treasures = { 39 40 } }
+	}
+	6076 = { # Hissmir
+		treasure_slots = { 	treasures = { 42 } }
+	}
+	6032 = { # Helstrom
+		treasure_slots = { 	treasures = { 41 } }
 	}
 	
 	#Pirates
@@ -7952,7 +7989,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5902
+				5902 5901 5903 5900 5899 5915 5914
 			}
 		}
 		
@@ -8006,7 +8043,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5968
+				5968 5949 5969 6095 5966
 			}
 		}
 		
@@ -8275,6 +8312,281 @@ country = {
 			own_control_core = 	{ 
 				5952 5953 5948
 			}
+		}
+		
+		ABY= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5944
+			
+			own_control_core = 	{ 
+				5944 5945 5942 5947 5946
+			}
+		}
+		
+		ABZ= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5904
+			
+			own_control_core = 	{ 
+				5904 5905 5906
+			}
+		}
+		
+		ACA= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5939
+			
+			own_control_core = 	{ 
+				5939 5938 5937 5935 5936
+			}
+		}
+		
+		ACB= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5950
+			
+			own_control_core = 	{ 
+				5950 5951
+			}
+		}
+		
+		ACC= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5849
+			
+			own_control_core = 	{ 
+				5849 5848 5873 5850 5851 5867 5871 5872
+			}
+		}
+		
+		ACD= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5881
+			
+			own_control_core = 	{ 
+				5881 5866 5869 5882 5870
+			}
+		}
+		
+		ACE= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6040
+			
+			own_control_core = 	{ 
+				6040 6039 6042 6038 6145 6144 6043 6153 6152
+			}
+		}
+		
+		ACF= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6003
+			
+			own_control_core = 	{ 
+				6003 5999 5997 6004
+			}
+		}
+		
+		ACG= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6092
+			
+			own_control_core = 	{ 
+				6092 6093 6094 6091
+			}
+		}
+		
+		ACH= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 6013
+			
+			own_control_core = 	{ 
+				6013 6014 6015 6041
+			}
+		}
+		
+		ACI= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5932
+			
+			own_control_core = 	{ 
+				5932 5931 5908 5907 5934 5933
+			}
+		}
+		
+		ACJ= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 6007
+			
+			own_control_core = 	{ 
+				6007 6006 6061
+			}
+		}
+		
+		ACK= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5876
+			
+			own_control_core = 	{ 
+				5877 5875 5874 5876 
+			}
+		}
+		
+		ACL= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5879
+			
+			own_control_core = 	{ 
+				5879 5878 5880 5911
+			}
+		}
+		
+		ACM= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5884
+			
+			own_control_core = 	{ 
+				5884 5885 5894 5920 5892
+			}
+		}
+		
+		ACN= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5888
+			
+			own_control_core = 	{ 
+				5888 5886 5883 5893 5889 5887
+			}
+		}
+		
+		ACO= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5917 
+			
+			own_control_core = 	{ 
+				5917 5916 5910 5909 5891 5890
+			}
+		}
+		
+		ACP= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5912 
+			
+			own_control_core = 	{ 
+				5912 5913 5896 5898 5897 5895
+			} 
+		}
+		
+		ACR= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6019 
+			
+			own_control_core = 	{ 
+				6019 6030 6008 6012 6016 6059
+			} 
+		}
+		
+		ACS= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6076 
+			
+			own_control_core = 	{ 
+				6076 6077 5967 6075 6072 6071
+			} 
+		}
+		
+		ACT= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5961 
+			
+			own_control_core = 	{ 
+				5961 5959 5958 5962 5963
+			} 
+		}
+		
+		ACU= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6143 
+			
+			own_control_core = 	{ 
+				6143 6154 6060
+			} 
+		}
+		
+		ACW= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6021 
+			
+			own_control_core = 	{ 
+				6021 6020 6022 6023 6024 6025
+			} 
+		}
+		
+		ACY= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6028 
+			
+			own_control_core = 	{ 
+				6028 6029 6026 6027 6058
+			} 
+		}
+		
+		ACZ= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6032 
+			
+			own_control_core = 	{ 
+				6032 6031 5965 6033 6034 6171
+			} 
 		}
 	}
 }
