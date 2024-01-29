@@ -625,6 +625,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	5182 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6203 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6017 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5847 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -782,6 +783,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 1
 	}
 	5852 = {
+		port_building = 1
+	}
+	6220 = {
 		port_building = 1
 	}
 	6138 = {
@@ -6570,6 +6574,7 @@ country = {
 				4123 4107 4106 4112 4113 4124 4127 4152 4142 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
 				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
 				4176 4178 4154 4079 4080 4083 4082
+				4092 4088 4089 4085 4084 4094 4093 4091
 			}
 		}
 		
@@ -6637,6 +6642,7 @@ country = {
 				4277 4278 4275 4276 4281 4114 4266 4271 4267 4272 4274
 				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
 			    4118 4289 
+				4116 4115 4273 4270 4096 4097 4095
 			}
 		}
 		
@@ -7115,7 +7121,7 @@ country = {
 			capital = 4117
 			
 			own_control_core = 	{ 
-				4117 4116 4115 4273 4270 4096 4097 4094 4095 4093
+				4117 
 			}
 		}
 		
@@ -7126,7 +7132,7 @@ country = {
 			capital = 4086
 			
 			own_control_core = 	{ 
-				4091 4092 4088 4089 4085 4086 4084
+				4086 
 			}
 		}
 		
@@ -7971,7 +7977,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				6114
+				6114 6087 6086 6085
 			}
 		}
 		
@@ -8043,7 +8049,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5968 5949 5969 6095 5966
+				5968 5949 5969 6095 5966 6097
 			}
 		}
 		
@@ -8083,7 +8089,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				6096
+				6096 6099
 			}
 		}
 		
@@ -8413,7 +8419,7 @@ country = {
 			}
 		}
 		
-		ACH= {          
+		ADA= {          
 			government = tribal_kingdom
 			primary_culture = aagaceph
 			religion = hist_pantheon
@@ -8587,6 +8593,193 @@ country = {
 			own_control_core = 	{ 
 				6032 6031 5965 6033 6034 6171
 			} 
+		}
+		
+		ADB= {          
+			government = tribal_kingdom
+			primary_culture = cantemiri
+			religion = velothi_pantheon
+			capital = 6223 
+			
+			own_control_core = 	{ 
+				6223 6177 6224 6222 6221 6225 6220
+			} 
+		}
+		
+		ADC= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6049 
+			
+			own_control_core = 	{ 
+				6049 6048 6047 6046 6045 6044
+			} 
+		}
+		
+		ADD= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6064 
+			
+			own_control_core = 	{ 
+				6064 6063 6062 6065 6066 6067
+			} 
+		}
+		
+		ADE= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6168 
+			
+			own_control_core = 	{ 
+				6168 6167 6166 6165 6169 6217 6216
+			} 
+		}
+		
+		ADF= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6163 
+			
+			own_control_core = 	{ 
+				6163 6164 6162 6161 6156
+			} 
+		}
+		
+		ADG= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6196 
+			
+			own_control_core = 	{ 
+				6196 6219 6211 6195 6194 6204 6205
+			} 
+		}
+		
+		ADH= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6212 
+			
+			own_control_core = 	{ 
+				6212 6213 6226 6207 6206 6208
+			} 
+		}
+		
+		ADI= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6230 
+			
+			own_control_core = 	{ 
+				6230 6214 6215 6227 6229 6228
+			} 
+		}
+		
+		ADJ= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6068 
+			
+			own_control_core = 	{ 
+				6068 6069 6078 6055 6074 6079 6104
+			}  
+		}
+		
+		BAA= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6089
+			
+			own_control_core = 	{ 
+				6089 6088
+			}  
+		}
+		
+		BAB= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6174
+			
+			own_control_core = 	{ 
+				6174 6173 6218 6175 6187 6188
+			}  
+		}
+		
+		BAC= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6172
+			
+			own_control_core = 	{ 
+				6172 6178 6170 6181 6190 6189
+			}  
+		}
+		
+		BAD= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6133
+			
+			own_control_core = 	{ 
+				6192 6191 6132 6133 
+			}  
+		}
+		
+		BAE= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6183
+			
+			own_control_core = 	{ 
+				6183 6184 6182 6122 
+			}  
+		}
+		
+		BAF= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6124
+			
+			own_control_core = 	{ 
+				6124 6125 6126 6127 6121 6123
+			}  
+		}
+		
+		BAG= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6098
+			
+			own_control_core = 	{ 
+				6098 6100 6103 6080 6102 6081
+			}  
+		}
+		
+		BAH= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6105
+			
+			own_control_core = 	{ 
+				6105 6084 6083 6082 6106 6108 6107
+			}  
 		}
 	}
 }
