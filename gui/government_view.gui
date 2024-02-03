@@ -1096,7 +1096,7 @@ base_window = {
 							}
 							#Lilmothit
 							portrait_button = {
-								name = "rulerpic"
+								name = "rulerpic31"
 								size = { 130 195 }
 								position = { -4 14 }
 								parentanchor = bottom|left
@@ -1123,7 +1123,7 @@ base_window = {
 								}
 							}
 							portrait_button = {
-								name = "rulerpic2"
+								name = "rulerpic32"
 								size = { 130 195 }
 								position = { -4 14 }
 								parentanchor = bottom|left
@@ -1869,7 +1869,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_altmer_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/altmer_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1882,13 +1882,13 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_altmer_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/altmer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
 							#Lilmothit
 							portrait_button = {
-								name = "consortpic"
+								name = "consortpic31"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1896,12 +1896,12 @@ base_window = {
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_lilmothit_male')]"
 								#datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/lilmothit_male.dds"
 								#portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
 							portrait_button = {
-								name = "consortpic2"
+								name = "consortpic32"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -1909,7 +1909,7 @@ base_window = {
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_lilmothit_female')]"
 								#datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/lilmothit_female.dds"
 								#portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1923,7 +1923,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_goblin_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/goblin_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1936,7 +1936,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_goblin_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/goblin_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1950,7 +1950,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_nede_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/nede_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1963,7 +1963,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_nede_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/nede_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1977,7 +1977,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_bosmer_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/bosmer_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -1990,7 +1990,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_bosmer_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/bosmer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2003,7 +2003,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_orc_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/orc_male.dds"
 							}
 							portrait_button = {
@@ -2014,7 +2014,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_orc_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/orc_female.dds"
 							}
 							#Minotaur
@@ -2026,7 +2026,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_minotaur_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/minotaur_male.dds"
 							}
 							portrait_button = {
@@ -2037,7 +2037,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_minotaur_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/minotaur_female.dds"
 							}
 							#Khajiit
@@ -2049,7 +2049,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_khajiit_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/khajiit_male.dds"
 							}
 							portrait_button = {
@@ -2060,7 +2060,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_khajiit_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/khajiit_female.dds"
 							}
 							#Argonian
@@ -2072,7 +2072,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_argonian_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/argonian_male.dds"
 							}
 							portrait_button = {
@@ -2083,7 +2083,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_argonian_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/argonian_female.dds"
 							}
 							#Imga
@@ -2095,7 +2095,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_imga_male')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/imga_male.dds"
 							}
 							portrait_button = {
@@ -2106,7 +2106,7 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_imga_female')]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								portrait_texture = "gfx/portraits/imga_female.dds"
 							}
 							#Nord
@@ -2119,7 +2119,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_nord_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/nord_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2132,7 +2132,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_nord_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/nord_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2146,7 +2146,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_breton_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/altmer_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2159,7 +2159,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_breton_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/altmer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2173,7 +2173,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_falmer_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/falmer_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2186,7 +2186,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_falmer_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/falmer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2200,7 +2200,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_dwemer_male')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/dwemer_male.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2213,7 +2213,7 @@ base_window = {
 								pop_out = yes
 								#datacontext = "[GetScriptedGui('is_an_dwemer_female')]"
 								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
-								visible = "[And(And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid ), ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End ))]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetConsort.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/dwemer_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
 							}
@@ -2303,7 +2303,7 @@ base_window = {
 							}
 							#Lilmothit
 							portrait_button = {
-								name = "corulerpic"
+								name = "corulerpic31"
 								size = { 130 195 }
 								parentanchor = bottom|right
 								position = { 4 14 }
@@ -2330,7 +2330,7 @@ base_window = {
 								}
 							}
 							portrait_button = {
-								name = "corulerpic2"
+								name = "corulerpic32"
 								size = { 130 195 }
 								parentanchor = bottom|right
 								position = { 4 14 }
