@@ -124,6 +124,31 @@ types MoreBGsTypes {
 				block "PortraitTexture" { portrait_texture = "gfx/portraits/lilmothit_female.dds" }
 				#block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
 			}
+			#Sload
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_sload_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/sload_male.dds" }
+				#block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_sload_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/sload_female.dds" }
+				#block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
 			#Falmer
 			portrait_button = {
 				datacontext = "[GetScriptedGui('is_an_falmer_male')]"
@@ -672,6 +697,19 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/lilmothit_female.dds"
 			}
+			#Sload
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_sload_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/sload_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_sload_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/sload_female.dds"
+			}
 			#Falmer
 			icon = {
 				size = { 100% 100% }
@@ -879,6 +917,19 @@ types MoreBGsTypes {
 				datacontext = "[GetScriptedGui('is_an_lilmothit_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/lilmothit_female.dds"
+			}
+			#Sload
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_sload_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/sload_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_sload_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/sload_female.dds"
 			}
 			#Falmer
 			icon = {

@@ -625,6 +625,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	5746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5182 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6203 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6017 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -825,6 +826,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	5521 = {
+		port_building = 2
+	}
+	5746 = {
 		port_building = 2
 	}
 	5466 = {
@@ -7887,10 +7891,17 @@ country = {
 		}
 		
 		MBC = {
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
+			government = despotic_monarchy
+			primary_culture = seas
+			religion = deadric_pantheon
 			capital = 5745
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
 			own_control_core = 	{ 
 				5737 5738 5739 5740 5741 5742 5743 5744 5745 5746

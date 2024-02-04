@@ -9,6 +9,18 @@
 	
 }
 
+sload = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	charisma = 3
+	finesse = 4
+	zeal = -2
+	martial = -2
+	
+}
+
 breton = {
 	type = status
 	

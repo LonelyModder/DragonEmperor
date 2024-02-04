@@ -33,6 +33,7 @@ race_startup.2 = {
 					NOT = { has_trait = altmer }
 					NOT = { has_trait = bosmer }
 					NOT = { has_trait = lilmothit }
+					NOT = { has_trait = sload }
 					NOT = { has_trait = goblin }
 					NOT = { has_trait = tnede }
 					NOT = { has_trait = orc }
@@ -82,6 +83,14 @@ race_startup.2 = {
 						has_culture_group = lilmothic
 					}
 					add_trait = lilmothit
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = sloadan
+					}
+					add_trait = sload
 					remove_trait = pure
 					remove_trait = impure
 				}

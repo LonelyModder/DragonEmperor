@@ -10,6 +10,7 @@
 				NOT = { has_trait = impure }
 			}
 			NOT = { has_trait = lilmothit }
+			NOT = { has_trait = sload }
 			NOT = { has_trait = bosmer }
 			NOT = { has_trait = goblin }
 			NOT = { has_trait = tnede }
@@ -73,6 +74,12 @@
 				has_culture_group = lilmothic
 			}
 			add_trait = lilmothit
+		}
+		else_if = {
+			limit = {
+				has_culture_group = sloadan
+			}
+			add_trait = sload
 		}
 		else_if = {
 			limit = {

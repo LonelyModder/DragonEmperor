@@ -273,3 +273,13 @@ levy_lilmothit = { #argonian militia
 	lv_archers = 0.3
 	lv_guarcavalry = 0.2
 }
+
+#Sload militia
+
+levy_sloadan = { #sloadan militia
+	default = no
+
+	lv_undead = 0.7
+	lv_bonelord = 0.1
+	lv_bonewalker = 0.2
+}

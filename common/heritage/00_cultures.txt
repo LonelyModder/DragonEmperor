@@ -15,6 +15,21 @@ altmer_heritage = {
 	}
 }
 
+sload_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.1
+		enslavement_efficiency = 0.25
+		
+		#bad
+		diplomatic_relations = -3
+	}
+	
+	trigger = {
+		country_culture_group = sloadan
+	}
+}
+
 chimer_heritage = { 
 	modifier = {
 		#good

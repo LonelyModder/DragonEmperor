@@ -197,6 +197,7 @@
  dvardenan:0 "Vardenite"
  dwemer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  dwemer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Kothri
  kothri:2 "Kothri"
  nedhorwalli:0 "Horwalli"
  nedorma:0 "Orma"
@@ -204,10 +205,17 @@
  nedyaspest:0 "Yaspest"
  kothri_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  kothri_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Lilmothiit
  lilmothic:2 "Foxman"
  lilmothan:0 "Lilmothan"
  lilmothic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  lilmothic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Sload
+ sloadan:2 "Sload"
+ thrasians:0 "Thrasian"
+ seas:0 "Sea Sload"
+ sloadan_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ sloadan_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
  venedi:2 "Aedric"
  wvenedi:0 "Heresy"
