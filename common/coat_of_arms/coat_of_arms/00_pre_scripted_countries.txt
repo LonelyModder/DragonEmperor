@@ -168,6 +168,17 @@ HKArgonia_FLAG = { #Argonia
 	}
 }
 
+HKSeaSload_Flag = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 37 38 }
+	color2 = rgb { 36 37 38 }
+
+	colored_emblem = {
+		texture = "ce_parthia_symbol.dds"
+		color1 = rgb { 22 9 143 }
+	}
+}
+
 CAZ = { #Cyro-Nordic Kingdom
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 194 28 }
