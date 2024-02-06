@@ -179,6 +179,17 @@ HKSeaSload_Flag = { #Cyro-Nordic Kingdom
 	}
 }
 
+EDwemer_flag = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 37 38 }
+	color2 = rgb { 36 37 38 }
+
+	colored_emblem = {
+		texture = "ce_edwemer.dds"
+		color1 = rgb { 179 100 21 }
+	}
+}
+
 CAZ = { #Cyro-Nordic Kingdom
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 194 28 }
