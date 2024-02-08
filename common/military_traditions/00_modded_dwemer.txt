@@ -22,6 +22,7 @@
 						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
 						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					any_country_culture = {
 						is_integrated = yes
@@ -38,6 +39,7 @@
 						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
 						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
@@ -56,9 +58,10 @@
 					has_military_bonus = nede_states_path_end_bonus
 					has_military_bonus = nordic_states_path_end_bonus
 					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
 				}
 				custom_tooltip = {
-					text = "tradition_unlock_requirement_aldmer"
+					text = "tradition_unlock_requirement_dwemer"
 					any_country_culture = {
 						is_integrated = yes
 						this.culture.culture_group = culture_group:dwemer
@@ -133,6 +136,7 @@
 	dwemer_path_3b = { ###altmer path
 		modifier = { 
 			fort_maintenance_cost = -0.15
+			ashlands_combat_bonus = 0.2
 			hills_combat_bonus = 0.2
 			mountain_combat_bonus = 0.2
 		}

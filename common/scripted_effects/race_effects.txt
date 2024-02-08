@@ -9,6 +9,8 @@
 				NOT = { has_trait = altmer }
 				NOT = { has_trait = impure }
 			}
+			NOT = { has_trait = lilmothit }
+			NOT = { has_trait = sload }
 			NOT = { has_trait = bosmer }
 			NOT = { has_trait = goblin }
 			NOT = { has_trait = tnede }
@@ -69,6 +71,18 @@
 		}
 		else_if = {
 			limit = {
+				has_culture_group = lilmothic
+			}
+			add_trait = lilmothit
+		}
+		else_if = {
+			limit = {
+				has_culture_group = sloadan
+			}
+			add_trait = sload
+		}
+		else_if = {
+			limit = {
 				OR = {
 					has_culture_group = goblin
 					has_culture_group = riekling
@@ -81,6 +95,7 @@
 				OR = {
 					has_culture_group = nede
 					has_culture_group = keptu
+					has_culture_group = kothri
 					has_culture_group = reachmenic
 				}
 			}

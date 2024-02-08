@@ -271,6 +271,34 @@ treasure_manager = {
 				local_monthly_state_loyalty = 0.15
 			}
 		}
+		39 = { # Teeth of Sithis
+			key = "treasure_gaze_of_sithis"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
+		40 = { # Teeth of Sithis
+			key = "treasure_fangs_of_sithis"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_manpower_modifier = 0.5
+			}
+		}
+		41 = { # Hismir
+			key = "treasure_eye_of_argonia"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_nobles_happyness = 0.1
+			}
+		}
+		42 = { # Hismir
+			key = "treasure_fang_of_haynekhtnamet"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_cohort_start_experience = 15
+			}
+		}
     }
 }
 family={
@@ -512,7 +540,7 @@ provinces = { #Any entry must contain a comment with city name.
 		treasure_slots = { 	treasures = { 6 } }
 	}
 	1071 = { # Imperial City
-		treasure_slots = { 	treasures = { 8 9 } }
+		treasure_slots = { 	treasures = { 8 9 7 } }
 	}
 	1557 = { # Nenalata
 		treasure_slots = { 	treasures = { 10 27 } }
@@ -574,9 +602,9 @@ provinces = { #Any entry must contain a comment with city name.
 	4464 = { # Nighthollow Keep
 		treasure_slots = { 	treasures = { 34 } }
 	}
-	4579 = { # Temple District
-		treasure_slots = { 	treasures = { 7 35 } }
-	}
+	#4579 = { # Temple District
+	#	treasure_slots = { 	treasures = { 7 35 } }
+	#}
 	5268 = { # Necrom
 		treasure_slots = { 	treasures = { 36 } }
 	}
@@ -586,8 +614,22 @@ provinces = { #Any entry must contain a comment with city name.
 	5577 = { # Red Keep
 		treasure_slots = { 	treasures = { 38 } }
 	}
+	5996 = { # Teeth of Sithis
+		treasure_slots = { 	treasures = { 39 40 } }
+	}
+	6076 = { # Hissmir
+		treasure_slots = { 	treasures = { 42 } }
+	}
+	6032 = { # Helstrom
+		treasure_slots = { 	treasures = { 41 } }
+	}
 	
 	#Pirates
+	5746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	5182 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	6203 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	6017 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	5847 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5343 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5679 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	4881 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -738,10 +780,43 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	5862 = {
+		port_building = 1
+	}
+	5852 = {
+		port_building = 1
+	}
+	6220 = {
+		port_building = 1
+	}
+	6138 = {
+		port_building = 1
+	}
+	6120 = {
+		port_building = 1
+	}
+	6203 = {
+		port_building = 1
+	}
 	5679 = {
 		port_building = 1
 	}
+	6115 = {
+		port_building = 1
+	}
+	6017 = {
+		port_building = 1
+	}
+	5971 = {
+		port_building = 1
+	}
+	5847 = {
+		port_building = 1
+	}
 	4881 = {
+		port_building = 1
+	}
+	5980 = {
 		port_building = 1
 	}
 	5182 = {
@@ -751,6 +826,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	5521 = {
+		port_building = 2
+	}
+	5746 = {
 		port_building = 2
 	}
 	5466 = {
@@ -1235,6 +1313,39 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	6128 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6108 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5855 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6004 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5905 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5906 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5942 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5945 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5955 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5953 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	4990 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -1295,7 +1406,7 @@ provinces = { #Any entry must contain a comment with city name.
 	4997 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
-	5968 = { 
+	5949 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
 	5026 = { 
@@ -2424,6 +2535,36 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	5844 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6159 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5925 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6035 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5840 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6179 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6199 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	5835 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6112 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6037 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	2878 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3154,12 +3295,10 @@ country = {
 		
 		CAA = {
 			family = 2
-			government = despotic_monarchy
+			government = theocratic_monarchy
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon
-			capital = 814
-			
-			
+			capital = 1071
 			
 			pantheon = {
 			
@@ -3176,6 +3315,9 @@ country = {
 			
 			own_control_core = 	{ 
 				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 790
+				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
+				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
+				4577 4578 4579 4580 4581 4582
 			}
 		}
 		
@@ -4318,8 +4460,8 @@ country = {
 		
 		CBJ = {          
 			government = tribal_kingdom
-			primary_culture = nedhorwalli
-			religion = elven_pantheon
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
 			capital = 1683
 			
 			own_control_core = 	{ 
@@ -4348,7 +4490,7 @@ country = {
 				2072 2059 2060 2070 2071 2074 2075 2073 2076 2077 2078 2079 2080 2081 2082 2083 2084 2085 2086 2087
 				1955 1945 1942 1915 1924 2020 2041 2001 2002 2003 2004 1987 1941 1943 1944 1946 1947 1948 1949 1950 1952 1953 1934 
 				1931 1932 1922 1920 2016 2017 2018 2027 2038 2042 2043 2058 2056 2055 2057 1845 1841 1842 1863 1849
-				2066 2067 2068 2069 1940 1926 1939 1958 1960 1962 1874 1873 1876 1877 1792 1791 1794 1795
+				2066 2067 2068 2069 1874 1873 1876 1877 1792 1791 1794 1795 
 			}
 		}
 		
@@ -4643,28 +4785,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1105 1117 1118 1121 1123 1110 1112 1115 1114
-			}
-		}
-		
-		VBC = {          
-			government = theocratic_republic
-			primary_culture = heartlanderelves
-			religion = deadric_pantheon
-			capital = 1071
-			
-			
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
-				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
-				4577 4578 4579 4580 4581 4582
 			}
 		}
 		
@@ -6458,6 +6578,7 @@ country = {
 				4123 4107 4106 4112 4113 4124 4127 4152 4142 4149 4143 4146 4148 4144 4145 4147 4122 4125 4131
 				4126 4135 4134 4130 4133 4128 4138 4137 4136 4139 4140 4141 4162 4163 4161 4173 4174 4175 4179 4177 
 				4176 4178 4154 4079 4080 4083 4082
+				4092 4088 4089 4085 4084 4094 4093 4091
 			}
 		}
 		
@@ -6525,6 +6646,7 @@ country = {
 				4277 4278 4275 4276 4281 4114 4266 4271 4267 4272 4274
 				4296 4297 4298 4285 4279 4280 4295 4294 4293 4288 4261 4259 4262 4264 4265 4263 4287 4291 4268
 			    4118 4289 
+				4116 4115 4273 4270 4096 4097 4095
 			}
 		}
 		
@@ -7003,7 +7125,7 @@ country = {
 			capital = 4117
 			
 			own_control_core = 	{ 
-				4117 4116 4115 4273 4270 4096 4097 4094 4095 4093
+				4117 
 			}
 		}
 		
@@ -7014,7 +7136,7 @@ country = {
 			capital = 4086
 			
 			own_control_core = 	{ 
-				4091 4092 4088 4089 4085 4086 4084
+				4086 
 			}
 		}
 		
@@ -7769,10 +7891,17 @@ country = {
 		}
 		
 		MBC = {
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
+			government = despotic_monarchy
+			primary_culture = seas
+			religion = deadric_pantheon
 			capital = 5745
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
 			own_control_core = 	{ 
 				5737 5738 5739 5740 5741 5742 5743 5744 5745 5746
@@ -7843,6 +7972,825 @@ country = {
 			own_control_core = 	{ 
 				4377 4378 4376
 			}
+		}
+		
+		AAR = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6114
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6114 6087 6086 6085
+			}
+		}
+		
+		AAS = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5902
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5902 5901 5903 5900 5899 5915 5914
+			}
+		}
+		
+		AAT = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6135
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6135 6136 6137 6138 6185 6186
+			}
+		}
+		
+		AAU = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6141
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6141 6115 6116 6117 6118 6119 6142
+			}
+		}
+		
+		AAW = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5968
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5968 5949 5969 6095 5966 6097
+			}
+		}
+		
+		AAY = {          
+			government = tribal_kingdom
+			primary_culture = lilmothan
+			religion = lilmothit_pantheon
+			capital = 5980
+			
+			own_control_core = 	{ 
+				5980 5981 5982 5983 5984 5985
+			}
+		}
+		
+		AAZ = {          
+			government = tribal_kingdom
+			primary_culture = lilmothan
+			religion = lilmothit_pantheon
+			capital = 5971
+			
+			own_control_core = 	{ 
+				5971 5973 5974 5975 5972
+			}
+		}
+		
+		ABA = {          
+			government = theocratic_republic
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 6096
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6096 6099
+			}
+		}
+		
+		ABB = {          
+			government = despotic_monarchy
+			primary_culture = besarabicelves
+			religion = elven_pantheon
+			capital = 5954
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5954
+			}
+		}
+		
+		ABC = {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 6101
+			
+			own_control_core = 	{ 
+				6101 6090
+			}
+		}
+		
+		ABD = {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5957
+			
+			own_control_core = 	{ 
+				5957 5956 5955
+			}
+		}
+		
+		ABE = {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5941
+			
+			own_control_core = 	{ 
+				5941 5943 5964 5918 5919
+			}
+		}
+		
+		ABF = {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 6052
+			
+			own_control_core = 	{ 
+				6052 6051 6056 6054 6053 6057
+			}
+		}
+		
+		ABG = {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5847
+			
+			own_control_core = 	{ 
+				5858 5859 5847 5857 5846
+			}
+		}
+		
+		ABH = {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5986
+			
+			own_control_core = 	{ 
+				5986 5987 5989 5994 6011 5995
+			}
+		}
+		
+		ABI = {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5978
+			
+			own_control_core = 	{ 
+				5978 5979 5977 5976 5988 
+			}
+		}
+		
+		ABJ= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6017
+			
+			own_control_core = 	{ 
+				6017 6018
+			}
+		}
+		
+		ABK= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6202
+			
+			own_control_core = 	{ 
+				6202 6203
+			}
+		}
+		
+		ABL= {          
+			government = tribal_kingdom
+			primary_culture = nedhorwalli
+			religion = nedic_pantheon
+			capital = 6148
+			
+			own_control_core = 	{ 
+				6148 6149 6151 6147 
+			}
+		}
+		
+		ABM= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5929
+			
+			own_control_core = 	{ 
+				5929 5930 5998 6001 5996 5990 5991
+			}
+		}
+		
+		ABN= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 5993
+			
+			own_control_core = 	{ 
+				5993 5992 6002 6005
+			}
+		}
+		
+		ABO= {          
+			government = tribal_kingdom
+			primary_culture = nedhorwalli
+			religion = nedic_pantheon
+			capital = 6146
+			
+			own_control_core = 	{ 
+				6120 6146 6193 6155
+			}
+		}
+		
+		ABP= {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5861
+			
+			own_control_core = 	{ 
+				5861 5860 5862 5863 5864
+			}
+		}
+		
+		ABR= {          
+			government = tribal_kingdom
+			primary_culture = nedyaspest
+			religion = nedic_pantheon
+			capital = 5852
+			
+			own_control_core = 	{ 
+				5852 5856 5853 5854 5855 5868 5865
+			}
+		}
+		
+		ABS= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6130
+			
+			own_control_core = 	{ 
+				6130 6131 6129
+			}
+		}
+		
+		ABT= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6128
+			
+			own_control_core = 	{ 
+				6128 6134
+			}
+		}
+		
+		ABU= {          
+			government = tribal_kingdom
+			primary_culture = nedorma
+			religion = nedic_pantheon
+			capital = 6140
+			
+			own_control_core = 	{ 
+				6140 6139 6176 
+			}
+		}
+		
+		ABW= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5952
+			
+			own_control_core = 	{ 
+				5952 5953 5948
+			}
+		}
+		
+		ABY= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5944
+			
+			own_control_core = 	{ 
+				5944 5945 5942 5947 5946
+			}
+		}
+		
+		ABZ= {          
+			government = tribal_kingdom
+			primary_culture = nedkothringi
+			religion = nedic_pantheon
+			capital = 5904
+			
+			own_control_core = 	{ 
+				5904 5905 5906
+			}
+		}
+		
+		ACA= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5939
+			
+			own_control_core = 	{ 
+				5939 5938 5937 5935 5936
+			}
+		}
+		
+		ACB= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5950
+			
+			own_control_core = 	{ 
+				5950 5951
+			}
+		}
+		
+		ACC= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5849
+			
+			own_control_core = 	{ 
+				5849 5848 5873 5850 5851 5867 5871 5872
+			}
+		}
+		
+		ACD= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5881
+			
+			own_control_core = 	{ 
+				5881 5866 5869 5882 5870
+			}
+		}
+		
+		ACE= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6040
+			
+			own_control_core = 	{ 
+				6040 6039 6042 6038 6145 6144 6043 6153 6152
+			}
+		}
+		
+		ACF= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6003
+			
+			own_control_core = 	{ 
+				6003 5999 5997 6004
+			}
+		}
+		
+		ACG= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6092
+			
+			own_control_core = 	{ 
+				6092 6093 6094 6091
+			}
+		}
+		
+		ADA= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 6013
+			
+			own_control_core = 	{ 
+				6013 6014 6015 6041
+			}
+		}
+		
+		ACI= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5932
+			
+			own_control_core = 	{ 
+				5932 5931 5908 5907 5934 5933
+			}
+		}
+		
+		ACJ= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 6007
+			
+			own_control_core = 	{ 
+				6007 6006 6061
+			}
+		}
+		
+		ACK= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5876
+			
+			own_control_core = 	{ 
+				5877 5875 5874 5876 
+			}
+		}
+		
+		ACL= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5879
+			
+			own_control_core = 	{ 
+				5879 5878 5880 5911
+			}
+		}
+		
+		ACM= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5884
+			
+			own_control_core = 	{ 
+				5884 5885 5894 5920 5892
+			}
+		}
+		
+		ACN= {          
+			government = tribal_kingdom
+			primary_culture = aagaceph
+			religion = hist_pantheon
+			capital = 5888
+			
+			own_control_core = 	{ 
+				5888 5886 5883 5893 5889 5887
+			}
+		}
+		
+		ACO= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5917 
+			
+			own_control_core = 	{ 
+				5917 5916 5910 5909 5891 5890
+			}
+		}
+		
+		ACP= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5912 
+			
+			own_control_core = 	{ 
+				5912 5913 5896 5898 5897 5895
+			} 
+		}
+		
+		ACR= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6019 
+			
+			own_control_core = 	{ 
+				6019 6030 6008 6012 6016 6059
+			} 
+		}
+		
+		ACS= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6076 
+			
+			own_control_core = 	{ 
+				6076 6077 5967 6075 6072 6071
+			} 
+		}
+		
+		ACT= {          
+			government = tribal_kingdom
+			primary_culture = anaga
+			religion = hist_pantheon
+			capital = 5961 
+			
+			own_control_core = 	{ 
+				5961 5959 5958 5962 5963
+			} 
+		}
+		
+		ACU= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6143 
+			
+			own_control_core = 	{ 
+				6143 6154 6060
+			} 
+		}
+		
+		ACW= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6021 
+			
+			own_control_core = 	{ 
+				6021 6020 6022 6023 6024 6025
+			} 
+		}
+		
+		ACY= {          
+			government = tribal_kingdom
+			primary_culture = amurkite
+			religion = hist_pantheon
+			capital = 6028 
+			
+			own_control_core = 	{ 
+				6028 6029 6026 6027 6058
+			} 
+		}
+		
+		ACZ= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6032 
+			
+			own_control_core = 	{ 
+				6032 6031 5965 6033 6034 6171
+			} 
+		}
+		
+		ADB= {          
+			government = tribal_kingdom
+			primary_culture = cantemiri
+			religion = velothi_pantheon
+			capital = 6223 
+			
+			own_control_core = 	{ 
+				6223 6177 6224 6222 6221 6225 6220
+			} 
+		}
+		
+		ADC= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6049 
+			
+			own_control_core = 	{ 
+				6049 6048 6047 6046 6045 6044
+			} 
+		}
+		
+		ADD= {          
+			government = tribal_kingdom
+			primary_culture = asarpa
+			religion = hist_pantheon
+			capital = 6064 
+			
+			own_control_core = 	{ 
+				6064 6063 6062 6065 6066 6067
+			} 
+		}
+		
+		ADE= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6168 
+			
+			own_control_core = 	{ 
+				6168 6167 6166 6165 6169 6217 6216
+			} 
+		}
+		
+		ADF= {          
+			government = tribal_kingdom
+			primary_culture = apaatru
+			religion = hist_pantheon
+			capital = 6163 
+			
+			own_control_core = 	{ 
+				6163 6164 6162 6161 6156
+			} 
+		}
+		
+		ADG= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6196 
+			
+			own_control_core = 	{ 
+				6196 6219 6211 6195 6194 6204 6205
+			} 
+		}
+		
+		ADH= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6212 
+			
+			own_control_core = 	{ 
+				6212 6213 6226 6207 6206 6208
+			} 
+		}
+		
+		ADI= {          
+			government = tribal_kingdom
+			primary_culture = aarnesian
+			religion = hist_pantheon
+			capital = 6230 
+			
+			own_control_core = 	{ 
+				6230 6214 6215 6227 6229 6228
+			} 
+		}
+		
+		ADJ= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6068 
+			
+			own_control_core = 	{ 
+				6068 6069 6078 6055 6074 6079 6104
+			}  
+		}
+		
+		BAA= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6089
+			
+			own_control_core = 	{ 
+				6089 6088
+			}  
+		}
+		
+		BAB= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6174
+			
+			own_control_core = 	{ 
+				6174 6173 6218 6175 6187 6188
+			}  
+		}
+		
+		BAC= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6172
+			
+			own_control_core = 	{ 
+				6172 6178 6170 6181 6190 6189
+			}  
+		}
+		
+		BAD= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6133
+			
+			own_control_core = 	{ 
+				6192 6191 6132 6133 
+			}  
+		}
+		
+		BAE= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6183
+			
+			own_control_core = 	{ 
+				6183 6184 6182 6122 
+			}  
+		}
+		
+		BAF= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6124
+			
+			own_control_core = 	{ 
+				6124 6125 6126 6127 6121 6123
+			}  
+		}
+		
+		BAG= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6098
+			
+			own_control_core = 	{ 
+				6098 6100 6103 6080 6102 6081
+			}  
+		}
+		
+		BAH= {          
+			government = tribal_kingdom
+			primary_culture = ahleel
+			religion = hist_pantheon
+			capital = 6105
+			
+			own_control_core = 	{ 
+				6105 6084 6083 6082 6106 6108 6107
+			}  
 		}
 	}
 }

@@ -3,6 +3,16 @@
 	image = necrom_philosophy
 	
 	allow = {
+		OR = {
+		trigger_if = {
+			limit = { 
+					country_culture_group = sloadan
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = sloadan
+		}
 		trigger_if = {
 			limit = {
 				AND = {
@@ -63,6 +73,7 @@
 					}
 				}
 			}
+		}
 		}
 	}
 	

@@ -8,6 +8,7 @@
 				country_culture_group = breton
 				country_culture_group = reachmenic
 				country_culture_group = keptu
+				country_culture_group = kothri
 				country_culture_group = druid
 				country_culture_group = nordic
 				country_culture_group = nede
@@ -139,6 +140,7 @@
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
+				#Mede Part
 				region:modded_reach_region = { formable_region_province_effect = yes }
 				region:modded_goldcoast_region = { formable_region_province_effect = yes }
 				region:modded_kvatch_region = { formable_region_province_effect = yes }
@@ -170,6 +172,30 @@
 				region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
 				region:modded_hewsbane_region = { formable_region_province_effect = yes }
 				region:modded_alikr_region = { formable_region_province_effect = yes }
+				#Septim Part
+				region:modded_sheogorad_region = { formable_region_province_effect = yes }
+				region:modded_ashlands_region = { formable_region_province_effect = yes }
+				region:modded_molagamur_region = { formable_region_province_effect = yes }
+				region:modded_bittercoast_region = { formable_region_province_effect = yes }
+				region:modded_telvannipeninsula_region = { formable_region_province_effect = yes }
+				region:modded_upperdeshaan_region = { formable_region_province_effect = yes }
+				region:modded_northargonia_region = { formable_region_province_effect = yes }
+				region:modded_deshaan_region = { formable_region_province_effect = yes }
+				region:modded_stonefalls_region = { formable_region_province_effect = yes }
+				region:modded_velothi_region = { formable_region_province_effect = yes }
+				region:modded_gloomire_region = { formable_region_province_effect = yes }
+				region:modded_shadowfen_region = { formable_region_province_effect = yes }
+				region:modded_murkmire_region = { formable_region_province_effect = yes }
+				region:modded_thornmarsh_region = { formable_region_province_effect = yes }
+				region:modded_murkwood_region = { formable_region_province_effect = yes }
+				region:modded_southpoint_region = { formable_region_province_effect = yes }
+				region:modded_grahtwood_region = { formable_region_province_effect = yes }
+				region:modded_xolo_region = { formable_region_province_effect = yes }
+				region:modded_westernreapersmarch_region = { formable_region_province_effect = yes }
+				region:modded_greenshade_region = { formable_region_province_effect = yes }
+				region:modded_reapersmarch_region = { formable_region_province_effect = yes }
+				region:modded_scar_region = { formable_region_province_effect = yes }
+				region:modded_quinrawlpeninsula_region = { formable_region_province_effect = yes }
 			}
 		}
 		

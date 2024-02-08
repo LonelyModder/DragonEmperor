@@ -1,0 +1,43 @@
+﻿sloadan = {	
+	color = hsv { 0.76 0.97 0.63 }
+
+	primary = lv_mages
+	second = lv_undead
+	flank = lv_bonewalker
+	
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_sloadan
+
+	male_names = {
+		Q'Fura N'Gasta B'Korgen K'Tora N'Buta K'Garza Z'Baza Z'Maja D'Guru A'Noga X'Vasta W'Unas
+		M'Gatu U'Burzu N'Biru U'Numar D'Kardu Q'Rawar B'Tanmu O'Lorku Y'Smirru S'Sivis C'Agrumu
+		V'Ardar Z'Ataru I'Rridu T'Ugratu A'Wadir F'Ogrumi H'Iskadri Z'Ewadra J'Emerda L'Umi Q'Izar
+	}
+	female_names = {
+		Q'Fura N'Gasta B'Korgen K'Tora N'Buta K'Garza Z'Baza Z'Maja D'Guru A'Noga X'Vasta W'Unas
+		M'Gatu U'Burzu N'Biru U'Numar D'Kardu Q'Rawar B'Tanmu O'Lorku Y'Smirru S'Sivis C'Agrumu
+		V'Ardar Z'Ataru I'Rridu T'Ugratu A'Wadir F'Ogrumi H'Iskadri Z'Ewadra J'Emerda L'Umi Q'Izar
+	}
+	family = {
+		Kwasis Eskis Nomissi Xdrassa Nmatha Numat Ordoga Tekemu Untura Ewadar Irrumit Ordowu Qattari
+		Retresa Iwadi Ametu Xotorru Xassiri Wamassu Terrovu Xadris Nakamatu Galamissu Yumitaru Ekit
+		Mattari Jahete Ovadri Oputru Qvari Menetu Nukatri Ctani Saveda Letemut Xovothis Vlasil Ektum
+	}
+	
+	culture = {
+		thrasians = {}
+		seas = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = orsimer_gfx
+	ethnicities = {
+		10 = kothri
+	}
+}

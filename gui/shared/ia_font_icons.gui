@@ -171,6 +171,16 @@ texticon = {
 }
 
 texticon = {
+    icon = histsap
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/histsap.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = sweats
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/sweats.dds"
@@ -194,6 +204,16 @@ texticon = {
     icon = coconut
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/coconut.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = vraxuf
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/vraxuf.dds"
         size = { 25 25 }
         offset = { 0 6 }
         fontsize = 16

@@ -21,6 +21,8 @@ esfa_traits.1 = {
 				NOT = { has_trait = goblin }
 				NOT = { has_trait = tnede }
 				NOT = { has_trait = orc }
+				NOT = { has_trait = lilmothit }
+				NOT = { has_trait = sload }
 				NOT = { has_trait = minotaur }
 				NOT = { has_trait = khajiit }
 				NOT = { has_trait = argonian }
@@ -96,6 +98,20 @@ esfa_traits.1 = {
 			else_if = { 
 				limit = {
 					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = lilmothit }
+				}
+				add_trait = lilmothit
+			}
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = sload }
+				}
+				add_trait = sload
+			}
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = imga }
 				}
 				add_trait = imga
@@ -139,6 +155,8 @@ esfa_traits.1 = {
 									has_trait = tnede 
 									has_trait = goblin 
 									has_trait = orc
+									has_trait = lilmothit
+									has_trait = sload
 									has_trait = khajiit
 									has_trait = argonian
 									has_trait = imga

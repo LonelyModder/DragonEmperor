@@ -9,6 +9,18 @@
 	
 }
 
+sload = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	charisma = 3
+	finesse = 4
+	zeal = -2
+	martial = -2
+	
+}
+
 breton = {
 	type = status
 	
@@ -38,6 +50,13 @@ orc = {
 	charisma = -1
 	zeal = 1
 	martial = 5
+}
+
+lilmothit = {
+	type = status
+	charisma = 1
+	zeal = 2
+	martial = 3
 }
 
 nord = {

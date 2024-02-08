@@ -131,7 +131,7 @@ AAL = { #Shimmerine
 	}
 }
 
-VBC = { #Temple of Ancestors
+CAA = { #Temple of Ancestors
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 255 255 }
 	color2 = rgb { 255 255 255 }
@@ -152,6 +152,41 @@ VAA = { #Valenwood
 		color1 = rgb { 161 96 11 }
 		color2 = rgb { 91 219 44 }
 		color3 = rgb { 0 0 0 }
+	}
+}
+
+HKArgonia_FLAG = { #Argonia
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 0 0 0 }
+	color2 = rgb { 0 0 0 }
+
+	colored_emblem = {
+		texture = "ce_valenwood.dds"
+		color1 = rgb { 204 147 43 }
+		color2 = rgb { 204 147 43 }
+		color3 = rgb { 0 0 0 }
+	}
+}
+
+HKSeaSload_Flag = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 37 38 }
+	color2 = rgb { 36 37 38 }
+
+	colored_emblem = {
+		texture = "ce_parthia_symbol.dds"
+		color1 = rgb { 22 9 143 }
+	}
+}
+
+EDwemer_flag = { #Cyro-Nordic Kingdom
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 36 37 38 }
+	color2 = rgb { 36 37 38 }
+
+	colored_emblem = {
+		texture = "ce_edwemer.dds"
+		color1 = rgb { 179 100 21 }
 	}
 }
 

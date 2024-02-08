@@ -44,7 +44,7 @@ deity_ikynareth = {
 	}
 	icon = deity_kynareth
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
-	omen = { global_monthly_food = omen_global_monthly_food_modifier } #Bonus from Omen
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = imperial_pantheon
 	deity_category = economy #This Deity uses a economy slot.
 	deification_trigger = {
@@ -173,7 +173,7 @@ deity_iarkay = {
 		}
 	}
 	icon = deity_arkay
-	passive_modifier = { stability_monthly = deity_stability_monthly_decay }
+	passive_modifier = { stability_monthly_decay = deity_stability_monthly_decay }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = imperial_pantheon
 	deity_category = culture #This Deity uses a culture slot.

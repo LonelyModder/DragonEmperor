@@ -122,6 +122,7 @@ esfa_startup.7 = { #Nedes
 		OR = {
 			country_culture_group = nede
 			country_culture_group = keptu
+			country_culture_group = kothri
 			country_culture_group = reachmenic
 		}
     }
@@ -282,5 +283,40 @@ esfa_startup.16 = { #Chimer
 
     option = {    
         name = esfa_startup.16.a
+    }
+}
+
+esfa_startup.17 = { #Lilmothit
+    type = country_event
+    title = esfa_startup.17.t
+    desc = esfa_startup.17.desc
+    picture = welcoming_window_17
+	
+    trigger = {
+		country_culture_group = lilmothic
+    }
+
+    option = {    
+        name = esfa_startup.17.a
+    }
+}
+
+esfa_startup.18 = { #Sload
+    type = country_event
+    title = esfa_startup.18.t
+    desc = esfa_startup.18.desc
+    picture = welcoming_window_18
+	
+    trigger = {
+		country_culture_group = sloadan
+    }
+
+    option = {    
+        name = esfa_startup.18.a
+		region:modded_dusk_region = { formable_region_province_effect = yes }
+		region:modded_shimmerene_region = { formable_region_province_effect = yes }
+		region:modded_etonnir_region = { formable_region_province_effect = yes }
+		region:modded_alinor_region = { formable_region_province_effect = yes }
+		region:modded_auridon_region = { formable_region_province_effect = yes }
     }
 }

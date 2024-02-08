@@ -4,9 +4,7 @@
 	form_cyronordic = {
 		
 		potential = {
-			OR = {
-				primary_culture = cyronordic
-			}
+			country_culture_group = nordic
 			#is_tribal = yes
 			NOT = {
 				tag = XCN

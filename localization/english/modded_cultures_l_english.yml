@@ -21,6 +21,7 @@
  moran:0 "Moran"
  rendysite:0 "Chunzei"
  sothan:0 "Sothan"
+ cantemiri:0 "Cantemiri"
  chimer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  chimer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Ayleid
@@ -66,7 +67,6 @@
  nedcolovian:0 "Colovian"
  nednibenese:0 "Nibenean"
  nednibenu:0 "Nibenu"
- nedhorwalli:0 "Horwalli"
  nedvalusan:0 "Valusi"
  nmarcher:0 "Marcher"
  nedkreathan:0 "Kreathan"
@@ -109,8 +109,15 @@
  minotauric_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Argonian
  argonian:2 "Argonian"
- argblackwood:0 "Naga"
+ argblackwood:0 "Nibu"
  ahleel:0 "Hleel"
+ anaga:0 "Naga"
+ apaatru:0 "Paatru"
+ asarpa:0 "Sarpa"
+ aagaceph:0 "Agaceph"
+ amurkite:0 "Hapsleet"
+ aarnesian:0 "Arnesian"
+ aclanless:0 "Lut-Eileel"
  argonian_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  argonian_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Khajiit
@@ -190,6 +197,25 @@
  dvardenan:0 "Vardenite"
  dwemer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  dwemer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Kothri
+ kothri:2 "Kothri"
+ nedhorwalli:0 "Horwalli"
+ nedorma:0 "Orma"
+ nedkothringi:0 "Kothringi"
+ nedyaspest:0 "Yaspest"
+ kothri_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ kothri_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Lilmothiit
+ lilmothic:2 "Foxman"
+ lilmothan:0 "Lilmothan"
+ lilmothic_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ lilmothic_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Sload
+ sloadan:2 "Sload"
+ thrasians:0 "Thrasian"
+ seas:0 "Sea Sload"
+ sloadan_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ sloadan_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
  venedi:2 "Aedric"
  wvenedi:0 "Heresy"

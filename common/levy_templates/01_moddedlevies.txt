@@ -132,6 +132,14 @@ levy_reachmen = { #reachmen militia
 	lv_cavalry = 0.1
 }
 
+levy_kothri = { #reachmen militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.2
+	lv_raiders = 0.3
+}
+
 #Minotauric
 
 levy_minotaurish = { #minotaur militia
@@ -253,5 +261,25 @@ levy_verkarthic = { #vampiric militia
 
 	lv_undead = 0.6
 	lv_bonelord = 0.2
+	lv_bonewalker = 0.2
+}
+
+#Foxman of Lilmoth
+
+levy_lilmothit = { #argonian militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.3
+	lv_guarcavalry = 0.2
+}
+
+#Sload militia
+
+levy_sloadan = { #sloadan militia
+	default = no
+
+	lv_undead = 0.7
+	lv_bonelord = 0.1
 	lv_bonewalker = 0.2
 }

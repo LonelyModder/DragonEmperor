@@ -38,6 +38,7 @@
 						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
 						has_military_bonus = dwemer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					any_country_culture = {
 						is_integrated = yes
@@ -63,6 +64,7 @@
 						has_military_bonus = nede_states_path_end_bonus
 						has_military_bonus = nordic_states_path_end_bonus
 						has_military_bonus = dwemer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
 					}
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
@@ -89,6 +91,7 @@
 					has_military_bonus = nede_states_path_end_bonus
 					has_military_bonus = nordic_states_path_end_bonus
 					has_military_bonus = dwemer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
 				}
 				custom_tooltip = {
 					text = "tradition_unlock_requirement_aldmer"
