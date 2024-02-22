@@ -13,14 +13,18 @@ modded_tmp_region = {
 
 modded_bormountains_region = {
 	areas = {
-		wega_area
+		kituna_area
+		southakuna_area
 		arcantys_area
 		bondar_area
+		baga_area
+		vallasbor_area
 	}
 }
 
 modded_banta_region = {
 	areas = {
+		wega_area
 		secula_area
 		abbarbas_area
 		pontu_area
