@@ -1008,19 +1008,22 @@
 6477={ 
 	terrain="farmland"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1426,22 +1429,19 @@
 6499={ 
 	terrain="farmland"
 	trade_goods="spices"
-	religion="satakalite_pantheon"
-	culture="bantan"
+	religion="slavic_pantheon"
+	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=3
-	}
-	citizen={
-		amount=10
-	}
+	province_rank="settlement"
 	freemen={
-		amount=7
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
 }
 

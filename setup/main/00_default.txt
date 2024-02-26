@@ -510,6 +510,12 @@ family={
 			culture = sommersetic
 			prestige=300
 		}
+		35={
+			key="Adhal"
+			owner=PAA
+			culture = bantan
+			prestige=300
+		}
 		
 		}
 }
@@ -818,6 +824,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	5980 = {
 		port_building = 1
+	}
+	6477 = {
+		port_building = 2
 	}
 	5182 = {
 		port_building = 2
@@ -8793,8 +8802,9 @@ country = {
 			}  
 		}
 		
-		PAA = { 
-			government = despotic_monarchy
+		PAA = {
+			family=35
+			government = theocratic_monarchy
 			primary_culture = bantan
 			religion = satakalite_pantheon
 			capital = 6477
