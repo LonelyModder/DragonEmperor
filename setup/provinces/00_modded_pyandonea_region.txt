@@ -189,7 +189,7 @@
 }
 
 6434={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -740,7 +740,7 @@
 }
 
 6463={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -873,7 +873,7 @@
 }
 
 6470={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -892,7 +892,7 @@
 }
 
 6471={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -911,7 +911,7 @@
 }
 
 6472={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -930,7 +930,7 @@
 }
 
 6473={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -949,7 +949,7 @@
 }
 
 6474={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -968,7 +968,7 @@
 }
 
 6475={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -987,7 +987,7 @@
 }
 
 6476={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1006,7 +1006,7 @@
 }
 
 6477={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1025,7 +1025,7 @@
 }
 
 6478={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1044,7 +1044,7 @@
 }
 
 6479={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1063,7 +1063,7 @@
 }
 
 6480={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1082,7 +1082,7 @@
 }
 
 6481={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1101,7 +1101,7 @@
 }
 
 6482={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1120,7 +1120,7 @@
 }
 
 6483={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1139,7 +1139,7 @@
 }
 
 6484={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1158,7 +1158,7 @@
 }
 
 6485={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1196,7 +1196,7 @@
 }
 
 6487={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1215,7 +1215,7 @@
 }
 
 6488={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1234,7 +1234,7 @@
 }
 
 6489={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1253,7 +1253,7 @@
 }
 
 6490={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1272,7 +1272,7 @@
 }
 
 6491={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1291,7 +1291,7 @@
 }
 
 6492={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1310,7 +1310,7 @@
 }
 
 6493={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1329,7 +1329,7 @@
 }
 
 6494={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1348,7 +1348,7 @@
 }
 
 6495={ 
-	terrain="jungle"
+	terrain="hills"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1424,26 +1424,29 @@
 }
 
 6499={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 6500={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1462,7 +1465,7 @@
 }
 
 6501={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1481,7 +1484,7 @@
 }
 
 6502={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1500,7 +1503,7 @@
 }
 
 6503={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1519,7 +1522,7 @@
 }
 
 6504={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1576,7 +1579,7 @@
 }
 
 6507={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1595,7 +1598,7 @@
 }
 
 6508={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1614,7 +1617,7 @@
 }
 
 6509={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1633,7 +1636,7 @@
 }
 
 6510={ 
-	terrain="jungle"
+	terrain="farmland"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -1652,7 +1655,7 @@
 }
 
 6511={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2222,7 +2225,7 @@
 }
 
 6541={ 
-	terrain="jungle"
+	terrain="plains"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2773,7 +2776,7 @@
 }
 
 6570={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2792,7 +2795,7 @@
 }
 
 6571={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2811,7 +2814,7 @@
 }
 
 6572={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2830,7 +2833,7 @@
 }
 
 6573={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2849,7 +2852,7 @@
 }
 
 6574={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2868,7 +2871,7 @@
 }
 
 6575={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2887,7 +2890,7 @@
 }
 
 6576={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2906,7 +2909,7 @@
 }
 
 6577={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2925,7 +2928,7 @@
 }
 
 6578={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2944,7 +2947,7 @@
 }
 
 6579={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -2963,7 +2966,7 @@
 }
 
 6580={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -3001,7 +3004,7 @@
 }
 
 6582={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"
@@ -3058,7 +3061,7 @@
 }
 
 6585={ 
-	terrain="jungle"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="slavic_pantheon"
 	culture="wvenedi"

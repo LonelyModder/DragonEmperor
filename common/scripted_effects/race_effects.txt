@@ -12,6 +12,7 @@
 			NOT = { has_trait = lilmothit }
 			NOT = { has_trait = sload }
 			NOT = { has_trait = bosmer }
+			NOT = { has_trait = moarmer }
 			NOT = { has_trait = goblin }
 			NOT = { has_trait = tnede }
 			NOT = { has_trait = orc }
@@ -47,6 +48,12 @@
 				has_culture_group = bosmer
 			}
 			add_trait = bosmer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = moarmer
+			}
+			add_trait = moarmer
 		}
 		else_if = {
 			limit = {

@@ -18,6 +18,7 @@ esfa_traits.1 = {
 					NOT = { has_trait = impure }
 				}
 				NOT = { has_trait = bosmer }
+				NOT = { has_trait = moarmer }
 				NOT = { has_trait = goblin }
 				NOT = { has_trait = tnede }
 				NOT = { has_trait = orc }
@@ -53,6 +54,13 @@ esfa_traits.1 = {
 				}
 				add_trait = bosmer
 			}	
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = moarmer }
+				}
+				add_trait = moarmer
+			}
 			else_if = { 
 				limit = {
 					# NOT = { father = { has_trait = minotaur } }
@@ -152,6 +160,7 @@ esfa_traits.1 = {
 								OR = { 
 									has_trait = ayleid
 									has_trait = bosmer 	
+									has_trait = moarmer 
 									has_trait = tnede 
 									has_trait = goblin 
 									has_trait = orc

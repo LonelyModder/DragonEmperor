@@ -234,3 +234,13 @@ lilmothit_pantheon = { # Fox-folk Faith
 	religion_category = prophets
 	can_deify_ruler = no
 }
+
+satakalite_pantheon = { # Satakal Faith
+	color = hsv { 0.5 1.0 0.5 }
+	modifier = { 
+		war_exhaustion = -0.025
+		agressive_expansion_monthly_change = -0.025
+		stability_cost_modifier = 0.2
+	}
+	religion_category = pantheon
+}

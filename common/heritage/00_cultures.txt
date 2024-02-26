@@ -15,6 +15,21 @@ altmer_heritage = {
 	}
 }
 
+moarmer_heritage = { 
+	modifier = {
+		#good
+		naval_unit_attrition = -1.0
+		navy_maintenance_cost = -0.5
+		
+		#bad
+		diplomatic_relations = -1
+	}
+	
+	trigger = {
+		country_culture_group = moarmer
+	}
+}
+
 sload_heritage = { 
 	modifier = {
 		#good
