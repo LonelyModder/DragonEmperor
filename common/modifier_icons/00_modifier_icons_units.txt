@@ -358,6 +358,36 @@ lv_gryphons_movement_speed = {
     positive = "gfx/interface/icons/font_icons/font_icon_lv_gryphons.dds"
 }
 
+#Sea Snakes
+
+seasnake_discipline = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_morale = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_offensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_defensive = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_maintenance_cost = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
+seasnake_movement_speed = {
+    positive = "gfx/interface/icons/font_icons/font_icon_seasnake.dds"
+}
+
 #Warriors
 
 lv_warriors_discipline = {

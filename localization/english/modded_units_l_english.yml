@@ -20,6 +20,7 @@
  lv_clanfear:0 "Clanfears"
  lv_bonelord:0 "Bonelords"
  lv_bonewalker:0 "Bonewalkers" 
+ seasnake:0 "Sea Snakes"
  
  lv_lightinfantry_noculturegroup:0 "Light Infantry"
  lv_heavyinfantry_noculturegroup:0 "Heavy Infantry"	
@@ -39,6 +40,7 @@
  lv_clanfear_noculturegroup:0 "Clanfears"
  lv_bonelord_noculturegroup:0 "Bonelords"
  lv_bonewalker_noculturegroup:0 "Bonewalkers"
+ seasnake_noculturegroup:0 "Sea Snakes"
  
  lv_lightinfantry_desc:0 "Weakerly armed troops. The lack of heavy armor gives them mobility on the battlefield. They can move quickly."
  lv_heavyinfantry_desc:0 "Heavily armed units to take the enemy's main attack. Most often, they are accompanied by auxiliary units to ensure that the formation is not surrounded."	
@@ -53,11 +55,13 @@
  lv_undead_desc:0 "The bodies of the dead controlled by magic. Although they have no soul, the energy they have left is enough to use them in battle."	
  lv_gryphons_desc:0 "Flying creatures with the body of a lion and the head of an eagle used by the elves and controlled by a telepathic link."	
  lv_warriors_desc:0 "Citizens called into service. Their quality depends on the culture they belong to. For example Nordic warriors can go toe to toe with elven footmen."
- lv_raiders_desc:0 "In more barbaric cultures some soldiers lack discipline and instead of persue enemy they start looting. They can be useful for psychological effect thou. Why fight if you will have nothing to fight for." 
+ lv_raiders_desc:0 "In more barbaric cultures some soldiers lack discipline and instead of persue enemy they start looting. They can be useful for psychological effect thou." 
  lv_atronach_desc:0 "Special kind of deadra. A spirit connected to force of nature like fire, frost or electricity. They tend to lack loyalty to any particular prince of oblivion."
  lv_clanfear_desc:0 "Large reptilian beast that unleashed upon enemy tears enemy soldiers apart. They do not posess idea of fear and it is hard to stop their charges."
  lv_bonelord_desc:0 "Bodies of powerful individuals that posess traces of magical talent of the former owner. Only powerful necromancers can summon them."
  lv_bonewalker_desc:0 "It is not known how they are created (not in known ritual) but they carry parts from multiple bodies. They can spread deseases."
+ seasnake_desc:0 "Large serpent-like creatures that live in the waters of Pyandonea. Sea elves breed and ride these magnificent beasts to battle."
+ 
  #Combat Bonuses
  
  lv_lightinfantry_discipline:0 "Light Infantry Discipline"

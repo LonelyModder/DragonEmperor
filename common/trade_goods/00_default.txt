@@ -283,6 +283,23 @@ wood = { #558 territories
 	color = hsv { 0.3 0.9 0.1 }
 }
 
+seasnakes = { #558 territories
+	category = 0
+
+	allow_unit_type = seasnake
+	
+	gold = 0.5
+	
+	province = {
+		local_manpower_modifier = 0.02
+	}
+	country = {
+		global_ship_recruit_speed = 0.25
+	}
+
+	color = hsv { 0.47 0.67 0.81 }
+}
+
 amber = { #23 Territories
 	category = 3
 	
@@ -444,10 +461,24 @@ wild_game = { #190 territories
 	}
 	country = {
 		lv_archers_discipline = 0.05
-		lv_warriors_discipline = 0.05
 	}
 
 	color = hsv { 0.1 0.4 0.25 }
+}
+
+yewtree = { #190 territories
+	category = 5
+	
+	gold = 0.35
+	
+	province = {
+		local_tribesmen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_archers_discipline = 0.05
+	}
+
+	color = hsv { 0.04 0.8 0.63 }
 }
 
 stafftrees = { #190 territories
