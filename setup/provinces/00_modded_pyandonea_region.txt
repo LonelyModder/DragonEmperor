@@ -39,19 +39,19 @@
 6426={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="antean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -267,19 +267,19 @@
 6438={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="antean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -419,19 +419,19 @@
 6446={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="antean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -456,7 +456,7 @@
 
 6448={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -685,19 +685,19 @@
 6460={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="antean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -760,7 +760,7 @@
 
 6464={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -875,19 +875,22 @@
 6470={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1163,19 +1166,22 @@
 6485={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1257,7 +1263,7 @@
 
 6490={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1334,19 +1340,19 @@
 6494={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1656,7 +1662,7 @@
 
 6511={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -1676,19 +1682,22 @@
 6512={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1732,7 +1741,7 @@
 
 6515={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2226,7 +2235,7 @@
 
 6541={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2246,19 +2255,19 @@
 6542={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="bantan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -2531,19 +2540,19 @@
 6557={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="vallan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -2701,7 +2710,7 @@
 
 6566={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -2949,19 +2958,19 @@
 6579={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="vallan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3177,19 +3186,19 @@
 6591={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="vallan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3424,38 +3433,38 @@
 6604={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="vallan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 6605={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="satakalite_pantheon"
+	culture="vallan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=8
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3480,7 +3489,7 @@
 
 6607={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
@@ -3537,7 +3546,7 @@
 
 6610={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="seasnakes"
 	religion="slavic_pantheon"
 	culture="wvenedi"
 	civilization_value=0

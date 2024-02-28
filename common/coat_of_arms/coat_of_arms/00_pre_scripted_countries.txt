@@ -142,6 +142,17 @@ CAA = { #Temple of Ancestors
 	}
 }
 
+PAA = { #Kingdom of Pyandonea
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 53 108 150 }
+	color2 = rgb { 53 108 150 }
+
+	colored_emblem = {
+		texture = "ce_seaserpent.dds"
+		color1 = rgb { 25 25 25 }
+	}
+}
+
 VAA = { #Valenwood
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 255 255 255 }

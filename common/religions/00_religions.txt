@@ -240,7 +240,18 @@ satakalite_pantheon = { # Satakal Faith
 	modifier = { 
 		war_exhaustion = -0.025
 		agressive_expansion_monthly_change = -0.025
-		stability_cost_modifier = 0.2
+		diplomatic_reputation = -2
 	}
 	religion_category = pantheon
+}
+
+sithis_pantheon = { # Sithis Faith
+	color = hsv { 0.96 0.73 0.48 }
+	modifier = { 
+		omen_power = 0.2
+		war_exhaustion = -0.025
+		global_pop_conversion_speed_modifier = -0.5
+	}
+	religion_category = prophets
+	can_deify_ruler = no
 }

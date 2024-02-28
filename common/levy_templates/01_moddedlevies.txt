@@ -289,7 +289,8 @@ levy_sloadan = { #sloadan militia
 levy_moarmeri = { #sloadan militia
 	default = no
 
-	lv_lightinfantry = 0.6
+	lv_lightinfantry = 0.3
+	lv_warriors = 0.3
 	lv_archers = 0.2
 	lv_raiders = 0.2
 }

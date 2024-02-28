@@ -10,6 +10,7 @@
 		has_trait = sload
 	}
 	NOT={ has_trait = halfauroran }
+	NOT={ has_trait = satakalam }
 	NOT={ has_trait = lower_vampire }
 	NOT={ has_trait = half_vampire }
 	NOT={ has_trait = full_vampire }
@@ -20,6 +21,7 @@
 is_immortal_trigger = {
 	OR = {
 		has_trait = halfauroran
+		has_trait = satakalam
 		has_trait = lower_vampire
 		has_trait = half_vampire
 		has_trait = full_vampire

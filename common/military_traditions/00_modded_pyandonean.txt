@@ -1,0 +1,99 @@
+﻿pyandonean_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = pyandonean_philosophy
+	
+	allow = {
+		trigger_if = {
+			limit = { 
+					country_culture_group = moarmer
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = moarmer
+		}
+		trigger_else_if = {
+			limit = {
+				AND = {
+					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = dwemer_states_path_end_bonus
+					}
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:moarmer
+					}
+				}
+			}
+			any_country_culture = {
+				AND = {
+					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = dwemer_states_path_end_bonus
+					}
+					custom_tooltip = {
+						text = tradition_unlock_requirement_short
+						is_integrated = yes
+						this.culture.culture_group = culture_group:moarmer
+					}
+				}
+			}
+		}
+		trigger_else = {
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = dwemer_states_path_end_bonus
+				}
+				custom_tooltip = {
+					text = "tradition_unlock_requirement_moarmer"
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:moarmer
+					}
+				}
+			}
+		}
+	}
+	
+	moarmer_path_1 = { ###altmer path
+		modifier = { 
+			lv_warriors_discipline = 0.1
+		}
+		icon = moarmer_mini_trad
+		requires = {}
+	}
+	
+	moarmer_path_2 = { ###altmer path
+		modifier = { 
+			naval_damage_done = 0.05
+			global_ship_recruit_speed = 0.15
+		}
+		icon = moarmer_mini_trad
+		requires = {moarmer_path_1}
+	}
+	
+	moarmer_states_path_end_bonus = {
+		modifier = { 
+			lv_warriors_offensive = 0.15
+			ocean_combat_bonus = 0.2
+		}
+		requires = { moarmer_path_5a moarmer_path_6b } 
+		icon = moarmer_mini_trad 
+	}
+}
