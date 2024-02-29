@@ -19,7 +19,7 @@ moarmer_heritage = {
 	modifier = {
 		#good
 		naval_unit_attrition = -1.0
-		navy_maintenance_cost = -0.5
+		navy_maintenance_cost = -0.25
 		
 		#bad
 		diplomatic_relations = -1
@@ -248,6 +248,21 @@ argonian_heritage = {
 	
 	trigger = {
 		country_culture_group = argonian
+	}
+}
+
+lizardbull_heritage = { 
+	modifier = {
+		#good
+		hostile_attrition = 0.2
+		jungle_combat_bonus = 0.2
+		
+		#bad
+		research_points_modifier = -0.1
+	}
+	
+	trigger = {
+		country_culture_group = lizardbull
 	}
 }
 

@@ -81,19 +81,111 @@
 	
 	moarmer_path_2 = { ###altmer path
 		modifier = { 
-			naval_damage_done = 0.05
-			global_ship_recruit_speed = 0.15
+			jungle_combat_bonus = 0.15
+			coastal_terrain_combat_bonus = 0.15
 		}
 		icon = moarmer_mini_trad
 		requires = {moarmer_path_1}
 	}
 	
+	moarmer_path_3 = { ###altmer path
+		modifier = { 
+			ship_cost = -0.25
+			global_ship_recruit_speed = 0.25
+		}
+		icon = moarmer_mini_trad
+		requires = {moarmer_path_2}
+	}
+	
+	moarmer_path_3a = {
+		modifier = { 
+			naval_damage_done = 0.05
+			ocean_combat_bonus = 0.15
+		}
+		icon = moarmer_mini_trad
+		enable_ability = naval_raiding
+		requires = { moarmer_path_3 }
+	}
+	
+	moarmer_path_4a = {
+		modifier = { 
+			naval_damage_done = 0.1
+		}
+		icon = moarmer_mini_trad
+		requires = { moarmer_path_3a }
+	}
+	
+	moarmer_path_5a = {
+		modifier = { 
+			
+		}
+		icon = moarmer_mini_trad
+		allow_unit_type = octere
+		requires = { moarmer_path_4a }
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = octere
+						add_subunit = octere
+					}
+				}
+			}
+		}
+	}
+	
+	moarmer_path_6a = {
+		modifier = { 
+			
+		}
+		icon = moarmer_mini_trad
+		allow_unit_type = mega_galley
+		requires = { moarmer_path_5a }
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = mega_galley
+					}
+				}
+			}
+		}
+	}
+	
+	moarmer_path_3b = {
+		modifier = { 
+			lv_archers_offensive = 0.1
+			lv_archers_defensive = 0.1
+		}
+		icon = moarmer_mini_trad
+		requires = { moarmer_path_3 }
+	}
+	
+	moarmer_path_4b = {
+		modifier = { 
+			lv_raiders_offensive = 0.1
+			lv_raiders_defensive = 0.1
+		}
+		icon = moarmer_mini_trad
+		requires = { moarmer_path_3b }
+	}
+	
 	moarmer_states_path_end_bonus = {
 		modifier = { 
-			lv_warriors_offensive = 0.15
+			lv_raiders_offensive = 0.15
 			ocean_combat_bonus = 0.2
 		}
-		requires = { moarmer_path_5a moarmer_path_6b } 
+		requires = { moarmer_path_6a moarmer_path_6b } 
 		icon = moarmer_mini_trad 
 	}
 }

@@ -2707,7 +2707,10 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = argonian
+				OR = {
+					has_culture_group = argonian
+					has_culture_group = lizardbull
+				}
 			}
 		}
 		commander = {

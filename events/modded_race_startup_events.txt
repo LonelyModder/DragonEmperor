@@ -188,7 +188,10 @@ race_startup.2 = {
 				}
 				else_if = {
 					limit = {
-						has_culture_group = argonian
+						OR = {
+							has_culture_group = argonian
+							has_culture_group = lizardbull
+						}
 					}
 					add_trait = argonian
 					remove_trait = pure

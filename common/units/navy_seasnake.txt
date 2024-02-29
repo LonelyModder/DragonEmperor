@@ -1,12 +1,11 @@
 ﻿seasnake = {
 	#Tens and up
 	army = no
-	enable = no
 	category = light
 	port_level = 1
 
 	allow = {
-		trade_good_surplus = { target = wood value > 0 }
+		trade_good_surplus = { target = seasnakes value > 0 }
 	}
 
 	maneuver = 4
