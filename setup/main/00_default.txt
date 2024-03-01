@@ -8846,6 +8846,16 @@ country = {
 			religion = satakalite_pantheon
 			capital = 6477
 			
+			poptype_rights = {
+				{
+					culture = vallan 
+					type = citizen
+				}
+				{
+					culture = antean 
+					type = citizen
+				}
+			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
