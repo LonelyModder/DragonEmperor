@@ -774,6 +774,10 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	6526 = {
+		fortress_building = 1
+		port_building = 2
+	}
 	5704 = {
 		fortress_building = 1
 		port_building = 2
@@ -2936,6 +2940,24 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Pyandonea
+	6477=6478
+	6478=6501
+	6501=6500
+	6500=6499
+	6499=6509
+	6509=6511
+	6511=6512
+	6499=6491
+	6491=6483
+	6483=6484
+	6484=6485
+	6478=6479 
+	6479=6476
+	6476=6474
+	6474=6472
+	6472=6470
+	6479=6501
 	#Cyrodiil
 	1073=4577
 	4577=1071
@@ -8872,6 +8894,50 @@ country = {
 				6498 6513 6514 6515 6517 6518 6519 6520 6521 6522 6523 6529 6530 6528 6525 6527 6531 6533 6526 6532 6534 6535
 				6542 6541 6503 6543 6545 6544 6548 6547 6546 6536 6460 6557 6579 6578 6577 6572 6560 6559 6563 6564
 			}
+		}
+		
+		PAB= {          
+			government = tribal_kingdom
+			primary_culture = xuatar
+			religion = sithis_pantheon
+			capital = 6456
+			
+			own_control_core = 	{ 
+				6456 6457 6458 6459 6453 6454 6455
+			}  
+		}
+		
+		PAC= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6610
+			
+			own_control_core = 	{ 
+				6610 6611 6609
+			}  
+		}
+		
+		PAD= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6606
+			
+			own_control_core = 	{ 
+				6606 6607 6608
+			}  
+		}
+		
+		PAE= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6600
+			
+			own_control_core = 	{ 
+				6600 6598 6599 6601 6602 6603
+			}  
 		}
 	}
 }
