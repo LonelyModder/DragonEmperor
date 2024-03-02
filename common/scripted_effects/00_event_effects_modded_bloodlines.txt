@@ -12,6 +12,7 @@ pass_down_traits_effect = {
 						has_trait = dynar
 						has_trait = ulorome
 						has_trait = tor
+						has_trait = adhal
 						has_trait = ceyatar
 						has_trait = ninendava
 						has_trait = miscarcandite
@@ -139,6 +140,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = tor
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = adhal
+					}
+					NOT = {
+						has_trait = adhal
+					}
+				}
+				add_trait = adhal
 			}
 			if = {
 				limit = {
@@ -363,6 +375,18 @@ pass_down_traits_effect = {
 			limit = {
 				exists = mother
 				mother = {
+					has_trait = adhal
+				}
+				NOT = {
+					has_trait = adhal
+				}
+			}
+			add_trait = adhal
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
 					has_trait = ulorome
 				}
 				NOT = {
@@ -574,6 +598,14 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = tor
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = adhal
+			}
+		}
+		add_trait = adhal
 	}
 	if = {
 		limit = {
