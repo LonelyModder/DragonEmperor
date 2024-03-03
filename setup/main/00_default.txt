@@ -8939,6 +8939,105 @@ country = {
 				6600 6598 6599 6601 6602 6603
 			}  
 		}
+		
+		PAF= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6594
+			
+			own_control_core = 	{ 
+				6594 6595 6597 6596 
+			}  
+		}
+		
+		PAG= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6587
+			
+			own_control_core = 	{ 
+				6587 6589 6585 6586 6588
+			}  
+		}
+		
+		PAH= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6593
+			
+			own_control_core = 	{ 
+				6593 6590 6592
+			}  
+		}
+		
+		PAI= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6568
+			
+			own_control_core = 	{ 
+				6568 6567 6566 6571 6570 6576 6575
+			}  
+		}
+		
+		PAJ= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6582
+			
+			own_control_core = 	{ 
+				6582 6580 6574 6573
+			}  
+		}
+		
+		PAK= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6549
+			
+			own_control_core = 	{ 
+				6549 6569 6581 6584 6583
+			}  
+		}
+		
+		PAL= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6561
+			
+			own_control_core = 	{ 
+				6561 6562 6565 6558
+			}  
+		}
+		
+		PAM= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6540
+			
+			own_control_core = 	{ 
+				6540 6556 6539 6538 6537
+			}  
+		}
+		
+		PAN= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6553
+			
+			own_control_core = 	{ 
+				6553 6555 6554 6550 6552
+			}  
+		}
 	}
 }
 
