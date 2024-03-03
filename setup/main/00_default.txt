@@ -299,6 +299,13 @@ treasure_manager = {
 				local_cohort_start_experience = 15
 			}
 		}
+		43 = { # Abbarbas
+			key = "treasure_orgnums_coffer"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_tax_modifier = 0.25
+			}
+		}
     }
 }
 family={
@@ -628,6 +635,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	6032 = { # Helstrom
 		treasure_slots = { 	treasures = { 41 } }
+	}
+	6477 = { # Abbarbas
+		treasure_slots = { 	treasures = { 43 } }
 	}
 	
 	#Pirates
