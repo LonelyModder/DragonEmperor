@@ -477,6 +477,15 @@ texticon = {
     }
 }	
 texticon = {
+    icon = seasnake
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/seasnake.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+texticon = {
     icon = lv_cavalry
     iconsize = {
         texture = "gfx/interface/icons/subunits/lv_cavalry.dds"
