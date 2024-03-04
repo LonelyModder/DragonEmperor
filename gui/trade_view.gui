@@ -435,7 +435,7 @@ base_window = {
 								position = { 0 4 }
 								size = { 100% 100% }
 								maxhorizontalslots = 7
-								datamodel_wrap = 11 #Trade goods amount slider
+								datamodel_wrap = 12 #Trade goods amount slider
 								
 								datamodel = "[TradeView.GetAvailableTradeGoods]"
 								

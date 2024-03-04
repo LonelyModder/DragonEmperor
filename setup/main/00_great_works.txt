@@ -71,6 +71,9 @@ provinces = {
 	5985={ # Xinchei-Konu
 		great_work=24
 	}
+	6477={ # Orgnum's Palace
+		great_work=25
+	}
 }
 
 great_work_manager={	
@@ -619,6 +622,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_xincheikonu"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		25={
+			ancient_wonder = yes
+			key="orgnumspalace"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_orgnumspalace"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_orgnumspalace"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_orgnumspalace"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

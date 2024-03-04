@@ -10,7 +10,7 @@
 			}
 			#is_tribal = yes
 			NOT = {
-				tag = XPY
+				tag = PAA
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes
@@ -45,7 +45,7 @@
 				text = hkpyandonea_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XPY
+						tag = PAA
 					}
 				}
 			}

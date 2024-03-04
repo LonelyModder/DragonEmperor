@@ -264,6 +264,12 @@ wonder_dragonsreach={
 	great_work_category_slot=0
 }
 
+wonder_orgnumspalace={
+	entity_name={"chinese_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_highelves_02_01={
 	entity_name={"highelves_02_01_entity"}
 	great_work_category="gw_category_ancient"
