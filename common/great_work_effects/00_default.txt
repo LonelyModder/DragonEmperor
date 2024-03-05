@@ -2584,6 +2584,53 @@ gw_effect_wyrdtree = {
 	}
 }
 
+gw_effect_sunatemple = {
+	icon = "gw_effect_government_education"	
+
+	flags = {
+		"population"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_sunatemple_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				global_pop_conversion_speed_modifier = 0.05
+				land_morale_modifier = 0.04
+				monthly_tyranny = 0.02
+			}
+		}
+		gw_effect_sunatemple_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				global_pop_conversion_speed_modifier = 0.07
+				land_morale_modifier = 0.06
+				monthly_tyranny = -0.03
+			}
+		}
+		gw_effect_sunatemple_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				global_pop_conversion_speed_modifier = 0.08
+				land_morale_modifier = 0.08
+				monthly_tyranny = -0.04
+			}
+		}
+		gw_effect_sunatemple_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				global_pop_conversion_speed_modifier = 0.1
+				land_morale_modifier = 0.1
+				monthly_tyranny = -0.05
+			}
+		}
+	}
+}
+
 gw_effect_arcaneuniversity = {
 	icon = "gw_effect_government_education"	
 
