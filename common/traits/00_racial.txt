@@ -127,6 +127,17 @@ bosmer = {
 	
 }
 
+moarmer = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	charisma = 1
+	martial = 3
+	zeal = 2
+	
+}
+
 pure = {
 	type = personality
 	opposites = {

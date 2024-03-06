@@ -16,6 +16,7 @@ character_events.35 = {
 						has_trait = dynar
 						has_trait = ulorome
 						has_trait = tor
+						has_trait = adhal
 						has_trait = ceyatar
 						has_trait = ninendava
 						has_trait = miscarcandite
@@ -131,6 +132,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = tor
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = adhal
+					}
+					NOT = {
+						has_trait = adhal
+					}
+				}
+				add_trait = adhal
 			}
 			if = {
 				limit = {
@@ -350,6 +362,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = tor	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = adhal
+				}
+				NOT = {
+					has_trait = adhal
+				}
+			}
+			add_trait = adhal	
 		}
 		if = {
 			limit = {

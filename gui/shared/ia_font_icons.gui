@@ -221,6 +221,26 @@ texticon = {
 }
 
 texticon = {
+    icon = seasnakes
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/seasnakes.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
+    icon = yewtree
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/yewtree.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = griphons
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/griphons.dds"
@@ -456,6 +476,15 @@ texticon = {
         fontsize = 16
     }
 }	
+texticon = {
+    icon = seasnake
+    iconsize = {
+        texture = "gfx/interface/icons/subunits/seasnake.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
 texticon = {
     icon = lv_cavalry
     iconsize = {

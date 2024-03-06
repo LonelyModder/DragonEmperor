@@ -320,3 +320,38 @@ esfa_startup.18 = { #Sload
 		region:modded_auridon_region = { formable_region_province_effect = yes }
     }
 }
+
+esfa_startup.19 = { #Moarmer
+    type = country_event
+    title = esfa_startup.19.t
+    desc = esfa_startup.19.desc
+    picture = welcoming_window_19
+	
+    trigger = {
+		country_culture_group = moarmer
+    }
+
+    option = {    
+        name = esfa_startup.19.a
+		region:modded_dusk_region = { formable_region_province_effect = yes }
+		region:modded_shimmerene_region = { formable_region_province_effect = yes }
+		region:modded_etonnir_region = { formable_region_province_effect = yes }
+		region:modded_alinor_region = { formable_region_province_effect = yes }
+		region:modded_auridon_region = { formable_region_province_effect = yes }
+    }
+}
+
+esfa_startup.20 = { #Lizard Bulls
+    type = country_event
+    title = esfa_startup.20.t
+    desc = esfa_startup.20.desc
+    picture = welcoming_window_20
+	
+    trigger = {
+		country_culture_group = lizardbull
+    }
+
+    option = {    
+        name = esfa_startup.20.a
+    }
+}

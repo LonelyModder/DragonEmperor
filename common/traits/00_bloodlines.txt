@@ -13,6 +13,21 @@
 	
 }
 
+adhal = {
+	type = status
+	
+	prominence = 20
+	finesse = 1
+	
+	support_for_character_as_heir = 10
+
+	country = {
+		global_commerce_modifier = 0.1
+		monthly_wage_modifier = -0.08
+	}
+	
+}
+
 ulorome = {
 	type = status
 	

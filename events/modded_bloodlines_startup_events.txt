@@ -456,7 +456,7 @@ bloodlines_startup.18 = { #Begalin Clan
 
 }
 
-bloodlines_startup.19 = { #Begalin Clan
+bloodlines_startup.19 = { #Corelanya Clan
 	type = country_event
 	hidden = yes
 	
@@ -470,6 +470,29 @@ bloodlines_startup.19 = { #Begalin Clan
 				has_same_family = char:57
 			}
 			add_trait = corelanya
+		}
+		hidden_effect = {
+			trigger_event = { id = bloodlines_setup_completion.1 }
+		}
+	
+	}
+
+}
+
+bloodlines_startup.20 = { #Adhal Clan - Orgnum
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		tag = PAA
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				has_same_family = char:58
+			}
+			add_trait = adhal
 		}
 		hidden_effect = {
 			trigger_event = { id = bloodlines_setup_completion.1 }

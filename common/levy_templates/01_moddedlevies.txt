@@ -283,3 +283,14 @@ levy_sloadan = { #sloadan militia
 	lv_bonelord = 0.1
 	lv_bonewalker = 0.2
 }
+
+#Sea Elven militia
+
+levy_moarmeri = { #sloadan militia
+	default = no
+
+	lv_lightinfantry = 0.3
+	lv_warriors = 0.3
+	lv_archers = 0.2
+	lv_raiders = 0.2
+}

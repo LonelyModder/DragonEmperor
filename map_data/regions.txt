@@ -11,6 +11,40 @@ modded_tmp_region = {
 	}
 }
 
+modded_bormountains_region = {
+	areas = {
+		kituna_area
+		southakuna_area
+		arcantys_area
+		bondar_area
+		baga_area
+		vallasbor_area
+	}
+}
+
+modded_banta_region = {
+	areas = {
+		wega_area
+		secula_area
+		abbarbas_area
+		pontu_area
+		gaddu_area
+		pyanda_area
+		northernakuna_area
+		etho_area #isle
+	}
+}
+
+modded_altea_region = {
+	areas = {
+		roaandkhael_area
+		mantu_area
+		tiguna_area
+		cato_area
+		pyrrahn_area
+	}
+}
+
 modded_murkwood_region = {
 	areas = {
 		onkobra_area

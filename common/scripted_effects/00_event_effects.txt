@@ -2625,6 +2625,23 @@ add_relevant_loyal_subunit_effect = {
 	else_if = {
 		limit = {
 			exists = commander
+			has_culture_group = moarmer
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_raiders
+			}
+			25 = {
+				add_loyal_subunit = lv_lightinfantry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
 			commander = {
 				has_culture_group = orcish
 			}
@@ -2690,7 +2707,10 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
-				has_culture_group = argonian
+				OR = {
+					has_culture_group = argonian
+					has_culture_group = lizardbull
+				}
 			}
 		}
 		commander = {

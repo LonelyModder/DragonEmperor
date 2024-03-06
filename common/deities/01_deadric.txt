@@ -75,6 +75,9 @@ deity_clavicusvile = {
 			common_deity_trigger = {
 				RELIGION = night_pantheon
 			}
+			common_deity_trigger = {
+				RELIGION = satakalite_pantheon
+			}
 			deity:omen_boethiah = {
 				holy_site_deity_check_trigger = yes
 			}
@@ -104,7 +107,9 @@ deity_hermeusmora = {
 			common_deity_trigger = {
 				RELIGION = green_pantheon
 			}
-			
+			common_deity_trigger = {
+				RELIGION = satakalite_pantheon
+			}
 			deity:omen_hermeusmora = {
 				holy_site_deity_check_trigger = yes
 			}

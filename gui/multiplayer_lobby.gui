@@ -272,6 +272,29 @@ types MultiplayerLobby
 						#portrait_texture = "gfx/portraits/altmer_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
 					}
+					#Moarmer
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'moarmer'))]"
+						#portrait_texture = "gfx/portraits/altmer_male.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'moarmer'))]"
+						#portrait_texture = "gfx/portraits/altmer_female.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
 					#Lilmothit
 					portrait_button = {
 						size = { 100 160 }
@@ -523,6 +546,29 @@ types MultiplayerLobby
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
 						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'kothri'))]"
 						#portrait_texture = "gfx/portraits/nede_female.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
+					#Lizard Bull
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lizardbull'))]"
+						portrait_texture = "gfx/portraits/argonian_male.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'lizardbull'))]"
+						portrait_texture = "gfx/portraits/argonian_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
 					}
 					#Reachmen
@@ -884,6 +930,29 @@ types MultiplayerLobby
 						tooltipwidget = Character_tooltip
 						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
 						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'altmer'))]"
+						#portrait_texture = "gfx/portraits/falmer_female.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
+					}
+					#Moarmer
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'moarmer'))]"
+						#portrait_texture = "gfx/portraits/altmer_male.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler.GetCulture.GetCultureGroup.GetKey, 'moarmer'))]"
 						#portrait_texture = "gfx/portraits/falmer_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetCoRuler]" }
 					}

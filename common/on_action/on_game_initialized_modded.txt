@@ -68,6 +68,9 @@ on_game_initialized = {
 		esfa_startup.14
 		esfa_startup.15
 		esfa_startup.16
+		esfa_startup.17
+		esfa_startup.18
+		esfa_startup.19
 		#Bloodlines
 		bloodlines_startup.1  #Aranas
 		bloodlines_startup.2  #Umaril
@@ -88,6 +91,7 @@ on_game_initialized = {
 		bloodlines_startup.17  #Companions Descendants
 		bloodlines_startup.18  #Begalin Clan
 		bloodlines_startup.19  #Corelanya Clan - before moving to Hamerfell
+		bloodlines_startup.20  #Adhal Clan - Orgnum
 		#Militarism level mechanic
 		militarism_events.1
 	}

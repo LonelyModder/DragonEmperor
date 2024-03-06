@@ -32,6 +32,7 @@ race_startup.2 = {
 				limit = {
 					NOT = { has_trait = altmer }
 					NOT = { has_trait = bosmer }
+					NOT = { has_trait = moarmer }
 					NOT = { has_trait = lilmothit }
 					NOT = { has_trait = sload }
 					NOT = { has_trait = goblin }
@@ -75,6 +76,14 @@ race_startup.2 = {
 						has_culture_group = bosmer
 					}
 					add_trait = bosmer
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = moarmer
+					}
+					add_trait = moarmer
 					remove_trait = pure
 					remove_trait = impure
 				}
@@ -179,7 +188,10 @@ race_startup.2 = {
 				}
 				else_if = {
 					limit = {
-						has_culture_group = argonian
+						OR = {
+							has_culture_group = argonian
+							has_culture_group = lizardbull
+						}
 					}
 					add_trait = argonian
 					remove_trait = pure

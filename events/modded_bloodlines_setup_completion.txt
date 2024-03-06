@@ -173,6 +173,18 @@ bloodlines_setup_completion.1 = {
 				limit = {
 					exists = father
 					father = {
+						has_trait = adhal
+					}
+					NOT = {
+						has_trait = adhal
+					}
+				}
+				add_trait = adhal
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
 						has_trait = ceyatar
 					}
 					NOT = {
@@ -408,6 +420,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = tor	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = adhal
+					}
+					NOT = {
+						has_trait = adhal
+					}
+				}
+				add_trait = adhal	
 			}
 			if = {
 				limit = {

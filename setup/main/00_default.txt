@@ -299,6 +299,13 @@ treasure_manager = {
 				local_cohort_start_experience = 15
 			}
 		}
+		43 = { # Abbarbas
+			key = "treasure_orgnums_coffer"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_tax_modifier = 0.25
+			}
+		}
     }
 }
 family={
@@ -510,6 +517,12 @@ family={
 			culture = sommersetic
 			prestige=300
 		}
+		35={
+			key="Adhal"
+			owner=PAA
+			culture = bantan
+			prestige=300
+		}
 		
 		}
 }
@@ -622,6 +635,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	6032 = { # Helstrom
 		treasure_slots = { 	treasures = { 41 } }
+	}
+	6477 = { # Abbarbas
+		treasure_slots = { 	treasures = { 43 } }
 	}
 	
 	#Pirates
@@ -768,6 +784,10 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	6526 = {
+		fortress_building = 1
+		port_building = 2
+	}
 	5704 = {
 		fortress_building = 1
 		port_building = 2
@@ -819,10 +839,50 @@ provinces = { #Any entry must contain a comment with city name.
 	5980 = {
 		port_building = 1
 	}
+	6477 = {
+		port_building = 2
+	}
 	5182 = {
 		port_building = 2
 	}
 	5139 = {
+		port_building = 2
+	}
+	6494 = {
+		port_building = 2
+	}
+	6572 = {
+		port_building = 2
+	}
+	6563 = {
+		port_building = 2
+	}
+	6470 = {
+		port_building = 2
+	}
+	6542 = {
+		port_building = 2
+		fortress_building = 1
+	}
+	6438 = {
+		port_building = 2
+	}
+	6426 = {
+		port_building = 2
+	}
+	6446 = {
+		port_building = 2
+	}
+	6460 = {
+		port_building = 2
+	}
+	6604 = {
+		port_building = 2
+	}
+	6591 = {
+		port_building = 2
+	}
+	6605 = {
 		port_building = 2
 	}
 	5521 = {
@@ -2890,6 +2950,24 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Pyandonea
+	6477=6478
+	6478=6501
+	6501=6500
+	6500=6499
+	6499=6509
+	6509=6511
+	6511=6512
+	6499=6491
+	6491=6483
+	6483=6484
+	6484=6485
+	6478=6479 
+	6479=6476
+	6476=6474
+	6474=6472
+	6472=6470
+	6479=6501
 	#Cyrodiil
 	1073=4577
 	4577=1071
@@ -8790,6 +8868,184 @@ country = {
 			
 			own_control_core = 	{ 
 				6105 6084 6083 6082 6106 6108 6107
+			}  
+		}
+		
+		PAA = {
+			family=35
+			government = theocratic_monarchy
+			primary_culture = bantan
+			religion = satakalite_pantheon
+			capital = 6477
+			
+			poptype_rights = {
+				{
+					culture = vallan 
+					type = citizen
+				}
+				{
+					culture = antean 
+					type = citizen
+				}
+			}
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6477 6471 6475 6478 6479 6480 6476 6502 6501 6504 6505 6506 6488 6489 6490 6463 6492 6493 6494 6495 6496
+				6481 6482 6483 6484 6485 6487 6486 6497 6434 6491 6466 6465 6464 6461 6462 6467 6468 6469 6470 6474 6472 
+				6512 6516 6510 6509 6511 6499 6500 6507 6508 6524 6473 6433 6435 6436 6438 6437 6439 6441 6440 6448 6447
+				6425 6424 6426 6427 6428 6429 6430 6431 6432 6551 6449 6450 6451 6452 6442 6443 6444 6446 6445 6604 6591 6605
+				6498 6513 6514 6515 6517 6518 6519 6520 6521 6522 6523 6529 6530 6528 6525 6527 6531 6533 6526 6532 6534 6535
+				6542 6541 6503 6543 6545 6544 6548 6547 6546 6536 6460 6557 6579 6578 6577 6572 6560 6559 6563 6564
+			}
+		}
+		
+		PAB= {          
+			government = tribal_kingdom
+			primary_culture = xuatar
+			religion = sithis_pantheon
+			capital = 6456
+			
+			own_control_core = 	{ 
+				6456 6457 6458 6459 6453 6454 6455
+			}  
+		}
+		
+		PAC= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6610
+			
+			own_control_core = 	{ 
+				6610 6611 6609
+			}  
+		}
+		
+		PAD= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6606
+			
+			own_control_core = 	{ 
+				6606 6607 6608
+			}  
+		}
+		
+		PAE= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6600
+			
+			own_control_core = 	{ 
+				6600 6598 6599 6601 6602 6603
+			}  
+		}
+		
+		PAF= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6594
+			
+			own_control_core = 	{ 
+				6594 6595 6597 6596 
+			}  
+		}
+		
+		PAG= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6587
+			
+			own_control_core = 	{ 
+				6587 6589 6585 6586 6588
+			}  
+		}
+		
+		PAH= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6593
+			
+			own_control_core = 	{ 
+				6593 6590 6592
+			}  
+		}
+		
+		PAI= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6568
+			
+			own_control_core = 	{ 
+				6568 6567 6566 6571 6570 6576 6575
+			}  
+		}
+		
+		PAJ= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6582
+			
+			own_control_core = 	{ 
+				6582 6580 6574 6573
+			}  
+		}
+		
+		PAK= {          
+			government = tribal_kingdom
+			primary_culture = xatharu
+			religion = sithis_pantheon
+			capital = 6549
+			
+			own_control_core = 	{ 
+				6549 6569 6581 6584 6583
+			}  
+		}
+		
+		PAL= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6561
+			
+			own_control_core = 	{ 
+				6561 6562 6565 6558
+			}  
+		}
+		
+		PAM= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6540
+			
+			own_control_core = 	{ 
+				6540 6556 6539 6538 6537
+			}  
+		}
+		
+		PAN= {          
+			government = tribal_kingdom
+			primary_culture = xinethar
+			religion = sithis_pantheon
+			capital = 6553
+			
+			own_control_core = 	{ 
+				6553 6555 6554 6550 6552
 			}  
 		}
 	}
