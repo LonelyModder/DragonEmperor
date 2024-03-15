@@ -198,15 +198,18 @@
 	culture="thrasians"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=3
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=6
 	}
 }
 
@@ -274,20 +277,23 @@
 	culture="thrasians"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=3
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=6
 	}
 }
 
 6691={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="deadric_pantheon"
 	culture="thrasians"
@@ -306,7 +312,7 @@
 }
 
 6692={ 
-	terrain="plains"
+	terrain="forest"
 	trade_goods="spices"
 	religion="deadric_pantheon"
 	culture="thrasians"
@@ -331,15 +337,18 @@
 	culture="thrasians"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=3
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=6
 	}
 }
 
@@ -369,15 +378,18 @@
 	culture="thrasians"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=3
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=6
 	}
 }
 
@@ -426,15 +438,18 @@
 	culture="thrasians"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	freemen={
+	citizen={
 		amount=3
 	}
+	freemen={
+		amount=4
+	}
 	slaves={
-		amount=2
+		amount=6
 	}
 }
 
