@@ -641,6 +641,8 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	6605 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	6426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5182 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6203 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -1373,6 +1375,27 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	6574 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6456 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6575 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6580 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6578 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6570 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	6474 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	6128 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -2595,6 +2618,21 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	6420 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6401 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6406 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6409 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	6412 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	5844 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
