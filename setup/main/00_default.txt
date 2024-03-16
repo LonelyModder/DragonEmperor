@@ -641,6 +641,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	6693 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6605 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	5746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -8035,7 +8036,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5737 5738 5739 5740 5741 5742 5743 5744 5745 5746
+				5737 5743 5744 5745 5746
 			}
 		}
 		
@@ -9100,6 +9101,96 @@ country = {
 			own_control_core = 	{ 
 				6553 6555 6554 6550 6552
 			}  
+		}
+		
+		TAA = {
+			government = despotic_monarchy
+			primary_culture = thrasians
+			religion = deadric_pantheon
+			capital = 6693
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6691 6692 6693 6694 6695 6696 
+			}
+		}
+		
+		TAB = {
+			government = despotic_monarchy
+			primary_culture = thrasians
+			religion = deadric_pantheon
+			capital = 6686
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6687 6686
+			}
+		}
+		
+		TAC = {
+			government = despotic_monarchy
+			primary_culture = thrasians
+			religion = deadric_pantheon
+			capital = 6690
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6690 6689 6688
+			}
+		}
+		
+		TAD = {
+			government = despotic_monarchy
+			primary_culture = thrasians
+			religion = deadric_pantheon
+			capital = 6698
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				6697 6698 6699 6700
+			}
+		}
+		
+		TAE = {
+			government = despotic_monarchy
+			primary_culture = thrasians
+			religion = deadric_pantheon
+			capital = 5740
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				5738 5739 5740 5741 5742
+			}
 		}
 	}
 }

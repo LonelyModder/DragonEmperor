@@ -51,7 +51,27 @@ sea_area = {
 }
 
 tmp_area = { 
-    provinces = { 6686 6687 6688 6689 6690 6691 6692 6693 6694 6695 6696 6697 6698 6699 6700 } 
+    provinces = {  } 
+}
+
+agonio_area = { 
+    provinces = { 6691 6692 6693 6694 6695 6696 } #island
+}
+
+nthrass_area = { 
+    provinces = { 6697 6698 6699 6700 } #island
+}
+
+ethrass_area = { 
+    provinces = { 6690 6689 6688 6687 6686 } #island
+}
+
+systress1_area = { 
+    provinces = { 5737 5743 5744 5745 5746 } #island
+}
+
+systress2_area = { 
+    provinces = { 5738 5739 5740 5741 5742 } #island
 }
 
 southakuna_area = { 
@@ -260,10 +280,6 @@ chasepoint_area = {
 
 soulrest_area = { 
     provinces = { 5852 5854 5853 5856 5857 5858 5859 5855 5846 5847 } 
-}
-
-systress_area = { 
-    provinces = { 5737 5738 5739 5740 5741 5742 5743 5744 5745 5746 } 
 }
 
 centralsh_area = {
