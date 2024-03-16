@@ -1,0 +1,98 @@
+﻿country_decisions = {
+	
+	# Form Kingdom of Thras
+	form_thras = {
+		
+		potential = {
+			country_culture_group = sloadan
+			#is_tribal = yes
+			NOT = {
+				tag = XTH
+			}
+			NOR = {
+				is_tier_1_formable_trigger = yes
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 6693
+					province_id = 6690
+					province_id = 6698
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = thras_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XTH
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns= 6693
+			owns_or_subject_owns = 6690
+			owns_or_subject_owns = 6698
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "KThras_name"
+			change_country_flag = TAA
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "KThras_adj"
+				change_country_color =  "KThras_color"
+				change_country_tag = XTH
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 6693
+						}
+					}
+				}
+				set_capital = 6693
+				hidden_effect = {
+					p:6693.state = {
+						set_state_capital = 6693
+					}
+				}
+			}
+			#p:6693 = {
+			#	if = {
+			#		limit = { has_city_status = no }
+			#		set_city_status = city
+			#	}
+			#}
+			p:6693 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_thras_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

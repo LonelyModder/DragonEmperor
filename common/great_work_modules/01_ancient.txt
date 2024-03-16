@@ -126,6 +126,12 @@ wonder_crystal_tower={
 	great_work_category_slot=0
 }
 
+wonder_pillar_of_thras={
+	entity_name={"building_special_pillar_of_thras_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_ceporah_tower={
 	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
