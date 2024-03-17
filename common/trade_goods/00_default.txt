@@ -496,6 +496,21 @@ stafftrees = { #190 territories
 	color = rgb { 247 163 104 }
 }
 
+sloadsoap = { #190 territories
+	category = 5
+	
+	gold = 0.5
+	
+	province = {
+		local_citizen_happyness = happiness_small_svalue
+	}
+	country = {
+		lv_mages_offensive = 0.05
+	}
+
+	color = rgb { 121 151 173 }
+}
+
 beasts = { #Added
 	category = 0
 	#allow_unit_type = lv_warhounds

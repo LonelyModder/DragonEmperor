@@ -142,6 +142,17 @@ CAA = { #Temple of Ancestors
 	}
 }
 
+TAA = { #Agonio/Kingdom of Thras
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 92 161 250 }
+	color2 = rgb { 92 161 250 }
+
+	colored_emblem = {
+		texture = "ce_thras.dds"
+		color1 = rgb { 107 49 117 }
+	}
+}
+
 PAA = { #Kingdom of Pyandonea
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 53 108 150 }
@@ -176,17 +187,6 @@ HKArgonia_FLAG = { #Argonia
 		color1 = rgb { 204 147 43 }
 		color2 = rgb { 204 147 43 }
 		color3 = rgb { 0 0 0 }
-	}
-}
-
-HKSeaSload_Flag = { #Cyro-Nordic Kingdom
-	pattern = "pattern_solid.tga"
-	color1 = rgb { 36 37 38 }
-	color2 = rgb { 36 37 38 }
-
-	colored_emblem = {
-		texture = "ce_parthia_symbol.dds"
-		color1 = rgb { 22 9 143 }
 	}
 }
 

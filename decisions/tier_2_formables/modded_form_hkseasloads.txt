@@ -1,6 +1,6 @@
 ﻿country_decisions = {
 	
-	# Form High Kingdom of Sea Sloads
+	# Form High Coral Kingdom
 	form_hkseasload = {
 		
 		potential = {
@@ -28,6 +28,8 @@
 					province_id = 547
 					province_id = 722
 					province_id = 677
+					province_id = 6693
+					province_id = 5745
 				}
 			}
 		}
@@ -52,12 +54,14 @@
 			owns_or_subject_owns = 547
 			owns_or_subject_owns = 722
 			owns_or_subject_owns = 677
+			owns_or_subject_owns = 6693
+			owns_or_subject_owns = 5745
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
 			change_country_name = "HKSeaSload_name"
-			change_country_flag = HKSeaSload_Flag
+			change_country_flag = TAA
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
