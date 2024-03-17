@@ -57,7 +57,7 @@ deity_mothersea = {
 deity_orgnum = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
-		tag = PAA
+		current_ruler = { has_trait = satakalam }
 	}
 	icon = deity_orgnum
 	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
