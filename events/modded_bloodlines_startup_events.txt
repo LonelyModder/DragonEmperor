@@ -403,12 +403,7 @@ bloodlines_startup.17 = { #companions Descendants
 	hidden = yes
 	
 	trigger = {
-		OR = {
-			tag = SAL
-			tag = SAK
-			tag = SAI
-			tag = SAH
-		}
+		tag = SAG
 	}
 	
 	immediate = {
@@ -438,7 +433,7 @@ bloodlines_startup.18 = { #Begalin Clan
 	hidden = yes
 	
 	trigger = {
-		tag = SAJ
+		tag = SAG
 	}
 	
 	immediate = {
