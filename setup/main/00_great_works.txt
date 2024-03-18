@@ -472,51 +472,7 @@ great_work_manager={
 			}
 		}
 		
-		18={
-			ancient_wonder = yes
-			key="icarena"
-			great_work_state=great_work_state_completed
-			finished_date=100.10.1
-			great_work_category="building"
-
-			great_work_name={
-				name="wonder_icarena"
-			}
-			great_work_components={
-				{
-					great_work_module="wonder_icarena"#wonder_highelves_01_02
-				}
-			}
-			great_work_effect_selections={
-				{
-					great_work_effect="gw_effect_icarena"
-					great_work_effect_tier = "gw_effect_tier_4"
-				}
-			}
-		}
-		
-		19={
-			ancient_wonder = yes
-			key="templeoftheone"
-			great_work_state=great_work_state_completed
-			finished_date=100.10.1
-			great_work_category="building"
-
-			great_work_name={
-				name="wonder_templeoftheone"
-			}
-			great_work_components={
-				{
-					great_work_module="wonder_templeoftheone"#wonder_highelves_01_02
-				}
-			}
-			great_work_effect_selections={
-				{
-					great_work_effect="gw_effect_templeoftheone"
-					great_work_effect_tier = "gw_effect_tier_4"
-				}
-			}
-		}
+		# 18,19 were reserved for arena and temple of the one in IC
 		
 		20={
 			ancient_wonder = yes

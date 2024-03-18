@@ -9,7 +9,7 @@
 
 on_province_occupied = {
 	events = {
-		crashfix.1
+		crashfix.1 #To solve the peace deal crash 
 	}
 }
 
