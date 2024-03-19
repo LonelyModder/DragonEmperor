@@ -2533,8 +2533,8 @@
 			if = {
 				limit = {
 					OR = {
-						is_tradition_tree_allowed = grekoid_philosophy
-						is_tradition_tree_allowed = westsemite_philosophy
+						is_tradition_tree_allowed = aldmer_philosophy
+						is_tradition_tree_allowed = pyandonean_philosophy
 					}
 				}
 				create_unit = {
