@@ -94,19 +94,20 @@ lycans.3 = {
 	picture = werewolf_spread
 	
 	left_portrait = root.current_ruler
-	right_portrait = root.consort
+	right_portrait = consort
 	
 	trigger = {
 		religion = night_pantheon
 		primary_culture = frostmoon
-		root.consort = {
+		exists = consort
+		consort = {
 			NOT = {	has_trait = werewolf }
 		}
 	}
 	
 	option = { 
 		name = "lycans.3.a"
-		root.consort = {
+		consort = {
 			add_trait = werewolf 
 		}
 	}
@@ -149,10 +150,10 @@ lycans.4 = {
 					NOT = {	has_trait = full_vampire }
 				}
 				save_scope_as = childofwolf
+				trigger_event = {
+					id = lycans.5
+				}
 			}
-		}
-		trigger_event = {
-			id = lycans.5
 		}
 	}
 }

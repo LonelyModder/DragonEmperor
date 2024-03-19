@@ -445,24 +445,7 @@ family={
 			culture = eastholder
 			prestige=300
 		}
-		23={
-			key="Lonewolf"
-			owner=SAG
-			culture = solitudan
-			prestige=300
-		}
-		24={
-			key="Morthsson"
-			owner=SAG
-			culture = morthalan
-			prestige=300
-		}
-		25={
-			key="Riverborn"
-			owner=SAG
-			culture = westholder
-			prestige=300
-		}
+		# To fill 23,24,25
 		26={
 			key="Battleborn"
 			owner=SAG
@@ -487,12 +470,7 @@ family={
 			culture = volkiharan
 			prestige=300
 		}
-		30={
-			key="Begalin"
-			owner=SAG
-			culture = palan
-			prestige=300
-		}
+		# To fill 30
 		31={
 			key="Dovahkul"
 			owner=SAD

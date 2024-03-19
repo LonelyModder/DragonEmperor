@@ -124,12 +124,13 @@ vampirism.3 = {
 	picture = vampirism_spread
 	
 	left_portrait = root.current_ruler
-	right_portrait = root.consort
+	right_portrait = consort
 	
 	trigger = {
 		religion = night_pantheon
 		NOT = { primary_culture = frostmoon }
-		root.consort = {
+		exists = consort
+		consort = {
 			NOT = {	has_trait = full_vampire }
 		}
 	}
@@ -137,11 +138,11 @@ vampirism.3 = {
 	option = { 
 		name = "vampirism.3.a"
 		trigger = { 
-        	root.consort = {
+        	consort = {
 				is_female = yes
 			}
         }
-		root.consort = {
+		consort = {
 			remove_trait = werewolf
 			remove_trait = lower_vampire
 			remove_trait = half_vampire
@@ -149,11 +150,11 @@ vampirism.3 = {
 		}
 		random = {
 			chance = 25
-			root.consort = { add_trait = depressed }
+			consort = { add_trait = depressed }
 		}
 		random = {
 			chance = 25
-			root.consort = { add_trait = schizophrenic }
+			consort = { add_trait = schizophrenic }
 		}
 		capital_scope = {
 			while = {
@@ -168,11 +169,11 @@ vampirism.3 = {
 	option = { 
 		name = "vampirism.3.b"
 		trigger = { 
-        	root.consort = {
+        	consort = {
 				is_female = no
 			}
         }
-		root.consort = {
+		consort = {
 			remove_trait = werewolf
 			remove_trait = lower_vampire
 			remove_trait = half_vampire
@@ -226,10 +227,10 @@ vampirism.4 = {
 					NOT = {	has_trait = full_vampire }
 				}
 				save_scope_as = childofnight
+				trigger_event = {
+					id = vampirism.5
+				}
 			}
-		}
-		trigger_event = {
-			id = vampirism.5
 		}
 	}
 }

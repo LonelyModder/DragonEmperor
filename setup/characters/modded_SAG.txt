@@ -106,7 +106,7 @@
 	
 	42={
 		first_name="Harald"
-		family = c:SAG.fam:Riverborn
+		#family = c:SAG.fam:Riverborn
 		birth_date=90.1.1
 		culture="westholder"
 		religion="nordic_pantheon"
@@ -163,7 +163,7 @@
 	
 	49={
 		first_name="Randagulf"
-		family = c:SAG.fam:Begalin
+		#family = c:SAG.fam:Begalin
 		birth_date=80.1.1
 		culture="palan"
 		religion="nordic_pantheon"
@@ -182,7 +182,7 @@
 	
 	40={
 		first_name="Harald"
-		family = c:SAG.fam:Lonewolf
+		#family = c:SAG.fam:Lonewolf
 		birth_date=90.1.1
 		culture="solitudan"
 		religion="nordic_pantheon"
@@ -201,7 +201,7 @@
 	
 	41={
 		first_name="Harald"
-		family = c:SAG.fam:Morthsson
+		#family = c:SAG.fam:Morthsson
 		birth_date=90.1.1
 		culture="morthalan"
 		religion="nordic_pantheon"

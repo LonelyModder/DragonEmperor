@@ -180,6 +180,7 @@
 			supply_train_cost = -0.15
 			engineer_cohort_cost = -0.15
 		}
+		enable_ability = border_forts
 		icon = nede_mini_trad
 		requires = {nede_path_7a}
 	}
@@ -188,7 +189,7 @@
 		modifier = { 
 			fort_maintenance_cost = -0.2
 		}
-		enable_ability = border_forts
+		enable_ability = military_colonies
 		icon = nede_mini_trad
 		requires = {nede_path_5a}
 	}
