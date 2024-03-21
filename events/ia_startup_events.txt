@@ -189,22 +189,6 @@ esfa_startup.11 = { #Nord
 
     option = {    
         name = esfa_startup.11.a
-		if = {
-			limit = { 
-				NOR = {
-					primary_culture = cyronordic
-					primary_culture = skaal
-					primary_culture = tirsk
-					primary_culture = frostmoon
-					primary_culture = atmoran
-					primary_culture = ndragoncult
-					primary_culture = vertheall
-					primary_culture = kolbjorn
-					primary_culture = nighthollow
-				} 
-			}
-			root = { every_owned_province = { add_claim = p:4104.owner } }
-		}
     }
 }
 
