@@ -36,6 +36,7 @@ militarism_events.1 = {
 					country_culture_group = argonian
 					country_culture_group = lizardbull
 					primary_culture = redorani
+					primary_culture = tongan
 				}				
 			}
 			add_country_modifier = {
@@ -54,6 +55,7 @@ militarism_events.1 = {
 				}	
 				NOT = {primary_culture = ashlander}
 				NOT = {primary_culture = redorani}
+				NOT = {primary_culture = tongan}
 			}
 			add_country_modifier = {
 				name = pacifist_culture
