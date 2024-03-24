@@ -142,6 +142,17 @@ CAA = { #Temple of Ancestors
 	}
 }
 
+MBJ = { #Morag Tong
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 199 34 22 }
+	color2 = rgb { 199 34 22 }
+
+	colored_emblem = {
+		texture = "ce_moragtong.dds"
+		color1 = rgb { 18 15 14 }
+	}
+}
+
 TAA = { #Agonio/Kingdom of Thras
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 92 161 250 }

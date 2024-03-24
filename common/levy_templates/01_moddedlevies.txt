@@ -81,6 +81,15 @@ levy_ashlander = { #ashlander militia
 	lv_archers = 0.2
 }
 
+levy_moragtong = { #morag tong militia
+	default = no
+
+	lv_guarcavalry = 0.1
+	lv_lightinfantry = 0.2
+	lv_warriors = 0.5
+	lv_archers = 0.2
+}
+
 #Goblin
 
 levy_goblinwarriors = { #goblin militia
