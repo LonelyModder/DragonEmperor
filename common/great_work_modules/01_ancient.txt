@@ -121,31 +121,163 @@ wonder_stonehenge_event={
 }
 
 wonder_crystal_tower={
-	entity_name={"wonder_crystal_tower_entity"}
+	entity_name={"building_special_crystal_like_law_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_pillar_of_thras={
+	entity_name={"building_special_pillar_of_thras_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_ceporah_tower={
-	entity_name={"wonder_ceporah_tower_entity"}
+	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_dusk_tower={
-	entity_name={"wonder_dusk_tower_entity"}
+	entity_name={"building_special_ada_mantia_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_imperial_city={
-	entity_name={"wonder_imperial_city_entity"}
+	entity_name={"building_special_imperial_city_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }
 
 wonder_skytemple={
 	entity_name={"wonder_skytemple_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_falinesti={
+	entity_name={"wonder_falinesti_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_eldentree={
+	entity_name={"wonder_eldentree_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_adamantia={
+	entity_name={"building_special_ada_mantia_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_doomcrag={
+	entity_name={"building_special_ada_mantia_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_wyrdtree={
+	entity_name={"wonder_eldentree_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_arcaneuniversity={
+	entity_name={"building_special_arcane_university_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_templegarrison={
+	entity_name={"building_special_imperial_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_moongate={
+	entity_name={"building_special_moon_gate_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_palaceofkings={
+	entity_name={"dunedain_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_hallsofthecolossus={
+	entity_name={"wonder_erebor_gate_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_icarena={
+	entity_name={"building_special_colosseum_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_templeoftheone={
+	entity_name={"special_dome_of_the_rock_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_telvanniheadquaters={
+	entity_name={"Shroom_3_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_bogmother={
+	entity_name={"golden_dwarf_center_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_hissmir={
+	entity_name={"golden_dwarf_center_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_xincheikonu={
+	entity_name={"golden_dwarf_center_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_skar={
+	entity_name={"building_special_skar_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_waterfront={
+	entity_name={"building_special_waterfront_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_dragonsreach={
+	entity_name={"building_special_dragonsreach_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_orgnumspalace={
+	entity_name={"chinese_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
+wonder_sunatemple={
+	entity_name={"golden_dwarf_center_entity"}
 	great_work_category="gw_category_ancient"
 	great_work_category_slot=0
 }

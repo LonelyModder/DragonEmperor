@@ -2,6 +2,7 @@
 		
 	army = yes
 	assault = yes
+	enable=yes
 	
 	levy_tier = basic	
 	
@@ -11,22 +12,22 @@
 
 	lv_lightinfantry = 1
 	lv_heavyinfantry = 0.7	
-	lv_archers =  0.7	
-	lv_scirmishers = 0.9	
+	lv_archers =  0.7		
 	lv_crossbowmen = 0.9	
 	lv_camels = 0.9
 	lv_mages = 	0.7	
-	lv_cavalry = 0.7	
-	lv_khajiiticavalry = 0.7	
-	lv_guarcavalry = 0.7	
-	lv_warhounds = 1.1	
+	lv_cavalry = 0.7		
+	lv_guarcavalry = 0.7
 	lv_horsearchers = 0.5	
-	lv_minotaurs = 0.5	
-	lv_centurions = 0.5	
 	lv_dremoras = 0.5	
 	lv_undead = 0.7	
-	lv_gryphons = 0.5	
-	lv_elephants = 0.5
+	lv_gryphons = 0.5
+	lv_warriors = 1.1
+	lv_raiders = 0.9
+	lv_atronach = 0.7
+	lv_clanfear = 0.7
+	lv_bonelord = 0.7
+	lv_bonewalker = 0.7
 	supply_train = 2.0
 	
 	attrition_weight = 0.5

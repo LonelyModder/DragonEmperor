@@ -1,8 +1,8 @@
 ﻿argonian = {	
 	color = hsv { 0.34 0.88 0.36 }
 
-	primary = lv_scirmishers
-	second = lv_lightinfantry
+	primary = lv_archers
+	second = lv_warriors
 	flank = lv_guarcavalry
 
 	primary_navy = tetrere
@@ -24,9 +24,15 @@
 		Theergalus Caesar Careegalus Endoresifon Endoremareen Megulus Cayamean Xeirgalus
 	}
 	culture = {
-		hutsleel = {}
-		nakadesh = {}
-		sulxan = {}
+		argblackwood = {}
+		ahleel = {}
+		anaga = {}
+		apaatru = {}
+		asarpa = {}
+		amurkite = {}
+		aarnesian = {}
+		aclanless = {}
+		aagaceph = {}
 	}
 	
 	barbarian_names = { 

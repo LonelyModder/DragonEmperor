@@ -4,7 +4,10 @@
 	form_hkalinor = {
 		
 		potential = {
-			country_culture_group = altmer
+			OR = {
+				country_culture_group = altmer
+				country_culture_group = moarmer
+			}
 			#is_tribal = yes
 			NOT = {
 				tag = XAL
@@ -42,7 +45,7 @@
 				}
 			}
 			can_form_nation_trigger = yes
-			owns_or_subject_owns = 453
+			owns = 453
 			owns_or_subject_owns = 426
 			owns_or_subject_owns = 508
 			owns_or_subject_owns = 616
@@ -87,12 +90,7 @@
 					}
 				}
 			}
-			#p:453 = {
-			#	if = {
-			#		limit = { has_city_status = no }
-			#		set_city_status = city
-			#	}
-			#}
+			add_stability = 25
 			p:453 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes

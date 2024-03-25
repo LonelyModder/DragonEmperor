@@ -1,0 +1,220 @@
+﻿"SAG"={
+	country="SAG"
+	
+	36={
+		#first_name="Harald"
+		family = c:SAG.fam:Ysgramorsson
+		birth_date=90.1.1
+		culture="eastholder"
+		religion="nordic_pantheon"
+		female=yes
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	37={
+		first_name="Harald"
+		family = c:SAG.fam:Ysgramorsson
+		birth_date=113.1.1
+		culture="eastholder"
+		religion="nordic_pantheon"
+		mother="char:36"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="ysgramorsson"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:SAG={
+			set_as_ruler=char:37
+		}
+	}
+	
+	38={
+		#first_name="Harald"
+		family = c:SAG.fam:Ysgramorsson
+		birth_date=113.1.1
+		culture="eastholder"
+		religion="nordic_pantheon"
+		mother="char:36"
+		female=yes
+		no_stats=yes
+		add_martial=4
+		add_charisma=8
+		add_finesse=6
+		add_zeal=5
+		no_traits=yes
+		add_trait="nord"
+		add_trait="ysgramorsson"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	39={
+		#first_name="Harald"
+		family = c:SAG.fam:Ysgramorsson
+		birth_date=113.1.1
+		culture="eastholder"
+		religion="nordic_pantheon"
+		mother="char:36"
+		female=yes
+		no_stats=yes
+		add_martial=3
+		add_charisma=2
+		add_finesse=6
+		add_zeal=6
+		no_traits=yes
+		add_trait="nord"
+		add_trait="ysgramorsson"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	43={
+		first_name="Harald"
+		family = c:SAG.fam:Ironarm
+		birth_date=90.1.1
+		culture="southholder"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	42={
+		first_name="Harald"
+		#family = c:SAG.fam:Riverborn
+		birth_date=90.1.1
+		culture="westholder"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	44={
+		#first_name="Harald"
+		family = c:SAG.fam:Battleborn
+		birth_date=90.1.1
+		culture="westholder"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	45={
+		#first_name="Harald"
+		family = c:SAG.fam:Greymane
+		birth_date=90.1.1
+		culture="westholder"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	49={
+		first_name="Randagulf"
+		#family = c:SAG.fam:Begalin
+		birth_date=80.1.1
+		culture="palan"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=7
+		add_finesse=3
+		add_zeal=4
+		no_traits=yes
+		add_trait="nord"
+		add_trait="begalin"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	40={
+		first_name="Harald"
+		#family = c:SAG.fam:Lonewolf
+		birth_date=90.1.1
+		culture="solitudan"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+	
+	41={
+		first_name="Harald"
+		#family = c:SAG.fam:Morthsson
+		birth_date=90.1.1
+		culture="morthalan"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=6
+		add_zeal=8
+		no_traits=yes
+		add_trait="nord"
+		add_trait="companion"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+	}
+}

@@ -3,7 +3,7 @@
 
 	primary = lv_mages
 	second = lv_lightinfantry
-	flank = lv_gryphons
+	flank = lv_cavalry
 
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -28,16 +28,9 @@
 		Loraethor Chaebinder Tahromian Salinguseus Khraeman Saelinorin
 	}
 	culture = {
-		alinoric = {}
-		sunholdic = {}
-		duskan = {}
-		shimmerinic = {}
-		lillandrilan = {}
-		cloudrestan = {}
-		firstholdan = {levy_template = levy_auridonic}
-		skywatchan = {levy_template = levy_auridonic}
-		corgradan = {}
-		havenic = {}
+		sommersetic = {} 
+		auridonic = {levy_template = levy_auridonic}
+		iliacite = {levy_template = levy_auridonic}
 		hiforested = {levy_template = levy_auridonic}
 		psijic = {levy_template = levy_psijic}
 	}

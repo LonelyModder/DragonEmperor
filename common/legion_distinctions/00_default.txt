@@ -157,9 +157,6 @@ distinction_elephant_lords = {
 		martial = 1
 	}
 	unit = {
-		lv_elephants_movement_speed = 0.2
-		lv_elephants_offensive = 0.1
-		lv_elephants_maintenance_cost = -0.15
 		loyalty_gain_chance_modifier = 0.05
 	}
 }

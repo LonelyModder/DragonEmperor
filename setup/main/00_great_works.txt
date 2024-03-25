@@ -14,6 +14,72 @@ provinces = {
 	1017={ # Sky Temple
 		great_work=5
 	}
+	1895={ # Falinesti
+		great_work=6
+	}
+	2052={ # Elden Root
+		great_work=7
+	}
+	2162={ # Balfiera
+		great_work=8
+	}
+	3073={ # Doomcrag
+		great_work=9
+	}
+	2979={ # Bedlama Wyrd
+		great_work=10
+	}
+	1089={ # Tower of Mages
+		great_work=11
+	}
+	1084={ # Temple Garrison
+		great_work=12
+	}
+	1079={ # Waterfront
+		great_work=13
+	}
+	3572={ # Moon Gate
+		great_work=14
+	}
+	4314={ # Dragonsreach
+		great_work=15
+	}
+	4104={ # Palace of Kings
+		great_work=16
+	}
+	3467={ # Halls of the Colossus
+		great_work=17
+	}
+	#4582={ # Grand Arena
+	#	great_work=18
+	#}
+	#4579={ # Temple of the One
+	#	great_work=19
+	#}
+	5561={ # Skar
+		great_work=20
+	}
+	5425={ # Telvanni Headquaters
+		great_work=21
+	}
+	6084={ # Bogmother
+		great_work=22
+	}
+	6076={ # Hissmir
+		great_work=23
+	}
+	5985={ # Xinchei-Konu
+		great_work=24
+	}
+	6477={ # Orgnum's Palace
+		great_work=25
+	}
+	6587={ # Suna Temple
+		great_work=26
+	}
+	6693={ # Agonio
+		great_work=27
+	}
 }
 
 great_work_manager={	
@@ -125,6 +191,468 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_skytemple"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		6={
+			ancient_wonder = yes
+			key="falinesti"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_falinesti"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_falinesti"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_falinesti"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		7={
+			ancient_wonder = yes
+			key="eldentree"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_eldentree"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_eldentree"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_eldentree"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		8={
+			ancient_wonder = yes
+			key="adamantia"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_adamantia"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_adamantia"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_adamantia"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		9={
+			ancient_wonder = yes
+			key="doomcrag"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_doomcrag"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_doomcrag"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_doomcrag"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		10={
+			ancient_wonder = yes
+			key="wyrdtree"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_wyrdtree"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_wyrdtree"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_wyrdtree"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		11={
+			ancient_wonder = yes
+			key="arcaneuniversity"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_arcaneuniversity"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_arcaneuniversity"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_arcaneuniversity"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		12={
+			ancient_wonder = yes
+			key="templegarrison"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_templegarrison"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_templegarrison"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_templegarrison"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		13={
+			ancient_wonder = yes
+			key="waterfront"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_waterfront"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_waterfront"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_waterfront"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		14={
+			ancient_wonder = yes
+			key="moongate"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_moongate"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_moongate"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_moongate"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		15={
+			ancient_wonder = yes
+			key="dragonsreach"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_dragonsreach"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_dragonsreach"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_dragonsreach"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		16={
+			ancient_wonder = yes
+			key="palaceofkings"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_palaceofkings"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_palaceofkings"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_palaceofkings"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		17={
+			ancient_wonder = yes
+			key="hallsofthecolossus"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_hallsofthecolossus"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_hallsofthecolossus"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_hallsofthecolossus"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		# 18,19 were reserved for arena and temple of the one in IC
+		
+		20={
+			ancient_wonder = yes
+			key="skar"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_skar"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_skar"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_skar"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		21={
+			ancient_wonder = yes
+			key="telvanniheadquaters"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_telvanniheadquaters"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_telvanniheadquaters"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_telvanniheadquaters"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		22={
+			ancient_wonder = yes
+			key="bogmother"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_bogmother"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_bogmother"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_bogmother"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		23={
+			ancient_wonder = yes
+			key="hissmir"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_hissmir"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_hissmir"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_hissmir"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		24={
+			ancient_wonder = yes
+			key="xincheikonu"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_xincheikonu"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_xincheikonu"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_xincheikonu"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		25={
+			ancient_wonder = yes
+			key="orgnumspalace"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_orgnumspalace"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_orgnumspalace"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_orgnumspalace"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		26={
+			ancient_wonder = yes
+			key="sunatemple"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_sunatemple"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_sunatemple"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_sunatemple"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		27={
+			ancient_wonder = yes
+			key="pillar_of_thras"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_pillar_of_thras"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_pillar_of_thras"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_pillar_of_thras"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

@@ -1,0 +1,7032 @@
+﻿#Test
+
+2162={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="iliacite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city_metropolis"
+	nobles={
+		amount=3
+	}
+	citizen={
+		amount=12
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		amount=6
+		culture="balfieric"
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	slaves={
+		amount=4
+	}
+	holy_site="omen_phynaster"
+}
+
+2163={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2720={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+		culture="hernan"
+		religion="night_pantheon"
+	}
+}
+
+2715={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=3
+		religion="deadric_pantheon"
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2475={ 
+	terrain="hills"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+		culture="hernan"
+		religion="night_pantheon"
+	}
+}
+
+2939={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2940={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2941={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2942={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2943={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2944={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2945={ 
+	terrain="hills"
+	trade_goods="adamantium"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2946={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2947={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2948={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2949={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2950={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2951={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2952={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2953={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2954={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="seaorc"
+		religion="codeofmalacath_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2955={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2956={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+		culture="glenumbran"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2957={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="wyrdite"
+		religion="wyrdite_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2958={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2959={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2960={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2961={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2962={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2963={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2964={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2965={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2966={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2967={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2968={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2969={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2970={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2971={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2972={ 
+	terrain="plains"
+	trade_goods="nirnroot"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2973={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="wyrdite"
+		religion="wyrdite_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2974={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="wyrdite"
+		religion="wyrdite_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2975={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2976={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2977={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2978={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2979={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+	holy_site="omen_trueway"
+}
+
+2980={ 
+	terrain="hills"
+	trade_goods="salt"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2981={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2982={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2983={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2984={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2985={ 
+	terrain="marsh"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2986={ 
+	terrain="marsh"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2987={ 
+	terrain="marsh"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2988={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2989={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2990={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2991={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2992={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2993={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2994={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+		culture="glenumbran"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2995={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2996={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2997={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2998={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2999={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3000={ 
+	terrain="marsh"
+	trade_goods="fur"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3001={ 
+	terrain="plains"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3002={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=4
+		culture="druidic"
+		religion="druidic_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3003={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3004={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3005={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3006={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3007={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3008={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+		culture="glenumbran"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3009={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3010={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3011={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3012={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3013={ 
+	terrain="marsh"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3014={ 
+	terrain="marsh"
+	trade_goods="leather"
+	religion="druidic_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3015={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3016={ 
+	terrain="marsh"
+	trade_goods="adamantium"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3017={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3018={ 
+	terrain="marsh"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3019={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3020={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3021={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3022={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3023={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3024={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3025={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3026={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3027={ 
+	terrain="forest"
+	trade_goods="honey"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3028={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3029={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="druidic_pantheon"
+	culture="druidic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3030={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3031={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3032={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3033={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="druidic"
+		religion="druidic_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3034={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+		culture="glenumbran"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3035={ 
+	terrain="plains"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3036={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	slaves={
+		amount=2
+		culture="glenumbran"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3037={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3038={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3039={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3040={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="elven_pantheon"
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3041={ 
+	terrain="mountain"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3042={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3043={ 
+	terrain="plains"
+	trade_goods="nirnroot"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3044={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="glenumbran"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3045={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3046={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3047={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3048={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3049={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3050={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3051={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="seaorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3052={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3053={ 
+	terrain="mountain"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3054={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3055={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobrock"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3056={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3057={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3058={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3059={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3060={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3061={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3062={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3063={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3064={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3065={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3066={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3067={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobrock"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3068={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3069={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3070={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3071={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3072={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3073={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+	holy_site="omen_mara"
+}
+
+3074={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3075={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3076={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3077={ 
+	terrain="hills"
+	trade_goods="adamantium"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3078={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3079={ 
+	terrain="hills"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3080={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3081={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3082={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3083={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3084={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3085={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3086={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3087={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3088={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3089={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3090={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3091={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3092={ 
+	terrain="mountain"
+	trade_goods="precious_metals"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3093={ 
+	terrain="mountain"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3094={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3095={ 
+	terrain="mountain"
+	trade_goods="moonstone"
+	religion="wyrdite_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3096={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3097={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3098={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3099={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3100={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3101={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3102={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3103={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3104={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3105={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3106{ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3107={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3108={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3109={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3110={ 
+	terrain="forest"
+	trade_goods="maplesyrup"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3111={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3112={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3113={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3114={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3115={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=4
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3116={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3117={ 
+	terrain="plains"
+	trade_goods="nirnroot"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="rivenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3118={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3119={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3120={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="rivenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3121={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3122={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3123={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3124={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3125={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3126={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3127={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3128={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3129={ 
+	terrain="hills"
+	trade_goods="necromancers"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3130={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3131={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3132={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3133={ 
+	terrain="mountain"
+	trade_goods="malachite"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3134={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3135={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3136={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3137={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3138={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3139={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobrock"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3140={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3141={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3142={ 
+	terrain="hills"
+	trade_goods="cabal_of_witches"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3143={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="reachmen_pantheon"
+		culture="reachmen"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3144={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3145={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3146={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3147={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3148={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3149={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=10
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3150={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3151={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3152={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3153={ 
+	terrain="plains"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3154={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3155={ 
+	terrain="plains"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3156={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3157={ 
+	terrain="plains"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3158={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3159={ 
+	terrain="plains"
+	trade_goods="glass"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3160={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3161={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3162={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3163={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3164={ 
+	terrain="plains"
+	trade_goods="glass"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3165={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3166={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3167={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3168={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3169={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3170={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3171={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3172={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3173={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3174={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3175={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3176={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3177={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3178={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="bhavenite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3179={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="elven_pantheon"
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3180={ 
+	terrain="plains"
+	trade_goods="cabal_of_witches"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3181={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3182={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=4
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3183={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3184={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3185={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="bhavenite"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3186={ 
+	terrain="forest"
+	trade_goods="stafftrees"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3187={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3188={ 
+	terrain="forest"
+	trade_goods="honey"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		culture="bhavenite"
+		religion="elven_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3189={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3190={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3191={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3192={ 
+	terrain="forest"
+	trade_goods="honey"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3193={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3194={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3195={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3196={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3197={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3198={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3199={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3200={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3201={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="reachmen_pantheon"
+		culture="reachmen"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3202={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="reachmen_pantheon"
+		culture="reachmen"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3203={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="reachmen_pantheon"
+		culture="reachmen"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3204={ 
+	terrain="plains"
+	trade_goods="cabal_of_witches"
+	religion="elven_pantheon"
+	culture="northelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=3
+		religion="deadric_pantheon"
+	}
+	tribesmen={
+		amount=3
+		religion="reachmen_pantheon"
+		culture="reachmen"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3205={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3206={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3207={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3208={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3209={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3210={ 
+	terrain="mountain"
+	trade_goods="leather"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3211={ 
+	terrain="mountain"
+	trade_goods="fur"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3212={ 
+	terrain="mountain"
+	trade_goods="fur"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3213={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3214={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3215={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3217={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3218={ 
+	terrain="hills"
+	trade_goods="ebon"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	holy_site="omen_hagravens"
+}
+
+3219={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3220={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3221={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="idealmasters_pantheon"
+	culture="awrothgari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="codeofmalacath_pantheon"
+		culture="worgothianorc"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3222={ 
+	terrain="hills"
+	trade_goods="salt"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3223={ 
+	terrain="plains"
+	trade_goods="necromancers"
+	religion="idealmasters_pantheon"
+	culture="awrothgari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	slaves={
+		amount=4
+		religion="codeofmalacath_pantheon"
+		culture="worgothianorc"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3224={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="idealmasters_pantheon"
+	culture="awrothgari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="codeofmalacath_pantheon"
+		culture="worgothianorc"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3225={ 
+	terrain="plains"
+	trade_goods="nirnroot"
+	religion="idealmasters_pantheon"
+	culture="awrothgari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=2
+	}
+	slaves={
+		amount=4
+		religion="codeofmalacath_pantheon"
+		culture="worgothianorc"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3226={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3227={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3228={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3229={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3230={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3231={ 
+	terrain="plains"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3232={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3233={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3234={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3235={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3236={ 
+	terrain="forest"
+	trade_goods="maplesyrup"
+	religion="wyrdite_pantheon"
+	culture="wyrdite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3237={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3238={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3239={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3240={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3241={ 
+	terrain="forest"
+	trade_goods="maplesyrup"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3242={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3243={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3244={ 
+	terrain="plains"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3245={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3246={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3247={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3248={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3249={ 
+	terrain="mountain"
+	trade_goods="leather"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3250={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3251={ 
+	terrain="mountain"
+	trade_goods="leather"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3252={ 
+	terrain="mountain"
+	trade_goods="dwemersteel"
+	religion="nirnic_pantheon"
+	culture="dworgothic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3253={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3254={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3255={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3256={ 
+	terrain="mountain"
+	trade_goods="wool"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3257={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3258={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3259={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3260={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3261={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3262={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3263={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3264={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3265={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3266={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3267={ 
+	terrain="hills"
+	trade_goods="dwemerplans"
+	religion="nirnic_pantheon"
+	culture="dworgothic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3268={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3269={ 
+	terrain="mountain"
+	trade_goods="malachite"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3270={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="falwestern"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+	}
+}
+
+3271={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3272={ 
+	terrain="mountain"
+	trade_goods="circle_of_mages"
+	religion="elven_pantheon"
+	culture="falwestern"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=12
+	}
+	slaves={
+		amount=2
+	}
+	holy_site="omen_auriel"
+}
+
+3273={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3274={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3275={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3276={ 
+	terrain="forest"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=3
+	}
+	holy_site="omen_protectthetribe"
+}
+
+3277={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3278={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3279={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3280={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="worgothianorc"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3281={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3282={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="reachmen_pantheon"
+	culture="reachmen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}

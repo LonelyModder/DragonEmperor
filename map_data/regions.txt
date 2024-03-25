@@ -5,11 +5,469 @@ modded_sea_region = {
 	}
 }
 
-#Sommerset
-
 modded_tmp_region = {
 	areas = {
 		tmp_area
+	}
+}
+
+modded_bormountains_region = {
+	areas = {
+		kituna_area
+		southakuna_area
+		arcantys_area
+		bondar_area
+		baga_area
+		vallasbor_area
+	}
+}
+
+modded_banta_region = {
+	areas = {
+		wega_area
+		secula_area
+		abbarbas_area
+		pontu_area
+		gaddu_area
+		pyanda_area
+		northernakuna_area
+		etho_area #isle
+	}
+}
+
+modded_altea_region = {
+	areas = {
+		roaandkhael_area
+		mantu_area
+		tiguna_area
+		cato_area
+		pyrrahn_area
+	}
+}
+
+modded_murkwood_region = {
+	areas = {
+		onkobra_area
+		greenspring_area
+		helstrom_area
+		seaspring_area
+		greenglade_area
+	}
+}
+
+modded_thornmarsh_region = {
+	areas = {
+		chasecreek_area
+		riverwalk_area
+		thorn_area
+		branchmont_area
+		riverbridge_area
+		crimsoncoast_area
+		seafalls_area
+	}
+}
+
+modded_murkmire_region = {
+	areas = {
+		blackrose_area
+		rootwhisper_area
+		brightthroat_area
+		lilmoth_area
+		norgtzel_area
+		archon_area
+		portdunmont_area
+	}
+}
+
+modded_shadowfen_region = {
+	areas = {
+		valusridge_area
+		rockguard_area
+		gemin_area
+		loriasel_area
+		stormhold_area
+		zuuk_area
+		altencorimont_area
+	}
+}
+
+modded_gloomire_region = {
+	areas = {
+		soulrest_area
+		chasepoint_area
+		notanara_area
+		tharen_area
+		rockgrove_area
+		glenbridge_area
+		gideon_area
+	}
+}
+
+modded_thras_region = {
+	areas = {
+		systress1_area
+		systress2_area
+		agonio_area
+		nthrass_area
+		ethrass_area
+	}
+}
+
+modded_sheogorad_region = {
+	areas = {
+		zafirbelbay_area
+		indoranyon_area
+		vos_area
+		dagonfel_area
+		centralsh_area
+		westernsh_area
+		vounoura_area #island
+	}
+}
+
+modded_ashlands_region = {
+	areas = {
+		redmountain_area
+		shishara_area
+		aldruhn_area
+		mzanchend_area
+		bthuand_area
+		falasmaryon_area
+		maargan_area
+	}
+}
+
+modded_molagamur_region = {
+	areas = {
+		telasero_area
+		molagmar_area
+		odirniran_area
+		nebia_area
+		erabenimsun_area
+	}
+}
+
+modded_bittercoast_region = {
+	areas = {
+		seydaneen_area
+		vivec_area
+		amaya_area
+		balmora_area
+		gnaarmok_area
+		gnisis_area
+	}
+}
+
+modded_telvannipeninsula_region = {
+	areas = {
+		draloris_area
+		greenheights_area
+		helnimwall_area
+		secrarsil_area
+		llothanisheights_area
+		firewatch_area
+		velothishaven_area
+		porttelvannis_area
+		galde_area
+		zildina_area #isle
+	}
+}
+
+modded_upperdeshaan_region = {
+	areas = {
+		necrom_area
+		selenvulgate_area
+		sailenmora_area
+		taldreloth_area
+		cammonaruhn_area
+		telrendys_area
+		kamelze_area
+		telbaro_area
+	}
+}
+
+modded_northargonia_region = {
+	areas = {
+		saltflats_area
+		tear_area
+		rathendisfalls_area
+		silnimvale_area
+		southernmarshes_area
+		oldkeep_area
+		andaram_area
+		thir_area
+	}
+}
+
+modded_deshaan_region = {
+	areas = {
+		taldeicfortress_area
+		mournhold_area
+		shadastula_area
+		narsis_area
+		zeren_area
+		balfoyen_area
+		alvelis_area
+	}
+}
+
+modded_stonefalls_region = {
+	areas = {
+		karthtor_area
+		heimlyn_area
+		kragenmoor_area
+		ebonheart_area
+		arand_area
+		devonswatch_area
+		muthgnaar_area
+	}
+}
+
+modded_velothi_region = {
+	areas = {
+		blacklight_area
+		cormaris_area
+		greatvalley_area
+		selethis_area
+		silgrad_area
+		verarchen_area
+	}
+}
+
+modded_solitude_region = {
+	areas = {
+		morthal_area
+		rannweigsfast_area
+		folgunthur_area
+		snowhawk_area
+		dragonbridge_area
+		solitude_area
+		northwatch_area
+		volkihar_area
+		icereach_area
+	}
+}
+
+modded_reach_region = {
+	areas = {
+		oldhroldan_area
+		hagrock_area
+		markarth_area
+		moldering_area
+		karthwasten_area
+		bthardamz_area
+	}
+}
+
+modded_falkreath_region = {
+	areas = {
+		palepass_area
+		helgen_area
+		falkreath_area
+		ilinalta_area
+		lastvalley_area
+	}
+}
+
+modded_whiterun_region = {
+	areas = {
+		valtheim_area
+		riverwood_area
+		whiterun_area
+		greymoor_area
+		greenspringhollow_area
+		brokenfang_area
+		rorikstead_area
+	}
+}
+
+modded_pale_region = {
+	areas = {
+		yorgrim_area
+		korvanjund_area
+		dunstad_area
+		fallhammer_area
+		dawnstar_area
+		ustengrav_area
+		frostisles_area #isles
+	}
+}
+
+modded_rift_region = {
+	areas = {
+		shorsstone_area
+		riften_area
+		largashbur_area
+		tevaswatch_area
+		ivarstead_area
+	}
+}
+
+modded_windhelm_region = {
+	areas = {
+		windhelm_area
+		morvunskar_area
+		kynesgrove_area
+		mzulft_area
+		mistwatch_area
+		amol_area
+	}
+}
+
+modded_winterhold_region = {
+	areas = {
+		skaal_area
+		karstaag_area
+		ravenrock_area
+		northeasternisles_area
+		collegeofwinterhold_area
+		winterhold_area
+		snowveil_area
+		alftand_area
+		olenveld_area #isle
+	}
+}
+
+modded_reapersmarch_region = {
+	areas = {
+		darglade_area
+		dune_area
+		srenja_area
+		riverhold_area
+		starhaven_area
+		nightmareplateau_area
+		lynmount_area
+	}
+}
+
+modded_scar_region = {
+	areas = {
+		nequinal_area
+		darkarn_area
+		helkarn_area
+		hakoshae_area
+		rimmen_area
+		corinthe_area
+		talongulch_area
+		merryvale_area
+		orcrest_area
+	}
+}
+
+modded_quinrawlpeninsula_region = {
+	areas = {
+		senchal_area
+		southguard_area
+		darvulk_area
+		brukra_area
+		blackheights_area
+		hallsofthecolossus_area
+		alabasti_area
+		torval_area
+		tenmarforest_area
+		kenarthisroost_area #isle
+	}
+}
+
+modded_wrothgar_region = {
+	areas = {
+		oldorsinium_area
+		frostbreak_area
+		morkul_area
+		snowline_area
+		shatul_area
+		fharun_area
+		forgottenvale_area
+	}
+}
+
+modded_stormhaven_region = {
+	areas = {
+		alcaire_area
+		golad_area
+		stormhavenhills_area
+		soulshriven_area
+		wayrest_area
+		shinjisscarp_area
+		evermoore_area
+	}
+}
+
+modded_rivenspire_region = {
+	areas = {
+		meirdarguard_area
+		crestshade_area
+		doomcrag_area
+		shornhelm_area
+		northpoint_area
+		hoarfrost_area
+		fellsrun_area
+		greyhome_area #isle
+	}
+}
+
+modded_glenumbra_region = {
+	areas = {
+		betnikh_area
+		daggerfall_area
+		knightstown_area
+		glenpointfoothills_area
+		cambrayhills_area
+	}
+}
+
+modded_lowerglenumbra_region = {
+	areas = {
+		balfiera_area #isle
+		hagfen_area
+		westtry_area
+		aldcroft_area
+		cathbedraud_area
+		crosswych_area
+	}
+}
+
+modded_southpoint_region = {
+	areas = {
+		selenesweb_area
+		eldenroot_area
+		medowrun_area
+		southpoint_area
+		brokensails_area
+		haven_area
+	}
+}
+
+modded_grahtwood_region = {
+	areas = {
+		greenheart_area
+		arananga_area
+		whispergrove_area
+		gushnukbur_area
+		tarlain_area
+		bluff_area
+	}
+}
+
+modded_xolo_region = {
+	areas = {
+		ragnthar_area
+		valeguard_area
+		silvenar_area
+		vulkwasten_area
+		belarata_area
+		falinesti_area
+	}
+}
+
+modded_westernreapersmarch_region = {
+	areas = {
+		sphinxmoth_area
+		arenthia_area
+		greenhill_area
+		vinedusk_area
+		jodewood_area
+		greenhall_area
 	}
 }
 
@@ -21,15 +479,19 @@ modded_auridon_region = {
 		greenwatercove_area
 		northbeacon_area
 		firsthold_area
-		errinorneisle_area #isle
 		skywatch_area
-		dranilkir_area #isle
 	}
 }
 
 modded_greenshade_region = {
 	areas = {
-		talanda_area
+		talanda_area #isle
+		woodhearth_area
+		longhaven_area
+		silmoor_area
+		moonhenge_area
+		vullain_area
+		redwatergrove_area
 	}
 }
 
@@ -53,7 +515,6 @@ modded_shimmerene_region = {
 		eldbur_area
 		kingshaven_area
 		gardenofsacrednumbers_area
-		
 	}
 }
 
@@ -65,7 +526,6 @@ modded_etonnir_region = {
 		corgrad_area
 		lillandril_area
 		seakeep_area
-		sapiarchisle_area #isle
 		eyevea_area #isle
 	}
 }
@@ -82,13 +542,80 @@ modded_dusk_region = {
 	}
 }
 
-modded_khefrem_region = {
+modded_alikr_region = {
 	areas = {
-		chain_area #isle
+		sentinel_area
+		alikr_area #oasis
+		hollowwastes_area #oasis
+		hegathe_area
+		capeshira_area
+		sunkeepmountains_area
 		herne_area #isle
-		caspar_area #isle
 		strosmkai_area #isle
-		hewsbane_area
+	}
+}
+
+modded_dragontailmountains_region = {
+	areas = {
+		lainlyn_area
+		satakalaam_area
+		totambu_area
+		nilata_area
+		heldornmount_area
+	}
+}
+
+modded_easternhewsbay_region = {
+	areas = {
+		rihad_area
+		northhall_area
+		roseguard_area
+		vulkeneu_area
+		taneth_area
+		karnverfalls_area
+	}
+}
+
+modded_uppercraglorn_region = {
+	areas = {
+		rahniza_area
+		skyreach_area
+		dragonstar_area
+		bangkorai_area
+		ravenspring_area
+	}
+}
+
+modded_lowercraglorn_region = {
+	areas = {
+		molavar_area
+		elinhir_area
+		belkarth_area
+		rkundzelfat_area
+		valleyofscars_area
+	}
+}
+
+modded_weepingdesert_region = {
+	areas = {
+		helkoriplain_area
+		skaven_area
+		stonemoor_area
+		southcorten_area
+		northcorten_area
+		fallenwastes_area #desert
+		weepingdesert_area #desert
+	}
+}
+
+modded_hewsbane_region = {
+	areas = {
+		lainebon_area
+		gilane_area
+		princesgate_area
+		abahslanding_area
+		hiradige_area
+		koestaran_area 
 	}
 }
 
@@ -151,7 +678,9 @@ modded_heartlands_region = {
 		vilverin_area
 		sercen_area
 		caractacus_area
+		imperialcity_area #capital
 	}
+	color = rgb { 181 19 11 }
 }
 
 modded_westweald_region = {
@@ -176,6 +705,7 @@ modded_lowerniben_region = {
 		bulwark_area
 		atatar_area
 		teleman_area
+		topalisle_area #isle
 	}
 }
 

@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10341-10360 ###
+		10341 = {
+			key = omen_ladyofthedawn
+			deity = deity_ladyofthedawn
+		}
+		10342 = {
+			key = omen_princeofplots
+			deity = deity_princeofplots
+		}
+		10343 = {
+			key = omen_spidergod
+			deity = deity_spidergod
+		}
+		10344 = {
+			key = omen_godoforcs
+			deity = deity_godoforcs
+		}
+		10345 = {
+			key = omen_godofenslavement
+			deity = deity_godofenslavement
+		}
+		10346 = {
+			key = omen_godofmadness
+			deity = deity_godofmadness
+		}
+		10347 = {
+			key = omen_godofdestruction
+			deity = deity_godofdestruction
+		}
+		10348 = {
+			key = omen_ancestorspirits
+			deity = deity_ancestorspirits
+		}
+	}
+}
+

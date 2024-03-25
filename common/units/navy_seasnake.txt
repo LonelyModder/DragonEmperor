@@ -1,0 +1,30 @@
+﻿seasnake = {
+	#Tens and up
+	army = no
+	category = light
+	port_level = 1
+
+	allow = {
+		trade_good_surplus = { target = seasnakes value > 0 }
+	}
+
+	maneuver = 4
+	movement_speed = 13
+	build_time = 365
+
+	strength_damage_done = 1.4
+	strength_damage_taken = 0.7
+	morale_damage_taken = 0.7
+
+	liburnian = 1.6
+	trireme = 1.5
+	tetrere = 1.4
+	hexere = 1.3
+	octere = 1.2
+	mega_galley = 1.1
+	seasnake = 1.0
+
+	build_cost = {
+		gold = 10
+	}
+}

@@ -1,9 +1,9 @@
 ﻿nordic = {	
 	color = hsv { 0.67 0.93 0.79 }
 
-	primary = lv_scirmishers
+	primary = lv_archers
 	second = lv_heavyinfantry
-	flank = lv_cavalry
+	flank = lv_raiders
 	
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -26,7 +26,24 @@
 		Fjeldsson Hand-Versed Round-Healer Strong-Arm Head-Defender Colossus Ingmenrsdottir Argisordottir Starkad
 	}
 	culture = {
-		cyronordic = {}
+		eastholder = {}
+		westholder = {}
+		southholder = {}
+		winterholdan = {}
+		morthalan = {}
+		solitudan = {}
+		volkiharan = {levy_template = levy_verkarthic}
+		palan = {}
+		atmoran = {}
+		nighthollow = {levy_template = levy_verkarthic}
+		skaal = {}
+		vertheall = {}
+		kolbjorn = {}
+		tirsk = {}
+		frostmoon = {}
+		dagonite = {}
+		ndragoncult = {}
+		neastern = {}
 	}
 	
 	barbarian_names = { 

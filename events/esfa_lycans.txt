@@ -1,0 +1,186 @@
+﻿namespace = lycans
+
+lycans.10 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		current_ruler = {
+			has_trait = werewolf
+		}
+		religion = night_pantheon
+		primary_culture = frostmoon
+	}
+	
+	immediate = { 
+		random_character = {
+			limit = {
+				employer = { 
+					has_land = yes
+				}
+				is_alive = yes
+				is_adult = yes
+				NOT = {	has_trait = werewolf }
+			}
+			save_scope_as = candidate_gov
+		}
+		trigger_event = {
+			id = lycans.1
+		}
+	}
+	
+}
+
+lycans.1 = {
+	type = country_event
+	title = "lycans.1.t"
+	desc = "lycans.1.desc"
+	picture = werewolf_spread
+	
+	left_portrait = root.current_ruler
+	right_portrait = scope:candidate_gov
+	
+	trigger = {
+		
+	}
+	
+	option = { 
+		name = "lycans.1.a"
+		trigger = { 
+        	tag = VBM
+        }
+		scope:candidate_gov = { add_trait = werewolf }
+		ai_chance = {
+            factor = 30
+        }
+	}
+	
+	option = { 
+		name = "lycans.1.b"
+		ai_chance = {
+            factor = 70
+        }
+	}
+}
+
+lycans.2 = {
+	type = country_event
+	title = "lycans.2.t"
+	desc = "lycans.2.desc"
+	picture = werewolf_spread
+	
+	left_portrait = root.current_ruler
+	
+	trigger = {
+		current_ruler = {
+			NOT = {	has_trait = werewolf }
+		}
+		primary_culture = frostmoon
+		religion = night_pantheon
+	}
+	
+	option = { 
+		name = "lycans.2.a"
+		current_ruler = {
+			add_trait = werewolf 
+		}
+	}
+}
+
+lycans.3 = {
+	type = country_event
+	title = "lycans.3.t"
+	desc = "lycans.3.desc"
+	picture = werewolf_spread
+	
+	left_portrait = root.current_ruler
+	right_portrait = consort
+	
+	trigger = {
+		religion = night_pantheon
+		primary_culture = frostmoon
+		exists = consort
+		consort = {
+			NOT = {	has_trait = werewolf }
+		}
+	}
+	
+	option = { 
+		name = "lycans.3.a"
+		consort = {
+			add_trait = werewolf 
+		}
+	}
+	
+	#option = { 
+	#	name = "lycans.3.b"
+	#}
+}
+
+lycans.4 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		religion = night_pantheon
+		primary_culture = frostmoon
+	}
+	
+	immediate = {
+		every_character = {
+			limit = {
+				is_alive = yes
+				OR = {
+					exists = father
+					exists = mother
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						father = {
+							has_trait = werewolf
+							is_ruler = yes
+						}
+						mother = {
+							has_trait = werewolf
+							is_ruler = yes
+						}
+					}
+					NOT = {	has_trait = full_vampire }
+				}
+				save_scope_as = childofwolf
+				trigger_event = {
+					id = lycans.5
+				}
+			}
+		}
+	}
+}
+
+lycans.5 = {
+	type = country_event
+	title = "lycans.5.t"
+	desc = "lycans.5.desc"
+	picture = werewolf_spread
+	
+	left_portrait = scope:childofwolf
+	
+	trigger = {
+		scope:childofwolf = {
+			NOT = {	has_trait = werewolf }
+		}
+		primary_culture = frostmoon
+	}
+	
+	option = { 
+		name = "lycans.5.a"
+		scope:childofwolf = {
+			add_trait = werewolf 
+		}
+	}
+	
+	#option = { 
+	#	name = "lycans.5.b"
+	#}
+}

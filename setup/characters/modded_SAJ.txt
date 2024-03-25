@@ -1,0 +1,26 @@
+﻿"SAJ"={
+	country="SAJ"
+	
+	49={
+		first_name="Randagulf"
+		family = c:SAJ.fam:Begalin
+		birth_date=80.1.1
+		culture="palan"
+		religion="nordic_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=7
+		add_finesse=3
+		add_zeal=4
+		no_traits=yes
+		add_trait="nord"
+		add_trait="begalin"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:SAJ={
+			set_as_ruler=char:49
+		}
+	}
+	
+}

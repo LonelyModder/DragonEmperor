@@ -1,0 +1,21 @@
+deity_manager = {
+	deities_database = { ### KEYS 10301-10320 ###
+		10301 = {
+			key = omen_oneness
+			deity = deity_oneness
+		}
+		10302 = {
+			key = omen_circleoflife
+			deity = deity_circleoflife
+		}
+		10303 = {
+			key = omen_allmaker
+			deity = deity_allmaker
+		}
+		10304 = {
+			key = omen_wrathofallmaker
+			deity = deity_wrathofallmaker
+		}
+	}
+}
+

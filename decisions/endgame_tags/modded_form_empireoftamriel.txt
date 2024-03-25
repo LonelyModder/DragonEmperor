@@ -1,0 +1,305 @@
+﻿country_decisions = {
+	
+	# Form Empire of Tamriel
+	form_empireoftamriel = {
+		
+		potential = {
+			OR = {
+				country_culture_group = breton
+				country_culture_group = reachmenic
+				country_culture_group = keptu
+				country_culture_group = kothri
+				country_culture_group = druid
+				country_culture_group = nordic
+				country_culture_group = nede
+				country_culture_group = lilmothit
+				country_culture_group = dwemer
+				country_culture_group = altmer
+				country_culture_group = chimer
+				country_culture_group = bosmer
+				country_culture_group = ayleid
+				country_culture_group = falmer
+				country_culture_group = imga
+				country_culture_group = khajiit
+				country_culture_group = argonian
+				country_culture_group = minotauric
+				country_culture_group = goblin
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XTE
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071 #IC
+					province_id = 1102
+					province_id = 1105
+					province_id = 1127
+					province_id = 1233
+					province_id = 1240
+					province_id = 1246
+					province_id = 4104
+					province_id = 4200
+					province_id = 4060
+					province_id = 4277
+					province_id = 4528
+					province_id = 4499
+					province_id = 4314
+					province_id = 4406
+					province_id = 2162 
+					province_id = 2295 
+					province_id = 2322 
+					province_id = 2530 
+					province_id = 2441 
+					province_id = 2650 
+					province_id = 2608 
+					province_id = 2954 
+					province_id = 3012 
+					province_id = 3176 
+					province_id = 3085 
+					province_id = 3149 
+					province_id = 3276  
+					province_id = 3280 
+					province_id = 3209 
+					province_id = 5066
+					province_id = 5054
+					province_id = 5185
+					province_id = 5425
+					province_id = 5577
+					province_id = 4881
+					province_id = 4985
+					province_id = 5706
+					province_id = 5460
+					province_id = 6114
+					province_id = 5902
+					province_id = 5852
+					province_id = 6032
+					province_id = 6135
+					province_id = 6141
+					province_id = 5980
+					province_id = 453
+					province_id = 1895
+					province_id = 1843
+					province_id = 1771
+					province_id = 1988
+					province_id = 2076
+					province_id = 2052
+					province_id = 453
+					province_id = 426
+					province_id = 508
+					province_id = 616
+					province_id = 660
+					province_id = 628
+					province_id = 591
+					province_id = 547
+					province_id = 722
+					province_id = 677
+					province_id = 3557
+					province_id = 3606
+					province_id = 3646
+					province_id = 3680
+					province_id = 3592
+					province_id = 3492
+					province_id = 3536
+					province_id = 3444
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = empireoftamriel_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XTE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 1071
+			owns_or_subject_owns = 1102
+			owns_or_subject_owns = 1105
+			owns_or_subject_owns = 1127
+			owns_or_subject_owns = 1233
+			owns_or_subject_owns = 1240
+			owns_or_subject_owns = 1246
+			owns_or_subject_owns = 4104
+			owns_or_subject_owns = 4200
+			owns_or_subject_owns = 4060
+			owns_or_subject_owns = 4277
+			owns_or_subject_owns = 4528
+			owns_or_subject_owns = 4499
+			owns_or_subject_owns = 4314
+			owns_or_subject_owns = 4406
+			owns_or_subject_owns = 2162 
+			owns_or_subject_owns = 2295 
+			owns_or_subject_owns = 2322 
+			owns_or_subject_owns = 2530 
+			owns_or_subject_owns = 2441 
+			owns_or_subject_owns = 2650 
+			owns_or_subject_owns = 2608 
+			owns_or_subject_owns = 2954 
+			owns_or_subject_owns = 3012 
+			owns_or_subject_owns = 3176 
+			owns_or_subject_owns = 3085 
+			owns_or_subject_owns = 3149 
+			owns_or_subject_owns = 3276  
+			owns_or_subject_owns = 3280 
+			owns_or_subject_owns = 3209 
+			owns_or_subject_owns = 5066
+			owns_or_subject_owns = 5054
+			owns_or_subject_owns = 5185
+			owns_or_subject_owns = 5425
+			owns_or_subject_owns = 5577
+			owns_or_subject_owns = 4881
+			owns_or_subject_owns = 4985
+			owns_or_subject_owns = 5706
+			owns_or_subject_owns = 5460
+			owns_or_subject_owns = 6114
+			owns_or_subject_owns = 5902
+			owns_or_subject_owns = 5852
+			owns_or_subject_owns = 6032
+			owns_or_subject_owns = 6135
+			owns_or_subject_owns = 6141
+			owns_or_subject_owns = 5980
+			owns_or_subject_owns = 453
+			owns_or_subject_owns = 1895
+			owns_or_subject_owns = 1843
+			owns_or_subject_owns = 1771
+			owns_or_subject_owns = 1988
+			owns_or_subject_owns = 2076
+			owns_or_subject_owns = 2052
+			owns_or_subject_owns = 426
+			owns_or_subject_owns = 508
+			owns_or_subject_owns = 616
+			owns_or_subject_owns = 660
+			owns_or_subject_owns = 628
+			owns_or_subject_owns = 591
+			owns_or_subject_owns = 547
+			owns_or_subject_owns = 722
+			owns_or_subject_owns = 677
+			owns_or_subject_owns = 3492
+			owns_or_subject_owns = 3557
+			owns_or_subject_owns = 3606
+			owns_or_subject_owns = 3646
+			owns_or_subject_owns = 3680
+			owns_or_subject_owns = 3592		
+			owns_or_subject_owns = 3536
+			owns_or_subject_owns = 3444
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "EmpireofTamriel_name"
+			change_country_flag = dragon_FLAG
+			if = {
+				limit = {
+					NOR = { 
+						government = imperium 
+						government = imperial_cult
+					}
+				}
+				republic_to_monarchy_law_variable_effect = yes # decide which legion law should be transferred
+				change_government = imperium
+				republic_to_monarchy_law_change_effect = yes # change legion law based on variable if present
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "EmpireofTamriel_adj"
+				change_country_color =  "EmpireofTamriel_color"
+				change_country_tag = XTE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 1071
+						}
+					}
+				}
+				set_capital = 1071
+				hidden_effect = {
+					p:1071.state = {
+						set_state_capital = 1071
+					}
+				}
+				p:1071 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				#Mede Part
+				region:modded_reach_region = { formable_region_province_effect = yes }
+				region:modded_goldcoast_region = { formable_region_province_effect = yes }
+				region:modded_kvatch_region = { formable_region_province_effect = yes }
+				region:modded_skingrad_region = { formable_region_province_effect = yes }
+				region:modded_chorrol_region = { formable_region_province_effect = yes }
+				region:modded_heartlands_region = { formable_region_province_effect = yes }
+				region:modded_westweald_region = { formable_region_province_effect = yes }
+				region:modded_lowerniben_region = { formable_region_province_effect = yes }
+				region:modded_sjerall_region = { formable_region_province_effect = yes }
+				region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+				region:modded_valus_region = { formable_region_province_effect = yes }
+				region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_rift_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }
+				region:modded_whiterun_region = { formable_region_province_effect = yes }
+				region:modded_solitude_region = { formable_region_province_effect = yes }
+				region:modded_falkreath_region = { formable_region_province_effect = yes }
+				region:modded_wrothgar_region = { formable_region_province_effect = yes }
+				region:modded_stormhaven_region = { formable_region_province_effect = yes }
+				region:modded_rivenspire_region = { formable_region_province_effect = yes }
+				region:modded_glenumbra_region = { formable_region_province_effect = yes }
+				region:modded_lowerglenumbra_region = { formable_region_province_effect = yes }
+				region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_weepingdesert_region = { formable_region_province_effect = yes }
+				region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
+				region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
+				region:modded_hewsbane_region = { formable_region_province_effect = yes }
+				region:modded_alikr_region = { formable_region_province_effect = yes }
+				#Septim Part
+				region:modded_sheogorad_region = { formable_region_province_effect = yes }
+				region:modded_ashlands_region = { formable_region_province_effect = yes }
+				region:modded_molagamur_region = { formable_region_province_effect = yes }
+				region:modded_bittercoast_region = { formable_region_province_effect = yes }
+				region:modded_telvannipeninsula_region = { formable_region_province_effect = yes }
+				region:modded_upperdeshaan_region = { formable_region_province_effect = yes }
+				region:modded_northargonia_region = { formable_region_province_effect = yes }
+				region:modded_deshaan_region = { formable_region_province_effect = yes }
+				region:modded_stonefalls_region = { formable_region_province_effect = yes }
+				region:modded_velothi_region = { formable_region_province_effect = yes }
+				region:modded_gloomire_region = { formable_region_province_effect = yes }
+				region:modded_shadowfen_region = { formable_region_province_effect = yes }
+				region:modded_murkmire_region = { formable_region_province_effect = yes }
+				region:modded_thornmarsh_region = { formable_region_province_effect = yes }
+				region:modded_murkwood_region = { formable_region_province_effect = yes }
+				region:modded_southpoint_region = { formable_region_province_effect = yes }
+				region:modded_grahtwood_region = { formable_region_province_effect = yes }
+				region:modded_xolo_region = { formable_region_province_effect = yes }
+				region:modded_westernreapersmarch_region = { formable_region_province_effect = yes }
+				region:modded_greenshade_region = { formable_region_province_effect = yes }
+				region:modded_reapersmarch_region = { formable_region_province_effect = yes }
+				region:modded_scar_region = { formable_region_province_effect = yes }
+				region:modded_quinrawlpeninsula_region = { formable_region_province_effect = yes }
+				region:modded_dusk_region = { formable_region_province_effect = yes }
+				region:modded_shimmerene_region = { formable_region_province_effect = yes }
+				region:modded_etonnir_region = { formable_region_province_effect = yes }
+				region:modded_alinor_region = { formable_region_province_effect = yes }
+				region:modded_auridon_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -11,11 +11,8 @@
 	
 	hidden = {
         unit_owner = { 
-            NOR = { 
-                is_tradition_tree_allowed = westsemite_philosophy
-                is_tradition_tree_allowed = grekoid_philosophy
-                is_tradition_tree_allowed = egyptian_philosophy 
-				is_tradition_tree_allowed = akkadian_philosophy 
+            NOT = { 
+                is_tradition_tree_allowed = nede_philosophy
             } 
         }
 	}
@@ -23,20 +20,8 @@
 	allow = {
 		unit_owner = { 
 			trigger_if = {
-				limit = { is_tradition_tree_allowed = westsemite_philosophy }
-				has_military_bonus = westsemite_path_4b
-			}
-			trigger_else_if = {
-				limit = { is_tradition_tree_allowed = grekoid_philosophy }
-				has_military_bonus = grekoid_path_7a
-			}
-			trigger_else_if = {
-				limit = { is_tradition_tree_allowed = egyptian_philosophy }
-				has_military_bonus = egyptian_path_2b
-			}
-			trigger_else_if = {
-				limit = { is_tradition_tree_allowed = akkadian_philosophy }
-				has_military_bonus = assyrian_path_2c
+				limit = { is_tradition_tree_allowed = nede_philosophy }
+				has_military_bonus = nede_path_6a
 			}
 		}
 		has_commander = yes

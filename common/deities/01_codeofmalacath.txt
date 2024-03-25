@@ -6,7 +6,7 @@ deity_donotsteal = {
 	trigger = {
 		religion = codeofmalacath_pantheon
 	}
-	icon = deity_wealth
+	icon = deity_donotsteal
 	passive_modifier = { global_capital_trade_routes = deity_global_capital_trade_routes_svalue }
 	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
 	religion = codeofmalacath_pantheon
@@ -27,7 +27,7 @@ deity_donotkill = {
 	trigger = {
 		religion = codeofmalacath_pantheon
 	}
-	icon = deity_love
+	icon = deity_donotkill
 	passive_modifier = { global_population_growth = deity_global_population_growth_svalue }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = codeofmalacath_pantheon
@@ -47,7 +47,7 @@ deity_donotattackwithoutreason = {
 	trigger = {
 		religion = codeofmalacath_pantheon
 	}
-	icon = deity_eloquence
+	icon = deity_donotattackwithoutreason
 	passive_modifier = { agressive_expansion_monthly_change = deity_aggressive_expansion_monthly_change_svalue }
 	omen = { happiness_for_same_religion_modifier = omen_happiness_for_same_religion_modifier_svalue } #Bonus from Omen
 	religion = codeofmalacath_pantheon
@@ -68,7 +68,7 @@ deity_fightwithhonor = {
 	trigger = {
 		religion = codeofmalacath_pantheon
 	}
-	icon = deity_war
+	icon = deity_fightwithhonor
 	passive_modifier = { happiness_for_same_religion_modifier = deity_happiness_for_same_religion_modifier }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = codeofmalacath_pantheon
@@ -93,7 +93,7 @@ deity_protectthetribe = {
 	trigger = {
 		religion = codeofmalacath_pantheon
 	}
-	icon = deity_war
+	icon = deity_protectthetribe
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = codeofmalacath_pantheon

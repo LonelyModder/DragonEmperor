@@ -4,7 +4,7 @@
 	terrain="plains"
 	trade_goods="necromancers"
 	religion="goblin_pantheon"
-	culture="chained"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
@@ -20,7 +20,7 @@
 	terrain="hills"
 	trade_goods="ebon"
 	religion="goblin_pantheon"
-	culture="chained"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -56,7 +56,7 @@
 
 768={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="hernan"
 	civilization_value=0
@@ -113,7 +113,7 @@
 
 771={ 
 	terrain="plains"
-	trade_goods="dates"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="hernan"
 	civilization_value=0
@@ -171,8 +171,8 @@
 774={ 
 	terrain="plains"
 	trade_goods="dates"
-	religion="nedic_pantheon"
-	culture="caspari"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -189,9 +189,9 @@
 
 775={ 
 	terrain="plains"
-	trade_goods="fish"
-	religion="nedic_pantheon"
-	culture="caspari"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -209,8 +209,8 @@
 776={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="nedic_pantheon"
-	culture="caspari"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -228,19 +228,19 @@
 777={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="nedic_pantheon"
-	culture="caspari"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=1
-	}
+	province_rank="settlement"
 	freemen={
-		amount=3
+		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -248,7 +248,7 @@
 	terrain="plains"
 	trade_goods="necromancers"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -267,7 +267,7 @@
 	terrain="plains"
 	trade_goods="soul_gems"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -284,9 +284,9 @@
 
 780={ 
 	terrain="plains"
-	trade_goods="fish"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -305,7 +305,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -324,7 +324,7 @@
 	terrain="plains"
 	trade_goods="dates"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -341,20 +341,20 @@
 
 783={ 
 	terrain="plains"
-	trade_goods="dates"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=3
+		amount=2
 	}
 	tribesmen={
-		amount=6
+		amount=4
+	}
+	slaves={
+		amount=1
 	}
 }
 
@@ -362,7 +362,7 @@
 	terrain="plains"
 	trade_goods="salt"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -381,7 +381,7 @@
 	terrain="plains"
 	trade_goods="amber"
 	religion="goblin_pantheon"
-	culture="dogeaters"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -400,12 +400,8140 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="goblin_pantheon"
-	culture="rottenfishes"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
 		amount=2
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2174={ 
+	terrain="plains"
+	trade_goods="cloth"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2175={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2176={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2177={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2178={ 
+	terrain="plains"
+	trade_goods="glass"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=5
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2179={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2180={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2291={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2292={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2293={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2294={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2295={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+		culture="iliacite"
+	}
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2296={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2297={ 
+	terrain="plains"
+	trade_goods="camel"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2298={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2299={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	freemen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	tribesmen={
+		amount=6
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2300={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2301={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2302={ 
+	terrain="desert"
+	trade_goods="gems"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2303={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2304={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2305={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2306={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2307={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2308={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2309={ 
+	terrain="plains"
+	trade_goods="amber"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2310={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2311={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2312={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2313={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2314={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2315={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2316={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2317={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2318={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2319={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2320={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2321={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2322={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2323={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2324={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2325={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2326={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2327={ 
+	terrain="plains"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2328={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2329={ 
+	terrain="desert"
+	trade_goods="necromancers"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	tribesmen={
+		amount=3
+		religion="green_pantheon"
+		culture="bosiliacite"
+	}
+	freemen={
+		amount=5
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2330={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2331={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2332={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2333={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2334={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2335={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2336={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2337={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2338={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2340={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2341={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2342={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2343={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2344={ 
+	terrain="desert"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2345={ 
+	terrain="plains"
+	trade_goods="amber"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2346={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2347={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2348={ 
+	terrain="hills"
+	trade_goods="salt"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2349={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2350={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2351={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2352={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2353={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2354={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2355={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2356={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2357={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2358={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2359={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2360={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2361={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2362={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2363={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2364={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2365={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2366={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2367={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2368={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2369={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2370={ 
+	terrain="forest"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2371={ 
+	terrain="forest"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2372={ 
+	terrain="plains"
+	trade_goods="amber"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2373={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2374={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2375={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2376={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2377={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2378={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2379={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2380={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2381={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2382={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2383={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2384={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2385={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2386={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2387={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2388={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2389={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2390={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2391={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2392={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2393={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2394={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2395={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2396={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2397={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2398={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobsea"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2399={ 
+	terrain="forest"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2400={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2401={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2402={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2403={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2404={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2405={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2406={ 
+	terrain="forest"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2407={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2408={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2409={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2410={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2411={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2412={ 
+	terrain="hills"
+	trade_goods="adamantium"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2413={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2414={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2415={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2416={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2417={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2418={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2419={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2420={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+		culture="iliacite"
+	}
+	freemen={
+		amount=4
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2421={ 
+	terrain="desert"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="balfieric"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=2
+	}
+	freemen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+	slaves={
+		amount=2
+		religion="nedic_pantheon"
+		culture="sunkeptu"
+	}
+}
+
+2422={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2423={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2424={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2425={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2426={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2427={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2428={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2429={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2430={ 
+	terrain="desert"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2431={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2432={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2433={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2434={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2435={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2436={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2437={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2438={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2439={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2440={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2441={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2442={ 
+	terrain="forest"
+	trade_goods="coconut"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2443={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2444={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2445={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2446={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2447={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+	slaves={
+		amount=2
+		religion="goblin_pantheon"
+		culture="goblinken"
+	}
+}
+
+2448={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2449={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2450={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2451={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2452={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2453={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2454={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2455={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2456={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2457={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2458={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2459={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2460={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2461={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2462={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2463={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2464={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2465={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2466={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2467={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2468={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2469={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2470={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2471={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2472={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2474={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2476={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2477={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2478={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2480={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2481={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2482={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2483={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2484={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2485={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2486={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2487={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2488={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2489={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2490={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2491={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2492={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2493={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2494={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2495={ 
+	terrain="forest"
+	trade_goods="fruitsoftheforest"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+		culture="norhtkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2496={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+		culture="norhtkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2497={ 
+	terrain="plains"
+	trade_goods="cabal_of_witches"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2498={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+		culture="norhtkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2499={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2501={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2502={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2503={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2504={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2505={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	slaves={
+		amount=4
+		culture="norhtkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2506={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2507={ 
+	terrain="plains"
+	trade_goods="vegetables"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2508={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2509={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2510={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2511={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2512={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2513={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2514={ 
+	terrain="plains"
+	trade_goods="vegetables"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2515={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2516={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2517={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2518={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2519={ 
+	terrain="plains"
+	trade_goods="moonstone"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2520={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2522={ 
+	terrain="desert"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2523={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2525={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2526={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2527={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2528={ 
+	terrain="desert"
+	trade_goods="beasts"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2529={ 
+	terrain="desert"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2530={ 
+	terrain="oasis"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2531={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2532={ 
+	terrain="desert"
+	trade_goods="gems"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2533={ 
+	terrain="desert"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2534={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2535={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2536={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2537={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2538={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2539={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2540={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2541={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2542={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2543={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2544={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2545={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2546={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2547={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2548={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2549={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2550={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2551={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2552={ 
+	terrain="mountain"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2554={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2555={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2556={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2557={ 
+	terrain="desert"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2559={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2561={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2562={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2563={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2564={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2565={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2566={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2567={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2558={ 
+	terrain="oasis"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2570={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="night_pantheon"
+	culture="greykeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2571={ 
+	terrain="desert"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2572={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2573={ 
+	terrain="hills"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2574={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2575={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2576={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2577={ 
+	terrain="hills"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2578={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2579={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2580={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2581={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2582={ 
+	terrain="mountain"
+	trade_goods="durzogs"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2583={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2584={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2585={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2586={ 
+	terrain="hills"
+	trade_goods="nirncrux"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2587={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	holy_site="omen_shada"
+}
+
+2588={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2589={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2590={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2591={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2592={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2593={ 
+	terrain="hills"
+	trade_goods="gems"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2594={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2595={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2596={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2597={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2598={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2599={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2600={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2601={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2602={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2603={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2604={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2605={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2606={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"v
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2607={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2608={ 
+	terrain="hills"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2609={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2610={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2611={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="goblin_pantheon"
+		culture="gobdeathlander"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2612={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2613={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2614={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2615={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2616={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2617={ 
+	terrain="hills"
+	trade_goods="nirncrux"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2618={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2619={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2620={ 
+	terrain="mountain"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2621={ 
+	terrain="mountain"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2622={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2623={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2624={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2625={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2626={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2627={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2628={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2629={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2630={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2631={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2632={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2633={ 
+	terrain="hills"
+	trade_goods="nirncrux"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2634={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2635={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2636={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2637={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2638={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2639={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2640={ 
+	terrain="plains"
+	trade_goods="gems"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2641={ 
+	terrain="plains"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2642={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2643={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2644={ 
+	terrain="plains"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2645={ 
+	terrain="mountain"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2646={ 
+	terrain="plains"
+	trade_goods="soul_gems"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2647={ 
+	terrain="mountain"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2648={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2649={ 
+	terrain="plains"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2650={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+	holy_site="omen_celestials"
+}
+
+2651={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2652={ 
+	terrain="plains"
+	trade_goods="nirncrux"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=7
+	}
+}
+
+2653={ 
+	terrain="mountain"
+	trade_goods="nirncrux"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2654={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2655={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2656={ 
+	terrain="plains"
+	trade_goods="nirncrux"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
+	citizen={
+		amount=6
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
+	}
+	slaves={
+		amount=12
+	}
+}
+
+2657={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=1
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2658={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2659={ 
+	terrain="hills"
+	trade_goods="ebon"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2660={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="elven_pantheon"
+	culture="deathelves"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=3
+		religion="nedic_pantheon"
+		culture="nedkeptu"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2661={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2662={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2663={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2664={ 
+	terrain="hills"
+	trade_goods="limestone"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2666={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2669={ 
+	terrain="desert"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2670={ 
+	terrain="desert"
+	trade_goods="horses"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2671={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2680={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2689={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2690={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2691={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2694={ 
+	terrain="desert"
+	trade_goods="precious_metals"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2695={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2696={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2697={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=6
+	}
+	tribesmen={
+		amount=2
+	}
+	slaves={
+		amount=2
+	}
+}
+
+2698={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2699={ 
+	terrain="desert"
+	trade_goods="leather"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2700={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="norhtkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2701={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2702={ 
+	terrain="plains"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=5
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2703={ 
+	terrain="plains"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2704={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2705={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2706={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2707={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2708={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2709={ 
+	terrain="desert"
+	trade_goods="precious_metals"
+	religion="nedic_pantheon"
+	culture="sunkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2710={ 
+	terrain="oasis"
+	trade_goods="camel"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2713={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2714={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="windkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2716={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2717={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2718={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="nedic_pantheon"
+	culture="nedkeptu"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2729={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2730={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2731={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2230={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2185={ 
+	terrain="plains"
+	trade_goods="stone"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2221={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="mindeathl"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2273={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2229={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2225={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
 	}
 	tribesmen={
 		amount=4

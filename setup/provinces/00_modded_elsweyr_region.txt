@@ -1,0 +1,5443 @@
+﻿#Test
+
+3361={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="kenarthian"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3362={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="kenarthian"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3363={ 
+	terrain="farmland"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="kenarthian"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3364={ 
+	terrain="farmland"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="kenarthian"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3365={ 
+	terrain="plains"
+	trade_goods="coconut"
+	religion="khajiiti_pantheon"
+	culture="kenarthian"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3366={ 
+	terrain="hills"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3367={ 
+	terrain="hills"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3368={ 
+	terrain="hills"
+	trade_goods="coconut"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3369={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3370={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3423={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3424={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3425={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3426={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3427={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3428={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3429={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3430={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3431={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3432={ 
+	terrain="hills"
+	trade_goods="coconut"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3433={ 
+	terrain="hills"
+	trade_goods="gems"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3434={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3435={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3436={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3437={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3438={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3439={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3440={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3441={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3442={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3443={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3444={ 
+	terrain="farmland"
+	trade_goods="skooma"
+	religion="khajiiti_pantheon"
+	culture="senchalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3445={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3446={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3447={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3448={ 
+	terrain="plains"
+	trade_goods="skooma"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3449={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3450={ 
+	terrain="plains"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3451={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3452={ 
+	terrain="plains"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3453={ 
+	terrain="plains"
+	trade_goods="skooma"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3454={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3455={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3456={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3457={ 
+	terrain="hills"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3458={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3459={ 
+	terrain="hills"
+	trade_goods="amber"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3460={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3461={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3462={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3463={ 
+	terrain="jungle"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3464={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3465={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3466={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="paalatiinite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3467={ 
+	terrain="hills"
+	trade_goods="circle_of_mages"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3468={ 
+	terrain="hills"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3469={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3470={ 
+	terrain="hills"
+	trade_goods="salt"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3471={ 
+	terrain="hills"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3472={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3473={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3474={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3475={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3476={ 
+	terrain="plains"
+	trade_goods="sweats"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3477={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3478={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3479={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3480={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3481={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3482={ 
+	terrain="plains"
+	trade_goods="olive"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3483={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3484={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3485={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3486={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3487={ 
+	terrain="jungle"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3488={ 
+	terrain="jungle"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3489={ 
+	terrain="jungle"
+	trade_goods="sweats"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3490={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3491={ 
+	terrain="hills"
+	trade_goods="hemp"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3492={ 
+	terrain="hills"
+	trade_goods="earthware"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=12
+	}
+	slaves={
+		amount=6
+	}
+	holy_site="omen_nirni"
+}
+
+3493={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3494={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3495={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3496={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3497={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3498={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3499={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3500={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3501={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3502={ 
+	terrain="jungle"
+	trade_goods="sweats"
+	religion="khajiiti_pantheon"
+	culture="brukrite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3503={ 
+	terrain="jungle"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="tenmari"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3504={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3505={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3506={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3507={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3508={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3509={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3510={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3511={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3512={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3513={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3514={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="alabastite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3515={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3516={ 
+	terrain="hills"
+	trade_goods="precious_metals"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3517={ 
+	terrain="hills"
+	trade_goods="aeonstone"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3518={ 
+	terrain="hills"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3519={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3520={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="night_pantheon"
+	culture="hollowfang"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3521={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3522={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3523={ 
+	terrain="plains"
+	trade_goods="necromancers"
+	religion="night_pantheon"
+	culture="hollowfang"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3524={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3525={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="night_pantheon"
+	culture="hollowfang"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3526={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3527={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3528={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="torvalite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3529={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3530={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3531={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3532={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3533={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3534={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3535={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3536={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3537={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3538={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3539={ 
+	terrain="plains"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3540={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3541={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3542={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3543={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3544={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3545={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3546={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="corinthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3547={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3548={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3549={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3550={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3551={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3552={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3553={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3554={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3555={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3556={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3557={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=12
+	}
+	slaves={
+		amount=6
+	}
+}
+
+3558={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3559={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3560={ 
+	terrain="plains"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="nequinalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3561={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3562={ 
+	terrain="desert"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3563={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3564={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3565={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3566={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3567={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3568={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3569={ 
+	terrain="oasis"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="helkarnite"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3570={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3571={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3572={ 
+	terrain="plains"
+	trade_goods="circle_of_mages"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3573={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3574={ 
+	terrain="plains"
+	trade_goods="earthware"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3575={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3576={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3577={ 
+	terrain="hills"
+	trade_goods="gems"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3578={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3579={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3580={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3581={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3582={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3583={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3584={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3585={ 
+	terrain="hills"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="merivalan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3586={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3587={ 
+	terrain="plains"
+	trade_goods="dates"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3588={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3589={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3590={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3591={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3592={ 
+	terrain="mountain"
+	trade_goods="iron"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3593={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3594={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3595={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3596={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3597={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3598={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3599={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3600={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3601={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3602={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3603={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3604={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3605={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3606={ 
+	terrain="farmland"
+	trade_goods="wine"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3607={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3608={ 
+	terrain="farmland"
+	trade_goods="grain"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3609={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3610={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3611={ 
+	terrain="hills"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3612={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3613={ 
+	terrain="hills"
+	trade_goods="leather"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3614={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3615={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3616={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3617={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3618={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3619={ 
+	terrain="desert"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3620={ 
+	terrain="hills"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3621={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3622={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3623={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3624={ 
+	terrain="desert"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3625={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3626={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3627={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3628={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3629={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3630={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3631={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3632={ 
+	terrain="plains"
+	trade_goods="leather"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3633={ 
+	terrain="plains"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3634={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3635={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="rimmenic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3636={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3637={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3638={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3639={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3640={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3641={ 
+	terrain="hills"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="orcrestan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3642={ 
+	terrain="hills"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3643={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3644={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3645={ 
+	terrain="forest"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3646={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3647={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3648={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3649={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3650={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3651={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3652={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3653={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3654={ 
+	terrain="desert"
+	trade_goods="camel"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3655={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3656={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3657={ 
+	terrain="desert"
+	trade_goods="circle_of_mages"
+	religion="khajiiti_pantheon"
+	culture="riverholdan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3658={ 
+	terrain="desert"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3659={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3660={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3661={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3662={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3663={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3664={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3665={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3666={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3667={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3668={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3669={ 
+	terrain="plains"
+	trade_goods="fur"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3670={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3671={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3672={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3673={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3674={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3675={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3676={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3677={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3678={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3679={ 
+	terrain="plains"
+	trade_goods="horses"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3680={ 
+	terrain="plains"
+	trade_goods="skooma"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3681={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="dunaic"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3682={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3683={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=4
+	}
+}
+
+3684={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3685={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3686={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3687={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3688={ 
+	terrain="plains"
+	trade_goods="wild_game"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3689={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3690={ 
+	terrain="plains"
+	trade_goods="moonsugar"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=2
+	}
+	tribesmen={
+		amount=6
+	}
+	slaves={
+		amount=3
+	}
+}
+
+3691={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3692={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+3693={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="khajiiti_pantheon"
+	culture="kverkarthan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}

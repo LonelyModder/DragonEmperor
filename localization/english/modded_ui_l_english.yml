@@ -13,8 +13,14 @@
  
  
  AlinorINTRO:0 "#T Alinor#!\nDifficulty: #Y Easy#!\n\n At first, Alinor was one of the many city-states on the Sommerset Islands. A certain isolation from the continent meant that these countries gradually grew in strength and began to absorb smaller cities. The lords of Alinor skillfully used the terrain that turned their land into a fortress and steaks of goblin slaves grew to be the strongest candidate to unite the islands."
+ DirenniINTRO:0 "#T Direnni Hegemony#!\nDifficulty: #Y Easy#!\n\n Clan Direnni originated on Sommerset where they earned their status by the usage of their alchemy skills. To this day clan Direnni have alchemy symbol on their banner. At some point from unknown reasons part of the house decided to move into Iliac Bay. Thanks to their riches and liberal approach to the local population they manage to bring most of the region under their rule."
+ GreyINTRO:0 "#T Grey Host#!\nDifficulty: #Y Medium#!\n\n Grey Host is an allience of vampires and werewolves under the banner of vampire-king Styriche of Verkarth. Grey Host is one of the oldest vampire covens in the region. They try to keep the local humans as far from their true nature as they can to keep them in line. In time thou this can become imposible to achive because to conquer Tamriel the cooperation of mortals might become necessary."
  Alinor:0 "Alinor"
+ DirenniHegemony:0 "Direnni Hegemony"
+ GreyHost:0 "Grey Host"
  Alinor2:0 "Alinor"
+ DirenniHegemony2:0 "Direnni Hegemony"
+ GreyHost2:0 "Grey Host"
  NRINTRO:0 "#T Nedic Revolt#!\nDifficulty: #Y Hard#!\n\n Tires by the cruel treatment by their elven masters nedic humans rise the banner of rebellion. They believe that the Ayleids lost their gods favor because of their dealings with the Daedric Lords. As a result the Ayleid empire is in a state of civil war. Such opportunity might not repeat itself!"
  NedicRevolt:0 "Nedic Revolt"
  NedicRevolt2:0 "Nedic Revolt"
@@ -24,3 +30,12 @@
  no_neighbor_has_colonization_progress:0 "No neighbour has #Y Colonization Progress#!"
  owns_no_neighboring_province:0 "Owns no neighbouring province"
  
+ ashlands:0 "Ashlands"
+ ashlands_desc:0 "Basicly desert filled with vulcanic ash. This kind of enviroment exist only in Morrowind and is rumored to be the result of a magical force. Contrary to the first impression there are lifeforms that managed to adapt to this harsh enviroment."
+ innerargonia:0 "Murkwood"
+ innerargonia_desc:0 "Highly toxic and dangerous marshes in central part of Argonia. Place uninhabitable for most races with the exception of argonians thanks to their resistance to deseases and toxins."
+ osasis:0 "Oasis"
+ osasis_desc:0 "The only water source in the desert and also the only permanent place to live in this harsh enviroment."
+ 
+ patch_notes:0 "Part XI: Assasins and Necromancers"
+ patch_notes_text:0 "What's new:\n- New Atoll to the west of Systress Archipelago called Thras, the ancient homeland of the Thrassian Sloads.\n-New island north of Morrowind called Vounoura, base of Morag Tong.\n-New wonder Pillar of Thras with the portal leading directly to the Molag Bal's realm of Coldharbour.\n-New Faction of Moarmeri rebels that never recognized Orgnum as Satakal's chosen.\n-United Skyrim acording to suggestion of the community member that Skyrim was unified political organism at that point in time and the regency period should be portrayed rather by events and missions in future expansion.\n-Large number of fixes big and small like missing localisation, balance and so on."

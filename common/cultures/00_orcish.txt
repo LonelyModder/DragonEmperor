@@ -1,9 +1,9 @@
 ﻿orcish = {	
 	color = hsv { 0.30 0.81 0.49 }
 
-	primary = lv_archers
+	primary = lv_crossbowmen
 	second = lv_heavyinfantry
-	flank = lv_warhounds
+	flank = lv_raiders
 
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -28,18 +28,17 @@
 		Uzuat Gulfrbush Ugruush Lurngakh Garkh Yagahnar Bolagol Crohnar Mukak
 	}
 	culture = {
-		barkbite = {levy_template = levy_woodorcish}
-		darkfern = {levy_template = levy_woodorcish}
-		drublog = {levy_template = levy_woodorcish}
-		lhurgash = {levy_template = levy_woodorcish}
+		abamath = {levy_template = levy_woodorcish}
 		obloodfall = {}
+		worgothianorc = {}
+		seaorc = {levy_template = levy_woodorcish}
 	}
 	
 	barbarian_names = { 
 		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
 	}
 	
-	graphical_culture = orcish_gfx
+	graphical_culture = orsimer_gfx
 	ethnicities = {
 		10 = orcish_ethnicity
 	}

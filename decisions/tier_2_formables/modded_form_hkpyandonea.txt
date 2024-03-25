@@ -1,0 +1,121 @@
+﻿country_decisions = {
+	
+	# Form High Kingdom of Pyandonea
+	form_hkpyandonea = {
+		
+		potential = {
+			OR = {
+				country_culture_group = lizardbull
+				country_culture_group = moarmer
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = PAA
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 6477
+					province_id = 6470
+					province_id = 6494
+					province_id = 6485
+					province_id = 6512
+					province_id = 6557
+					province_id = 6542
+					province_id = 6579
+					province_id = 6605
+					province_id = 6604
+					province_id = 6446
+					province_id = 6438
+					province_id = 6426
+					province_id = 6460
+					province_id = 6591
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hkpyandonea_must_not_exist
+				NOT = {
+					any_country = {
+						tag = PAA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 6477
+			owns_or_subject_owns = 6470
+			owns_or_subject_owns = 6494
+			owns_or_subject_owns = 6485
+			owns_or_subject_owns = 6512
+			owns_or_subject_owns = 6557
+			owns_or_subject_owns = 6542
+			owns_or_subject_owns = 6579
+			owns_or_subject_owns = 6605
+			owns_or_subject_owns = 6604
+			owns_or_subject_owns = 6446
+			owns_or_subject_owns = 6438
+			owns_or_subject_owns = 6426
+			owns_or_subject_owns = 6460
+			owns_or_subject_owns = 6591
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "HKPyandonea_name"
+			change_country_flag = PAA
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "HKPyandonea_adj"
+				change_country_color =  "HKPyandonea_color"
+				change_country_tag = PAA
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 6477
+						}
+					}
+				}
+				set_capital = 6477
+				hidden_effect = {
+					p:6477.state = {
+						set_state_capital = 6477
+					}
+				}
+			}
+			add_stability = 25
+			p:6477 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_bormountains_region = { formable_region_province_effect = yes }
+				region:modded_banta_region = { formable_region_province_effect = yes }
+				region:modded_altea_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

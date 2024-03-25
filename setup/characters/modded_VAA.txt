@@ -1,0 +1,24 @@
+﻿"VAA"={
+	country="VAA"
+	11={
+		first_name="Eplear"
+		family = c:VAA.fam:Camoran
+		birth_date=10.1.1
+		culture="bosmalabal"
+		religion="green_pantheon"
+		no_stats=yes
+		add_martial=12
+		add_charisma=6
+		add_finesse=8
+		add_zeal=6
+		no_traits=yes
+		add_trait="bosmer"
+		add_trait="camoran"
+		add_gold=500
+		add_popularity=100
+		c:VAA={
+			set_as_ruler=char:11
+		}
+		#dna=""
+	}
+}

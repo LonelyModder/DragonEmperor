@@ -2,8 +2,8 @@
 	color = hsv { 0.23 0.77 0.87 }
 
 	primary = lv_archers
-	second = lv_lightinfantry
-	flank = lv_warhounds
+	second = lv_warriors
+	flank = lv_raiders
 
 	primary_navy = tetrere
 	secondary_navy = octere
@@ -23,12 +23,12 @@
 		Dark Terrible Slimy Tricky Disgusting Dirty Blue Chosen Hunter Angry Furious 
 	}
 	culture = {
+		gobsea = {}
+		gobrock = {}
+		gobskyrim = {}
+		gobcyrodic = {}
+		gobdeathlander = {}
 		goblinken = {}
-		chained = {}
-		coralsplitter = {}
-		dogeaters = {}
-		rottenfishes = {}
-		poisoned = {}
 	}
 	
 	barbarian_names = { 

@@ -1,28 +1,47 @@
 ﻿ESFA_on_create_character_effect = {
 	if = {
 		limit = {
-			OR = {
+			AND = {
 				NOT = { has_trait = altmer }
 				NOT = { has_trait = pure }
-				NOT = { has_trait = bosmer }
-				NOT = { has_trait = ayleid }
-				NOT = { has_trait = goblin }
-				NOT = { has_trait = nede }
-				NOT = { has_trait = orc }
-				NOT = { has_trait = minotaur }
-				NOT = { has_trait = khajiit }
-				NOT = { has_trait = argonian }
-				NOT = { has_trait = imga }
-				NOT = { has_trait = nord }
-				NOT = { has_trait = halfauroran }
 			}
+			AND = {
+				NOT = { has_trait = altmer }
+				NOT = { has_trait = impure }
+			}
+			NOT = { has_trait = lilmothit }
+			NOT = { has_trait = sload }
+			NOT = { has_trait = bosmer }
+			NOT = { has_trait = moarmer }
+			NOT = { has_trait = goblin }
+			NOT = { has_trait = tnede }
+			NOT = { has_trait = orc }
+			NOT = { has_trait = minotaur }
+			NOT = { has_trait = khajiit }
+			NOT = { has_trait = argonian }
+			NOT = { has_trait = imga }
+			NOT = { has_trait = nord }
+			NOT = { has_trait = breton }
+			NOT = { has_trait = falmer }
+			NOT = { has_trait = dwemer }
+			NOT = { has_trait = halfauroran }
 		}
 		if = {
 			limit = {
-				has_culture_group = altmer
+				OR = {
+					has_culture_group = altmer
+					has_culture_group = ayleid
+					has_culture_group = venedi
+				}
 			}
 			add_trait = altmer
 			add_trait = pure
+		}
+		else_if = {
+			limit = {
+				has_culture_group = chimer
+			}
+			add_trait = altmer
 		}
 		else_if = {
 			limit = {
@@ -32,21 +51,62 @@
 		}
 		else_if = {
 			limit = {
-				has_culture_group = ayleid
+				has_culture_group = moarmer
 			}
-			add_trait = ayleid
+			add_trait = moarmer
 		}
 		else_if = {
 			limit = {
-				has_culture_group = goblin
+				OR = {
+					has_culture_group = breton
+					has_culture_group = druid
+				}
+			}
+			add_trait = breton
+		}
+		else_if = {
+			limit = {
+				has_culture_group = falmer
+			}
+			add_trait = falmer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = dwemer
+			}
+			add_trait = dwemer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = lilmothic
+			}
+			add_trait = lilmothit
+		}
+		else_if = {
+			limit = {
+				has_culture_group = sloadan
+			}
+			add_trait = sload
+		}
+		else_if = {
+			limit = {
+				OR = {
+					has_culture_group = goblin
+					has_culture_group = riekling
+				}
 			}
 			add_trait = goblin
 		}
 		else_if = {
 			limit = {
-				has_culture_group = nede
+				OR = {
+					has_culture_group = nede
+					has_culture_group = keptu
+					has_culture_group = kothri
+					has_culture_group = reachmenic
+				}
 			}
-			add_trait = nede
+			add_trait = tnede
 		}
 		else_if = {
 			limit = {
@@ -74,7 +134,10 @@
 		}
 		else_if = {
 			limit = {
-				has_culture_group = argonian
+				OR = {
+					has_culture_group = argonian
+					has_culture_group = lizardbull
+				}
 			}
 			add_trait = argonian
 		}

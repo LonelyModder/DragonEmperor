@@ -1,0 +1,25 @@
+﻿"CBH"={
+	country="CBH"
+	8={
+		first_name="Gordhaur"
+		nickname="NICKNAME_NINENDAVA"
+		family = c:CBH.fam:Ninendava
+		birth_date=50.1.1
+		culture="heartlanderelves"
+		religion="deadric_pantheon"
+		no_stats=yes
+		add_martial=6
+		add_charisma=5
+		add_finesse=10
+		add_zeal=4
+		no_traits=yes
+		add_trait="altmer"
+		add_trait="ninendava"
+		add_gold=500
+		add_popularity=100
+		c:CBH={
+			set_as_ruler=char:8
+		}
+		#dna=""
+	}
+}

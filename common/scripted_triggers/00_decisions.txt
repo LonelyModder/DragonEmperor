@@ -1,6 +1,19 @@
 ﻿is_tier_1_formable_trigger = {
 	OR = {
-		tag = ACH #Example
+		tag = XAU #Auridon
+		tag = XCL #Colovia
+		tag = XNI #Nibenay
+		tag = XSO #Sommerset
+		tag = XCN #Cyro-Nordic
+		tag = XCR #Craglorn
+		tag = XAN #Anequina
+		tag = XPL #Pellitine
+		tag = SAG #East Skyrim
+		tag = XWS #West Skyri
+		tag = XRE #Reach
+		tag = XST #Solstheim
+		tag = XCH #Chimer Hortatorate
+		tag = XTH #Thras
 	}
 }
 
@@ -9,12 +22,29 @@ is_tier_2_formable_trigger = {
 		tag = XOR #Kingdom of Orsinium
 		tag = XAL #Kingdom of Alinor
 		tag = XCY #Kingdom of Cyrod
+		tag = VAA #Kingdom of Valenwood
+		tag = XHM #Kingdom of Deathlands
+		tag = XHR #Kingdom of High Rock
+		tag = XEL #Kingdom of Elsweyr
+		tag = SAG #Kingdom of Skyrim
+		tag = XRS #Kingdom of Resdayn
+		tag = XAR #Kingdom of Argonia
+		tag = XSS #Kingdom of Sea Sloads
+		tag = PAA #Kingdom of Pyandonea
 	}
 }
 
 is_endgame_tag_trigger = {
 	OR = {
-		tag = XKE #Pharonic Egypt
+		tag = XAD #Aldmeri Dominion
+		tag = XDC #Dagerfall Covenant
+		tag = XME #Moon Empire
+		tag = XMA #Empire of Man
+		tag = XTE #Empire of Tamriel
+		tag = XNE #Nordic Empire
+		tag = XAE #Argonian Empire
+		tag = XVE #Velothi Empire
+		tag = XDE #Dwemer Empire 
 	}
 }
 

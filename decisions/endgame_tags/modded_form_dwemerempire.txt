@@ -1,0 +1,116 @@
+﻿country_decisions = {
+	
+	# Form Dwemer Empire
+	form_dwemerempire = {
+		
+		potential = {
+			country_culture_group = dwemer
+			#is_tribal = yes
+			NOT = {
+				tag = XDE
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 5577
+					province_id = 3252
+					province_id = 3267
+					province_id = 4010
+					province_id = 4121
+					province_id = 4157
+					province_id = 4239
+					province_id = 4087
+					province_id = 4151
+					province_id = 4260
+					province_id = 4286
+					province_id = 4430
+					province_id = 4477
+					province_id = 4442
+					province_id = 4225
+					province_id = 4026
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = dwemerempire_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XDE
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 5577
+			owns_or_subject_owns = 3252
+			owns_or_subject_owns = 3267
+			owns_or_subject_owns = 4010
+			owns_or_subject_owns = 4121
+			owns_or_subject_owns = 4157
+			owns_or_subject_owns = 4239
+			owns_or_subject_owns = 4087
+			owns_or_subject_owns = 4151
+			owns_or_subject_owns = 4260
+			owns_or_subject_owns = 4286
+			owns_or_subject_owns = 4430
+			owns_or_subject_owns = 4477
+			owns_or_subject_owns = 4442
+			owns_or_subject_owns = 4225
+			owns_or_subject_owns = 4026
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "EDwemer_name"
+			change_country_flag = EDwemer_flag
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "EDwemer_adj"
+				change_country_color =  "EDwemer_color"
+				change_country_tag = XDE
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 5577
+						}
+					}
+				}
+				set_capital = 5577
+				hidden_effect = {
+					p:5577.state = {
+						set_state_capital = 5577
+					}
+				}
+				p:5577 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

@@ -1,16 +1,18 @@
 ﻿761={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
 	}
 	slaves={
 		amount=1
@@ -20,16 +22,18 @@
 762={ 
 	terrain="hills"
 	trade_goods="salt"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
 	}
 	slaves={
 		amount=1
@@ -39,16 +43,18 @@
 763={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
 	}
 	slaves={
 		amount=1
@@ -58,16 +64,18 @@
 764={ 
 	terrain="plains"
 	trade_goods="amber"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
 	}
 	tribesmen={
-		amount=4
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
 	}
 	slaves={
 		amount=1
@@ -89,35 +97,6426 @@
 		amount=3
 	}
 	freemen={
-		amount=6
-	}
-	freemen={
-		amount=2
-		religion="green_pantheon"
-		culture="talandan"
+		amount=8
 	}
 	slaves={
 		amount=4
 		religion="goblin_pantheon"
 		culture="goblinken"
 	}
+	slaves={
+		amount=1
+	}
 	tribesmen={
-		amount=6
+		amount=3
 		religion="green_pantheon"
-		culture="talandan"
+		culture="bostalandan"
 	}
 }
 
 766={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="green_pantheon"
-	culture="talandan"
+	religion="elven_pantheon"
+	culture="hiforested"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=2
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1728={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1729={ 
+	terrain="plains"
+	trade_goods="steppe_horses"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1730={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1763={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1764={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1765={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1766={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1767={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1768={ 
+	terrain="forest"
+	trade_goods="wood"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1769={ 
+	terrain="plains"
+	trade_goods="vegetables"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1770={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1771={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+		culture="nmarcher"
+		religion="nedic_pantheon"
+	}
+	slaves={
+		amount=5
+	}
+}
+
+1772={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1773={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1774={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1775={ 
+	terrain="plains"
+	trade_goods="steppe_horses"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1776={ 
+	terrain="plains"
+	trade_goods="steppe_horses"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1777={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1778={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1779={ 
+	terrain="plains"
+	trade_goods="cheese"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1780={ 
+	terrain="plains"
+	trade_goods="vegetables"
+	religion="nedic_pantheon"
+	culture="nmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1781={ 
+	terrain="plains"
+	trade_goods="vegetables"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1782={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1783={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1784={ 
+	terrain="plains"
+	trade_goods="steppe_horses"
+	religion="green_pantheon"
+	culture="bosmarcher"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1785={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1786={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1787={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1788={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1789={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1790={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1791={ 
+	terrain="jungle"
+	trade_goods="nirnroot"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1792={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1793={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1794={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1795={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1796={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1797={ 
+	terrain="jungle"
+	trade_goods="stone"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1798={ 
+	terrain="hills"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1799={ 
+	terrain="hills"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1800={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1801={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1802={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1803={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1804={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1805={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1806={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1807={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1808={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1809={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1810={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1811={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1812={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1813={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1814={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1815={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1816={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1817={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1818={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1819={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1820={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1821={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1822={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1823={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1824={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1825={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1826={ 
+	terrain="jungle"
+	trade_goods="nirnroot"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1827={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1828={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1829={ 
+	terrain="hills"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1830={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1831={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1832={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1833={ 
+	terrain="jungle"
+	trade_goods="precious_metals"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1834={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1835={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1836={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1837={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1838={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1839={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1840={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1841={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1842={ 
+	terrain="forest"
+	trade_goods="fish"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1843={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+	}
+	slaves={
+		amount=5
+	}
+	holy_site="omen_silvenar"
+}
+
+1844={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1845={ 
+	terrain="jungle"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1846={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1847={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1848={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1849={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1850={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1851={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1852={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1853={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1854={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1855={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1856={ 
+	terrain="jungle"
+	trade_goods="amber"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1857={ 
+	terrain="jungle"
+	trade_goods="stafftrees"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1858={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1859={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1860={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1861={ 
+	terrain="jungle"
+	trade_goods="nirnroot"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1862={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1863={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1864={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1865={ 
+	terrain="jungle"
+	trade_goods="soul_gems"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1866={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1867={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1868={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1869={ 
+	terrain="jungle"
+	trade_goods="cabal_of_witches"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=5
+	}
+	freemen={
+		amount=10
+	}
+	tribesmen={
+		amount=12
+	}
+	slaves={
+		amount=3
+	}
+	holy_site="omen_protectthetribe"
+}
+
+1870={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1871={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1872={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1873={ 
+	terrain="jungle"
+	trade_goods="durzogs"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1874={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1875={ 
+	terrain="jungle"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1876={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1877={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1878={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1879={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1880={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1882={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1883={ 
+	terrain="hills"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1884={ 
+	terrain="hills"
+	trade_goods="beasts"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1885={ 
+	terrain="hills"
+	trade_goods="moonstone"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1886={ 
+	terrain="hills"
+	trade_goods="malachite"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1887={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+1888={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1889={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1890={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1891={ 
+	terrain="jungle"
+	trade_goods="salt"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1892={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1893={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1894={ 
+	terrain="jungle"
+	trade_goods="salt"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1895={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+		
+	}
+	slaves={
+		amount=5
+	}
+}
+
+1896={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1897={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1898={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1899={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1900={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1901={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1902={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1903={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1904={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosmalabal"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1905={ 
+	terrain="hills"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1906={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1907={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1908={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1909={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1910={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1911={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1912={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1913={ 
+	terrain="jungle"
+	trade_goods="soul_gems"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1914={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1915={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1916={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1917={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1918={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1919={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1920={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1921={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1922={ 
+	terrain="jungle"
+	trade_goods="amber"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1923={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1924={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1925={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1926={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1927={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1928={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1929={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1930={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1931={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1932={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1933={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1934={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1935={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1936={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1937={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1938={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1939={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1940={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1941={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1942={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1943={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1944={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+		religion="elven_pantheon"
+		culture="hiforested"
+	}
+	freemen={
+		amount=3
+		religion="elven_pantheon"
+		culture="hiforested"
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+	}
+	slaves={
+		amount=5
+	}
+}
+
+1945={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1946={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1947={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1948={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenshade"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1949={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1950={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1951={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1952={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1953={ 
+	terrain="jungle"
+	trade_goods="nirnroot"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1954={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1955={ 
+	terrain="plains"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bostalandan"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1956={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1957={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1958={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1959={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1960={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1961={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1962={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1963={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1964={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+	holy_site="omen_ius"
+}
+
+1965={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1966={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1967={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1968={ 
+	terrain="plains"
+	trade_goods="cattle"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1969={ 
+	terrain="plains"
+	trade_goods="wool"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1970={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1971={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1972={ 
+	terrain="hills"
+	trade_goods="stone"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1973={ 
+	terrain="hills"
+	trade_goods="iron"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1974={ 
+	terrain="hills"
+	trade_goods="coal"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1975={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1976={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1977={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1978={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1979={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1980={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1981={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1982={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1983={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1984={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1985={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1986={ 
+	terrain="jungle"
+	trade_goods="amber"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1987={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1988={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+	}
+	slaves={
+		amount=5
+	}
+	holy_site="omen_wilderking"
+}
+
+1989={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1990={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1991={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1992={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="bosgreenshade"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1993={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1994={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1995={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1996={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1997={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1998={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+1999={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2000={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2001={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2002={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenheart"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2003={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2004={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgreenheart"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2005={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2006={ 
+	terrain="jungle"
+	trade_goods="stafftrees"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2007={ 
+	terrain="jungle"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2008={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2009={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2010={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2011={ 
+	terrain="jungle"
+	trade_goods="amber"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2012={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2013={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2014={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2015={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2016={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2017={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2018={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2019={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2020={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgrahtwood"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2021={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2022={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2023={ 
+	terrain="jungle"
+	trade_goods="limestone"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2024={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2025={ 
+	terrain="jungle"
+	trade_goods="limestone"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2026={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2027={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2028={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2029={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2030={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2031={ 
+	terrain="jungle"
+	trade_goods="stone"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2032={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2033={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="boscrescent"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2034={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2035={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgreenheart"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2036={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2037={ 
+	terrain="jungle"
+	trade_goods="fruitsoftheforest"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2038={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=3
+	}
+	freemen={
+		amount=1
+		culture="bosgrahtwood"
+		religion="green_pantheon"
+	}
+	tribesmen={
+		amount=4
+		culture="bosgrahtwood"
+		religion="green_pantheon"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2039={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2040={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2041={ 
+	terrain="jungle"
+	trade_goods="salt"
+	religion="elven_pantheon"
+	culture="hiforested"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=1
+		religion="green_pantheon"
+		culture="bosgrahtwood"
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2042={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2043={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2044={ 
+	terrain="jungle"
+	trade_goods="honey"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2045={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2046={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2047={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2048={ 
+	terrain="jungle"
+	trade_goods="durzogs"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=3
+	}
+	tribesmen={
+		amount=8
+	}
+	slaves={
+		amount=3
+	}
+}
+
+2049={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="codeofmalacath_pantheon"
+	culture="abamath"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2050={ 
+	terrain="jungle"
+	trade_goods="stafftrees"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2051={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2052={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+	}
+	slaves={
+		amount=5
+	}
+}
+
+2053={ 
+	terrain="jungle"
+	trade_goods="soul_gems"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2054={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2055={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2056={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2057={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2058={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2059={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2060={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2061={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="minvalen"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2062={ 
+	terrain="jungle"
+	trade_goods="nirnroot"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2063={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2064={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2065={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2066={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	citizen={
+		amount=1
+	}
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2067={ 
+	terrain="jungle"
+	trade_goods="wild_game"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2068={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2069={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="gaimga"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2070={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2071={ 
+	terrain="jungle"
+	trade_goods="beasts"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2072={ 
+	terrain="plains"
+	trade_goods="salt"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2073={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2074={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2075={ 
+	terrain="jungle"
+	trade_goods="leather"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2076={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=7
+	}
+	tribesmen={
+		amount=7
+	}
+	tribesmen={
+		amount=3
+		culture="gaimga"
+	}
+	slaves={
+		amount=5
+	}
+}
+
+2077={ 
+	terrain="jungle"
+	trade_goods="amber"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2078={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2079={ 
+	terrain="jungle"
+	trade_goods="hemp"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2080={ 
+	terrain="jungle"
+	trade_goods="kallopi"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	citizen={
+		amount=3
+	}
+	freemen={
+		amount=4
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2081={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2082={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2083={ 
+	terrain="jungle"
+	trade_goods="coal"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2084={ 
+	terrain="jungle"
+	trade_goods="fur"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2085={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2086={ 
+	terrain="jungle"
+	trade_goods="fish"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
+		amount=4
+	}
+	slaves={
+		amount=1
+	}
+}
+
+2087={ 
+	terrain="jungle"
+	trade_goods="wood"
+	religion="green_pantheon"
+	culture="bosgrahtwood"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="settlement"
+	freemen={
+		amount=1
 	}
 	tribesmen={
 		amount=4

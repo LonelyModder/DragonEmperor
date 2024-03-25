@@ -40,7 +40,7 @@ theocratic_republic = { #religious party
 	minimum_electable_age = 35
 
 	election_delay = 10
-	ruler_term = 5
+	ruler_term = 400
 	
 	color = hsv { 0.6  0.7  0.5 }
 }
@@ -63,7 +63,7 @@ oligarchic_republic = { #civic party
 	can_deify_ruler = no
 	
 	election_delay = 10
-	ruler_term = 5
+	ruler_term = 400
 	
 	color = hsv { 0.6  0.75  0.6 }
 }
@@ -331,8 +331,6 @@ tribal_chiefdom = {
 	
 	bonus = {
 		global_tribesmen_output = output_huge_svalue
-		global_pop_assimilation_speed_modifier = 2
-		global_pop_conversion_speed_modifier = 2
 	}
 	base = {
 		global_tribesmen_happyness = happiness_large_svalue
@@ -350,8 +348,6 @@ tribal_kingdom = {
 	
 	bonus = {
 		global_tribesmen_happyness = happiness_huge_svalue
-		global_pop_assimilation_speed_modifier = 2
-		global_pop_conversion_speed_modifier = 2
 	}
 	base = {
 		country_civilization_value = 5
@@ -373,8 +369,6 @@ tribal_federation = {
 	bonus = {
 		global_tribesmen_output = 0.2
 		global_pop_promotion_speed_modifier = 0.25
-		global_pop_assimilation_speed_modifier = 0.5
-		global_pop_conversion_speed_modifier = 0.5
 	}
 	base = {
 		country_civilization_value = 10

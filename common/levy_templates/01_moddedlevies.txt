@@ -3,7 +3,7 @@
 levy_default = {
 	default = yes
 
-	lv_minotaurs = 1
+	lv_warriors = 1
 }
 
 #Altmer
@@ -12,23 +12,82 @@ levy_sommersetan = { #altmer militia
 	default = no
 
 	lv_gryphons = 0.2
-	lv_lightinfantry = 0.5
-	lv_mages = 0.3
+	lv_lightinfantry = 0.4
+	lv_cavalry = 0.2
+	lv_mages = 0.2
 }
 
 levy_auridonic = { #altmer militia
 	default = no
 
 	lv_cavalry = 0.2
-	lv_lightinfantry = 0.5
+	lv_lightinfantry = 0.4
+	lv_archers = 0.1
 	lv_mages = 0.3
 }
 
 levy_psijic = { #altmer militia
 	default = no
 
+	lv_lightinfantry = 0.3
+	lv_archers = 0.1
+	lv_cavalry = 0.1
+	lv_mages = 0.5
+}
+
+levy_ayleid = { #ayleid militia
+	default = no
+
+	lv_dremoras = 0.5
+	lv_archers = 0.1
+	lv_mages = 0.2
+	lv_cavalry = 0.15
+	lv_gryphons = 0.05
+}
+
+levy_besarabic = { #besarabic militia
+	default = no
+
+	lv_undead = 0.6
+	lv_bonewalker = 0.2
+	lv_mages = 0.1
+	lv_cavalry = 0.1
+}
+
+levy_awrothgari = { #wrothgar militia
+	default = no
+
+	lv_undead = 0.7
+	lv_bonewalker = 0.2
+	lv_mages = 0.1
+}
+
+#Chimer
+
+levy_chimeri = { #chimer militia
+	default = no
+
+	lv_guarcavalry = 0.2
 	lv_lightinfantry = 0.4
-	lv_mages = 0.6
+	lv_archers = 0.2
+	lv_mages = 0.2
+}
+
+levy_ashlander = { #ashlander militia
+	default = no
+
+	lv_guarcavalry = 0.3
+	lv_warriors = 0.5
+	lv_archers = 0.2
+}
+
+levy_moragtong = { #morag tong militia
+	default = no
+
+	lv_guarcavalry = 0.1
+	lv_lightinfantry = 0.2
+	lv_warriors = 0.5
+	lv_archers = 0.2
 }
 
 #Goblin
@@ -36,9 +95,10 @@ levy_psijic = { #altmer militia
 levy_goblinwarriors = { #goblin militia
 	default = no
 
-	lv_lightinfantry = 0.4
-	lv_warhounds = 0.2
-	lv_scirmishers = 0.4
+	lv_warriors = 0.4
+	lv_raiders = 0.3
+	lv_archers = 0.2
+	lv_mages = 0.1
 }
 
 #Bosmer
@@ -46,19 +106,10 @@ levy_goblinwarriors = { #goblin militia
 levy_bosmer = { #bosmer militia
 	default = no
 
-	lv_archers = 0.6
-	lv_lightinfantry = 0.2
-	lv_warhounds = 0.2
-}
-
-#Ayleid
-
-levy_ayleid = { #ayleid militia
-	default = no
-
-	lv_lightinfantry = 0.5
-	lv_mages = 0.4
-	lv_gryphons = 0.1
+	lv_archers = 0.5
+	lv_warriors = 0.2
+	lv_mages = 0.1
+	lv_horsearchers = 0.2
 }
 
 #Nedic
@@ -66,9 +117,36 @@ levy_ayleid = { #ayleid militia
 levy_nedichoplites = { #nedic militia
 	default = no
 
-	lv_heavyinfantry = 0.6
-	lv_scirmishers = 0.3
+	lv_warriors = 0.5
+	lv_heavyinfantry = 0.2
+	lv_archers = 0.2
 	lv_cavalry = 0.1
+}
+
+levy_keptu = { #keptu militia
+	default = no
+
+	lv_warriors = 0.4
+	lv_archers = 0.2
+	lv_camels = 0.2
+	lv_cavalry = 0.2
+}
+
+levy_reachmen = { #reachmen militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.1
+	lv_raiders = 0.3
+	lv_cavalry = 0.1
+}
+
+levy_kothri = { #reachmen militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.2
+	lv_raiders = 0.3
 }
 
 #Minotauric
@@ -76,9 +154,10 @@ levy_nedichoplites = { #nedic militia
 levy_minotaurish = { #minotaur militia
 	default = no
 
-	lv_minotaurs = 0.6
-	lv_scirmishers = 0.2
-	lv_warhounds = 0.2
+	lv_warriors = 0.6
+	lv_raiders = 0.2
+	lv_archers = 0.1
+	lv_mages = 0.1
 }
 
 #Orcish
@@ -86,17 +165,19 @@ levy_minotaurish = { #minotaur militia
 levy_orcish = { #orcish militia
 	default = no
 
-	lv_heavyinfantry = 0.6
-	lv_scirmishers = 0.2
-	lv_warhounds = 0.2
+	lv_raiders = 0.3
+	lv_heavyinfantry = 0.4
+	lv_crossbowmen = 0.2
+	lv_mages = 0.1
 }
 
 levy_woodorcish = { #orcish militia
 	default = no
 
-	lv_lightinfantry = 0.3
+	lv_raiders = 0.1
+	lv_warriors = 0.3
 	lv_archers = 0.5
-	lv_warhounds = 0.2
+	lv_mages = 0.1
 }
 
 #Imga
@@ -104,8 +185,9 @@ levy_woodorcish = { #orcish militia
 levy_imgan = { #imga militia
 	default = no
 
-	lv_lightinfantry = 0.5
-	lv_scirmishers = 0.4
+	lv_warriors = 0.3
+	lv_raiders = 0.1
+	lv_archers = 0.5
 	lv_mages = 0.1
 }
 
@@ -114,9 +196,11 @@ levy_imgan = { #imga militia
 levy_khajiit = { #khajiit militia
 	default = no
 
-	lv_camels = 0.5
-	lv_scirmishers = 0.3
-	lv_khajiitcavalry = 0.2
+	lv_warriors = 0.4
+	lv_camels = 0.2
+	lv_archers = 0.1
+	lv_mages = 0.1
+	lv_cavalry = 0.2
 }
 
 #Argonian
@@ -124,8 +208,8 @@ levy_khajiit = { #khajiit militia
 levy_argonian = { #argonian militia
 	default = no
 
-	lv_lightinfantry = 0.5
-	lv_scirmishers = 0.3
+	lv_warriors = 0.5
+	lv_archers = 0.3
 	lv_guarcavalry = 0.2
 }
 
@@ -134,7 +218,88 @@ levy_argonian = { #argonian militia
 levy_nordic = { #nordic militia
 	default = no
 
-	lv_heavyinfantry = 0.7
-	lv_scirmishers = 0.2
-	lv_cavalry = 0.1
+	lv_warriors = 0.5
+	lv_heavyinfantry = 0.2
+	lv_archers = 0.1
+	lv_raiders = 0.2
+}
+
+#Breton
+
+levy_bretonic = { #bretonic militia
+	default = no
+
+	lv_archers = 0.1
+	lv_lightinfantry = 0.4
+	lv_mages = 0.2
+	lv_cavalry = 0.3
+}
+
+levy_druidic = { #druid militia
+	default = no
+
+	lv_warriors = 0.4
+	lv_raiders = 0.2
+	lv_archers = 0.2
+	lv_mages = 0.2
+}
+
+#Falmer
+
+levy_falmeri = { #falmer militia
+	default = no
+
+	lv_lightinfantry = 0.3
+	lv_archers = 0.2
+	lv_mages = 0.1
+	lv_cavalry = 0.4
+}
+
+#Dwemer
+
+levy_dwemer = { #dwemer militia
+	default = no
+
+	lv_heavyinfantry = 0.6
+	lv_crossbowmen = 0.3
+	lv_raiders = 0.1
+}
+
+levy_verkarthic = { #vampiric militia
+	default = no
+
+	lv_undead = 0.6
+	lv_bonelord = 0.2
+	lv_bonewalker = 0.2
+}
+
+#Foxman of Lilmoth
+
+levy_lilmothit = { #argonian militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_archers = 0.3
+	lv_guarcavalry = 0.2
+}
+
+#Sload militia
+
+levy_sloadan = { #sloadan militia
+	default = no
+
+	lv_undead = 0.7
+	lv_bonelord = 0.1
+	lv_bonewalker = 0.2
+}
+
+#Sea Elven militia
+
+levy_moarmeri = { #sloadan militia
+	default = no
+
+	lv_lightinfantry = 0.3
+	lv_warriors = 0.3
+	lv_archers = 0.2
+	lv_raiders = 0.2
 }

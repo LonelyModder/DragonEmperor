@@ -1,8 +1,13 @@
 ﻿lv_crossbowmen = {
 	army = yes
 	assault = yes
+	enable=no
 
 	levy_tier = basic
+	
+	allow = {
+		trade_good_surplus = { target = dwemerplans value > 0 }
+	}
 	
 	maneuver = 2
 	movement_speed = 2.5
@@ -11,22 +16,22 @@
 	
 	lv_lightinfantry = 1.1	
 	lv_heavyinfantry = 1.3	
-	lv_archers =  0.7	
-	lv_scirmishers = 1.3	
+	lv_archers =  0.7		
 	lv_crossbowmen = 1	
 	lv_camels = 1.3	
 	lv_mages = 0.7	
 	lv_cavalry = 0.7	
-	lv_khajiiticavalry = 0.7	
-	lv_guarcavalry = 0.9	
-	lv_warhounds = 0.9	
+	lv_guarcavalry = 0.9
 	lv_horsearchers = 0.7	
-	lv_minotaurs = 1.3	
-	lv_centurions = 0.9
 	lv_dremoras = 0.9	
 	lv_undead = 0.9	
-	lv_gryphons = 1.1	
-	lv_elephants = 1.3
+	lv_gryphons = 1.1
+	lv_warriors = 1.1
+	lv_raiders = 1.1
+	lv_atronach = 0.7
+	lv_clanfear = 0.9
+	lv_bonelord = 0.9
+	lv_bonewalker = 1.1
 	supply_train = 2.0
 
 	attrition_weight = 0.9

@@ -9,7 +9,29 @@
 	
 }
 
-nede = {
+sload = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	charisma = 3
+	finesse = 4
+	zeal = -2
+	martial = -2
+	
+}
+
+breton = {
+	type = status
+	
+	health = -0.1
+	charisma = 1
+	finesse = 3
+	martial = 2
+	
+}
+
+tnede = {
 	type = status
 	charisma = 2
 	zeal = 1
@@ -28,6 +50,13 @@ orc = {
 	charisma = -1
 	zeal = 1
 	martial = 5
+}
+
+lilmothit = {
+	type = status
+	charisma = 1
+	zeal = 2
+	martial = 3
 }
 
 nord = {
@@ -65,14 +94,25 @@ minotaur = {
 	martial = 4
 }
 
-ayleid = {
+falmer = {
 	type = status
 	
 	fertility = -0.3
 	health = 3.0
-	finesse = 2
-	martial = 1
-	zeal = 3
+	finesse = 1
+	martial = 3
+	zeal = 2
+	
+}
+
+dwemer = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	finesse = 3
+	martial = 2
+	charisma = 1
 	
 }
 
@@ -84,6 +124,17 @@ bosmer = {
 	charisma = 2
 	martial = 3
 	zeal = 1
+	
+}
+
+moarmer = {
+	type = status
+	
+	fertility = -0.3
+	health = 3.0
+	charisma = 1
+	martial = 3
+	zeal = 2
 	
 }
 
@@ -113,7 +164,7 @@ halfauroran = {
 	zeal = -6
 	country = {
 		lv_mages_offensive = 0.1
-		monthly_legitimacy = 2.0
+		monthly_legitimacy = 0.05
 	}
 	
 }

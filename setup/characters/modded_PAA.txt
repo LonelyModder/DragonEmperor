@@ -1,0 +1,26 @@
+﻿"PAA"={
+	country="PAA"
+	
+	58={
+		first_name="Orgnum"
+		family = c:PAA.fam:Adhal
+		birth_date=1.1.1
+		culture="bantan"
+		religion="satakalite_pantheon"
+		no_stats=yes
+		add_martial=10
+		add_charisma=10
+		add_finesse=8
+		add_zeal=8
+		no_traits=yes
+		add_trait="moarmer"
+		add_trait="satakalam"
+		add_gold=500
+		add_popularity=100
+		c:PAA={
+			set_as_ruler=char:58
+		}
+		#dna=""
+	}
+	
+}

@@ -14,7 +14,7 @@ deity_vigyld = {
 			}
 		}
 	}
-	icon = deity_war
+	icon = deity_vigyld
 	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
 	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = oldelven_pantheon
@@ -46,7 +46,7 @@ deity_sargeld = {
 			}
 		}
 	}
-	icon = deity_wealth
+	icon = deity_sargeld
 	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = oldelven_pantheon
@@ -74,7 +74,7 @@ deity_anuion = {
 			}
 		}
 	}
-	icon = deity_eloquence
+	icon = deity_anuion
 	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
 	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
 	religion = oldelven_pantheon
@@ -103,7 +103,7 @@ deity_moawita = {
 			}
 		}
 	}
-	icon = deity_love
+	icon = deity_moawita
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = oldelven_pantheon

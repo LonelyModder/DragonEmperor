@@ -1,0 +1,21 @@
+deity_manager = {
+	deities_database = { ### KEYS 10381-10400 ###
+		10381 = {
+			key = omen_satakal
+			deity = deity_satakal
+		}
+		10382 = {
+			key = omen_mothersea
+			deity = deity_mothersea
+		}
+		10383 = {
+			key = omen_orgnum
+			deity = deity_orgnum
+		}
+		10384 = {
+			key = omen_morwha
+			deity = deity_morwha
+		}
+	}
+}
+

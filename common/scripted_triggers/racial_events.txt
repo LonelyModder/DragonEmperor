@@ -2,10 +2,30 @@
 	OR = {
 		has_trait = ayleid
 		has_trait = altmer
+		has_trait = ayleid
+		has_trait = moarmer
+		has_trait = falmer
+		has_trait = dwemer
 		has_trait = bosmer
+		has_trait = sload
 	}
+	NOT={ has_trait = halfauroran }
+	NOT={ has_trait = satakalam }
+	NOT={ has_trait = lower_vampire }
+	NOT={ has_trait = half_vampire }
+	NOT={ has_trait = full_vampire }
+	NOT={ has_trait = lesser_lich }
+	NOT={ has_trait = lich }
 }
 
 is_immortal_trigger = {
-	has_trait = halfauroran
+	OR = {
+		has_trait = halfauroran
+		has_trait = satakalam
+		has_trait = lower_vampire
+		has_trait = half_vampire
+		has_trait = full_vampire
+		has_trait = lesser_lich
+		has_trait = lich
+	}
 }
