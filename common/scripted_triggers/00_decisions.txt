@@ -61,6 +61,10 @@ has_food_trade_good_trigger = {
 			trade_goods = fish
 			trade_goods = cattle
 			trade_goods = vegetables
+			#Modded
+			trade_goods = kwamaegg
+			trade_goods = saltrice
+			trade_goods = cheese
 		}
 	}
 }
@@ -71,6 +75,10 @@ has_non_food_trade_good_trigger = {
 		trade_goods = fish
 		trade_goods = cattle
 		trade_goods = vegetables
+		#Modded
+		trade_goods = kwamaegg
+		trade_goods = saltrice
+		trade_goods = cheese
 	}
 }
 
@@ -106,6 +114,18 @@ has_minable_trade_good_trigger = {
 			trade_goods = base_metals
 			trade_goods = iron
 			trade_goods = tin
+			#Modded
+			trade_goods = ebon
+			trade_goods = stalhrim
+			trade_goods = adamantium
+			trade_goods = moonstone
+			trade_goods = aetherium
+			trade_goods = kwamaegg
+			trade_goods = malachite
+			trade_goods = aeonstone
+			trade_goods = coal
+			trade_goods = limestone
+			trade_goods = soul_gems
 		}
 	}
 }
