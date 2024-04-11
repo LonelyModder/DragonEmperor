@@ -11,6 +11,20 @@ modded_tmp_region = {
 	}
 }
 
+modded_nkasaz_region = {
+	areas = {
+		anged_area
+		taleskan_area
+		rhevonoth_area
+		vonumhills_area
+		gahres_area
+		tagon_area
+		yul_area
+		engath_area
+		talemha_area
+	}
+}
+
 modded_bormountains_region = {
 	areas = {
 		kituna_area
