@@ -25,6 +25,28 @@ modded_nkasaz_region = {
 	}
 }
 
+modded_skasaz_region = {
+	areas = {
+		lumut_area
+		wkanesh_area
+		samara_area
+		bahiamoni_area
+		klithikardesh_area
+		makan_area
+		eyath_area
+	}
+}
+
+modded_yelir_region = {
+	areas = {
+		zanzar_area
+		snalonga_area
+		siuolasil_area
+		wravan_area
+		eravan_area
+	}
+}
+
 modded_bormountains_region = {
 	areas = {
 		kituna_area
