@@ -73,6 +73,17 @@ levy_chimeri = { #chimer militia
 	lv_mages = 0.2
 }
 
+#Sinismer
+
+levy_sinismeri = { #sinismeri militia
+	default = no
+
+	lv_cavalry = 0.2
+	lv_lightinfantry = 0.4
+	lv_archers = 0.2
+	lv_mages = 0.2
+}
+
 levy_ashlander = { #ashlander militia
 	default = no
 
@@ -200,6 +211,18 @@ levy_khajiit = { #khajiit militia
 	lv_camels = 0.2
 	lv_archers = 0.1
 	lv_mages = 0.1
+	lv_cavalry = 0.2
+}
+
+#Redguard
+
+levy_redguard = { #yokudan militia
+	default = no
+
+	lv_warriors = 0.4
+	lv_lightinfantry = 0.1
+	lv_camels = 0.1
+	lv_archers = 0.2
 	lv_cavalry = 0.2
 }
 

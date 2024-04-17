@@ -1,0 +1,45 @@
+﻿redguard = {	
+	color = hsv { 0.07 0.83 0.38 }
+
+	primary = lv_archers
+	second = lv_lightinfantry
+	flank = lv_cavalry
+	
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_redguard
+
+	male_names = {
+		Varnnk Farmyvond Razius Boriorter Boldian Orrio Nevun Lanld Alese Kelvif Kelnnison Kewithon Ernelm 
+		Leslo Charhlanie Lhoyn Lhotaron Frininia Baradecan Gorelan Tarair Junret Shadsteve Taracy Joniz Kotane 
+		Doriyvond Jarron Sheklith Erneok Walius Alotis Avidan Torlel Kintline Dorinison Isramar Sadlace 
+		Talanal Coylnnison   
+	}
+	female_names = {
+		Iszlone Chaona Iszanna Umannda Chanrvek Marlone Monsya Lairssan Tavia Tanonia Trevheda Channa Isoginia
+		Rayyie Tiexa Malein Senywendy Ritvaia Cleati Neeannon Sayam Isolir Niyi Todannon Monsyndie Niyda 
+		Pemelde Landicky Kaneilia Dhona Raslie Rasht Karlha Zarsha Lairati Ancah Ashmen Clessandra Rohsnie 
+		Sudirl 
+	}
+	family = {
+		Vigrn Tezga Slurchon Lurmar Kigam Shrellkern Vestta Baldam Tejga Krarmar Forga Fhurchin Mhorpun
+		Slerger Nirmsa Dirtt Birkta Rhoren Maofylga Michur Greze Blustha Faectur Rirhtin Cochsa Grorchfa
+		Nhirke Glesta Flildga Sistte Glashun Firdum Rhuctkern Rlircte Cistim Dhulpkern Tughtca Boerhtkern
+		Tachrn Mairtten
+	}
+	
+	culture = {
+		yokudan = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = arabian_gfx
+	ethnicities = {
+		10 = ethiopian
+	}
+}
