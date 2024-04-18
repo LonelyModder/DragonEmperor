@@ -1,5 +1,5 @@
 ﻿sinismer = {	
-	color = hsv { 0.5 1.0 0.5 }
+	color = hsv { 0.76 0.98 0.74 }
 
 	primary = lv_mages
 	second = lv_lightinfantry
@@ -40,6 +40,6 @@
 	
 	graphical_culture = noldor_gfx
 	ethnicities = {
-		10 = moarmer
+		10 = sinismer
 	}
 }

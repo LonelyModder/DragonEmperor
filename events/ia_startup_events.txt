@@ -339,3 +339,33 @@ esfa_startup.20 = { #Lizard Bulls
         name = esfa_startup.20.a
     }
 }
+
+esfa_startup.21 = { #Redguards
+    type = country_event
+    title = esfa_startup.21.t
+    desc = esfa_startup.21.desc
+    picture = welcoming_window_21
+	
+    trigger = {
+		country_culture_group = redguard
+    }
+
+    option = {    
+        name = esfa_startup.21.a
+    }
+}
+
+esfa_startup.22 = { #Sinismer
+    type = country_event
+    title = esfa_startup.22.t
+    desc = esfa_startup.22.desc
+    picture = welcoming_window_22
+	
+    trigger = {
+		country_culture_group = sinismer
+    }
+
+    option = {    
+        name = esfa_startup.22.a
+    }
+}

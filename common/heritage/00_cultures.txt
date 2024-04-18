@@ -295,3 +295,33 @@ nordic_heritage = {
 		country_culture_group = nordic
 	}
 }
+
+redguard_heritage = { 
+	modifier = {
+		#good
+		global_manpower_modifier = 0.1
+		land_morale_modifier = 0.1
+		
+		#bad
+		research_points_modifier = -0.1
+	}
+	
+	trigger = {
+		country_culture_group = redguard
+	}
+}
+
+sinismer_heritage = { 
+	modifier = {
+		#good
+		enslavement_efficiency = 0.25
+		land_morale_modifier = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		country_culture_group = sinismer
+	}
+}

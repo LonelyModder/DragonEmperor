@@ -29,6 +29,8 @@ esfa_traits.1 = {
 				NOT = { has_trait = argonian }
 				NOT = { has_trait = imga }
 				NOT = { has_trait = nord }
+				NOT = { has_trait = redguard }
+				NOT = { has_trait = sinismer }
 				NOT = { has_trait = breton }
 				NOT = { has_trait = falmer }
 				NOT = { has_trait = dwemer }
@@ -145,6 +147,20 @@ esfa_traits.1 = {
 				}
 				add_trait = nord
 			}
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = redguard }
+				}
+				add_trait = redguard
+			}
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = sinismer }
+				}
+				add_trait = sinismer
+			}
 			#Altmer racism
 			if = {
 				limit = {
@@ -170,6 +186,8 @@ esfa_traits.1 = {
 									has_trait = argonian
 									has_trait = imga
 									has_trait = nord
+									has_trait = redguard
+									has_trait = sinismer
 									has_trait = minotaur
 									has_trait = falmer
 									has_trait = dwemer

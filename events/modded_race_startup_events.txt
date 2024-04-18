@@ -43,6 +43,8 @@ race_startup.2 = {
 					NOT = { has_trait = argonian }
 					NOT = { has_trait = imga }
 					NOT = { has_trait = nord }
+					NOT = { has_trait = redguard }
+					NOT = { has_trait = sinismer }
 					NOT = { has_trait = breton }
 					NOT = { has_trait = falmer }
 					NOT = { has_trait = dwemer }
@@ -202,6 +204,22 @@ race_startup.2 = {
 						has_culture_group = nordic
 					}
 					add_trait = nord
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = redguard
+					}
+					add_trait = redguard
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = sinismer
+					}
+					add_trait = sinismer
 					remove_trait = pure
 					remove_trait = impure
 				}

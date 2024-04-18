@@ -382,6 +382,56 @@ is_an_nord_female = {
 		is_male = no
     }
 }
+#Redguard
+is_an_redguard_male = {
+    scope = character
+ 
+    saved_scopes = {
+ 
+    }
+    is_shown = {
+        has_trait = redguard
+		is_male = yes
+    }
+}
+
+is_an_redguard_female = {
+    scope = character
+ 
+    saved_scopes = {
+ 
+    }
+    is_shown = {
+        has_trait = redguard
+		is_male = no
+    }
+}
+
+#sinismer
+is_an_sinismer_male = {
+    scope = character
+ 
+    saved_scopes = {
+ 
+    }
+    is_shown = {
+        has_trait = sinismer
+		is_male = yes
+    }
+}
+
+is_an_sinismer_female = {
+    scope = character
+ 
+    saved_scopes = {
+ 
+    }
+    is_shown = {
+        has_trait = sinismer
+		is_male = no
+    }
+}
+
 #Half-Auroran
 is_an_halfauroran_male = {
     scope = character
