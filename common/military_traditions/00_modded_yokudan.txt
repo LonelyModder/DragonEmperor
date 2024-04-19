@@ -1,0 +1,97 @@
+﻿yokudan_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = yokudan_philosophy
+	
+	allow = {
+		trigger_if = {
+			limit = { 
+					country_culture_group = redguard
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = redguard
+		}
+		trigger_else_if = {
+			limit = {
+				AND = {
+					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = dwemer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
+						has_military_bonus = moarmer_states_path_end_bonus
+					}
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:redguard
+					}
+				}
+			}
+			any_country_culture = {
+				AND = {
+					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = dwemer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
+						has_military_bonus = moarmer_states_path_end_bonus
+					}
+					custom_tooltip = {
+						text = tradition_unlock_requirement_short
+						is_integrated = yes
+						this.culture.culture_group = culture_group:redguard
+					}
+				}
+			}
+		}
+		trigger_else = {
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = dwemer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
+					has_military_bonus = moarmer_states_path_end_bonus
+				}
+				custom_tooltip = {
+					text = "tradition_unlock_requirement_yokudan"
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:redguard
+					}
+				}
+			}
+		}
+	}
+	
+	yokudan_path_1 = { ###altmer path
+		modifier = { 
+			lv_warriors_discipline = 0.1
+			lv_warriors_offensive = 0.1
+		}
+		icon = yokudan_mini_trad
+		requires = {}
+	}
+	
+	yokudan_states_path_end_bonus = {
+		modifier = { 
+			lv_warriors_offensive = 0.15
+			ocean_combat_bonus = 0.2
+		}
+		requires = { yokudan_path_6a yokudan_path_4b } 
+		icon = yokudan_mini_trad 
+	}
+}
