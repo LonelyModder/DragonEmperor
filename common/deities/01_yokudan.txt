@@ -28,6 +28,58 @@ deity_diagna = {
 	}
 }
 
+deity_onsi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_onsi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_onsi
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_leki = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_leki = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_leki
+	passive_modifier = { lv_lightinfantry_offensive = 0.1 }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
 deity_zeht = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
@@ -35,13 +87,13 @@ deity_zeht = {
 			common_deity_trigger = {
 				RELIGION = yokudan_pantheon
 			}
-			deity:omen_syrabane = {
+			deity:omen_zeht = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
 	}
-	icon = deity_zeht
-	passive_modifier = { oratory_tech_investment = deity_oratory_tech_investment_svalue }
+	icon = deity_zenit
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
 	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
 	religion = yokudan_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
@@ -54,14 +106,40 @@ deity_zeht = {
 	}
 }
 
-deity_satakal = {
+deity_tava = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
 				RELIGION = yokudan_pantheon
 			}
-			deity:omen_auriel = {
+			deity:omen_tava = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tava
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_ysatakal = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_ysatakal = {
 				holy_site_deity_check_trigger = yes
 			}
 		}
@@ -80,14 +158,66 @@ deity_satakal = {
 	}
 }
 
-deity_morwha = {
+deity_ruptga = {
 	trigger = {
 		polytheistic_check_religion_trigger = yes
 		OR = {
 			common_deity_trigger = {
 				RELIGION = yokudan_pantheon
 			}
-			deity:omen_mara = {
+			deity:omen_ruptga = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_ruptga
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_sep = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_sep = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_sep
+	passive_modifier = { agressive_expansion_impact = deity_agressive_expansion_impact_svalue }
+	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_ymorwha = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_ymorwha = {
 				holy_site_deity_check_trigger = yes
 			}
 		}

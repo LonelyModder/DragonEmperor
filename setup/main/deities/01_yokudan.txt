@@ -1,0 +1,41 @@
+deity_manager = {
+	deities_database = { ### KEYS 10421-10440 ###
+		10421 = {
+			key = omen_diagna
+			deity = deity_diagna
+		}
+		10422 = {
+			key = omen_onsi
+			deity = deity_onsi
+		}
+		10423 = {
+			key = omen_leki
+			deity = deity_leki
+		}
+		10424 = {
+			key = omen_zeht
+			deity = deity_zeht
+		}
+		10425 = {
+			key = omen_tava
+			deity = deity_tava
+		}
+		10426 = {
+			key = omen_ysatakal
+			deity = deity_ysatakal
+		}
+		10427 = {
+			key = omen_ruptga
+			deity = deity_ruptga
+		}
+		10428 = {
+			key = omen_sep
+			deity = deity_sep
+		}
+		10429 = {
+			key = omen_ymorwha
+			deity = deity_ymorwha
+		}
+	}
+}
+

@@ -8,6 +8,7 @@
 				OR = {
 					country_culture_group = altmer 
 					country_culture_group = ayleid
+					country_culture_group = sinismer
 					country_culture_group = chimer
 					country_culture_group = falmer
 					country_culture_group = bosmer
@@ -21,6 +22,7 @@
 			OR = {
 				country_culture_group = altmer
 				country_culture_group = ayleid
+				country_culture_group = sinismer
 				country_culture_group = chimer
 				country_culture_group = falmer
 				country_culture_group = bosmer
@@ -47,6 +49,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
@@ -74,6 +77,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
@@ -103,6 +107,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
