@@ -77,7 +77,7 @@
 		}
 	}
 	
-	yokudan_path_1 = { ###altmer path
+	yokudan_path_1 = { ###yokudan path
 		modifier = { 
 			lv_warriors_discipline = 0.1
 			lv_warriors_offensive = 0.1
@@ -86,9 +86,97 @@
 		requires = {}
 	}
 	
+	yokudan_path_2 = { ###yokudan path
+		modifier = { 
+			lv_archers_offensive = 0.1
+			lv_cavalry_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_1}
+	}
+	
+	yokudan_path_3 = { ###yokudan path
+		modifier = { 
+			plains_combat_bonus = 0.1
+			lv_cavalry_discipline = 0.1
+		}
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_2}
+	}
+	
+	yokudan_path_3a = { ###yokudan path
+		modifier = { 
+			hills_combat_bonus = 0.1
+			desert_combat_bonus = 0.1
+		}
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_3}
+	}
+	
+	yokudan_path_4a = { ###yokudan path
+		modifier = { 
+			lv_camels_offensive = 0.1
+			lv_camels_discipline = 0.1
+		}
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_3a}
+	}
+	
+	yokudan_path_5a = { ###yokudan path
+		modifier = { 
+			fort_maintenance_cost = -0.2
+		}
+		enable_ability = military_colonies
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_4a}
+	}
+	
+	yokudan_path_6a = { ###yokudan path
+		modifier = { 
+			lv_lightinfantry_discipline = 0.1
+			land_morale_modifier = 0.1
+		}
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_5a}
+	}
+	
+	yokudan_path_3b = { ###yokudan path
+		modifier = { 
+			ocean_combat_bonus = 0.15
+		}
+		on_activate = {
+			ordered_owned_province = {	
+				limit = {
+					is_coastal = yes
+					has_building = port_building
+					can_build_building = port_building
+				}
+				alternative_limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				order_by = total_population
+				add_building_level = port_building
+				add_building_level = port_building
+			}
+		}
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_3}
+	}
+	
+	yokudan_path_4b = { ###yokudan path
+		modifier = { 
+			naval_damage_done = 0.1
+		}
+		enable_ability = naval_raiding
+		icon = yokudan_mini_trad
+		requires = {yokudan_path_3b}
+	}
+	
 	yokudan_states_path_end_bonus = {
 		modifier = { 
-			lv_warriors_offensive = 0.15
+			lv_cavalry_offensive = 0.15
 			ocean_combat_bonus = 0.2
 		}
 		requires = { yokudan_path_6a yokudan_path_4b } 

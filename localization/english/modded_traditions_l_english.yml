@@ -295,7 +295,7 @@
  #####Pyandonean
  ######
  pyandonean_philosophy:1 "Pyandonean Traditions"
- pyandonean_philosophydesc:3 ""
+ pyandonean_philosophydesc:3 "Moarmer as the very name suggest owe their power to the seas surrounding their home. Thou their armies are not as disciplined or strong as their counterparts noone yet managed to win with them on open seas and without control over the sea noone can even dream about threatening them in any way. Thats why Moarmer can afford to lose to altmer again and again only to come back stronger than before."
  tradition_unlock_requirement_moarmer:0 "You don't have enough of moarmer to unlock the tradition or they are not integrated culture."
  #Traditions
  moarmer_path_1:0 "Followers of Orgnum"
@@ -318,3 +318,30 @@
  moarmer_path_4b_desc:0 "Most likely result of Orgnums experiments thou even moarmer themselves do not exacly know where they came from. They look like a something between sea elf and a sea serpent. They are a head taller than tallest nord and equally strong but way more agile."
  moarmer_states_path_end_bonus:0 "Masters of the Seas"
  moarmer_states_path_end_bonus_desc:0 "Sea Elves had to endure many obstacles to achieve their current position as undesputed masters of the southern seas. They had to make many sacrifices to survive to conquer Pyandonea and prosper in this harsh enviroment. Today no one talk about them without respect. Even their worst enemies. "
+ ######
+ #####Pyandonean
+ ######
+ yokudan_philosophy:1 "Yokudan Traditions"
+ yokudan_philosophydesc:3 "After the nords redguards are the most fearsome race on Nirn. Their warriors are known for their fanaticism and skills in melee combat. They rarely leave survivors of their wrath. "
+ tradition_unlock_requirement_yokudan:0 "You don't have enough of redguards to unlock the tradition or they are not integrated culture."
+ #Traditions
+ yokudan_path_1:0 "Warriors from the West"
+ yokudan_path_1_desc:0 "For the foreigner Yokudans may seem like the unified nation yet it's far from the truth. They are internally devided into many clans and tribal groups. Some of them do not know that they are subjects of some empire. There are of course constant minor feuds between those groups which leads to the militarisation of the yokudan society."
+ yokudan_path_2:0 "Ghosts of the Desert"
+ yokudan_path_2_desc:0 "From the times of elven domination yokudans learned the benefits of asimetrical warfare. If you cannot face enemy directly you need to limit their resources, hit supply lines, ambush their patrols etc. The light armour prefered by yokudans aids in applying this strategy."
+ yokudan_path_3:0 "Steppe Nomads"
+ yokudan_path_3_desc:0 "Much of Eastern Yokuda is filled with the deserts but most of northern part of the continent consists of the grasslands spanning from the eastern coast for more than half of yokudas length. This part of the empire is inhabited by the nomadic clans from which the empires cavalry is recruited."
+ yokudan_path_3a:0 "Yokudan Empire"
+ yokudan_path_3a_desc:0 "After Yokudans defeated the elves they also inherited their empire. Despite the size that is acording to some estimates 3 times the size of Tamriel most of it is covered in deserts and hills. As common saying states harsh enviroment breeds tough man and the enviroment of Yokuda can be very unforgiving."
+ yokudan_path_4a:0 "Desert Cavalry"
+ yokudan_path_4a_desc:0 "Camels used by yokudans in combat are creatures with many qualities. They give wool, milk, can carry more baggage than most animals and can serve as mounts. The last function is especially important because of their hidden power. They stink, and horses are afraid of the smell so camels are perfect counter for cavalry based armies."
+ yokudan_path_5a:0 "Yakeda"
+ yokudan_path_5a_desc:0 "Thou the emperor officially rules the empire due to the sheer size of the thing provinces are ruled over by local military governors known as Yakeda. Traditionally every Yakeda builds strong stone castle from which he can control local area and to which he can withdraw in case of trouble awaiting the response of the government."
+ yokudan_path_6a:0 "Ansei"
+ yokudan_path_6a_desc:0 "Sword Singers are the elite of the Redguard military. These warriors can manifest the magical swords (or in rare cases other kind of melee wepon it doeas not have to be sword it's just redguard fetish) out of their spiritual energy. The art of sword singing requires many years of practice and due to that they enjoy respect and obedience among the people and nobility."
+ yokudan_path_3b:0 "Warriors and Merchants"
+ yokudan_path_3b_desc:0 "Yokudans never developed strong navy mainly because their empire was land based. Yet despite this many Yakeda (nobles) invested in their own little navies. Yokudan ships were smaller than elven ones but despite the size they were capable of open seas voyages and Yokudan merchant on mission to Tamriel was a common sight on the Eltheric Ocean."
+ yokudan_path_4b:0 "Fearsome Pirates"
+ yokudan_path_4b_desc:0 "After their defeat Sinismer didn't just throw down their wepons. They just left for the isles surrounding the continent and conducted raids on the coasts. This is usually marked as the beginning of Yokudan Piracy. Captains were given special rights to capture any elven ship encountered on empires seas without permition."
+ yokudan_states_path_end_bonus:0 "Power of Desert and the Sea"
+ yokudan_states_path_end_bonus_desc:0 "The Yokudan desert created the most fearsome warriors the west has ever seen. Lead by the Na-Totambu and the Emperor they can defeat any oponent that will be unlucky enaugh to stand in their way. Even Oceans cannot save the enemies of Yokudan Empire because there is no place hidden from yokudan sailors."
