@@ -1369,6 +1369,54 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	7083 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7088 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7182 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7190 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7186 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7090 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7095 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7135 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7127 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7124 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7163 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7197 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7236 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7223 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7246 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	6574 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -9123,6 +9171,24 @@ country = {
 			
 			own_control_core = 	{ 
 				6727 6728 6729 6730 6731 6732 6733
+			}
+		}
+		
+		RAA = {          
+			government = aristocratic_monarchy
+			primary_culture = yokudan
+			religion = yokudan_pantheon
+			capital = 7142
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7142 7144 7141 7137 7140 7139 7138 7131 7120 7118 7119
 			}
 		}
 	}
