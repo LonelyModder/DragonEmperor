@@ -3,11 +3,14 @@
 7081={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -22,8 +25,8 @@
 7082={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -41,8 +44,8 @@
 7083={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -60,8 +63,8 @@
 7084={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -79,8 +82,8 @@
 7085={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -98,8 +101,8 @@
 7086={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -117,8 +120,8 @@
 7087={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -136,8 +139,8 @@
 7088={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -155,8 +158,8 @@
 7089={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -174,8 +177,8 @@
 7090={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -193,8 +196,8 @@
 7091={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -212,8 +215,8 @@
 7092={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -231,8 +234,8 @@
 7093={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -250,8 +253,8 @@
 7094={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -269,8 +272,8 @@
 7095={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -288,8 +291,8 @@
 7096={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -307,8 +310,8 @@
 7097={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -326,8 +329,8 @@
 7098={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -345,8 +348,8 @@
 7099={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -364,8 +367,8 @@
 7100={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -383,8 +386,8 @@
 7101={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -402,8 +405,8 @@
 7102={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -421,8 +424,8 @@
 7103={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -440,8 +443,8 @@
 7104={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -459,8 +462,8 @@
 7105={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -478,8 +481,8 @@
 7106={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -497,8 +500,8 @@
 7107={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -516,8 +519,8 @@
 7108={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -535,8 +538,8 @@
 7109={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -554,8 +557,8 @@
 7110={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -573,8 +576,8 @@
 7111={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -592,8 +595,8 @@
 7112={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -611,8 +614,8 @@
 7113={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -630,8 +633,8 @@
 7114={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -649,8 +652,8 @@
 7115={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -668,8 +671,8 @@
 7116={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -687,8 +690,8 @@
 7117={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -705,9 +708,9 @@
 
 7118={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -725,8 +728,8 @@
 7119={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -743,9 +746,9 @@
 
 7120={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -763,8 +766,8 @@
 7121={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -782,8 +785,8 @@
 7122={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -801,8 +804,8 @@
 7123={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -820,8 +823,8 @@
 7124={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -839,8 +842,8 @@
 7125={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -858,8 +861,8 @@
 7126={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -877,8 +880,8 @@
 7127={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -896,8 +899,8 @@
 7128={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -915,8 +918,8 @@
 7129={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -934,8 +937,8 @@
 7130={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -952,9 +955,9 @@
 
 7131={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -971,9 +974,9 @@
 
 7132={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -991,8 +994,8 @@
 7133={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1010,8 +1013,8 @@
 7134={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1029,8 +1032,8 @@
 7135={ 
 	terrain="mountain"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1048,11 +1051,14 @@
 7136={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1066,9 +1072,9 @@
 
 7137={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1085,9 +1091,9 @@
 
 7138={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1104,9 +1110,9 @@
 
 7139={ 
 	terrain="farmland"
-	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	trade_goods="grain"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1124,8 +1130,8 @@
 7140={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1143,8 +1149,8 @@
 7141={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1187,8 +1193,8 @@
 7143={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1206,8 +1212,8 @@
 7144={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1225,8 +1231,8 @@
 7145={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1244,11 +1250,14 @@
 7146={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1263,8 +1272,8 @@
 7147={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1282,8 +1291,8 @@
 7148={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1301,8 +1310,8 @@
 7149={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1320,8 +1329,8 @@
 7150={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1339,8 +1348,8 @@
 7151={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1358,8 +1367,8 @@
 7152={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1377,8 +1386,8 @@
 7153={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1396,8 +1405,8 @@
 7154={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1415,8 +1424,8 @@
 7155={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1434,8 +1443,8 @@
 7156={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1453,8 +1462,8 @@
 7157={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1472,8 +1481,8 @@
 7158={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1491,8 +1500,8 @@
 7159={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1510,8 +1519,8 @@
 7160={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1529,8 +1538,8 @@
 7161={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1548,8 +1557,8 @@
 7162={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1567,8 +1576,8 @@
 7163={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1608,8 +1617,8 @@
 7165={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1627,8 +1636,8 @@
 7166={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1646,8 +1655,8 @@
 7167={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1665,27 +1674,30 @@
 7168={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=3
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7169={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1703,8 +1715,8 @@
 7170={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1722,8 +1734,8 @@
 7171={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1741,8 +1753,8 @@
 7172={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1760,8 +1772,8 @@
 7173={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1779,8 +1791,8 @@
 7174={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1798,8 +1810,8 @@
 7175={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1817,8 +1829,8 @@
 7176={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1836,8 +1848,8 @@
 7177={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1855,8 +1867,8 @@
 7178={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1874,11 +1886,14 @@
 7179={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1893,502 +1908,442 @@
 7180={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7181={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=5
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
 7182={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7183={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7184={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7185={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7186={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7187={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7188={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7189={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7190={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7191={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7192={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7193={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7194={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7195={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7196={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7197={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7198={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7199={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7200={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7201={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7202={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7203={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7204={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7205={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7206={ 
 	terrain="forest"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2406,8 +2361,8 @@
 7207={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2425,8 +2380,8 @@
 7208={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2444,8 +2399,8 @@
 7209={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2463,84 +2418,87 @@
 7210={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="seas"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7211={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="seas"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7212={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="seas"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}
-	tribesmen={
+	citizen={
+		amount=3
+	}
+	freemen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
 7213={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="deadric_pantheon"
+	culture="seas"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
-	tribesmen={
-		amount=4
+	freemen={
+		amount=3
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7214={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2558,8 +2516,8 @@
 7215={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2577,8 +2535,8 @@
 7216={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2596,8 +2554,8 @@
 7217={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2615,8 +2573,8 @@
 7218={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2634,8 +2592,8 @@
 7219={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2653,8 +2611,8 @@
 7220={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2672,8 +2630,8 @@
 7221={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2713,8 +2671,8 @@
 7223={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2732,8 +2690,8 @@
 7224={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2751,8 +2709,8 @@
 7225={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2770,8 +2728,8 @@
 7226={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2789,8 +2747,8 @@
 7227={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2808,11 +2766,14 @@
 7228={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2827,8 +2788,8 @@
 7229={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2846,8 +2807,8 @@
 7230={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2865,8 +2826,8 @@
 7231={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2884,8 +2845,8 @@
 7232={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2903,8 +2864,8 @@
 7233={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2922,8 +2883,8 @@
 7234={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2941,8 +2902,8 @@
 7235={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2960,8 +2921,8 @@
 7236={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2979,11 +2940,14 @@
 7237={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -2998,8 +2962,8 @@
 7238={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3017,8 +2981,8 @@
 7239={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3036,8 +3000,8 @@
 7240={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3055,8 +3019,8 @@
 7241={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3074,8 +3038,33 @@
 7242={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
+	civilization_value=0
+	barbarian_power=0
+	province_rank="city"
+	nobles={
+		amount=1
+	}
+	citizen={
+		amount=6
+	}
+	freemen={
+		amount=12
+	}
+	tribesmen={
+		amount=7
+	}
+	slaves={
+		amount=4
+	}
+}
+
+7243={ 
+	terrain="hills"
+	trade_goods="spices"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3090,33 +3079,11 @@
 	}
 }
 
-7243={ 
-	terrain="hills"
-	trade_goods="spices"
-	religion="yokudan_pantheon"
-	culture="yokudan"
-	civilization_value=0
-	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
-	}
-	freemen={
-		amount=8
-	}
-	tribesmen={
-		amount=4
-	}
-	slaves={
-		amount=4
-	}
-}
-
 7244={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3134,8 +3101,8 @@
 7245={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3153,8 +3120,8 @@
 7246={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3172,8 +3139,8 @@
 7247={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3191,8 +3158,8 @@
 7248={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3210,8 +3177,8 @@
 7249={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3229,8 +3196,8 @@
 7250={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3248,8 +3215,8 @@
 7251={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3267,8 +3234,8 @@
 7252={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3286,8 +3253,8 @@
 7253={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3305,8 +3272,8 @@
 7254={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3324,8 +3291,8 @@
 7255={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3343,8 +3310,8 @@
 7256={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3362,8 +3329,8 @@
 7257={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3381,8 +3348,8 @@
 7258={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3400,8 +3367,8 @@
 7259={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3419,8 +3386,8 @@
 7260={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3438,8 +3405,8 @@
 7261={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3457,8 +3424,8 @@
 7262={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3476,8 +3443,8 @@
 7263={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3495,8 +3462,8 @@
 7264={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3514,464 +3481,398 @@
 7265={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7266={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7267={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7268={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7269={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7270={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7271={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7272={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7273={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7274={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7275={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7276={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7277={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7278={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7279={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7280={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7281={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7282={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7283={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7284={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7285={ 
 	terrain="jungle"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7286={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7287={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7288={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="elven_pantheon"
+	culture="yeliri"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
 7289={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3989,8 +3890,8 @@
 7290={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4008,8 +3909,8 @@
 7291={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -4027,8 +3928,8 @@
 7292={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
