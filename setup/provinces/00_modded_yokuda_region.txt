@@ -1586,19 +1586,22 @@
 7164={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=8
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -2688,19 +2691,22 @@
 7222={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=8
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -3087,19 +3093,22 @@
 7243={ 
 	terrain="hills"
 	trade_goods="spices"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="yokudan_pantheon"
+	culture="yokudan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	citizen={
+		amount=3
+	}
 	freemen={
-		amount=1
+		amount=8
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 

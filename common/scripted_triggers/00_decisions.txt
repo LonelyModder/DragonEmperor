@@ -45,6 +45,7 @@ is_endgame_tag_trigger = {
 		tag = XAE #Argonian Empire
 		tag = XVE #Velothi Empire
 		tag = XDE #Dwemer Empire 
+		tag = RAA #Yokudan Empire
 	}
 }
 
@@ -79,6 +80,7 @@ has_non_food_trade_good_trigger = {
 		trade_goods = kwamaegg
 		trade_goods = saltrice
 		trade_goods = cheese
+		trade_goods = tea
 	}
 }
 

@@ -1,0 +1,101 @@
+﻿country_decisions = {
+	
+	# Form Yokudan Empire
+	form_eyokuda = {
+		
+		potential = {
+			OR = {
+				country_culture_group = redguard #Mehanic for Hammerfell needed!
+				country_culture_group = sinismer
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = RAA
+			}
+			NOR = {
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 7142
+					province_id = 7110
+					province_id = 7164
+					province_id = 7193
+					province_id = 7222
+					province_id = 7243
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = eyokuda_must_not_exist
+				NOT = {
+					any_country = {
+						tag = RAA
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 7142
+			owns_or_subject_owns = 7110
+			owns_or_subject_owns = 7164
+			owns_or_subject_owns = 7193
+			owns_or_subject_owns = 7222
+			owns_or_subject_owns = 7243
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "EYokuda_name"
+			change_country_flag = RAA
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "EYokuda_adj"
+				change_country_color =  "EYokuda_color"
+				change_country_tag = RAA
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 7142
+						}
+					}
+				}
+				set_capital = 7142
+				hidden_effect = {
+					p:7142.state = {
+						set_state_capital = 7142
+					}
+				}
+				p:7142 = {
+					capital_formable_medium_effect = yes
+					formable_capital_modifier_normal_effect = yes
+				}
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_nkasaz_region = { formable_region_province_effect = yes }
+				region:modded_skasaz_region = { formable_region_province_effect = yes }
+				region:modded_yelir_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}
