@@ -2,7 +2,7 @@
 
 7081={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -24,7 +24,7 @@
 
 7082={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -43,7 +43,7 @@
 
 7083={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -62,7 +62,7 @@
 
 7084={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -81,12 +81,15 @@
 
 7085={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -100,7 +103,7 @@
 
 7086={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -119,7 +122,7 @@
 
 7087={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -138,7 +141,7 @@
 
 7088={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -157,7 +160,7 @@
 
 7089={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -176,7 +179,7 @@
 
 7090={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -195,7 +198,7 @@
 
 7091={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="limestone"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -214,12 +217,15 @@
 
 7092={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -233,7 +239,7 @@
 
 7093={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -252,7 +258,7 @@
 
 7094={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -271,12 +277,15 @@
 
 7095={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -290,7 +299,7 @@
 
 7096={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -309,16 +318,13 @@
 
 7097={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="fish"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -328,16 +334,13 @@
 
 7098={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="wild_game"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -347,35 +350,35 @@
 
 7099={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="soul_gems"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7100={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="wild_game"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -385,7 +388,7 @@
 
 7101={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -404,7 +407,7 @@
 
 7102={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -423,16 +426,13 @@
 
 7103={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="horses"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -442,16 +442,13 @@
 
 7104={ 
 	terrain="plains"
-	trade_goods="spices"
-	religion="goblin_pantheon"
-	culture="gobsea"
+	trade_goods="wild_game"
+	religion="deadric_pantheon"
+	culture="kasazi"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
-		amount=1
-	}
-	tribesmen={
 		amount=4
 	}
 	slaves={
@@ -461,12 +458,15 @@
 
 7105={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -480,7 +480,7 @@
 
 7106={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -499,7 +499,7 @@
 
 7107={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -518,7 +518,7 @@
 
 7108={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -537,7 +537,7 @@
 
 7109={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -556,7 +556,7 @@
 
 7110={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -575,7 +575,7 @@
 
 7111={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -594,12 +594,15 @@
 
 7112={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -613,7 +616,7 @@
 
 7113={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -632,12 +635,15 @@
 
 7114={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -651,7 +657,7 @@
 
 7115={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -670,12 +676,15 @@
 
 7116={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -689,7 +698,7 @@
 
 7117={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -727,7 +736,7 @@
 
 7119={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -765,7 +774,7 @@
 
 7121={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -784,7 +793,7 @@
 
 7122={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -803,7 +812,7 @@
 
 7123={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -822,12 +831,15 @@
 
 7124={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -841,7 +853,7 @@
 
 7125={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -860,7 +872,7 @@
 
 7126={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -879,7 +891,7 @@
 
 7127={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -898,7 +910,7 @@
 
 7128={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -917,7 +929,7 @@
 
 7129={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -936,7 +948,7 @@
 
 7130={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -955,7 +967,7 @@
 
 7131={ 
 	terrain="farmland"
-	trade_goods="grain"
+	trade_goods="wine"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -993,12 +1005,15 @@
 
 7133={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1012,7 +1027,7 @@
 
 7134={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1031,7 +1046,7 @@
 
 7135={ 
 	terrain="mountain"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1050,7 +1065,7 @@
 
 7136={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1091,7 +1106,7 @@
 
 7138={ 
 	terrain="farmland"
-	trade_goods="grain"
+	trade_goods="wine"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1129,7 +1144,7 @@
 
 7140={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1148,7 +1163,7 @@
 
 7141={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1167,7 +1182,7 @@
 
 7142={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1192,7 +1207,7 @@
 
 7143={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1211,7 +1226,7 @@
 
 7144={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1230,7 +1245,7 @@
 
 7145={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1249,7 +1264,7 @@
 
 7146={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1271,7 +1286,7 @@
 
 7147={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1290,7 +1305,7 @@
 
 7148={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1309,7 +1324,7 @@
 
 7149={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1328,7 +1343,7 @@
 
 7150={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1347,7 +1362,7 @@
 
 7151={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1366,7 +1381,7 @@
 
 7152={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1385,7 +1400,7 @@
 
 7153={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1404,7 +1419,7 @@
 
 7154={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wool"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1423,7 +1438,7 @@
 
 7155={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1442,7 +1457,7 @@
 
 7156={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1461,7 +1476,7 @@
 
 7157={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1480,7 +1495,7 @@
 
 7158={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1499,7 +1514,7 @@
 
 7159={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1518,7 +1533,7 @@
 
 7160={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="dates"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1537,7 +1552,7 @@
 
 7161={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1556,7 +1571,7 @@
 
 7162={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1575,7 +1590,7 @@
 
 7163={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="iron"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1594,7 +1609,7 @@
 
 7164={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1616,7 +1631,7 @@
 
 7165={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1635,7 +1650,7 @@
 
 7166={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1654,7 +1669,7 @@
 
 7167={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1673,7 +1688,7 @@
 
 7168={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1695,7 +1710,7 @@
 
 7169={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="cheese"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1714,7 +1729,7 @@
 
 7170={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1733,7 +1748,7 @@
 
 7171={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1752,7 +1767,7 @@
 
 7172={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1771,7 +1786,7 @@
 
 7173={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1790,7 +1805,7 @@
 
 7174={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1809,7 +1824,7 @@
 
 7175={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -1828,7 +1843,7 @@
 
 7176={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1847,7 +1862,7 @@
 
 7177={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="horses"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1866,7 +1881,7 @@
 
 7178={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1885,7 +1900,7 @@
 
 7179={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -1907,7 +1922,7 @@
 
 7180={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -1923,7 +1938,7 @@
 
 7181={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -1945,7 +1960,7 @@
 
 7182={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -1961,7 +1976,7 @@
 
 7183={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -1977,7 +1992,7 @@
 
 7184={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -1993,7 +2008,7 @@
 
 7185={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2009,7 +2024,7 @@
 
 7186={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2025,7 +2040,7 @@
 
 7187={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2041,7 +2056,7 @@
 
 7188={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="fruitsoftheforest"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2057,7 +2072,7 @@
 
 7189={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2073,7 +2088,7 @@
 
 7190={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2089,7 +2104,7 @@
 
 7191={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2105,7 +2120,7 @@
 
 7192={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2121,7 +2136,7 @@
 
 7193={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2143,7 +2158,7 @@
 
 7194={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2159,7 +2174,7 @@
 
 7195={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2175,7 +2190,7 @@
 
 7196={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2191,7 +2206,7 @@
 
 7197={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="fruitsoftheforest"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2207,7 +2222,7 @@
 
 7198={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2223,7 +2238,7 @@
 
 7199={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2239,7 +2254,7 @@
 
 7200={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2255,7 +2270,7 @@
 
 7201={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2277,7 +2292,7 @@
 
 7202={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2293,7 +2308,7 @@
 
 7203={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2309,7 +2324,7 @@
 
 7204={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2325,7 +2340,7 @@
 
 7205={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="kasazi"
 	civilization_value=0
@@ -2341,7 +2356,7 @@
 
 7206={ 
 	terrain="forest"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2360,7 +2375,7 @@
 
 7207={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2379,7 +2394,7 @@
 
 7208={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2398,7 +2413,7 @@
 
 7209={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2417,7 +2432,7 @@
 
 7210={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="sloadsoap"
 	religion="deadric_pantheon"
 	culture="seas"
 	civilization_value=0
@@ -2436,7 +2451,7 @@
 
 7211={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="deadric_pantheon"
 	culture="seas"
 	civilization_value=0
@@ -2455,7 +2470,7 @@
 
 7212={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="necromancers"
 	religion="deadric_pantheon"
 	culture="seas"
 	civilization_value=0
@@ -2477,7 +2492,7 @@
 
 7213={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="deadric_pantheon"
 	culture="seas"
 	civilization_value=0
@@ -2496,7 +2511,7 @@
 
 7214={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2515,7 +2530,7 @@
 
 7215={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2534,7 +2549,7 @@
 
 7216={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2553,7 +2568,7 @@
 
 7217={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2572,7 +2587,7 @@
 
 7218={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2591,7 +2606,7 @@
 
 7219={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2610,7 +2625,7 @@
 
 7220={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2629,7 +2644,7 @@
 
 7221={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="camel"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2648,7 +2663,7 @@
 
 7222={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="earthware"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2670,7 +2685,7 @@
 
 7223={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="precious_metals"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2689,7 +2704,7 @@
 
 7224={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2708,7 +2723,7 @@
 
 7225={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="stone"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2727,7 +2742,7 @@
 
 7226={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2746,7 +2761,7 @@
 
 7227={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2765,7 +2780,7 @@
 
 7228={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2787,7 +2802,7 @@
 
 7229={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2806,7 +2821,7 @@
 
 7230={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2825,7 +2840,7 @@
 
 7231={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2844,7 +2859,7 @@
 
 7232={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2863,7 +2878,7 @@
 
 7233={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -2882,7 +2897,7 @@
 
 7234={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2901,7 +2916,7 @@
 
 7235={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2920,7 +2935,7 @@
 
 7236={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2939,7 +2954,7 @@
 
 7237={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2961,7 +2976,7 @@
 
 7238={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2980,7 +2995,7 @@
 
 7239={ 
 	terrain="plains"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="goblin_pantheon"
 	culture="gobsea"
 	civilization_value=0
@@ -2999,7 +3014,7 @@
 
 7240={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3018,7 +3033,7 @@
 
 7241={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3037,7 +3052,7 @@
 
 7242={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3062,7 +3077,7 @@
 
 7243={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3081,7 +3096,7 @@
 
 7244={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3100,7 +3115,7 @@
 
 7245={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3119,7 +3134,7 @@
 
 7246={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="beasts"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3138,7 +3153,7 @@
 
 7247={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3157,7 +3172,7 @@
 
 7248={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3176,7 +3191,7 @@
 
 7249={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3195,7 +3210,7 @@
 
 7250={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3214,7 +3229,7 @@
 
 7251={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3233,7 +3248,7 @@
 
 7252={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3252,7 +3267,7 @@
 
 7253={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3271,7 +3286,7 @@
 
 7254={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3290,7 +3305,7 @@
 
 7255={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3309,7 +3324,7 @@
 
 7256={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fur"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3328,7 +3343,7 @@
 
 7257={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3347,7 +3362,7 @@
 
 7258={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3366,7 +3381,7 @@
 
 7259={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="amber"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3385,7 +3400,7 @@
 
 7260={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3404,7 +3419,7 @@
 
 7261={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3423,7 +3438,7 @@
 
 7262={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3442,7 +3457,7 @@
 
 7263={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="salt"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3461,7 +3476,7 @@
 
 7264={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3480,7 +3495,7 @@
 
 7265={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3496,7 +3511,7 @@
 
 7266={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3512,7 +3527,7 @@
 
 7267={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3528,7 +3543,7 @@
 
 7268={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3544,7 +3559,7 @@
 
 7269={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3560,7 +3575,7 @@
 
 7270={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3576,7 +3591,7 @@
 
 7271={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3592,7 +3607,7 @@
 
 7272={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3608,7 +3623,7 @@
 
 7273={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3624,7 +3639,7 @@
 
 7274={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3640,7 +3655,7 @@
 
 7275={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="circle_of_mages"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3662,7 +3677,7 @@
 
 7276={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="gypsum"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3678,7 +3693,7 @@
 
 7277={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3694,7 +3709,7 @@
 
 7278={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="elthericammonites"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3710,7 +3725,7 @@
 
 7279={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3726,7 +3741,7 @@
 
 7280={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3742,7 +3757,7 @@
 
 7281={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3758,7 +3773,7 @@
 
 7282={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3774,7 +3789,7 @@
 
 7283={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3790,7 +3805,7 @@
 
 7284={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3806,7 +3821,7 @@
 
 7285={ 
 	terrain="jungle"
-	trade_goods="spices"
+	trade_goods="fruitsoftheforest"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3822,7 +3837,7 @@
 
 7286={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3838,7 +3853,7 @@
 
 7287={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3854,7 +3869,7 @@
 
 7288={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="elven_pantheon"
 	culture="yeliri"
 	civilization_value=0
@@ -3870,7 +3885,7 @@
 
 7289={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="cabal_of_witches"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3889,7 +3904,7 @@
 
 7290={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3908,7 +3923,7 @@
 
 7291={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="wild_game"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0
@@ -3927,7 +3942,7 @@
 
 7292={ 
 	terrain="hills"
-	trade_goods="spices"
+	trade_goods="fish"
 	religion="yokudan_pantheon"
 	culture="yokudan"
 	civilization_value=0

@@ -619,6 +619,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	7275 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7193 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7168 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6693 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6605 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -797,6 +800,9 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	7181 = {
+		port_building = 2
+	}
+	7099 = {
 		port_building = 2
 	}
 	7201 = {
@@ -2687,6 +2693,21 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	7076 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7071 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7054 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7048 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7050 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	6420 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3486,9 +3507,10 @@ country = {
 			capital = 1071
 			
 			pantheon = {
-			
+			{ deity = 10021 }
 			{ deity = 10038 }
-			
+			{ deity = 10036 }
+			{ deity = 10033 }
 			}
 			
 			technology={
@@ -4479,9 +4501,10 @@ country = {
 			capital = 1669
 			
 			pantheon = {
-			
+			{ deity = 10021 }
 			{ deity = 10028 }
-			
+			{ deity = 10036 }
+			{ deity = 10033 }
 			}
 			
 			own_control_core = 	{ 
@@ -9354,6 +9377,123 @@ country = {
 			
 			own_control_core = 	{ 
 				7237 7236 7238 7239
+			}
+		}
+		
+		RAL= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7133
+			
+			own_control_core = 	{ 
+				7133 7132 7134 7127 7123 7122 7121
+			}
+		}
+		
+		RAM= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7124
+			
+			own_control_core = 	{ 
+				7124 7107 7125 7126 7128
+			}
+		}
+		
+		RAN= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7116
+			
+			own_control_core = 	{ 
+				7116 7119 7117 7108
+			}
+		}
+		
+		RAO = {          
+			government = aristocratic_monarchy
+			primary_culture = kasazi
+			religion = deadric_pantheon
+			capital = 7099
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7099 7104 7103 7100 7098 7097
+			}
+		}
+		
+		RAP= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7105
+			
+			own_control_core = 	{ 
+				7105 7106 7109
+			}
+		}
+		
+		RAR= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7114
+			
+			own_control_core = 	{ 
+				7114 7115 7113 7112 7110
+			}
+		}
+		
+		RAS= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7102
+			
+			own_control_core = 	{ 
+				7101 7102 7096
+			}
+		}
+		
+		RAT= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7095
+			
+			own_control_core = 	{ 
+				7095 7090 7091 7089 
+			}
+		}
+		
+		RAU= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7092
+			
+			own_control_core = 	{ 
+				7092 7094 7093
+			}
+		}
+		
+		RAW= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7085
+			
+			own_control_core = 	{ 
+				7085 7087 7088 7086 7084 7083
 			}
 		}
 	}
