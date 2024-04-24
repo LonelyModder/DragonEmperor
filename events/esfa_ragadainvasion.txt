@@ -1,0 +1,136 @@
+﻿namespace = ragada
+
+ragada.1 = {
+	type = country_event
+	title = "ragada.1.t"
+	desc = "ragada.1.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = root.current_ruler
+	
+	trigger = {
+		tag = RAA
+		owns = 7142
+		owns_or_subject_owns = 7110
+		owns_or_subject_owns = 7164
+		owns_or_subject_owns = 7193
+		owns_or_subject_owns = 7222
+		owns_or_subject_owns = 7242
+		owns_or_subject_owns = 7275
+		owns_or_subject_owns = 7099
+		owns_or_subject_owns = 7201
+	}
+	
+	option = { 
+		name = "ragada.1.a"
+		p:2322 = {
+            while = {
+                count = 40
+                define_pop = {
+                type = freemen
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }                
+        }
+		p:2322 = {
+			set_conquered_by = RAA
+		}
+		change_country_name = "RaGada_name"
+		change_country_adjective = "RaGada_adj"
+		add_country_modifier = {
+			name = lepontic_invasion_modifier
+			duration = 14600 # 10 years
+		}
+		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+		region:modded_weepingdesert_region = { formable_region_province_effect = yes }
+		region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
+		region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
+		region:modded_hewsbane_region = { formable_region_province_effect = yes }
+		region:modded_alikr_region = { formable_region_province_effect = yes }
+		p:7142 = { #Kingdom of Akos Kasaz
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				change_country_name = "akoskasaz_name"
+				change_country_adjective = "akoskasaz_adj"
+			}
+		}
+		p:7143 = {
+			region = {
+				every_region_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7142.owner
+				}
+			}
+		}
+		p:2322.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:2323
+				target = p:2323.owner
+			}
+		}	
+		ai_chance = {
+            factor = 90
+        }
+	}
+	
+	option = { 
+		name = "ragada.1.b"
+		p:2322 = {
+            while = {
+                count = 40
+                define_pop = {
+                type = freemen
+                culture = yokudan
+                religion = yokudan_pantheon
+                }
+            }                
+        }
+		p:2322 = { #Ra-Gada invades without Na-Totambu
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				change_country_name = "RaGada_name"
+				change_country_adjective = "RaGada_adj"
+				change_country_flag = RAA
+				change_country_color =  "HKHemmerfell_color"
+			}
+		}
+		p:2322.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 14600 # 10 years
+			}
+			region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+			region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+			region:modded_weepingdesert_region = { formable_region_province_effect = yes }
+			region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
+			region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
+			region:modded_hewsbane_region = { formable_region_province_effect = yes }
+			region:modded_alikr_region = { formable_region_province_effect = yes }
+		}
+		
+		p:2322.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:2323
+				target = p:2323.owner
+			}
+		}
+		ai_chance = {
+            factor = 10
+        }
+	}
+}
