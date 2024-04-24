@@ -9,7 +9,8 @@
 				country_culture_group = sinismer
 			}
 			#is_tribal = yes
-			NOT = {
+			NOR = {
+				tag = XYE
 				tag = RAA
 			}
 			NOR = {
@@ -35,7 +36,7 @@
 				text = eyokuda_must_not_exist
 				NOT = {
 					any_country = {
-						tag = RAA
+						tag = XYE
 					}
 				}
 			}
@@ -64,7 +65,7 @@
 			hidden_effect = {
 				change_country_adjective = "EYokuda_adj"
 				change_country_color =  "EYokuda_color"
-				change_country_tag = RAA
+				change_country_tag = XYE
 			}
 			if = {
 				limit = {
