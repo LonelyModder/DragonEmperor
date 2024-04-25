@@ -10,6 +10,7 @@ ragada.1 = {
 	left_portrait = root.current_ruler
 	
 	trigger = {
+		NOT = { has_global_variable = ragada_invasion_1 }
 		tag = RAA
 		owns = 7142
 		owns_or_subject_owns = 7110
@@ -22,9 +23,31 @@ ragada.1 = {
 		owns_or_subject_owns = 7201
 	}
 	
+	immediate = {
+		set_global_variable = {
+			name = ragada_invasion_1
+		}
+	}
+	
 	option = { 
 		name = "ragada.1.a"
 		p:2322 = {
+			while = {
+                count = 3
+                define_pop = {
+                type = nobles
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }
+			while = {
+                count = 10
+                define_pop = {
+                type = citizen
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }
             while = {
                 count = 40
                 define_pop = {
@@ -32,7 +55,15 @@ ragada.1 = {
                 culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
                 religion = yokudan_pantheon
                 }
-            }                
+            } 
+			while = {
+                count = 10
+                define_pop = {
+                type = slaves
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }
         }
 		p:2322 = {
 			set_conquered_by = RAA
@@ -43,6 +74,7 @@ ragada.1 = {
 			name = lepontic_invasion_modifier
 			duration = 14600 # 10 years
 		}
+		add_treasury = 300
 		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_weepingdesert_region = { formable_region_province_effect = yes }
@@ -54,6 +86,18 @@ ragada.1 = {
 	    	create_country = {
 				change_government = despotic_monarchy
 				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
 				change_country_name = "akoskasaz_name"
 				change_country_adjective = "akoskasaz_adj"
 			}
@@ -74,13 +118,308 @@ ragada.1 = {
 				}
 			}
 		}
+		p:7222 = { #Kingdom of Yath
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
+				change_country_name = "yath_name"
+				change_country_adjective = "yath_adj"
+			}
+		}
+		p:7222 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7222.owner
+				}
+			}
+		}
+		p:7224 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7222.owner
+				}
+			}
+		}
+		p:7214 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7222.owner
+				}
+			}
+		}
+		p:7242 = { #Kingdom of Nalonga
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
+				change_country_name = "nalonga_name"
+				change_country_adjective = "nalonga_adj"
+			}
+		}
+		p:7242 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7242.owner
+				}
+			}
+		}
+		p:7255 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7242.owner
+				}
+			}
+		}
+		p:7262 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7242.owner
+				}
+			}
+		}
+		p:7275 = { #Kingdom of Ravan
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
+				change_country_name = "ravan_name"
+				change_country_adjective = "ravan_adj"
+			}
+		}
+		p:7275 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7275.owner
+				}
+			}
+		}
+		p:7277 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7275.owner
+				}
+			}
+		}
+		p:7201 = { #Kingdom of Samara
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
+				change_country_name = "samara_name"
+				change_country_adjective = "samara_adj"
+			}
+		}
+		p:7201 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7201.owner
+				}
+			}
+		}
+		p:7207 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7201.owner
+				}
+			}
+		}
+		p:7193 = { #Kingdom of Kanesh
+	    	create_country = {
+				change_government = despotic_monarchy
+				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
+				change_country_name = "kanesh_name"
+				change_country_adjective = "kanesh_adj"
+			}
+		}
+		p:7193 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7193.owner
+				}
+			}
+		}
+		p:7189 = {
+			area = {
+				every_area_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = RAA
+							}
+						}
+					}
+					set_conquered_by = p:7193.owner
+				}
+			}
+		}
 		p:2322.owner = {
 			declare_war_with_wargoal = {
 				war_goal = conquer_wargoal
 				province = p:2323
 				target = p:2323.owner
 			}
-		}	
+		}
+		trigger_event = {
+			id = ragada.2 
+		}		
 		ai_chance = {
             factor = 90
         }
@@ -90,18 +429,54 @@ ragada.1 = {
 		name = "ragada.1.b"
 		p:2322 = {
             while = {
+                count = 3
+                define_pop = {
+                type = nobles
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }
+			while = {
+                count = 10
+                define_pop = {
+                type = citizen
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }
+            while = {
                 count = 40
                 define_pop = {
                 type = freemen
-                culture = yokudan
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
                 religion = yokudan_pantheon
                 }
-            }                
+            } 
+			while = {
+                count = 10
+                define_pop = {
+                type = slaves
+                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                religion = yokudan_pantheon
+                }
+            }               
         }
 		p:2322 = { #Ra-Gada invades without Na-Totambu
 	    	create_country = {
 				change_government = despotic_monarchy
 				switch_government_type_event_clearup_effect = yes
+				if = {
+					limit = {
+						NOT = {
+							primary_culture = yokudan
+						}
+					}
+					set_primary_culture_cleanup_effect = {
+						NEW_PRIMARY_CULTURE = yokudan
+						MAKE_OLD_CULTURE_INTEGRATED = yes
+					}
+				}
+				set_country_religion = yokudan_pantheon
 				change_country_name = "RaGada_name"
 				change_country_adjective = "RaGada_adj"
 				change_country_flag = RAA
@@ -113,6 +488,7 @@ ragada.1 = {
 				name = lepontic_invasion_modifier
 				duration = 14600 # 10 years
 			}
+			add_treasury = 300
 			region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
 			region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 			region:modded_weepingdesert_region = { formable_region_province_effect = yes }
@@ -129,8 +505,25 @@ ragada.1 = {
 				target = p:2323.owner
 			}
 		}
+		trigger_event = {
+			id = ragada.2 
+		}
 		ai_chance = {
             factor = 10
         }
+	}
+}
+
+ragada.2 = {
+	type = country_event
+	title = "ragada.2.t"
+	desc = "ragada.2.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {}
+	
+	option = { 
+		name = "ragada.2.a"
 	}
 }
