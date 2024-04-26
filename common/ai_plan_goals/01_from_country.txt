@@ -6,6 +6,7 @@ is_agressive_culture_aimod = {
 			primary_culture = nednibenese
 			tag = VAS
 			tag = SAG
+			tag = RAA
 		}
 		NOT = { is_tribal = yes }
 		manpower > 4
@@ -22,6 +23,7 @@ is_lacking_levies_pseudo_trigger = {
 			primary_culture = nednibenese
 			tag = VAS
 			tag = SAG
+			tag = RAA
 		}
 		NOT = { is_tribal = yes }
 	}

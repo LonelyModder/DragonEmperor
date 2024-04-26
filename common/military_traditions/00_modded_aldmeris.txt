@@ -8,11 +8,13 @@
 				OR = {
 					country_culture_group = altmer 
 					country_culture_group = ayleid
+					country_culture_group = sinismer
 					country_culture_group = chimer
 					country_culture_group = falmer
 					country_culture_group = bosmer
 					country_culture_group = breton
 					country_culture_group = imga
+					country_culture_group = sinismer
 				}
 			}
 			custom_tooltip = {
@@ -21,11 +23,13 @@
 			OR = {
 				country_culture_group = altmer
 				country_culture_group = ayleid
+				country_culture_group = sinismer
 				country_culture_group = chimer
 				country_culture_group = falmer
 				country_culture_group = bosmer
 				country_culture_group = breton
 				country_culture_group = imga
+				country_culture_group = sinismer
 			}
 		}
 		trigger_else_if = {
@@ -40,6 +44,7 @@
 						has_military_bonus = dwemer_states_path_end_bonus
 						has_military_bonus = lilmothit_states_path_end_bonus
 						has_military_bonus = moarmer_states_path_end_bonus
+						has_military_bonus = yokudan_states_path_end_bonus
 					}
 					any_country_culture = {
 						is_integrated = yes
@@ -47,6 +52,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
@@ -67,6 +73,7 @@
 						has_military_bonus = dwemer_states_path_end_bonus
 						has_military_bonus = lilmothit_states_path_end_bonus
 						has_military_bonus = moarmer_states_path_end_bonus
+						has_military_bonus = yokudan_states_path_end_bonus
 					}
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
@@ -74,6 +81,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer
@@ -95,6 +103,7 @@
 					has_military_bonus = dwemer_states_path_end_bonus
 					has_military_bonus = lilmothit_states_path_end_bonus
 					has_military_bonus = moarmer_states_path_end_bonus
+					has_military_bonus = yokudan_states_path_end_bonus
 				}
 				custom_tooltip = {
 					text = "tradition_unlock_requirement_aldmer"
@@ -103,6 +112,7 @@
 						OR = {
 							this.culture.culture_group = culture_group:altmer
 							this.culture.culture_group = culture_group:ayleid
+							this.culture.culture_group = culture_group:sinismer
 							this.culture.culture_group = culture_group:chimer
 							this.culture.culture_group = culture_group:falmer
 							this.culture.culture_group = culture_group:bosmer

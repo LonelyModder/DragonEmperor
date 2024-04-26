@@ -21,6 +21,8 @@
 			NOT = { has_trait = argonian }
 			NOT = { has_trait = imga }
 			NOT = { has_trait = nord }
+			NOT = { has_trait = redguard }
+			NOT = { has_trait = sinismer }
 			NOT = { has_trait = breton }
 			NOT = { has_trait = falmer }
 			NOT = { has_trait = dwemer }
@@ -146,6 +148,18 @@
 				has_culture_group = nordic
 			}
 			add_trait = nord
+		}
+		else_if = {
+			limit = {
+				has_culture_group = redguard
+			}
+			add_trait = redguard
+		}
+		else_if = {
+			limit = {
+				has_culture_group = sinismer
+			}
+			add_trait = sinismer
 		}
 	}
 }

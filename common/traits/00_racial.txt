@@ -9,6 +9,17 @@
 	
 }
 
+sinismer = {
+	type = status
+	
+	fertility = -0.3
+	health = 5.0
+	charisma = 1
+	finesse = 4
+	zeal = 1
+	
+}
+
 sload = {
 	type = status
 	
@@ -64,6 +75,13 @@ nord = {
 	charisma = 1
 	zeal = 1
 	martial = 4
+}
+
+redguard = {
+	type = status
+	charisma = 2
+	zeal = 1
+	martial = 3
 }
 
 khajiit = {

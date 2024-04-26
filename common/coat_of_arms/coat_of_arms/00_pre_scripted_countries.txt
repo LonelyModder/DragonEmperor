@@ -153,6 +153,18 @@ MBJ = { #Morag Tong
 	}
 }
 
+RAA = { #Yokudan Empire
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 135 60 7 }
+	color2 = rgb { 135 60 7 }
+
+	colored_emblem = {
+		texture = "ce_yokuda.dds"
+		color1 = rgb { 191 191 191 }
+		color2 = rgb { 189 174 43 }
+	}
+}
+
 TAA = { #Agonio/Kingdom of Thras
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 92 161 250 }

@@ -1,0 +1,237 @@
+﻿### General Deity Checks ###
+
+### Exclusive Deity Checks ###
+
+deity_diagna = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_diagna = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_diagna
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_onsi = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_onsi = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_onsi
+	passive_modifier = { global_start_experience = deity_global_start_experience_svalue }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_leki = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_leki = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_leki
+	passive_modifier = { lv_lightinfantry_offensive = 0.1 }
+	omen = { discipline = omen_discipline_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_zeht = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_zeht = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_zenit
+	passive_modifier = { global_tax_modifier = deity_global_tax_modifier_svalue }
+	omen = { civic_tech_investment = omen_civic_tech_investment_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_tava = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_tava = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tava
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_ysatakal = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_ysatakal = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_satakal
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
+	omen = { global_monthly_civilization = omen_global_monthly_civilization_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_ruptga = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_ruptga = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_ruptga
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_sep = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_sep = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_sep
+	passive_modifier = { agressive_expansion_impact = deity_agressive_expansion_impact_svalue }
+	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_ymorwha = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = yokudan_pantheon
+			}
+			deity:omen_ymorwha = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_morwha
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = yokudan_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}

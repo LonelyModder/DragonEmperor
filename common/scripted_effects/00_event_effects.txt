@@ -2774,6 +2774,38 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
+				has_culture_group = redguard
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_camels
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = sinismer
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_mages
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
 				OR = {
 					has_culture_group = breton
 					has_culture_group = druid

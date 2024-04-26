@@ -1,0 +1,45 @@
+﻿sinismer = {	
+	color = hsv { 0.17 0.01 0.27 }
+
+	primary = lv_mages
+	second = lv_lightinfantry
+	flank = lv_cavalry
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_sinismeri
+
+	male_names = {
+		Kessirles Raaklis Idesli Vydrendolri Ycovas Yldo Henwiddu Nanrislam Convin Jomloa Elamolrath Ales
+		Vanvandan Amas Mislotio Peklilduurnioh Qromnon Crolraa Hakinde Zuurgoh Paargornesnoh Virstalrel
+		Cruuldaarevoth Leklinodro Kadrimath Qrylrith Joryyta Colgomduth Raklan Leirith Qrolrul Ninvimydreth
+		Vimevol Myddenor Qyshom Nalisi Asnur Roddadalnyuth Crilmu Elgiuth
+	}
+	female_names = {
+		Ceshuslessioh Aspilwi Chrulnes Zucislilla Yynneissuo Dyllesh Selnarlinvir Huhniosh Tulniah Yythundu
+		Jocuhia Ore Sollysolwu Teinras Chrusninneirdoht Chrocus Pesnanwy Dectu Siralveis Enurmel Satshei
+		Zanhei Elordy Neshily Atshis Yathyht Ithion Taspias Cectu Hanhih Veictial Penrandonwia Chydeeslaryht
+		Tacuth Chictarnuluoth Dhespy Tethyht Hurhial Eedesirmih Chriseehoth
+	}
+	family = {
+		Comaan Hyrgna Pislilvilrath Peilmeth Vomniddul Eidholre Hokos Hymrath Ocetu Lilgade Varyyrlaam Namlerosneh
+		Qylgirnete Ynvih Crashidde Jihmitodu Zyclolnyaddar Lakhisih Qrehmun Jyrstaalnyavuh Onnioh Osherilvial Inle
+		Vinyl Urlei Cusmuor Cyhlian Zeihlassol Dhannusria Yrhasri Zashoslus Chronhordyl Heemnel Dhonlyrnendeh
+		Chelmudirmyth Pirulwan Pyllolvirdian Dymnero Uspohylvi Vemyslo
+	}
+	culture = {
+		kasazi = {}
+		yeliri = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = noldor_gfx
+	ethnicities = {
+		10 = sinismer
+	}
+}

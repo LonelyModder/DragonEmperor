@@ -619,6 +619,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	7275 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7193 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7168 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6693 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6605 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	6426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -778,10 +781,40 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	7168 = {
+		port_building = 1
+	}
+	7242 = {
+		port_building = 1
+	}
+	7222 = {
+		port_building = 1
+	}
+	7142 = {
+		port_building = 1
+	}
 	5862 = {
 		port_building = 1
 	}
 	6731 = {
+		port_building = 2
+	}
+	7181 = {
+		port_building = 2
+	}
+	7099 = {
+		port_building = 2
+	}
+	7201 = {
+		port_building = 2
+	}
+	7212 = {
+		port_building = 2
+	}
+	7193 = {
+		port_building = 2
+	}
+	7275 = {
 		port_building = 2
 	}
 	5852 = {
@@ -1369,6 +1402,54 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	7083 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7088 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7182 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7190 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7186 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7090 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7095 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7135 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7127 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7121 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7124 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7163 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7197 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7236 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7223 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7246 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	6574 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -2612,6 +2693,21 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	7076 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7071 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7054 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7048 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7050 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	6420 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3411,9 +3507,10 @@ country = {
 			capital = 1071
 			
 			pantheon = {
-			
+			{ deity = 10021 }
 			{ deity = 10038 }
-			
+			{ deity = 10036 }
+			{ deity = 10033 }
 			}
 			
 			technology={
@@ -4404,9 +4501,10 @@ country = {
 			capital = 1669
 			
 			pantheon = {
-			
+			{ deity = 10021 }
 			{ deity = 10028 }
-			
+			{ deity = 10036 }
+			{ deity = 10033 }
 			}
 			
 			own_control_core = 	{ 
@@ -9123,6 +9221,279 @@ country = {
 			
 			own_control_core = 	{ 
 				6727 6728 6729 6730 6731 6732 6733
+			}
+		}
+		
+		RAA = {          
+			government = aristocratic_monarchy
+			primary_culture = yokudan
+			religion = yokudan_pantheon
+			capital = 7142
+			
+			own_control_core = 	{ 
+				7142 7144 7141 7137 7140 7139 7138 7131 7120 7118 7225 7224 7207 7206
+				7151 7150 7152 7153 7154 7155 7159 7158 7143 7145 7214 7215 7216 7217 7218
+				7156 7157 7160 7161 7162 7166 7167 7165 7229 7231 7230 7232 7233 7254 7253 
+				7164 7163 7175 7173 7172 7171 7170 7169 7168 7174 7222 7223 7221 7220 7219
+				7243 7244 7242 7241 7240 7245 7246 7247 7248 7249 7255 7256 7257 7260 7261 
+				7258 7259 7250 7251 7252 7262 7263 7264 7289 7290 7291 7292 7208 7209
+			}
+		}
+		
+		RAB = {          
+			government = aristocratic_monarchy
+			primary_culture = kasazi
+			religion = deadric_pantheon
+			capital = 7193
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7194 7193 7195 7192 7191 7190 7185
+				7189 7188 7186 7187 7182 7183 7181 7184
+			}
+		}
+		
+		RAC = {
+			government = despotic_monarchy
+			primary_culture = seas
+			religion = deadric_pantheon
+			capital = 7212
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7212 7213 7211 7210
+			}
+		}
+		
+		RAD= {          
+			government = aristocratic_monarchy
+			primary_culture = kasazi
+			religion = deadric_pantheon
+			capital = 7201
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7180 7196 7197 7198 7199 7200 7201 7202 7203 7204 7205
+			}
+		}
+		
+		RAE= {          
+			government = aristocratic_monarchy
+			primary_culture = yeliri
+			religion = deadric_pantheon
+			capital = 7275
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7268 7271 7272 7273 7274 7267 7266 7265 7269 7270 7276 7275
+				7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 7287 7288
+			}
+		}
+		
+		RAF= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7081
+			
+			own_control_core = 	{ 
+				7081 7082
+			}
+		}
+		
+		RAG= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7179
+			
+			own_control_core = 	{ 
+				7177 7178 7176 7179
+			}
+		}
+		
+		RAH= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7136
+			
+			own_control_core = 	{ 
+				7136 7148 7149 7130 7129
+			}
+		}
+		
+		RAI= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7146
+			
+			own_control_core = 	{ 
+				7146 7135 7147
+			}
+		}
+		
+		RAJ= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7228
+			
+			own_control_core = 	{ 
+				7228 7226 7227 7234 7235
+			}
+		}
+		
+		RAK= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7237
+			
+			own_control_core = 	{ 
+				7237 7236 7238 7239
+			}
+		}
+		
+		RAL= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7133
+			
+			own_control_core = 	{ 
+				7133 7132 7134 7127 7123 7122 7121
+			}
+		}
+		
+		RAM= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7124
+			
+			own_control_core = 	{ 
+				7124 7107 7125 7126 7128
+			}
+		}
+		
+		RAN= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7116
+			
+			own_control_core = 	{ 
+				7116 7119 7117 7108
+			}
+		}
+		
+		RAO = {          
+			government = aristocratic_monarchy
+			primary_culture = kasazi
+			religion = deadric_pantheon
+			capital = 7099
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7099 7104 7103 7100 7098 7097
+			}
+		}
+		
+		RAP= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7105
+			
+			own_control_core = 	{ 
+				7105 7106 7109
+			}
+		}
+		
+		RAR= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7114
+			
+			own_control_core = 	{ 
+				7114 7115 7113 7112 7110 7111
+			}
+		}
+		
+		RAS= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7102
+			
+			own_control_core = 	{ 
+				7101 7102 7096
+			}
+		}
+		
+		RAT= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7095
+			
+			own_control_core = 	{ 
+				7095 7090 7091 7089 
+			}
+		}
+		
+		RAU= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7092
+			
+			own_control_core = 	{ 
+				7092 7094 7093
+			}
+		}
+		
+		RAW= {          
+			government = tribal_kingdom
+			primary_culture = gobsea
+			religion = goblin_pantheon
+			capital = 7085
+			
+			own_control_core = 	{ 
+				7085 7087 7088 7086 7084 7083
 			}
 		}
 	}

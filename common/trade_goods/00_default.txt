@@ -345,6 +345,21 @@ limestone = { #282 territories
 	color = hsv { 0.01 0.06 0.61 }
 }
 
+gypsum = { #282 territories
+	category = 5
+	
+	gold = 0.45
+	
+	province = {
+		local_freemen_happyness = happiness_small_svalue
+	}
+	country = {
+		build_cost = -0.05
+	}
+	
+	color = hsv { 0.0 0.0 0.26 }
+}
+
 elephants = { #82 territories
 	category = 3
 	
