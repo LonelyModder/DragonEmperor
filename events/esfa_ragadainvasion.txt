@@ -419,6 +419,10 @@ ragada.1 = {
 		#}
 		trigger_event = {
 			id = ragada.2 
+		}
+		trigger_event = {
+			id = ragada.3
+			days = 31 
 		}		
 		ai_chance = {
             factor = 90
@@ -508,6 +512,10 @@ ragada.1 = {
 		trigger_event = {
 			id = ragada.2 
 		}
+		trigger_event = {
+			id = ragada.3
+			days = 31			
+		}
 		ai_chance = {
             factor = 10
         }
@@ -527,5 +535,31 @@ ragada.2 = {
 	
 	option = { 
 		name = "ragada.2.a"
+	}
+}
+
+ragada.3 = {
+	type = country_event
+	title = "ragada.3.t"
+	desc = "ragada.3.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		owns = 2322 
+		war = no
+		p:2322.owner = { religion = yokudan_pantheon }
+		p:2323.owner = { NOT = { religion = yokudan_pantheon } }
+	}
+	
+	option = { 
+		name = "ragada.3.a" 
+		p:2322.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:2323
+				target = p:2323.owner
+			}
+		}
 	}
 }
