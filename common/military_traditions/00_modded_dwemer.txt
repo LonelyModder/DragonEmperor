@@ -32,19 +32,20 @@
 					}
 				}
 			}
-			any_country_culture = {
-				AND = {
-					OR = {
-						has_military_bonus = argonian_states_path_end_bonus
-						has_military_bonus = orcish_states_path_end_bonus
-						has_military_bonus = khajiit_states_path_end_bonus
-						has_military_bonus = nede_states_path_end_bonus
-						has_military_bonus = nordic_states_path_end_bonus
-						has_military_bonus = altmer_states_path_end_bonus
-						has_military_bonus = lilmothit_states_path_end_bonus
-						has_military_bonus = moarmer_states_path_end_bonus
-						has_military_bonus = yokudan_states_path_end_bonus
-					}
+			
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
+					has_military_bonus = moarmer_states_path_end_bonus
+					has_military_bonus = yokudan_states_path_end_bonus
+				}
+				any_country_culture = {
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes

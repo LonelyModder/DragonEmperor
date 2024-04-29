@@ -30,19 +30,20 @@
 					}
 				}
 			}
-			any_country_culture = {
-				AND = {
-					OR = {
-						has_military_bonus = orcish_states_path_end_bonus
-						has_military_bonus = nede_states_path_end_bonus
-						has_military_bonus = argonian_states_path_end_bonus
-						has_military_bonus = altmer_states_path_end_bonus
-						has_military_bonus = khajiit_states_path_end_bonus
-						has_military_bonus = dwemer_states_path_end_bonus
-						has_military_bonus = lilmothit_states_path_end_bonus
-						has_military_bonus = moarmer_states_path_end_bonus
-						has_military_bonus = yokudan_states_path_end_bonus
-					}
+			
+			AND = {
+				OR = {
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = dwemer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
+					has_military_bonus = moarmer_states_path_end_bonus
+					has_military_bonus = yokudan_states_path_end_bonus
+				}
+				any_country_culture = {
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes
@@ -183,7 +184,7 @@
 	nordic_path_3c = { ###nordic path
 		modifier = { 
 			general_loyalty = 5
-			heavy_infantry_discipline = 0.1
+			lv_heavyinfantry_discipline = 0.1
 		}
 		on_activate = {
 			custom_tooltip = "create_high_martial_rising_star"
