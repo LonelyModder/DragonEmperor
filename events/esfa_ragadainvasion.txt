@@ -82,6 +82,21 @@ ragada.1 = {
 		region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
 		region:modded_hewsbane_region = { formable_region_province_effect = yes }
 		region:modded_alikr_region = { formable_region_province_effect = yes }
+		
+		p:2322 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			if = {
+                limit = { free_building_slots > 1 }
+                add_building_level = fortress_building
+				add_building_level = port_building
+            }
+		}
+		
 		p:7142 = { #Kingdom of Akos Kasaz
 	    	create_country = {
 				change_government = despotic_monarchy
@@ -410,13 +425,6 @@ ragada.1 = {
 				}
 			}
 		}
-		#p:2322.owner = {
-		#	declare_war_with_wargoal = {
-		#		war_goal = conquer_wargoal
-		#		province = p:2323
-		#		target = p:2323.owner
-		#	}
-		#}
 		trigger_event = {
 			id = ragada.2 
 		}
@@ -501,14 +509,19 @@ ragada.1 = {
 			region:modded_hewsbane_region = { formable_region_province_effect = yes }
 			region:modded_alikr_region = { formable_region_province_effect = yes }
 		}
-		
-		#p:2322.owner = {
-		#	declare_war_with_wargoal = {
-		#		war_goal = conquer_wargoal
-		#		province = p:2323
-		#		target = p:2323.owner
-		#	}
-		#}
+		p:2322 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			if = {
+                limit = { free_building_slots > 1 }
+                add_building_level = fortress_building
+				add_building_level = port_building
+            }
+		}
 		trigger_event = {
 			id = ragada.2 
 		}
