@@ -36,7 +36,7 @@ ragada.1 = {
                 count = 3
                 define_pop = {
                 type = nobles
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -44,7 +44,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = citizen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -52,7 +52,7 @@ ragada.1 = {
                 count = 40
                 define_pop = {
                 type = freemen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             } 
@@ -60,7 +60,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = slaves
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -513,7 +513,7 @@ ragada.1 = {
                 count = 3
                 define_pop = {
                 type = nobles
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -521,7 +521,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = citizen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -529,7 +529,7 @@ ragada.1 = {
                 count = 40
                 define_pop = {
                 type = freemen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             } 
@@ -537,7 +537,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = slaves
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }               
@@ -751,5 +751,244 @@ ragada.4 = {
 		ai_chance = {
             factor = 40
         }
+	}
+}
+
+ragada.5 = {
+	type = country_event
+	title = "ragada.5.t"
+	desc = "ragada.5.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		owns = 2322 
+		religion = yokudan_pantheon
+		num_of_provinces = 20
+	}
+	
+	option = { 
+		name = "ragada.5.a"
+		p:770 = {
+			while = {
+				count = 5
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 20
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			p:2322 = {
+				while = {
+					count = 3
+					define_pop = {
+						type = nobles
+						culture = yokudan 
+						religion = yokudan_pantheon
+					}
+				}
+				while = {
+					count = 10
+					define_pop = {
+					type = citizen
+					culture = yokudan 
+					religion = yokudan_pantheon
+					}
+				}
+				while = {
+					count = 12
+					define_pop = {
+						type = freemen
+						culture = yokudan 
+						religion = yokudan_pantheon
+					}
+				}
+			}
+		}	
+		p:770 = {
+			set_conquered_by = p:2322.owner
+		}
+		p:2322.owner = {
+			create_character = {
+				family_name = "Glashun"
+				no_stats = yes
+				add_trait="redguard"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsgran_gov
+				
+			}
+			create_character = {
+				family_name = "Glashun"
+				father = scope:hubsgran_gov
+				no_stats = yes
+				add_trait="redguard"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsfather_gov
+			}
+			create_character = {
+				first_name = "Bahraha"
+				family_name = "Glashun"
+				father = scope:hubsgran_gov
+				no_stats = yes
+				add_trait="redguard"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsuncle_gov
+			}
+			create_character = {
+				first_name = "Hubalajad"
+				family_name = "Glashun"
+				father = scope:hubsfather_gov
+				no_stats = yes
+				add_trait="redguard"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=400
+			}
+			add_treasury = 300
+		}
+		trigger_event = {
+			id = ragada.6 
+		}
+	}
+}
+
+ragada.6 = {
+	type = country_event
+	title = "ragada.6.t"
+	desc = "ragada.6.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.6.a"
+	}
+}
+
+ragada.7 = {
+	type = country_event
+	title = "ragada.7.t"
+	desc = "ragada.7.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		owns = 2322 
+		owns = 2295
+		religion = yokudan_pantheon
+		p:7222.owner = {
+			religion = yokudan_pantheon
+		}
+	}
+	
+	option = { 
+		name = "ragada.7.a"
+		p:2295 = {
+			while = {
+				count = 5
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 20
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+		}
+		p:2295.owner = {
+			create_character = {
+				first_name = "Grandee"
+				family_name = "Yaghoub"
+				no_stats = yes
+				add_trait="redguard"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 45
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+			}
+			add_treasury = 300
+		}
+		trigger_event = {
+			id = ragada.8
+		}
+	}
+}
+
+ragada.8 = {
+	type = country_event
+	title = "ragada.8.t"
+	desc = "ragada.8.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.8.a"
 	}
 }

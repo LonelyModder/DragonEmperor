@@ -784,3 +784,33 @@ alessian_revolt.7 = { # The Atatar Intervention in Besarabic Lands
 		}
 	}
 }
+
+alessian_revolt.12 = { # Umaril's Death
+	type = country_event
+	title = "alessian_revolt.12.t"
+	desc = "alessian_revolt.12.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		owns = 1071
+		religion = nedic_pantheon
+		scope:pelinal_gov = {
+			is_alive = yes
+            employer = ROOT
+		}
+	}
+	
+	immediate = {
+		char:2 = {
+            death = { death_reason = death_obscurity }
+        }
+		scope:pelinal_gov = {
+            death = { death_reason = death_obscurity }
+        }
+	}
+	
+	option = { 
+		name = "alessian_revolt.12.a"
+	}
+}
