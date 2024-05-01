@@ -22,9 +22,6 @@ druidflavor.1 = {
 	option = { 
 		name = "druidflavor.1.a"
 		p:5741 = {
-			set_conquered_by = HBA
-		}
-		p:5741 = {
 			while = {
                 count = 3
                 define_pop = {
@@ -57,6 +54,9 @@ druidflavor.1 = {
                 religion = druidic_pantheon
                 }
             }
+		}
+		p:5741 = {
+			set_conquered_by = HBA
 		}
 		p:5741.owner = {
 			add_country_modifier = {

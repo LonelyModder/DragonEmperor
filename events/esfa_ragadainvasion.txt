@@ -83,6 +83,75 @@ ragada.1 = {
 		region:modded_hewsbane_region = { formable_region_province_effect = yes }
 		region:modded_alikr_region = { formable_region_province_effect = yes }
 		
+		create_character = {
+			first_name = "Frandar"
+			family_name = "Hunding"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 45
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = frandar_gov
+		}
+		
+		create_character = {
+			first_name = "Ra"
+			family_name = "Abah"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 43
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = raabah_gov
+		}
+		
+		create_character = {
+			first_name = "Razul"
+			family_name = "Rirhtin"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 42
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = razul_gov
+		}
+		
+		create_character = {
+			first_name = "Divad"
+			family_name = "Hunding"
+			father=scope:frandar_gov
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 20
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = divad_gov
+		}
+		
 		p:2322 = {
 			if = {
                 limit = {
@@ -508,6 +577,75 @@ ragada.1 = {
 			region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
 			region:modded_hewsbane_region = { formable_region_province_effect = yes }
 			region:modded_alikr_region = { formable_region_province_effect = yes }
+			
+			create_character = {
+				first_name = "Frandar"
+				family_name = "Hunding"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 45
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = frandar_gov
+			}
+			
+			create_character = {
+				first_name = "Ra"
+				family_name = "Abah"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 43
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = raabah_gov
+			}
+			
+			create_character = {
+				first_name = "Razul"
+				family_name = "Rirhtin"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 42
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = razul_gov
+			}
+			
+			create_character = {
+				first_name = "Divad"
+				family_name = "Hunding"
+				father=scope:frandar_gov
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = divad_gov
+			}
 		}
 		p:2322 = {
 			if = {
@@ -574,5 +712,44 @@ ragada.3 = {
 				target = p:2323.owner
 			}
 		}
+	}
+}
+
+ragada.4 = {
+	type = country_event
+	title = "ragada.4.t"
+	desc = "ragada.4.desc"
+	fire_only_once = yes
+	picture = ragada_shehai
+	
+	trigger = {
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.4.a"
+		create_character = {
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 20
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+		}
+		ai_chance = {
+            factor = 60
+        }
+	}
+	
+	option = { 
+		name = "ragada.4.b"
+		ai_chance = {
+            factor = 40
+        }
 	}
 }
