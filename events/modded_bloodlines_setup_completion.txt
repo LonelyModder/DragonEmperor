@@ -29,6 +29,18 @@ bloodlines_setup_completion.1 = {
 				limit = {
 					exists = father
 					father = {
+						has_trait = natotambu
+					}
+					NOT = {
+						has_trait = natotambu
+					}
+				}
+				add_trait = natotambu
+			}
+			if = {
+				limit = {
+					exists = father
+					father = {
 						has_trait = begalin
 					}
 					NOT = {
@@ -276,6 +288,18 @@ bloodlines_setup_completion.1 = {
 					}
 				}
 				add_trait = aranas	
+			}
+			if = {
+				limit = {
+					exists = mother
+					mother = {
+						has_trait = natotambu
+					}
+					NOT = {
+						has_trait = natotambu
+					}
+				}
+				add_trait = natotambu	
 			}
 			if = {
 				limit = {

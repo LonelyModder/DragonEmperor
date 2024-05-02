@@ -27,6 +27,7 @@ pass_down_traits_effect = {
 						has_trait = werewolf
 						has_trait = companion
 						has_trait = begalin
+						has_trait = natotambu
 					}
 				}
 						
@@ -41,6 +42,17 @@ pass_down_traits_effect = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = natotambu
+					}
+					NOT = {
+						has_trait = natotambu
+					}
+				}
+				add_trait = natotambu
 			}
 			if = {
 				limit = {
@@ -274,6 +286,18 @@ pass_down_traits_effect = {
 				}
 			}
 			add_trait = aranas
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = natotambu
+				}
+				NOT = {
+					has_trait = natotambu
+				}
+			}
+			add_trait = natotambu
 		}
 		if = {
 			limit = {
@@ -526,6 +550,14 @@ bastard_major_bloodline_effect = {
 			}
 		}
 		add_trait = aranas
+	}
+	if = {
+		limit = {
+			scope:bastard_ruler = {
+				has_trait = natotambu
+			}
+		}
+		add_trait = natotambu
 	}
 	if = {
 		limit = {

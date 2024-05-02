@@ -31,6 +31,7 @@ character_events.35 = {
 						has_trait = werewolf
 						has_trait = companion
 						has_trait = begalin
+						has_trait = natotambu
 					}
 				}
 			}
@@ -44,6 +45,17 @@ character_events.35 = {
 					}
 				}
 				add_trait = aranas
+			}
+			if = {
+				limit = {
+					father = {
+						has_trait = natotambu
+					}
+					NOT = {
+						has_trait = natotambu
+					}
+				}
+				add_trait = natotambu
 			}
 			if = {
 				limit = {
@@ -266,6 +278,18 @@ character_events.35 = {
 				}
 			}
 			add_trait = aranas	
+		}
+		if = {
+			limit = {
+				exists = mother
+				mother = {
+					has_trait = natotambu
+				}
+				NOT = {
+					has_trait = natotambu
+				}
+			}
+			add_trait = natotambu	
 		}
 		if = {
 			limit = {
