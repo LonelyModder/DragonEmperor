@@ -498,6 +498,9 @@ ragada.1 = {
 			id = ragada.2 
 		}
 		trigger_event = {
+			id = ragada.11 
+		}
+		trigger_event = {
 			id = ragada.3
 			days = 31 
 		}		
@@ -664,6 +667,9 @@ ragada.1 = {
 			id = ragada.2 
 		}
 		trigger_event = {
+			id = ragada.11 
+		}
+		trigger_event = {
 			id = ragada.3
 			days = 31			
 		}
@@ -763,8 +769,15 @@ ragada.5 = {
 	
 	trigger = {
 		owns = 2322 
+		has_global_variable = ragada_invasion_1
 		religion = yokudan_pantheon
 		num_of_provinces = 20
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = ragada_invasion_2
+		}
 	}
 	
 	option = { 
@@ -885,11 +898,16 @@ ragada.5 = {
 				average_finesse_effect = yes
 				average_zeal_effect = yes
 				add_gold=400
+				save_scope_as = hub_gov
 			}
 			add_treasury = 300
 		}
 		trigger_event = {
 			id = ragada.6 
+		}
+		trigger_event = {
+			id = ragada.12 
+			days = 60
 		}
 	}
 }
@@ -920,9 +938,18 @@ ragada.7 = {
 	trigger = {
 		owns = 2322 
 		owns = 2295
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
 		religion = yokudan_pantheon
 		p:7222.owner = {
 			religion = yokudan_pantheon
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = ragada_invasion_3
 		}
 	}
 	
@@ -968,6 +995,7 @@ ragada.7 = {
 				average_finesse_effect = yes
 				average_zeal_effect = yes
 				add_gold=100
+				save_scope_as = yaghoub_gov
 			}
 			add_treasury = 300
 		}
@@ -990,5 +1018,256 @@ ragada.8 = {
 	
 	option = { 
 		name = "ragada.8.a"
+	}
+}
+
+ragada.11 = {
+	type = country_event
+	title = "ragada.11.t"
+	desc = "ragada.11.desc"
+	fire_only_once = yes
+	picture = ragada_shehai
+	
+	left_portrait = root.current_ruler
+	left_portrait = scope:raabah_gov
+	right_portrait = scope:frandar_gov
+	right_portrait = scope:divad_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.11.a"
+	}
+}
+
+ragada.12 = {
+	type = country_event
+	title = "ragada.12.t"
+	desc = "ragada.12.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:hub_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.12.a"
+		add_treasury = -200
+		trigger_event = {
+			id = ragada.13
+			days = 90
+		}
+	}
+	
+	option = { 
+		name = "ragada.12.b"
+	}
+}
+
+ragada.13 = {
+	type = country_event
+	title = "ragada.13.t"
+	desc = "ragada.13.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:hub_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = hubs_vision
+		}
+		p:2390 = {
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+		p:785 = {
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+	}
+	
+	option = { 
+		name = "ragada.13.a"
+	}
+}
+
+ragada.9 = {
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2322
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
+		religion = yokudan_pantheon
+	}
+	
+	immediate = {
+		create_character = {
+			first_name = "Tarish-Zi"
+			family_name = "Tezga"
+			no_stats = yes
+			add_trait="redguard"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 35
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = tarish_gov
+		}
+		add_treasury = 200
+		p:2427 = {
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+		trigger_event = {
+			id = ragada.14
+		}
+	}
+}
+
+ragada.14 = {
+	type = country_event
+	title = "ragada.14.t"
+	desc = "ragada.14.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:tarish_gov
+	
+	trigger = {
+		owns = 2322
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.14.a"
+		set_as_ruler = scope:tarish_gov
+		if = {
+			limit = {
+				NOT = { has_country_modifier = lepontic_invasion_modifier }
+			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 14600 
+			}
+		}
+		trigger_event = {
+			id = ragada.10
+		}
+	}
+}
+
+ragada.10 = {
+	type = country_event
+	title = "ragada.10.t"
+	desc = "ragada.10.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:tarish_gov
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.10.a"
 	}
 }
