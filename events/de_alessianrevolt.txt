@@ -797,7 +797,7 @@ alessian_revolt.12 = { # Umaril's Death
 	
 	trigger = {
 		owns = 1071
-		religion = nedic_pantheon
+		country_culture_group = nede
 		char:2 = {
 			is_alive = yes
 		}
@@ -809,10 +809,12 @@ alessian_revolt.12 = { # Umaril's Death
 	
 	immediate = {
 		char:2 = {
-            death = { death_reason = death_obscurity }
+            death = { death_reason = death_stabbing
+					killer = scope:pelinal_gov }
         }
 		scope:pelinal_gov = {
-            death = { death_reason = death_obscurity }
+            death = { death_reason = death_stabbing
+					killer = char:2 }
         }
 	}
 	
