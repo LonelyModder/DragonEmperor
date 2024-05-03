@@ -792,9 +792,15 @@ alessian_revolt.12 = { # Umaril's Death
 	fire_only_once = yes
 	picture = alessian_revolution
 	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
 	trigger = {
 		owns = 1071
 		religion = nedic_pantheon
+		char:2 = {
+			is_alive = yes
+		}
 		scope:pelinal_gov = {
 			is_alive = yes
             employer = ROOT
@@ -812,5 +818,27 @@ alessian_revolt.12 = { # Umaril's Death
 	
 	option = { 
 		name = "alessian_revolt.12.a"
+		trigger_event = {
+			id = alessian_revolt.13
+		}
+	}
+}
+
+alessian_revolt.13 = { # Umaril's Death
+	type = country_event
+	title = "alessian_revolt.13.t"
+	desc = "alessian_revolt.13.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
+	trigger = {
+		NOT = { owns = 1071 }
+	}
+	
+	option = { 
+		name = "alessian_revolt.13.a"
 	}
 }
