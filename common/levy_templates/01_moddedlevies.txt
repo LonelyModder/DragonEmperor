@@ -38,10 +38,11 @@ levy_psijic = { #altmer militia
 levy_ayleid = { #ayleid militia
 	default = no
 
-	lv_dremoras = 0.5
+	lv_dremoras = 0.2
+	lv_lightinfantry = 0.4
 	lv_archers = 0.1
-	lv_mages = 0.2
-	lv_cavalry = 0.15
+	lv_mages = 0.15
+	lv_cavalry = 0.1
 	lv_gryphons = 0.05
 }
 
@@ -155,7 +156,8 @@ levy_reachmen = { #reachmen militia
 levy_kothri = { #reachmen militia
 	default = no
 
-	lv_warriors = 0.5
+	lv_warriors = 0.4
+	lv_raiders = 0.1
 	lv_archers = 0.2
 	lv_raiders = 0.3
 }
