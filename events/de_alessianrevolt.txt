@@ -59,7 +59,6 @@ alessian_revolt.11 = { # Revolt of Alessia the automatic option
 					create_unit = {
 						location = 1288
 						add_subunit = engineer_cohort
-						add_subunit = engineer_cohort
 						add_subunit = supply_train
 						add_subunit = supply_train
 						add_subunit = supply_train
@@ -228,7 +227,6 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 				raise_legion = {
 					create_unit = {
 						location = 1288
-						add_subunit = engineer_cohort
 						add_subunit = engineer_cohort
 						add_subunit = supply_train
 						add_subunit = supply_train
@@ -587,10 +585,7 @@ alessian_revolt.6 = { # Pelinal Leadership
 	
 	trigger = {
 		has_country_modifier = cymmerian_invasion_modifier
-		scope:pelinal_gov = {
-			is_alive = yes
-            employer = ROOT
-		}
+		any_character = { has_trait = shezzarine }
 		stability <= 30
 	}
 	
@@ -812,13 +807,22 @@ alessian_revolt.12 = { # Umaril's Death
 		char:2 = {
 			is_alive = yes
 		}
-		scope:pelinal_gov = {
-			is_alive = yes
-            employer = ROOT
-		}
+		any_character = { has_trait = shezzarine }
 	}
 	
 	immediate = {
+		hidden_effect = {
+			ordered_character = {
+				limit = {
+					has_trait = shezzarine
+				}
+				save_scope_as = pelinal_gov
+			}	
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt.12.a"
 		char:2 = {
             death = { death_reason = death_stabbing
 					killer = scope:pelinal_gov }
@@ -827,10 +831,6 @@ alessian_revolt.12 = { # Umaril's Death
             death = { death_reason = death_stabbing
 					killer = char:2 }
         }
-	}
-	
-	option = { 
-		name = "alessian_revolt.12.a"
 		trigger_event = {
 			id = alessian_revolt.13
 		}
