@@ -75,8 +75,6 @@ ragada.1 = {
 			duration = 14600 # 10 years
 		}
 		add_treasury = 300
-		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
-		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_weepingdesert_region = { formable_region_province_effect = yes }
 		region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
 		region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
@@ -1269,6 +1267,8 @@ ragada.14 = {
 				duration = 14600 
 			}
 		}
+		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		trigger_event = {
 			id = ragada.10
 		}
