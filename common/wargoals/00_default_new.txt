@@ -1,0 +1,30 @@
+﻿# INSTRUCTIONS:
+# -------------
+# conquer_cost = cost of taking provinces
+#
+# WAR GOAL TYPES:
+#	- take_province
+#	- naval_superiority
+#	- superiority					#If conquer cost in superiority wars is less than 0, AI will always try and select.
+#	- enforce_military_access
+#	- independence
+# --------------------------------------------------------------
+
+dragonconquest_wargoal = {
+	type = take_province #superiority
+	#uses_civil_war_conquest = yes
+	allow = { #Will this show up in the declare war window.
+		is_subject = no
+		current_ruler = {
+			has_trait = dragonblood
+		}
+	}
+	
+	attacker = {
+		conquer_cost = -0.90
+	}
+	defender = {
+	}
+	ticking_war_score = 1
+
+}

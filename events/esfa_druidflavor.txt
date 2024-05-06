@@ -1,0 +1,176 @@
+﻿namespace = druidflavor
+
+druidflavor.1 = {
+	type = country_event
+	title = "druidflavor.1.t"
+	desc = "druidflavor.1.desc"
+	fire_only_once = yes
+	picture = druid_circle
+	
+	trigger = {
+		tag = HBA
+		war_with = c:VAS
+		NOT = { has_global_variable = druid_migration }
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = druid_migration
+		}
+	}
+	
+	option = { 
+		name = "druidflavor.1.a"
+		p:5741 = {
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = druidic  
+                religion = druidic_pantheon
+                }
+            }
+			while = {
+                count = 30
+                define_pop = {
+                type = freemen
+                culture = druidic  
+                religion = druidic_pantheon
+                }
+            }
+			while = {
+                count = 10
+                define_pop = {
+                type = tribesmen
+                culture = druidic  
+                religion = druidic_pantheon
+                }
+            }
+			while = {
+                count = 5
+                define_pop = {
+                type = slaves
+                culture = druidic  
+                religion = druidic_pantheon
+                }
+            }
+		}
+		p:5741 = {
+			set_conquered_by = HBA
+		}
+		p:5741.owner = {
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 14600 # 10 years
+			}
+			area:systress1_area = { formable_area_province_effect = yes }
+			area:systress2_area = { formable_area_province_effect = yes }
+		}
+		p:5741 = {
+			if = {
+                limit = { free_building_slots > 0 }
+                add_building_level = fortress_building
+            }
+		}
+		p:2982 = {
+			region = {
+				every_region_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = HBA
+							}
+						}
+					}
+					set_conquered_by = c:VAS
+				}
+			}
+		}
+		p:2990 = {
+			region = {
+				every_region_province = {
+					limit = { 
+						has_owner = yes
+						trigger_if = {
+							limit = { has_owner = yes }
+							owner = {
+								tag = HBA
+							}
+						}
+					}
+					set_conquered_by = c:VAS
+				}
+			}
+		}
+		random_current_war = {
+            limit = {
+                any_war_participant = { tag = VAS }
+            }
+			force_white_peace = THIS
+		}
+		trigger_event = {
+			id = druidflavor.3 
+		}
+		trigger_event = { #War with the Sloads
+			id = druidflavor.2 
+			days = 31
+		}
+		ai_chance = {
+            factor = 90
+        }
+	}
+	
+	option = { 
+		name = "druidflavor.1.b"
+		ai_chance = {
+            factor = 10
+        }
+	}
+}
+
+druidflavor.2  = {
+	type = country_event
+	title = "druidflavor.2.t"
+	desc = "druidflavor.2.desc"
+	fire_only_once = yes
+	picture = druid_circle
+	
+	trigger = {
+		owns = 5741 
+		war = no
+		p:5741.owner = { religion = druidic_pantheon }
+		p:5742.owner = { NOT = { religion = druidic_pantheon } }
+	}
+	
+	option = { 
+		name = "druidflavor.2.a" 
+		p:5742.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:5741
+				target = p:5741.owner
+			}
+		}
+	}
+}
+
+druidflavor.3 = {
+	type = country_event
+	title = "druidflavor.3.t"
+	desc = "druidflavor.3.desc"
+	fire_only_once = yes
+	picture = druid_circle
+	
+	trigger = {
+		NOT = { tag = HBA }
+	}
+	
+	option = { 
+		name = "druidflavor.3.a"
+	}
+}
+
+
+
