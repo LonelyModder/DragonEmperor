@@ -169,7 +169,6 @@ ragada.1 = {
 		p:7142 = { #Kingdom of Akos Kasaz
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -205,7 +204,6 @@ ragada.1 = {
 		p:7222 = { #Kingdom of Yath
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -273,7 +271,6 @@ ragada.1 = {
 		p:7242 = { #Kingdom of Nalonga
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -341,7 +338,6 @@ ragada.1 = {
 		p:7275 = { #Kingdom of Ravan
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -393,7 +389,6 @@ ragada.1 = {
 		p:7201 = { #Kingdom of Samara
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -445,7 +440,6 @@ ragada.1 = {
 		p:7193 = { #Kingdom of Kanesh
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -548,7 +542,6 @@ ragada.1 = {
 		p:2322 = { #Ra-Gada invades without Na-Totambu
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -769,9 +762,10 @@ ragada.5 = {
 	
 	trigger = {
 		owns = 2322 
+		owns = 2315
+		owns = 2311
 		has_global_variable = ragada_invasion_1
 		religion = yokudan_pantheon
-		num_of_provinces = 20
 	}
 	
 	immediate = {
@@ -905,6 +899,9 @@ ragada.5 = {
 				save_scope_as = hub_gov
 			}
 			add_treasury = 300
+		}
+		trigger_event = {
+			id = ragada.15 
 		}
 		trigger_event = {
 			id = ragada.6 
@@ -1095,6 +1092,12 @@ ragada.13 = {
 			name = hubs_vision
 		}
 		p:2390 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
 			while = {
 				count = 3
 				define_pop = {
@@ -1124,6 +1127,12 @@ ragada.13 = {
 			add_building_level = port_building
 		}
 		p:785 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
 			while = {
 				count = 3
 				define_pop = {
@@ -1191,6 +1200,12 @@ ragada.9 = {
 		}
 		add_treasury = 200
 		p:2427 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
 			while = {
 				count = 3
 				define_pop = {
@@ -1275,5 +1290,22 @@ ragada.10 = {
 	
 	option = { 
 		name = "ragada.10.a"
+	}
+}
+
+ragada.15 = {
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	immediate = {
+		p:768.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:770
+				target = p:770.owner
+			}
+		}
 	}
 }
