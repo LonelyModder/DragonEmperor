@@ -58,6 +58,11 @@ alessian_revolt.11 = { # Revolt of Alessia the automatic option
 				raise_legion = {
 					create_unit = {
 						location = 1288
+						add_subunit = engineer_cohort
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
@@ -66,8 +71,6 @@ alessian_revolt.11 = { # Revolt of Alessia the automatic option
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
@@ -130,7 +133,7 @@ alessian_revolt.11 = { # Revolt of Alessia the automatic option
 				add_trait="dragonblood"
 				add_trait="alesh"
 				culture = nednibenese
-				religion = nedic_pantheon
+				religion = elven_pantheon
 				female = yes
 				age = 18
 				bad_martial_effect = yes
@@ -224,6 +227,11 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 				raise_legion = {
 					create_unit = {
 						location = 1288
+						add_subunit = engineer_cohort
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
@@ -232,8 +240,6 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
@@ -296,7 +302,7 @@ alessian_revolt.10 = { # Revolt of ayleid slaves
 				add_trait="dragonblood"
 				add_trait="alesh"
 				culture = nednibenese
-				religion = nedic_pantheon
+				religion = elven_pantheon
 				female = yes
 				age = 18
 				bad_martial_effect = yes
@@ -579,7 +585,7 @@ alessian_revolt.6 = { # Pelinal Leadership
 	
 	trigger = {
 		has_country_modifier = cymmerian_invasion_modifier
-		exists = scope:pelinal_gov 
+		any_character = { has_trait = shezzarine }
 		stability <= 30
 	}
 	
@@ -782,5 +788,70 @@ alessian_revolt.7 = { # The Atatar Intervention in Besarabic Lands
 		p:1588 = {
 			set_conquered_by = p:1557.owner
 		}
+	}
+}
+
+alessian_revolt.12 = { # Umaril's Death
+	type = country_event
+	title = "alessian_revolt.12.t"
+	desc = "alessian_revolt.12.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
+	trigger = {
+		owns = 1071
+		country_culture_group = nede
+		char:2 = {
+			is_alive = yes
+		}
+		any_character = { has_trait = shezzarine }
+	}
+	
+	immediate = {
+		hidden_effect = {
+			ordered_character = {
+				limit = {
+					has_trait = shezzarine
+				}
+				save_scope_as = pelinal_gov
+			}	
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt.12.a"
+		char:2 = {
+            death = { death_reason = death_stabbing
+					killer = scope:pelinal_gov }
+        }
+		scope:pelinal_gov = {
+            death = { death_reason = death_stabbing
+					killer = char:2 }
+        }
+		trigger_event = {
+			id = alessian_revolt.13
+		}
+	}
+}
+
+alessian_revolt.13 = { # Umaril's Death
+	type = country_event
+	title = "alessian_revolt.13.t"
+	desc = "alessian_revolt.13.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
+	trigger = {
+		NOT = { owns = 1071 }
+	}
+	
+	option = { 
+		name = "alessian_revolt.13.a"
 	}
 }

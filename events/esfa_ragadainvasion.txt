@@ -36,7 +36,7 @@ ragada.1 = {
                 count = 3
                 define_pop = {
                 type = nobles
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -44,7 +44,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = citizen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -52,7 +52,7 @@ ragada.1 = {
                 count = 40
                 define_pop = {
                 type = freemen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             } 
@@ -60,7 +60,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = slaves
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -75,17 +75,98 @@ ragada.1 = {
 			duration = 14600 # 10 years
 		}
 		add_treasury = 300
-		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
-		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_weepingdesert_region = { formable_region_province_effect = yes }
 		region:modded_easternhewsbay_region = { formable_region_province_effect = yes }
 		region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
 		region:modded_hewsbane_region = { formable_region_province_effect = yes }
 		region:modded_alikr_region = { formable_region_province_effect = yes }
+		
+		create_character = {
+			first_name = "Frandar"
+			family_name = "Hunding"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 45
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = frandar_gov
+		}
+		
+		create_character = {
+			first_name = "Ra"
+			family_name = "Abah"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 43
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = raabah_gov
+		}
+		
+		create_character = {
+			first_name = "Razul"
+			family_name = "Rirhtin"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 42
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = razul_gov
+		}
+		
+		create_character = {
+			first_name = "Divad"
+			family_name = "Hunding"
+			father=scope:frandar_gov
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 20
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = divad_gov
+		}
+		
+		p:2322 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			if = {
+                limit = { free_building_slots > 1 }
+                add_building_level = fortress_building
+				add_building_level = port_building
+            }
+		}
+		
 		p:7142 = { #Kingdom of Akos Kasaz
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -121,7 +202,6 @@ ragada.1 = {
 		p:7222 = { #Kingdom of Yath
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -189,7 +269,6 @@ ragada.1 = {
 		p:7242 = { #Kingdom of Nalonga
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -257,7 +336,6 @@ ragada.1 = {
 		p:7275 = { #Kingdom of Ravan
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -309,7 +387,6 @@ ragada.1 = {
 		p:7201 = { #Kingdom of Samara
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -361,7 +438,6 @@ ragada.1 = {
 		p:7193 = { #Kingdom of Kanesh
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -410,15 +486,11 @@ ragada.1 = {
 				}
 			}
 		}
-		#p:2322.owner = {
-		#	declare_war_with_wargoal = {
-		#		war_goal = conquer_wargoal
-		#		province = p:2323
-		#		target = p:2323.owner
-		#	}
-		#}
 		trigger_event = {
 			id = ragada.2 
+		}
+		trigger_event = {
+			id = ragada.11 
 		}
 		trigger_event = {
 			id = ragada.3
@@ -436,7 +508,7 @@ ragada.1 = {
                 count = 3
                 define_pop = {
                 type = nobles
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -444,7 +516,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = citizen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }
@@ -452,7 +524,7 @@ ragada.1 = {
                 count = 40
                 define_pop = {
                 type = freemen
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             } 
@@ -460,7 +532,7 @@ ragada.1 = {
                 count = 10
                 define_pop = {
                 type = slaves
-                culture = yokudan #forebear <-Need to change the culture and make crowns and forebears division
+                culture = yokudan 
                 religion = yokudan_pantheon
                 }
             }               
@@ -468,7 +540,6 @@ ragada.1 = {
 		p:2322 = { #Ra-Gada invades without Na-Totambu
 	    	create_country = {
 				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
 				if = {
 					limit = {
 						NOT = {
@@ -500,17 +571,94 @@ ragada.1 = {
 			region:modded_dragontailmountains_region = { formable_region_province_effect = yes }
 			region:modded_hewsbane_region = { formable_region_province_effect = yes }
 			region:modded_alikr_region = { formable_region_province_effect = yes }
+			
+			create_character = {
+				first_name = "Frandar"
+				family_name = "Hunding"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 45
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = frandar_gov
+			}
+			
+			create_character = {
+				first_name = "Ra"
+				family_name = "Abah"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 43
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = raabah_gov
+			}
+			
+			create_character = {
+				first_name = "Razul"
+				family_name = "Rirhtin"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 42
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = razul_gov
+			}
+			
+			create_character = {
+				first_name = "Divad"
+				family_name = "Hunding"
+				father=scope:frandar_gov
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="ansei"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = divad_gov
+			}
 		}
-		
-		#p:2322.owner = {
-		#	declare_war_with_wargoal = {
-		#		war_goal = conquer_wargoal
-		#		province = p:2323
-		#		target = p:2323.owner
-		#	}
-		#}
+		p:2322 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			if = {
+                limit = { free_building_slots > 1 }
+                add_building_level = fortress_building
+				add_building_level = port_building
+            }
+		}
 		trigger_event = {
 			id = ragada.2 
+		}
+		trigger_event = {
+			id = ragada.11 
 		}
 		trigger_event = {
 			id = ragada.3
@@ -559,6 +707,604 @@ ragada.3 = {
 				war_goal = conquer_wargoal
 				province = p:2323
 				target = p:2323.owner
+			}
+		}
+	}
+}
+
+ragada.4 = {
+	type = country_event
+	title = "ragada.4.t"
+	desc = "ragada.4.desc"
+	fire_only_once = yes
+	picture = ragada_shehai
+	
+	trigger = {
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.4.a"
+		create_character = {
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="ansei"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 20
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+		}
+		ai_chance = {
+            factor = 60
+        }
+	}
+	
+	option = { 
+		name = "ragada.4.b"
+		ai_chance = {
+            factor = 40
+        }
+	}
+}
+
+ragada.5 = {
+	type = country_event
+	title = "ragada.5.t"
+	desc = "ragada.5.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		owns = 2322 
+		owns = 2315
+		owns = 2311
+		has_global_variable = ragada_invasion_1
+		religion = yokudan_pantheon
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = ragada_invasion_2
+		}
+	}
+	
+	option = { 
+		name = "ragada.5.a"
+		p:770 = {
+			while = {
+				count = 5
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 20
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			p:2322 = {
+				while = {
+					count = 3
+					define_pop = {
+						type = nobles
+						culture = yokudan 
+						religion = yokudan_pantheon
+					}
+				}
+				while = {
+					count = 10
+					define_pop = {
+					type = citizen
+					culture = yokudan 
+					religion = yokudan_pantheon
+					}
+				}
+				while = {
+					count = 12
+					define_pop = {
+						type = freemen
+						culture = yokudan 
+						religion = yokudan_pantheon
+					}
+				}
+			}
+		}	
+		p:770 = {
+			set_conquered_by = p:2322.owner
+		}
+		p:2322.owner = {
+			create_character = {
+				family_name = "Glashun"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="natotambu"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsgran_gov
+				
+			}
+			create_character = {
+				family_name = "Glashun"
+				father = scope:hubsgran_gov
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="natotambu"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsfather_gov
+			}
+			create_character = {
+				first_name = "Bahraha"
+				family_name = "Glashun"
+				father = scope:hubsgran_gov
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="natotambu"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = hubsuncle_gov
+			}
+			create_character = {
+				first_name = "Hubalajad"
+				family_name = "Glashun"
+				father = scope:hubsfather_gov
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="natotambu"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 20
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=400
+				save_scope_as = hub_gov
+			}
+			add_treasury = 300
+		}
+		trigger_event = {
+			id = ragada.15 
+		}
+		trigger_event = {
+			id = ragada.6 
+		}
+		trigger_event = {
+			id = ragada.12 
+			days = 60
+		}
+	}
+}
+
+ragada.6 = {
+	type = country_event
+	title = "ragada.6.t"
+	desc = "ragada.6.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.6.a"
+	}
+}
+
+ragada.7 = {
+	type = country_event
+	title = "ragada.7.t"
+	desc = "ragada.7.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		owns = 2322 
+		owns = 2295
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
+		religion = yokudan_pantheon
+		p:7222.owner = {
+			religion = yokudan_pantheon
+		}
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = ragada_invasion_3
+		}
+	}
+	
+	option = { 
+		name = "ragada.7.a"
+		p:2295 = {
+			while = {
+				count = 5
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 20
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+		}
+		p:2295.owner = {
+			create_character = {
+				first_name = "Grandee"
+				family_name = "Yaghoub"
+				no_stats = yes
+				add_trait="redguard"
+				add_trait="natotambu"
+				culture = yokudan
+				religion = yokudan_pantheon
+				age = 45
+				good_martial_effect = yes
+				good_charisma_effect = yes
+				average_finesse_effect = yes
+				average_zeal_effect = yes
+				add_gold=100
+				save_scope_as = yaghoub_gov
+			}
+			add_treasury = 300
+		}
+		trigger_event = {
+			id = ragada.8
+		}
+	}
+}
+
+ragada.8 = {
+	type = country_event
+	title = "ragada.8.t"
+	desc = "ragada.8.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.8.a"
+	}
+}
+
+ragada.11 = {
+	type = country_event
+	title = "ragada.11.t"
+	desc = "ragada.11.desc"
+	fire_only_once = yes
+	picture = ragada_shehai
+	
+	left_portrait = root.current_ruler
+	left_portrait = scope:raabah_gov
+	right_portrait = scope:frandar_gov
+	right_portrait = scope:divad_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.11.a"
+	}
+}
+
+ragada.12 = {
+	type = country_event
+	title = "ragada.12.t"
+	desc = "ragada.12.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:hub_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.12.a"
+		add_treasury = -200
+		trigger_event = {
+			id = ragada.13
+			days = 90
+		}
+	}
+	
+	option = { 
+		name = "ragada.12.b"
+	}
+}
+
+ragada.13 = {
+	type = country_event
+	title = "ragada.13.t"
+	desc = "ragada.13.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:hub_gov
+	
+	trigger = {
+		owns = 2322
+		religion = yokudan_pantheon
+	}
+	
+	immediate = {
+		set_global_variable = {
+			name = hubs_vision
+		}
+		p:2390 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+		p:785 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+	}
+	
+	option = { 
+		name = "ragada.13.a"
+	}
+}
+
+ragada.9 = {
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 2322
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
+		religion = yokudan_pantheon
+	}
+	
+	immediate = {
+		create_character = {
+			first_name = "Tarish-Zi"
+			family_name = "Tezga"
+			no_stats = yes
+			add_trait="redguard"
+			add_trait="natotambu"
+			culture = yokudan
+			religion = yokudan_pantheon
+			age = 35
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			save_scope_as = tarish_gov
+		}
+		add_treasury = 200
+		p:2427 = {
+			if = {
+                limit = {
+                    NOT = { has_city_status = yes }
+                }
+                set_city_status = city
+            }
+			while = {
+				count = 3
+				define_pop = {
+				type = citizen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			while = {
+				count = 10
+				define_pop = {
+				type = freemen
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			} 
+			while = {
+				count = 5
+				define_pop = {
+				type = slaves
+				culture = yokudan 
+				religion = yokudan_pantheon
+				}
+			}
+			set_conquered_by = p:2322.owner
+			add_building_level = fortress_building
+			add_building_level = port_building
+		}
+		trigger_event = {
+			id = ragada.14
+		}
+	}
+}
+
+ragada.14 = {
+	type = country_event
+	title = "ragada.14.t"
+	desc = "ragada.14.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:tarish_gov
+	
+	trigger = {
+		owns = 2322
+		has_global_variable = ragada_invasion_1
+		has_global_variable = ragada_invasion_2
+		has_global_variable = hubs_vision
+		religion = yokudan_pantheon
+	}
+	
+	option = { 
+		name = "ragada.14.a"
+		set_as_ruler = scope:tarish_gov
+		if = {
+			limit = {
+				NOT = { has_country_modifier = lepontic_invasion_modifier }
+			}
+			add_country_modifier = {
+				name = lepontic_invasion_modifier
+				duration = 14600 
+			}
+		}
+		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
+		trigger_event = {
+			id = ragada.10
+		}
+	}
+}
+
+ragada.10 = {
+	type = country_event
+	title = "ragada.10.t"
+	desc = "ragada.10.desc"
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	left_portrait = scope:tarish_gov
+	
+	trigger = {
+		NOT = { tag = RAA }
+	}
+	
+	option = { 
+		name = "ragada.10.a"
+	}
+}
+
+ragada.15 = {
+	type = country_event
+	hidden = yes
+	fire_only_once = yes
+	picture = ragada_ships
+	
+	immediate = {
+		p:768.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:770
+				target = p:770.owner
 			}
 		}
 	}

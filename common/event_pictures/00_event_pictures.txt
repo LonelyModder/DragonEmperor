@@ -28,6 +28,16 @@ ragada_ships = {
 	picture = "gfx/interface/event_window/ragada_ships.dds"
 }
 
+ragada_shehai = {
+	theme = Honor
+	picture = "gfx/interface/event_window/ragada_shehai.dds"
+}
+
+druid_circle = {
+	theme = Honor
+	picture = "gfx/interface/event_window/druid_circle.dds"
+}
+
 new_dragonpriest = {
 	theme = Honor
 	picture = "gfx/interface/event_window/new_dragonpriest.dds"
