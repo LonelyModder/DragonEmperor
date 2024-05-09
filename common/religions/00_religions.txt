@@ -256,10 +256,20 @@ sithis_pantheon = { # Sithis Faith
 	can_deify_ruler = no
 }
 
-yokudan_pantheon = { # Sithis Faith
+yokudan_pantheon = { # Yokudan Faith
 	color = hsv { 0.96 0.73 0.48 }
 	modifier = { 
 		agressive_expansion_monthly_change = -0.025
+		war_exhaustion = -0.025
+		stability_cost_modifier = 0.2
+	}
+	religion_category = pantheon
+}
+
+nordicanimism_pantheon = { # Atmoran Faith
+	color = hsv { 0.54 0.62 0.87 }
+	modifier = { 
+		omen_power = 0.2
 		war_exhaustion = -0.025
 		stability_cost_modifier = 0.2
 	}
