@@ -4,7 +4,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -41,16 +41,16 @@
 7406={ 
 	terrain="plains"
 	trade_goods="spices"
-	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
 		amount=1
@@ -61,7 +61,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -80,7 +80,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -99,18 +99,21 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -118,7 +121,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -137,7 +140,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -156,7 +159,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -175,7 +178,7 @@
 	terrain="hills"
 	trade_goods="mithril"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -194,7 +197,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -213,7 +216,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -232,7 +235,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -251,7 +254,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -270,7 +273,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -289,7 +292,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -308,7 +311,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -327,7 +330,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="hvalcrean"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -346,7 +349,7 @@
 	terrain="mountain"
 	trade_goods="mithril"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -365,7 +368,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -384,18 +387,21 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -403,7 +409,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -422,7 +428,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -441,7 +447,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -457,10 +463,10 @@
 }
 
 7428={ 
-	terrain="plains"
-	trade_goods="spices"
+	terrain="forest"
+	trade_goods="honey"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -479,7 +485,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -498,7 +504,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -517,7 +523,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="shonvaalan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -536,7 +542,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -555,7 +561,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -574,7 +580,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -593,7 +599,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -612,7 +618,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -631,7 +637,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -647,10 +653,10 @@
 }
 
 7438={ 
-	terrain="mountainmountain"
+	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -669,7 +675,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -688,7 +694,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -707,7 +713,7 @@
 	terrain="marsh"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -726,18 +732,21 @@
 	terrain="mountain"
 	trade_goods="mithril"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	citizen={
+		amount=3
 	}
-	tribesmen={
+	freemen={
 		amount=4
 	}
+	tribesmen={
+		amount=12
+	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -745,7 +754,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -764,18 +773,21 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=7
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -783,7 +795,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="bearing"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -897,7 +909,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -916,7 +928,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -935,7 +947,7 @@
 	terrain="mountain"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -954,18 +966,18 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -973,7 +985,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -992,7 +1004,7 @@
 	terrain="forest"
 	trade_goods="wood"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1011,18 +1023,21 @@
 	terrain="forest"
 	trade_goods="stafftrees"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="rootman"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	citizen={
 		amount=1
+	}
+	freemen={
+		amount=2
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -1030,7 +1045,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1049,7 +1064,7 @@
 	terrain="plains"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="snakeman"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1068,7 +1083,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="gunderan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1296,18 +1311,18 @@
 	terrain="hills"
 	trade_goods="ebon"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="gunderan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	freemen={
+	citizen={
 		amount=1
 	}
 	tribesmen={
-		amount=4
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=2
 	}
 }
 
@@ -1315,7 +1330,7 @@
 	terrain="hills"
 	trade_goods="spices"
 	religion="nordicanimism_pantheon"
-	culture="wvenedi"
+	culture="gunderan"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

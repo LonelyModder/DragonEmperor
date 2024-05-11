@@ -153,6 +153,17 @@ MBJ = { #Morag Tong
 	}
 }
 
+NAA = { #Bear Cult
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_roscrea.dds"
+		color1 = rgb { 18 23 166 }
+	}
+}
+
 RAA = { #Yokudan Empire
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 135 60 7 }
