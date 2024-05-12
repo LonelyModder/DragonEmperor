@@ -164,7 +164,7 @@ mithril = { #Added
 		local_tax_modifier = 0.02
 	}
 	country = {
-		lv_lightinfantry_defensive = 0.05
+		lv_warriors_offensive = 0.05
 	} 
 	
 	color = hsv { 0.58 0.26 0.65 }

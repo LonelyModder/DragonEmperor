@@ -109,7 +109,7 @@ slavic_pantheon = { # Heretic Faith
 	modifier = { 
 		monthly_tyranny = -0.2
 		global_slaves_output = 0.15
-		global_slaves_happiness = -0.1
+		global_slaves_happyness = -0.1
 	}
 	religion_category = pantheon
 }

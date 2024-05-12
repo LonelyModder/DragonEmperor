@@ -306,6 +306,13 @@ treasure_manager = {
 				local_tax_modifier = 0.25
 			}
 		}
+		44 = { # Fruthuul
+			key = "treasure_bear_statue"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_cohort_start_experience = 0.2
+			}
+		}
     }
 }
 family={
@@ -616,6 +623,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	6477 = { # Abbarbas
 		treasure_slots = { 	treasures = { 43 } }
+	}
+	7442 = { # Fruthuul
+		treasure_slots = { 	treasures = { 44 } }
 	}
 	
 	#Pirates
@@ -9604,7 +9614,7 @@ country = {
 			capital = 7424
 			
 			own_control_core = 	{ 
-				7415 7416 7417 7418 7419 7420 7422 7423 7424 7426 7425 7431 7427 7428  
+				7415 7416 7417 7418 7419 7420 7422 7423 7424 7426 7425  
 			}
 		}
 		
@@ -9627,6 +9637,61 @@ country = {
 			
 			own_control_core = 	{ 
 				7406 7405
+			}
+		}
+		
+		NAH= {          
+			government = tribal_kingdom
+			primary_culture = wolfman
+			religion = nordicanimism_pantheon
+			capital = 7448
+			
+			own_control_core = 	{ 
+				7448 7449 7446 7447 7450
+			}
+		}
+		
+		NAI= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7464
+			
+			own_control_core = 	{ 
+				7464 7465 7470 7463
+			}
+		}
+		
+		NAJ= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7462
+			
+			own_control_core = 	{ 
+				7462 7461 7466 7467 7468
+			}
+		}
+		
+		NAK= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7469
+			
+			own_control_core = 	{ 
+				7469 7471
+			}
+		}
+		
+		NAL= {          
+			government = tribal_kingdom
+			primary_culture = mothman
+			religion = nordicanimism_pantheon
+			capital = 7428
+			
+			own_control_core = 	{ 
+				7428 7431 7427
 			}
 		}
 	}

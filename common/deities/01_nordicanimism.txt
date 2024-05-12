@@ -42,7 +42,7 @@ deity_fox = {
 	}
 	icon = deity_fox
 	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
-	omen = { omen_ruler_popularity_gain_svalue = ruler_popularity_gain } #Bonus from Omen
+	omen = { ruler_popularity_gain = omen_ruler_popularity_gain_svalue } #Bonus from Omen
 	religion = nordicanimism_pantheon
 	deity_category = economy #This Deity uses an Economy Slot
 	deification_trigger = {
@@ -146,7 +146,7 @@ deity_hawk = {
 	}
 	icon = deity_hawk
 	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
-	omen = { global_monthly_food = omen_global_monthly_food_modifier } #Bonus from Omen
+	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = nordicanimism_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	deification_trigger = {
@@ -171,7 +171,7 @@ deity_wolf = {
 		}
 	}
 	icon = deity_wolf
-	passive_modifier = { global_tribesmen_happiness = global_tribesmen_happiness_svalue }
+	passive_modifier = { global_tribesmen_happyness = global_tribesmen_happiness_svalue }
 	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = nordicanimism_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot

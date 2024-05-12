@@ -47,7 +47,7 @@ deity_wilderking = {
 		}
 	}
 	icon = deity_wilderking
-	passive_modifier = { modded_beasts_offensive = 0.05 }
+	passive_modifier = { lv_archers_offensive = 0.05 }
 	omen = { global_monthly_food_modifier = omen_global_monthly_food_modifier } #Bonus from Omen
 	religion = green_pantheon
 	deity_category = economy #This Deity uses a Economy Slot

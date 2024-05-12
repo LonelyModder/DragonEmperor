@@ -29,7 +29,7 @@ deity_godkings = {
 	}
 	icon = deity_godkings
 	passive_modifier = { global_supply_limit_modifier = deity_global_supply_limit_modifier_svalue }
-	omen = { manpower_recovery = omen_manpower_recovery_speed } #Bonus from Omen
+	omen = { manpower_recovery_speed = omen_manpower_recovery_speed } #Bonus from Omen
 	religion = dragoncult_pantheon
 	deity_category = fertility #This Deity uses a Fertility Slot
 	on_activate = {
