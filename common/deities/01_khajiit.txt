@@ -224,7 +224,7 @@ deity_nirni = {
 	}
 	icon = deity_nirni
 	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
-	omen = { global_population = omen_global_population_growth } #Bonus from Omen
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
 	religion = khajiiti_pantheon
 	deity_category = fertility	
 	deification_trigger = {

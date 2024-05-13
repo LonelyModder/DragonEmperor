@@ -648,8 +648,7 @@
     }
 
     indian_crucible_steel_inv = {
-        modifier = { light_swordsmen_offensive = 0.05
-					 light_spearmen_offensive = 0.05 }
+        modifier = { lv_lightinfantry_offensive = 0.05 }
 		requires = { indian_cataract_surgery_inv }
         allow = {
 			OR = {

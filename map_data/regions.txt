@@ -11,6 +11,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_roscrea_region = {
+	areas = {
+		hvalcrea_area
+		winterisle_area
+		silentcoast_area
+		craneshore_area
+		jarnfell_area
+		stormrocks_area
+	}
+}
+
 modded_nkasaz_region = {
 	areas = {
 		anged_area

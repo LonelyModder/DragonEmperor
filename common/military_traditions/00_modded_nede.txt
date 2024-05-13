@@ -153,7 +153,7 @@
 	nede_path_4a = { ###nede path
 		modifier = { 
 			general_loyalty = 5
-			heavy_infantry_discipline = 0.1
+			lv_heavyinfantry_discipline = 0.1
 		}
 		on_activate = {
 			custom_tooltip = "create_high_martial_rising_star"

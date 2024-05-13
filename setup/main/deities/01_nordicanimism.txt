@@ -1,0 +1,37 @@
+deity_manager = {
+	deities_database = { ### KEYS 10441-10460 ###
+		10441 = {
+			key = omen_fox
+			deity = deity_fox
+		}
+		10442 = {
+			key = omen_bear
+			deity = deity_bear
+		}
+		10443 = {
+			key = omen_hawk
+			deity = deity_hawk
+		}
+		10444 = {
+			key = omen_wolf
+			deity = deity_wolf
+		}
+		10445 = {
+			key = omen_moth
+			deity = deity_moth
+		}
+		10446 = {
+			key = omen_whale
+			deity = deity_whale
+		}
+		10447 = {
+			key = omen_owl
+			deity = deity_owl
+		}
+		10447 = {
+			key = omen_snake
+			deity = deity_snake
+		}
+	}
+}
+

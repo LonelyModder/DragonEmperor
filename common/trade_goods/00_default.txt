@@ -155,6 +155,21 @@ moonstone = { #Added
 	color = hsv { 0.18 0.44 0.66 }
 }
 
+mithril = { #Added
+	category = 4
+
+	gold = 0.2
+	
+	province = {
+		local_tax_modifier = 0.02
+	}
+	country = {
+		lv_warriors_offensive = 0.05
+	} 
+	
+	color = hsv { 0.58 0.26 0.65 }
+}
+
 adamantium = { #Added
 	category = 4
 

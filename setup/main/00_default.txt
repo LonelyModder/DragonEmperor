@@ -306,6 +306,13 @@ treasure_manager = {
 				local_tax_modifier = 0.25
 			}
 		}
+		44 = { # Fruthuul
+			key = "treasure_bear_statue"
+			icon = "treasure_architecture"
+			state_modifier = {
+				local_cohort_start_experience = 0.2
+			}
+		}
     }
 }
 family={
@@ -617,8 +624,13 @@ provinces = { #Any entry must contain a comment with city name.
 	6477 = { # Abbarbas
 		treasure_slots = { 	treasures = { 43 } }
 	}
+	7442 = { # Fruthuul
+		treasure_slots = { 	treasures = { 44 } }
+	}
 	
 	#Pirates
+	7426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7444 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7275 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7193 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7168 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -785,6 +797,21 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 1
 	}
 	7242 = {
+		port_building = 1
+	}
+	7473 = {
+		port_building = 1
+	}
+	7444 = {
+		port_building = 1
+	}
+	7426 = {
+		port_building = 1
+	}
+	7409 = {
+		port_building = 1
+	}
+	7457 = {
 		port_building = 1
 	}
 	7222 = {
@@ -1402,6 +1429,36 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	7442 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7453 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7448 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7445 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7466 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7446 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7409 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7422 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7432 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7437 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	7083 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -2693,6 +2750,15 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	7402 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7392 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7388 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	7076 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -9494,6 +9560,138 @@ country = {
 			
 			own_control_core = 	{ 
 				7085 7087 7088 7086 7084 7083
+			}
+		}
+		
+		NAA= {          
+			government = tribal_kingdom
+			primary_culture = bearing
+			religion = nordicanimism_pantheon
+			capital = 7442
+			
+			own_control_core = 	{ 
+				7442 7443 7444 7445 7439 7440 7441 7436 7437 7438 7432 7433 7434 7435 7430 7429
+			}
+		}
+		
+		NAB= {          
+			government = tribal_kingdom
+			primary_culture = hvalcrean
+			religion = nordicanimism_pantheon
+			capital = 7409
+			
+			own_control_core = 	{ 
+				7407 7408 7409 7410 7411 7412 7413 7414 7421 7404
+			}
+		}
+		
+		NAC= {          
+			government = tribal_kingdom
+			primary_culture = gunderan
+			religion = nordicanimism_pantheon
+			capital = 7472
+			
+			own_control_core = 	{ 
+				7472 7473 7460 
+			}
+		}
+		
+		NAD= {          
+			government = tribal_kingdom
+			primary_culture = rootman
+			religion = nordicanimism_pantheon
+			capital = 7457
+			
+			own_control_core = 	{ 
+				7457  
+			}
+		}
+		
+		NAE= {          
+			government = tribal_kingdom
+			primary_culture = shonvaalan
+			religion = nordicanimism_pantheon
+			capital = 7424
+			
+			own_control_core = 	{ 
+				7415 7416 7417 7418 7419 7420 7422 7423 7424 7426 7425  
+			}
+		}
+		
+		NAF= {          
+			government = tribal_kingdom
+			primary_culture = snakeman
+			religion = nordicanimism_pantheon
+			capital = 7454
+			
+			own_control_core = 	{ 
+				7454 7455 7456 7453 7452 7458 7459 7451
+			}
+		}
+		
+		NAG= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7406
+			
+			own_control_core = 	{ 
+				7406 7405
+			}
+		}
+		
+		NAH= {          
+			government = tribal_kingdom
+			primary_culture = wolfman
+			religion = nordicanimism_pantheon
+			capital = 7448
+			
+			own_control_core = 	{ 
+				7448 7449 7446 7447 7450
+			}
+		}
+		
+		NAI= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7464
+			
+			own_control_core = 	{ 
+				7464 7465 7470 7463
+			}
+		}
+		
+		NAJ= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7462
+			
+			own_control_core = 	{ 
+				7462 7461 7466 7467 7468
+			}
+		}
+		
+		NAK= {          
+			government = tribal_kingdom
+			primary_culture = gobrock
+			religion = goblin_pantheon
+			capital = 7469
+			
+			own_control_core = 	{ 
+				7469 7471
+			}
+		}
+		
+		NAL= {          
+			government = tribal_kingdom
+			primary_culture = mothman
+			religion = nordicanimism_pantheon
+			capital = 7428
+			
+			own_control_core = 	{ 
+				7428 7431 7427
 			}
 		}
 	}

@@ -14,6 +14,7 @@
 		tag = XST #Solstheim
 		tag = XCH #Chimer Hortatorate
 		tag = XTH #Thras
+		tag = XRC #Roscrea
 	}
 }
 
@@ -82,6 +83,7 @@ has_non_food_trade_good_trigger = {
 		trade_goods = saltrice
 		trade_goods = cheese
 		trade_goods = tea
+		trade_goods = fruitsoftheforest
 	}
 }
 
@@ -122,6 +124,7 @@ has_minable_trade_good_trigger = {
 			trade_goods = stalhrim
 			trade_goods = adamantium
 			trade_goods = moonstone
+			trade_goods = mithril
 			trade_goods = aetherium
 			trade_goods = kwamaegg
 			trade_goods = malachite

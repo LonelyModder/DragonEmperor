@@ -2398,7 +2398,7 @@ gw_effect_skar = {
 			great_work_effect_tier = gw_effect_tier_1
 		
 			country_modifier = {
-				lglobal_population_capacity_modifier = 0.05
+				global_population_capacity_modifier = 0.05
 				global_monthly_civilization = 0.05
 				global_nobles_output = 0.05
 			}

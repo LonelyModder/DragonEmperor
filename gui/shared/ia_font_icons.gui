@@ -281,6 +281,16 @@ texticon = {
 }
 
 texticon = {
+    icon = mithril
+    iconsize = {
+        texture = "gfx/interface/icons/tradegoods/mithril.dds"
+        size = { 25 25 }
+        offset = { 0 6 }
+        fontsize = 16
+    }
+}
+
+texticon = {
     icon = tea
     iconsize = {
         texture = "gfx/interface/icons/tradegoods/tea.dds"
