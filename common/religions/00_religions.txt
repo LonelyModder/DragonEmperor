@@ -194,7 +194,7 @@ reachmen_pantheon = { # Reachmen Faith
 allmaker_pantheon = { # Skaal Faith
 	color = rgb { 107 137 156 }
 	modifier = { 
-		global_manpower_modifier = 0.1
+		global_monthly_state_loyalty = 0.04
 		omen_power = 0.2
 		global_pop_conversion_speed_modifier = -0.5
 	}
