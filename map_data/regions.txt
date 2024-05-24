@@ -11,6 +11,21 @@ modded_tmp_region = {
 	}
 }
 
+modded_yne_region = {
+	areas = {
+		pavasaga_area
+		westyne_area
+		ambientlittoral_area
+		opalcoast_area
+	}
+}
+	
+modded_slea_region = {
+	areas = {
+		yrol_area
+	}
+}
+
 modded_roscrea_region = {
 	areas = {
 		hvalcrea_area
