@@ -105,6 +105,20 @@ imga = {
 	martial = -2
 }
 
+echmer = {
+	type = status
+	charisma = 1
+	zeal = 2
+	martial = 3
+}
+
+tsaesci = {
+	type = status
+	finesse = 1
+	zeal = 2
+	martial = 3
+}
+
 minotaur = {
 	type = status
 	charisma = 1
