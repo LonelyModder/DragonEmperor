@@ -23,6 +23,8 @@
 			NOT = { has_trait = nord }
 			NOT = { has_trait = redguard }
 			NOT = { has_trait = sinismer }
+			NOT = { has_trait = tsaesci }
+			NOT = { has_trait = echmer }
 			NOT = { has_trait = breton }
 			NOT = { has_trait = falmer }
 			NOT = { has_trait = dwemer }
@@ -95,6 +97,7 @@
 				OR = {
 					has_culture_group = goblin
 					has_culture_group = riekling
+					has_culture_group = eastgoblin
 				}
 			}
 			add_trait = goblin
@@ -160,6 +163,18 @@
 				has_culture_group = sinismer
 			}
 			add_trait = sinismer
+		}
+		else_if = {
+			limit = {
+				has_culture_group = tsaesci
+			}
+			add_trait = tsaesci
+		}
+		else_if = {
+			limit = {
+				has_culture_group = echmer
+			}
+			add_trait = echmer
 		}
 	}
 }

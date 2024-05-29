@@ -369,3 +369,33 @@ esfa_startup.22 = { #Sinismer
         name = esfa_startup.22.a
     }
 }
+
+esfa_startup.23 = { #Tsaesci
+    type = country_event
+    title = esfa_startup.23.t
+    desc = esfa_startup.23.desc
+    picture = welcoming_window_23
+	
+    trigger = {
+		country_culture_group = tsaesci
+    }
+
+    option = {    
+        name = esfa_startup.23.a
+    }
+}
+
+esfa_startup.24 = { #Echmer
+    type = country_event
+    title = esfa_startup.24.t
+    desc = esfa_startup.24.desc
+    picture = welcoming_window_24
+	
+    trigger = {
+		country_culture_group = echmer
+    }
+
+    option = {    
+        name = esfa_startup.24.a
+    }
+}

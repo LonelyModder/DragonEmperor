@@ -2806,6 +2806,38 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
+				has_culture_group = tsaesci
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_horsearchers
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = echmer
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_heavyinfantry
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
 				OR = {
 					has_culture_group = breton
 					has_culture_group = druid

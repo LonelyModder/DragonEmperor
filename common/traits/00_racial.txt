@@ -114,6 +114,9 @@ echmer = {
 
 tsaesci = {
 	type = status
+	
+	fertility = -0.3
+	health = 5.0
 	finesse = 1
 	zeal = 2
 	martial = 3

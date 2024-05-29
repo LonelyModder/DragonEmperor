@@ -5,12 +5,18 @@
 	allow = {
 		trigger_if = {
 			limit = { 
+				OR = {
 					country_culture_group = dwemer
+					country_culture_group = echmer
+				}
 			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = dwemer
+			OR = {
+				country_culture_group = dwemer
+				country_culture_group = echmer
+			}
 		}
 		trigger_else_if = {
 			limit = {
@@ -28,7 +34,10 @@
 					}
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:dwemer
+						OR = {
+							this.culture.culture_group = culture_group:dwemer
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}
@@ -49,7 +58,10 @@
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes
-						this.culture.culture_group = culture_group:dwemer
+						OR = {
+							this.culture.culture_group = culture_group:dwemer
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}
@@ -71,7 +83,10 @@
 					text = "tradition_unlock_requirement_dwemer"
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:dwemer
+						OR = {
+							this.culture.culture_group = culture_group:dwemer
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}

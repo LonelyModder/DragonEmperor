@@ -325,3 +325,33 @@ sinismer_heritage = {
 		country_culture_group = sinismer
 	}
 }
+
+tsaesci_heritage = { 
+	modifier = {
+		#good
+		enslavement_efficiency = 0.25
+		discipline = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		country_culture_group = tsaesci
+	}
+}
+
+echmer_heritage = { 
+	modifier = {
+		#good
+		research_points_modifier = 0.2
+		land_morale_modifier = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		country_culture_group = echmer
+	}
+}
