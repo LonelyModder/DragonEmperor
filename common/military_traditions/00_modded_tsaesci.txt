@@ -5,12 +5,18 @@
 	allow = {
 		trigger_if = {
 			limit = { 
+				OR = {
 					country_culture_group = tsaesci
+					country_culture_group = echmer
+				}
 			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = tsaesci
+			OR = {
+				country_culture_group = tsaesci
+				country_culture_group = echmer
+			}
 		}
 		trigger_else_if = {
 			limit = {
@@ -30,6 +36,10 @@
 					any_country_culture = {
 						is_integrated = yes
 						this.culture.culture_group = culture_group:tsaesci
+						OR = {
+							this.culture.culture_group = culture_group:tsaesci
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}
@@ -51,7 +61,10 @@
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes
-						this.culture.culture_group = culture_group:tsaesci
+						OR = {
+							this.culture.culture_group = culture_group:tsaesci
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}
@@ -74,7 +87,10 @@
 					text = "tradition_unlock_requirement_tsaesci"
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:tsaesci
+						OR = {
+							this.culture.culture_group = culture_group:tsaesci
+							this.culture.culture_group = culture_group:echmer
+						}
 					}
 				}
 			}
@@ -90,12 +106,131 @@
 		requires = {}
 	}
 	
+	tsaesci_path_2 = { ###tsaesci path
+		modifier = { 
+			lv_horsearchers_offensive = 0.1
+			lv_archers_offensive = 0.1
+		}
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_1}
+	}
+	
+	tsaesci_path_2a = { ###tsaesci path
+		modifier = { 
+			fort_maintenance_cost = -0.2
+		}
+		enable_ability = military_colonies
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_2}
+	}
+	
+	tsaesci_path_3a = { ###tsaesci path
+		modifier = { 
+			lv_heavyinfantry_offensive = 0.1
+			plains_combat_bonus = 0.1
+		}
+		enable_tactic = triplex_acies
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_2a}
+	}
+	
+	tsaesci_path_4a = { ###tsaesci path
+		modifier = { 
+			lv_horsearchers_offensive = 0.1
+			lv_cavalry_offensive = 0.1
+		}
+		enable_tactic = hit_and_run_tactics
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_3a}
+	}
+	
+	tsaesci_path_2b = { ###tsaesci path
+		modifier = { 
+			naval_damage_done = 0.1
+		}
+		enable_ability = naval_raiding
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_2}
+	}
+	
+	tsaesci_path_3b = { ###tsaesci path
+		modifier = { 
+			ship_cost = -0.15
+		}
+		on_activate = {
+			ordered_owned_province = {	
+				limit = {
+					is_coastal = yes
+					has_building = port_building
+					can_build_building = port_building
+				}
+				alternative_limit = {
+					is_coastal = yes
+					can_build_building = port_building
+				}
+				order_by = total_population
+				add_building_level = port_building
+				add_building_level = port_building
+			}
+		}
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_2b}
+	}
+	
+	tsaesci_path_4b = { ###tsaesci path
+		modifier = { 
+			naval_damage_done = 0.2
+		}
+		allow_unit_type = octere
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = octere
+						add_subunit = octere
+					}
+				}
+			}
+		}
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_3b}
+	}
+	
+	tsaesci_path_5b = { ###tsaesci path
+		modifier = { 
+			ocean_combat_bonus = 0.1
+			coastal_terrain_combat_bonus = 0.1
+		}
+		allow_unit_type = mega_galley
+		on_activate = {
+			random_owned_province = {
+				limit = {
+					num_of_port_building > 0 
+				}
+				owner = {
+					create_unit = {
+						navy = yes
+						location = prev.prev
+						add_subunit = mega_galley
+					}
+				}
+			}
+		}
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_4b}
+	}
+	
 	tsaesci_states_path_end_bonus = {
 		modifier = { 
 			jungle_combat_bonus = 0.2
 			ocean_combat_bonus = 0.2
 		}
-		requires = { tsaesci_path_6a tsaesci_path_4b } 
+		requires = { tsaesci_path_4a tsaesci_path_5b } 
 		icon = tsaesci_mini_trad 
 	}
 }

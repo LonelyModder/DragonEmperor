@@ -348,9 +348,11 @@
  ######
  #####Tsaesci
  ######
- yokudan_philosophy:1 "Tsaesci Traditions"
- yokudan_philosophydesc:3 " "
- tradition_unlock_requirement_yokudan:0 "You don't have enough of tsaesci to unlock the tradition or they are not integrated culture."
+ tsaesci_philosophy:1 "Tsaesci Traditions"
+ tsaesci_philosophydesc:3 " "
+ tradition_unlock_requirement_tsaesci:0 "You don't have enough of tsaesci to unlock the tradition or they are not integrated culture."
  #Traditions
- yokudan_path_1:0 "Armies of the East"
- yokudan_path_1_desc:0 ""
+ tsaesci_path_1:0 "Discipline and Obedience"
+ tsaesci_path_1_desc:0 "Eastern part of the Tsaesci homeland are covered with dense jungles. This forced the snake-folk to use more disciplined militias that could handle the climate and the hit and run tactics used by the lilmothiit that inhabit the area. In time Tsaesci developed a martial culture that allowed them to keep the nomadic Ka-Po-Tun and Lilmothiit warbands at bay."
+ tsaesci_path_2:0 "The True Wepon"
+ tsaesci_path_2_desc:0 "Thou the Tsaesci are perhaps mostly known from their swords their real primary wepon is a composite bow. "
