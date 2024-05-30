@@ -1,0 +1,101 @@
+﻿tsaesci_philosophy = { 
+	color = hsv { 1.1 1 0.5 }
+	image = tsaesci_philosophy
+	
+	allow = {
+		trigger_if = {
+			limit = { 
+					country_culture_group = tsaesci
+			}
+			custom_tooltip = {
+				text = "began_with_tradition_group"
+			}
+			country_culture_group = tsaesci
+		}
+		trigger_else_if = {
+			limit = {
+				AND = {
+					OR = {
+						has_military_bonus = argonian_states_path_end_bonus
+						has_military_bonus = orcish_states_path_end_bonus
+						has_military_bonus = khajiit_states_path_end_bonus
+						has_military_bonus = nede_states_path_end_bonus
+						has_military_bonus = nordic_states_path_end_bonus
+						has_military_bonus = altmer_states_path_end_bonus
+						has_military_bonus = dwemer_states_path_end_bonus
+						has_military_bonus = lilmothit_states_path_end_bonus
+						has_military_bonus = moarmer_states_path_end_bonus
+						has_military_bonus = yokudan_states_path_end_bonus
+					}
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:tsaesci
+					}
+				}
+			}
+			
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = dwemer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
+					has_military_bonus = moarmer_states_path_end_bonus
+					has_military_bonus = yokudan_states_path_end_bonus
+				}
+				any_country_culture = {
+					custom_tooltip = {
+						text = tradition_unlock_requirement_short
+						is_integrated = yes
+						this.culture.culture_group = culture_group:tsaesci
+					}
+				}
+			}
+		}
+		trigger_else = {
+			AND = {
+				OR = {
+					has_military_bonus = argonian_states_path_end_bonus
+					has_military_bonus = orcish_states_path_end_bonus
+					has_military_bonus = khajiit_states_path_end_bonus
+					has_military_bonus = nede_states_path_end_bonus
+					has_military_bonus = nordic_states_path_end_bonus
+					has_military_bonus = altmer_states_path_end_bonus
+					has_military_bonus = dwemer_states_path_end_bonus
+					has_military_bonus = lilmothit_states_path_end_bonus
+					has_military_bonus = moarmer_states_path_end_bonus
+					has_military_bonus = yokudan_states_path_end_bonus
+				}
+				custom_tooltip = {
+					text = "tradition_unlock_requirement_tsaesci"
+					any_country_culture = {
+						is_integrated = yes
+						this.culture.culture_group = culture_group:tsaesci
+					}
+				}
+			}
+		}
+	}
+	
+	tsaesci_path_1 = { ###tsaesci path
+		modifier = { 
+			discipline = 0.1
+			jungle_combat_bonus = 0.1
+		}
+		icon = tsaesci_mini_trad
+		requires = {}
+	}
+	
+	tsaesci_states_path_end_bonus = {
+		modifier = { 
+			jungle_combat_bonus = 0.2
+			ocean_combat_bonus = 0.2
+		}
+		requires = { tsaesci_path_6a tsaesci_path_4b } 
+		icon = tsaesci_mini_trad 
+	}
+}

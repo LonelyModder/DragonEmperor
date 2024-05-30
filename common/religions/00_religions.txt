@@ -275,3 +275,13 @@ nordicanimism_pantheon = { # Atmoran Faith
 	}
 	religion_category = pantheon
 }
+
+tsaesci_pantheon = { # Tsaesci Faith
+	color = hsv { 0.92 0.89 0.84 }
+	modifier = { 
+		omen_power = 0.2
+		war_exhaustion = -0.025
+		stability_cost_modifier = 0.2
+	}
+	religion_category = pantheon
+}

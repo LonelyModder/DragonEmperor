@@ -1,0 +1,133 @@
+﻿### General Deity Checks ###
+
+### Exclusive Deity Checks ###
+
+deity_myn = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = tsaesci_pantheon
+			}
+			deity:omen_myn = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_myn
+	passive_modifier = { land_morale_modifier = deity_land_morale_modifier_svalue }
+	omen = { lv_heavyinfantry_offensive = 0.1 } #Bonus from Omen
+	religion = tsaesci_pantheon
+	deity_category = war #This Deity uses a War slot.
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		military_apotheosis_defensive_effect = yes
+	}
+}
+
+deity_zisa = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = tsaesci_pantheon
+			}
+			deity:omen_zisa = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_zisa
+	passive_modifier = { global_commerce_modifier = deity_global_commerce_modifier_svalue }
+	omen = { global_commerce_modifier = omen_global_commerce_modifier_svalue } #Bonus from Omen
+	religion = tsaesci_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		economy_apotheosis_province_improvement_effect = yes
+	}
+}
+
+deity_ilni = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = tsaesci_pantheon
+			}
+			deity:omen_ilni = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_ilni
+	passive_modifier = { monthly_political_influence_modifier = deity_monthly_political_influence_modifier_svalue }
+	omen = { global_pop_assimilation_speed_modifier = omen_global_pop_assimilation_speed_modifier_svalue } #Bonus from Omen
+	religion = tsaesci_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_tancestors = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = tsaesci_pantheon
+			}
+			deity:omen_tancestors = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_tancestors
+	passive_modifier = { monthly_corruption = deity_monthly_corruption_svalue }
+	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
+	religion = tsaesci_pantheon
+	deity_category = culture #This Deity uses a Culture Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		culture_apotheosis_capital_effect = yes
+	}
+}
+
+deity_nyfa = {
+	trigger = {
+		polytheistic_check_religion_trigger = yes
+		OR = {
+			common_deity_trigger = {
+				RELIGION = tsaesci_pantheon
+			}
+			deity:omen_nyfa = {
+				holy_site_deity_check_trigger = yes
+			}
+		}
+	}
+	icon = deity_nyfa
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = tsaesci_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		fertility_apotheosis_capital_effect = yes
+	}
+}
