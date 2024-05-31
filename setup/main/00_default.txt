@@ -793,6 +793,15 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	7699 = {
+		port_building = 2
+	}
+	7685 = {
+		port_building = 2
+	}
+	7764 = {
+		port_building = 1
+	}
 	7168 = {
 		port_building = 1
 	}
@@ -9716,6 +9725,64 @@ country = {
 			
 			own_control_core = 	{ 
 				7428 7431 7427
+			}
+		}
+		
+		OAA= {          
+			government = despotic_monarchy
+			primary_culture = tislander
+			religion = tsaesci_pantheon
+			capital = 7699
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7699 7700
+			}
+		}
+		
+		OAB= {          
+			government = oligarchic_republic
+			primary_culture = noraken
+			religion = nirnic_pantheon
+			capital = 7685
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7685 7686 
+			}
+		}
+		
+		OAC= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7763
+			
+			own_control_core = 	{ 
+				7763 7764 7765 
+			}
+		}
+		
+		OAD= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7684
+			
+			own_control_core = 	{ 
+				7684 7683
 			}
 		}
 	}

@@ -7180,6 +7180,54 @@ accessory_genes = {
             }
         }   
 
+		tibetean_hairstyles = {
+            index = 101
+			male = {
+                5 = empty
+                20 = male_hair_iberian_1
+                20 = male_hair_dravidian_1
+                20 = male_hair_dravidian_2
+
+           }
+            female = {
+               1 = female_hair_persian_1
+               1 = female_hair_mauryan_1
+            }
+            boy = male
+            girl = female
+        }    		
+		
+        japanese_hairstyles = {
+            index = 103
+            male = {
+                3 = empty
+                7 = male_hair_dravidian_2
+                7 = male_hair_carthaginian_1
+                7 = male_hair_ethiopian_1
+                7 = male_hair_arabian_2
+                7 = male_hair_germanic_1
+                7 = male_hair_roman_6
+                2 = male_hair_japanese_1
+                2 = male_hair_japanese_2
+                2 = male_hair_japanese_3
+                2 = male_hair_japanese_4
+                2 = male_hair_japanese_5
+                2 = male_hair_japanese_imperial
+               
+            }
+            female = {
+               1 = female_hair_roman_1
+               1 = female_hair_roman_5
+               1 = female_hair_greek_1
+               1 = female_hair_greek_2
+               1 = female_hair_persian_1
+               1 = female_hair_celtic_1
+               1 = female_hair_celtic_2
+            }
+            boy = male
+            girl = female
+        }
+
         numidian_hairstyles = {
             index = 3
             male = {
@@ -9335,7 +9383,126 @@ accessory_genes = {
                 1 = girl_clothes_1_color4
             }
         }
-		
+		tibetan_clothes = {
+            index = 101
+            male = {
+                1 = male_clothes_mauryan_2
+                1 = male_clothes_mauryan_2_color2
+                1 = male_clothes_mauryan_2_color3
+                1 = male_clothes_mauryan_2_color4
+            }
+            female = {
+                1 = female_clothes_mauryan_1
+                1 = female_clothes_mauryan_1_color2
+                1 = female_clothes_mauryan_1_color3
+                1 = female_clothes_mauryan_1_color4
+                1 = female_clothes_mauryan_2
+                1 = female_clothes_mauryan_2_color2
+                1 = female_clothes_mauryan_2_color3
+                1 = female_clothes_mauryan_2_color4
+                #1 = female_bust
+            }
+            boy = {
+                1 = boy_clothes_2
+                1 = boy_clothes_2_color2
+                1 = boy_clothes_2_color3
+                1 = boy_clothes_2_color4
+            }
+            girl = {
+                1 = girl_clothes_2
+				1 = girl_clothes_2_color2
+				1 = girl_clothes_2_color3
+				1 = girl_clothes_2_color4
+            }
+        }
+		chinese_clothes = {
+            index = 102
+            male = {
+
+                1 = male_clothes_qing_1_color6
+                1 = male_clothes_qing_1_color7
+                1 = male_clothes_qing_1_color8
+                1 = male_clothes_qing_2
+                1 = male_clothes_qing_2_color2
+                1 = male_clothes_chinese_2
+                1 = male_clothes_chinese_2_color2
+                1 = male_clothes_chinese_2_color3
+                1 = male_clothes_chinese_2_color4
+                1 = male_clothes_chinese_3
+                1 = male_clothes_chinese_3_color2
+                1 = male_clothes_chinese_3_color3
+                1 = male_clothes_chinese_3_color4
+                1 = male_clothes_chinese_3_color5
+            }
+
+            female = {
+                1 = female_clothes_qing_1
+                1 = female_clothes_qing_1_color2
+                1 = female_clothes_qing_1_color3
+                1 = female_clothes_qing_1_color4
+                1 = female_clothes_qing_1_color5
+            }
+            boy = {
+                1 = boy_clothes_2
+                1 = boy_clothes_2_color2
+                1 = boy_clothes_2_color3
+                1 = boy_clothes_2_color4
+            }
+            girl = {
+                1 = girl_clothes_2
+                1 = girl_clothes_2_color2
+                1 = girl_clothes_2_color3
+                1 = girl_clothes_2_color4
+            }
+        }
+		japanese_clothes = {
+            index = 103
+            male = {
+
+                1 = male_clothes_japanese_1
+                1 = male_clothes_japanese_1_color2
+                1 = male_clothes_japanese_1_color3
+                1 = male_clothes_japanese_1_color4
+                1 = male_clothes_japanese_2
+                1 = male_clothes_japanese_2_color2
+                1 = male_clothes_chinese_2
+                1 = male_clothes_chinese_2_color2
+                1 = male_clothes_chinese_2_color3
+                1 = male_clothes_chinese_2_color4
+                1 = male_clothes_chinese_3
+                1 = male_clothes_chinese_3_color2
+                1 = male_clothes_chinese_3_color3
+                1 = male_clothes_chinese_3_color4
+                1 = male_clothes_chinese_3_color5
+                1 = male_clothes_ainu_1
+                1 = male_clothes_ainu_2
+            }
+            
+            female = {
+                1 = female_clothes_qing_1
+                1 = female_clothes_qing_1_color2
+                1 = female_clothes_qing_1_color3
+                1 = female_clothes_qing_1_color4
+                1 = female_clothes_qing_1_color5
+                1 = female_clothes_chinese_1
+                1 = female_clothes_chinese_1_color2
+                1 = female_clothes_chinese_1_color3
+                1 = female_clothes_chinese_1_color4
+                1 = female_clothes_chinese_1_color5
+            }
+            boy = {
+                1 = boy_clothes_2
+                1 = boy_clothes_2_color2
+                1 = boy_clothes_2_color3
+                1 = boy_clothes_2_color4
+            }
+            girl = {
+                1 = girl_clothes_2
+                1 = girl_clothes_2_color2
+                1 = girl_clothes_2_color3
+                1 = girl_clothes_2_color4
+            }
+        }
         no_clothes = {
             index = 30
 			set_tags = "full_bust"

@@ -144,6 +144,15 @@
 		requires = {tsaesci_path_3a}
 	}
 	
+	tsaesci_path_5a = { ###tsaesci path
+		modifier = { 
+			lv_heavyinfantry_defensive = 0.1
+			discipline = 0.1
+		}
+		icon = tsaesci_mini_trad
+		requires = {tsaesci_path_4a}
+	}
+	
 	tsaesci_path_2b = { ###tsaesci path
 		modifier = { 
 			naval_damage_done = 0.1
@@ -227,10 +236,10 @@
 	
 	tsaesci_states_path_end_bonus = {
 		modifier = { 
-			jungle_combat_bonus = 0.2
+			discipline = 0.2
 			ocean_combat_bonus = 0.2
 		}
-		requires = { tsaesci_path_4a tsaesci_path_5b } 
+		requires = { tsaesci_path_5a tsaesci_path_5b } 
 		icon = tsaesci_mini_trad 
 	}
 }
