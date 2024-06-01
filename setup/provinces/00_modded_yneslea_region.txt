@@ -85,8 +85,8 @@
 7687={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -104,11 +104,14 @@
 7688={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -123,8 +126,8 @@
 7689={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -142,8 +145,8 @@
 7690={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -161,8 +164,8 @@
 7694={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -180,8 +183,8 @@
 7695={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -199,11 +202,14 @@
 7696={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -218,8 +224,8 @@
 7697={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -237,8 +243,8 @@
 7698={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -297,8 +303,8 @@
 7701={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -316,8 +322,8 @@
 7702={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -335,8 +341,8 @@
 7703={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -354,11 +360,14 @@
 7704={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -373,8 +382,8 @@
 7705={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -392,8 +401,8 @@
 7706={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nedic_pantheon"
+	culture="yensa"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -411,7 +420,7 @@
 7707={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -430,7 +439,7 @@
 7708={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -449,7 +458,7 @@
 7709={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -468,7 +477,7 @@
 7710={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -487,7 +496,7 @@
 7711={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -506,7 +515,7 @@
 7712={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -525,7 +534,7 @@
 7713={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -544,7 +553,7 @@
 7714={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -563,7 +572,7 @@
 7715={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -582,7 +591,7 @@
 7716={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -601,7 +610,7 @@
 7717={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -620,7 +629,7 @@
 7718={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -639,7 +648,7 @@
 7719={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -658,7 +667,7 @@
 7720={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -677,7 +686,7 @@
 7721={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -696,7 +705,7 @@
 7722={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -715,7 +724,7 @@
 7723={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -734,7 +743,7 @@
 7724={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -753,7 +762,7 @@
 7725={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -772,7 +781,7 @@
 7726={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -791,7 +800,7 @@
 7727={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -810,7 +819,7 @@
 7728={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -829,7 +838,7 @@
 7729={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -848,7 +857,7 @@
 7730={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -867,7 +876,7 @@
 7731={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -886,7 +895,7 @@
 7732={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -905,7 +914,7 @@
 7733={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -924,7 +933,7 @@
 7734={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -943,7 +952,7 @@
 7735={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -962,26 +971,29 @@
 7736={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="nirnic_pantheon"
+	culture="yneic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=3
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=10
+	}
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=7
 	}
 }
 
 7737={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -999,8 +1011,8 @@
 
 7738={ 
 	terrain="farmland"
-	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	trade_goods="spices"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1018,8 +1030,8 @@
 
 7739={ 
 	terrain="farmland"
-	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	trade_goods="spices"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1038,7 +1050,7 @@
 7740={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1057,7 +1069,7 @@
 7741={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1076,7 +1088,7 @@
 7742={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1095,7 +1107,7 @@
 7743={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1114,7 +1126,7 @@
 7744={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1133,7 +1145,7 @@
 7745={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1152,7 +1164,7 @@
 7746={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1171,7 +1183,7 @@
 7747={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1190,7 +1202,7 @@
 7748={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1209,7 +1221,7 @@
 7749={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1228,7 +1240,7 @@
 7750={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1247,7 +1259,7 @@
 7751={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1266,7 +1278,7 @@
 7752={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1285,7 +1297,7 @@
 7753={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1304,7 +1316,7 @@
 7754={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1323,7 +1335,7 @@
 7755={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1342,7 +1354,7 @@
 7756={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1361,7 +1373,7 @@
 7757={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1380,7 +1392,7 @@
 7758={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1399,7 +1411,7 @@
 7759={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1418,7 +1430,7 @@
 7760={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1437,7 +1449,7 @@
 7761={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1456,7 +1468,7 @@
 7762={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1535,11 +1547,14 @@
 7766={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -1554,8 +1569,8 @@
 7767={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1573,8 +1588,8 @@
 7768={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1592,8 +1607,8 @@
 7769={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1611,8 +1626,8 @@
 7770={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1630,7 +1645,7 @@
 7771={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1649,7 +1664,7 @@
 7772={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1668,7 +1683,7 @@
 7773={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1687,7 +1702,7 @@
 7774={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1706,7 +1721,7 @@
 7775={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1725,7 +1740,7 @@
 7776={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1744,7 +1759,7 @@
 7777={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1763,7 +1778,7 @@
 7778={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1782,7 +1797,7 @@
 7779={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1801,7 +1816,7 @@
 7780={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1820,7 +1835,7 @@
 7781={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1839,7 +1854,7 @@
 7782={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1858,7 +1873,7 @@
 7783={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1877,7 +1892,7 @@
 7784={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1896,7 +1911,7 @@
 7785={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1915,7 +1930,7 @@
 7786={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1934,7 +1949,7 @@
 7787={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1953,7 +1968,7 @@
 7788={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1972,7 +1987,7 @@
 7789={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -1991,7 +2006,7 @@
 7790={ 
 	terrain="farmland"
 	trade_goods="saltrice"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2010,7 +2025,7 @@
 7791={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2029,7 +2044,7 @@
 7792={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2048,7 +2063,7 @@
 7793={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2067,7 +2082,7 @@
 7794={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2086,7 +2101,7 @@
 7795={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2105,7 +2120,7 @@
 7796={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2124,7 +2139,7 @@
 7797={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2143,7 +2158,7 @@
 7798={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2162,7 +2177,7 @@
 7799={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2181,7 +2196,7 @@
 7800={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2200,7 +2215,7 @@
 7801={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2219,7 +2234,7 @@
 7802={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2238,7 +2253,7 @@
 7803={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2257,7 +2272,7 @@
 7804={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2276,7 +2291,7 @@
 7805={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2295,7 +2310,7 @@
 7806={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2314,7 +2329,7 @@
 7807={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2333,7 +2348,7 @@
 7808={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2352,7 +2367,7 @@
 7809={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2371,7 +2386,7 @@
 7810={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2390,7 +2405,7 @@
 7811={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2409,7 +2424,7 @@
 7812={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2428,7 +2443,7 @@
 7813={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2447,7 +2462,7 @@
 7814={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2466,7 +2481,7 @@
 7815={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0
@@ -2485,7 +2500,7 @@
 7816={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
+	religion="nirnic_pantheon"
 	culture="wvenedi"
 	civilization_value=0
 	barbarian_power=0

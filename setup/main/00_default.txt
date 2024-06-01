@@ -808,6 +808,9 @@ provinces = { #Any entry must contain a comment with city name.
 	7242 = {
 		port_building = 1
 	}
+	7695 = {
+		port_building = 1
+	}
 	7473 = {
 		port_building = 1
 	}
@@ -9783,6 +9786,68 @@ country = {
 			
 			own_control_core = 	{ 
 				7684 7683
+			}
+		}
+		
+		OAE= {          
+			government = tribal_kingdom
+			primary_culture = yensa
+			religion = nedic_pantheon
+			capital = 7696
+			
+			own_control_core = 	{ 
+				7690 7694 7695 7696 7697 7698
+			}
+		}
+		
+		OAF= {          
+			government = tribal_kingdom
+			primary_culture = yensa
+			religion = nedic_pantheon
+			capital = 7704
+			
+			own_control_core = 	{ 
+				7704 7705 7706 7703 7702 7701
+			}
+		}
+		
+		OAG= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7766
+			
+			own_control_core = 	{ 
+				7766 7770 7769 7767 7768
+			}
+		}
+		
+		OAH= {          
+			government = tribal_kingdom
+			primary_culture = yneic
+			religion = nirnic_pantheon
+			capital = 7736
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7736
+			}
+		}
+		
+		OAI= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7688
+			
+			own_control_core = 	{ 
+				7688 7687 7689
 			}
 		}
 	}
