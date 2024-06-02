@@ -328,3 +328,26 @@ levy_moarmeri = { #sloadan militia
 	lv_archers = 0.2
 	lv_raiders = 0.2
 }
+
+#Tsaesci Militia
+
+levy_tsaesci = { #tsaesci militia
+	default = no
+
+	lv_lightinfantry = 0.2
+	lv_heavyinfantry = 0.3
+	lv_archers = 0.1
+	lv_cavalry = 0.2
+	lv_horsearchers = 0.2
+}
+
+#Echmer Militia
+
+levy_echmer = { #echmer militia
+	default = no
+
+	lv_warriors = 0.2
+	lv_heavyinfantry = 0.4
+	lv_crossbowmen = 0.1
+	lv_raiders = 0.1
+}

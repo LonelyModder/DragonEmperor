@@ -39,6 +39,7 @@
 						has_military_bonus = lilmothit_states_path_end_bonus
 						has_military_bonus = moarmer_states_path_end_bonus
 						has_military_bonus = yokudan_states_path_end_bonus
+						has_military_bonus = tsaesci_states_path_end_bonus
 					}
 					any_country_culture = {
 						is_integrated = yes
@@ -66,6 +67,7 @@
 					has_military_bonus = lilmothit_states_path_end_bonus
 					has_military_bonus = moarmer_states_path_end_bonus
 					has_military_bonus = yokudan_states_path_end_bonus
+					has_military_bonus = tsaesci_states_path_end_bonus
 				}
 				any_country_culture = {
 					custom_tooltip = {
@@ -95,6 +97,7 @@
 					has_military_bonus = lilmothit_states_path_end_bonus
 					has_military_bonus = moarmer_states_path_end_bonus
 					has_military_bonus = yokudan_states_path_end_bonus
+					has_military_bonus = tsaesci_states_path_end_bonus
 				}
 				custom_tooltip = {
 					text = "tradition_unlock_requirement_nede"

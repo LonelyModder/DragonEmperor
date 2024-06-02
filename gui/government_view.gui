@@ -2065,6 +2065,116 @@ base_window = {
 									tooltip = "[Character.GetPartyTooltip]"
 								}
 							}
+							#Tsaesci
+							portrait_button = {
+								name = "rulerpic41"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_tsaesci_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic42"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_tsaesci_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Echmer
+							portrait_button = {
+								name = "rulerpic43"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_echmer_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "rulerpic44"
+								size = { 130 195 }
+								position = { -4 14 }
+								parentanchor = bottom|left
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_echmer_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_right')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
 
 							#portrait_button = {
 							#	name = "consortpic"
@@ -2506,6 +2616,56 @@ base_window = {
 							}
 							portrait_button = {
 								name = "consortpic38"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid )]"
+								#portrait_texture = "gfx/portraits/sinismer_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							#Tsaesci
+							portrait_button = {
+								name = "consortpic39"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid )]"
+								#portrait_texture = "gfx/portraits/sinismer_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							portrait_button = {
+								name = "consortpic40"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid )]"
+								#portrait_texture = "gfx/portraits/sinismer_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							#Echmer
+							portrait_button = {
+								name = "consortpic41"
+								size = { 130 180 }
+								position = { 4 14 }
+								parentanchor = bottom|right
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GovernmentView.GetPlayer.GetConsort]"
+								visible = "[And( GovernmentView.GetPlayer.UseConsort, GovernmentView.GetPlayer.GetConsort.IsValid )]"
+								#portrait_texture = "gfx/portraits/sinismer_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+							}
+							portrait_button = {
+								name = "consortpic42"
 								size = { 130 180 }
 								position = { 4 14 }
 								parentanchor = bottom|right
@@ -3553,6 +3713,116 @@ base_window = {
 								using = pt_button_large
 								pop_out = yes
 								datacontext = "[GetScriptedGui('is_an_sinismer_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Tsaesci
+							portrait_button = {
+								name = "corulerpic41"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_tsaesci_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "corulerpic42"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_tsaesci_female')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_female.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							#Echmer
+							portrait_button = {
+								name = "corulerpic43"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_echmer_male')]"
+								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
+								#portrait_texture = "gfx/portraits/nord_male.dds"
+								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"
+								icon_card = {
+									visible = "[GovernmentView.GetPlayer.GetGovernment.IsRepublic]"
+									size = { 40 40 }
+									position = { 6 -16 }
+									parentanchor = bottom
+									blockoverride "Icon"
+									{
+										texture = "[GetPartyIcon( Character.GetParty )]"
+									}
+									block "PartyIconVisibility"
+									{
+										visible = "[Character.ShowParty]"
+									}
+									tooltip = "[Character.GetPartyTooltip]"
+								}
+							}
+							portrait_button = {
+								name = "corulerpic44"
+								size = { 130 195 }
+								parentanchor = bottom|right
+								position = { 4 14 }
+								using = pt_button_large
+								pop_out = yes
+								datacontext = "[GetScriptedGui('is_an_echmer_female')]"
 								visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( GovernmentView.GetPlayer.GetCoRuler.MakeScope ).End )]"
 								#portrait_texture = "gfx/portraits/nord_female.dds"
 								portrait_texture = "[Character.GetPortrait('default', 'looking_left')]"

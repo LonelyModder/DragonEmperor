@@ -63,6 +63,11 @@
  gobrock:0 "Riekling"
  riekling_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  riekling_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Riekling
+ eastgoblin:2 "Ket"
+ hyuket:0 "Hyu-Ket"
+ eastgoblin_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ eastgoblin_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Bosmer
  bosmer:2 "Bosmer"
  bosiliacite:0 "Iliacite"
@@ -217,6 +222,7 @@
  dworgothic:0 "Worgothi"
  dskyrimic:0 "Merethi"
  dvardenan:0 "Vardenite"
+ noraken:0 "Noraken"
  dwemer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  dwemer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Kothri
@@ -225,6 +231,8 @@
  nedorma:0 "Orma"
  nedkothringi:0 "Kothringi"
  nedyaspest:0 "Yaspest"
+ quey:0 "Quey"
+ yensa:0 "Yensan"
  kothri_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  kothri_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Lilmothiit
@@ -245,12 +253,24 @@
  antean:0 "Antean"
  moarmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  moarmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Lizardbull
  lizardbull:2 "Nissawi"
  xatharu:0 "Xu-Vutha"
  xuatar:0 "Xu-Atar"
  xinethar:0 "Xi-Nethar"
  lizardbull_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  lizardbull_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Tsaesci
+ tsaesci:2 "Tsaesci"
+ tislander:0 "Islander"
+ tsaesci_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ tsaesci_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Echmer
+ echmer:2 "Echmer"
+ yneic:0 "Yneic"
+ slean:0 "Slean"
+ echmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ echmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Heresy
  venedi:2 "Aedric"
  wvenedi:0 "Heresy"

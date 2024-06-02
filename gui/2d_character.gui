@@ -99,6 +99,56 @@ types MoreBGsTypes {
 				#block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
 				block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
 			}
+			#Tsaesci
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_tsaesci_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				#block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
+				block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_tsaesci_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				#block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
+				block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
+			#Echmer
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_echmer_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				#block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_male.dds" }
+				block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_echmer_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				#block "PortraitTexture" { portrait_texture = "gfx/portraits/altmer_female.dds" }
+				block "PortraitTexture" { portrait_texture = "[Character.GetPortrait('default', 'default')]" }
+			}
 			#Moarmer
 			portrait_button = {
 				datacontext = "[GetScriptedGui('is_an_moarmer_male')]"
@@ -759,6 +809,32 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				#texture = "gfx/portraits/altmer_female.dds"
 			}
+			#Tsaesci
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_tsaesci_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_tsaesci_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_female.dds"
+			}
+			#Echmer
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_echmer_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_echmer_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_female.dds"
+			}
 			#Moarmer
 			icon = {
 				size = { 100% 100% }
@@ -1016,6 +1092,32 @@ types MoreBGsTypes {
 			icon = {
 				size = { 100% 100% }
 				datacontext = "[GetScriptedGui('is_an_altmer_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_female.dds"
+			}
+			#Tsaesci
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_tsaesci_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_tsaesci_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_female.dds"
+			}
+			#Echmer
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_echmer_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				#texture = "gfx/portraits/altmer_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_echmer_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				#texture = "gfx/portraits/altmer_female.dds"
 			}

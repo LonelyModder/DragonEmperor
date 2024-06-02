@@ -313,6 +313,13 @@ treasure_manager = {
 				local_cohort_start_experience = 0.2
 			}
 		}
+		45 = { # J'uondo
+			key = "treasure_dwemerbells"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_research_points_modifier = 0.2
+			}
+		}
     }
 }
 family={
@@ -627,8 +634,14 @@ provinces = { #Any entry must contain a comment with city name.
 	7442 = { # Fruthuul
 		treasure_slots = { 	treasures = { 44 } }
 	}
+	7736 = { # J'uondo
+		treasure_slots = { 	treasures = { 45 } }
+	}
 	
 	#Pirates
+	7746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7764 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7699 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7444 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7275 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -793,10 +806,49 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 		port_building = 2
 	}
+	7699 = {
+		port_building = 2
+	}
+	7685 = {
+		port_building = 2
+	}
+	7764 = {
+		port_building = 1
+	}
+	7714 = {
+		port_building = 1
+	}
+	7724 = {
+		port_building = 1
+	}
+	7789 = {
+		port_building = 1
+	}
+	7788 = {
+		port_building = 1
+	}
+	7777 = {
+		port_building = 1
+	}
+	7814 = {
+		port_building = 1
+	}
+	7709 = {
+		port_building = 1
+	}
+	7746 = {
+		port_building = 1
+	}
+	7756 = {
+		port_building = 1
+	}
 	7168 = {
 		port_building = 1
 	}
 	7242 = {
+		port_building = 1
+	}
+	7695 = {
 		port_building = 1
 	}
 	7473 = {
@@ -1429,6 +1481,30 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Passes
+	7790 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7807 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7727 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7750 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7744 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7735 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	7732 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
+	5070 = { 
+		modifier = { modifier = lesser_pass_modifier always = yes } 
+	}
 	7442 = { 
 		modifier = { modifier = lesser_pass_modifier always = yes } 
 	}
@@ -2750,6 +2826,21 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	7679 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7681 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7673 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7668 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	7674 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	7402 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -9692,6 +9783,274 @@ country = {
 			
 			own_control_core = 	{ 
 				7428 7431 7427
+			}
+		}
+		
+		OAA= {          
+			government = despotic_monarchy
+			primary_culture = tislander
+			religion = tsaesci_pantheon
+			capital = 7699
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7699 7700
+			}
+		}
+		
+		OAB= {          
+			government = oligarchic_republic
+			primary_culture = noraken
+			religion = nirnic_pantheon
+			capital = 7685
+			
+			technology={
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7685 7686 
+			}
+		}
+		
+		OAC= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7763
+			
+			own_control_core = 	{ 
+				7763 7764 7765 
+			}
+		}
+		
+		OAD= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7684
+			
+			own_control_core = 	{ 
+				7684 7683
+			}
+		}
+		
+		OAE= {          
+			government = tribal_kingdom
+			primary_culture = yensa
+			religion = nedic_pantheon
+			capital = 7696
+			
+			own_control_core = 	{ 
+				7690 7694 7695 7696 7697 7698
+			}
+		}
+		
+		OAF= {          
+			government = tribal_kingdom
+			primary_culture = yensa
+			religion = nedic_pantheon
+			capital = 7704
+			
+			own_control_core = 	{ 
+				7704 7705 7706 7703 7702 7701
+			}
+		}
+		
+		OAG= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7766
+			
+			own_control_core = 	{ 
+				7766 7770 7769 7767 7768
+			}
+		}
+		
+		OAH= {          
+			government = oligarchic_republic
+			primary_culture = yneic
+			religion = nirnic_pantheon
+			capital = 7736
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7736 7740 7739 7738 7737 7734 7714 7717 7721
+				7708 7710 7711 7707 7709 7713 7712 7716 7715 
+				7720 7718
+			}
+		}
+		
+		OAI= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 7688
+			
+			own_control_core = 	{ 
+				7688 7687 7689
+			}
+		}
+		
+		OAJ= {          
+			government = oligarchic_republic
+			primary_culture = yneic
+			religion = nirnic_pantheon
+			capital = 7746
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7746 7747 7743 7733 7735 7732 7731 7741 7742 7744 7745 
+				7748 7729 7728 7719 7730 7727 7722 7723 7726 7725 7724
+			}
+		}
+		
+		OAK= {          
+			government = oligarchic_republic
+			primary_culture = yneic
+			religion = nirnic_pantheon
+			capital = 7756
+			
+			technology={
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7756 7749 7755 7750 7751 7752 7753 7754 7757 7758 7759
+				7760 7761 7762
+			}
+		}
+		
+		OAL= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7790
+			
+			
+			own_control_core = 	{ 
+				7790 7789 7787 7785 7793 7794
+			}
+		}
+		
+		OAM= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7772
+			
+			
+			own_control_core = 	{ 
+				7772 7773 7771 7774 7775
+			}
+		}
+		
+		OAN= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7779
+			
+			
+			own_control_core = 	{ 
+				7779 7781 7776 7777 7778
+			}
+		}
+		
+		OAO= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7782
+			
+			
+			own_control_core = 	{ 
+				7782 7780 7783 7784
+			}
+		}
+		
+		OAP= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7786
+			
+			
+			own_control_core = 	{ 
+				7786 7788
+			}
+		}
+		
+		OAR= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7796
+			
+			
+			own_control_core = 	{ 
+				7796 7795 7797 7798 7809
+			}
+		}
+		
+		OAS= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7800
+			
+			
+			own_control_core = 	{ 
+				7800 7802 7801 7803 7804 7805
+			}
+		}
+		
+		OAT= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7813
+			
+			
+			own_control_core = 	{ 
+				7813 7811 7812 7810 7814 7815 7816
+			}
+		}
+		
+		OAU= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7799
+			
+			
+			own_control_core = 	{ 
+				7799 7792 7791 7806 7808 7807
 			}
 		}
 	}

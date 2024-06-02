@@ -2690,36 +2690,36 @@ gw_effect_pillar_of_thras = {
 			great_work_effect_tier = gw_effect_tier_1
 		
 			country_modifier = {
-				lv_mages_offensive = 0.05
+				lv_undead_offensive = 0.05
 				omen_power = 0.05
-				lv_mages_discipline = 0.05
+				lv_bonelord_offensive = 0.05
 			}
 		}
 		gw_effect_pillar_of_thras_tier_2 = {
 			great_work_effect_tier = gw_effect_tier_2
 		
 			country_modifier = {
-				lv_mages_offensive = 0.1
+				lv_undead_offensive = 0.1
 				omen_power = 0.1
-				lv_mages_discipline = 0.1
+				lv_bonelord_offensive = 0.1
 			}
 		}
 		gw_effect_pillar_of_thras_tier_3 = {
 			great_work_effect_tier = gw_effect_tier_3
 		
 			country_modifier = {
-				lv_mages_offensive = 0.15
+				lv_undead_offensive = 0.15
 				omen_power = 0.15
-				lv_mages_discipline = 0.15
+				lv_bonelord_offensive = 0.15
 			}
 		}
 		gw_effect_pillar_of_thras_tier_4 = {
 			great_work_effect_tier = gw_effect_tier_4
 		
 			country_modifier = {
-				lv_mages_offensive = 0.2
+				lv_undead_offensive = 0.2
 				omen_power = 0.2
-				lv_mages_discipline = 0.2
+				lv_bonelord_offensive = 0.2
 			}
 		}
 	}
