@@ -753,15 +753,18 @@
 	culture="yneic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	citizen={
+	province_rank="city"
+	nobles={
 		amount=1
+	}
+	citizen={
+		amount=4
 	}	
 	freemen={
-		amount=3
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
@@ -1682,10 +1685,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1815,10 +1818,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1872,10 +1875,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -1948,10 +1951,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -2022,15 +2025,18 @@
 	culture="slean"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=1
+		amount=8
 	}	
 	freemen={
-		amount=3
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 }
 
@@ -2138,10 +2144,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -2195,10 +2201,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -2214,10 +2220,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1
@@ -2461,10 +2467,10 @@
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
-		amount=1
+		amount=2
 	}	
 	freemen={
-		amount=3
+		amount=5
 	}
 	slaves={
 		amount=1

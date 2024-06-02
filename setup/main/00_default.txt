@@ -808,6 +808,21 @@ provinces = { #Any entry must contain a comment with city name.
 	7714 = {
 		port_building = 1
 	}
+	7724 = {
+		port_building = 1
+	}
+	7789 = {
+		port_building = 1
+	}
+	7788 = {
+		port_building = 1
+	}
+	7777 = {
+		port_building = 1
+	}
+	7814 = {
+		port_building = 1
+	}
 	7709 = {
 		port_building = 1
 	}
@@ -9897,7 +9912,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7746
+				7746 7747 7743 7733 7735 7732 7731 7741 7742 7744 7745 
+				7748 7729 7728 7719 7730 7727 7722 7723 7726 7725 7724
 			}
 		}
 		
@@ -9915,7 +9931,116 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7756
+				7756 7749 7755 7750 7751 7752 7753 7754 7757 7758 7759
+				7760 7761 7762
+			}
+		}
+		
+		OAL= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7790
+			
+			
+			own_control_core = 	{ 
+				7790 7789 7787 7785 7793 7794
+			}
+		}
+		
+		OAM= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7772
+			
+			
+			own_control_core = 	{ 
+				7772 7773 7771 7774 7775
+			}
+		}
+		
+		OAN= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7779
+			
+			
+			own_control_core = 	{ 
+				7779 7781 7776 7777 7778
+			}
+		}
+		
+		OAO= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7782
+			
+			
+			own_control_core = 	{ 
+				7782 7780 7783 7784
+			}
+		}
+		
+		OAP= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7786
+			
+			
+			own_control_core = 	{ 
+				7786 7788
+			}
+		}
+		
+		OAR= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7796
+			
+			
+			own_control_core = 	{ 
+				7796 7795 7797 7798 7809
+			}
+		}
+		
+		OAS= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7800
+			
+			
+			own_control_core = 	{ 
+				7800 7802 7801 7803 7804 7805
+			}
+		}
+		
+		OAT= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7813
+			
+			
+			own_control_core = 	{ 
+				7813 7811 7812 7810 7814 7815 7816
+			}
+		}
+		
+		OAU= {          
+			government = despotic_monarchy
+			primary_culture = slean
+			religion = nirnic_pantheon
+			capital = 7799
+			
+			
+			own_control_core = 	{ 
+				7799 7792 7791 7806 7808 7807
 			}
 		}
 	}
