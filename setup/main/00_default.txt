@@ -313,6 +313,13 @@ treasure_manager = {
 				local_cohort_start_experience = 0.2
 			}
 		}
+		45 = { # J'uondo
+			key = "treasure_dwemerbells"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_research_points_modifier = 0.2
+			}
+		}
     }
 }
 family={
@@ -626,6 +633,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7442 = { # Fruthuul
 		treasure_slots = { 	treasures = { 44 } }
+	}
+	7736 = { # J'uondo
+		treasure_slots = { 	treasures = { 45 } }
 	}
 	
 	#Pirates
@@ -9801,10 +9811,10 @@ country = {
 			capital = 7685
 			
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+				military_tech={ level=4 progress=0 }
+				civic_tech={ level=4 progress=0 }
+				oratory_tech={ level=4 progress=0 }
+				religious_tech= { level=4 progress=0  }
 			}
 			
 			own_control_core = 	{ 
@@ -9868,7 +9878,7 @@ country = {
 		}
 		
 		OAH= {          
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = yneic
 			religion = nirnic_pantheon
 			capital = 7736
@@ -9899,7 +9909,7 @@ country = {
 		}
 		
 		OAJ= {          
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = yneic
 			religion = nirnic_pantheon
 			capital = 7746
@@ -9918,7 +9928,7 @@ country = {
 		}
 		
 		OAK= {          
-			government = despotic_monarchy
+			government = oligarchic_republic
 			primary_culture = yneic
 			religion = nirnic_pantheon
 			capital = 7756

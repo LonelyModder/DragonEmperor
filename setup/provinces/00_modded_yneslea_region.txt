@@ -2,7 +2,7 @@
 
 7683={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -103,7 +103,7 @@
 
 7688={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -144,7 +144,7 @@
 
 7690={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="wild_game"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -182,7 +182,7 @@
 
 7695={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -201,7 +201,7 @@
 
 7696={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -242,7 +242,7 @@
 
 7698={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -302,7 +302,7 @@
 
 7701={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="salt"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -359,7 +359,7 @@
 
 7704={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="yensa"
 	civilization_value=0
@@ -457,7 +457,7 @@
 
 7709={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="coconut"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -479,7 +479,7 @@
 
 7710={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -517,7 +517,7 @@
 
 7712={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -536,7 +536,7 @@
 
 7713={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -577,7 +577,7 @@
 
 7715={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -615,7 +615,7 @@
 
 7717={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="tea"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -634,7 +634,7 @@
 
 7718={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -672,7 +672,7 @@
 
 7720={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -691,7 +691,7 @@
 
 7721={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="spices"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -710,7 +710,7 @@
 
 7722={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="amber"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -748,7 +748,7 @@
 
 7724={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -827,7 +827,7 @@
 
 7728={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -865,7 +865,7 @@
 
 7730={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="limestone"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -903,7 +903,7 @@
 
 7732={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -922,7 +922,7 @@
 
 7733={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="spices"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -979,7 +979,7 @@
 
 7736={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="earthware"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -997,6 +997,7 @@
 	slaves={
 		amount=7
 	}
+	holy_site="omen_songofcreation"
 }
 
 7737={ 
@@ -1115,7 +1116,7 @@
 
 7743={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="spices"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1134,7 +1135,7 @@
 
 7744={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1153,7 +1154,7 @@
 
 7745={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1251,7 +1252,7 @@
 
 7750={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="limestone"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1308,7 +1309,7 @@
 
 7753={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1346,7 +1347,7 @@
 
 7755={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fur"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1365,7 +1366,7 @@
 
 7756={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="earthware"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1387,7 +1388,7 @@
 
 7757={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1406,7 +1407,7 @@
 
 7758={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1482,7 +1483,7 @@
 
 7762={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="malachite"
 	religion="nirnic_pantheon"
 	culture="yneic"
 	civilization_value=0
@@ -1501,7 +1502,7 @@
 
 7763={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="coconut"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -1523,7 +1524,7 @@
 
 7764={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -1561,7 +1562,7 @@
 
 7766={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="durzogs"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -1602,7 +1603,7 @@
 
 7768={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="goblin_pantheon"
 	culture="hyuket"
 	civilization_value=0
@@ -1697,7 +1698,7 @@
 
 7773={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1735,7 +1736,7 @@
 
 7775={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1754,7 +1755,7 @@
 
 7776={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="coconut"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1773,7 +1774,7 @@
 
 7777={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1811,7 +1812,7 @@
 
 7779={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fruitsoftheforest"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1868,7 +1869,7 @@
 
 7782={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="honey"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1887,7 +1888,7 @@
 
 7783={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="amber"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1906,7 +1907,7 @@
 
 7784={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -1944,7 +1945,7 @@
 
 7786={ 
 	terrain="jungle"
-	trade_goods="wood"
+	trade_goods="leather"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2001,7 +2002,7 @@
 
 7789={ 
 	terrain="farmland"
-	trade_goods="saltrice"
+	trade_goods="spices"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2061,7 +2062,7 @@
 
 7792={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fur"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2118,7 +2119,7 @@
 
 7795={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2156,7 +2157,7 @@
 
 7797={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="salt"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2194,7 +2195,7 @@
 
 7799={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="iron"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2213,7 +2214,7 @@
 
 7800={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fur"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2289,7 +2290,7 @@
 
 7804={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="iron"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2327,7 +2328,7 @@
 
 7806={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2346,7 +2347,7 @@
 
 7807={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2403,7 +2404,7 @@
 
 7810={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="limestone"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2460,7 +2461,7 @@
 
 7813={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="stone"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0
@@ -2479,7 +2480,7 @@
 
 7814={ 
 	terrain="hills"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nirnic_pantheon"
 	culture="slean"
 	civilization_value=0

@@ -76,6 +76,40 @@ deity_compulsoryeducation = {
 	}
 }
 
+deity_songofcreation = {
+	trigger = {
+		religion = nirnic_pantheon
+		country_culture_group = echmer
+	}
+	icon = deity_songofcreation
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
+	omen = { research_points_modifier = omen_research_points_modifier_svalue } #Bonus from Omen
+	religion = nirnic_pantheon
+	deity_category = culture #This Deity uses a Culture Slot'
+	on_activate = {
+		add_research = {
+			technology = civic_tech
+			value = 5
+		}
+		add_research = {
+			technology = oratory_tech
+			value = 5
+		}
+		add_research = {
+			technology = religious_tech
+			value = 5
+		}
+		add_research = {
+			technology = military_tech
+			value = 5
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
 deity_heartspower = {
 	trigger = {
 		religion = nirnic_pantheon
