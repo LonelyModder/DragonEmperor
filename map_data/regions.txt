@@ -11,6 +11,17 @@ modded_tmp_region = {
 	}
 }
 
+modded_cathnoquey_region = {
+	areas = {
+		ketura_area
+		bampa_area
+		wardensbay_area
+		stormrest_area
+		heptuquey_area
+		shoals_area
+	}
+}
+
 modded_yne_region = {
 	areas = {
 		pavasaga_area
