@@ -8,11 +8,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -27,11 +27,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -46,11 +46,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -65,11 +65,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -78,7 +78,7 @@
 
 7955={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
@@ -88,7 +88,10 @@
 		amount=1
 	}	
 	freemen={
-		amount=3
+		amount=1
+	}	
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -97,17 +100,17 @@
 
 7956={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -122,11 +125,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -135,17 +138,17 @@
 
 7958={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="amber"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -154,17 +157,17 @@
 
 7959={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -173,7 +176,7 @@
 
 7960={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
@@ -181,9 +184,12 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
-	}	
+	}
 	freemen={
-		amount=3
+		amount=1
+	}	
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -198,11 +204,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -217,11 +223,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -230,17 +236,17 @@
 
 7963={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="leather"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -255,11 +261,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -274,11 +280,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -287,7 +293,7 @@
 
 7966={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
@@ -295,9 +301,12 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
-	}	
+	}
 	freemen={
-		amount=3
+		amount=1
+	}	
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -306,17 +315,17 @@
 
 7967={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -331,11 +340,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -350,11 +359,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -363,17 +372,17 @@
 
 7970={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="salt"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -388,11 +397,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -401,7 +410,7 @@
 
 7972={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
@@ -409,9 +418,12 @@
 	province_rank="settlement"
 	citizen={
 		amount=1
-	}	
+	}
 	freemen={
-		amount=3
+		amount=1
+	}	
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -426,11 +438,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -439,17 +451,17 @@
 
 7974={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -464,11 +476,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -477,17 +489,17 @@
 
 7976={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="coconut"
 	religion="nedic_pantheon"
 	culture="kthquey"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -496,7 +508,7 @@
 
 7977={ 
 	terrain="farmland"
-	trade_goods="wild_game"
+	trade_goods="saltrice"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -534,26 +546,26 @@
 
 7979={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=3
 	}	
 	freemen={
-		amount=3
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7980={ 
 	terrain="farmland"
-	trade_goods="wild_game"
+	trade_goods="saltrice"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -577,21 +589,21 @@
 	culture="quey"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=3
 	}	
 	freemen={
-		amount=3
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7982={ 
 	terrain="forest"
-	trade_goods="wild_game"
+	trade_goods="wood"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -610,7 +622,7 @@
 
 7983={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="limestone"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -705,7 +717,7 @@
 
 7988={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -724,26 +736,26 @@
 
 7989={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="amber"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
 	citizen={
-		amount=1
+		amount=3
 	}	
 	freemen={
-		amount=3
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
 7990={ 
 	terrain="farmland"
-	trade_goods="wild_game"
+	trade_goods="saltrice"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -781,7 +793,7 @@
 
 7992={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="iron"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -819,7 +831,7 @@
 
 7994={ 
 	terrain="mountain"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -876,20 +888,23 @@
 
 7997={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="amber"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
+	province_rank="city"
+	nobles={
+		amount=2
+	}
 	citizen={
-		amount=1
+		amount=8
 	}	
 	freemen={
-		amount=3
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=6
 	}
 	holy_site="omen_magnus"
 }
@@ -915,7 +930,7 @@
 
 7999={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="guar"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -953,7 +968,7 @@
 
 8001={ 
 	terrain="farmland"
-	trade_goods="wild_game"
+	trade_goods="saltrice"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -991,7 +1006,7 @@
 
 8003={ 
 	terrain="ashlands"
-	trade_goods="wild_game"
+	trade_goods="kwamaegg"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -1010,7 +1025,7 @@
 
 8004={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="fish"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -1029,7 +1044,7 @@
 
 8005={ 
 	terrain="plains"
-	trade_goods="wild_game"
+	trade_goods="leather"
 	religion="elven_pantheon"
 	culture="quey"
 	civilization_value=0
@@ -1058,7 +1073,7 @@
 		amount=1
 	}	
 	freemen={
-		amount=3
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1067,17 +1082,20 @@
 
 8007={ 
 	terrain="forest"
-	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="quey"
+	trade_goods="fish"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	citizen={
 		amount=1
-	}	
+	}
 	freemen={
-		amount=3
+		amount=1
+	}	
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1086,17 +1104,17 @@
 
 8008={ 
 	terrain="forest"
-	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="quey"
+	trade_goods="wood"
+	religion="goblin_pantheon"
+	culture="hyuket"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}	
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
