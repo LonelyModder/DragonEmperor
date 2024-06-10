@@ -10053,6 +10053,26 @@ country = {
 				7799 7792 7791 7806 7808 7807
 			}
 		}
+		
+		OAW= {          
+			government = oligarchic_republic
+			primary_culture = quey
+			religion = elven_pantheon
+			capital = 7997
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7980 7981 7993 7994 7992 7997 7998 7999 7991 7983
+				8003 8006 8004 8000 8007 8008 8005 8002 8001 7990 7995 7996
+				7977 7978 7979 7982 7984 7986 7988 7989 7987 7985
+			}
+		}
 	}
 }
 
