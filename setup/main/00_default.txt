@@ -320,6 +320,13 @@ treasure_manager = {
 				local_research_points_modifier = 0.2
 			}
 		}
+		46 = { # Ponotau
+			key = "treasure_magnusvisions"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_unrest = -0.1
+			}
+		}
     }
 }
 family={
@@ -636,6 +643,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7736 = { # J'uondo
 		treasure_slots = { 	treasures = { 45 } }
+	}
+	7997 = { # Ponotau
+		treasure_slots = { 	treasures = { 46 } }
 	}
 	
 	#Pirates
