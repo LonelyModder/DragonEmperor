@@ -320,6 +320,13 @@ treasure_manager = {
 				local_research_points_modifier = 0.2
 			}
 		}
+		46 = { # Ponotau
+			key = "treasure_magnusvisions"
+			icon = "treasure_chest"
+			state_modifier = {
+				local_unrest = -0.1
+			}
+		}
     }
 }
 family={
@@ -637,8 +644,13 @@ provinces = { #Any entry must contain a comment with city name.
 	7736 = { # J'uondo
 		treasure_slots = { 	treasures = { 45 } }
 	}
+	7997 = { # Ponotau
+		treasure_slots = { 	treasures = { 46 } }
+	}
 	
 	#Pirates
+	7959 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	8007 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7764 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7699 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -813,6 +825,27 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	7764 = {
+		port_building = 1
+	}
+	7997 = {
+		port_building = 2
+	}
+	7979 = {
+		port_building = 2
+	}
+	7973 = {
+		port_building = 1
+	}
+	8007 = {
+		port_building = 1
+	}
+	7959 = {
+		port_building = 1
+	}
+	7955 = {
+		port_building = 1
+	}
+	7767= {
 		port_building = 1
 	}
 	7714 = {
@@ -2826,6 +2859,9 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	7950 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	7679 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -10051,6 +10087,86 @@ country = {
 			
 			own_control_core = 	{ 
 				7799 7792 7791 7806 7808 7807
+			}
+		}
+		
+		OAW= {          
+			government = oligarchic_republic
+			primary_culture = quey
+			religion = elven_pantheon
+			capital = 7997
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				7980 7981 7993 7994 7992 7997 7998 7999 7991 7983
+				8003 8006 8004 8000 8005 8002 8001 7990 7995 7996
+				7977 7978 7979 7982 7984 7986 7988 7989 7987 7985
+			}
+		}
+		
+		OAY= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 8007
+			
+			
+			own_control_core = 	{ 
+				8007 8008
+			}
+		}
+		
+		OAZ= {          
+			government = tribal_kingdom
+			primary_culture = kthquey
+			religion = nedic_pantheon
+			capital = 7972
+			
+			
+			own_control_core = 	{ 
+				7972 7973 7974 7975 7976 7971
+			}
+		}
+		
+		OBA= {          
+			government = tribal_kingdom
+			primary_culture = kthquey
+			religion = nedic_pantheon
+			capital = 7966
+			
+			
+			own_control_core = 	{ 
+				7966 7968 7967 7965 7964 7970 7969
+			}
+		}
+		
+		OBB= {          
+			government = tribal_kingdom
+			primary_culture = kthquey
+			religion = nedic_pantheon
+			capital = 7960
+			
+			
+			own_control_core = 	{ 
+				7957 7958 7959 7960 7961 7962 7963
+			}
+		}
+		
+		OBC= {          
+			government = tribal_kingdom
+			primary_culture = kthquey
+			religion = nedic_pantheon
+			capital = 7955
+			
+			
+			own_control_core = 	{ 
+				7955 7954 7956 7952 7942 7953
 			}
 		}
 	}

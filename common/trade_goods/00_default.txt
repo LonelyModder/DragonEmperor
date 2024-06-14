@@ -571,6 +571,21 @@ durzogs = { #Added
 	color = rgb { 137 114 143 }
 }
 
+wasabi = { #23 territories
+	category = 5
+	
+	gold = 0.5
+	
+	province = {
+		local_citizen_happyness = happiness_small_svalue
+	}
+	country = {
+		global_nobles_output = output_small_svalue
+	}
+	
+	color = rgb { 124 207 76 }
+}
+
 skooma = { #Added
 	category = 3
 	gold = 0.5
