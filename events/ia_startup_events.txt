@@ -264,6 +264,7 @@ esfa_startup.16 = { #Chimer
 	
     trigger = {
     	country_culture_group = chimer
+		NOT = {primary_culture = quey}
     }
 
     option = {    
@@ -398,5 +399,20 @@ esfa_startup.24 = { #Echmer
 
     option = {    
         name = esfa_startup.24.a
+    }
+}
+
+esfa_startup.25 = { #Quey
+	type = country_event
+    title = esfa_startup.25.t
+    desc = esfa_startup.25.desc
+    picture = welcoming_window_25
+	
+    trigger = {
+    	primary_culture = quey
+    }
+
+    option = {    
+        name = esfa_startup.25.a
     }
 }
