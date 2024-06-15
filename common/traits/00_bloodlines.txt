@@ -150,7 +150,7 @@ tor = {
 	}
 	
 	province = {
-		local_commerce_modifier = 0.1
+		local_goods_from_slaves = -0.1
 	}
 	
 	unit = {
