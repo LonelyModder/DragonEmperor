@@ -571,6 +571,29 @@ types MultiplayerLobby
 						portrait_texture = "gfx/portraits/argonian_female.dds"
 						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
 					}
+					#Jotnar
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(Not(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale), EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'jotnar'))]"
+						portrait_texture = "gfx/portraits/jotnar_male.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
+					portrait_button = {
+						size = { 100 160 }
+						position = { 4 36 }
+						using = pt_button_large
+						pop_out = yes
+						tooltipwidget = Character_tooltip
+						datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]"
+						visible = "[And(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.IsFemale, EqualTo_string(LobbyView.GetSelectedPlayable.GetCountry.GetRuler.GetCulture.GetCultureGroup.GetKey, 'jotnar'))]"
+						portrait_texture = "gfx/portraits/jotnar_female.dds"
+						blockoverride "Context" { datacontext = "[LobbyView.GetSelectedPlayable.GetCountry.GetRuler]" }
+					}
 					#Reachmen
 					portrait_button = {
 						size = { 100 160 }

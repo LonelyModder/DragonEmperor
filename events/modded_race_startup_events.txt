@@ -41,6 +41,7 @@ race_startup.2 = {
 					NOT = { has_trait = minotaur }
 					NOT = { has_trait = khajiit }
 					NOT = { has_trait = argonian }
+					NOT = { has_trait = jotnar }
 					NOT = { has_trait = imga }
 					NOT = { has_trait = nord }
 					NOT = { has_trait = redguard }
@@ -199,6 +200,14 @@ race_startup.2 = {
 						}
 					}
 					add_trait = argonian
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = jotnar
+					}
+					add_trait = jotnar
 					remove_trait = pure
 					remove_trait = impure
 				}

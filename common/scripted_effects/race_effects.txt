@@ -19,6 +19,7 @@
 			NOT = { has_trait = minotaur }
 			NOT = { has_trait = khajiit }
 			NOT = { has_trait = argonian }
+			NOT = { has_trait = jotnar }
 			NOT = { has_trait = imga }
 			NOT = { has_trait = nord }
 			NOT = { has_trait = redguard }
@@ -145,6 +146,12 @@
 				}
 			}
 			add_trait = argonian
+		}
+		else_if = {
+			limit = {
+				has_culture_group = jotnar
+			}
+			add_trait = jotnar
 		}
 		else_if = {
 			limit = {

@@ -249,6 +249,17 @@ levy_nordic = { #nordic militia
 	lv_raiders = 0.2
 }
 
+#Jotnar
+
+levy_jotnar = { #jotnar militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_heavyinfantry = 0.2
+	lv_archers = 0.1
+	lv_raiders = 0.2
+}
+
 #Breton
 
 levy_bretonic = { #bretonic militia

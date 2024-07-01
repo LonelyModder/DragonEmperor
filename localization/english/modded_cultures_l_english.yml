@@ -168,6 +168,11 @@
  gaimga:0 "Imgan"
  imga_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  imga_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Jotnar
+ jotnar:2 "Jotnar"
+ atjotnar:0 "Jotnar"
+ jotnar_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ jotnar_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Nordic
  nordic:2 "Nordic"
  nighthollow:0 "Nighthollow"
@@ -216,6 +221,7 @@
  falmer:2 "Falmer"
  falwestern:0 "Worgothi"
  falmerethi:0 "Merethi"
+ falatmoran:0 "Altmoran"
  falmer_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  falmer_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Dwemer

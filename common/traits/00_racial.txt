@@ -98,6 +98,13 @@ argonian = {
 	martial = 4
 }
 
+jotnar = {
+	type = status
+	charisma = -1
+	zeal = 3
+	martial = 3
+}
+
 imga = {
 	type = status
 	charisma = 5

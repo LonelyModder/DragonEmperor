@@ -489,6 +489,29 @@ types MoreBGsTypes {
 				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
 				block "PortraitTexture" { portrait_texture = "gfx/portraits/argonian_female.dds" }
 			}
+			#Jotnar
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_jotnar_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/jotnar_male.dds" }
+			}
+			portrait_button = {
+				datacontext = "[GetScriptedGui('is_an_jotnar_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				using = pt_button
+				parentanchor = top
+				using = tooltip_es_portrait
+				pop_out = no
+				block "Background" { background_texture = "[GetCharacterBackgroundIcon( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "BackgroundTint" { texture = "[GetCharacterBackgroundIconTint( Character.Self, Character.GetLocation.GetTerrain )]" }
+				block "PortraitTexture" { portrait_texture = "gfx/portraits/jotnar_female.dds" }
+			}
 			#Imga
 			portrait_button = {
 				datacontext = "[GetScriptedGui('is_an_imga_male')]"
@@ -1004,6 +1027,19 @@ types MoreBGsTypes {
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/argonian_female.dds"
 			}
+			#Jotnar
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_jotnar_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/jotnar_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_jotnar_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/jotnar_female.dds"
+			}
 			#Imga
 			icon = {
 				size = { 100% 100% }
@@ -1289,6 +1325,19 @@ types MoreBGsTypes {
 				datacontext = "[GetScriptedGui('is_an_argonian_female')]"
 				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
 				texture = "gfx/portraits/argonian_female.dds"
+			}
+			#Jotnar
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_jotnar_male')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/jotnar_male.dds"
+			}
+			icon = {
+				size = { 100% 100% }
+				datacontext = "[GetScriptedGui('is_an_jotnar_female')]"
+				visible = "[ScriptedGui.IsShown( GuiScope.SetRoot( Character.MakeScope ).End )]"
+				texture = "gfx/portraits/jotnar_female.dds"
 			}
 			#Imga
 			icon = {
