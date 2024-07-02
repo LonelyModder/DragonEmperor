@@ -4,7 +4,12 @@
 	
 	allow = {
 		trigger_if = {
-			limit = { country_culture_group = nordic }
+			limit = { 
+				OR = {
+					country_culture_group = nordic
+					country_culture_group = jotnar	
+				} 
+			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}

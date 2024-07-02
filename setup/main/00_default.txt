@@ -649,6 +649,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	8243 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7959 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	8007 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -832,6 +833,9 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7979 = {
 		port_building = 2
+	}
+	8243 = {
+		port_building = 1
 	}
 	7973 = {
 		port_building = 1
@@ -2859,6 +2863,15 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	8117 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	8119 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	8115 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	7950 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -10167,6 +10180,18 @@ country = {
 			
 			own_control_core = 	{ 
 				7955 7954 7956 7952 7942 7953
+			}
+		}
+		
+		TAF= {          
+			government = tribal_kingdom
+			primary_culture = atjotnarw
+			religion = nordicanimism_pantheon
+			capital = 8243
+			
+			
+			own_control_core = 	{ 
+				8239 8240 8241 8242 8243 8244 8245 8246 
 			}
 		}
 	}

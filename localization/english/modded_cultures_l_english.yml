@@ -170,7 +170,8 @@
  imga_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Jotnar
  jotnar:2 "Jotnar"
- atjotnar:0 "Jotnar"
+ atjotnarw:0 "Jylkan"
+ atjotnare:0 "Forelgari"
  jotnar_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  jotnar_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Nordic
