@@ -1,5 +1,5 @@
 ﻿jotnar = {	
-	color = hsv { 0.67 0.93 0.79 }
+	color = hsv { 0.50 0.93 0.48 }
 
 	primary = lv_archers
 	second = lv_warriors
@@ -28,6 +28,7 @@
 	culture = {
 		atjotnarw = {}
 		atjotnare = {}
+		atdanari = {}
 	}
 	
 	barbarian_names = { 
