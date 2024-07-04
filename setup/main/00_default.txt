@@ -3741,7 +3741,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851 790
+				787 788 789 814 816 815 818 817 802 801 809 813 799 808 812 819 820 15 821 851
 				1071 1072 1073 1074 1075 1076 1077 1078 1079 1080 1081 1094 1217 1218 1222 1224 1228 1096 1097
 				1083 1084 1085 1086 1087 1088 1089 1090 1091 1092 1093 1082 1219 1220 1221 1227 1100 1098 1099
 				4577 4578 4579 4580 4581 4582
@@ -6636,50 +6636,6 @@ country = {
 			}
 		}
 		
-		KAS = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 783
-			
-			own_control_core = 	{ 
-				778 779 780 781 782 783 784 785
-			}
-		}
-		
-		KAT = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 777
-			
-			own_control_core = 	{ 
-				777 774 775 776
-			}
-		}
-		
-		KAU = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 792
-			
-			own_control_core = 	{ 
-				792 791 796 795 794 793
-			}
-		}
-		
-		KAW = {          
-			government = tribal_kingdom
-			primary_culture = windkeptu
-			religion = nedic_pantheon
-			capital = 2706
-			
-			own_control_core = 	{ 
-				2706 2707 2708 2670 2713
-			}
-		}
-		
 		KAY = {          
 			government = tribal_kingdom
 			primary_culture = sunkeptu
@@ -6688,17 +6644,6 @@ country = {
 			
 			own_control_core = 	{ 
 				2431 2470 2499 2430
-			}
-		}
-		
-		KAZ = {          
-			government = tribal_kingdom
-			primary_culture = nedkeptu
-			religion = nedic_pantheon
-			capital = 2659
-			
-			own_control_core = 	{ 
-				2659 2718 2717
 			}
 		}
 		
@@ -6841,7 +6786,7 @@ country = {
 			capital = 2373
 			
 			own_control_core = 	{ 
-				2373 2372 786 2374
+				2373 2372 2374
 			}
 		}
 		
@@ -8242,7 +8187,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5737 5743 5744 5745 5746
+				5743 5744 5745 5746
 			}
 		}
 		
@@ -9336,24 +9281,6 @@ country = {
 			}
 		}
 		
-		TAB = {
-			government = despotic_monarchy
-			primary_culture = thrasians
-			religion = deadric_pantheon
-			capital = 6686
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				6687 6686
-			}
-		}
-		
 		TAC = {
 			government = despotic_monarchy
 			primary_culture = thrasians
@@ -9387,24 +9314,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6697 6698 6699 6700
-			}
-		}
-		
-		TAE = {
-			government = despotic_monarchy
-			primary_culture = seas
-			religion = deadric_pantheon
-			capital = 5740
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				5738 5739 5740 5741 5742
 			}
 		}
 		
@@ -9531,17 +9440,6 @@ country = {
 			own_control_core = 	{ 
 				7268 7271 7272 7273 7274 7267 7266 7265 7269 7270 7276 7275
 				7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 7287 7288
-			}
-		}
-		
-		RAF= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7081
-			
-			own_control_core = 	{ 
-				7081 7082
 			}
 		}
 		
