@@ -7,7 +7,7 @@ deity_moonmistress = {
 		religion = lilmothit_pantheon
 	}
 	icon = deity_azura
-	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	passive_modifier = { global_population_capacity_modifier = deity_global_population_capacity_modifier_svalue }
 	omen = { global_population_growth = omen_global_population_growth } 
 	religion = lilmothit_pantheon
 	deity_category = fertility  

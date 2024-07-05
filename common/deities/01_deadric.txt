@@ -537,7 +537,7 @@ deity_vermina = {
 		}
 	}
 	icon = deity_vermina
-	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	passive_modifier = { global_monthly_state_loyalty = deity_global_monthly_state_loyalty_svalue }
 	omen = { monthly_corruption = omen_monthly_corruption } #Bonus from Omen
 	religion = deadric_pantheon
 	deity_category = culture #This Deity uses a culture slot.

@@ -15,7 +15,7 @@ deity_akha = {
 		}
 	}
 	icon = deity_akha
-	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	passive_modifier = { global_pop_conversion_speed_modifier = deity_global_pop_conversion_speed_modifier_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = khajiiti_pantheon
 	deity_category = culture 

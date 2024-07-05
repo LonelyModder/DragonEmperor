@@ -27,9 +27,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -106,9 +103,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -738,9 +732,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -896,9 +887,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -5566,33 +5554,27 @@
 4282={ 
 	terrain="forest"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="falmerethi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
-		amount=1
-	}
-	citizen={
-		amount=6
-	}
+	province_rank="settlement"
 	freemen={
-		amount=5
+		amount=1
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 
 4283={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="falmerethi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5610,8 +5592,8 @@
 4284={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="falmerethi"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

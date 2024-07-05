@@ -674,7 +674,6 @@ provinces = { #Any entry must contain a comment with city name.
 	4881 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	4054 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	4565 = { modifier = { modifier = pirate_haven_modifier always = yes } }
-	4282 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	4037 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3368 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	3362 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -1161,9 +1160,6 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	5425 = {
-		port_building = 2
-	}
-	4282 = {
 		port_building = 2
 	}
 	4037 = {
@@ -7288,28 +7284,6 @@ country = {
 			}
 		}
 		
-		SBJ = { 
-			government = tribal_kingdom
-			primary_culture = vertheall
-			religion = allmaker_pantheon
-			capital = 4003
-			
-			own_control_core = 	{ 
-				4003 4001 4002 4030 4007
-			}
-		}
-		
-		SBK = { 
-			government = tribal_kingdom
-			primary_culture = kolbjorn
-			religion = allmaker_pantheon
-			capital = 3999
-			
-			own_control_core = 	{ 
-				3999 4000 3998 4004 4008
-			}
-		}
-		
 		SBL = { 
 			government = oligarchic_republic
 			primary_culture = dskyrimic
@@ -7357,39 +7331,6 @@ country = {
 			}
 		}
 		
-		SBO = {          
-			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4032
-			
-			own_control_core = 	{ 
-				4032 4031
-			}
-		}
-		
-		SBP = {          
-			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4035
-			
-			own_control_core = 	{ 
-				4034 4033 4035
-			}
-		}
-		
-		SBR = {          
-			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4043
-			
-			own_control_core = 	{ 
-				4043 4042 4041 4046
-			}
-		}
-		
 		SBS = {          
 			government = tribal_kingdom
 			primary_culture = gobrock
@@ -7397,7 +7338,7 @@ country = {
 			capital = 4038
 			
 			own_control_core = 	{ 
-				4037 4036 4038 4039 4040
+				4037 4036 4038 4039
 			}
 		}
 		
@@ -7431,24 +7372,6 @@ country = {
 			
 			own_control_core = 	{ 
 				4098 4099 4100
-			}
-		}
-		
-		SBZ = {          
-			government = despotic_monarchy
-			primary_culture = falmerethi
-			religion = elven_pantheon
-			capital = 4282
-			
-			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				4284 4283 4282
 			}
 		}
 		
