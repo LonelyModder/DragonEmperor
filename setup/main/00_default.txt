@@ -5140,9 +5140,7 @@ country = {
 			capital = 2554
 			
 			own_control_core = 	{ 
-				2341 2671 2554 2429 2559 2337 2338 2472 2344 2411 2413 2415 2414 
-				2477 2422 2533 2532 2555 2326 2327 2328 2332 2340 2709 2557 2351
-				2350 2401 2402 2403 2404 2511
+				2341 2671 2554 2429 
 			}
 		}
 		
@@ -5602,13 +5600,13 @@ country = {
 		}
 		
 		VCK = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = windkeptu
 			religion = nedic_pantheon
 			capital = 2558
 			
 			own_control_core = 	{ 
-				2558 2343 2556 2471 2669 2474
+				2558 2343 
 			}
 		}
 		
@@ -6633,46 +6631,13 @@ country = {
 		}
 		
 		KAY = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = sunkeptu
 			religion = nedic_pantheon
 			capital = 2431
 			
 			own_control_core = 	{ 
 				2431 2470 2499 2430
-			}
-		}
-		
-		KBA = {          
-			government = tribal_kingdom
-			primary_culture = windkeptu
-			religion = nedic_pantheon
-			capital = 2661
-			
-			own_control_core = 	{ 
-				2661 2571 2664 2662 2663
-			}
-		}
-		
-		KBB = {          
-			government = tribal_kingdom
-			primary_culture = windkeptu
-			religion = nedic_pantheon
-			capital = 2566
-			
-			own_control_core = 	{ 
-				2566 2567 2549 2548 2666 2342 2714
-			}
-		}
-		
-		KBC = {          
-			government = tribal_kingdom
-			primary_culture = windkeptu
-			religion = nedic_pantheon
-			capital = 2541
-			
-			own_control_core = 	{ 
-				2541 2540 2547
 			}
 		}
 		
@@ -6698,17 +6663,6 @@ country = {
 			}
 		}
 		
-		KBF = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2469
-			
-			own_control_core = 	{ 
-				2469 2448 2466 2454 2467 2456 2468 2465 2565 2564 
-			}
-		}
-		
 		KBG = {          
 			government = tribal_kingdom
 			primary_culture = gobdeathlander
@@ -6717,28 +6671,6 @@ country = {
 			
 			own_control_core = 	{ 
 				2432 2427 2425 2428 2464 2463 2462 2433 2434 2461 
-			}
-		}
-		
-		KBH = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2537
-			
-			own_control_core = 	{ 
-				2537 2426 2502 2503 2512 2536 2538
-			}
-		}
-		
-		KBI = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2546
-			
-			own_control_core = 	{ 
-				 2546 2535 2542 2513 2501 2534 2563
 			}
 		}
 		
@@ -6859,7 +6791,7 @@ country = {
 			capital = 4018
 			
 			own_control_core = 	{ 
-				4018 4023 4022 4021 4016 4017 4019 4024
+				4018 4023 4022 4021 4016 4017 4019 
 			}
 		}
 		
@@ -6870,7 +6802,7 @@ country = {
 			capital = 4015
 			
 			own_control_core = 	{ 
-				4015 4005 4006 4011
+				4015 
 			}
 		}
 		
@@ -6906,24 +6838,6 @@ country = {
 			
 			own_control_core = 	{ 
 				4012
-			}
-		}
-		
-		SAF = {          
-			government = oligarchic_republic
-			primary_culture = dvardenan
-			religion = nirnic_pantheon
-			capital = 4010
-			
-			technology={
-				military_tech={ level=4 progress=0 }
-				civic_tech={ level=4 progress=0 }
-				oratory_tech={ level=4 progress=0 }
-				religious_tech= { level=4 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				4010
 			}
 		}
 		
@@ -7269,18 +7183,7 @@ country = {
 			capital = 4027
 			
 			own_control_core = 	{ 
-				4027 4028 4025 4029
-			}
-		}
-		
-		SBI = { 
-			government = tribal_kingdom
-			primary_culture = gobrock
-			religion = goblin_pantheon
-			capital = 4009
-			
-			own_control_core = 	{ 
-				4009 4014 4020 4013
+				4027 4028 4025
 			}
 		}
 		
@@ -7299,24 +7202,6 @@ country = {
 			
 			own_control_core = 	{ 
 				4225
-			}
-		}
-		
-		SBM = { 
-			government = oligarchic_republic
-			primary_culture = dskyrimic
-			religion = nirnic_pantheon
-			capital = 4026
-			
-			technology={
-				military_tech={ level=4 progress=0 }
-				civic_tech={ level=4 progress=0 }
-				oratory_tech={ level=4 progress=0 }
-				religious_tech= { level=4 progress=0  }
-			}
-			
-			own_control_core = 	{ 
-				4026
 			}
 		}
 		
@@ -7853,7 +7738,7 @@ country = {
 				5585 5598 5599 5499 5664 5665 5698 5697 5671 5663 5507 5476 5475
 				5662 5655 5643 5635 5634 5554 5551 5552 5546 5549 5547 5469 5253 5672
 				5553 5557 5558 5508 5504 5712 5535 5534 5536 5532 5533 5531 5545
-				5537 5538 5540 5539 5510 5505 5506 5509 5548 5496 5497 5498
+				5537 5538 5540 5539 5510 5505 5506 5509 5548 5496 5497 5498 4010 4026
 				5517 5516 5518 5519 5521 5522 5525 5526 5527 5524 5523 5500 5511 5512 5513 5514 5515
 			}
 		}
