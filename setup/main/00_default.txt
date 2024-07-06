@@ -5300,12 +5300,12 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				2441 2442 2440 2443 2444 2438 2439 2445 2447 2446
+				2441 2442 
 			}
 		}
 		
 		VBJ = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = mindeathl
 			religion = nedic_pantheon
 			capital = 2702
@@ -5323,17 +5323,6 @@ country = {
 			
 			own_control_core = 	{ 
 				2185 2221 2453
-			}
-		}
-		
-		VBL = {          
-			government = tribal_kingdom
-			primary_culture = mindeathl
-			religion = nedic_pantheon
-			capital = 2690
-			
-			own_control_core = 	{ 
-				2690 2689 2716 2701
 			}
 		}
 		
@@ -5551,7 +5540,7 @@ country = {
 			capital = 2710
 			
 			own_control_core = 	{ 
-				2710 2526 2680 2478
+				2710 2526 
 			}
 		}
 		
@@ -6663,28 +6652,6 @@ country = {
 			}
 		}
 		
-		KBG = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2432
-			
-			own_control_core = 	{ 
-				2432 2427 2425 2428 2464 2463 2462 2433 2434 2461 
-			}
-		}
-		
-		KBJ = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2360
-			
-			own_control_core = 	{ 
-				 2360 2359 2400 2352 2354 2358
-			}
-		}
-		
 		KBK = {          
 			government = tribal_kingdom
 			primary_culture = gobdeathlander
@@ -6693,17 +6660,6 @@ country = {
 			
 			own_control_core = 	{ 
 				 2347 2345 2346 2348 2349 2353 2355
-			}
-		}
-		
-		KBL = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 2384
-			
-			own_control_core = 	{ 
-				2384 2356 2357 2385 2383 2382 2386
 			}
 		}
 		
@@ -8716,17 +8672,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6049 6048 6047 6046 6045 6044
-			} 
-		}
-		
-		ADD= {          
-			government = tribal_kingdom
-			primary_culture = asarpa
-			religion = hist_pantheon
-			capital = 6064 
-			
-			own_control_core = 	{ 
-				6064 6063 6062 6065 6066 6067
 			} 
 		}
 		

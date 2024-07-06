@@ -3471,8 +3471,8 @@
 2438={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3480,25 +3480,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2439={ 
 	terrain="hills"
 	trade_goods="stone"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3506,25 +3499,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2440={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3532,17 +3518,10 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
@@ -3599,8 +3578,8 @@
 2443={ 
 	terrain="plains"
 	trade_goods="leather"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3608,25 +3587,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2444={ 
 	terrain="plains"
 	trade_goods="dates"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3634,25 +3606,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2445={ 
 	terrain="plains"
 	trade_goods="dates"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3660,25 +3625,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2446={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3686,25 +3644,18 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
 2447={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="deathelves"
+	religion="goblin_pantheon"
+	culture="gobdeathlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3712,17 +3663,10 @@
 		amount=1
 	}
 	tribesmen={
-		amount=3
-		religion="goblin_pantheon"
-		culture="gobdeathlander"
+		amount=4
 	}
 	slaves={
 		amount=1
-	}
-	slaves={
-		amount=2
-		religion="goblin_pantheon"
-		culture="goblinken"
 	}
 }
 
@@ -7909,9 +7853,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
