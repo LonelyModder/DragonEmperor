@@ -694,6 +694,9 @@ provinces = { #Any entry must contain a comment with city name.
 	464 = {
 		fortress_building = 1
 	}
+	7164 = {
+		fortress_building = 1
+	}
 	628 = {
 		fortress_building = 1
 	}
@@ -896,6 +899,7 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 1
 	}
 	7242 = {
+		fortress_building = 1
 		port_building = 1
 	}
 	7695 = {
@@ -917,6 +921,7 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 1
 	}
 	7222 = {
+		fortress_building = 1
 		port_building = 1
 	}
 	7142 = {
@@ -3294,6 +3299,9 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Yokuda
+	7168=7169
+	7169=7164
 	#Pyandonea
 	6477=6478
 	6478=6501
@@ -9116,7 +9124,7 @@ country = {
 				7142 7144 7141 7137 7140 7139 7138 7131 7120 7118 7225 7224 7207 7206
 				7151 7150 7152 7153 7154 7155 7159 7158 7143 7145 7214 7215 7216 7217 7218
 				7156 7157 7160 7161 7162 7166 7167 7165 7229 7231 7230 7232 7233 7254 7253 
-				7164 7163 7175 7173 7172 7171 7170 7169 7168 7174 7222 7223 7221 7220 7219
+				7164 7171 7170 7169 7168 7222 7223 7221 7220 7219
 				7243 7244 7242 7241 7240 7245 7246 7247 7248 7249 7255 7256 7257 7260 7261 
 				7258 7259 7250 7251 7252 7262 7263 7264 7289 7290 7291 7292 7208 7209
 			}
@@ -9237,17 +9245,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7228 7226 7227 7234 7235
-			}
-		}
-		
-		RAK= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7237
-			
-			own_control_core = 	{ 
-				7237 7236 7238 7239
 			}
 		}
 		
@@ -9911,18 +9908,6 @@ country = {
 			
 			own_control_core = 	{ 
 				 8191 8193 8194
-			}
-		}
-		
-		TAK= {          
-			government = tribal_chiefdom
-			primary_culture = atjotnare
-			religion = nordicanimism_pantheon
-			capital = 8164
-			
-			
-			own_control_core = 	{ 
-				 8164 8170 8161
 			}
 		}
 		
