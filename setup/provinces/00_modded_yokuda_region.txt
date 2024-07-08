@@ -84,9 +84,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -220,9 +217,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -316,8 +310,8 @@
 7097={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -332,8 +326,8 @@
 7098={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -370,8 +364,8 @@
 7100={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -424,8 +418,8 @@
 7103={ 
 	terrain="plains"
 	trade_goods="horses"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -440,8 +434,8 @@
 7104={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -834,9 +828,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1068,9 +1059,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1268,9 +1256,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1921,16 +1906,19 @@
 7180={ 
 	terrain="hills"
 	trade_goods="amber"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -1959,176 +1947,209 @@
 7182={ 
 	terrain="hills"
 	trade_goods="stone"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7183={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7184={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7185={ 
 	terrain="hills"
 	trade_goods="gypsum"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7186={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7187={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7188={ 
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7189={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7190={ 
 	terrain="hills"
 	trade_goods="gypsum"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7191={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7192={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -2157,112 +2178,133 @@
 7194={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7195={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7196={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7197={ 
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7198={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7199={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7200={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -2291,64 +2333,76 @@
 7202={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7203={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7204={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 7205={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -2431,7 +2485,7 @@
 7210={ 
 	terrain="hills"
 	trade_goods="sloadsoap"
-	religion="deadric_pantheon"
+	religion="goblin_pantheon"
 	culture="seas"
 	civilization_value=0
 	barbarian_power=0
@@ -2450,7 +2504,7 @@
 7211={ 
 	terrain="hills"
 	trade_goods="elthericammonites"
-	religion="deadric_pantheon"
+	religion="goblin_pantheon"
 	culture="seas"
 	civilization_value=0
 	barbarian_power=0
@@ -2469,7 +2523,7 @@
 7212={ 
 	terrain="hills"
 	trade_goods="necromancers"
-	religion="deadric_pantheon"
+	religion="goblin_pantheon"
 	culture="seas"
 	civilization_value=0
 	barbarian_power=0
@@ -2491,7 +2545,7 @@
 7213={ 
 	terrain="hills"
 	trade_goods="wood"
-	religion="deadric_pantheon"
+	religion="goblin_pantheon"
 	culture="seas"
 	civilization_value=0
 	barbarian_power=0
@@ -3501,10 +3555,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3517,10 +3574,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3533,10 +3593,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3549,10 +3612,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3565,10 +3631,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3581,10 +3650,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3597,10 +3669,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3613,10 +3688,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3629,10 +3707,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3645,10 +3726,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3683,10 +3767,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3699,10 +3786,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3715,10 +3805,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3731,10 +3824,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3747,10 +3843,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3763,10 +3862,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3779,10 +3881,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3795,10 +3900,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3811,10 +3919,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3827,10 +3938,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3843,10 +3957,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3859,10 +3976,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -3875,10 +3995,13 @@
 	barbarian_power=0
 	province_rank="settlement"
 	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 

@@ -5240,17 +5240,6 @@ country = {
 			}
 		}
 		
-		VBF = {          
-			government = tribal_kingdom
-			primary_culture = gobdeathlander
-			religion = goblin_pantheon
-			capital = 2311
-			
-			own_control_core = 	{ 
-				2311 2317 2318
-			}
-		}
-		
 		VBG = {          
 			government = tribal_kingdom
 			primary_culture = obloodfall
@@ -9144,8 +9133,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7194 7193 7195 7192 7191 7190 7185
-				7189 7188 7186 7187 7182 7183 7181 7184
+				7193 7181
 			}
 		}
 		
@@ -9181,7 +9169,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7180 7196 7197 7198 7199 7200 7201 7202 7203 7204 7205
+				7201 
 			}
 		}
 		
@@ -9215,28 +9203,6 @@ country = {
 			}
 		}
 		
-		RAH= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7136
-			
-			own_control_core = 	{ 
-				7136 7148 7149 7130 7129
-			}
-		}
-		
-		RAI= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7146
-			
-			own_control_core = 	{ 
-				7146 7135 7147
-			}
-		}
-		
 		RAJ= {          
 			government = tribal_kingdom
 			primary_culture = gobsea
@@ -9256,17 +9222,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7133 7132 7134 7127 7123 7122 7121
-			}
-		}
-		
-		RAM= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7124
-			
-			own_control_core = 	{ 
-				7124 7107 7125 7126 7128
 			}
 		}
 		
@@ -9295,7 +9250,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7099 7104 7103 7100 7098 7097
+				7099
 			}
 		}
 		
@@ -9340,28 +9295,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7095 7090 7091 7089 
-			}
-		}
-		
-		RAU= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7092
-			
-			own_control_core = 	{ 
-				7092 7094 7093
-			}
-		}
-		
-		RAW= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7085
-			
-			own_control_core = 	{ 
-				7085 7087 7088 7086 7084 7083
 			}
 		}
 		
