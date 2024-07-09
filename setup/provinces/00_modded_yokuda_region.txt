@@ -632,9 +632,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1732,8 +1729,8 @@
 7171={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2409,8 +2406,8 @@
 7206={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2428,8 +2425,8 @@
 7207={ 
 	terrain="hills"
 	trade_goods="amber"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2447,8 +2444,8 @@
 7208={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2466,8 +2463,8 @@
 7209={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

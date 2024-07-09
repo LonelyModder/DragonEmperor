@@ -5312,17 +5312,6 @@ country = {
 			}
 		}
 		
-		VBK = {          
-			government = tribal_kingdom
-			primary_culture = mindeathl
-			religion = nedic_pantheon
-			capital = 2185
-			
-			own_control_core = 	{ 
-				2185 2221 2453
-			}
-		}
-		
 		VBM = {    
 			family = 13
 			family = 14
@@ -5365,7 +5354,7 @@ country = {
 			capital = 2573
 			
 			own_control_core = 	{ 
-				2573 2694 2691 2572 2696 2699 2695 
+				2573 2572 
 			}
 		}
 		
@@ -5448,7 +5437,7 @@ country = {
 			capital = 2632
 			
 			own_control_core = 	{ 
-				2637 2636 2635 2634 2633 2632 2631 2638 2639 2630
+				2636 2635 2634 2633 2632 2631 2638 2639 2630
 				2642 2640 2629 2627 2625
 			}
 		}
@@ -5460,7 +5449,7 @@ country = {
 			capital = 2608
 			
 			own_control_core = 	{ 
-				2610 2609 2614 2598 2599 2597 2596 2615 2589 2590 2616 2600 2594 2595 2608 2611 2617 2593 2601
+				2610 2609 2614 2598 2599 2597 2615 2590 2616 2600 2594 2595 2608 2611 2617 2593 2601
 			}
 		}
 		
@@ -5471,7 +5460,7 @@ country = {
 			capital = 2587
 			
 			own_control_core = 	{ 
-				2587 2588 2577 2578 2576 2575 2591 2580 2592 2585 2602 2579 2581 
+				2587 2577 2578 2576 2575 2591 2580 2592 2585 2602 2579 2581 
 			}
 		}
 		
@@ -5497,36 +5486,25 @@ country = {
 			}
 		}
 		
-		VCC = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 2366
-			
-			own_control_core = 	{ 
-				2366 2363 2362 2371 2370 2361
-			}
-		}
-		
 		VCD = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2406
 			
 			own_control_core = 	{ 
-				2406 2405 2399 2407 2424 2408 2409 2410
+				2406 2405 2399 2407 
 			}
 		}
 		
 		VCE = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2435
 			
 			own_control_core = 	{ 
-				2435 2436 2457 2460 2459 2458 2437 2450 2449
+				2435 2436 2457 
 			}
 		}
 		
@@ -6650,13 +6628,13 @@ country = {
 		}
 		
 		KBK = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobdeathlander
 			religion = goblin_pantheon
 			capital = 2347
 			
 			own_control_core = 	{ 
-				 2347 2345 2346 2348 2349 2353 2355
+				 2347 2349 2353 2355
 			}
 		}
 		
@@ -6668,28 +6646,6 @@ country = {
 			
 			own_control_core = 	{ 
 				2373 2372 2374
-			}
-		}
-		
-		KBN = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 2377
-			
-			own_control_core = 	{ 
-				2377 2376 2375 2381 2367 2378 2380
-			}
-		}
-		
-		KBO = {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 2369
-			
-			own_control_core = 	{ 
-				2369 2379 2368 2365 2364 
 			}
 		}
 		
@@ -9110,12 +9066,12 @@ country = {
 			capital = 7142
 			
 			own_control_core = 	{ 
-				7142 7144 7141 7137 7140 7139 7138 7131 7120 7118 7225 7224 7207 7206
+				7142 7144 7141 7137 7140 7139 7138 7131 7120 7118 7225 7224 
 				7151 7150 7152 7153 7154 7155 7159 7158 7143 7145 7214 7215 7216 7217 7218
 				7156 7157 7160 7161 7162 7166 7167 7165 7229 7231 7230 7232 7233 7254 7253 
-				7164 7171 7170 7169 7168 7222 7223 7221 7220 7219
+				7164 7170 7169 7168 7222 7223 7221 7220 7219
 				7243 7244 7242 7241 7240 7245 7246 7247 7248 7249 7255 7256 7257 7260 7261 
-				7258 7259 7250 7251 7252 7262 7263 7264 7289 7290 7291 7292 7208 7209
+				7258 7259 7250 7251 7252 7262 7263 7264 7289 7290 7291 7292 
 			}
 		}
 		
@@ -9193,13 +9149,13 @@ country = {
 		}
 		
 		RAG= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 7179
 			
 			own_control_core = 	{ 
-				7177 7178 7176 7179
+				7178 7176 7179
 			}
 		}
 		
@@ -9215,13 +9171,13 @@ country = {
 		}
 		
 		RAL= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 7133
 			
 			own_control_core = 	{ 
-				7133 7132 7134 7127 7123 7122 7121
+				7133 7132 7134 
 			}
 		}
 		
@@ -9265,17 +9221,6 @@ country = {
 			}
 		}
 		
-		RAR= {          
-			government = tribal_kingdom
-			primary_culture = gobsea
-			religion = goblin_pantheon
-			capital = 7114
-			
-			own_control_core = 	{ 
-				7114 7115 7113 7112 7110 7111
-			}
-		}
-		
 		RAS= {          
 			government = tribal_kingdom
 			primary_culture = gobsea
@@ -9288,7 +9233,7 @@ country = {
 		}
 		
 		RAT= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 7095
