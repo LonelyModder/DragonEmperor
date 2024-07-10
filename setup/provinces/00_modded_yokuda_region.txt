@@ -2829,9 +2829,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -3025,6 +3022,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -3483,8 +3483,8 @@
 7262={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3502,8 +3502,8 @@
 7263={ 
 	terrain="jungle"
 	trade_goods="salt"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3521,8 +3521,8 @@
 7264={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="yokudan_pantheon"
-	culture="yokudan"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3540,8 +3540,8 @@
 7265={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3559,8 +3559,8 @@
 7266={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3578,8 +3578,8 @@
 7267={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3597,8 +3597,8 @@
 7268={ 
 	terrain="jungle"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3616,8 +3616,8 @@
 7269={ 
 	terrain="hills"
 	trade_goods="elthericammonites"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3635,8 +3635,8 @@
 7270={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3654,8 +3654,8 @@
 7271={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3673,8 +3673,8 @@
 7272={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3692,8 +3692,8 @@
 7273={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3711,8 +3711,8 @@
 7274={ 
 	terrain="hills"
 	trade_goods="leather"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3752,8 +3752,8 @@
 7276={ 
 	terrain="hills"
 	trade_goods="gypsum"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3771,8 +3771,8 @@
 7277={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3790,8 +3790,8 @@
 7278={ 
 	terrain="hills"
 	trade_goods="elthericammonites"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3809,8 +3809,8 @@
 7279={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3828,8 +3828,8 @@
 7280={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3847,8 +3847,8 @@
 7281={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3866,8 +3866,8 @@
 7282={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3885,11 +3885,14 @@
 7283={ 
 	terrain="jungle"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -3904,8 +3907,8 @@
 7284={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3923,8 +3926,8 @@
 7285={ 
 	terrain="jungle"
 	trade_goods="fruitsoftheforest"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3942,8 +3945,8 @@
 7286={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3961,8 +3964,8 @@
 7287={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3980,8 +3983,8 @@
 7288={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="elven_pantheon"
-	culture="yeliri"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

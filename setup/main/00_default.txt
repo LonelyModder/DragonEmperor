@@ -3303,6 +3303,21 @@ road_network = {
 	7168=7169
 	7169=7164
 	#Pyandonea
+	6477=6502
+	6502=6503
+	6503=6541
+	6541=6542
+	6502=6501
+	6499=6510
+	6510=6516
+	6516=6525
+	6525=6527
+	6527=6526
+	6572=6577
+	6577=6578
+	6578=6579
+	6510=6509
+	6516=6512
 	6477=6478
 	6478=6501
 	6501=6500
@@ -3628,7 +3643,7 @@ country = {
 		}
 		
 		AAH = {
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 669
@@ -6627,7 +6642,7 @@ country = {
 		}
 		
 		KBM = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 2373
@@ -6638,7 +6653,7 @@ country = {
 		}
 		
 		KBP = {          
-			government = tribal_chiefdom
+			government = tribal_kingdom
 			primary_culture = gobsea
 			religion = goblin_pantheon
 			capital = 2391
@@ -8798,8 +8813,7 @@ country = {
 				6481 6482 6483 6484 6485 6487 6486 6497 6434 6491 6466 6465 6464 6461 6462 6467 6468 6469 6470 6474 6472 
 				6512 6516 6510 6509 6511 6499 6500 6507 6508 6524 6473 6433 6435 6436 6438 6437 6439 6441 6440 6448 6447
 				6425 6424 6426 6427 6428 6429 6430 6431 6432 6551 6449 6450 6451 6452 6442 6443 6444 6446 6445 6591
-				6498 6513 6514 6515 6517 6518 6519 6520 6521 6522 6523 6529 6530 6528 6525 6527 6531 6533 6526 6532 6534 6535
-				6542 6541 6503 6543 6545 6544 6548 6547 6546 6536 6460
+				6498 6513 6514 6517 6525 6527 6526 6542 6541 6503 6460
 			}
 		}
 		
@@ -8814,28 +8828,6 @@ country = {
 			}  
 		}
 		
-		PAC= {          
-			government = tribal_kingdom
-			primary_culture = xatharu
-			religion = sithis_pantheon
-			capital = 6610
-			
-			own_control_core = 	{ 
-				6610 6611 6609
-			}  
-		}
-		
-		PAD= {          
-			government = tribal_kingdom
-			primary_culture = xatharu
-			religion = sithis_pantheon
-			capital = 6606
-			
-			own_control_core = 	{ 
-				6606 6607 6608
-			}  
-		}
-		
 		PAE= {          
 			government = tribal_kingdom
 			primary_culture = xatharu
@@ -8847,17 +8839,6 @@ country = {
 			}  
 		}
 		
-		PAF= {          
-			government = tribal_kingdom
-			primary_culture = xatharu
-			religion = sithis_pantheon
-			capital = 6594
-			
-			own_control_core = 	{ 
-				6594 6595 6597 6596 
-			}  
-		}
-		
 		PAG= {          
 			government = tribal_kingdom
 			primary_culture = xatharu
@@ -8865,7 +8846,7 @@ country = {
 			capital = 6587
 			
 			own_control_core = 	{ 
-				6587 6589 6585 6586 6588
+				6587 6589 6588
 			}  
 		}
 		
@@ -8891,17 +8872,6 @@ country = {
 			}  
 		}
 		
-		PAJ= {          
-			government = tribal_kingdom
-			primary_culture = xatharu
-			religion = sithis_pantheon
-			capital = 6582
-			
-			own_control_core = 	{ 
-				6582 6580 6574 6573
-			}  
-		}
-		
 		PAK= {          
 			government = tribal_kingdom
 			primary_culture = xatharu
@@ -8910,17 +8880,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6549 6569 6581 6584 6583
-			}  
-		}
-		
-		PAL= {          
-			government = tribal_kingdom
-			primary_culture = xinethar
-			religion = sithis_pantheon
-			capital = 6561
-			
-			own_control_core = 	{ 
-				6561 6562 6565 6558
 			}  
 		}
 		
@@ -9048,7 +9007,7 @@ country = {
 				7156 7157 7160 7161 7162 7166 7167 7165 7229 7231 7230 7232 7233 7254 7253 
 				7164 7170 7169 7168 7222 7223 7221 7220 7219
 				7243 7244 7242 7241 7240 7245 7246 7247 7248 7249 7255 7256 7257 7260 7261 
-				7258 7259 7250 7251 7252 7262 7263 7264 7289 7290 7291 7292 
+				7258 7259 7250 7251 7252 7289 7290 7291 7292 
 			}
 		}
 		
@@ -9120,8 +9079,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				7268 7271 7272 7273 7274 7267 7266 7265 7269 7270 7276 7275
-				7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 7287 7288
+				7275
 			}
 		}
 		
@@ -9137,13 +9095,13 @@ country = {
 		}
 		
 		RAJ= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobyoku
 			religion = goblin_pantheon
-			capital = 7228
+			capital = 7238
 			
 			own_control_core = 	{ 
-				7228 7226 7227 7234 7235
+				7238 7237 7239
 			}
 		}
 		
@@ -9159,13 +9117,13 @@ country = {
 		}
 		
 		RAN= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobyoku
 			religion = goblin_pantheon
 			capital = 7116
 			
 			own_control_core = 	{ 
-				7116 7119 7117 7108
+				7116 7114 7108
 			}
 		}
 		
@@ -9188,13 +9146,13 @@ country = {
 		}
 		
 		RAP= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = gobyoku
 			religion = goblin_pantheon
-			capital = 7105
+			capital = 7283
 			
 			own_control_core = 	{ 
-				7105 7106 7109
+				7283 7284 7282
 			}
 		}
 		
