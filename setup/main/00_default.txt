@@ -1002,9 +1002,6 @@ provinces = { #Any entry must contain a comment with city name.
 	6572 = {
 		port_building = 2
 	}
-	6563 = {
-		port_building = 2
-	}
 	6470 = {
 		port_building = 2
 	}
@@ -1024,13 +1021,7 @@ provinces = { #Any entry must contain a comment with city name.
 	6460 = {
 		port_building = 2
 	}
-	6604 = {
-		port_building = 2
-	}
 	6591 = {
-		port_building = 2
-	}
-	6605 = {
 		port_building = 2
 	}
 	5521 = {
@@ -5675,18 +5666,7 @@ country = {
 			capital = 2964
 			
 			own_control_core = 	{ 
-				2964 2961 2965
-			}
-		}
-		
-		HAE= {          
-			government = tribal_kingdom
-			primary_culture = wyrdite
-			religion = wyrdite_pantheon
-			capital = 3207
-			
-			own_control_core = 	{ 
-				3206 3207 3205 3208 3209
+				2964 2961 2965 3206 3207 3205 3208 3209
 			}
 		}
 		
@@ -5851,7 +5831,7 @@ country = {
 		}
 		
 		HAS = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3276
@@ -6012,7 +5992,7 @@ country = {
 		}
 		
 		HBG = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = worgothianorc
 			religion = codeofmalacath_pantheon
 			capital = 3240
@@ -8818,24 +8798,24 @@ country = {
 		}
 		
 		PAB= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xuatar
 			religion = sithis_pantheon
-			capital = 6456
+			capital = 6454
 			
 			own_control_core = 	{ 
-				6456 6457 6458 6459 6453 6454 6455
+				6453 6454 6455
 			}  
 		}
 		
 		PAE= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xatharu
 			religion = sithis_pantheon
 			capital = 6600
 			
 			own_control_core = 	{ 
-				6600 6598 6599 6601 6602 6603
+				6600 6598 
 			}  
 		}
 		
@@ -8851,7 +8831,7 @@ country = {
 		}
 		
 		PAH= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xatharu
 			religion = sithis_pantheon
 			capital = 6593
@@ -8862,46 +8842,46 @@ country = {
 		}
 		
 		PAI= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xatharu
 			religion = sithis_pantheon
 			capital = 6568
 			
 			own_control_core = 	{ 
-				6568 6567 6566 6571 6570 6576 6575
+				6568 6567 6566 
 			}  
 		}
 		
 		PAK= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xatharu
 			religion = sithis_pantheon
 			capital = 6549
 			
 			own_control_core = 	{ 
-				6549 6569 6581 6584 6583
+				6549 6569 6581
 			}  
 		}
 		
 		PAM= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xinethar
 			religion = sithis_pantheon
 			capital = 6540
 			
 			own_control_core = 	{ 
-				6540 6556 6539 6538 6537
+				6540 6556 6539 
 			}  
 		}
 		
 		PAN= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = xinethar
 			religion = sithis_pantheon
 			capital = 6553
 			
 			own_control_core = 	{ 
-				6553 6555 6554 6550 6552
+				6553 6555 6554 
 			}  
 		}
 		
@@ -8973,7 +8953,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				6557 6564 6563 6560 6559 6605 6572 6577 6578 6579 6604
+				6572 6577 6578 6579
 			}
 		}
 		
@@ -9335,17 +9315,6 @@ country = {
 			}
 		}
 		
-		OAC= {          
-			government = tribal_kingdom
-			primary_culture = hyuket
-			religion = goblin_pantheon
-			capital = 7763
-			
-			own_control_core = 	{ 
-				7763 7764 7765 
-			}
-		}
-		
 		OAD= {          
 			government = tribal_kingdom
 			primary_culture = hyuket
@@ -9407,17 +9376,6 @@ country = {
 				7736 7740 7739 7738 7737 7734 7714 7717 7721
 				7708 7710 7711 7707 7709 7713 7712 7716 7715 
 				7720 7718
-			}
-		}
-		
-		OAI= {          
-			government = tribal_kingdom
-			primary_culture = hyuket
-			religion = goblin_pantheon
-			capital = 7688
-			
-			own_control_core = 	{ 
-				7688 7687 7689
 			}
 		}
 		
@@ -9587,30 +9545,6 @@ country = {
 			}
 		}
 		
-		OAY= {          
-			government = tribal_kingdom
-			primary_culture = hyuket
-			religion = goblin_pantheon
-			capital = 8007
-			
-			
-			own_control_core = 	{ 
-				8007 8008
-			}
-		}
-		
-		OAZ= {          
-			government = tribal_kingdom
-			primary_culture = kthquey
-			religion = nedic_pantheon
-			capital = 7972
-			
-			
-			own_control_core = 	{ 
-				7972 7973 7974 7975 7976 7971
-			}
-		}
-		
 		OBA= {          
 			government = tribal_kingdom
 			primary_culture = kthquey
@@ -9620,30 +9554,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7966 7968 7967 7965 7964 7970 7969
-			}
-		}
-		
-		OBB= {          
-			government = tribal_kingdom
-			primary_culture = kthquey
-			religion = nedic_pantheon
-			capital = 7960
-			
-			
-			own_control_core = 	{ 
-				7957 7958 7959 7960 7961 7962 7963
-			}
-		}
-		
-		OBC= {          
-			government = tribal_kingdom
-			primary_culture = kthquey
-			religion = nedic_pantheon
-			capital = 7955
-			
-			
-			own_control_core = 	{ 
-				7955 7954 7956 7952 7942 7953
 			}
 		}
 		

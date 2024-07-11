@@ -576,6 +576,9 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}
 	freemen={
 		amount=1
 	}
@@ -614,9 +617,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -2554,19 +2554,19 @@
 6557={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xinethar"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=8
-	}
+	province_rank="settlement"
 	freemen={
-		amount=5
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
 }
 
@@ -2592,8 +2592,8 @@
 6559={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xinethar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2611,8 +2611,8 @@
 6560={ 
 	terrain="jungle"
 	trade_goods="coconut"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xinethar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2668,8 +2668,8 @@
 6563={ 
 	terrain="jungle"
 	trade_goods="fish"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xinethar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2687,8 +2687,8 @@
 6564={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xinethar"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3460,37 +3460,35 @@
 6604={ 
 	terrain="jungle"
 	trade_goods="salt"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xatharu"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=8
-	}
+	province_rank="settlement"
 	freemen={
-		amount=5
+		amount=1
+	}
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=4
+		amount=1
 	}
 }
 
 6605={ 
 	terrain="jungle"
 	trade_goods="fish"
-	religion="satakalite_pantheon"
-	culture="vallan"
+	religion="sithis_pantheon"
+	culture="xatharu"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=3
+	province_rank="settlement"
+	freemen={
+		amount=1
 	}
 	tribesmen={
-		amount=7
-		religion="sithis_pantheon"
-		culture="xatharu"
+		amount=4
 	}
 	slaves={
 		amount=1
