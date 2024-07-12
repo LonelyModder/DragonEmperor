@@ -4714,18 +4714,18 @@ country = {
 		}
 		
 		CCG = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1623
 			
 			own_control_core = 	{ 
-				1625 1623 1624 1622 1621 1626 1645
+				1625 1623 1624
 			}
 		}
 		
 		CCH = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = argblackwood
 			religion = deadric_pantheon
 			capital = 1669
@@ -4738,7 +4738,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1666 1668 1669 1674 1667 1659 1658
+				1666 1668 1669 1674
 			}
 		}
 		
@@ -4864,35 +4864,13 @@ country = {
 		}
 		
 		CBC = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = argblackwood
 			religion = hist_pantheon
 			capital = 1647
 			
 			own_control_core = 	{ 
-				1647 1648 1650 1646 1627 1628
-			}
-		}
-		
-		CBD = {          
-			government = tribal_kingdom
-			primary_culture = argblackwood
-			religion = hist_pantheon
-			capital = 1655
-			
-			own_control_core = 	{ 
-				1655 1656 1657 1649
-			}
-		}
-		
-		CBF = {          
-			government = tribal_kingdom
-			primary_culture = argblackwood
-			religion = hist_pantheon
-			capital = 1616
-			
-			own_control_core = 	{ 
-				1616 1615 1612 1592 1587 1591 1613 1614
+				1647 1628 1627
 			}
 		}
 		
@@ -8127,17 +8105,6 @@ country = {
 			}
 		}
 		
-		ABF = {          
-			government = tribal_kingdom
-			primary_culture = aagaceph
-			religion = hist_pantheon
-			capital = 6052
-			
-			own_control_core = 	{ 
-				6052 6051 6056 6054 6053 6057
-			}
-		}
-		
 		ABG = {          
 			government = tribal_kingdom
 			primary_culture = nedyaspest
@@ -8200,7 +8167,7 @@ country = {
 			capital = 6148
 			
 			own_control_core = 	{ 
-				6148 6149 6151 6147 
+				6148 6149 6147 
 			}
 		}
 		
@@ -8332,18 +8299,7 @@ country = {
 			capital = 5939
 			
 			own_control_core = 	{ 
-				5939 5938 5937 5935 5936
-			}
-		}
-		
-		ACB= {          
-			government = tribal_kingdom
-			primary_culture = anaga
-			religion = hist_pantheon
-			capital = 5950
-			
-			own_control_core = 	{ 
-				5950 5951
+				5939 5938 5937
 			}
 		}
 		
@@ -8370,13 +8326,13 @@ country = {
 		}
 		
 		ACE= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = apaatru
 			religion = hist_pantheon
 			capital = 6040
 			
 			own_control_core = 	{ 
-				6040 6039 6042 6038 6145 6144 6043 6153 6152
+				6040 6039 6042 
 			}
 		}
 		
@@ -8402,25 +8358,14 @@ country = {
 			}
 		}
 		
-		ADA= {          
-			government = tribal_kingdom
-			primary_culture = aagaceph
-			religion = hist_pantheon
-			capital = 6013
-			
-			own_control_core = 	{ 
-				6013 6014 6015 6041
-			}
-		}
-		
 		ACI= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = aagaceph
 			religion = hist_pantheon
 			capital = 5932
 			
 			own_control_core = 	{ 
-				5932 5931 5908 5907 5934 5933
+				5932 5934 5933
 			}
 		}
 		
@@ -8479,17 +8424,6 @@ country = {
 			}
 		}
 		
-		ACO= {          
-			government = tribal_kingdom
-			primary_culture = anaga
-			religion = hist_pantheon
-			capital = 5917 
-			
-			own_control_core = 	{ 
-				5917 5916 5910 5909 5891 5890
-			}
-		}
-		
 		ACP= {          
 			government = tribal_kingdom
 			primary_culture = anaga
@@ -8497,7 +8431,7 @@ country = {
 			capital = 5912 
 			
 			own_control_core = 	{ 
-				5912 5913 5896 5898 5897 5895
+				5912 5913 5896 5898
 			} 
 		}
 		
@@ -8519,7 +8453,7 @@ country = {
 			capital = 6076 
 			
 			own_control_core = 	{ 
-				6076 6077 5967 6075 6072 6071
+				6076 6077 5967 6075
 			} 
 		}
 		
@@ -8531,17 +8465,6 @@ country = {
 			
 			own_control_core = 	{ 
 				5961 5959 5958 5962 5963
-			} 
-		}
-		
-		ACU= {          
-			government = tribal_kingdom
-			primary_culture = amurkite
-			religion = hist_pantheon
-			capital = 6143 
-			
-			own_control_core = 	{ 
-				6143 6154 6060
 			} 
 		}
 		
@@ -8574,7 +8497,7 @@ country = {
 			capital = 6032 
 			
 			own_control_core = 	{ 
-				6032 6031 5965 6033 6034 6171
+				6032 6031 5965 6033
 			} 
 		}
 		
@@ -8590,13 +8513,13 @@ country = {
 		}
 		
 		ADC= {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = apaatru
 			religion = hist_pantheon
 			capital = 6049 
 			
 			own_control_core = 	{ 
-				6049 6048 6047 6046 6045 6044
+				6049 6048 6047 
 			} 
 		}
 		
@@ -8608,17 +8531,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6168 6167 6166 6165 6169 6217 6216
-			} 
-		}
-		
-		ADF= {          
-			government = tribal_kingdom
-			primary_culture = apaatru
-			religion = hist_pantheon
-			capital = 6163 
-			
-			own_control_core = 	{ 
-				6163 6164 6162 6161 6156
 			} 
 		}
 		
@@ -8641,17 +8553,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6212 6213 6226 6207 6206 6208
-			} 
-		}
-		
-		ADI= {          
-			government = tribal_kingdom
-			primary_culture = aarnesian
-			religion = hist_pantheon
-			capital = 6230 
-			
-			own_control_core = 	{ 
-				6230 6214 6215 6227 6229 6228
 			} 
 		}
 		
