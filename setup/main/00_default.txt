@@ -4780,7 +4780,7 @@ country = {
 			capital = 1477
 			
 			own_control_core = 	{ 
-				1477 1476 1475 1479
+				1477 1476 1479
 			}
 		}
 		
@@ -4792,28 +4792,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1570 1571 1569 
-			}
-		}
-		
-		CAK = {          
-			government = tribal_kingdom
-			primary_culture = nedvalusan
-			religion = nedic_pantheon
-			capital = 1434
-			
-			own_control_core = 	{ 
-				1434 1411 1438 1437 1452 1453 1455 1454 
-			}
-		}
-		
-		CAL = {          
-			government = tribal_kingdom
-			primary_culture = nedvalusan
-			religion = nedic_pantheon
-			capital = 1472
-			
-			own_control_core = 	{ 
-				1472 1460 1473 1474 1478
 			}
 		}
 		
@@ -7675,7 +7653,7 @@ country = {
 		}
 		
 		MAR = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ashlander
 			religion = velothi_pantheon
 			capital = 5124
@@ -7744,7 +7722,7 @@ country = {
 			capital = 5693
 			
 			own_control_core = 	{ 
-				5693 5694 5692 5691 5689 5690
+				5693 5694 5692
 			}
 		}
 		
@@ -8518,17 +8496,6 @@ country = {
 			
 			own_control_core = 	{ 
 				6172 6178 6170 6181
-			}  
-		}
-		
-		BAF= {          
-			government = tribal_kingdom
-			primary_culture = ahleel
-			religion = hist_pantheon
-			capital = 6124
-			
-			own_control_core = 	{ 
-				6124 6125 6126 6127 6121 6123
 			}  
 		}
 		
