@@ -703,25 +703,7 @@ provinces = { #Any entry must contain a comment with city name.
 	5469 = {
 		fortress_building = 1
 	}
-	5614 = {
-		fortress_building = 1
-	}
 	4899 = {
-		fortress_building = 1
-	}
-	5584 = {
-		fortress_building = 1
-	}
-	5598 = {
-		fortress_building = 1
-	}
-	5695 = {
-		fortress_building = 1
-	}
-	5697 = {
-		fortress_building = 1
-	}
-	5655 = {
 		fortress_building = 1
 	}
 	5489 = {
@@ -775,12 +757,6 @@ provinces = { #Any entry must contain a comment with city name.
 	5125 = {
 		fortress_building = 1
 	}
-	5526 = {
-		fortress_building = 1
-	}
-	5546 = {
-		fortress_building = 1
-	}
 	5253 = {
 		fortress_building = 1
 	}
@@ -791,9 +767,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	5591 = {
-		fortress_building = 1
-	}
-	5508 = {
 		fortress_building = 1
 	}
 	5137 = {
@@ -900,9 +873,6 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	7242 = {
 		fortress_building = 1
-		port_building = 1
-	}
-	7695 = {
 		port_building = 1
 	}
 	7473 = {
@@ -1022,9 +992,6 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	6591 = {
-		port_building = 2
-	}
-	5521 = {
 		port_building = 2
 	}
 	5746 = {
@@ -4374,8 +4341,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 1463
 			
-			
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -4385,7 +4350,7 @@ country = {
 			
 			own_control_core = 	{ 
 				1463 1467 1468 1464 1449 1470 1448 1450 1498 1499 1495 1496 1471 1469 1444 1435 
-				1447 1445 1451 1440 1436 1439 1433 1429 1441 1442 1443 1423 
+				1447 1445 1441 1442 1443 1423 
 			}
 		}
 		
@@ -4441,11 +4406,11 @@ country = {
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
 				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0  }
+				religious_tech= { level=2 progress=0 }
 			}
 			
 			own_control_core = 	{ 
-				1459 1458 1508 1480 1456 1457
+				1459 1458 1508 1480 
 			}
 		}
 		
@@ -4463,9 +4428,9 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1594 1605 1609 1542 1583 1584 1593 1579 1576 1565 1564 1567 1566 1563 1548 1549 1610 1596 1598 1597 1600 1599 1611
-				1545 1544 1539 1543 1561 1546 1547 1572 1588 1604 1590 1589 1580 
-				1585 1575 1586 1574 1573 1510 1541 1509 1582 1595 1581 1578 1577 1568 1562 
+				1594 1605 1609 1542 1583 1584 1593 1579 1576 1565 1564 1567 1566 1563 1548 1549 1610 1596 1598 1597 1600 1599
+				1545 1544 1539 1561 1546 1547 1572 1588 1604 1590 1589 1580 
+				1585 1575 1574 1573 1541 1582 1595 1581 1578 1577 1568 1562 
 			}
 		}
 		
@@ -4758,7 +4723,7 @@ country = {
 			capital = 1410
 			
 			own_control_core = 	{ 
-				1410 1409 1405 1404 1408 1407
+				1410 1409 1408
 			}
 		}
 		
@@ -7473,10 +7438,10 @@ country = {
 			}
 			
 			own_control_core = 	{
-				5700 5707 5706 5701 5708 5709 5704 5710 5703 5702 5696 5705 5699 5670 5673 5565 5581 5580 5582 5595 5591 5457 5645 5641 5639
-				5592 5600 5604 5594 5597 5596 5478 5477 5479 5480 5485 5484 5481 5474 5483 5564 5566 5567 5482 5473 5459 5456 5458 5588 5589
-				5503 5502 5501 5612 5610 5613 5609 5618 5611 5617 5616 5607 5608 5606 5491 5590 5586
-				5605 5603 5601 5602 5687 5447 5448 5444 5638 5637 5636 5642 5640 5587 5490
+				5700 5707 5706 5701 5708 5709 5704 5710 5703 5702 5696 5705 5699 5670 5673 5565 5581 5580 5582
+				5592 5600 5604 5594 5597 5596 5478 5477 5479 5480 5485 5484 5481 5474 5483 5564 5566 5567 5482 
+				5503 5502 5501 5612 5610 5613 5609 5618 5611 5617 5616 5607 5608 5606 5491 5473 5459 5456 5458 
+				5605 5603 5687 5447 5448 5444 5638 5637 5636 5490 5641 5639 5595 5591 5457 5645
 			}
 		}
 		
@@ -7536,12 +7501,8 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				5571 5575 5576 5572 5573 5574 5577 5579 5578 5550 5615 5614 5695 5584
-				5585 5598 5599 5499 5664 5665 5698 5697 5671 5663 5507 5476 5475
-				5662 5655 5643 5635 5634 5554 5551 5552 5546 5549 5547 5469 5253 5672
-				5553 5557 5558 5508 5504 5712 5535 5534 5536 5532 5533 5531 5545
-				5537 5538 5540 5539 5510 5505 5506 5509 5548 5496 5497 5498 4010 4026
-				5517 5516 5518 5519 5521 5522 5525 5526 5527 5524 5523 5500 5511 5512 5513 5514 5515
+				4010 4026 5615 5695 5584 5598 5697 5655 5577 5574 5573 5572 
+				5571 5575 5576 5578 5579 5508 5519 5526 5521 5253 5546 5614 
 			}
 		}
 		
@@ -7571,29 +7532,29 @@ country = {
 			capital = 5112
 			
 			own_control_core = 	{ 
-				5112 5063 5064 5111 5113 5116 5117 5118 5119
+				5112 5063 5064 5111
 			}
 		}
 		
 		MAJ = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ahleel
 			religion = hist_pantheon
 			capital = 5159
 			
 			own_control_core = 	{ 
-				5159 5156 5166 5161 5162 5163 5164 5165 5167
+				5159 5156 5166 
 			}
 		}
 		
 		MAK = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ahleel
 			religion = hist_pantheon
 			capital = 5160
 			
 			own_control_core = 	{ 
-				5160 5158 5157 5173 5175 5174 5169
+				5160 5174 5169
 			}
 		}
 		
@@ -7604,7 +7565,7 @@ country = {
 			capital = 5171
 			
 			own_control_core = 	{ 
-				5171 5172 5176 5177 5178 5179 5170 5155 5168
+				5171 5176 5177 5178 5179 5170 5172
 			}
 		}
 		
@@ -7642,7 +7603,7 @@ country = {
 		}
 		
 		MAP = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ashlander
 			religion = velothi_pantheon
 			capital = 5067
@@ -7684,14 +7645,13 @@ country = {
 		}
 		
 		MAX = {          
-			government = tribal_kingdom
+			government = nordicanimism_pantheon
 			primary_culture = dagonite
 			religion = allmaker_pantheon
 			capital = 5679
 			
 			own_control_core = 	{ 
-				5679 5674 5669 5667 5668 5676 5680 5682 5666
-				5681 5678 5677 5686 5688 5683 5684 5685 5675
+				5685 5684 5680 5679 5682
 			}
 		}
 		
@@ -7733,9 +7693,7 @@ country = {
 			capital = 4881
 			
 			own_control_core = 	{ 
-				4876 4877 4878 4879 4880 4881 4882 4883 4884 4885 
-				4886 4887 4890 4889 4888 4891 
-				4892 4893 4894 4895 4896 4897 4898 4900 4901 4902
+				4880 4881 4882 4883
 			}
 		}
 		
@@ -7746,40 +7704,40 @@ country = {
 			capital = 5561
 			
 			own_control_core = 	{ 
-				5561 5570 5593 5569 5562 5563 5559 5560 5568 5583
+				5561 5570 5569 5562 
 			}
 		}
 		
 		MAW = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ashlander
 			religion = velothi_pantheon
 			capital = 5651
 			
 			own_control_core = 	{ 
-				5651 5652 5653 5654 5644 5646 5649 5648 5647
+				5651 5652 5653 5644 
 			}
 		}
 		
 		MBA = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ashlander
 			religion = velothi_pantheon
 			capital = 5657
 			
 			own_control_core = 	{ 
-				5657 5658 5661 5660 5659 5656 5650
+				5657 5658 5656 
 			}
 		}
 		
 		MBB = {          
-			government = tribal_kingdom
+			government = tribal_chiefdom
 			primary_culture = ashlander
 			religion = velothi_pantheon
 			capital = 5542
 			
 			own_control_core = 	{ 
-				5529 5528 5530 5520 5543 5542 5541 5544 5555 5556 
+				5543 5542 5541 5544
 			}
 		}
 		
@@ -9046,17 +9004,6 @@ country = {
 			
 			own_control_core = 	{ 
 				7684 7683
-			}
-		}
-		
-		OAE= {          
-			government = tribal_kingdom
-			primary_culture = yensa
-			religion = nedic_pantheon
-			capital = 7696
-			
-			own_control_core = 	{ 
-				7690 7694 7695 7696 7697 7698
 			}
 		}
 		
