@@ -1088,7 +1088,7 @@
 4054={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="nordic_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
@@ -1110,7 +1110,7 @@
 4055={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="nordic_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
@@ -1129,7 +1129,7 @@
 4056={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="atmoran"
 	civilization_value=0
 	barbarian_power=0
@@ -2098,8 +2098,8 @@
 4106={ 
 	terrain="mountain"
 	trade_goods="fish"
-	religion="nordic_pantheon"
-	culture="eastholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2117,8 +2117,8 @@
 4107={ 
 	terrain="hills"
 	trade_goods="wool"
-	religion="nordic_pantheon"
-	culture="eastholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2550,8 +2550,8 @@
 4129={ 
 	terrain="mountain"
 	trade_goods="marble"
-	religion="nordic_pantheon"
-	culture="southholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3244,8 +3244,8 @@
 4165={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="southholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -3263,8 +3263,8 @@
 4166={ 
 	terrain="mountain"
 	trade_goods="limestone"
-	religion="nordic_pantheon"
-	culture="southholder"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
