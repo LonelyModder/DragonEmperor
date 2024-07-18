@@ -1572,8 +1572,8 @@
 4079={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1591,8 +1591,8 @@
 4080={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1629,8 +1629,8 @@
 4082={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1648,8 +1648,8 @@
 4083={ 
 	terrain="plains"
 	trade_goods="leather"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1667,8 +1667,8 @@
 4084={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1686,8 +1686,8 @@
 4085={ 
 	terrain="plains"
 	trade_goods="leather"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1709,18 +1709,18 @@
 	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
+	province_rank="settlement"
 	citizen={
 		amount=1
 	}
 	freemen={
-		amount=2
+		amount=1
 	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 
@@ -1749,8 +1749,8 @@
 4088={ 
 	terrain="plains"
 	trade_goods="fur"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1768,8 +1768,8 @@
 4089={ 
 	terrain="plains"
 	trade_goods="beasts"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1803,8 +1803,8 @@
 4091={ 
 	terrain="plains"
 	trade_goods="beasts"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1822,8 +1822,8 @@
 4092={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1841,8 +1841,8 @@
 4093={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1860,8 +1860,8 @@
 4094={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="winterholdan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1879,8 +1879,8 @@
 4095={ 
 	terrain="hills"
 	trade_goods="horker"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1898,8 +1898,8 @@
 4096={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1917,8 +1917,8 @@
 4097={ 
 	terrain="hills"
 	trade_goods="beasts"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2253,8 +2253,8 @@
 4114={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2272,8 +2272,8 @@
 4115={ 
 	terrain="hills"
 	trade_goods="limestone"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2291,8 +2291,8 @@
 4116={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -2314,18 +2314,15 @@
 	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
+	province_rank="settlement"
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=2
-	}
 	tribesmen={
-		amount=8
+		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 
@@ -5238,8 +5235,8 @@
 4266={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5317,8 +5314,8 @@
 4270={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -5374,8 +5371,8 @@
 4273={ 
 	terrain="hills"
 	trade_goods="leather"
-	religion="nordic_pantheon"
-	culture="palan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -7189,25 +7186,19 @@
 4367={ 
 	terrain="plains"
 	trade_goods="beasts"
-	religion="nordic_pantheon"
-	culture="westholder"
+	religion="reachmen_pantheon"
+	culture="ereachmen"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
+	province_rank="settlement"
+	freemen={
 		amount=1
 	}
-	citizen={
-		amount=5
-	}
-	freemen={
-		amount=8
-	}
 	tribesmen={
-		amount=6
+		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 

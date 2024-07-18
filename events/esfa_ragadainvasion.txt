@@ -758,8 +758,7 @@ ragada.5 = {
 	picture = ragada_ships
 	
 	trigger = {
-		owns = 2322 
-		owns = 2315
+		owns = 2554
 		owns = 2311
 		has_global_variable = ragada_invasion_1
 		religion = yokudan_pantheon
@@ -1174,6 +1173,7 @@ ragada.9 = {
 		owns = 2322
 		has_global_variable = ragada_invasion_1
 		has_global_variable = ragada_invasion_2
+		has_global_variable = ragada_invasion_3
 		has_global_variable = hubs_vision
 		religion = yokudan_pantheon
 	}

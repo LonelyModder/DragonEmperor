@@ -1916,22 +1916,19 @@
 7181={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="kasazi"
+	religion="goblin_pantheon"
+	culture="gobyoku"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
+	province_rank="settlement"
+	freemen={
 		amount=1
 	}
-	citizen={
-		amount=6
-	}
-	freemen={
-		amount=5
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 
