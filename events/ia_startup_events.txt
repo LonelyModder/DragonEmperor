@@ -184,12 +184,23 @@ esfa_startup.11 = { #Nord
     desc = esfa_startup.11.desc
     picture = welcoming_window_11
 	
+	left_portrait = SAG.current_ruler
+	
     trigger = {
     	country_culture_group = nordic
     }
 
     option = {    
         name = esfa_startup.11.a
+		if = {
+			limit = { tag = SAG }
+				region:modded_solitude_region = { formable_region_province_effect = yes }
+				region:modded_whiterun_region = { formable_region_province_effect = yes }
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_rift_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }		
+		}
     }
 }
 
@@ -234,6 +245,7 @@ esfa_startup.14 = { #Falmer
 	
     trigger = {
     	country_culture_group = falmer
+		NOT = {primary_culture = falatmoran}
     }
 
     option = {    
@@ -414,5 +426,23 @@ esfa_startup.25 = { #Quey
 
     option = {    
         name = esfa_startup.25.a
+    }
+}
+
+esfa_startup.26 = { #Atmora
+	type = country_event
+    title = esfa_startup.26.t
+    desc = esfa_startup.26.desc
+    picture = welcoming_window_26
+	
+    trigger = {
+		OR = {
+			primary_culture = falatmoran
+			country_culture_group = jotnar
+		}
+    }
+
+    option = {    
+        name = esfa_startup.26.a
     }
 }

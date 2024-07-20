@@ -6,32 +6,28 @@
 		trigger_if = {
 			limit = { 
 				OR = {
-					AND = {
-						any_owned_province = {
-							OR = {
-								is_importing_trade_good = cabal_of_witches
-								trade_goods = cabal_of_witches
-							}					
+					#any_owned_province = {
+					#	OR = {
+					#		is_importing_trade_good = cabal_of_witches
+					#		trade_goods = cabal_of_witches
+					#	}					
+					#}
+					#OR = {
+						AND = {
+							has_deity_in_pantheon = deity:omen_molagbal
+							deity:omen_molagbal = { has_holy_site = yes }
 						}
-						OR = {
-							AND = {
-								has_deity_in_pantheon = deity:omen_molagbal
-								deity:omen_molagbal = { has_holy_site = yes }
-							}
-							AND = {
-								has_deity_in_pantheon = deity:omen_mechrunesdagon
-								deity:omen_mechrunesdagon = { has_holy_site = yes }
-							}
-							AND = {
-								has_deity_in_pantheon = deity:omen_meridia
-								deity:omen_meridia = { has_holy_site = yes }
-							}
+						AND = {
+							has_deity_in_pantheon = deity:omen_mechrunesdagon
+							deity:omen_mechrunesdagon = { has_holy_site = yes }
 						}
-					}
-					OR = {
-						religion = deadric_pantheon
-						religion = velothi_pantheon
-					}
+						AND = {
+							has_deity_in_pantheon = deity:omen_meridia
+							deity:omen_meridia = { has_holy_site = yes }
+						}
+					#}
+					religion = deadric_pantheon
+					religion = velothi_pantheon
 				}
 			}
 			custom_tooltip = {
@@ -39,56 +35,36 @@
 			}
 			OR = {
 				AND = {
-					any_owned_province = {
-						OR = {
-							is_importing_trade_good = cabal_of_witches
-							trade_goods = cabal_of_witches
-						}					
-					}
-					OR = {
-						AND = {
-							has_deity_in_pantheon = deity:omen_molagbal
-							deity:omen_molagbal = { has_holy_site = yes }
-						}
-						AND = {
-							has_deity_in_pantheon = deity:omen_mechrunesdagon
-							deity:omen_mechrunesdagon = { has_holy_site = yes }
-						}
-						AND = {
-							has_deity_in_pantheon = deity:omen_meridia
-							deity:omen_meridia = { has_holy_site = yes }
-						}
-					}
+					has_deity_in_pantheon = deity:omen_molagbal
+					deity:omen_molagbal = { has_holy_site = yes }
 				}
-				OR = {
-					religion = deadric_pantheon
-					religion = velothi_pantheon
+				AND = {
+					has_deity_in_pantheon = deity:omen_mechrunesdagon
+					deity:omen_mechrunesdagon = { has_holy_site = yes }
 				}
+				AND = {
+					has_deity_in_pantheon = deity:omen_meridia
+					deity:omen_meridia = { has_holy_site = yes }
 				}
+				religion = deadric_pantheon
+				religion = velothi_pantheon
+			}
 		}
 		trigger_else = {
 			custom_tooltip = {
 				text = tradition_unlock_requirement_daedra
-				AND = {
-					any_owned_province = {
-						OR = {
-							is_importing_trade_good = cabal_of_witches
-							trade_goods = cabal_of_witches
-						}					
+				OR = {
+					AND = {
+						has_deity_in_pantheon = deity:omen_molagbal
+						deity:omen_molagbal = { has_holy_site = yes }
 					}
-					OR = {
-						AND = {
-							has_deity_in_pantheon = deity:omen_molagbal
-							deity:omen_molagbal = { has_holy_site = yes }
-						}
-						AND = {
-							has_deity_in_pantheon = deity:omen_mechrunesdagon
-							deity:omen_mechrunesdagon = { has_holy_site = yes }
-						}
-						AND = {
-							has_deity_in_pantheon = deity:omen_meridia
-							deity:omen_meridia = { has_holy_site = yes }
-						}
+					AND = {
+						has_deity_in_pantheon = deity:omen_mechrunesdagon
+						deity:omen_mechrunesdagon = { has_holy_site = yes }
+					}
+					AND = {
+						has_deity_in_pantheon = deity:omen_meridia
+						deity:omen_meridia = { has_holy_site = yes }
 					}
 				}
 			}

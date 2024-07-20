@@ -13,7 +13,6 @@ ragada.1 = {
 		NOT = { has_global_variable = ragada_invasion_1 }
 		tag = RAA
 		owns = 7142
-		owns_or_subject_owns = 7110
 		owns_or_subject_owns = 7164
 		owns_or_subject_owns = 7193
 		owns_or_subject_owns = 7222
@@ -27,10 +26,6 @@ ragada.1 = {
 		set_global_variable = {
 			name = ragada_invasion_1
 		}
-	}
-	
-	option = { 
-		name = "ragada.1.a"
 		p:2322 = {
 			while = {
                 count = 3
@@ -65,6 +60,11 @@ ragada.1 = {
                 }
             }
         }
+	}
+	
+	option = { 
+		name = "ragada.1.a"
+		#Pops moved to immediate section
 		p:2322 = {
 			set_conquered_by = RAA
 		}
@@ -759,10 +759,10 @@ ragada.5 = {
 	picture = ragada_ships
 	
 	trigger = {
-		owns = 2322 
-		owns = 2315
-		owns = 2311
+		owns = 2554
+		owns = 2322
 		has_global_variable = ragada_invasion_1
+		NOT = { has_global_variable = ragada_invasion_2 }
 		religion = yokudan_pantheon
 	}
 	
@@ -939,6 +939,7 @@ ragada.7 = {
 		owns = 2295
 		has_global_variable = ragada_invasion_1
 		has_global_variable = ragada_invasion_2
+		NOT = { has_global_variable = ragada_invasion_3 }
 		has_global_variable = hubs_vision
 		religion = yokudan_pantheon
 		p:7222.owner = {
@@ -1082,6 +1083,7 @@ ragada.13 = {
 	
 	trigger = {
 		owns = 2322
+		NOT = { has_global_variable = hubs_vision }
 		religion = yokudan_pantheon
 	}
 	
@@ -1173,13 +1175,18 @@ ragada.9 = {
 	
 	trigger = {
 		owns = 2322
+		NOT = { has_global_variable = newyokuda }
 		has_global_variable = ragada_invasion_1
 		has_global_variable = ragada_invasion_2
+		has_global_variable = ragada_invasion_3
 		has_global_variable = hubs_vision
 		religion = yokudan_pantheon
 	}
 	
 	immediate = {
+		set_global_variable = {
+			name = newyokuda
+		}
 		create_character = {
 			first_name = "Tarish-Zi"
 			family_name = "Tezga"
@@ -1258,15 +1265,6 @@ ragada.14 = {
 	option = { 
 		name = "ragada.14.a"
 		set_as_ruler = scope:tarish_gov
-		if = {
-			limit = {
-				NOT = { has_country_modifier = lepontic_invasion_modifier }
-			}
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 14600 
-			}
-		}
 		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		trigger_event = {

@@ -1,114 +1,114 @@
 ﻿5737={ 
 	terrain="hills"
 	trade_goods="elthericammonites"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 5738={ 
 	terrain="hills"
 	trade_goods="precious_metals"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 5739={ 
 	terrain="jungle"
 	trade_goods="larimar"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 5740={ 
 	terrain="jungle"
 	trade_goods="wood"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 5741={ 
 	terrain="plains"
 	trade_goods="elthericammonites"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 5742={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="deadric_pantheon"
-	culture="seas"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
@@ -194,41 +194,38 @@
 6686={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="deadric_pantheon"
-	culture="thrasians"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
+	province_rank="settlement"
+	freemen={
 		amount=1
 	}
-	citizen={
-		amount=3
-	}
-	freemen={
+	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=6
+		amount=1
 	}
 }
 
 6687={ 
 	terrain="plains"
 	trade_goods="elthericammonites"
-	religion="deadric_pantheon"
-	culture="thrasians"
+	religion="goblin_pantheon"
+	culture="gobsea"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
+	tribesmen={
+		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 

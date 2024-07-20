@@ -27,6 +27,7 @@ esfa_traits.1 = {
 				NOT = { has_trait = minotaur }
 				NOT = { has_trait = khajiit }
 				NOT = { has_trait = argonian }
+				NOT = { has_trait = jotnar }
 				NOT = { has_trait = imga }
 				NOT = { has_trait = nord }
 				NOT = { has_trait = redguard }
@@ -145,6 +146,13 @@ esfa_traits.1 = {
 			else_if = { 
 				limit = {
 					# NOT = { father = { has_trait = minotaur } }
+					mother = { has_trait = jotnar }
+				}
+				add_trait = jotnar
+			}
+			else_if = { 
+				limit = {
+					# NOT = { father = { has_trait = minotaur } }
 					mother = { has_trait = nord }
 				}
 				add_trait = nord
@@ -200,6 +208,7 @@ esfa_traits.1 = {
 									has_trait = sload
 									has_trait = khajiit
 									has_trait = argonian
+									has_trait = jotnar
 									has_trait = imga
 									has_trait = nord
 									has_trait = redguard

@@ -3,8 +3,8 @@
 4876={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -22,8 +22,8 @@
 4877={ 
 	terrain="hills"
 	trade_goods="fish"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -41,8 +41,8 @@
 4878={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -60,8 +60,8 @@
 4879={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -161,8 +161,8 @@
 4884={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -180,8 +180,8 @@
 4885={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -199,30 +199,27 @@
 4886={ 
 	terrain="mountain"
 	trade_goods="hemp"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
-		amount=4
+		amount=1
 	}
 	tribesmen={
 		amount=4
 	}
 	slaves={
-		amount=2
+		amount=1
 	}
 }
 
 4887={ 
 	terrain="mountain"
 	trade_goods="iron"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -240,8 +237,8 @@
 4888={ 
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -259,30 +256,27 @@
 4889={ 
 	terrain="mountain"
 	trade_goods="fur"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
+	province_rank="settlement"
+	freemen={
 		amount=1
 	}
-	freemen={
-		amount=3
-	}
 	tribesmen={
-		amount=6
+		amount=4
 	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 
 4890={ 
 	terrain="mountain"
 	trade_goods="leather"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -300,8 +294,8 @@
 4891={ 
 	terrain="forest"
 	trade_goods="fish"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -319,8 +313,8 @@
 4892={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -338,8 +332,8 @@
 4893={ 
 	terrain="mountain"
 	trade_goods="stone"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -357,8 +351,8 @@
 4894={ 
 	terrain="mountain"
 	trade_goods="fur"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -376,8 +370,8 @@
 4895={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -395,8 +389,8 @@
 4896={ 
 	terrain="forest"
 	trade_goods="fruitsoftheforest"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -414,8 +408,8 @@
 4897={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -433,8 +427,8 @@
 4898={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -471,8 +465,8 @@
 4900={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -490,8 +484,8 @@
 4901={ 
 	terrain="mountain"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -509,8 +503,8 @@
 4902={ 
 	terrain="mountain"
 	trade_goods="iron"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -547,8 +541,8 @@
 4904={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="nordic_pantheon"
-	culture="neastern"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9901,7 +9895,7 @@
 	terrain="marsh"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9958,7 +9952,7 @@
 	terrain="hills"
 	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -9977,7 +9971,7 @@
 	terrain="hills"
 	trade_goods="beasts"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10072,7 +10066,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10091,7 +10085,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10167,7 +10161,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10341,7 +10335,7 @@
 	terrain="farmland"
 	trade_goods="alcohols"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10401,7 +10395,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10420,7 +10414,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10439,7 +10433,7 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10534,7 +10528,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10553,7 +10547,7 @@
 	terrain="hills"
 	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10572,7 +10566,7 @@
 	terrain="hills"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10591,7 +10585,7 @@
 	terrain="hills"
 	trade_goods="ebon"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10686,7 +10680,7 @@
 	terrain="plains"
 	trade_goods="netchleather"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -10724,7 +10718,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="sothan"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12618,7 +12612,7 @@
 	terrain="ashlands"
 	trade_goods="stone"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12637,7 +12631,7 @@
 	terrain="ashlands"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12656,7 +12650,7 @@
 	terrain="ashlands"
 	trade_goods="kwamaegg"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12675,7 +12669,7 @@
 	terrain="ashlands"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12694,7 +12688,7 @@
 	terrain="ashlands"
 	trade_goods="leather"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12906,7 +12900,7 @@
 	terrain="ashlands"
 	trade_goods="leather"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -12925,7 +12919,7 @@
 	terrain="ashlands"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13251,7 +13245,7 @@
 	terrain="plains"
 	trade_goods="fur"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13270,7 +13264,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13289,7 +13283,7 @@
 	terrain="plains"
 	trade_goods="fish"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13308,7 +13302,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13384,7 +13378,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13403,7 +13397,7 @@
 	terrain="plains"
 	trade_goods="fur"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13422,7 +13416,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13517,7 +13511,7 @@
 	terrain="plains"
 	trade_goods="hemp"
 	religion="velothi_pantheon"
-	culture="telvannic"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13650,7 +13644,7 @@
 	terrain="plains"
 	trade_goods="netchleather"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -13688,7 +13682,7 @@
 	terrain="plains"
 	trade_goods="wild_game"
 	religion="velothi_pantheon"
-	culture="dagothi"
+	culture="ashlander"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14152,8 +14146,8 @@
 5666={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14171,8 +14165,8 @@
 5667={ 
 	terrain="plains"
 	trade_goods="cabal_of_witches"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14190,8 +14184,8 @@
 5668={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14209,8 +14203,8 @@
 5669={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14285,8 +14279,8 @@
 5673={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="velothi_pantheon"
-	culture="dagothi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14304,8 +14298,8 @@
 5674={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14323,8 +14317,8 @@
 5675={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14342,8 +14336,8 @@
 5676={ 
 	terrain="plains"
 	trade_goods="amber"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14361,8 +14355,8 @@
 5677={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14380,8 +14374,8 @@
 5678={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14399,7 +14393,7 @@
 5679={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="allmaker_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="dagonite"
 	civilization_value=0
 	barbarian_power=0
@@ -14421,7 +14415,7 @@
 5680={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="allmaker_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="dagonite"
 	civilization_value=0
 	barbarian_power=0
@@ -14440,8 +14434,8 @@
 5681={ 
 	terrain="plains"
 	trade_goods="beasts"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14459,7 +14453,7 @@
 5682={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="dagonite"
 	civilization_value=0
 	barbarian_power=0
@@ -14478,8 +14472,8 @@
 5683={ 
 	terrain="plains"
 	trade_goods="leather"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14497,7 +14491,7 @@
 5684={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="dagonite"
 	civilization_value=0
 	barbarian_power=0
@@ -14516,7 +14510,7 @@
 5685={ 
 	terrain="plains"
 	trade_goods="salt"
-	religion="allmaker_pantheon"
+	religion="nordicanimism_pantheon"
 	culture="dagonite"
 	civilization_value=0
 	barbarian_power=0
@@ -14535,8 +14529,8 @@
 5686={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14554,8 +14548,8 @@
 5687={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="allmaker_pantheon"
-	culture="dagothi"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -14573,8 +14567,8 @@
 5688={ 
 	terrain="plains"
 	trade_goods="wild_game"
-	religion="allmaker_pantheon"
-	culture="dagonite"
+	religion="codeofmalacath_pantheon"
+	culture="obloodfall"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"

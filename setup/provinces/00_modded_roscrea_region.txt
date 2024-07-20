@@ -3,8 +3,8 @@
 7404={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="nordicanimism_pantheon"
-	culture="hvalcrean"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -46,11 +46,11 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
+	freemen={
 		amount=1
 	}
 	tribesmen={
-		amount=6
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -1086,8 +1086,8 @@
 7460={ 
 	terrain="plains"
 	trade_goods="fish"
-	religion="nordicanimism_pantheon"
-	culture="gunderan"
+	religion="goblin_pantheon"
+	culture="gobrock"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -1129,9 +1129,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}
@@ -1268,9 +1265,6 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
-	citizen={
-		amount=1
-	}
 	freemen={
 		amount=1
 	}

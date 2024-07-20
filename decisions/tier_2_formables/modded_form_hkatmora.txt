@@ -1,0 +1,101 @@
+﻿country_decisions = {
+	
+	# Form High Kingdom of Atmora
+	form_hkatmora = {
+		
+		potential = {
+			OR = {
+				country_culture_group = jotnar
+				country_culture_group = nord
+				country_culture_group = falmer
+			}
+			#is_tribal = yes
+			NOT = {
+				tag = XAT
+			}
+			NOR = {
+				is_tier_2_formable_trigger = yes
+				is_endgame_tag_trigger = yes
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 8243
+					province_id = 8150
+					province_id = 8135
+					province_id = 8141
+					province_id = 8127
+				}
+			}
+		}
+		
+		allow = {
+			custom_tooltip = {
+				text = hkatmora_must_not_exist
+				NOT = {
+					any_country = {
+						tag = XAT
+					}
+				}
+			}
+			can_form_nation_trigger = yes
+			owns = 8243
+			owns_or_subject_owns = 8150
+			owns_or_subject_owns = 8135
+			owns_or_subject_owns = 8140
+			owns_or_subject_owns = 8127
+		}
+		
+		effect = {
+			custom_tooltip = "tier_2_formable_tooltip"
+			change_country_name = "HKAtmora_name"
+			change_country_flag = TAG
+			if = {
+				limit = { is_tribal = yes }
+				add_country_modifier = {
+					name = civilized_tribe
+					duration = 5475
+				}
+				change_government = aristocratic_monarchy
+				switch_government_type_event_clearup_effect = yes
+			}
+			hidden_effect = {
+				change_country_adjective = "HKAtmora_adj"
+				change_country_color =  "HKAtmora_color"
+				change_country_tag = XAT
+			}
+			if = {
+				limit = {
+					NOT = {
+						capital_scope = {
+							province_id = 8243
+						}
+					}
+				}
+				set_capital = 8243
+				hidden_effect = {
+					p:8243.state = {
+						set_state_capital = 8243
+					}
+				}
+			}
+			add_stability = 25
+			p:8243 = {
+				capital_formable_medium_effect = yes
+				formable_capital_modifier_normal_effect = yes
+			}
+			add_2_free_province_investments = yes
+			hidden_effect = {
+				region:modded_watmora_region = { formable_region_province_effect = yes }
+				region:modded_eatmora_region = { formable_region_province_effect = yes }
+			}
+		}
+		
+		ai_will_do = {
+			base = 1
+		}
+	}
+	
+}

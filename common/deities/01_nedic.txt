@@ -20,7 +20,7 @@ deity_lorkhan = {
 		NOT = { country_culture_group = altmer }
 	}
 	icon = deity_lorkhan
-	passive_modifier = { call_omen_cost_modifier = deity_call_omen_cost_modifier_svalue }
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
 	omen = { global_monthly_state_loyalty = omen_global_monthly_state_loyalty } #Bonus from Omen
 	religion = nedic_pantheon
 	deity_category = culture #This Deity uses a culture slot.

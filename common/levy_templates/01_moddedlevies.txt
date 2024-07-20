@@ -39,11 +39,11 @@ levy_ayleid = { #ayleid militia
 	default = no
 
 	lv_dremoras = 0.2
-	lv_lightinfantry = 0.4
+	lv_lightinfantry = 0.35
 	lv_archers = 0.15
 	lv_mages = 0.1
 	lv_cavalry = 0.1
-	lv_gryphons = 0.05
+	lv_gryphons = 0.1
 }
 
 levy_besarabic = { #besarabic militia
@@ -241,6 +241,17 @@ levy_argonian = { #argonian militia
 #Nordic
 
 levy_nordic = { #nordic militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_heavyinfantry = 0.2
+	lv_archers = 0.1
+	lv_raiders = 0.2
+}
+
+#Jotnar
+
+levy_jotnar = { #jotnar militia
 	default = no
 
 	lv_warriors = 0.5

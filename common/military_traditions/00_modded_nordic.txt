@@ -4,11 +4,19 @@
 	
 	allow = {
 		trigger_if = {
-			limit = { country_culture_group = nordic }
+			limit = { 
+				OR = {
+					country_culture_group = nordic
+					country_culture_group = jotnar	
+				} 
+			}
 			custom_tooltip = {
 				text = "began_with_tradition_group"
 			}
-			country_culture_group = nordic
+			OR = {
+				country_culture_group = nordic
+				country_culture_group = jotnar	
+			}
 		}
 		trigger_else_if = {
 			limit = {
@@ -27,7 +35,10 @@
 					}
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:nordic
+						OR = {
+							this.culture.culture_group = culture_group:nordic
+							this.culture.culture_group = culture_group:jotnar
+						}
 					}
 				}
 			}
@@ -49,7 +60,10 @@
 					custom_tooltip = {
 						text = tradition_unlock_requirement_short
 						is_integrated = yes
-						this.culture.culture_group = culture_group:nordic
+						OR = {
+							this.culture.culture_group = culture_group:nordic
+							this.culture.culture_group = culture_group:jotnar
+						}
 					}
 				}
 			}
@@ -72,7 +86,10 @@
 					text = "tradition_unlock_requirement_nordic"
 					any_country_culture = {
 						is_integrated = yes
-						this.culture.culture_group = culture_group:nordic	
+						OR = {
+							this.culture.culture_group = culture_group:nordic
+							this.culture.culture_group = culture_group:jotnar
+						}	
 					}
 				}
 			}
