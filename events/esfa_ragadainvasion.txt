@@ -1265,15 +1265,6 @@ ragada.14 = {
 	option = { 
 		name = "ragada.14.a"
 		set_as_ruler = scope:tarish_gov
-		if = {
-			limit = {
-				NOT = { has_country_modifier = lepontic_invasion_modifier }
-			}
-			add_country_modifier = {
-				name = lepontic_invasion_modifier
-				duration = 14600 
-			}
-		}
 		region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
 		region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
 		trigger_event = {
