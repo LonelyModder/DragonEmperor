@@ -13,7 +13,13 @@ modded_tmp_region = {
 
 modded_esroniet_region = {
 	areas = {
-		
+		kuju_area
+		nagaru_area
+		blackharbour_area
+		nagakita_area
+		okuraha_area
+		jaoping_area
+		yeosan_area
 	}
 }
 
@@ -448,6 +454,7 @@ modded_reapersmarch_region = {
 		nightmareplateau_area
 		lynmount_area
 	}
+	color = rgb { 12 65 150 }
 }
 
 modded_scar_region = {
