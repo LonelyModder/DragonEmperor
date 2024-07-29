@@ -671,12 +671,12 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	7767 = { modifier = { modifier = pirate_haven_modifier always = yes } }
+	7979 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	8126 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	8243 = { modifier = { modifier = pirate_haven_modifier always = yes } }
-	7959 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	8007 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7746 = { modifier = { modifier = pirate_haven_modifier always = yes } }
-	7764 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7699 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7426 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7444 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -832,9 +832,6 @@ provinces = { #Any entry must contain a comment with city name.
 	8126 = {
 		port_building = 1
 	}
-	7764 = {
-		port_building = 1
-	}
 	7997 = {
 		port_building = 2
 	}
@@ -842,18 +839,6 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	8243 = {
-		port_building = 1
-	}
-	7973 = {
-		port_building = 1
-	}
-	8007 = {
-		port_building = 1
-	}
-	7959 = {
-		port_building = 1
-	}
-	7955 = {
 		port_building = 1
 	}
 	7767= {
