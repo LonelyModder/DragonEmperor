@@ -356,6 +356,36 @@ tsaesci_heritage = {
 	}
 }
 
+kamal_heritage = { 
+	modifier = {
+		#good
+		enslavement_efficiency = 0.25
+		land_morale_modifier = 0.1
+		
+		#bad
+		loyalty_gain_chance_modifier = 0.05
+	}
+	
+	trigger = {
+		country_culture_group = kamal
+	}
+}
+
+esral_heritage = { 
+	modifier = {
+		#good
+		religious_tech_investment = 0.12
+		stability_monthly_change = 0.04
+		
+		#bad
+		global_slaves_output = -0.2
+	}
+	
+	trigger = {
+		country_culture_group = esral
+	}
+}
+
 echmer_heritage = { 
 	modifier = {
 		#good

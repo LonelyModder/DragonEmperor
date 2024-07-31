@@ -285,3 +285,14 @@ tsaesci_pantheon = { # Tsaesci Faith
 	}
 	religion_category = pantheon
 }
+
+atataism_pantheon = { # Esral Faith
+	color = hsv { 0.30 0.81 0.49 }
+	modifier = { 
+		global_pop_conversion_speed_modifier = 0.1
+		diplomatic_relations = 2
+		global_pop_assimilation_speed_modifier = -0.1
+	}
+	religion_category = prophets
+	can_deify_ruler = no
+}

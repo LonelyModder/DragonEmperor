@@ -31,6 +31,8 @@
  GOVERNORSHIP_LEGION_NAME_redguard:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_sinismer:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_tsaesci:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
+ GOVERNORSHIP_LEGION_NAME_kamal:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
+ GOVERNORSHIP_LEGION_NAME_esral:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  GOVERNORSHIP_LEGION_NAME_echmer:0 "$GOVERNORSHIP_LEGION_NAME_rroman$"
  
  ### Legion Army name ###
@@ -64,6 +66,8 @@
  LEGION_NAME_redguard:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_sinismer:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_tsaesci:0 "Cohors $ROMAN$ $BASE$"
+ LEGION_NAME_kamal:0 "Cohors $ROMAN$ $BASE$"
+ LEGION_NAME_esral:0 "Cohors $ROMAN$ $BASE$"
  LEGION_NAME_echmer:0 "Cohors $ROMAN$ $BASE$"
 
  ### Levy name ###
@@ -96,5 +100,7 @@
  LEVY_NAME_redguard:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_sinismer:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_tsaesci:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
+ LEVY_NAME_kamal:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
+ LEVY_NAME_esral:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  LEVY_NAME_echmer:0 "Conscripti $ROMAN$ $GOVERNORSHIP$"
  

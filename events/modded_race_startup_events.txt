@@ -47,6 +47,8 @@ race_startup.2 = {
 					NOT = { has_trait = redguard }
 					NOT = { has_trait = sinismer }
 					NOT = { has_trait = tsaesci }
+					NOT = { has_trait = kamal }
+					NOT = { has_trait = esral }
 					NOT = { has_trait = echmer }
 					NOT = { has_trait = breton }
 					NOT = { has_trait = falmer }
@@ -240,6 +242,22 @@ race_startup.2 = {
 						has_culture_group = tsaesci
 					}
 					add_trait = tsaesci
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = kamal
+					}
+					add_trait = kamal
+					remove_trait = pure
+					remove_trait = impure
+				}
+				else_if = {
+					limit = {
+						has_culture_group = esral
+					}
+					add_trait = esral
 					remove_trait = pure
 					remove_trait = impure
 				}

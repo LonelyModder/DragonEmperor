@@ -25,6 +25,8 @@
 			NOT = { has_trait = redguard }
 			NOT = { has_trait = sinismer }
 			NOT = { has_trait = tsaesci }
+			NOT = { has_trait = kamal }
+			NOT = { has_trait = esral }
 			NOT = { has_trait = echmer }
 			NOT = { has_trait = breton }
 			NOT = { has_trait = falmer }
@@ -176,6 +178,18 @@
 				has_culture_group = tsaesci
 			}
 			add_trait = tsaesci
+		}
+		else_if = {
+			limit = {
+				has_culture_group = kamal
+			}
+			add_trait = kamal
+		}
+		else_if = {
+			limit = {
+				has_culture_group = esral
+			}
+			add_trait = esral
 		}
 		else_if = {
 			limit = {
