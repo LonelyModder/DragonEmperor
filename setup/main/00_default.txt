@@ -671,6 +671,7 @@ provinces = { #Any entry must contain a comment with city name.
 	}
 	
 	#Pirates
+	8439 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7767 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	7979 = { modifier = { modifier = pirate_haven_modifier always = yes } }
 	8126 = { modifier = { modifier = pirate_haven_modifier always = yes } }
@@ -805,6 +806,12 @@ provinces = { #Any entry must contain a comment with city name.
 	5704 = {
 		port_building = 2
 	}
+	8410 = {
+		port_building = 2
+	}
+	8439 = {
+		port_building = 1
+	}
 	5492 = {
 		fortress_building = 1
 		port_building = 2
@@ -817,7 +824,7 @@ provinces = { #Any entry must contain a comment with city name.
 		port_building = 2
 	}
 	8442 = {
-		port_building = 2
+		port_building = 1
 	}
 	8415 = {
 		port_building = 2
@@ -2842,6 +2849,12 @@ provinces = { #Any entry must contain a comment with city name.
 	########################################
 	# Barbarian Spawn Spots
 	########################################
+	8392 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
+	8390 = {
+		modifier = { modifier = generic_barbarian_spawn_place }
+	}
 	8117 = {
 		modifier = { modifier = generic_barbarian_spawn_place }
 	}
@@ -3263,6 +3276,22 @@ provinces = { #Any entry must contain a comment with city name.
 }
 
 road_network = {
+	#Esroniet
+	8415=8416
+	8416=8420
+	8420=8425
+	8415=8417
+	8417=8411
+	8411=8408
+	8408=8409
+	8409=8410
+	8405=8407
+	8407=8411
+	8407=8408
+	8404=8405
+	8403=8405
+	8400=8403
+	8416=8417
 	#Yokuda
 	7168=7169
 	7169=7164
@@ -9312,7 +9341,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				8403 8402 8401 8399 8400 8398 8397 8396 8395 8404
+				8403 8402 8401 8399 8400 8398 8397 8396 8395 8404 8428 8427
 				8405 8406 8407 8411 8408 8409 8410 8422 8423 8424 8419
 				8415 8414 8417 8416 8418 8412 8413 8421 8420 8425 8426
 			}
@@ -9336,15 +9365,58 @@ country = {
 			religion = dragoncult_pantheon
 			capital = 8442
 			
+			poptype_rights = {
+				{
+					culture = esrali 
+					type = citizen
+				}
+			}
+			
 			technology={
-				military_tech={ level=2 progress=0 }
-				civic_tech={ level=2 progress=0 }
-				oratory_tech={ level=2 progress=0 }
-				religious_tech= { level=2 progress=0 }
+				military_tech={ level=1 progress=0 }
+				civic_tech={ level=1 progress=0 }
+				oratory_tech={ level=1 progress=0 }
+				religious_tech= { level=1 progress=0 }
 			}
 			
 			own_control_core = 	{ 
 				8442
+			}
+		}
+		
+		EAD= {          
+			government = tribal_kingdom
+			primary_culture = esrali
+			religion = atataism_pantheon
+			capital = 8445
+			
+			
+			own_control_core = 	{ 
+				 8445 8446 8444 
+			}
+		}
+		
+		EAE= {          
+			government = tribal_kingdom
+			primary_culture = esrali
+			religion = atataism_pantheon
+			capital = 8450
+			
+			
+			own_control_core = 	{ 
+				 8450 8449 8448 8447
+			}
+		}
+		
+		EAF= {          
+			government = tribal_kingdom
+			primary_culture = hyuket
+			religion = goblin_pantheon
+			capital = 8438
+			
+			
+			own_control_core = 	{ 
+				 8438 8439 8440
 			}
 		}
 	}
