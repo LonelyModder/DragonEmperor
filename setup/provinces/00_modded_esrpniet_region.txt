@@ -384,19 +384,22 @@
 8415={ 
 	terrain="plains"
 	trade_goods="dye"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="tsaesci_pantheon"
+	culture="tesronic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
-		amount=1
+	province_rank="city"
+	nobles={
+		amount=2
 	}	
-	tribesmen={
-		amount=4
+	citizen={
+		amount=6
+	}	
+	freemen={
+		amount=12
 	}
 	slaves={
-		amount=1
+		amount=5
 	}
 }
 
@@ -688,11 +691,14 @@
 8431={ 
 	terrain="forest"
 	trade_goods="guar"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="atataism_pantheon"
+	culture="esrali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
+	citizen={
+		amount=1
+	}	
 	freemen={
 		amount=1
 	}	
@@ -707,8 +713,8 @@
 8432={ 
 	terrain="hills"
 	trade_goods="wild_game"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="atataism_pantheon"
+	culture="esrali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -726,8 +732,8 @@
 8433={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="atataism_pantheon"
+	culture="esrali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -745,8 +751,8 @@
 8434={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="atataism_pantheon"
+	culture="esrali"
 	civilization_value=0
 	barbarian_power=0
 	province_rank="settlement"
@@ -897,19 +903,22 @@
 8442={ 
 	terrain="forest"
 	trade_goods="wood"
-	religion="slavic_pantheon"
-	culture="wvenedi"
+	religion="dragoncult_pantheon"
+	culture="kesronic"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
 	}	
-	tribesmen={
-		amount=4
+	citizen={
+		amount=5
+	}	
+	freemen={
+		amount=8
 	}
 	slaves={
-		amount=1
+		amount=4
 	}
 }
 
