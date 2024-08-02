@@ -4,10 +4,10 @@
 	form_hkpyandonea = {
 		
 		potential = {
-			OR = {
-				country_culture_group = lizardbull
-				country_culture_group = moarmer
-			}
+			#OR = {
+			#	country_culture_group = lizardbull
+			#	country_culture_group = moarmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = PAA

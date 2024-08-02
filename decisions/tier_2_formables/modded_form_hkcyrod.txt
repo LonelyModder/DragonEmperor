@@ -4,12 +4,12 @@
 	form_hkcyrod = {
 		
 		potential = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = altmer
-				country_culture_group = minotauric
-				primary_culture =  cyronordic
-			}
+			#OR = {
+			#	country_culture_group = nede
+			#	country_culture_group = altmer
+			#	country_culture_group = minotauric
+			#	primary_culture =  cyronordic
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XCY

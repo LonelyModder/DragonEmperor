@@ -4,11 +4,11 @@
 	form_hkatmora = {
 		
 		potential = {
-			OR = {
-				country_culture_group = jotnar
-				country_culture_group = nord
-				country_culture_group = falmer
-			}
+			#OR = {
+			#	country_culture_group = jotnar
+			#	country_culture_group = nord
+			#	country_culture_group = falmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XAT

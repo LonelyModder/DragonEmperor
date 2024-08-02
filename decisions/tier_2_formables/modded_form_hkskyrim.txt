@@ -4,11 +4,11 @@
 	form_hkskyrim = {
 		
 		potential = {
-			OR = {
-				country_culture_group = nordic
-				country_culture_group = reachmenic
-				country_culture_group = falmer
-			}
+			#OR = {
+			#	country_culture_group = nordic
+			#	country_culture_group = reachmenic
+			#	country_culture_group = falmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = SAG

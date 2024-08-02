@@ -4,10 +4,10 @@
 	form_hkalinor = {
 		
 		potential = {
-			OR = {
-				country_culture_group = altmer
-				country_culture_group = moarmer
-			}
+			#OR = {
+			#	country_culture_group = altmer
+			#	country_culture_group = moarmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XAL

@@ -4,14 +4,14 @@
 	form_hkhighrock = {
 		
 		potential = {
-			OR = {
-				country_culture_group = altmer
-				country_culture_group = reachmenic
-				country_culture_group = orcish
-				country_culture_group = breton
-				country_culture_group = druid
-				country_culture_group = dwemer
-			}
+			#OR = {
+			#	country_culture_group = altmer
+			#	country_culture_group = reachmenic
+			#	country_culture_group = orcish
+			#	country_culture_group = breton
+			#	country_culture_group = druid
+			#	country_culture_group = dwemer
+			#}
 			#is_tribal = yes
 			NOR = {
 				tag = XHR

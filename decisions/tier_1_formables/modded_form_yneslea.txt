@@ -4,12 +4,12 @@
 	form_yneslea = {
 		
 		potential = {
-			OR = {
-				primary_culture = noraken
-				country_culture_group = echmer
-				country_culture_group = tsaesci
-				country_culture_group = eastgoblin
-			}
+			#OR = {
+			#	primary_culture = noraken
+			#	country_culture_group = echmer
+			#	country_culture_group = tsaesci
+			#	country_culture_group = eastgoblin
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XYS

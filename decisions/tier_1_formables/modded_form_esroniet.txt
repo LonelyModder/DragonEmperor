@@ -1,19 +1,18 @@
 ﻿country_decisions = {
 	
-	# Form High Kingdom of Craglorn
-	form_craglorn = {
+	# Form Kingdom of Esroniet
+	form_esroniet = {
 		
 		potential = {
 			#OR = {
-			#	country_culture_group = keptu
-			#	country_culture_group = altmer
-			#	country_culture_group = orcish
-			#	country_culture_group = breton
+			#	primary_culture = noraken
+			#	country_culture_group = echmer
+			#	country_culture_group = tsaesci
+			#	country_culture_group = eastgoblin
 			#}
 			#is_tribal = yes
-			NOR = {
-				tag = XCR
-				tag = VAS
+			NOT = {
+				tag = XES
 			}
 			NOR = {
 				is_tier_1_formable_trigger = yes
@@ -25,34 +24,32 @@
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = 2608
-					province_id = 2650
-					province_id = 2632
-					province_id = 2583
+					province_id = 8415
+					province_id = 8442
+					province_id = 8431
 				}
 			}
 		}
 		
 		allow = {
 			custom_tooltip = {
-				text = craglorn_must_not_exist
+				text = esroniet_must_not_exist
 				NOT = {
 					any_country = {
-						tag = XCR
+						tag = XES
 					}
 				}
 			}
 			can_form_nation_trigger = yes
-			owns= 2608
-			owns_or_subject_owns = 2650
-			owns_or_subject_owns = 2632
-			owns_or_subject_owns = 2583
+			owns= 8415
+			owns_or_subject_owns = 8442
+			owns_or_subject_owns = 8431
 		}
 		
 		effect = {
 			custom_tooltip = "tier_2_formable_tooltip"
-			change_country_name = "KCraglorn_name"
-			change_country_flag = craglorn_FLAG
+			change_country_name = "KEsroniet_name"
+			change_country_flag = EAA
 			if = {
 				limit = { is_tribal = yes }
 				add_country_modifier = {
@@ -63,39 +60,38 @@
 				switch_government_type_event_clearup_effect = yes
 			}
 			hidden_effect = {
-				change_country_adjective = "KCraglorn_adj"
-				change_country_color =  "KCraglorn_color"
-				change_country_tag = XCR
+				change_country_adjective = "KEsroniet_adj"
+				change_country_color =  "KEsroniet_color"
+				change_country_tag = XES
 			}
 			if = {
 				limit = {
 					NOT = {
 						capital_scope = {
-							province_id = 2608
+							province_id = 8415
 						}
 					}
 				}
-				set_capital = 2608
+				set_capital = 8415
 				hidden_effect = {
-					p:2608.state = {
-						set_state_capital = 2608
+					p:8415.state = {
+						set_state_capital = 8415
 					}
 				}
 			}
-			#p:2608 = {
+			#p:8415 = {
 			#	if = {
 			#		limit = { has_city_status = no }
 			#		set_city_status = city
 			#	}
 			#}
-			p:2608 = {
+			p:8415 = {
 				capital_formable_medium_effect = yes
 				formable_capital_modifier_normal_effect = yes
 			}
 			add_2_free_province_investments = yes
 			hidden_effect = {
-				region:modded_lowercraglorn_region = { formable_region_province_effect = yes }
-				region:modded_uppercraglorn_region = { formable_region_province_effect = yes }
+				region:modded_esroniet_region = { formable_region_province_effect = yes }
 			}
 		}
 		

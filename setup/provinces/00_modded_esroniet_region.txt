@@ -417,6 +417,7 @@
 	slaves={
 		amount=5
 	}
+	holy_site="omen_zisa"
 }
 
 8416={ 
@@ -1028,7 +1029,7 @@
 
 8447={ 
 	terrain="forest"
-	trade_goods="wood"
+	trade_goods="fur"
 	religion="atataism_pantheon"
 	culture="esrali"
 	civilization_value=0
