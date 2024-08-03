@@ -315,6 +315,18 @@ SAH = { #Riften
 	}
 }
 
+EAA = { #Esroniet
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_esroniet.dds"
+		color1 = rgb { 0 0 0 }
+		color2 = rgb { 152 240 53 }
+	}
+}
+
 SAJ = { #Dawnstar
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 64 63 62 }

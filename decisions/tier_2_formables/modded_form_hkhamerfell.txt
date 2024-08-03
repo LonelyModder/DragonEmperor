@@ -4,12 +4,12 @@
 	form_hkhamerfell = {
 		
 		potential = {
-			OR = {
-				country_culture_group = altmer
-				country_culture_group = keptu
-				country_culture_group = orcish
-				country_culture_group = breton
-			}
+			#OR = {
+			#	country_culture_group = altmer
+			#	country_culture_group = keptu
+			#	country_culture_group = orcish
+			#	country_culture_group = breton
+			#}
 			#is_tribal = yes
 			NOR = {
 				tag = XHM

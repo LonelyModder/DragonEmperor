@@ -1,0 +1,90 @@
+﻿### General Deity Checks ###
+
+### Exclusive Deity Checks ###
+
+deity_ata = {
+	trigger = {
+		religion = atataism_pantheon
+	}
+	icon = deity_ata 
+	passive_modifier = { religious_tech_investment = deity_religious_tech_investment_svalue }
+	omen = { global_tax_modifier = omen_global_tax_modifier_svalue } #Bonus from Omen
+	religion = atataism_pantheon
+	deity_category = economy #This Deity uses an Economy Slot
+	
+	on_activate = {
+		capital_scope = {
+			create_2_citizens_effect = yes
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_lann = {
+	trigger = {
+		religion = atataism_pantheon
+	}
+	icon = deity_lann
+	passive_modifier = { global_monthly_food_modifier = deity_global_monthly_food_modifier_svalue }
+	omen = { global_population_growth = omen_global_population_growth } #Bonus from Omen
+	religion = atataism_pantheon
+	deity_category = fertility #This Deity uses a Fertility Slot
+	on_activate = {
+		capital_scope = {
+			create_2_freemen_effect = yes
+		}
+	}
+	
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_xo = {
+	trigger = {
+		religion = atataism_pantheon
+	}
+	icon = deity_xo
+	passive_modifier = { ruler_popularity_gain = deity_ruler_popularity_gain_svalue }
+	omen = { monthly_tyranny = omen_monthly_tyranny_svalue } #Bonus from Omen
+	religion = atataism_pantheon
+	deity_category = culture #This Deity uses a Culture Slot'
+	on_activate = {
+		add_research = {
+			technology = religious_tech
+			value = 10
+		}
+	}
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+}
+
+deity_taa = {
+	trigger = {
+		religion = atataism_pantheon
+	}
+	icon = deity_taa
+	passive_modifier = { global_cohort_start_experience = deity_global_cohort_start_experience_svalue }
+	omen = { land_morale_modifier = omen_land_morale_modifier_svalue } #Bonus from Omen
+	religion = atataism_pantheon
+	deity_category = war #This Deity uses a War slot.
+
+	deification_trigger = {
+		can_deify_trigger = yes
+	}
+	
+	on_activate = {
+		if = {
+			limit = { manpower_percentage < 0.8 }
+			add_manpower = 1.5
+		}
+		else = {
+			add_military_experience = 2
+		}
+	}
+}

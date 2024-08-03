@@ -270,9 +270,20 @@
  lizardbull_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Tsaesci
  tsaesci:2 "Tsaesci"
- tislander:0 "Islander"
+ tislander:0 "Ynean"
+ tesronic:0 "Esronic"
  tsaesci_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  tsaesci_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Kamal
+ kamal:2 "Kamal"
+ kesronic:0 "Esricar"
+ kamal_malename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ kamal_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ #Esral
+ esral:2 "Esral"
+ esrali:0 "Esrali"
+ esralmalename:1 "$NAME_MALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
+ esral_femalename:1 "$NAME_FEMALE$ $REGNALNUMBER$ $FAMILY_MALE$ $NICKNAME$"
  #Echmer
  echmer:2 "Echmer"
  yneic:0 "Yneic"

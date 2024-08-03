@@ -352,6 +352,29 @@ levy_tsaesci = { #tsaesci militia
 	lv_horsearchers = 0.2
 }
 
+#Kamal Militia
+
+levy_kamal = { #kamal militia
+	default = no
+
+	lv_warriors = 0.4
+	lv_heavyinfantry = 0.2
+	lv_archers = 0.2
+	lv_cavalry = 0.1
+	lv_horsearchers = 0.1
+}
+
+#Esral Militia
+
+levy_esral = { #esral militia
+	default = no
+
+	lv_warriors = 0.5
+	lv_lightinfantry = 0.1
+	lv_archers = 0.2
+	lv_guarcavalry = 0.2
+}
+
 #Echmer Militia
 
 levy_echmer = { #echmer militia

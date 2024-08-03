@@ -4,13 +4,13 @@
 	form_hkargonia = {
 		
 		potential = {
-			OR = {
-				country_culture_group = kothri
-				country_culture_group = lilmothic
-				country_culture_group = argonian
-				primary_culture = besarabicelves
-				primary_culture = cantemiri
-			}
+			#OR = {
+			#	country_culture_group = kothri
+			#	country_culture_group = lilmothic
+			#	country_culture_group = argonian
+			#	primary_culture = besarabicelves
+			#	primary_culture = cantemiri
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XAR

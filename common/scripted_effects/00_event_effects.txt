@@ -2838,6 +2838,38 @@ add_relevant_loyal_subunit_effect = {
 		limit = {
 			exists = commander
 			commander = {
+				has_culture_group = kamal
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_warriors
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
+				has_culture_group = esral
+			}
+		}
+		commander = {
+			add_gold = -20
+		}
+		random_list = {
+			25 = {
+				add_loyal_subunit = lv_warriors
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			exists = commander
+			commander = {
 				has_culture_group = echmer
 			}
 		}

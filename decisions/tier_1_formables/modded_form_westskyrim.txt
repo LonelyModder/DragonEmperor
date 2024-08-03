@@ -4,10 +4,10 @@
 	form_westskyrim = {
 		
 		potential = {
-			OR = {
-				country_culture_group = nordic
-				country_culture_group = falmer
-			}
+			#OR = {
+			#	country_culture_group = nordic
+			#	country_culture_group = falmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XWS

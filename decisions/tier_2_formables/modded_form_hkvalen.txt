@@ -4,12 +4,12 @@
 	form_hkvalen = {
 		
 		potential = {
-			OR = {
-				country_culture_group = bosmer
-				country_culture_group = imga
-				primary_culture = abamath
-				country_culture_group = altmer
-			}
+			#OR = {
+			#	country_culture_group = bosmer
+			#	country_culture_group = imga
+			#	primary_culture = abamath
+			#	country_culture_group = altmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = VAA

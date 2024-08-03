@@ -33,7 +33,7 @@ militarism_events.1 = {
 					country_culture_group = bosmer
 					country_culture_group = nordic
 					country_culture_group = nede
-					country_culture_group = tsaesci
+					country_culture_group = kamal
 					country_culture_group = argonian
 					country_culture_group = lizardbull
 					primary_culture = redorani
@@ -54,6 +54,7 @@ militarism_events.1 = {
 					country_culture_group = chimer
 					country_culture_group = dwemer	
 					country_culture_group = echmer
+					country_culture_group = esral
 				}	
 				NOT = {primary_culture = ashlander}
 				NOT = {primary_culture = redorani}

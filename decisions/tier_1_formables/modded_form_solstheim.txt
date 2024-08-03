@@ -4,11 +4,11 @@
 	form_solstheim = {
 		
 		potential = {
-			OR = {
-				country_culture_group = nordic
-				country_culture_group = riekling
-				country_culture_group = dwemer
-			}
+			#OR = {
+			#	country_culture_group = nordic
+			#	country_culture_group = riekling
+			#	country_culture_group = dwemer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XST

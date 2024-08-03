@@ -4,10 +4,10 @@
 	form_reach = {
 		
 		potential = {
-			OR = {
-				country_culture_group = reachmenic
-				primary_culture = nighthollow
-			}
+			#OR = {
+			#	country_culture_group = reachmenic
+			#	primary_culture = nighthollow
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XRE

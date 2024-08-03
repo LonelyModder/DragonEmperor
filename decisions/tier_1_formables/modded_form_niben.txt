@@ -4,10 +4,10 @@
 	form_niben = {
 		
 		potential = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = altmer
-			}
+			#OR = {
+			#	country_culture_group = nede
+			#	country_culture_group = altmer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XNI

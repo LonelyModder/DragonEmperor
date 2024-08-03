@@ -8,6 +8,8 @@
 				OR = {
 					country_culture_group = tsaesci
 					country_culture_group = echmer
+					country_culture_group = kamal
+					country_culture_group = esral
 				}
 			}
 			custom_tooltip = {
@@ -16,6 +18,8 @@
 			OR = {
 				country_culture_group = tsaesci
 				country_culture_group = echmer
+				country_culture_group = kamal
+				country_culture_group = esral
 			}
 		}
 		trigger_else_if = {
@@ -39,6 +43,8 @@
 						OR = {
 							this.culture.culture_group = culture_group:tsaesci
 							this.culture.culture_group = culture_group:echmer
+							this.culture.culture_group = culture_group:kamal
+							this.culture.culture_group = culture_group:esral
 						}
 					}
 				}
@@ -64,6 +70,8 @@
 						OR = {
 							this.culture.culture_group = culture_group:tsaesci
 							this.culture.culture_group = culture_group:echmer
+							this.culture.culture_group = culture_group:kamal
+							this.culture.culture_group = culture_group:esral
 						}
 					}
 				}
@@ -90,6 +98,8 @@
 						OR = {
 							this.culture.culture_group = culture_group:tsaesci
 							this.culture.culture_group = culture_group:echmer
+							this.culture.culture_group = culture_group:kamal
+							this.culture.culture_group = culture_group:esral
 						}
 					}
 				}

@@ -4,9 +4,9 @@
 	form_sommerset= {
 		
 		potential = {
-			OR = {
-				country_culture_group = altmer
-			}
+			#OR = {
+			#	country_culture_group = altmer
+			#}
 			#is_tribal = yes
 			NOR = {
 				tag = XSO

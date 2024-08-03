@@ -4,10 +4,10 @@
 	form_hkresdayn = {
 		
 		potential = {
-			OR = {
-				country_culture_group = chimer
-				country_culture_group = dwemer
-			}
+			#OR = {
+			#	country_culture_group = chimer
+			#	country_culture_group = dwemer
+			#}
 			#is_tribal = yes
 			NOT = {
 				tag = XRS

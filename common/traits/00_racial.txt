@@ -119,6 +119,20 @@ echmer = {
 	martial = 3
 }
 
+kamal = {
+	type = status
+	finesse = 1
+	zeal = 2
+	martial = 3
+}
+
+esral = {
+	type = status
+	charisma = 2
+	zeal = 3
+	martial = 1
+}
+
 tsaesci = {
 	type = status
 	

@@ -446,3 +446,33 @@ esfa_startup.26 = { #Atmora
         name = esfa_startup.26.a
     }
 }
+
+esfa_startup.27 = { #Kamal
+	type = country_event
+    title = esfa_startup.27.t
+    desc = esfa_startup.27.desc
+    picture = welcoming_window_27
+	
+    trigger = {
+		country_culture_group = kamal
+    }
+
+    option = {    
+        name = esfa_startup.27.a
+    }
+}
+
+esfa_startup.28 = { #Esral
+	type = country_event
+    title = esfa_startup.28.t
+    desc = esfa_startup.28.desc
+    picture = welcoming_window_28
+	
+    trigger = {
+		country_culture_group = esral
+    }
+
+    option = {    
+        name = esfa_startup.28.a
+    }
+}

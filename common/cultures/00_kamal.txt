@@ -1,0 +1,43 @@
+﻿kamal = {	
+	color = hsv { 0.74 0.57 0.88 }
+
+	primary = lv_archers
+	second = lv_heavyinfantry
+	flank = lv_horsearchers
+	
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	levy_template = levy_kamal
+
+	male_names = {
+		Zyrsyssuk Ryduen Endas Revilexhij Dalruk Adredin Kega Dhifan Nydregen Zhelexes Nifij Virrysserres
+		Ziraj Vidrij Ilvike Arde Sezagira Alirre Serek Gyndenerih Shersheh Shylan Valrykuj Gella Assexanus
+		Selnakuh Refij Melruj Agij Masah Dashiej Mavilerraj Chanrirryssuk Nenrideruk Nendegin Nirdek Kinneh
+		Kendissilij Dhalluk Gezaku
+	}
+	female_names = {
+		Leirhi Fina Mirhe Feshi Reil Fylla Zilli Rinni Feish Rhella Reshe Miesh Qizi Rheene Laanna Qeila
+		Rhiall Laashe Vyse Finna Fiad Ceza Hila Naera Haan Faid Naan Qeesh Feinni Lela Vhesa Vien Haall
+		Rafi Zasi Hiani Raath Raase Fefe Kise Kaize Zied Mian Heire Keala Zaella Hina Caeth Vhilla Rhier
+	}
+	family = {
+		Xhallessik Gelres Nij Shersaj Dhefus Rersheh Zen Mezan Elnaj Elveleh Elnaruh Channen Zirdin Vire 
+		Vilvaj Zhide Gylvixhis Nydren Nigresaj Xhygrih Agryssik Chini Vinu Res Gyllyssih Nelvis Gazzaxagik
+		Shidressej Igrerah Ifi Vallak Ezzij Sashi Selvij Igis Gazerrus Redde Adin Nysirisih Zhasagij Garda
+		Dhissygylas Kessuj
+	}
+	culture = {
+		kesronic = {}
+	}
+	
+	barbarian_names = { 
+		ELYMAEI CHALDAEI RHAMBAIOI KARDUCHOI GARAMAIOI
+	}
+	
+	graphical_culture = japanese_gfx
+	ethnicities = {
+		10 = japan
+	}
+}
