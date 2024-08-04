@@ -1,6 +1,6 @@
 ﻿alessianempire_01_alessianrevolt = { # Alessian Revolt
-	icon = phrygia_2
-	header = mission_image_phrygia
+	icon = alessianempire_01
+	header = alessianempire_01 #mission_image_phrygia
 	
 	repeatable = no
 
@@ -66,8 +66,8 @@
     	#trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
-	alessianempire_01_alessianrevolt_1 = { # Eastern Capital
-		icon = task_economical
+	alessianempire_01_alessianrevolt_1 = { # Rebelion Starts
+		icon = task_conquest
 		duration = 730
 		#monthly_on_action = antigonid_01_vision_1_on_action
 
