@@ -36,7 +36,7 @@
     	save_scope_as = me_alessianrevolt_scope
     	show_as_tooltip = {
     		add_country_modifier = {
-	            name = me_ant_1_cmod
+	            name = revolt_starts
 	            duration = 3650 # 10 years
 	        }
     	}
@@ -46,8 +46,8 @@
 	on_abort = {
     	custom_tooltip = ant_1_mission_cooldown_tt
     	if = {
-	    	limit = { has_country_modifier = me_ant_1_cmod }
-    		remove_country_modifier = me_ant_1_cmod
+	    	limit = { has_country_modifier = revolt_starts }
+    		remove_country_modifier = revolt_starts
 	    }
 		set_variable = {
 			name = alessianempire_01_alessianrevolt
@@ -58,7 +58,7 @@
 	on_completion = {
     	show_as_tooltip = {
     		add_country_modifier = {
-    			name = me_ant_1_end_cmod
+    			name = revolt_victory
     			duration = 7300 # 20 years
     		}
     	}
@@ -66,18 +66,18 @@
     	#trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
-	alessianempire_01_alessianrevolt_1 = { # Rebelion Starts
+	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
 		icon = task_conquest
 		duration = 730
 		#monthly_on_action = antigonid_01_vision_1_on_action
 
 		allow = {
-			owns = 1288
-			treasury >= 250
+			#owns = 1288
+			treasury >= 200
 		}
 
 		highlight = {
-			scope:province = { province_id = 1288 }
+			#scope:province = { province_id = 1288 }
 		}
 
 		on_start = {
@@ -86,26 +86,26 @@
 				name = alessianempire_01_alessianrevolt_1_start
 				days = 730
 			}
-			show_as_tooltip = { add_treasury = -250 }
+			show_as_tooltip = { add_treasury = -200 }
 		}
 
 		on_completion = {
 			#trigger_event = { id = me_antigonid_1_vision.12 }
-			show_as_tooltip = {
-				current_ruler = {
-					add_popularity = popularity_medium
-					if = {
-						limit = { number_of_traits <= 5 }
-						add_trait = founder
-					}
+			#show_as_tooltip = {
+			#	current_ruler = {
+			#		add_popularity = popularity_medium
+			#		if = {
+			#			limit = { number_of_traits <= 5 }
+			#			add_trait = founder
+			#		}
 				}
-				p:1288 = {
-					add_province_modifier = {
-						name = ant_01_1_pmod
-						duration = -1
-					}
-				}
-			}
+				#p:1288 = {
+				#	add_province_modifier = {
+				#		name = ant_01_1_pmod
+				#		duration = -1
+				#	}
+				#}
+			#}
 		}
 
 		bypass = {
