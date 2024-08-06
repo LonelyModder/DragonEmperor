@@ -1,0 +1,28 @@
+﻿"KBS"={
+	country="KBS"
+	
+	59={
+		#first_name="Nisaazda"
+		family = c:KBS.fam:Cyrod
+		birth_date=90.1.1
+		culture="nednibenese"
+		religion="elven_pantheon"
+		#female=yes
+		no_stats=yes
+		add_martial=8
+		add_charisma=7
+		add_finesse=4
+		add_zeal=6
+		no_traits=yes
+		add_trait="tnede"
+		add_trait="alesh"
+		add_trait="dragonblood"
+		add_gold=500
+		add_popularity=100
+		#dna=""
+		c:KBS={
+			set_as_ruler=char:59
+		}
+	}
+	
+}

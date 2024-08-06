@@ -544,6 +544,12 @@ family={
 			culture = bantan
 			prestige=300
 		}
+		36={
+			key="Cyrod"
+			owner=KBS
+			culture = nednibenese
+			prestige=300
+		}
 		
 		}
 }
@@ -4065,7 +4071,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1343 1338 1342 1339 1341 1340 1337 1261 1262 1264 1277 1263 1278 1344 1345 1347 1359
+				  1343 1338 1342 1339 1341 1340 1337 1261 1262 1264 1277 1263 1278 1344 1345 1347 1359 1346 1350 1349
 			}
 		}
 		
@@ -4085,7 +4091,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1316 1308 1314 1321 1225 1231 1320 1323 1324 1336
+				1316 1308 1314 1321 1225 1231 1320 1323 1324 1336 1335 1322 1334
 			}
 		}
 		
@@ -4096,7 +4102,7 @@ country = {
 			capital = 1326
 			
 			own_control_core = 	{ 
-				1326 1327 1325 1346 1350 1349
+				1326 1327 1325
 			}
 		}
 		
@@ -4158,7 +4164,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1305 1310 1306 1307 1301 1309 1313
+				1305 1310 1306 1307 1301 1309 
 			}
 		}
 		
@@ -6560,7 +6566,8 @@ country = {
 			}
 		}
 		
-		KBS = {          
+		KBS = { 
+			family=36
 			government = despotic_monarchy
 			primary_culture = nednibenese
 			religion = elven_pantheon
@@ -6578,7 +6585,7 @@ country = {
 			capital = 1311
 			
 			own_control_core = 	{ 
-				1311 1315 1322 1335 1334
+				1311 1315 1313
 			}
 		}
 		

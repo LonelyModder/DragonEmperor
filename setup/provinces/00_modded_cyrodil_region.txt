@@ -10368,23 +10368,18 @@
 	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	nobles={
+	province_rank="settlement"
+	citizen={
 		amount=1
 	}
-	citizen={
-		amount=4
-	}
 	freemen={
-		amount=7
+		amount=2
 	}
 	slaves={
 		amount=1
 	}
-	freemen={
-		amount=6
-		culture="nednibenese"
-		religion="nedic_pantheon"
+	tribesmen={
+		amount=4
 	}
 }
 
@@ -12049,18 +12044,18 @@
 	terrain="plains"
 	trade_goods="cloth"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
+	province_rank="settlement"
+	freemen={
+		amount=1
+	}
+	tribesmen={
 		amount=4
 	}
-	freemen={
-		amount=7
-	}
 	slaves={
-		amount=3
+		amount=1
 	}
 }
 

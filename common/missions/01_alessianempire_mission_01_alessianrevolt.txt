@@ -1,6 +1,6 @@
 ﻿alessianempire_01_alessianrevolt = { # Alessian Revolt
 	icon = alessianempire_01
-	header = alessianempire_01 #mission_image_phrygia
+	header = mission_image_rome #mission_image_phrygia
 	
 	repeatable = no
 
@@ -13,6 +13,11 @@
 	potential = { 
 		NOT = { has_variable = alessianempire_01_alessianrevolt }
 		primary_culture = nednibenese
+		region:modded_sjerall_region = {
+            any_region_province = {
+                owned_or_subject_owned = root
+            }
+        }
 		is_monarchy = yes
 		is_subject = no
 		has_civil_war = no
@@ -34,6 +39,10 @@
 	on_start = {
     	start_mission_ai_effect = yes
     	save_scope_as = me_alessianrevolt_scope
+		add_country_modifier = {
+	        name = revolt_starts
+	        duration = 3650 # 10 years
+	    }
     	show_as_tooltip = {
     		add_country_modifier = {
 	            name = revolt_starts
@@ -56,6 +65,10 @@
     }
 	
 	on_completion = {
+		add_country_modifier = {
+    		name = revolt_victory
+    		duration = 7300 # 20 years
+    	}
     	show_as_tooltip = {
     		add_country_modifier = {
     			name = revolt_victory
@@ -68,7 +81,7 @@
 	
 	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
 		icon = task_conquest
-		duration = 730
+		#duration = 730
 		#monthly_on_action = antigonid_01_vision_1_on_action
 
 		allow = {
@@ -82,10 +95,6 @@
 
 		on_start = {
 			#trigger_event = { id = me_antigonid_1_vision.11 }
-			set_variable = {
-				name = alessianempire_01_alessianrevolt_1_start
-				days = 730
-			}
 			show_as_tooltip = { add_treasury = -200 }
 		}
 
@@ -106,32 +115,6 @@
 				#	}
 				#}
 			#}
-		}
-
-		bypass = {
-			OR = {
-				has_variable = alessianempire_01_alessianrevolt_1_bypass
-				#has_variable = seleukid_deal_flag
-				AND = {
-					has_variable = antigonid_01_vision_1_start
-					NOT = {	owns = 1288 }
-				}
-			}
-		}
-
-		on_bypass = {
-			if = {
-				limit = { has_variable = alessianempire_01_alessianrevolt_1_bypass }
-				remove_variable = alessianempire_01_alessianrevolt_1_bypass
-			}
-			if = {
-				limit = {
-					has_variable = alessianempire_01_alessianrevolt_1_start
-					NOT = {	owns = 1288 }
-				}
-				remove_variable = alessianempire_01_alessianrevolt_1_start
-				#trigger_event = { id = me_antigonid_1_vision.14 }
-			}
 		}
 	}
 	
