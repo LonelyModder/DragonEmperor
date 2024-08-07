@@ -81,7 +81,7 @@
 	
 	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
 		icon = task_conquest
-		#duration = 730
+		duration = 30
 		#monthly_on_action = antigonid_01_vision_1_on_action
 
 		allow = {
@@ -94,12 +94,16 @@
 		}
 
 		on_start = {
-			#trigger_event = { id = me_antigonid_1_vision.11 }
+			trigger_event = { id = alessian_revolt_mission_1.1 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 365
+			}
 			show_as_tooltip = { add_treasury = -200 }
 		}
 
 		on_completion = {
-			#trigger_event = { id = me_antigonid_1_vision.12 }
+			trigger_event = { id = alessian_revolt_mission_1.2 }
 			#show_as_tooltip = {
 			#	current_ruler = {
 			#		add_popularity = popularity_medium

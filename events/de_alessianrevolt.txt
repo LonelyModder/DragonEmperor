@@ -1,6 +1,6 @@
-﻿namespace = alessian_revolt
+﻿namespace = alessian_revolt_mission_1
 
-alessian_revolt.11 = { # Revolt of Alessia the automatic option
+alessian_revolt_mission_1.11 = { # Revolt of Alessia the automatic option
 	type = country_event
 	hidden = yes
 	fire_only_once = yes
@@ -595,7 +595,7 @@ alessian_revolt.6 = { # Pelinal Leadership
 	}
 }
 
-alessian_revolt.7 = { # The Atatar Intervention in Besarabic Lands
+alessian_revolt_mission_1.7 = { # The Atatar Intervention in Besarabic Lands
 	type = country_event
 	hidden = yes
 	fire_only_once = yes
@@ -853,5 +853,92 @@ alessian_revolt.13 = { # Umaril's Death
 	
 	option = { 
 		name = "alessian_revolt.13.a"
+	}
+}
+
+# Alessian Revolt Mission Tree
+
+alessian_revolt_mission_1.1 = { # Tribal Gathering
+	type = country_event
+	title = "alessian_revolt_mission_1.1.t"
+	desc = "alessian_revolt_mission_1.1.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.1.a"
+	}
+}
+
+alessian_revolt_mission_1.2 = { # Aid from the Devines
+	type = country_event
+	title = "alessian_revolt_mission_1.2.t"
+	desc = "alessian_revolt_mission_1.2.desc"
+	fire_only_once = yes
+	hidden = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		create_character = {
+			first_name = "Morihaus"
+			family_name = "Cyrod"
+			no_stats = yes
+			add_trait="minotaur"
+			culture = minotauran
+			religion = nedic_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = mori_gov
+		}
+				
+		create_character = {
+			first_name = "Pelinal"
+			family_name = "Whitestrike"
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="shezzarine"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 30
+			add_martial=10
+			add_charisma=8
+			add_finesse=2
+			add_zeal=10
+			save_scope_as = pelinal_gov
+		}
+		trigger_event = {
+			id = alessian_revolt_mission_1.3
+		}
+	}
+}
+
+alessian_revolt_mission_1.3 = { # Aid from the Devines - Message
+	type = country_event
+	title = "alessian_revolt_mission_1.3.t"
+	desc = "alessian_revolt_mission_1.3.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:mori_gov
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.3.a"
 	}
 }
