@@ -43,13 +43,6 @@
 	        name = revolt_starts
 	        duration = 3650 # 10 years
 	    }
-    	show_as_tooltip = {
-    		add_country_modifier = {
-	            name = revolt_starts
-	            duration = 3650 # 10 years
-	        }
-    	}
-    	#trigger_event = { id = me_antigonid_1_vision.1 }
     }
 	
 	on_abort = {
@@ -69,12 +62,6 @@
     		name = revolt_victory
     		duration = 7300 # 20 years
     	}
-    	show_as_tooltip = {
-    		add_country_modifier = {
-    			name = revolt_victory
-    			duration = 7300 # 20 years
-    		}
-    	}
     	complete_mission_effect = yes #
     	#trigger_event = { id = me_antigonid_1_vision.2 }
     }
@@ -82,15 +69,13 @@
 	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
 		icon = task_conquest
 		duration = 30
-		#monthly_on_action = antigonid_01_vision_1_on_action
 
 		allow = {
-			#owns = 1288
-			treasury >= 200
+			treasury >= 100
 		}
 
 		highlight = {
-			#scope:province = { province_id = 1288 }
+			
 		}
 
 		on_start = {
@@ -99,26 +84,11 @@
 				name = ongoing_mission_pulse_flag
 				days = 365
 			}
-			show_as_tooltip = { add_treasury = -200 }
+			show_as_tooltip = { add_treasury = -100 }
 		}
 
 		on_completion = {
 			trigger_event = { id = alessian_revolt_mission_1.2 }
-			#show_as_tooltip = {
-			#	current_ruler = {
-			#		add_popularity = popularity_medium
-			#		if = {
-			#			limit = { number_of_traits <= 5 }
-			#			add_trait = founder
-			#		}
-				}
-				#p:1288 = {
-				#	add_province_modifier = {
-				#		name = ant_01_1_pmod
-				#		duration = -1
-				#	}
-				#}
-			#}
 		}
 	}
 	

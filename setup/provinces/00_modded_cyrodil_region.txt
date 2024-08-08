@@ -5857,8 +5857,12 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
 	citizen={
-		amount=4
+		amount=8
 		religion="deadric_pantheon"
 	}
 	freemen={
@@ -5866,10 +5870,6 @@
 	}
 	slaves={
 		amount=3
-		culture="nednibenese"
-	}
-	slaves={
-		amount=1
 	}
 }
 

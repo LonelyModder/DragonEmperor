@@ -3338,6 +3338,59 @@ JominiMultiplayerLobby = {
 			resizeparent = yes
 			
 			country_flag = {
+				name = "Alessians"
+				tooltip = "AlessiansINTRO"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KBS').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[HasDlc( 'The Punic Wars' )]"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('KBS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('KBS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('KBS')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
+				name = "Alessians2"
+				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('KBS').Self )]"
+				onmousehierarchyleave = "[ClearHighlightColors]"
+				visible = "[Not( HasDlc( 'The Punic Wars' ) )]"
+				enabled = no
+				tooltip = "UNOWNED_DLC_STRING_PUNIC_WARS"
+				blockoverride "flag"
+				{
+					texture = "[GetCountry('KBS').AccessCoatOfArms.GetTexture('(int32)120','(int32)120')]"
+					frame = "[GetCountry('KBS').AccessCoatOfArms.GetFrame('(int32)120','(int32)120')]"
+					framesize = { 120 120 }
+				}
+				
+				blockoverride "size"
+				{
+					size = { 42 42 }
+				}
+				
+				blockoverride "click"
+				{
+					onclick = "[SetLobbyCountryTag('KBS')]"
+					clicksound = "event:/SFX/UI/Province/sfx_ui_province_select"
+					oversound = "event:/SFX/UI/Generic/sfx_ui_generic_mouse_over"
+				}			
+			}
+			
+			country_flag = {
 				name = "Alinor"
 				tooltip = "AlinorINTRO"
 				onmousehierarchyenter = "[SetHighlightCountry( GetCountry('AAA').Self )]"
