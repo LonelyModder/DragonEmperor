@@ -942,3 +942,123 @@ alessian_revolt_mission_1.3 = { # Aid from the Devines - Message
 		name = "alessian_revolt_mission_1.3.a"
 	}
 }
+
+alessian_revolt_mission_1.4 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.4.t"
+	desc = "alessian_revolt_mission_1.4.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:mori_gov
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.4.a"
+	}
+}
+
+alessian_revolt_mission_1.5 = { 
+	type = country_event
+	title = "alessian_revolt_mission_1.5.t"
+	desc = "alessian_revolt_mission_1.5.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:mori_gov
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					any_army = {
+						has_legion_trigger = yes
+						legion = ROOT.capital_scope.governorship.legion
+					}
+				}
+			}
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						add_subunit = engineer_cohort
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			#add_country_modifier = {
+			#	name = cymmerian_invasion_modifier
+			#	duration = 14600 # 10 years
+			#}
+			every_unit = {
+				add_food = 100
+			}
+			#add_treasury = 300
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.5.a"
+	}
+}
+
+alessian_revolt_mission_1.6 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.6.t"
+	desc = "alessian_revolt_mission_1.6.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.6.a"
+	}
+}

@@ -92,5 +92,41 @@
 		}
 	}
 	
+	alessianempire_01_alessianrevolt_2 = { # Aid from the North
+		#requires = { alessianempire_01_alessianrevolt_1 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.6 }
+		}
+		
+		on_completion = {
+		
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
+		requires = { alessianempire_01_alessianrevolt_1 }
+		icon = task_conquest
+		duration = 90
+		
+		allow = {
+			treasury >= 100
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.4 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.5 }
+		}
+	}
+	
 }
 	
