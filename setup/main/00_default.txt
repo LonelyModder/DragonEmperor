@@ -4070,7 +4070,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1343 1338 1342 1339 1341 1340 1337 1261 1262 1264 1277 1263 1278 1344 1345 1347 1359 1346 1350 1349
+				  1343 1338 1342 1339 1341 1340 1337 1261 1262 1264 1277 1263 1278 1344 1345 1359 
 			}
 		}
 		
@@ -4163,7 +4163,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1305 1310 1306 1307 1301 1309 
+				1305 1306 1307
 			}
 		}
 		
@@ -4411,7 +4411,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1388 1406 1397 1398 1396 1424 1387 1413 1389 1386
+				1388 1406 1397 1398 1424 1387 1413 1389 1386
 			}
 		}
 				
@@ -4539,7 +4539,24 @@ country = {
 			religion = elven_pantheon
 			capital = 1168
 			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
 			
+			own_control_core = 	{
+				1168 1169 1170 1171 1167 1153 1152 
+				1165 1134 1159 1151 1154 1158 1157 
+			}
+		}
+		
+		EAN = {          
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = elven_pantheon
+			capital = 1137
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -4549,8 +4566,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				1168 1169 1170 1171 1167 1153 1152 1159 1151 1154 1158 1157 
-				1165 1134 1155 1135 1136 1156 1160 1133 1139 1138 1137
+				1137 1133 1138 1139 1160 1156 1136 1155 1135
 			}
 		}
 		
@@ -4745,7 +4761,7 @@ country = {
 		}
 		
 		CCI = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1145
@@ -4773,7 +4789,7 @@ country = {
 			capital = 1390
 			
 			own_control_core = 	{ 
-				1390 1377
+				1390 1377 1396
 			}
 		}
 		
@@ -4789,7 +4805,7 @@ country = {
 		}
 		
 		CCO = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1570
@@ -4935,7 +4951,7 @@ country = {
 		}
 		
 		VAO = {   
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nedcolovian
 			religion = nedic_pantheon
 			capital = 931
@@ -5054,7 +5070,7 @@ country = {
 			own_control_core = 	{ 
 				1511 1512 1513 1514 1517 1518 1519 1520 1521 1534 1507
 				1497 1500 1501 1502 1505 1503 1506 1504 1523 1522
-				1525 1526 1527 1530 1531 1536 1537 1533 1532 1529 1524 1528
+				1525 1526 1527 1530 1531 1529 1524 1528
 			}
 		}
 		
@@ -9480,6 +9496,51 @@ country = {
 				814 816 815 818 817 802 801 809 813 799 808 812 819 820
 			}
 		}
+		
+		EAJ = { 
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = elven_pantheon
+			capital = 1310
+			
+			own_control_core = 	{ 
+				1310 1301 1309
+			}
+		}
+		
+		EAK = { 
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = elven_pantheon
+			capital = 1346
+			
+			own_control_core = 	{ 
+				1346 1350 1349 1347
+			}
+		}
+		
+		EAL = { 
+			government = despotic_monarchy
+			primary_culture = nedcolovian
+			religion = nedic_pantheon
+			capital = 1030
+			
+			own_control_core = 	{ 
+				1030 1010 1031 1027
+			}
+		}
+		
+		EAM = { 
+			government = tribal_kingdom
+			primary_culture = nednibenese
+			religion = elven_pantheon
+			capital = 1537
+			
+			own_control_core = 	{ 
+				1537 1536 1533 1532
+			}
+		}
+		
 	}
 }
 
