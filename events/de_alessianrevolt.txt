@@ -1,6 +1,6 @@
 ﻿namespace = alessian_revolt_mission_1
 
-alessian_revolt_mission_1.30 = { # The Atatar Intervention in Besarabic Lands
+alessian_revolt_mission_1.100 = { # The Atatar Intervention in Besarabic Lands
 	type = country_event
 	hidden = yes
 	fire_only_once = yes
@@ -604,7 +604,7 @@ alessian_revolt_mission_1.13 = { # Nords in Bruma
 	}
 	
 	option = { 
-		name = "alessian_revolt_mission_1.12.a"
+		name = "alessian_revolt_mission_1.13.a"
 		
 	}
 }
@@ -660,6 +660,168 @@ alessian_revolt_mission_1.14 = { # Nords in Bruma
                 religion = nordic_pantheon
                 }
             }
+		}
+	}
+}
+
+alessian_revolt_mission_1.15 = { # Nords in Cheydinhal
+	type = country_event
+	title = "alessian_revolt_mission_1.15.t"
+	desc = "alessian_revolt_mission_1.15.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag = KBS
+		owns = 1412
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.15.a"
+		
+	}
+}
+
+alessian_revolt_mission_1.16 = { # Nords in Cheydinhal
+	type = country_event
+	title = "alessian_revolt_mission_1.16.t"
+	desc = "alessian_revolt_mission_1.16.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag = KBS
+		owns = 1412
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.16.a"
+		p:1412 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+			while = {
+                count = 1
+                define_pop = {
+                type = nobles
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = tribesmen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+		}
+	}
+}
+
+alessian_revolt_mission_1.17 = { # Foundation of Bravil
+	type = country_event
+	title = "alessian_revolt_mission_1.17.t"
+	desc = "alessian_revolt_mission_1.17.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag = KBS
+		owns = 1173
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.17.a"
+		
+	}
+}
+
+alessian_revolt_mission_1.18 = { # Foundation of Bravil
+	type = country_event
+	title = "alessian_revolt_mission_1.18.t"
+	desc = "alessian_revolt_mission_1.18.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag = KBS
+		owns = 1173
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.18.a"
+		p:1173 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+			while = {
+                count = 1
+                define_pop = {
+                type = nobles
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = tribesmen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+		}
+		
+		create_character = {
+			first_name = "Teo"
+			family_name = "Bravillius Tasus"
+			no_stats = yes
+			add_trait="tnede"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = teobrav_gov
 		}
 	}
 }

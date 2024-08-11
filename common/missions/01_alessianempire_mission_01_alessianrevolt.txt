@@ -28,7 +28,7 @@
 	abort = {	
 		OR = {
 			is_monarchy = no
-			NOT = { primary_culture = macedonian }
+			NOT = { primary_culture = nednibenese }
 			custom_tooltip = {
 				text = alessianempire_01_alessianrevolt_abort_tt
 				has_global_variable = alessianrevolt_fail
@@ -116,7 +116,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		requires = {  }
+		#requires = {  }
 		icon = task_conquest
 		duration = 90
 		
@@ -133,6 +133,7 @@
 		
 		on_start = {
 			trigger_event = { id = alessian_revolt_mission_1.4 }
+			show_as_tooltip = { add_treasury = -100 }
 		}
 		
 		on_completion = {
@@ -141,7 +142,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_4 = { # Rising in Revolt
-		requires = {  }
+		#requires = {  }
 		icon = task_conquest
 		#duration = 90
 		
@@ -178,10 +179,8 @@
 		}
 	}
 	
-}
-
-alessianempire_01_alessianrevolt_5 = { # Dread Castellan
-		requires = {  }
+	alessianempire_01_alessianrevolt_5 = { # Dread Castellan
+		#requires = {  }
 		icon = task_conquest
 		duration = 5
 		
@@ -212,10 +211,10 @@ alessianempire_01_alessianrevolt_5 = { # Dread Castellan
 		}
 	}
 	
-}
 
-alessianempire_01_alessianrevolt_6 = { # First Capital
-		requires = {  }
+
+	alessianempire_01_alessianrevolt_6 = { # First Capital
+		#requires = {  }
 		icon = task_conquest
 		
 		allow = {
@@ -239,32 +238,93 @@ alessianempire_01_alessianrevolt_6 = { # First Capital
 		}
 	}
 	
-}
 
-alessianempire_01_alessianrevolt_7 = { # Nords in Bruma
-		requires = {  }
+
+	alessianempire_01_alessianrevolt_7 = { # Nords in Bruma
+		requires = { alessianempire_01_alessianrevolt_2 }
 		icon = task_conquest
 		duration = 30
 		
 		allow = {
 			owns = 1326
+			treasury >= 100
 		}
 		
 		highlight = {
 			scope:province = {
 				OR = {
-					province_id = owns = 1326
+					province_id = 1326
 				}
 			}
 		}
 		
 		on_start = {
 			trigger_event = { id = alessian_revolt_mission_1.13}
+			show_as_tooltip = { add_treasury = -100 }
 		}
 		
 		on_completion = {
 			trigger_event = { id = alessian_revolt_mission_1.14}
 		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_8 = { # Nords in Cheydinhal
+		requires = { alessianempire_01_alessianrevolt_2 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			owns = 1412
+			treasury >= 100
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1412
+				}
+			}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.15}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.16}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_9 = { # Founding Bravil
+		#requires = { alessianempire_01_alessianrevolt_2 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			owns = 1173
+			treasury >= 100
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1173
+				}
+			}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.17}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.18}
+		}
+		#final = yes # For final mission in a tree
 	}
 	
 }
