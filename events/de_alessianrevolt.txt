@@ -596,7 +596,7 @@ alessian_revolt_mission_1.13 = { # Nords in Bruma
 	title = "alessian_revolt_mission_1.13.t"
 	desc = "alessian_revolt_mission_1.13.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = migrating_nords
 	
 	trigger = {
 		tag = KBS
@@ -614,7 +614,7 @@ alessian_revolt_mission_1.14 = { # Nords in Bruma
 	title = "alessian_revolt_mission_1.14.t"
 	desc = "alessian_revolt_mission_1.14.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = migrating_nords
 	
 	trigger = {
 		tag = KBS
@@ -669,7 +669,7 @@ alessian_revolt_mission_1.15 = { # Nords in Cheydinhal
 	title = "alessian_revolt_mission_1.15.t"
 	desc = "alessian_revolt_mission_1.15.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = migrating_nords
 	
 	trigger = {
 		tag = KBS
@@ -687,7 +687,7 @@ alessian_revolt_mission_1.16 = { # Nords in Cheydinhal
 	title = "alessian_revolt_mission_1.16.t"
 	desc = "alessian_revolt_mission_1.16.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = migrating_nords
 	
 	trigger = {
 		tag = KBS
@@ -742,7 +742,7 @@ alessian_revolt_mission_1.17 = { # Foundation of Bravil
 	title = "alessian_revolt_mission_1.17.t"
 	desc = "alessian_revolt_mission_1.17.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = bravils_construction
 	
 	trigger = {
 		tag = KBS
@@ -760,7 +760,7 @@ alessian_revolt_mission_1.18 = { # Foundation of Bravil
 	title = "alessian_revolt_mission_1.18.t"
 	desc = "alessian_revolt_mission_1.18.desc"
 	fire_only_once = yes
-	picture = alessian_revolution
+	picture = bravils_construction
 	
 	trigger = {
 		tag = KBS
@@ -823,5 +823,49 @@ alessian_revolt_mission_1.18 = { # Foundation of Bravil
 			add_gold=500
 			save_scope_as = teobrav_gov
 		}
+	}
+}
+
+alessian_revolt_mission_1.19 = { # Conditional Surrender
+	type = country_event
+	title = "alessian_revolt_mission_1.19.t"
+	desc = "alessian_revolt_mission_1.19.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.19.a"
+	}
+}
+
+alessian_revolt_mission_1.20 = { # Conditional Surrender
+	type = country_event
+	title = "alessian_revolt_mission_1.20.t"
+	desc = "alessian_revolt_mission_1.20.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		primary_culture = colovianelves
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.20.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+			}
+			set_conquered_by = c:KBS
+		}
+		ai_chance = { base = 8 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.20.b"
+		ai_chance = { base = 2 }
 	}
 }

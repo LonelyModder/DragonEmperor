@@ -94,7 +94,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_2 = { # Aid from the North
-		#requires = { alessianempire_01_alessianrevolt_1 }
+		requires = { alessianempire_01_alessianrevolt_1 }
 		icon = task_conquest
 		duration = 30
 		
@@ -116,19 +116,17 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		#requires = {  }
+		requires = { alessianempire_01_alessianrevolt_4 }
 		icon = task_conquest
 		duration = 90
 		
 		allow = {
 			treasury >= 100
-			NOT = {
-				any_army = {
-					has_legion_trigger = yes
-					legion = ROOT.capital_scope.governorship.legion
-				}
+			any_army = {
+				NOT = { has_legion_trigger = yes }
+				NOT = { legion = ROOT.capital_scope.governorship.legion }
 			}
-			num_of_provinces >= 30
+			#num_of_provinces >= 30
 		}
 		
 		on_start = {
@@ -142,7 +140,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_4 = { # Rising in Revolt
-		#requires = {  }
+		requires = { alessianempire_01_alessianrevolt_1 }
 		icon = task_conquest
 		#duration = 90
 		
@@ -180,17 +178,13 @@
 	}
 	
 	alessianempire_01_alessianrevolt_5 = { # Dread Castellan
-		#requires = {  }
+		requires = { alessianempire_01_alessianrevolt_1 }
 		icon = task_conquest
 		duration = 5
 		
 		allow = {
-			random_owned_province = { # Neighbouring Umaril
-				limit = {
-					any_neighbor_province = {
-						owner = c:CAA
-					}
-				}
+			any_neighbour_country = {
+				tag = CAA
 			}
 		}
 		
@@ -214,7 +208,7 @@
 
 
 	alessianempire_01_alessianrevolt_6 = { # First Capital
-		#requires = {  }
+		requires = { alessianempire_01_alessianrevolt_4 }
 		icon = task_conquest
 		
 		allow = {
@@ -327,5 +321,36 @@
 		#final = yes # For final mission in a tree
 	}
 	
+	alessianempire_01_alessianrevolt_10 = { # Negotiating with Colovian Ayleid leaders
+		requires = { alessianempire_01_alessianrevolt_4 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1059
+			treasury >= 200
+			any_integrated_culture = {
+                is_culture = nedcolovian
+            }
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1059
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.19}
+			show_as_tooltip = { add_treasury = -200 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.20}
+		}
+		#final = yes # For final mission in a tree
+	}
 }
 	

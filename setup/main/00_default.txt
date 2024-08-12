@@ -4536,7 +4536,7 @@ country = {
 		CCZ = {          
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1168
 			
 			technology={
@@ -4555,7 +4555,7 @@ country = {
 		EAN = {          
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1137
 			
 			technology={
@@ -4573,7 +4573,7 @@ country = {
 		CCY = {          
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1120
 			
 			
@@ -5024,15 +5024,8 @@ country = {
 		VAT = {          
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1488
-			
-			poptype_rights = {
-				{
-					culture = nednibenese
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -5138,7 +5131,7 @@ country = {
 		VBA = {          
 			government = despotic_monarchy
 			primary_culture = heartlanderelves
-			religion = elven_pantheon
+			religion = deadric_pantheon
 			capital = 1246
 			
 			
@@ -6587,6 +6580,13 @@ country = {
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1285
+			
+			#poptype_rights = {
+			#	{
+			#		culture = nedcolovian 
+			#		type = citizen
+			#	}
+			#}
 			
 			own_control_core = 	{ 
 				1289 1285 1293 1292 1066 1284 1294
