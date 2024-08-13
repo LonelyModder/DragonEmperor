@@ -116,16 +116,13 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		requires = { alessianempire_01_alessianrevolt_4 }
+		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_2 }
 		icon = task_conquest
 		duration = 90
 		
 		allow = {
 			treasury >= 100
-			any_army = {
-				NOT = { has_legion_trigger = yes }
-				NOT = { legion = ROOT.capital_scope.governorship.legion }
-			}
+			NOT = { has_legion_trigger = yes }
 			#num_of_provinces >= 30
 		}
 		
@@ -183,9 +180,8 @@
 		duration = 5
 		
 		allow = {
-			any_neighbour_country = {
-				tag = CAA
-			}
+			owns = 1094
+			NOT = {owns = 1071}
 		}
 		
 		highlight = {
@@ -293,7 +289,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_9 = { # Founding Bravil
-		#requires = { alessianempire_01_alessianrevolt_2 }
+		requires = { alessianempire_01_alessianrevolt_3 }
 		icon = task_conquest
 		duration = 30
 		
@@ -324,7 +320,7 @@
 	alessianempire_01_alessianrevolt_10 = { # Negotiating with Colovian Ayleid leaders
 		requires = { alessianempire_01_alessianrevolt_4 }
 		icon = task_conquest
-		duration = 30
+		#duration = 30
 		
 		allow = {
 			#owns = 1059
@@ -343,12 +339,15 @@
 		}
 		
 		on_start = {
-			trigger_event = { id = alessian_revolt_mission_1.19}
-			show_as_tooltip = { add_treasury = -200 }
+			
 		}
 		
 		on_completion = {
-			trigger_event = { id = alessian_revolt_mission_1.20}
+			trigger_event = { id = alessian_revolt_mission_1.19}
+			show_as_tooltip = { add_treasury = -200 }
+			set_global_variable = {
+				name = colovian_surrender
+			}
 		}
 		#final = yes # For final mission in a tree
 	}

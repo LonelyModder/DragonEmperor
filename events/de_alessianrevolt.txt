@@ -214,11 +214,8 @@ alessian_revolt_mission_1.1 = { # Tribal Gathering
 
 alessian_revolt_mission_1.2 = { # Aid from the Devines
 	type = country_event
-	title = "alessian_revolt_mission_1.2.t"
-	desc = "alessian_revolt_mission_1.2.desc"
 	fire_only_once = yes
 	hidden = yes
-	picture = alessian_revolution
 	
 	trigger = {
 		tag=KBS
@@ -495,7 +492,7 @@ alessian_revolt_mission_1.9 = {
 					killer = char:2 }
         }
 		trigger_event = {
-			id = aalessian_revolt_mission_1.10
+			id = alessian_revolt_mission_1.10
 		}
 	}
 	
@@ -851,6 +848,7 @@ alessian_revolt_mission_1.20 = { # Conditional Surrender
 	
 	trigger = {
 		primary_culture = colovianelves
+		has_global_variable = colovian_surrender
 	}
 	
 	option = { 
@@ -861,11 +859,11 @@ alessian_revolt_mission_1.20 = { # Conditional Surrender
 			}
 			set_conquered_by = c:KBS
 		}
-		ai_chance = { base = 8 }
+		ai_chance = { base = 80 }
 	}
 	
 	option = { 
 		name = "alessian_revolt_mission_1.20.b"
-		ai_chance = { base = 2 }
+		ai_chance = { base = 20 }
 	}
 }
