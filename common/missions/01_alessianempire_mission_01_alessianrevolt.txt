@@ -351,5 +351,81 @@
 		}
 		#final = yes # For final mission in a tree
 	}
+	
+	alessianempire_01_alessianrevolt_11 = { # Delegation to Valenwood
+		requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			#owns = 1059
+			treasury >= 100
+			exists = c:VAA
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1059
+			#	}
+			#}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.21}
+			show_as_tooltip = { add_treasury = -100 }
+			set_global_variable = {
+				name = valenwood_negotiation
+			}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_12 = { # Nedic Victory
+		#requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1071
+			owns = 1047
+			owns = 1326
+			owns = 926
+			owns = 831
+			owns = 798
+			owns = 1412
+			owns = 1173
+			owns = 1215
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071
+					province_id = 1047
+					province_id = 1326
+					province_id = 926
+					province_id = 831
+					province_id = 798
+					province_id = 1412
+					province_id = 1173
+					province_id = 1215
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.21}
+		}
+		final = yes 
+	}
 }
 	

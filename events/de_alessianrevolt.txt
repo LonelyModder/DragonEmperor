@@ -867,3 +867,116 @@ alessian_revolt_mission_1.20 = { # Conditional Surrender
 		ai_chance = { base = 20 }
 	}
 }
+
+alessian_revolt_mission_1.21 = { # Valenwood Delegation
+	type = country_event
+	title = "alessian_revolt_mission_1.21.t"
+	desc = "alessian_revolt_mission_1.21.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.21.a"
+	}
+	
+}
+
+alessian_revolt_mission_1.22 = { # Nedic Delegation
+	type = country_event
+	title = "alessian_revolt_mission_1.22.t"
+	desc = "alessian_revolt_mission_1.22.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=VAA
+		has_global_variable = valenwood_negotiation
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.22.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+				OR = {
+					is_in_region = modded_goldcoast_region
+					is_in_region = modded_kvatch_region
+					is_in_region = modded_skingrad_region
+					is_in_region = modded_chorrol_region
+					is_in_region = modded_heartlands_region
+					is_in_region = modded_westweald_region
+					is_in_region = modded_lowerniben_region
+					is_in_region = modded_sjerall_region 
+					is_in_region = modded_chaydinhal_region 
+					is_in_region = modded_valus_region
+					is_in_region = modded_nibenbasin_region 
+				}
+			}
+			set_conquered_by = c:KBS
+		}
+		c:KBS = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+					OR = {
+						is_in_region = modded_southpoint_region
+						is_in_region = modded_grahtwood_region 
+						is_in_region = modded_xolo_region
+						is_in_region = modded_westernreapersmarch_region
+						is_in_region = modded_greenshade_region
+					}
+				}
+				set_conquered_by = c:VAA
+			}
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.22.b"
+		ai_chance = { base = 20 }
+	}
+	
+}
+
+alessian_revolt_mission_1.98 = { # Nedic Victory
+	type = country_event
+	title = "alessian_revolt_mission_1.98.t"
+	desc = "alessian_revolt_mission_1.98.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.98.a"
+		add_stability = 25
+		trigger_event = {
+			id = alessian_revolt_mission_1.99
+		}
+	}
+	
+}
+
+alessian_revolt_mission_1.99 = { # Nedic Victory
+	type = country_event
+	title = "alessian_revolt_mission_1.99.t"
+	desc = "alessian_revolt_mission_1.99.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		NOT = {tag=KBS}
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.99.a"
+	}
+	
+}
