@@ -68,6 +68,7 @@
     }
 	
 	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
+		requires = { alessianempire_01_alessianrevolt_13 }
 		icon = task_conquest
 		duration = 30
 
@@ -122,7 +123,9 @@
 		
 		allow = {
 			treasury >= 100
-			NOT = { has_legion_trigger = yes }
+			c:KBS = {
+				NOT = { has_legion_trigger = yes }
+			}
 			#num_of_provinces >= 30
 		}
 		
@@ -182,6 +185,7 @@
 		allow = {
 			owns = 1094
 			NOT = {owns = 1071}
+			any_character = { has_trait = shezzarine }
 		}
 		
 		highlight = {
@@ -358,17 +362,19 @@
 		#duration = 30
 		
 		allow = {
-			#owns = 1059
+			owns = 951
+			owns = 889
 			treasury >= 100
 			exists = c:VAA
 		}
 		
 		highlight = {
-			#scope:province = {
-			#	OR = {
-			#		province_id = 1059
-			#	}
-			#}
+			scope:province = {
+				OR = {
+					province_id = 951
+					province_id = 889
+				}
+			}
 		}
 		
 		on_start = {
@@ -426,6 +432,34 @@
 			trigger_event = { id = alessian_revolt_mission_1.21}
 		}
 		final = yes 
+	}
+	
+	alessianempire_01_alessianrevolt_13= { # Saint Alessia
+		#requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1071
+			treasury >= 100
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1071
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.23}
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.24}
+			show_as_tooltip = { add_treasury = -100 }
+		}
 	}
 }
 	

@@ -227,6 +227,7 @@ alessian_revolt_mission_1.2 = { # Aid from the Devines
 			family_name = "Cyrod"
 			no_stats = yes
 			add_trait="minotaur"
+			add_trait="ada"
 			culture = minotauran
 			religion = nedic_pantheon
 			age = 23
@@ -848,6 +849,8 @@ alessian_revolt_mission_1.20 = { # Conditional Surrender
 	
 	trigger = {
 		primary_culture = colovianelves
+		religion = elven_pantheon
+		has_bloodline_trigger = no
 		has_global_variable = colovian_surrender
 	}
 	
@@ -941,6 +944,80 @@ alessian_revolt_mission_1.22 = { # Nedic Delegation
 		ai_chance = { base = 20 }
 	}
 	
+}
+
+alessian_revolt_mission_1.23 = { # Alessia in trouble
+	type = country_event
+	title = "alessian_revolt_mission_1.23.t"
+	desc = "alessian_revolt_mission_1.23.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.23.a"
+	}
+}
+
+alessian_revolt_mission_1.24 = { # Alessia in trouble
+	type = country_event
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		
+		create_character = {
+			first_name = "Alessia"
+			family_name = "Cyrod"
+			female = yes
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="dragonblood"
+			culture = nednibenese
+			religion = elven_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = alesh_gov
+		}
+		c:KBS={
+			set_as_ruler=scope:alesh_gov
+		}
+		trigger_event = {
+			id = alessian_revolt_mission_1.25
+		}
+		change_country_name = "Alessia_NAME"
+		change_country_adjective = "Alessia_ADJECTIVE"
+	}
+	
+}
+
+alessian_revolt_mission_1.25 = { # Dragonborn
+	type = country_event
+	title = "alessian_revolt_mission_1.25.t"
+	desc = "alessian_revolt_mission_1.25.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:alesh_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.25.a"
+	}
 }
 
 alessian_revolt_mission_1.98 = { # Nedic Victory
