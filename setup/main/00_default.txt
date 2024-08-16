@@ -3968,17 +3968,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 1182
 			
-			poptype_rights = {
-				{
-					culture = nednibenese 
-					type = slaves
-				}
-				{
-					culture = nibeneank 
-					type = slaves
-				}
-			}
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -4193,17 +4182,6 @@ country = {
 			primary_culture = heartlanderelves
 			religion = deadric_pantheon
 			capital = 1018
-			
-			poptype_rights = {
-				{
-					culture = nednibenese 
-					type = slaves
-				}
-				{
-					culture = minotauran 
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -5045,13 +5023,6 @@ country = {
 			primary_culture = heartlanderelves
 			religion = elven_pantheon
 			capital = 1525
-			
-			poptype_rights = {
-				{
-					culture = nednibenese
-					type = slaves
-				}
-			}
 			
 			technology={
 				military_tech={ level=2 progress=0 }
@@ -6594,7 +6565,7 @@ country = {
 		}
 		
 		KBT = {          
-			government = despotic_monarchy
+			government = tribal_kingdom
 			primary_culture = nednibenese
 			religion = elven_pantheon
 			capital = 1311

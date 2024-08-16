@@ -117,7 +117,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_2 }
+		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_2 alessianempire_01_alessianrevolt_6 }
 		icon = task_conquest
 		duration = 90
 		
@@ -459,6 +459,32 @@
 		on_completion = {
 			trigger_event = { id = alessian_revolt_mission_1.24}
 			show_as_tooltip = { add_treasury = -100 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_14= { # House Tharn changes sides
+		#requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1406
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1406
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			#trigger_event = { id = alessian_revolt_mission_1.28}
 		}
 	}
 }
