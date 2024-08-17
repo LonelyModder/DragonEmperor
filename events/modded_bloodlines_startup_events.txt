@@ -350,25 +350,19 @@ bloodlines_startup.14 = { #Tharn family
 
 }
 
-bloodlines_startup.15 = { #Alesh family in Sardavar Leed family
+bloodlines_startup.15 = { #Alesh family in Sard
 
 	type = country_event
 	hidden = yes
 	
 	trigger = {
-		OR = {
-			tag = CAO
-			tag = KBS
-		}
+		tag = CAO
 	}
 	
 	immediate = {
 		every_character = {
 			limit = {
-				OR = {
-					has_same_family = char:31
-					has_same_family = char:59
-				}
+				has_same_family = char:31
 			}
 			add_trait = alesh
 			add_trait = dragonblood

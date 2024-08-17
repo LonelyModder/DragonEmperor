@@ -544,12 +544,12 @@ family={
 			culture = bantan
 			prestige=300
 		}
-		36={
-			key="Cyrod"
-			owner=KBS
-			culture = nednibenese
-			prestige=300
-		}
+		#36={
+		#	key="Cyrod"
+		#	owner=KBS
+		#	culture = nednibenese
+		#	prestige=300
+		#}
 		
 		}
 }
@@ -6546,7 +6546,7 @@ country = {
 		}
 		
 		KBS = { 
-			family=36
+			#family=36
 			government = despotic_monarchy
 			primary_culture = nednibenese
 			religion = elven_pantheon

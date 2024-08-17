@@ -1164,6 +1164,67 @@ alessian_revolt_mission_1.29 = { # Defection of House Tharn
 	}
 }
 
+alessian_revolt_mission_1.30 = { # Uniting the Tribes
+	type = country_event
+	title = "alessian_revolt_mission_1.30.t"
+	desc = "alessian_revolt_mission_1.30.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.30.a"
+		trigger_event = {
+			id = alessian_revolt_mission_1.31
+			days=30
+		}
+	}
+}
+
+alessian_revolt_mission_1.31 = { # Uniting the Tribes
+	type = country_event
+	title = "alessian_revolt_mission_1.31.t"
+	desc = "alessian_revolt_mission_1.31.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait=c:KBS.current_ruler
+	
+	trigger = {
+		primary_culture=nednibenese
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+			}
+			set_conquered_by = c:KBS
+		}
+		ai_chance = { base = 30 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.b"
+		c:KBS = {
+             make_subject = {
+                type = feudatory
+                target = root
+            }
+        }
+		ai_chance = { base = 60 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.c"
+		ai_chance = { base = 10 }
+	}
+}
+
 alessian_revolt_mission_1.98 = { # Nedic Victory
 	type = country_event
 	title = "alessian_revolt_mission_1.98.t"

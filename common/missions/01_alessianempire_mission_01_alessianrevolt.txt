@@ -117,7 +117,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_2 alessianempire_01_alessianrevolt_6 }
+		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_7 alessianempire_01_alessianrevolt_8 alessianempire_01_alessianrevolt_6 }
 		icon = task_conquest
 		duration = 90
 		
@@ -178,22 +178,24 @@
 	}
 	
 	alessianempire_01_alessianrevolt_5 = { # Dread Castellan
-		requires = { alessianempire_01_alessianrevolt_1 }
+		requires = { alessianempire_01_alessianrevolt_4 }
 		icon = task_conquest
 		duration = 5
 		
 		allow = {
-			owns = 1094
-			NOT = {owns = 1071}
+			any_neighbour_country = {
+                tag=CAA
+            }
 			any_character = { has_trait = shezzarine }
+			char:2 = {is_alive=yes}
 		}
 		
 		highlight = {
-			scope:province = {
-				OR = {
-					province_id = 1071
-				}
-			}
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1071
+			#	}
+			#}
 		}
 		
 		on_start = {
@@ -362,19 +364,20 @@
 		#duration = 30
 		
 		allow = {
-			owns = 951
-			owns = 889
+			any_neighbour_country = {
+                tag=VAA
+            }
 			treasury >= 100
 			exists = c:VAA
 		}
 		
 		highlight = {
-			scope:province = {
-				OR = {
-					province_id = 951
-					province_id = 889
-				}
-			}
+			#scope:province = {
+			#	OR = {
+			#		province_id = 951
+			#		province_id = 889
+			#	}
+			#}
 		}
 		
 		on_start = {
@@ -392,7 +395,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_12 = { # Nedic Victory
-		#requires = { alessianempire_01_alessianrevolt_10 }
+		requires = { alessianempire_01_alessianrevolt_3 }
 		icon = task_conquest
 		#duration = 30
 		
@@ -463,7 +466,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_14= { # House Tharn changes sides
-		#requires = { alessianempire_01_alessianrevolt_10 }
+		requires = { alessianempire_01_alessianrevolt_8 }
 		icon = task_conquest
 		#duration = 30
 		
@@ -485,6 +488,32 @@
 		
 		on_completion = {
 			#trigger_event = { id = alessian_revolt_mission_1.28}
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_15= { # Uniting the Tribes
+		requires = { alessianempire_01_alessianrevolt_13 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1406
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1406
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.30}
+		}
+		
+		on_completion = {
+			#trigger_event = { id = alessian_revolt_mission_1.30}
 		}
 	}
 }
