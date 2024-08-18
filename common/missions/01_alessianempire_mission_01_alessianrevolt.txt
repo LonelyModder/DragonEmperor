@@ -117,14 +117,15 @@
 	}
 	
 	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
-		requires = { alessianempire_01_alessianrevolt_4 alessianempire_01_alessianrevolt_7 alessianempire_01_alessianrevolt_8 alessianempire_01_alessianrevolt_6 }
+		requires = { alessianempire_01_alessianrevolt_7 alessianempire_01_alessianrevolt_8 alessianempire_01_alessianrevolt_6 }
 		icon = task_conquest
 		duration = 90
 		
 		allow = {
 			treasury >= 100
-			c:KBS = {
-				NOT = { has_legion_trigger = yes }
+			any_army = {
+				has_legion_trigger = no 
+				legion = ROOT.capital_scope.governorship.legion
 			}
 			#num_of_provinces >= 30
 		}
@@ -510,6 +511,9 @@
 		
 		on_start = {
 			trigger_event = { id = alessian_revolt_mission_1.30}
+			set_global_variable = {
+				name = under_alessia
+			}
 		}
 		
 		on_completion = {

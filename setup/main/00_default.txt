@@ -1264,9 +1264,6 @@ provinces = { #Any entry must contain a comment with city name.
 	1525 = {
 		fortress_building = 1
 	}
-	1470 = {
-		fortress_building = 1
-	}
 	2034 = {
 		fortress_building = 1
 	}
@@ -1355,12 +1352,6 @@ provinces = { #Any entry must contain a comment with city name.
 		fortress_building = 1
 	}
 	1244 = {
-		fortress_building = 1
-	}
-	1412 = {
-		fortress_building = 1
-	}
-	1432 = {
 		fortress_building = 1
 	}
 	926 = {
@@ -3976,7 +3967,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				  1182 1181 1186 1185 1183 1184 1188 1187
+				  1182 1181 1186 1185 1183 1184 1189 1190 1187 1188
 			}
 		}
 		
@@ -4295,8 +4286,6 @@ country = {
 			religion = deadric_pantheon
 			capital = 1618
 			
-			
-			
 			technology={
 				military_tech={ level=2 progress=0 }
 				civic_tech={ level=2 progress=0 }
@@ -4306,9 +4295,43 @@ country = {
 			
 			own_control_core = 	{ 
 				1199 1635 1636 1634 1633 1632 1631 1618 1617
-				1651 1641 1637 1200 1652 1642 1638 1654 1643 1639
-				1190 1191 1193 1195 1603 1607 1608 1606 1196
-				1653 1644 1640 1630 1629 1619 1620 1189 1192 1194 
+			    1603 1607 1608 1606 1630 1629 1619 1620 
+			}
+		}
+		
+		EAO = { 
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = deadric_pantheon
+			capital = 1638
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1640 1651 1641 1637 1200 1652 1642 1638 1654 1643 1639 1644 1653
+			}
+		}
+		
+		EAP = { 
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = deadric_pantheon
+			capital = 1432
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1432 1435
 			}
 		}
 		
@@ -4366,7 +4389,7 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1463 1467 1468 1464 1449 1470 1448 1450 1498 1499 1495 1496 1471 1469 1444 1435 
+				1463 1467 1468 1464 1449 1470 1448 1450 1498 1471 1469 1444 
 				1447 1445 1441 1442 1443 1423 
 			}
 		}
@@ -4467,7 +4490,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				1427 1425 1426 1428 1415 1430 1432 1431 1412 1414 1420 1418
+				1427 1425 1426 1428 1415 1430 1431 1412 1414 1420 1418
 			}
 		}
 		
@@ -5014,7 +5037,6 @@ country = {
 			
 			own_control_core = 	{ 
 				1488 1248 1267 1485 1491 1489 1490 1492 1493 1494
-				1270 1271 1461 1465 1481 1462 1466 1482 1486 1483 1487 1484
 			}
 		}
 		
@@ -5032,9 +5054,45 @@ country = {
 			}
 			
 			own_control_core = 	{ 
-				1511 1512 1513 1514 1517 1518 1519 1520 1521 1534 1507
-				1497 1500 1501 1502 1505 1503 1506 1504 1523 1522
+				1511 1512 1513 1514 1517 1518 1519 1520 1521 1534
+				1502 1505 1503 1506 1504 1523 1522
 				1525 1526 1527 1530 1531 1529 1524 1528
+			}
+		}
+		
+		EAS = { 
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = deadric_pantheon
+			capital = 1497
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1497 1500 1501 1507 1496 1495 1499
+			}
+		}
+		
+		EAR = { 
+			government = despotic_monarchy
+			primary_culture = heartlanderelves
+			religion = deadric_pantheon
+			capital = 1465
+			
+			technology={
+				military_tech={ level=2 progress=0 }
+				civic_tech={ level=2 progress=0 }
+				oratory_tech={ level=2 progress=0 }
+				religious_tech= { level=2 progress=0  }
+			}
+			
+			own_control_core = 	{ 
+				1270 1271 1461 1465 1481 1462 1466 1482 1486 1483 1487 1484
 			}
 		}
 		

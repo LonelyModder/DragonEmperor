@@ -12433,11 +12433,16 @@
 	civilization_value=0
 	barbarian_power=0
 	province_rank="city"
+	nobles={
+		amount=1
+		religion="deadric_pantheon"
+	}
 	citizen={
-		amount=4
+		amount=8
+		religion="deadric_pantheon"
 	}
 	freemen={
-		amount=7
+		amount=6
 	}
 	slaves={
 		amount=3
@@ -13067,18 +13072,23 @@
 	terrain="plains"
 	trade_goods="cheese"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+		religion="deadric_pantheon"
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 
@@ -13162,20 +13172,15 @@
 	terrain="forest"
 	trade_goods="honey"
 	religion="elven_pantheon"
-	culture="heartlanderelves"
+	culture="nednibenese"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="city"
-	citizen={
-		amount=4
-		religion="deadric_pantheon"
-	}
+	province_rank="settlement"
 	freemen={
-		amount=6
+		amount=1
 	}
-	slaves={
-		amount=3
-		culture="nednibenese"
+	tribesmen={
+		amount=4
 	}
 	slaves={
 		amount=1
@@ -13686,18 +13691,23 @@
 	terrain="forest"
 	trade_goods="beasts"
 	religion="elven_pantheon"
-	culture="nednibenese"
+	culture="heartlanderelves"
 	civilization_value=0
 	barbarian_power=0
-	province_rank="settlement"
-	freemen={
+	province_rank="city"
+	nobles={
 		amount=1
+		religion="deadric_pantheon"
 	}
-	tribesmen={
-		amount=4
+	citizen={
+		amount=8
+		religion="deadric_pantheon"
+	}
+	freemen={
+		amount=6
 	}
 	slaves={
-		amount=1
+		amount=3
 	}
 }
 

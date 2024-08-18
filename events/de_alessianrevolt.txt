@@ -1058,6 +1058,7 @@ alessian_revolt_mission_1.27 = { # Camorans rejected our terms
 alessian_revolt_mission_1.28 = { # Defection of House Tharn
 	type = country_event
 	fire_only_once = yes
+	hidden=yes
 	
 	trigger = {
 		tag=KBS
@@ -1177,10 +1178,6 @@ alessian_revolt_mission_1.30 = { # Uniting the Tribes
 	
 	option = { 
 		name = "alessian_revolt_mission_1.30.a"
-		trigger_event = {
-			id = alessian_revolt_mission_1.31
-			days=30
-		}
 	}
 }
 
@@ -1194,7 +1191,12 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
 	left_portrait=c:KBS.current_ruler
 	
 	trigger = {
+		capital_scope = {
+             is_in_region = modded_sjerall_region
+        }
 		primary_culture=nednibenese
+		NOT = {tag=KBS}
+		has_global_variable = under_alessia
 	}
 	
 	option = { 
@@ -1205,7 +1207,7 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
 			}
 			set_conquered_by = c:KBS
 		}
-		ai_chance = { base = 30 }
+		ai_chance = { base = 20 }
 	}
 	
 	option = { 
@@ -1216,7 +1218,7 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
                 target = root
             }
         }
-		ai_chance = { base = 60 }
+		ai_chance = { base = 70 }
 	}
 	
 	option = { 
