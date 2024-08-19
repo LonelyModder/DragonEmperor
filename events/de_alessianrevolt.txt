@@ -982,6 +982,7 @@ alessian_revolt_mission_1.24 = { # Alessia in trouble
 			female = yes
 			no_stats = yes
 			add_trait="tnede"
+			add_trait="alesh"
 			add_trait="dragonblood"
 			culture = nednibenese
 			religion = elven_pantheon
@@ -1227,6 +1228,149 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
 	}
 }
 
+alessian_revolt_mission_1.32 = { # Capture of White-Gold Tower
+	type = country_event
+	title = "alessian_revolt_mission_1.32.t"
+	desc = "alessian_revolt_mission_1.32.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait=c:KBS.current_ruler
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.32.a"
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1071
+					}
+				}
+			}
+			set_capital = 1071
+			hidden_effect = {
+				p:1071.state = {
+					set_state_capital = 1071
+				}
+			}
+		}
+		p:1071 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		while = {
+            count = 20
+            p:1071 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4577 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4578 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4579 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4580 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4581 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4582 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		add_treasury = 1000
+		add_stability = -10
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.32.b"
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1071
+					}
+				}
+			}
+			set_capital = 1071
+			hidden_effect = {
+				p:1071.state = {
+					set_state_capital = 1071
+				}
+			}
+		}
+		p:1071 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		add_stability = -25
+		add_manpower = -5
+		ai_chance = { base = 20 }
+	}
+}
+
 alessian_revolt_mission_1.98 = { # Nedic Victory
 	type = country_event
 	title = "alessian_revolt_mission_1.98.t"
@@ -1240,7 +1384,12 @@ alessian_revolt_mission_1.98 = { # Nedic Victory
 	
 	option = { 
 		name = "alessian_revolt_mission_1.98.a"
+		change_country_name = "HKCyrod_name"
+		change_country_adjective = "HKCyrod_adj"
+		change_country_flag = XCY
+		change_country_color =  "HKCyrod_color"
 		add_stability = 25
+		add_2_free_province_investments = yes
 		trigger_event = {
 			id = alessian_revolt_mission_1.99
 		}
@@ -1257,6 +1406,7 @@ alessian_revolt_mission_1.99 = { # Nedic Victory
 	
 	trigger = {
 		NOT = {tag=KBS}
+		has_global_variable = alessian_empire
 	}
 	
 	option = { 

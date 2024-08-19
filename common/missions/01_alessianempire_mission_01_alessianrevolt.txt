@@ -206,6 +206,10 @@
 		on_completion = {
 			trigger_event = { id = alessian_revolt_mission_1.9 }
 		}
+		
+		bypass = {
+			char:2 = {is_alive=no}
+		}
 	}
 	
 
@@ -396,7 +400,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_12 = { # Nedic Victory
-		requires = { alessianempire_01_alessianrevolt_3 }
+		requires = { alessianempire_01_alessianrevolt_3 alessianempire_01_alessianrevolt_15 }
 		icon = task_conquest
 		#duration = 30
 		
@@ -433,7 +437,10 @@
 		}
 		
 		on_completion = {
-			trigger_event = { id = alessian_revolt_mission_1.21}
+			trigger_event = { id = alessian_revolt_mission_1.98}
+			set_global_variable = {
+				name = alessian_empire
+			}
 		}
 		final = yes 
 	}
@@ -467,7 +474,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_14= { # House Tharn changes sides
-		requires = { alessianempire_01_alessianrevolt_8 }
+		requires = { alessianempire_01_alessianrevolt_10 }
 		icon = task_conquest
 		#duration = 30
 		
@@ -518,6 +525,44 @@
 		
 		on_completion = {
 			#trigger_event = { id = alessian_revolt_mission_1.30}
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_15= { # Sack of White-Gold Tower
+		requires = { alessianempire_01_alessianrevolt_6 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1071 
+			owns = 4577 
+			owns = 4578 
+			owns = 4579 
+			owns = 4580 
+			owns = 4581 
+			owns = 4582
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071
+					province_id = 4577 
+					province_id = 4578 
+					province_id = 4579 
+					province_id = 4580 
+					province_id = 4581 
+					province_id = 4582
+				}
+			}
+		}
+		
+		on_start = {
+			#trigger_event = { id = alessian_revolt_mission_1.30}
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.32}
 		}
 	}
 }
