@@ -1208,7 +1208,7 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
 			}
 			set_conquered_by = c:KBS
 		}
-		ai_chance = { base = 20 }
+		ai_chance = { base = 5 }
 	}
 	
 	option = { 
@@ -1219,12 +1219,12 @@ alessian_revolt_mission_1.31 = { # Uniting the Tribes
                 target = root
             }
         }
-		ai_chance = { base = 70 }
+		ai_chance = { base = 80 }
 	}
 	
 	option = { 
 		name = "alessian_revolt_mission_1.31.c"
-		ai_chance = { base = 10 }
+		ai_chance = { base = 15 }
 	}
 }
 
@@ -1340,7 +1340,7 @@ alessian_revolt_mission_1.32 = { # Capture of White-Gold Tower
             }
         }
 		add_treasury = 1000
-		add_stability = -10
+		add_stability = 5
 		ai_chance = { base = 80 }
 	}
 	
@@ -1365,7 +1365,7 @@ alessian_revolt_mission_1.32 = { # Capture of White-Gold Tower
 			capital_formable_medium_effect = yes
 			formable_capital_modifier_normal_effect = yes
 		}
-		add_stability = -25
+		add_stability = -10
 		add_manpower = -5
 		ai_chance = { base = 20 }
 	}

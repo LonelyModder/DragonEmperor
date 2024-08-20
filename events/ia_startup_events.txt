@@ -130,7 +130,10 @@ esfa_startup.7 = { #Nedes
 
     option = {    
         name = esfa_startup.7.a
-    }
+		c:CBL = { every_owned_province = { add_claim = c:KBS } }
+		c:CBH = { every_owned_province = { add_claim = c:KBS } }
+		c:CBG = { every_owned_province = { add_claim = c:KBS } }
+	}
 }
 
 esfa_startup.8 = { #Orcs

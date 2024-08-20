@@ -129,10 +129,10 @@ levy_bosmer = { #bosmer militia
 levy_nedichoplites = { #nedic militia
 	default = no
 
-	lv_warriors = 0.5
+	lv_warriors = 0.4
 	lv_heavyinfantry = 0.2
 	lv_archers = 0.2
-	lv_cavalry = 0.1
+	lv_cavalry = 0.2
 }
 
 levy_keptu = { #keptu militia

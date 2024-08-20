@@ -123,10 +123,10 @@
 		
 		allow = {
 			treasury >= 100
-			any_army = {
-				has_legion_trigger = no 
-				legion = ROOT.capital_scope.governorship.legion
-			}
+			#any_army = {
+			#	has_legion_trigger = no 
+				#legion = ROOT.capital_scope.governorship.legion
+			#}
 			#num_of_provinces >= 30
 		}
 		
@@ -179,7 +179,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_5 = { # Dread Castellan
-		requires = { alessianempire_01_alessianrevolt_4 }
+		requires = { alessianempire_01_alessianrevolt_6 }
 		icon = task_conquest
 		duration = 5
 		
@@ -207,13 +207,11 @@
 			trigger_event = { id = alessian_revolt_mission_1.9 }
 		}
 		
-		bypass = {
-			char:2 = {is_alive=no}
-		}
+		#bypass = {
+		#	char:2 = {is_alive=no}
+		#}
 	}
 	
-
-
 	alessianempire_01_alessianrevolt_6 = { # First Capital
 		requires = { alessianempire_01_alessianrevolt_4 }
 		icon = task_conquest
@@ -399,8 +397,8 @@
 		#final = yes # For final mission in a tree
 	}
 	
-	alessianempire_01_alessianrevolt_12 = { # Nedic Victory
-		requires = { alessianempire_01_alessianrevolt_3 alessianempire_01_alessianrevolt_15 }
+	alessianempire_01_alessianrevolt_12 = { # Cyrodilic Empire
+		requires = { alessianempire_01_alessianrevolt_3 alessianempire_01_alessianrevolt_16 }
 		icon = task_conquest
 		#duration = 30
 		
@@ -495,7 +493,7 @@
 		}
 		
 		on_completion = {
-			#trigger_event = { id = alessian_revolt_mission_1.28}
+			trigger_event = { id = alessian_revolt_mission_1.28}
 		}
 	}
 	
@@ -528,8 +526,8 @@
 		}
 	}
 	
-	alessianempire_01_alessianrevolt_15= { # Sack of White-Gold Tower
-		requires = { alessianempire_01_alessianrevolt_6 }
+	alessianempire_01_alessianrevolt_16= { # Sack of White-Gold Tower
+		requires = { alessianempire_01_alessianrevolt_5 }
 		icon = task_conquest
 		#duration = 30
 		
