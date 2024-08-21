@@ -530,6 +530,17 @@ alessian_FLAG = { #Alessians
 	}
 }
 
+KBS = { #Al-Cyrod
+	pattern = "pattern_solid.tga"
+	color1 = rgb { 255 255 255 }
+	color2 = rgb { 255 255 255 }
+
+	colored_emblem = {
+		texture = "ce_cyrod.dds"
+		color1 = rgb { 240 12 12 }
+	}
+}
+
 HAI = { #Kingdom of Orsinium
 	pattern = "pattern_solid.tga"
 	color1 = rgb { 0 0 0 }

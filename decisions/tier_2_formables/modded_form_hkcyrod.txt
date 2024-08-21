@@ -13,6 +13,7 @@
 			#is_tribal = yes
 			NOT = {
 				tag = XCY
+				tag = KBS
 			}
 			NOR = {
 				is_tier_2_formable_trigger = yes

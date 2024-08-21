@@ -3,6 +3,8 @@
 		add_alliance = CBO
 		add_alliance = CCB
 		add_alliance = CCD
+		add_alliance = EAO
+		add_alliance = VAK
 	} 
 	c:CCE = {
 		declare_war_with_wargoal = {
@@ -15,5 +17,7 @@
 		break_alliance = CBO
 		break_alliance = CCB
 		break_alliance = CCD
+		break_alliance = EAO
+		break_alliance = VAK
 	} 
 }

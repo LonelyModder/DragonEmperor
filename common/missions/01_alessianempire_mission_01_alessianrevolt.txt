@@ -1,0 +1,567 @@
+﻿alessianempire_01_alessianrevolt = { # Alessian Revolt
+	icon = alessianempire_01
+	header = mission_image_rome #mission_image_phrygia
+	
+	repeatable = no
+
+    chance = {
+		factor = 10
+	}
+	
+	ai_chance = { factor = 10 }
+
+	potential = { 
+		NOT = { has_variable = alessianempire_01_alessianrevolt }
+		primary_culture = nednibenese
+		region:modded_sjerall_region = {
+            any_region_province = {
+                owned_or_subject_owned = root
+            }
+        }
+		tag=KBS
+		is_monarchy = yes
+		is_subject = no
+		has_civil_war = no
+		NOT = { has_global_variable = alessianrevolt_fail }
+	}
+	
+	abort = {	
+		OR = {
+			is_monarchy = no
+			NOT = { primary_culture = nednibenese }
+			custom_tooltip = {
+				text = alessianempire_01_alessianrevolt_abort_tt
+				has_global_variable = alessianrevolt_fail
+			}
+			ai_mission_back_out_trigger = yes
+		}
+	}
+	
+	on_start = {
+    	start_mission_ai_effect = yes
+    	save_scope_as = me_alessianrevolt_scope
+		add_country_modifier = {
+	        name = revolt_starts
+	        duration = 3650 # 10 years
+	    }
+    }
+	
+	on_abort = {
+    	custom_tooltip = ant_1_mission_cooldown_tt
+    	if = {
+	    	limit = { has_country_modifier = revolt_starts }
+    		remove_country_modifier = revolt_starts
+	    }
+		set_variable = {
+			name = alessianempire_01_alessianrevolt
+			days = 7300
+		}
+    }
+	
+	on_completion = {
+		add_country_modifier = {
+    		name = revolt_victory
+    		duration = 7300 # 20 years
+    	}
+    	complete_mission_effect = yes #
+    	#trigger_event = { id = me_antigonid_1_vision.2 }
+    }
+	
+	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
+		requires = { alessianempire_01_alessianrevolt_13 }
+		icon = task_conquest
+		duration = 30
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.1 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 365
+			}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.2 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_2 = { # Aid from the North
+		requires = { alessianempire_01_alessianrevolt_1 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.6 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.7 }
+		}
+		
+		bypass = {
+			NOT = {exists = c:SAG}
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_3 = { # New Battle Tactics
+		requires = { alessianempire_01_alessianrevolt_7 alessianempire_01_alessianrevolt_8 alessianempire_01_alessianrevolt_6 }
+		icon = task_conquest
+		duration = 90
+		
+		allow = {
+			treasury >= 100
+			#any_army = {
+			#	has_legion_trigger = no 
+				#legion = ROOT.capital_scope.governorship.legion
+			#}
+			#num_of_provinces >= 30
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.4 }
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.5 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_4 = { # Rising in Revolt
+		requires = { alessianempire_01_alessianrevolt_1 }
+		icon = task_conquest
+		#duration = 90
+		
+		allow = {
+			OR = {
+				owns = 1288
+				owns = 1291
+				owns = 1288
+				owns = 1306
+				owns = 1068
+				owns = 1316
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1288
+					province_id = 1291
+					province_id = 1288
+					province_id = 1306
+					province_id = 1068
+					province_id = 1316
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.8 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_5 = { # Dread Castellan
+		requires = { alessianempire_01_alessianrevolt_6 }
+		icon = task_conquest
+		duration = 5
+		
+		allow = {
+			any_neighbour_country = {
+                tag=CAA
+            }
+			any_character = { has_trait = shezzarine }
+			char:2 = {is_alive=yes}
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1071
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.11 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.9 }
+		}
+		
+		#bypass = {
+		#	char:2 = {is_alive=no}
+		#}
+	}
+	
+	alessianempire_01_alessianrevolt_6 = { # First Capital
+		requires = { alessianempire_01_alessianrevolt_4 }
+		icon = task_conquest
+		
+		allow = {
+			owns = 1288
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = owns = 1288
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.12 }
+		}
+	}
+	
+
+
+	alessianempire_01_alessianrevolt_7 = { # Nords in Bruma
+		requires = { alessianempire_01_alessianrevolt_2 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			owns = 1326
+			treasury >= 100
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1326
+				}
+			}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.13}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.14}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_8 = { # Nords in Cheydinhal
+		requires = { alessianempire_01_alessianrevolt_2 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			owns = 1412
+			treasury >= 100
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1412
+				}
+			}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.15}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.16}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_9 = { # Founding Bravil
+		requires = { alessianempire_01_alessianrevolt_3 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			owns = 1173
+			treasury >= 100
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1173
+				}
+			}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.17}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.18}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_10 = { # Negotiating with Colovian Ayleid leaders
+		requires = { alessianempire_01_alessianrevolt_4 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			#owns = 1059
+			treasury >= 200
+			any_integrated_culture = {
+                is_culture = nedcolovian
+            }
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1059
+			#	}
+			#}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.19}
+			show_as_tooltip = { add_treasury = -200 }
+			set_global_variable = {
+				name = colovian_surrender
+			}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_11 = { # Delegation to Valenwood
+		requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			any_neighbour_country = {
+                tag=VAA
+            }
+			treasury >= 100
+			exists = c:VAA
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 951
+			#		province_id = 889
+			#	}
+			#}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.21}
+			show_as_tooltip = { add_treasury = -100 }
+			set_global_variable = {
+				name = valenwood_negotiation
+			}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_12 = { # Cyrodilic Empire
+		requires = { alessianempire_01_alessianrevolt_3 alessianempire_01_alessianrevolt_16 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1071
+			owns = 1047
+			owns = 1326
+			owns = 926
+			owns = 831
+			owns = 798
+			owns = 1412
+			owns = 1173
+			owns = 1215
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071
+					province_id = 1047
+					province_id = 1326
+					province_id = 926
+					province_id = 831
+					province_id = 798
+					province_id = 1412
+					province_id = 1173
+					province_id = 1215
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.98}
+			set_global_variable = {
+				name = alessian_empire
+			}
+		}
+		final = yes 
+	}
+	
+	alessianempire_01_alessianrevolt_13= { # Saint Alessia
+		#requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1071
+			treasury >= 100
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1071
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.23}
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.24}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_14= { # House Tharn changes sides
+		requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1406
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1406
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.28}
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_15= { # Uniting the Tribes
+		requires = { alessianempire_01_alessianrevolt_13 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1406
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1406
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.30}
+			set_global_variable = {
+				name = under_alessia
+			}
+		}
+		
+		on_completion = {
+			#trigger_event = { id = alessian_revolt_mission_1.30}
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_16= { # Sack of White-Gold Tower
+		requires = { alessianempire_01_alessianrevolt_5 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 1071 
+			owns = 4577 
+			owns = 4578 
+			owns = 4579 
+			owns = 4580 
+			owns = 4581 
+			owns = 4582
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1071
+					province_id = 4577 
+					province_id = 4578 
+					province_id = 4579 
+					province_id = 4580 
+					province_id = 4581 
+					province_id = 4582
+				}
+			}
+		}
+		
+		on_start = {
+			#trigger_event = { id = alessian_revolt_mission_1.30}
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.32}
+		}
+	}
+}
+	

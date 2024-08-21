@@ -1,601 +1,6 @@
-﻿namespace = alessian_revolt
+﻿namespace = alessian_revolt_mission_1
 
-alessian_revolt.11 = { # Revolt of Alessia the automatic option
-	type = country_event
-	hidden = yes
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	trigger = {
-		NOT = { has_global_variable = alesh }
-		AND = {
-			p:1288.owner = {
-				war = no
-			}
-			AND = {
-				#Besarabics Loose
-				NOT = { p:1609.owner = c:CCE }
-				NOT = { p:1594.owner = c:CCE }
-				NOT = { p:1542.owner = c:CCE }
-				#Fall of Northern Rebelion
-				p:1326.owner = { country_culture_group = ayleid }
-				p:1289.owner = { country_culture_group = ayleid }
-				p:1311.owner = { country_culture_group = ayleid }
-			}
-			p:1071.owner = {
-				religion = deadric_pantheon
-			}
-		}
-	}
-	
-	immediate = {
-		set_global_variable = {
-			name = alesh
-		}
-		#Alessian Revolt
-		p:1289 = {
-            while = {
-                count = 20
-                define_pop = {
-                type = freemen
-                culture = nednibenese
-                religion = nedic_pantheon
-                }
-            }                
-        }
-		p:1289 = { #Alessian Revolt
-	    	create_country = {
-				change_government = despotic_monarchy
-				switch_government_type_event_clearup_effect = yes
-				change_country_name = "Alessia_NAME"
-				change_country_adjective = "Alessia_ADJECTIVE"
-				change_country_flag = alessian_FLAG
-				change_country_color =  "KAlessian_color"
-			}
-		}
-		p:1289.owner = {
-			capital_scope.governorship = {
-				raise_legion = {
-					create_unit = {
-						location = 1288
-						add_subunit = engineer_cohort
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-					}
-				}
-			}
-			add_country_modifier = {
-				name = cymmerian_invasion_modifier
-				duration = 14600 # 10 years
-			}
-			every_unit = {
-				add_food = 100
-			}
-			add_treasury = 300
-		
-			create_character = {
-				first_name = "Morihaus"
-				family_name = "Cyrod"
-				no_stats = yes
-				add_trait="minotaur"
-				culture = minotauran
-				religion = nedic_pantheon
-				age = 23
-				good_martial_effect = yes
-				good_charisma_effect = yes
-				average_finesse_effect = yes
-				average_zeal_effect = yes
-				add_gold=500
-				save_scope_as = mori_gov
-			}
-			
-			create_character = {
-				first_name = "Alessia"
-				family_name = "Cyrod"
-				no_stats = yes
-				add_trait="tnede"
-				add_trait="dragonblood"
-				add_trait="alesh"
-				culture = nednibenese
-				religion = elven_pantheon
-				female = yes
-				age = 18
-				bad_martial_effect = yes
-				good_charisma_effect = yes
-				average_finesse_effect = yes
-				average_zeal_effect = yes
-				save_scope_as = alessia_gov
-				add_gold=500
-			}
-			
-			create_character = {
-				first_name = "Pelinal"
-				family_name = "Whitestrike"
-				no_stats = yes
-				add_trait="tnede"
-				add_trait="shezzarine"
-				culture = nednibenese
-				religion = nedic_pantheon
-				age = 30
-				add_martial=10
-				add_charisma=8
-				add_finesse=2
-				add_zeal=10
-				save_scope_as = pelinal_gov
-			}																																			
-		}
-		p:1289.owner = {
-			declare_war_with_wargoal = {
-				war_goal = conquer_wargoal
-				province = p:1288
-				target = p:1288.owner
-			}
-		}
-	}
-	
-}
-
-alessian_revolt.10 = { # Revolt of ayleid slaves
-	type = country_event
-	hidden = yes
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	trigger = {
-		owns = p:1288
-		OR = {
-			country_culture_group = nede
-			country_culture_group = keptu
-			country_culture_group = kothri
-			country_culture_group = rechmenic
-		}
-		NOT = { has_global_variable = alesh }
-		AND = {
-			p:1288.owner = {
-				war = no
-			}
-			AND = {
-				NOT = { p:1609.owner = c:CCE }
-				NOT = { p:1594.owner = c:CCE }
-				NOT = { p:1542.owner = c:CCE }
-			}
-			p:1071.owner = {
-				religion = deadric_pantheon
-			}
-		}
-	}
-	
-	immediate = {
-		set_global_variable = {
-			name = alesh
-		}
-		#Alessian Revolt
-		p:1288 = {
-            while = {
-                count = 20
-                define_pop = {
-                type = freemen
-                culture = nednibenese
-                religion = nedic_pantheon
-                }
-            }                
-        }
-		change_government = despotic_monarchy
-		switch_government_type_event_clearup_effect = yes
-		change_country_name = "Alessia_NAME"
-		change_country_adjective = "Alessia_ADJECTIVE"
-		change_country_flag = alessian_FLAG
-		change_country_color =  "KAlessian_color"
-		p:1288.owner = {
-			capital_scope.governorship = {
-				raise_legion = {
-					create_unit = {
-						location = 1288
-						add_subunit = engineer_cohort
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = supply_train
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-					}
-				}
-			}
-			add_country_modifier = {
-				name = cymmerian_invasion_modifier
-				duration = 14600 # 10 years
-			}
-			every_unit = {
-				add_food = 100
-			}
-			add_treasury = 300
-		
-			create_character = {
-				first_name = "Morihaus"
-				family_name = "Cyrod"
-				no_stats = yes
-				add_trait="minotaur"
-				culture = minotauran
-				religion = nedic_pantheon
-				age = 23
-				good_martial_effect = yes
-				good_charisma_effect = yes
-				average_finesse_effect = yes
-				average_zeal_effect = yes
-				add_gold=500
-				save_scope_as = mori_gov
-			}
-			
-			create_character = {
-				first_name = "Alessia"
-				family_name = "Cyrod"
-				no_stats = yes
-				add_trait="tnede"
-				add_trait="dragonblood"
-				add_trait="alesh"
-				culture = nednibenese
-				religion = elven_pantheon
-				female = yes
-				age = 18
-				bad_martial_effect = yes
-				good_charisma_effect = yes
-				average_finesse_effect = yes
-				average_zeal_effect = yes
-				save_scope_as = alessia_gov
-				add_gold=500
-			}
-			
-			create_character = {
-				first_name = "Pelinal"
-				family_name = "Whitestrike"
-				no_stats = yes
-				add_trait="tnede"
-				add_trait="shezzarine"
-				culture = nednibenese
-				religion = nedic_pantheon
-				age = 30
-				add_martial=10
-				add_charisma=8
-				add_finesse=2
-				add_zeal=10
-				save_scope_as = pelinal_gov
-			}																																			
-		}
-		#trigger_event = {
-		#	id = alessian_revolt.1 
-		#}
-	}
-	
-}
-
-alessian_revolt.1 = { # The Choice
-	type = country_event
-	title = "alessian_revolt.1.t"
-	desc = "alessian_revolt.1.desc"
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	left_portrait = root.current_ruler
-	left_portrait = scope:alessia_gov
-	right_portrait = scope:mori_gov
-	right_portrait = scope:pelinal_gov
-	
-	trigger = {
-		p:1288.owner = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = keptu
-				country_culture_group = kothri
-				country_culture_group = rechmenic
-			}
-			has_country_modifier = cymmerian_invasion_modifier
-		}
-	}
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { 
-					NOT = { primary_culture = nednibenese }
-					owns = p:1288
-				}
-				set_primary_culture_cleanup_effect = {
-					NEW_PRIMARY_CULTURE = nednibenese
-					MAKE_OLD_CULTURE_INTEGRATED = yes
-				} 
-			}
-			ordered_character = {
-				limit = {
-					AND = {
-						has_trait = dragonblood
-						has_trait = alesh
-					}
-				}
-				save_scope_as = alessia_gov
-			}
-		}
-	}
-	
-	option = {
-		name = alessian_revolt.1.a
-		trigger = {
-			owns = p:1288
-		}
-		p:1288.owner = {
-			set_as_ruler = scope:alessia_gov
-			current_ruler = {
-				add_popularity = 100
-			}
-		}
-		ai_chance = {
-            factor = 90
-        }
-	}
-	
-	option = {
-		name = alessian_revolt.1.b
-		trigger = {
-			owns = p:1288
-		}
-		ai_chance = {
-            factor = 10
-        }
-	}
-	
-	option = {
-		name = alessian_revolt.1.c
-		trigger = {
-			NOT = { owns = p:1288 }
-		}
-	}
-}
-
-alessian_revolt.2 = { # The Choice
-	type = country_event
-	title = "alessian_revolt.2.t"
-	desc = "alessian_revolt.2.desc"
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	trigger = {
-		p:1288.owner = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = keptu
-				country_culture_group = kothri
-				country_culture_group = reachmenic
-			}
-			has_country_modifier = cymmerian_invasion_modifier
-		}
-		capital_scope = {
-			OR = {
-				is_in_region = modded_sjerall_region
-				is_in_region = modded_chaydinhal_region
-			}
-		}
-		NOT = {owns= 1288}
-		p:1288.owner = { is_ai = yes }
-	}
-	
-	option = {
-		name = alessian_revolt.2.a
-		every_owned_province = {
-			set_conquered_by = p:1288.owner
-		}
-		#c:EAG = { # For elven call to surrender
-        #    make_subject = {
-        #        target = c:EAI
-        #        type = feudatory
-        #    }
-        #}
-		ai_chance = {
-            factor = 90
-        }
-	}
-	
-	option = {
-		name = alessian_revolt.2.b
-		ai_chance = {
-            factor = 10
-        }
-	}
-}
-
-alessian_revolt.3 = { # Alessian cores
-	type = country_event
-	fire_only_once = yes
-	hidden = yes
-	picture = alessian_revolution
-	
-	trigger = {
-		p:1288.owner = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = keptu
-				country_culture_group = kothri
-				country_culture_group = rechmenic
-			}
-			has_country_modifier = cymmerian_invasion_modifier
-		}
-		owns = p:1288
-	}
-	
-	immediate = {
-		region:modded_goldcoast_region = { formable_region_province_effect = yes }
-		region:modded_kvatch_region = { formable_region_province_effect = yes }
-		region:modded_skingrad_region = { formable_region_province_effect = yes }
-		region:modded_chorrol_region = { formable_region_province_effect = yes }
-		region:modded_heartlands_region = { formable_region_province_effect = yes }
-		region:modded_westweald_region = { formable_region_province_effect = yes }
-		region:modded_lowerniben_region = { formable_region_province_effect = yes }
-		region:modded_sjerall_region = { formable_region_province_effect = yes }
-		region:modded_chaydinhal_region = { formable_region_province_effect = yes }
-		region:modded_valus_region = { formable_region_province_effect = yes }
-		region:modded_nibenbasin_region = { formable_region_province_effect = yes }
-	}
-}
-
-alessian_revolt.4 = { #Dragonblood
-
-	type = country_event
-	fire_only_once = yes
-	hidden = yes
-	
-	trigger = {
-		has_country_modifier = cymmerian_invasion_modifier
-	}
-	
-	immediate = {
-		every_character = {
-			limit = {
-				has_same_family = char:31
-				NOT = { has_trait = dragonblood }
-			}
-			add_trait = dragonblood
-		
-		}
-		hidden_effect = {
-			trigger_event = { id = bloodlines_setup_completion.1 }
-		}
-	}
-
-}
-
-alessian_revolt.5 = { # Capital in Sancre Tor
-	type = country_event
-	title = "alessian_revolt.5.t"
-	desc = "alessian_revolt.5.desc"
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	trigger = {
-		p:1288.owner = {
-			OR = {
-				country_culture_group = nede
-				country_culture_group = keptu
-				country_culture_group = kothri
-				country_culture_group = reachmenic
-			}
-			has_country_modifier = cymmerian_invasion_modifier
-		}
-		has_country_modifier = cymmerian_invasion_modifier
-	}
-	
-	option = {
-		name = alessian_revolt.5.a
-		if = {
-			limit = {
-				NOT = {
-					capital_scope = {
-						province_id = 1288
-					}
-				}
-			}
-			set_capital = 1288
-			hidden_effect = {
-				p:1288.state = {
-					set_state_capital = 1288
-				}
-			}
-		}
-		p:1288 = {
-			capital_formable_medium_effect = yes
-			formable_capital_modifier_normal_effect = yes
-		}
-		add_stability = 25
-	}
-}
-
-alessian_revolt.6 = { # Pelinal Leadership
-	type = country_event
-	title = "alessian_revolt.6.t"
-	desc = "alessian_revolt.6.desc"
-	fire_only_once = yes
-	picture = alessian_revolution
-	
-	left_portrait = scope:pelinal_gov
-	
-	trigger = {
-		has_country_modifier = cymmerian_invasion_modifier
-		any_character = { has_trait = shezzarine }
-		stability <= 30
-	}
-	
-	option = {
-		name = alessian_revolt.6.a
-		add_stability = 50
-	}
-}
-
-alessian_revolt.7 = { # The Atatar Intervention in Besarabic Lands
+alessian_revolt_mission_1.100 = { # The Atatar Intervention in Besarabic Lands
 	type = country_event
 	hidden = yes
 	fire_only_once = yes
@@ -791,18 +196,275 @@ alessian_revolt.7 = { # The Atatar Intervention in Besarabic Lands
 	}
 }
 
-alessian_revolt.12 = { # Umaril's Death
+alessian_revolt_mission_1.1 = { # Tribal Gathering
 	type = country_event
-	title = "alessian_revolt.12.t"
-	desc = "alessian_revolt.12.desc"
+	title = "alessian_revolt_mission_1.1.t"
+	desc = "alessian_revolt_mission_1.1.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.1.a"
+	}
+}
+
+alessian_revolt_mission_1.2 = { # Aid from the Devines
+	type = country_event
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		create_character = {
+			first_name = "Morihaus"
+			family_name = "Cyrod"
+			no_stats = yes
+			add_trait="minotaur"
+			add_trait="ada"
+			culture = minotauran
+			religion = nedic_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = mori_gov
+		}
+				
+		create_character = {
+			first_name = "Pelinal"
+			family_name = "Whitestrike"
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="shezzarine"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 30
+			add_martial=10
+			add_charisma=8
+			add_finesse=2
+			add_zeal=10
+			save_scope_as = pelinal_gov
+		}
+		trigger_event = {
+			id = alessian_revolt_mission_1.3
+		}
+	}
+}
+
+alessian_revolt_mission_1.3 = { # Aid from the Devines - Message
+	type = country_event
+	title = "alessian_revolt_mission_1.3.t"
+	desc = "alessian_revolt_mission_1.3.desc"
 	fire_only_once = yes
 	picture = alessian_revolution
 	
+	left_portrait = scope:mori_gov
 	left_portrait = scope:pelinal_gov
-	right_portrait = char:2
 	
 	trigger = {
-		owns = 1071
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.3.a"
+	}
+}
+
+alessian_revolt_mission_1.4 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.4.t"
+	desc = "alessian_revolt_mission_1.4.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:mori_gov
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.4.a"
+	}
+}
+
+alessian_revolt_mission_1.5 = { 
+	type = country_event
+	title = "alessian_revolt_mission_1.5.t"
+	desc = "alessian_revolt_mission_1.5.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:mori_gov
+	left_portrait = scope:pelinal_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = {
+					any_army = {
+						has_legion_trigger = yes
+						legion = ROOT.capital_scope.governorship.legion
+					}
+				}
+			}
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						add_subunit = engineer_cohort
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			#add_country_modifier = {
+			#	name = cymmerian_invasion_modifier
+			#	duration = 14600 # 10 years
+			#}
+			every_unit = {
+				add_food = 100
+			}
+			#add_treasury = 300
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.5.a"
+	}
+}
+
+alessian_revolt_mission_1.6 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.6.t"
+	desc = "alessian_revolt_mission_1.6.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.6.a"
+	}
+}
+
+alessian_revolt_mission_1.7 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.7.t"
+	desc = "alessian_revolt_mission_1.7.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.7.a"
+		add_treasury = 1000
+		set_global_variable = {
+			name = skyrimsaid
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.7.b"
+		add_treasury = 400
+	}
+}
+
+alessian_revolt_mission_1.8 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.8.t"
+	desc = "alessian_revolt_mission_1.8.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.8.a"
+		region:modded_goldcoast_region = { formable_region_province_effect = yes }
+		region:modded_kvatch_region = { formable_region_province_effect = yes }
+		region:modded_skingrad_region = { formable_region_province_effect = yes }
+		region:modded_chorrol_region = { formable_region_province_effect = yes }
+		region:modded_heartlands_region = { formable_region_province_effect = yes }
+		region:modded_westweald_region = { formable_region_province_effect = yes }
+		region:modded_lowerniben_region = { formable_region_province_effect = yes }
+		region:modded_sjerall_region = { formable_region_province_effect = yes }
+		region:modded_chaydinhal_region = { formable_region_province_effect = yes }
+		region:modded_valus_region = { formable_region_province_effect = yes }
+		region:modded_nibenbasin_region = { formable_region_province_effect = yes }
+	}
+}
+
+alessian_revolt_mission_1.9 = {  
+	type = country_event
+	hidden=yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag=KBS
+		random_owned_province = { # Neighbouring Umaril
+			limit = {
+				any_neighbor_province = {
+					owner = c:CAA
+				}
+			}
+		}
 		country_culture_group = nede
 		char:2 = {
 			is_alive = yes
@@ -819,10 +481,6 @@ alessian_revolt.12 = { # Umaril's Death
 				save_scope_as = pelinal_gov
 			}	
 		}
-	}
-	
-	option = { 
-		name = "alessian_revolt.12.a"
 		char:2 = {
             death = { death_reason = death_stabbing
 					killer = scope:pelinal_gov }
@@ -832,15 +490,16 @@ alessian_revolt.12 = { # Umaril's Death
 					killer = char:2 }
         }
 		trigger_event = {
-			id = alessian_revolt.13
+			id = alessian_revolt_mission_1.10
 		}
 	}
+	
 }
 
-alessian_revolt.13 = { # Umaril's Death
+alessian_revolt_mission_1.10 = { # Umaril's Death
 	type = country_event
-	title = "alessian_revolt.13.t"
-	desc = "alessian_revolt.13.desc"
+	title = "alessian_revolt_mission_1.10.t"
+	desc = "alessian_revolt_mission_1.10.desc"
 	fire_only_once = yes
 	picture = alessian_revolution
 	
@@ -848,10 +507,910 @@ alessian_revolt.13 = { # Umaril's Death
 	right_portrait = char:2
 	
 	trigger = {
-		NOT = { owns = 1071 }
+		random_owned_province = { # Neighbouring Umaril
+			limit = {
+				any_neighbor_province = {
+					owner = c:CAA
+				}
+			}
+		}
 	}
 	
 	option = { 
-		name = "alessian_revolt.13.a"
+		name = "alessian_revolt_mission_1.10.a"
 	}
+}
+
+alessian_revolt_mission_1.11 = { # Umaril's Death
+	type = country_event
+	title = "alessian_revolt_mission_1.11.t"
+	desc = "alessian_revolt_mission_1.11.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
+	trigger = {
+		random_owned_province = { # Neighbouring Umaril
+			limit = {
+				any_neighbor_province = {
+					owner = c:CAA
+				}
+			}
+		}
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.11.a"
+	}
+}
+
+alessian_revolt_mission_1.12 = { # First Capital
+	type = country_event
+	title = "alessian_revolt_mission_1.12.t"
+	desc = "alessian_revolt_mission_1.12.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	left_portrait = scope:pelinal_gov
+	right_portrait = char:2
+	
+	trigger = {
+		tag = KBS
+		owns = 1288
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.12.a"
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1288
+					}
+				}
+			}
+			set_capital = 1288
+			hidden_effect = {
+				p:1288.state = {
+					set_state_capital = 1288
+				}
+			}
+		}
+		p:1288 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		add_stability = 25
+	}
+}
+
+alessian_revolt_mission_1.13 = { # Nords in Bruma
+	type = country_event
+	title = "alessian_revolt_mission_1.13.t"
+	desc = "alessian_revolt_mission_1.13.desc"
+	fire_only_once = yes
+	picture = migrating_nords
+	
+	trigger = {
+		tag = KBS
+		owns = 1326
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.13.a"
+		
+	}
+}
+
+alessian_revolt_mission_1.14 = { # Nords in Bruma
+	type = country_event
+	title = "alessian_revolt_mission_1.14.t"
+	desc = "alessian_revolt_mission_1.14.desc"
+	fire_only_once = yes
+	picture = migrating_nords
+	
+	trigger = {
+		tag = KBS
+		owns = 1326
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.14.a"
+		p:1326 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+			while = {
+                count = 1
+                define_pop = {
+                type = nobles
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = tribesmen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+		}
+	}
+}
+
+alessian_revolt_mission_1.15 = { # Nords in Cheydinhal
+	type = country_event
+	title = "alessian_revolt_mission_1.15.t"
+	desc = "alessian_revolt_mission_1.15.desc"
+	fire_only_once = yes
+	picture = migrating_nords
+	
+	trigger = {
+		tag = KBS
+		owns = 1412
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.15.a"
+		
+	}
+}
+
+alessian_revolt_mission_1.16 = { # Nords in Cheydinhal
+	type = country_event
+	title = "alessian_revolt_mission_1.16.t"
+	desc = "alessian_revolt_mission_1.16.desc"
+	fire_only_once = yes
+	picture = migrating_nords
+	
+	trigger = {
+		tag = KBS
+		owns = 1412
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.16.a"
+		p:1412 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+			while = {
+                count = 1
+                define_pop = {
+                type = nobles
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = tribesmen
+                culture = cyronordic 
+                religion = nordic_pantheon
+                }
+            }
+		}
+	}
+}
+
+alessian_revolt_mission_1.17 = { # Foundation of Bravil
+	type = country_event
+	title = "alessian_revolt_mission_1.17.t"
+	desc = "alessian_revolt_mission_1.17.desc"
+	fire_only_once = yes
+	picture = bravils_construction
+	
+	trigger = {
+		tag = KBS
+		owns = 1173
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.17.a"
+		
+	}
+}
+
+alessian_revolt_mission_1.18 = { # Foundation of Bravil
+	type = country_event
+	title = "alessian_revolt_mission_1.18.t"
+	desc = "alessian_revolt_mission_1.18.desc"
+	fire_only_once = yes
+	picture = bravils_construction
+	
+	trigger = {
+		tag = KBS
+		owns = 1173
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.18.a"
+		p:1173 = {
+			if = {
+				limit = { has_city_status = no }
+				set_city_status = city
+			}
+			while = {
+                count = 1
+                define_pop = {
+                type = nobles
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 3
+                define_pop = {
+                type = citizen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = freemen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+			while = {
+                count = 8
+                define_pop = {
+                type = tribesmen
+                culture = nednibenese 
+                religion = nedic_pantheon
+                }
+            }
+		}
+		
+		create_character = {
+			first_name = "Teo"
+			family_name = "Bravillius Tasus"
+			no_stats = yes
+			add_trait="tnede"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = teobrav_gov
+		}
+	}
+}
+
+alessian_revolt_mission_1.19 = { # Conditional Surrender
+	type = country_event
+	title = "alessian_revolt_mission_1.19.t"
+	desc = "alessian_revolt_mission_1.19.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.19.a"
+	}
+}
+
+alessian_revolt_mission_1.20 = { # Conditional Surrender
+	type = country_event
+	title = "alessian_revolt_mission_1.20.t"
+	desc = "alessian_revolt_mission_1.20.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		primary_culture = colovianelves
+		religion = elven_pantheon
+		has_bloodline_trigger = no
+		has_global_variable = colovian_surrender
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.20.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+			}
+			set_conquered_by = c:KBS
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.20.b"
+		ai_chance = { base = 20 }
+	}
+}
+
+alessian_revolt_mission_1.21 = { # Valenwood Delegation
+	type = country_event
+	title = "alessian_revolt_mission_1.21.t"
+	desc = "alessian_revolt_mission_1.21.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.21.a"
+	}
+	
+}
+
+alessian_revolt_mission_1.22 = { # Nedic Delegation
+	type = country_event
+	title = "alessian_revolt_mission_1.22.t"
+	desc = "alessian_revolt_mission_1.22.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=VAA
+		has_global_variable = valenwood_negotiation
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.22.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+				OR = {
+					is_in_region = modded_goldcoast_region
+					is_in_region = modded_kvatch_region
+					is_in_region = modded_skingrad_region
+					is_in_region = modded_chorrol_region
+					is_in_region = modded_heartlands_region
+					is_in_region = modded_westweald_region
+					is_in_region = modded_lowerniben_region
+					is_in_region = modded_sjerall_region 
+					is_in_region = modded_chaydinhal_region 
+					is_in_region = modded_valus_region
+					is_in_region = modded_nibenbasin_region 
+				}
+			}
+			set_conquered_by = c:KBS
+		}
+		c:KBS = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+					OR = {
+						is_in_region = modded_southpoint_region
+						is_in_region = modded_grahtwood_region 
+						is_in_region = modded_xolo_region
+						is_in_region = modded_westernreapersmarch_region
+						is_in_region = modded_greenshade_region
+					}
+				}
+				set_conquered_by = c:VAA
+			}
+		}
+		trigger_event = {
+			id = alessian_revolt_mission_1.26
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.22.b"
+		trigger_event = {
+			id = alessian_revolt_mission_1.27
+		}
+		ai_chance = { base = 20 }
+	}
+	
+}
+
+alessian_revolt_mission_1.23 = { # Alessia in trouble
+	type = country_event
+	title = "alessian_revolt_mission_1.23.t"
+	desc = "alessian_revolt_mission_1.23.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.23.a"
+	}
+}
+
+alessian_revolt_mission_1.24 = { # Alessia in trouble
+	type = country_event
+	fire_only_once = yes
+	hidden = yes
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		
+		create_character = {
+			first_name = "Alessia"
+			family_name = "Cyrod"
+			female = yes
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="alesh"
+			add_trait="dragonblood"
+			culture = nednibenese
+			religion = elven_pantheon
+			age = 23
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=500
+			save_scope_as = alesh_gov
+		}
+		c:KBS={
+			set_as_ruler=scope:alesh_gov
+		}
+		trigger_event = {
+			id = alessian_revolt_mission_1.25
+		}
+		change_country_name = "Alessia_NAME"
+		change_country_adjective = "Alessia_ADJECTIVE"
+	}
+	
+}
+
+alessian_revolt_mission_1.25 = { # Dragonborn
+	type = country_event
+	title = "alessian_revolt_mission_1.25.t"
+	desc = "alessian_revolt_mission_1.25.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait = scope:alesh_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.25.a"
+	}
+}
+
+alessian_revolt_mission_1.26 = { # Camorans agree to our terms
+	type = country_event
+	title = "alessian_revolt_mission_1.26.t"
+	desc = "alessian_revolt_mission_1.26.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.26.a"
+	}
+}
+
+alessian_revolt_mission_1.27 = { # Camorans rejected our terms
+	type = country_event
+	title = "alessian_revolt_mission_1.27.t"
+	desc = "alessian_revolt_mission_1.27.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.27.a"
+	}
+}
+
+alessian_revolt_mission_1.28 = { # Defection of House Tharn
+	type = country_event
+	fire_only_once = yes
+	hidden=yes
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	immediate = {
+		add_treasury = 500
+		create_character = {
+			first_name = "Tharhan"
+			family_name = "Tharn"
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="tharn"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 43
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=300
+			save_scope_as = tharhan_gov
+		}
+		
+		create_character = {
+			#first_name = "Tharhan"
+			family_name = "Tharn"
+			female=yes
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="tharn"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 40
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=100
+			marry_character=scope:tharhan_gov
+			save_scope_as = tharhan_wife_gov
+		}
+		
+		create_character = {
+			#first_name = "Tharhan"
+			family_name = "Tharn"
+			father=scope:tharhan_gov
+			mother=scope:tharhan_wife_gov
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="tharn"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 18
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+			#save_scope_as = tharhan_gov
+		}
+		
+		create_character = {
+			first_name = "Tharhan"
+			family_name = "Tharn"
+			father=scope:tharhan_gov
+			mother=scope:tharhan_wife_gov
+			female=yes
+			no_stats = yes
+			add_trait="tnede"
+			add_trait="tharn"
+			culture = nednibenese
+			religion = nedic_pantheon
+			age = 15
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+			#save_scope_as = tharhan_gov
+		}
+		
+		trigger_event = {
+			id = alessian_revolt_mission_1.29
+		}
+	}
+}
+
+alessian_revolt_mission_1.29 = { # Defection of House Tharn
+	type = country_event
+	title = "alessian_revolt_mission_1.29.t"
+	desc = "alessian_revolt_mission_1.29.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait=scope:tharhan_gov
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.29.a"
+	}
+}
+
+alessian_revolt_mission_1.30 = { # Uniting the Tribes
+	type = country_event
+	title = "alessian_revolt_mission_1.30.t"
+	desc = "alessian_revolt_mission_1.30.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.30.a"
+	}
+}
+
+alessian_revolt_mission_1.31 = { # Uniting the Tribes
+	type = country_event
+	title = "alessian_revolt_mission_1.31.t"
+	desc = "alessian_revolt_mission_1.31.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait=c:KBS.current_ruler
+	
+	trigger = {
+		capital_scope = {
+             is_in_region = modded_sjerall_region
+        }
+		primary_culture=nednibenese
+		NOT = {tag=KBS}
+		has_global_variable = under_alessia
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.a"
+		every_owned_province = { 
+			limit = { 
+				has_owner = yes 
+			}
+			set_conquered_by = c:KBS
+		}
+		ai_chance = { base = 5 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.b"
+		c:KBS = {
+             make_subject = {
+                type = feudatory
+                target = root
+            }
+        }
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.31.c"
+		ai_chance = { base = 15 }
+	}
+}
+
+alessian_revolt_mission_1.32 = { # Capture of White-Gold Tower
+	type = country_event
+	title = "alessian_revolt_mission_1.32.t"
+	desc = "alessian_revolt_mission_1.32.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	left_portrait=c:KBS.current_ruler
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.32.a"
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1071
+					}
+				}
+			}
+			set_capital = 1071
+			hidden_effect = {
+				p:1071.state = {
+					set_state_capital = 1071
+				}
+			}
+		}
+		p:1071 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		while = {
+            count = 20
+            p:1071 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4577 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4578 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4579 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4580 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4581 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		while = {
+            count = 20
+            p:4582 = {
+                limit = { num_of_freemen > 0 }
+                order_by = total_population
+                random_pops_in_province = {
+                    limit = { pop_culture = heartlanderelves }
+                    kill_pop = yes
+                }
+            }
+        }
+		add_treasury = 1000
+		add_stability = 5
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.32.b"
+		if = {
+			limit = {
+				NOT = {
+					capital_scope = {
+						province_id = 1071
+					}
+				}
+			}
+			set_capital = 1071
+			hidden_effect = {
+				p:1071.state = {
+					set_state_capital = 1071
+				}
+			}
+		}
+		p:1071 = {
+			capital_formable_medium_effect = yes
+			formable_capital_modifier_normal_effect = yes
+		}
+		add_stability = -10
+		add_manpower = -5
+		ai_chance = { base = 20 }
+	}
+}
+
+alessian_revolt_mission_1.98 = { # Nedic Victory
+	type = country_event
+	title = "alessian_revolt_mission_1.98.t"
+	desc = "alessian_revolt_mission_1.98.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.98.a"
+		change_country_name = "HKCyrod_name"
+		change_country_adjective = "HKCyrod_adj"
+		change_country_flag = XCY
+		change_country_color =  "HKCyrod_color"
+		add_stability = 25
+		add_2_free_province_investments = yes
+		trigger_event = {
+			id = alessian_revolt_mission_1.99
+		}
+	}
+	
+}
+
+alessian_revolt_mission_1.99 = { # Nedic Victory
+	type = country_event
+	title = "alessian_revolt_mission_1.99.t"
+	desc = "alessian_revolt_mission_1.99.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		NOT = {tag=KBS}
+		has_global_variable = alessian_empire
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.99.a"
+	}
+	
 }
