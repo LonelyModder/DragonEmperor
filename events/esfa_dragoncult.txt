@@ -12,8 +12,8 @@ dragoncults.1 = {
 		current_ruler = {
 			NOT = {	has_trait = dragonpriest }
 		}
-		primary_culture = frostmoon
-		religion = night_pantheon
+		primary_culture = ndragoncult
+		religion = dragoncult_pantheon
 	}
 	
 	option = { 
