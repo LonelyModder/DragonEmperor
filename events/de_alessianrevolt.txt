@@ -1307,7 +1307,7 @@ alessian_revolt_mission_1.32 = { # Capture of White-Gold Tower
             }
         }
 		while = {
-            count = 20
+            count = 5
             p:4580 = {
                 limit = { num_of_freemen > 0 }
                 order_by = total_population
