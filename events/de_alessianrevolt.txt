@@ -847,7 +847,7 @@ alessian_revolt_mission_1.20 = { # Conditional Surrender
 	trigger = {
 		primary_culture = colovianelves
 		religion = elven_pantheon
-		has_bloodline_trigger = no
+		current_ruler = {has_bloodline_trigger = no}
 		has_global_variable = colovian_surrender
 	}
 	
