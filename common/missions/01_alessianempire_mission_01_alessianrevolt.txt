@@ -67,6 +67,108 @@
     	#trigger_event = { id = me_antigonid_1_vision.2 }
     }
 	
+	
+	alessianempire_01_alessianrevolt_4 = { # Rising in Revolt
+		requires = { alessianempire_01_alessianrevolt_1 }
+		icon = task_conquest
+		#duration = 90
+		
+		allow = {
+			OR = {
+				owns = 1288
+				owns = 1291
+				owns = 1288
+				owns = 1306
+				owns = 1068
+				owns = 1316
+			}
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 1288
+					province_id = 1291
+					province_id = 1288
+					province_id = 1306
+					province_id = 1068
+					province_id = 1316
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.8 }
+		}
+	}
+	
+	alessianempire_01_alessianrevolt_10 = { # Negotiating with Colovian Ayleid leaders
+		requires = { alessianempire_01_alessianrevolt_4 }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			#owns = 1059
+			treasury >= 200
+			any_integrated_culture = {
+                is_culture = nedcolovian
+            }
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1059
+			#	}
+			#}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.19}
+			show_as_tooltip = { add_treasury = -200 }
+			set_global_variable = {
+				name = colovian_surrender
+			}
+		}
+		#final = yes # For final mission in a tree
+	}
+	
+	alessianempire_01_alessianrevolt_13= { # Saint Alessia
+		#requires = { alessianempire_01_alessianrevolt_10 }
+		icon = task_conquest
+		duration = 30
+		
+		allow = {
+			#owns = 1071
+			treasury >= 100
+		}
+		
+		highlight = {
+			#scope:province = {
+			#	OR = {
+			#		province_id = 1071
+			#	}
+			#}
+		}
+		
+		on_start = {
+			trigger_event = { id = alessian_revolt_mission_1.23}
+		}
+		
+		on_completion = {
+			trigger_event = { id = alessian_revolt_mission_1.24}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+	}
+	
 	alessianempire_01_alessianrevolt_1 = { # In the Hour of Need
 		requires = { alessianempire_01_alessianrevolt_13 }
 		icon = task_conquest
@@ -137,44 +239,6 @@
 		
 		on_completion = {
 			trigger_event = { id = alessian_revolt_mission_1.5 }
-		}
-	}
-	
-	alessianempire_01_alessianrevolt_4 = { # Rising in Revolt
-		requires = { alessianempire_01_alessianrevolt_1 }
-		icon = task_conquest
-		#duration = 90
-		
-		allow = {
-			OR = {
-				owns = 1288
-				owns = 1291
-				owns = 1288
-				owns = 1306
-				owns = 1068
-				owns = 1316
-			}
-		}
-		
-		highlight = {
-			scope:province = {
-				OR = {
-					province_id = 1288
-					province_id = 1291
-					province_id = 1288
-					province_id = 1306
-					province_id = 1068
-					province_id = 1316
-				}
-			}
-		}
-		
-		on_start = {
-			
-		}
-		
-		on_completion = {
-			trigger_event = { id = alessian_revolt_mission_1.8 }
 		}
 	}
 	
@@ -326,41 +390,6 @@
 		#final = yes # For final mission in a tree
 	}
 	
-	alessianempire_01_alessianrevolt_10 = { # Negotiating with Colovian Ayleid leaders
-		requires = { alessianempire_01_alessianrevolt_4 }
-		icon = task_conquest
-		#duration = 30
-		
-		allow = {
-			#owns = 1059
-			treasury >= 200
-			any_integrated_culture = {
-                is_culture = nedcolovian
-            }
-		}
-		
-		highlight = {
-			#scope:province = {
-			#	OR = {
-			#		province_id = 1059
-			#	}
-			#}
-		}
-		
-		on_start = {
-			
-		}
-		
-		on_completion = {
-			trigger_event = { id = alessian_revolt_mission_1.19}
-			show_as_tooltip = { add_treasury = -200 }
-			set_global_variable = {
-				name = colovian_surrender
-			}
-		}
-		#final = yes # For final mission in a tree
-	}
-	
 	alessianempire_01_alessianrevolt_11 = { # Delegation to Valenwood
 		requires = { alessianempire_01_alessianrevolt_10 }
 		icon = task_conquest
@@ -441,34 +470,6 @@
 			}
 		}
 		final = yes 
-	}
-	
-	alessianempire_01_alessianrevolt_13= { # Saint Alessia
-		#requires = { alessianempire_01_alessianrevolt_10 }
-		icon = task_conquest
-		duration = 30
-		
-		allow = {
-			#owns = 1071
-			treasury >= 100
-		}
-		
-		highlight = {
-			#scope:province = {
-			#	OR = {
-			#		province_id = 1071
-			#	}
-			#}
-		}
-		
-		on_start = {
-			trigger_event = { id = alessian_revolt_mission_1.23}
-		}
-		
-		on_completion = {
-			trigger_event = { id = alessian_revolt_mission_1.24}
-			show_as_tooltip = { add_treasury = -100 }
-		}
 	}
 	
 	alessianempire_01_alessianrevolt_14= { # House Tharn changes sides
