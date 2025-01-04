@@ -3279,7 +3279,6 @@ road_network = {
 	8420=8425
 	8415=8417
 	8417=8411
-	8411=8408
 	8408=8409
 	8409=8410
 	8405=8407
@@ -4687,7 +4686,7 @@ country = {
 			}
 			
 			own_control_core = 	{
-				1038 1030 1035 1029 1010 1036 1032 1031 1033 1027 1043 1045 1046
+				1038 1035 1029 1036 1032 1033 1043 1045 1046
 				1034 1037 1039 1040 1044 1051 1052 1048
 			}
 		}
@@ -7760,8 +7759,8 @@ country = {
 			}
 		}
 		
-		MAX = {          
-			government = nordicanimism_pantheon
+		MAX = {  
+			government = tribal_kingdom
 			primary_culture = dagonite
 			religion = allmaker_pantheon
 			capital = 5679

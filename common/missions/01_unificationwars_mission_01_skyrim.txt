@@ -63,7 +63,7 @@
     }
 	
 	unificationwars_01_skyrim_1 = { # The Boy King
-		requires = { alessianempire_01_alessianrevolt_13 }
+		#requires = { alessianempire_01_alessianrevolt_13 }
 		icon = task_conquest
 		duration = 30
 
@@ -79,13 +79,40 @@
 			trigger_event = { id = unificationwars_mission_1.1 }
 			set_variable = {
 				name = ongoing_mission_pulse_flag
-				days = 365
+				days = 30
 			}
 			show_as_tooltip = { add_treasury = -100 }
 		}
 
 		on_completion = {
 			trigger_event = { id = unificationwars_mission_1.2 }
+		}
+	}
+	
+	unificationwars_01_skyrim_2 = { # Battleborn and Greymane
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		duration = 60
+
+		allow = {
+			#treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.3 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 60
+			}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			#trigger_event = { id = unificationwars_mission_1.4 }
 		}
 	}
 	
@@ -129,7 +156,7 @@
 		on_completion = {
 			trigger_event = { id = unificationwars_mission_1.98}
 			set_global_variable = {
-				name = alessian_empire
+				name = unificationwars_end
 			}
 		}
 		final = yes 

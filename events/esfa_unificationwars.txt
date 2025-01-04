@@ -1,0 +1,209 @@
+﻿namespace = unificationwars_mission_1
+
+unificationwars_mission_1.1 = {  
+	type = country_event
+	title = "unificationwars_mission_1.1.t"
+	desc = "unificationwars_mission_1.1.desc"
+	fire_only_once = yes
+	picture = boy_king
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.1.a"
+	}
+}
+
+unificationwars_mission_1.2 = {  
+	type = country_event
+	title = "unificationwars_mission_1.2.t"
+	desc = "unificationwars_mission_1.2.desc"
+	fire_only_once = yes
+	picture = boy_king
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.2.a"
+		if = {
+			limit = { tag = SAG }
+				region:modded_solitude_region = { formable_region_province_effect = yes }
+				region:modded_whiterun_region = { formable_region_province_effect = yes }
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_rift_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }		
+		}
+	}
+}
+
+unificationwars_mission_1.3 = {  
+	type = country_event
+	title = "unificationwars_mission_1.3.t"
+	desc = "unificationwars_mission_1.3.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.3.a"
+		trigger_event = {
+			id = alessian_revolt_mission_1.4
+			days = 60
+		}
+		ai_chance = { base = 20 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.3.b"
+		trigger_event = {
+			id = alessian_revolt_mission_1.5
+			days = 60
+		}
+		show_as_tooltip = { add_treasury = -100 }
+		ai_chance = { base = 80 }
+	}
+}
+
+unificationwars_mission_1.4 = {  
+	type = country_event
+	title = "unificationwars_mission_1.4.t"
+	desc = "unificationwars_mission_1.4.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAI
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.4.a"
+		trigger_event = {
+			id = alessian_revolt_mission_1.6
+		}
+		ai_chance = { base = 20 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.4.b"
+		trigger_event = {
+			id = alessian_revolt_mission_1.7
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+unificationwars_mission_1.5 = {  
+	type = country_event
+	title = "unificationwars_mission_1.5.t"
+	desc = "unificationwars_mission_1.5.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.5.a"
+		c:SAI = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+		create_character = {
+			first_name = "Harald"
+			family_name = "Battleborn"
+			no_stats = yes
+			add_trait="nord"
+			add_trait="companion"
+			culture = westholder
+			religion = nordic_pantheon
+			age = 13
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+		}
+		create_character = {
+			first_name = "Otto"
+			family_name = "Greymane"
+			no_stats = yes
+			add_trait="nord"
+			add_trait="companion"
+			culture = westholder
+			religion = nordic_pantheon
+			age = 14
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+		}
+	}
+}
+
+unificationwars_mission_1.6 = {  
+	type = country_event
+	title = "unificationwars_mission_1.6.t"
+	desc = "unificationwars_mission_1.6.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAI.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.6.a"
+		c:SAI = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.7 = {  
+	type = country_event
+	title = "unificationwars_mission_1.7.t"
+	desc = "unificationwars_mission_1.7.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAI.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.7.a"
+	}
+}
