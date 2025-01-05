@@ -38,7 +38,6 @@ unificationwars_mission_1.2 = {
 				region:modded_solitude_region = { formable_region_province_effect = yes }
 				region:modded_whiterun_region = { formable_region_province_effect = yes }
 				region:modded_pale_region = { formable_region_province_effect = yes }
-				region:modded_rift_region = { formable_region_province_effect = yes }
 				region:modded_windhelm_region = { formable_region_province_effect = yes }
 				region:modded_winterhold_region = { formable_region_province_effect = yes }		
 		}
@@ -61,7 +60,7 @@ unificationwars_mission_1.3 = {
 	option = { 
 		name = "unificationwars_mission_1.3.a"
 		trigger_event = {
-			id = alessian_revolt_mission_1.4
+			id = unificationwars_mission_1.4
 			days = 60
 		}
 		ai_chance = { base = 20 }
@@ -70,7 +69,7 @@ unificationwars_mission_1.3 = {
 	option = { 
 		name = "unificationwars_mission_1.3.b"
 		trigger_event = {
-			id = alessian_revolt_mission_1.5
+			id = unificationwars_mission_1.5
 			days = 60
 		}
 		show_as_tooltip = { add_treasury = -100 }
@@ -94,7 +93,7 @@ unificationwars_mission_1.4 = {
 	option = { 
 		name = "unificationwars_mission_1.4.a"
 		trigger_event = {
-			id = alessian_revolt_mission_1.6
+			id = unificationwars_mission_1.6
 		}
 		ai_chance = { base = 20 }
 	}
@@ -102,7 +101,7 @@ unificationwars_mission_1.4 = {
 	option = { 
 		name = "unificationwars_mission_1.4.b"
 		trigger_event = {
-			id = alessian_revolt_mission_1.7
+			id = unificationwars_mission_1.7
 		}
 		ai_chance = { base = 80 }
 	}

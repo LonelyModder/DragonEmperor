@@ -117,7 +117,7 @@
 	}
 	
 	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
-		requires = { alessianempire_01_alessianrevolt_1  }
+		#requires = { alessianempire_01_alessianrevolt_1  }
 		icon = task_conquest
 		#duration = 30
 		
