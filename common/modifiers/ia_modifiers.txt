@@ -1,7 +1,7 @@
 ﻿#ESFA mofifiers
 
 revolt_starts = {
-	agressive_expansion_monthly_change = -0.1
+	agressive_expansion_impact = -0.5
 	land_morale_modifier = 0.05
 	levy_size_multiplier = 0.2
 }
@@ -10,6 +10,10 @@ revolt_victory = {
 	ruler_popularity_gain = 0.1
 	happiness_for_same_culture_modifier = 0.07
 	happiness_for_same_religion_modifier = 0.12
+}
+
+religious_fervor = {
+	global_pop_conversion_speed_modifier = 2
 }
 
 #ESFA mofifiers
