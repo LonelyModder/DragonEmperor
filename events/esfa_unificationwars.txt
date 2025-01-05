@@ -72,6 +72,7 @@ unificationwars_mission_1.3 = {
 			id = unificationwars_mission_1.5
 			days = 60
 		}
+		add_treasury = -100
 		show_as_tooltip = { add_treasury = -100 }
 		ai_chance = { base = 80 }
 	}
@@ -204,5 +205,107 @@ unificationwars_mission_1.7 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.7.a"
+	}
+}
+
+unificationwars_mission_1.8 = {  
+	type = country_event
+	title = "unificationwars_mission_1.8.t"
+	desc = "unificationwars_mission_1.8.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.8.a"
+		trigger_event = {
+			id = unificationwars_mission_1.9
+			days = 30
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.8.b"
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.9 = {  
+	type = country_event
+	title = "unificationwars_mission_1.9.t"
+	desc = "unificationwars_mission_1.9.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAJ
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.9.a"
+		trigger_event = {
+			id = unificationwars_mission_1.10
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.9.b"
+		trigger_event = {
+			id = unificationwars_mission_1.11
+		}
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.10 = {  
+	type = country_event
+	title = "unificationwars_mission_1.10.t"
+	desc = "unificationwars_mission_1.10.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.10.a"
+		c:SAJ = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.11 = {  
+	type = country_event
+	title = "unificationwars_mission_1.11.t"
+	desc = "unificationwars_mission_1.11.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.11.a"
 	}
 }

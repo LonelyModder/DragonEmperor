@@ -116,6 +116,35 @@
 		}
 	}
 	
+	unificationwars_01_skyrim_3 = { # Ragadulf Begalin
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		duration = 30
+
+		allow = {
+			owns = 4277
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4277
+			}
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.8 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 30
+			}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			#trigger_event = { id = unificationwars_mission_1.4 }
+		}
+	}
+	
 	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
 		#requires = { alessianempire_01_alessianrevolt_1  }
 		icon = task_conquest
