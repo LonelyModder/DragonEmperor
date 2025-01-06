@@ -145,6 +145,64 @@
 		}
 	}
 	
+	unificationwars_01_skyrim_4 = { # Marshes of Hjaalmarch 
+		requires = { unificationwars_01_skyrim_2 unificationwars_01_skyrim_3 }
+		icon = task_conquest
+		#duration = 30
+
+		allow = {
+			owns = 4499
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4499
+			}
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.12 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 30
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			#trigger_event = { id = unificationwars_mission_1.4 }
+		}
+	}
+	
+	unificationwars_01_skyrim_5 = { # Solitude 
+		requires = { unificationwars_01_skyrim_4 }
+		icon = task_conquest
+		#duration = 30
+
+		allow = {
+			owns = 4528
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4528
+			}
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.13 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 30
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			#trigger_event = { id = unificationwars_mission_1.4 }
+		}
+	}
+	
 	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
 		#requires = { alessianempire_01_alessianrevolt_1  }
 		icon = task_conquest

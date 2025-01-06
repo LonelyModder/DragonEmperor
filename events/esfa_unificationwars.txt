@@ -309,3 +309,35 @@ unificationwars_mission_1.11 = {
 		name = "unificationwars_mission_1.11.a"
 	}
 }
+
+unificationwars_mission_1.12 = {  
+	type = country_event
+	title = "unificationwars_mission_1.12.t"
+	desc = "unificationwars_mission_1.12.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.12.a"
+	}
+}
+
+unificationwars_mission_1.13 = {  
+	type = country_event
+	title = "unificationwars_mission_1.13.t"
+	desc = "unificationwars_mission_1.13.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.13.a"
+	}
+}
