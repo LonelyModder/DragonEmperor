@@ -161,7 +161,7 @@
 		}
 
 		on_start = {
-			trigger_event = { id = unificationwars_mission_1.12 }
+			#trigger_event = { id = unificationwars_mission_1.12 }
 			#set_variable = {
 			#	name = ongoing_mission_pulse_flag
 			#	days = 30
@@ -170,7 +170,7 @@
 		}
 
 		on_completion = {
-			#trigger_event = { id = unificationwars_mission_1.4 }
+			trigger_event = { id = unificationwars_mission_1.12 }
 		}
 	}
 	
@@ -190,7 +190,7 @@
 		}
 
 		on_start = {
-			trigger_event = { id = unificationwars_mission_1.13 }
+			#trigger_event = { id = unificationwars_mission_1.13 }
 			#set_variable = {
 			#	name = ongoing_mission_pulse_flag
 			#	days = 30
@@ -199,12 +199,77 @@
 		}
 
 		on_completion = {
-			#trigger_event = { id = unificationwars_mission_1.4 }
+			trigger_event = { id = unificationwars_mission_1.13 }
+		}
+	}
+	
+	unificationwars_01_skyrim_6 = { # Warriors of Skyrim 
+		requires = { unificationwars_01_skyrim_5 }
+		icon = task_conquest
+		duration = 100
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			#scope:province = {
+			#	province_id = 4528
+			#}
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.14 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 100
+			}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.15 }
+		}
+	}
+	
+	unificationwars_01_skyrim_7 = { # Elves in Riften 
+		requires = { unificationwars_01_skyrim_5 }
+		icon = task_conquest
+		#duration = 100
+
+		allow = {
+			#treasury >= 100
+			owns = 4214
+			owns = 4217
+			owns = 4198
+		}
+
+		highlight = {
+			scope:province = {
+				OR = {
+					owns = 4214
+					owns = 4217
+					owns = 4198
+				}
+			}
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.14 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 100
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.16 }
 		}
 	}
 	
 	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
-		#requires = { alessianempire_01_alessianrevolt_1  }
+		requires = { unificationwars_01_skyrim_7 unificationwars_01_skyrim_6  }
 		icon = task_conquest
 		#duration = 30
 		

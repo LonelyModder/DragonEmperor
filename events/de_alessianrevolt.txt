@@ -326,6 +326,7 @@ alessian_revolt_mission_1.5 = {
 				raise_legion = {
 					create_unit = {
 						add_subunit = engineer_cohort
+						add_subunit = engineer_cohort
 						add_subunit = supply_train
 						add_subunit = supply_train
 						add_subunit = supply_train
