@@ -80,6 +80,9 @@ provinces = {
 	6693={ # Agonio
 		great_work=27
 	}
+	4050={ # College of Winterhold
+		great_work=28
+	}
 }
 
 great_work_manager={	
@@ -653,6 +656,29 @@ great_work_manager={
 			great_work_effect_selections={
 				{
 					great_work_effect="gw_effect_pillar_of_thras"
+					great_work_effect_tier = "gw_effect_tier_4"
+				}
+			}
+		}
+		
+		28={
+			ancient_wonder = yes
+			key="winterholduniversity"
+			great_work_state=great_work_state_completed
+			finished_date=100.10.1
+			great_work_category="building"
+
+			great_work_name={
+				name="wonder_winterholduniversity"
+			}
+			great_work_components={
+				{
+					great_work_module="wonder_winterholduniversity"#wonder_highelves_01_02
+				}
+			}
+			great_work_effect_selections={
+				{
+					great_work_effect="gw_effect_winterholduniversity"
 					great_work_effect_tier = "gw_effect_tier_4"
 				}
 			}

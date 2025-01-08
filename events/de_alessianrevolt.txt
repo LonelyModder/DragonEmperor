@@ -397,13 +397,46 @@ alessian_revolt_mission_1.6 = {
 	
 	option = { 
 		name = "alessian_revolt_mission_1.6.a"
+		trigger_event = {
+			id = alessian_revolt_mission_1.60
+			days=30
+		}
 	}
 }
 
-alessian_revolt_mission_1.7 = {  
+alessian_revolt_mission_1.60 = {  
 	type = country_event
-	title = "alessian_revolt_mission_1.7.t"
-	desc = "alessian_revolt_mission_1.7.desc"
+	title = "alessian_revolt_mission_1.60.t"
+	desc = "alessian_revolt_mission_1.60.desc"
+	fire_only_once = yes
+	picture = alessian_revolution
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.60.a"
+		add_treasury = -200
+		trigger_event = {
+			id = alessian_revolt_mission_1.61
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "alessian_revolt_mission_1.60.b"
+		trigger_event = {
+			id = alessian_revolt_mission_1.62
+		}
+		ai_chance = { base = 20 }
+	}
+}
+
+alessian_revolt_mission_1.61 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.61.t"
+	desc = "alessian_revolt_mission_1.61.desc"
 	fire_only_once = yes
 	picture = alessian_council
 	
@@ -412,16 +445,24 @@ alessian_revolt_mission_1.7 = {
 	}
 	
 	option = { 
-		name = "alessian_revolt_mission_1.7.a"
-		add_treasury = 1000
-		set_global_variable = {
-			name = skyrimsaid
-		}
+		name = "alessian_revolt_mission_1.61.a"
+		add_treasury = 200
+	}
+}
+
+alessian_revolt_mission_1.62 = {  
+	type = country_event
+	title = "alessian_revolt_mission_1.62.t"
+	desc = "alessian_revolt_mission_1.62.desc"
+	fire_only_once = yes
+	picture = alessian_council
+	
+	trigger = {
+		tag=KBS
 	}
 	
 	option = { 
-		name = "alessian_revolt_mission_1.7.b"
-		add_treasury = 400
+		name = "alessian_revolt_mission_1.62.a"
 	}
 }
 
