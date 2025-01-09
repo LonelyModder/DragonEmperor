@@ -570,3 +570,196 @@ unificationwars_mission_1.19 = {
 		}
 	}
 }
+
+unificationwars_mission_1.20 = {  
+	type = country_event
+	title = "unificationwars_mission_1.20.t"
+	desc = "unificationwars_mission_1.20.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.20.a"
+		trigger_event = {
+			id = unificationwars_mission_1.21
+			days = 60
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.20.b"
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.21 = {  
+	type = country_event
+	title = "unificationwars_mission_1.21.t"
+	desc = "unificationwars_mission_1.21.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=AAA
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.21.a"
+		trigger_event = {
+			id = unificationwars_mission_1.22
+		}
+		p:792 = { #Eyvea
+	    	create_country = {
+				change_government = despotic_monarchy
+				change_country_name = "Eyevea_name"
+				change_country_adjective = "Eyevea_adj"
+				set_primary_culture = eastholder
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 10
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+		}
+		p:791 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slave
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:793 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slave
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:794 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slave
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:795 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slave
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:796 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slave
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.21.b"
+		trigger_event = {
+			id = unificationwars_mission_1.23
+		}
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.22 = {  
+	type = country_event
+	title = "unificationwars_mission_1.22.t"
+	desc = "unificationwars_mission_1.22.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.22.a"
+		add_treasury = 200
+	}
+}
+
+unificationwars_mission_1.23 = {  
+	type = country_event
+	title = "unificationwars_mission_1.23.t"
+	desc = "unificationwars_mission_1.23.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.23.a"
+	}
+}

@@ -295,10 +295,10 @@
 		}
 	}
 	
-	unificationwars_01_skyrim_9 = { # Eyvea
+	unificationwars_01_skyrim_9 = { # Eyevea
 		requires = { unificationwars_01_skyrim_8 }
 		icon = task_conquest
-		duration = 100
+		duration = 60
 
 		allow = {
 			treasury >= 100
@@ -312,7 +312,7 @@
 			trigger_event = { id = unificationwars_mission_1.20 }
 			set_variable = {
 				name = ongoing_mission_pulse_flag
-				days = 100
+				days = 60
 			}
 			show_as_tooltip = { add_treasury = -100 }
 		}
