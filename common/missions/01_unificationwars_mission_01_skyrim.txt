@@ -268,6 +268,60 @@
 		}
 	}
 	
+	unificationwars_01_skyrim_8 = { # College of Winterhold 
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		duration = 2
+
+		allow = {
+			treasury >= 200
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.18 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 2
+			}
+			show_as_tooltip = { add_treasury = -200 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.19 }
+		}
+	}
+	
+	unificationwars_01_skyrim_9 = { # Eyvea
+		requires = { unificationwars_01_skyrim_8 }
+		icon = task_conquest
+		duration = 100
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.20 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 100
+			}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			#trigger_event = { id = unificationwars_mission_1.21 }
+		}
+	}
+	
 	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
 		requires = { unificationwars_01_skyrim_7 unificationwars_01_skyrim_6  }
 		icon = task_conquest

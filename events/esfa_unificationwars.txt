@@ -323,6 +323,10 @@ unificationwars_mission_1.12 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.12.a"
+		trigger_event = {
+			id = unificationwars_mission_1.17
+			days = 100
+		}
 	}
 }
 
@@ -450,5 +454,119 @@ unificationwars_mission_1.16 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.16.a"
+	}
+}
+
+unificationwars_mission_1.17 = {  
+	type = country_event
+	title = "unificationwars_mission_1.17.t"
+	desc = "unificationwars_mission_1.17.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.17.a"
+		p:4188 = { #Ivarstead
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = southholder
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+		}
+		p:4518 = { #Folgunthur
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = morthalan
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+		}
+		p:4083 = { #Saarthal
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = morthalan
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+			while = {
+                count = 12
+                define_pop = {
+					type = tribesmen
+					culture = morthalan 
+					religion = nordic_pantheon
+                }
+            }
+		}
+		p:4188.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+		p:4518.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+		p:4083.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.18 = {  
+	type = country_event
+	title = "unificationwars_mission_1.18.t"
+	desc = "unificationwars_mission_1.18.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.18.a"
+		p:4050={ # College of Winterhold
+			begin_great_work_construction = {
+				great_work = "winterholduniversity"
+				locator = primary_great_work
+				is_ancient = yes						
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.19 = {  
+	type = country_event
+	title = "unificationwars_mission_1.19.t"
+	desc = "unificationwars_mission_1.19.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.19.a"
+		p:4050={ # College of Winterhold
+			finish_great_work_construction = {
+				great_work = "winterholduniversity"
+				locator = primary_great_work
+			}
+		}
 	}
 }
