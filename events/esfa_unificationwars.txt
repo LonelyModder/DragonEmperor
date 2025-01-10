@@ -59,9 +59,12 @@ unificationwars_mission_1.3 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.3.a"
-		trigger_event = {
-			id = unificationwars_mission_1.4
-			days = 60
+		#trigger_event = {
+		#	id = unificationwars_mission_1.4
+		#	days = 60
+		#}
+		set_global_variable = {
+			name = unificationwars_honourking
 		}
 		ai_chance = { base = 20 }
 	}
@@ -89,6 +92,7 @@ unificationwars_mission_1.4 = {
 	
 	trigger = {
 		tag=SAI
+		has_global_variable = unificationwars_honourking
 	}
 	
 	option = { 
@@ -96,6 +100,9 @@ unificationwars_mission_1.4 = {
 		trigger_event = {
 			id = unificationwars_mission_1.6
 		}
+		#set_global_variable = {
+		#	name = unificationwars_capitulation
+		#}
 		ai_chance = { base = 20 }
 	}
 	
@@ -104,6 +111,9 @@ unificationwars_mission_1.4 = {
 		trigger_event = {
 			id = unificationwars_mission_1.7
 		}
+		#set_global_variable = {
+		#	name = unificationwars_combat
+		#}
 		ai_chance = { base = 80 }
 	}
 }
@@ -175,6 +185,7 @@ unificationwars_mission_1.6 = {
 	
 	trigger = {
 		tag=SAG
+		#has_global_variable = unificationwars_capitulation
 	}
 	
 	option = { 
@@ -201,6 +212,7 @@ unificationwars_mission_1.7 = {
 	
 	trigger = {
 		tag=SAG
+		#has_global_variable = unificationwars_combat
 	}
 	
 	option = { 
@@ -223,9 +235,12 @@ unificationwars_mission_1.8 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.8.a"
-		trigger_event = {
-			id = unificationwars_mission_1.9
-			days = 30
+		#trigger_event = {
+		#	id = unificationwars_mission_1.9
+		#	days = 30
+		#}
+		set_global_variable = {
+			name = unificationwars_call_for_duel
 		}
 		ai_chance = { base = 80 }
 	}
@@ -247,6 +262,7 @@ unificationwars_mission_1.9 = {
 	
 	trigger = {
 		tag=SAJ
+		has_global_variable = unificationwars_call_for_duel
 	}
 	
 	option = { 
@@ -254,6 +270,9 @@ unificationwars_mission_1.9 = {
 		trigger_event = {
 			id = unificationwars_mission_1.10
 		}
+		#set_global_variable = {
+		#	name = unificationwars_duel
+		#}
 		ai_chance = { base = 80 }
 	}
 	
@@ -262,6 +281,9 @@ unificationwars_mission_1.9 = {
 		trigger_event = {
 			id = unificationwars_mission_1.11
 		}
+		#set_global_variable = {
+		#	name = unificationwars_noduel
+		#}
 		ai_chance = { base = 20 }
 	}
 }
@@ -277,6 +299,7 @@ unificationwars_mission_1.10 = {
 	
 	trigger = {
 		tag=SAG
+		#has_global_variable = unificationwars_duel
 	}
 	
 	option = { 
@@ -303,6 +326,7 @@ unificationwars_mission_1.11 = {
 	
 	trigger = {
 		tag=SAG
+		#has_global_variable = unificationwars_noduel
 	}
 	
 	option = { 
@@ -584,9 +608,12 @@ unificationwars_mission_1.20 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.20.a"
-		trigger_event = {
-			id = unificationwars_mission_1.21
-			days = 60
+		#trigger_event = {
+		#	id = unificationwars_mission_1.21
+		#	days = 60
+		#}
+		set_global_variable = {
+			name = unificationwars_shalidoronalinor
 		}
 		ai_chance = { base = 80 }
 	}
@@ -606,6 +633,7 @@ unificationwars_mission_1.21 = {
 	
 	trigger = {
 		tag=AAA
+		has_global_variable = unificationwars_shalidoronalinor
 	}
 	
 	option = { 
@@ -650,7 +678,7 @@ unificationwars_mission_1.21 = {
                 }
             }
 			define_pop = {
-				type = slave
+				type = slaves
 				culture = eastholder 
 				religion = nordic_pantheon
             }
@@ -666,7 +694,7 @@ unificationwars_mission_1.21 = {
                 }
             }
 			define_pop = {
-				type = slave
+				type = slaves
 				culture = eastholder 
 				religion = nordic_pantheon
             }
@@ -682,7 +710,7 @@ unificationwars_mission_1.21 = {
                 }
             }
 			define_pop = {
-				type = slave
+				type = slaves
 				culture = eastholder 
 				religion = nordic_pantheon
             }
@@ -698,7 +726,7 @@ unificationwars_mission_1.21 = {
                 }
             }
 			define_pop = {
-				type = slave
+				type = slaves
 				culture = eastholder 
 				religion = nordic_pantheon
             }
@@ -714,7 +742,7 @@ unificationwars_mission_1.21 = {
                 }
             }
 			define_pop = {
-				type = slave
+				type = slaves
 				culture = eastholder 
 				religion = nordic_pantheon
             }
