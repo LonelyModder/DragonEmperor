@@ -12,6 +12,12 @@ revolt_victory = {
 	happiness_for_same_religion_modifier = 0.12
 }
 
+country_reunited = {
+	global_monthly_state_loyalty = 0.04
+	happiness_for_same_culture_modifier = 0.07
+	happiness_for_same_religion_modifier = 0.12
+}
+
 religious_fervor = {
 	global_pop_conversion_speed_modifier = 2
 }

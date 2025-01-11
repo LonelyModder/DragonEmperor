@@ -97,23 +97,23 @@ unificationwars_mission_1.4 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.4.a"
-		trigger_event = {
-			id = unificationwars_mission_1.6
-		}
-		#set_global_variable = {
-		#	name = unificationwars_capitulation
+		#trigger_event = {
+		#	id = unificationwars_mission_1.6
 		#}
+		set_global_variable = {
+			name = unificationwars_capitulation
+		}
 		ai_chance = { base = 20 }
 	}
 	
 	option = { 
 		name = "unificationwars_mission_1.4.b"
-		trigger_event = {
-			id = unificationwars_mission_1.7
-		}
-		#set_global_variable = {
-		#	name = unificationwars_combat
+		#trigger_event = {
+		#	id = unificationwars_mission_1.7
 		#}
+		set_global_variable = {
+			name = unificationwars_combat
+		}
 		ai_chance = { base = 80 }
 	}
 }
@@ -185,7 +185,7 @@ unificationwars_mission_1.6 = {
 	
 	trigger = {
 		tag=SAG
-		#has_global_variable = unificationwars_capitulation
+		has_global_variable = unificationwars_capitulation
 	}
 	
 	option = { 
@@ -212,7 +212,7 @@ unificationwars_mission_1.7 = {
 	
 	trigger = {
 		tag=SAG
-		#has_global_variable = unificationwars_combat
+		has_global_variable = unificationwars_combat
 	}
 	
 	option = { 
@@ -267,23 +267,23 @@ unificationwars_mission_1.9 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.9.a"
-		trigger_event = {
-			id = unificationwars_mission_1.10
-		}
-		#set_global_variable = {
-		#	name = unificationwars_duel
+		#trigger_event = {
+		#	id = unificationwars_mission_1.10
 		#}
+		set_global_variable = {
+			name = unificationwars_duel
+		}
 		ai_chance = { base = 80 }
 	}
 	
 	option = { 
 		name = "unificationwars_mission_1.9.b"
-		trigger_event = {
-			id = unificationwars_mission_1.11
-		}
-		#set_global_variable = {
-		#	name = unificationwars_noduel
+		#trigger_event = {
+		#	id = unificationwars_mission_1.11
 		#}
+		set_global_variable = {
+			name = unificationwars_noduel
+		}
 		ai_chance = { base = 20 }
 	}
 }
@@ -299,7 +299,7 @@ unificationwars_mission_1.10 = {
 	
 	trigger = {
 		tag=SAG
-		#has_global_variable = unificationwars_duel
+		has_global_variable = unificationwars_duel
 	}
 	
 	option = { 
@@ -326,7 +326,7 @@ unificationwars_mission_1.11 = {
 	
 	trigger = {
 		tag=SAG
-		#has_global_variable = unificationwars_noduel
+		has_global_variable = unificationwars_noduel
 	}
 	
 	option = { 
@@ -638,8 +638,11 @@ unificationwars_mission_1.21 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.21.a"
-		trigger_event = {
-			id = unificationwars_mission_1.22
+		#trigger_event = {
+		#	id = unificationwars_mission_1.22
+		#}
+		set_global_variable = {
+			name = unificationwars_elvescooperate
 		}
 		p:792 = { #Eyvea
 	    	create_country = {
@@ -752,8 +755,11 @@ unificationwars_mission_1.21 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.21.b"
-		trigger_event = {
-			id = unificationwars_mission_1.23
+		#trigger_event = {
+		#	id = unificationwars_mission_1.23
+		#}
+		set_global_variable = {
+			name = unificationwars_elvesrefuse
 		}
 		ai_chance = { base = 20 }
 	}
@@ -768,6 +774,7 @@ unificationwars_mission_1.22 = {
 	
 	trigger = {
 		tag=SAG
+		has_global_variable = unificationwars_elvescooperate
 	}
 	
 	option = { 
@@ -785,9 +792,30 @@ unificationwars_mission_1.23 = {
 	
 	trigger = {
 		tag=SAG
+		has_global_variable = unificationwars_elvesrefuse
 	}
 	
 	option = { 
 		name = "unificationwars_mission_1.23.a"
+	}
+}
+
+unificationwars_mission_1.98 = {  
+	type = country_event
+	title = "unificationwars_mission_1.98.t"
+	desc = "unificationwars_mission_1.98.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.98.a"
+		add_country_modifier = {
+			name = country_reunited
+			duration = 14600 # 10 years
+		}
 	}
 }
