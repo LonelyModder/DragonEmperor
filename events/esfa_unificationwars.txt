@@ -813,9 +813,5 @@ unificationwars_mission_1.98 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.98.a"
-		add_country_modifier = {
-			name = country_reunited
-			duration = 14600 # 10 years
-		}
 	}
 }

@@ -55,9 +55,9 @@
 	
 	on_completion = {
 		add_country_modifier = {
-    		name = revolt_victory
-    		duration = 7300 # 20 years
-    	}
+			name = country_reunited
+			duration = 7300 # 10 years
+		}
     	complete_mission_effect = yes #
     	#trigger_event = { id = me_antigonid_1_vision.2 }
     }
