@@ -210,6 +210,12 @@ wonder_palaceofkings={
 	great_work_category_slot=0
 }
 
+wonder_winterholduniversity={
+	entity_name={"dunedain_gfx_fort_entity"}
+	great_work_category="gw_category_ancient"
+	great_work_category_slot=0
+}
+
 wonder_hallsofthecolossus={
 	entity_name={"wonder_erebor_gate_entity"}
 	great_work_category="gw_category_ancient"

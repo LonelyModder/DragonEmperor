@@ -195,15 +195,6 @@ esfa_startup.11 = { #Nord
 
     option = {    
         name = esfa_startup.11.a
-		if = {
-			limit = { tag = SAG }
-				region:modded_solitude_region = { formable_region_province_effect = yes }
-				region:modded_whiterun_region = { formable_region_province_effect = yes }
-				region:modded_pale_region = { formable_region_province_effect = yes }
-				region:modded_rift_region = { formable_region_province_effect = yes }
-				region:modded_windhelm_region = { formable_region_province_effect = yes }
-				region:modded_winterhold_region = { formable_region_province_effect = yes }		
-		}
     }
 }
 

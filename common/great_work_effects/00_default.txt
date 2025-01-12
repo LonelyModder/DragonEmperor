@@ -3492,3 +3492,50 @@ gw_effect_adamantia = {
 		}
 	}
 }
+
+gw_effect_winterholduniversity = {
+	icon = "gw_effect_government_education"	
+
+	flags = {
+		"population"
+	}
+	
+	great_work_tier_effect_modifiers = {
+		gw_effect_winterholduniversity_tier_1 = {
+			great_work_effect_tier = gw_effect_tier_1
+		
+			country_modifier = {
+				lv_mages_offensive = 0.05
+				research_points_modifier = 0.05
+				lv_mages_discipline = 0.05
+			}
+		}
+		gw_effect_winterholduniversity_tier_2 = {
+			great_work_effect_tier = gw_effect_tier_2
+		
+			country_modifier = {
+				lv_mages_offensive = 0.1
+				research_points_modifier = 0.1
+				lv_mages_discipline = 0.1
+			}
+		}
+		gw_effect_winterholduniversity_tier_3 = {
+			great_work_effect_tier = gw_effect_tier_3
+		
+			country_modifier = {
+				lv_mages_offensive = 0.15
+				research_points_modifier = 0.15
+				lv_mages_discipline = 0.15
+			}
+		}
+		gw_effect_winterholduniversity_tier_4 = {
+			great_work_effect_tier = gw_effect_tier_4
+		
+			country_modifier = {
+				lv_mages_offensive = 0.2
+				research_points_modifier = 0.2
+				lv_mages_discipline = 0.2
+			}
+		}
+	}
+}

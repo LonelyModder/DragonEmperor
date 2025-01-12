@@ -1,0 +1,384 @@
+﻿unificationwars_01_skyrim = { # Skyrim
+	icon = unificationwars_01
+	header = mission_image_rome #mission_image_phrygia
+	
+	repeatable = no
+
+    chance = {
+		factor = 10
+	}
+	
+	ai_chance = { factor = 10 }
+
+	potential = { 
+		NOT = { has_variable = unificationwars_01_skyrim }
+		primary_culture = eastholder
+		tag=SAG
+		is_monarchy = yes
+		is_subject = no
+		has_civil_war = no
+		NOT = { has_global_variable = unificationwars_fail }
+	}
+	
+	abort = {	
+		OR = {
+			is_monarchy = no
+			NOT = { primary_culture = eastholder }
+			custom_tooltip = {
+				text = unificationwars_01_skyrim_abort_tt
+				has_global_variable = unificationwars_fail
+			}
+			ai_mission_back_out_trigger = yes
+		}
+	}
+	
+	on_start = {
+    	start_mission_ai_effect = yes
+    	save_scope_as = me_unificationwars_scope
+		#add_country_modifier = {
+	    #    name = revolt_starts
+	    #    duration = 3650 # 10 years
+	    #}
+    }
+	
+	on_abort = {
+    	custom_tooltip = ant_1_mission_cooldown_tt
+    	#if = {
+	    #	limit = { has_country_modifier = revolt_starts }
+    	#	remove_country_modifier = revolt_starts
+	    #}
+		set_variable = {
+			name = unificationwars_01_skyrim
+			days = 7300
+		}
+    }
+	
+	on_completion = {
+		add_country_modifier = {
+    		name = revolt_victory
+    		duration = 7300 # 20 years
+    	}
+    	complete_mission_effect = yes #
+    	#trigger_event = { id = me_antigonid_1_vision.2 }
+    }
+	
+	unificationwars_01_skyrim_1 = { # The Boy King
+		#requires = { alessianempire_01_alessianrevolt_13 }
+		icon = task_conquest
+		duration = 30
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.1 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 30
+			}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.2 }
+		}
+	}
+	
+	unificationwars_01_skyrim_2 = { # Battleborn and Greymane
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		#duration = 60
+
+		allow = {
+			#treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.3 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 60
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		bypass = {
+			NOT = {exists = c:SAI}
+		}
+		
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.3 }
+		}
+	}
+	
+	unificationwars_01_skyrim_3 = { # Ragadulf Begalin
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		#duration = 30
+
+		allow = {
+			#owns = 4277
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4277
+			}
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.8 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 30
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		bypass = {
+			NOT = {exists = c:SAJ}
+		}
+		
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.8 }
+		}
+	}
+	
+	unificationwars_01_skyrim_4 = { # Marshes of Hjaalmarch 
+		requires = { unificationwars_01_skyrim_2 unificationwars_01_skyrim_3 }
+		icon = task_conquest
+		#duration = 30
+
+		allow = {
+			owns = 4499
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4499
+			}
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.12 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 30
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.12 }
+		}
+	}
+	
+	unificationwars_01_skyrim_5 = { # Solitude 
+		requires = { unificationwars_01_skyrim_4 }
+		icon = task_conquest
+		#duration = 30
+
+		allow = {
+			owns = 4528
+		}
+
+		highlight = {
+			scope:province = {
+				province_id = 4528
+			}
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.13 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 30
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.13 }
+		}
+	}
+	
+	unificationwars_01_skyrim_6 = { # Warriors of Skyrim 
+		requires = { unificationwars_01_skyrim_5 }
+		icon = task_conquest
+		duration = 100
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			#scope:province = {
+			#	province_id = 4528
+			#}
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.14 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 100
+			}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.15 }
+		}
+	}
+	
+	unificationwars_01_skyrim_7 = { # Elves in Riften 
+		requires = { unificationwars_01_skyrim_5 }
+		icon = task_conquest
+		#duration = 100
+
+		allow = {
+			#treasury >= 100
+			owns = 4214
+			owns = 4217
+			owns = 4198
+		}
+
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4214
+					province_id = 4217
+					province_id = 4198
+				}
+			}
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.14 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 100
+			#}
+			#show_as_tooltip = { add_treasury = -100 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.16 }
+		}
+	}
+	
+	unificationwars_01_skyrim_8 = { # College of Winterhold 
+		requires = { unificationwars_01_skyrim_1 }
+		icon = task_conquest
+		duration = 120
+
+		allow = {
+			treasury >= 200
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			trigger_event = { id = unificationwars_mission_1.18 }
+			set_variable = {
+				name = ongoing_mission_pulse_flag
+				days = 120
+			}
+			show_as_tooltip = { add_treasury = -200 }
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.19 }
+		}
+	}
+	
+	unificationwars_01_skyrim_9 = { # Eyevea
+		requires = { unificationwars_01_skyrim_8 }
+		icon = task_conquest
+		#duration = 60
+
+		allow = {
+			treasury >= 100
+		}
+
+		highlight = {
+			
+		}
+
+		on_start = {
+			#trigger_event = { id = unificationwars_mission_1.20 }
+			#set_variable = {
+			#	name = ongoing_mission_pulse_flag
+			#	days = 60
+			#}
+			show_as_tooltip = { add_treasury = -100 }
+		}
+		
+		bypass = {
+			NOT = {exists = c:AAA}
+		}
+
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.20 }
+		}
+	}
+	
+	unificationwars_01_skyrim_16 = { # Skyrim Home of the Nords
+		requires = { unificationwars_01_skyrim_7 unificationwars_01_skyrim_6  }
+		icon = task_conquest
+		#duration = 30
+		
+		allow = {
+			owns = 4104
+			owns = 4060
+			owns = 4200
+			owns = 4314
+			owns = 4277
+			owns = 4499
+			owns = 4528
+			owns = 4214
+			owns = 4217
+		}
+		
+		highlight = {
+			scope:province = {
+				OR = {
+					province_id = 4104
+					province_id = 4060
+					province_id = 4200
+					province_id = 4314
+					province_id = 4277
+					province_id = 4499
+					province_id = 4528
+					province_id = 4214
+					province_id = 4217
+				}
+			}
+		}
+		
+		on_start = {
+			
+		}
+		
+		on_completion = {
+			trigger_event = { id = unificationwars_mission_1.98}
+			set_global_variable = {
+				name = unificationwars_end
+			}
+		}
+		final = yes 
+	}
+	
+}
+	

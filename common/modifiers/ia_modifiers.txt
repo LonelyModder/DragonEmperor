@@ -1,13 +1,19 @@
 ﻿#ESFA mofifiers
 
 revolt_starts = {
-	agressive_expansion_impact = -0.5
+	agressive_expansion_impact = -0.75
 	land_morale_modifier = 0.05
-	levy_size_multiplier = 0.2
+	agressive_expansion_monthly_change = -0.05
 }
 
 revolt_victory = {
 	ruler_popularity_gain = 0.1
+	happiness_for_same_culture_modifier = 0.07
+	happiness_for_same_religion_modifier = 0.12
+}
+
+country_reunited = {
+	global_monthly_state_loyalty = 0.04
 	happiness_for_same_culture_modifier = 0.07
 	happiness_for_same_religion_modifier = 0.12
 }
@@ -111,93 +117,6 @@ pacifist_culture = {
 	global_citizen_happyness = 0.1
 	global_freemen_happyness = 0.1
 	global_slaves_happyness = 0.1
-}
-#wepon system
-iron_wepons = {
-	axemen_heavy_offensive = 0.1
-	axemen_heavy_defensive = 0.1
-	cavalry_camels_offensive = 0.1
-	cavalry_camels_defensive = 0.1
-	cavalry_horse_archers_offensive = 0.1
-	cavalry_horse_archers_defensive = 0.1
-	cavalry_light_offensive = 0.1
-	cavalry_light_defensive = 0.1
-	chariot_heavy_offensive = 0.1
-	chariot_heavy_defensive = 0.1
-	chariot_light_offensive = 0.1
-	chariot_light_defensive = 0.1
-	elephant_african_offensive = 0.1
-	elephant_african_defensive = 0.1
-	elephant_forest_offensive = 0.1
-	elephant_forest_defensive = 0.1
-	elephant_indian_offensive = 0.1
-	elephant_indian_defensive = 0.1
-	light_spearmen_offensive = 0.1
-	light_spearmen_defensive = 0.1
-	light_swordsmen_offensive = 0.1
-	light_swordsmen_defensive = 0.1
-	missile_archers_offensive = 0.1
-	missile_archers_defensive = 0.1
-	missile_spearthrowers_offensive = 0.1
-	missile_spearthrowers_defensive = 0.1
-}
-
-bronze_wepons = {
-	axemen_heavy_offensive = 0.05
-	axemen_heavy_defensive = 0.05
-	cavalry_camels_offensive = 0.05
-	cavalry_camels_defensive = 0.05
-	cavalry_horse_archers_offensive = 0.05
-	cavalry_horse_archers_defensive = 0.05
-	cavalry_light_offensive = 0.05
-	cavalry_light_defensive = 0.05
-	chariot_heavy_offensive = 0.05
-	chariot_heavy_defensive = 0.05
-	chariot_light_offensive = 0.05
-	chariot_light_defensive = 0.05
-	elephant_african_offensive = 0.05
-	elephant_african_defensive = 0.05
-	elephant_forest_offensive = 0.05
-	elephant_forest_defensive = 0.05
-	elephant_indian_offensive = 0.05
-	elephant_indian_defensive = 0.05
-	light_spearmen_offensive = 0.05
-	light_spearmen_defensive = 0.05
-	light_swordsmen_offensive = 0.05
-	light_swordsmen_defensive = 0.05
-	missile_archers_offensive = 0.05
-	missile_archers_defensive = 0.05
-	missile_spearthrowers_offensive = 0.05
-	missile_spearthrowers_defensive = 0.05
-}
-
-primitive_wepons = {
-	axemen_heavy_offensive = 0.025
-	axemen_heavy_defensive = 0.025
-	cavalry_camels_offensive = 0.025
-	cavalry_camels_defensive = 0.025
-	cavalry_horse_archers_offensive = 0.025
-	cavalry_horse_archers_defensive = 0.025
-	cavalry_light_offensive = 0.025
-	cavalry_light_defensive = 0.025
-	chariot_heavy_offensive = 0.025
-	chariot_heavy_defensive = 0.025
-	chariot_light_offensive = 0.025
-	chariot_light_defensive = 0.025
-	elephant_african_offensive = 0.025
-	elephant_african_defensive = 0.025
-	elephant_forest_offensive = 0.025
-	elephant_forest_defensive = 0.025
-	elephant_indian_offensive = 0.025
-	elephant_indian_defensive = 0.025
-	light_spearmen_offensive = 0.025
-	light_spearmen_defensive = 0.025
-	light_swordsmen_offensive = 0.025
-	light_swordsmen_defensive = 0.025
-	missile_archers_offensive = 0.025
-	missile_archers_defensive = 0.025
-	missile_spearthrowers_offensive = 0.025
-	missile_spearthrowers_defensive = 0.025
 }
 
 #Colonization

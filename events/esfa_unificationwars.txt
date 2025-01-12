@@ -1,0 +1,821 @@
+﻿namespace = unificationwars_mission_1
+
+unificationwars_mission_1.1 = {  
+	type = country_event
+	title = "unificationwars_mission_1.1.t"
+	desc = "unificationwars_mission_1.1.desc"
+	fire_only_once = yes
+	picture = boy_king
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.1.a"
+	}
+}
+
+unificationwars_mission_1.2 = {  
+	type = country_event
+	title = "unificationwars_mission_1.2.t"
+	desc = "unificationwars_mission_1.2.desc"
+	fire_only_once = yes
+	picture = boy_king
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.2.a"
+		if = {
+			limit = { tag = SAG }
+				region:modded_solitude_region = { formable_region_province_effect = yes }
+				region:modded_whiterun_region = { formable_region_province_effect = yes }
+				region:modded_pale_region = { formable_region_province_effect = yes }
+				region:modded_windhelm_region = { formable_region_province_effect = yes }
+				region:modded_winterhold_region = { formable_region_province_effect = yes }		
+		}
+	}
+}
+
+unificationwars_mission_1.3 = {  
+	type = country_event
+	title = "unificationwars_mission_1.3.t"
+	desc = "unificationwars_mission_1.3.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.3.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.4
+		#	days = 60
+		#}
+		set_global_variable = {
+			name = unificationwars_honourking
+		}
+		ai_chance = { base = 20 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.3.b"
+		trigger_event = {
+			id = unificationwars_mission_1.5
+			days = 60
+		}
+		add_treasury = -100
+		show_as_tooltip = { add_treasury = -100 }
+		ai_chance = { base = 80 }
+	}
+}
+
+unificationwars_mission_1.4 = {  
+	type = country_event
+	title = "unificationwars_mission_1.4.t"
+	desc = "unificationwars_mission_1.4.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAI
+		has_global_variable = unificationwars_honourking
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.4.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.6
+		#}
+		set_global_variable = {
+			name = unificationwars_capitulation
+		}
+		ai_chance = { base = 20 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.4.b"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.7
+		#}
+		set_global_variable = {
+			name = unificationwars_combat
+		}
+		ai_chance = { base = 80 }
+	}
+}
+
+unificationwars_mission_1.5 = {  
+	type = country_event
+	title = "unificationwars_mission_1.5.t"
+	desc = "unificationwars_mission_1.5.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.5.a"
+		c:SAI = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+		create_character = {
+			first_name = "Harald"
+			family_name = "Battleborn"
+			no_stats = yes
+			add_trait="nord"
+			add_trait="companion"
+			culture = westholder
+			religion = nordic_pantheon
+			age = 13
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+		}
+		create_character = {
+			first_name = "Otto"
+			family_name = "Greymane"
+			no_stats = yes
+			add_trait="nord"
+			add_trait="companion"
+			culture = westholder
+			religion = nordic_pantheon
+			age = 14
+			good_martial_effect = yes
+			good_charisma_effect = yes
+			average_finesse_effect = yes
+			average_zeal_effect = yes
+			add_gold=50
+		}
+	}
+}
+
+unificationwars_mission_1.6 = {  
+	type = country_event
+	title = "unificationwars_mission_1.6.t"
+	desc = "unificationwars_mission_1.6.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAI.current_ruler
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_capitulation
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.6.a"
+		c:SAI = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.7 = {  
+	type = country_event
+	title = "unificationwars_mission_1.7.t"
+	desc = "unificationwars_mission_1.7.desc"
+	fire_only_once = yes
+	picture = nordic_feud
+	
+	left_portrait=c:SAI.current_ruler
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_combat
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.7.a"
+	}
+}
+
+unificationwars_mission_1.8 = {  
+	type = country_event
+	title = "unificationwars_mission_1.8.t"
+	desc = "unificationwars_mission_1.8.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.8.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.9
+		#	days = 30
+		#}
+		set_global_variable = {
+			name = unificationwars_call_for_duel
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.8.b"
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.9 = {  
+	type = country_event
+	title = "unificationwars_mission_1.9.t"
+	desc = "unificationwars_mission_1.9.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAJ
+		has_global_variable = unificationwars_call_for_duel
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.9.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.10
+		#}
+		set_global_variable = {
+			name = unificationwars_duel
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.9.b"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.11
+		#}
+		set_global_variable = {
+			name = unificationwars_noduel
+		}
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.10 = {  
+	type = country_event
+	title = "unificationwars_mission_1.10.t"
+	desc = "unificationwars_mission_1.10.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_duel
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.10.a"
+		c:SAJ = {
+			every_owned_province = { 
+				limit = { 
+					has_owner = yes 
+				}
+				set_conquered_by = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.11 = {  
+	type = country_event
+	title = "unificationwars_mission_1.11.t"
+	desc = "unificationwars_mission_1.11.desc"
+	fire_only_once = yes
+	picture = nordic_holmgang
+	
+	left_portrait=c:SAJ.current_ruler
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_noduel
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.11.a"
+	}
+}
+
+unificationwars_mission_1.12 = {  
+	type = country_event
+	title = "unificationwars_mission_1.12.t"
+	desc = "unificationwars_mission_1.12.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.12.a"
+		trigger_event = {
+			id = unificationwars_mission_1.17
+			days = 100
+		}
+	}
+}
+
+unificationwars_mission_1.13 = {  
+	type = country_event
+	title = "unificationwars_mission_1.13.t"
+	desc = "unificationwars_mission_1.13.desc"
+	fire_only_once = yes
+	picture = solitude_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.13.a"
+	}
+}
+
+unificationwars_mission_1.14 = {  
+	type = country_event
+	title = "unificationwars_mission_1.14.t"
+	desc = "unificationwars_mission_1.14.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.14.a"
+	}
+}
+
+unificationwars_mission_1.15 = {  
+	type = country_event
+	title = "unificationwars_mission_1.15.t"
+	desc = "unificationwars_mission_1.15.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.15.a"
+		if = {
+			limit = {
+				NOT = {
+					any_army = {
+						has_legion_trigger = yes
+						legion = ROOT.capital_scope.governorship.legion
+					}
+				}
+			}
+			capital_scope.governorship = {
+				raise_legion = {
+					create_unit = {
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = supply_train
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_archers
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_heavyinfantry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+						add_subunit = lv_cavalry
+					}
+				}
+			}
+			every_unit = {
+				add_food = 100
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.16 = {  
+	type = country_event
+	title = "unificationwars_mission_1.16.t"
+	desc = "unificationwars_mission_1.16.desc"
+	fire_only_once = yes
+	picture = riften_city
+	
+	left_portrait=c:SAG.current_ruler
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.16.a"
+	}
+}
+
+unificationwars_mission_1.17 = {  
+	type = country_event
+	title = "unificationwars_mission_1.17.t"
+	desc = "unificationwars_mission_1.17.desc"
+	fire_only_once = yes
+	picture = nordic_protest
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.17.a"
+		p:4188 = { #Ivarstead
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = southholder
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+		}
+		p:4518 = { #Folgunthur
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = morthalan
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+		}
+		p:4083 = { #Saarthal
+	    	create_country = {
+				change_government = despotic_monarchy
+				set_primary_culture = morthalan
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+			while = {
+                count = 12
+                define_pop = {
+					type = tribesmen
+					culture = morthalan 
+					religion = nordic_pantheon
+                }
+            }
+		}
+		p:4188.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+		p:4518.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+		p:4083.owner = {
+			declare_war_with_wargoal = {
+				war_goal = conquer_wargoal
+				province = p:4499
+				target = c:SAG
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.18 = {  
+	type = country_event
+	title = "unificationwars_mission_1.18.t"
+	desc = "unificationwars_mission_1.18.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.18.a"
+		p:4050={ # College of Winterhold
+			begin_great_work_construction = {
+				great_work = "winterholduniversity"
+				locator = primary_great_work
+				is_ancient = yes						
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.19 = {  
+	type = country_event
+	title = "unificationwars_mission_1.19.t"
+	desc = "unificationwars_mission_1.19.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.19.a"
+		p:4050={ # College of Winterhold
+			finish_great_work_construction = {
+				great_work = "winterholduniversity"
+				locator = primary_great_work
+			}
+		}
+	}
+}
+
+unificationwars_mission_1.20 = {  
+	type = country_event
+	title = "unificationwars_mission_1.20.t"
+	desc = "unificationwars_mission_1.20.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.20.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.21
+		#	days = 60
+		#}
+		set_global_variable = {
+			name = unificationwars_shalidoronalinor
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.20.b"
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.21 = {  
+	type = country_event
+	title = "unificationwars_mission_1.21.t"
+	desc = "unificationwars_mission_1.21.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=AAA
+		has_global_variable = unificationwars_shalidoronalinor
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.21.a"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.22
+		#}
+		set_global_variable = {
+			name = unificationwars_elvescooperate
+		}
+		p:792 = { #Eyvea
+	    	create_country = {
+				change_government = despotic_monarchy
+				change_country_name = "Eyevea_name"
+				change_country_adjective = "Eyevea_adj"
+				set_primary_culture = eastholder
+				set_country_religion = nordic_pantheon
+				set_country_heritage = nordic_heritage
+			}
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			while = {
+                count = 10
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+		}
+		p:791 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slaves
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:793 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slaves
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:794 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slaves
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:795 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slaves
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		p:796 = {
+			set_conquered_by = p:792.owner
+			while = {
+                count = 3
+                define_pop = {
+					type = freemen
+					culture = eastholder 
+					religion = nordic_pantheon
+                }
+            }
+			define_pop = {
+				type = slaves
+				culture = eastholder 
+				religion = nordic_pantheon
+            }
+		}
+		ai_chance = { base = 80 }
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.21.b"
+		#trigger_event = {
+		#	id = unificationwars_mission_1.23
+		#}
+		set_global_variable = {
+			name = unificationwars_elvesrefuse
+		}
+		ai_chance = { base = 20 }
+	}
+}
+
+unificationwars_mission_1.22 = {  
+	type = country_event
+	title = "unificationwars_mission_1.22.t"
+	desc = "unificationwars_mission_1.22.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_elvescooperate
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.22.a"
+		add_treasury = 200
+	}
+}
+
+unificationwars_mission_1.23 = {  
+	type = country_event
+	title = "unificationwars_mission_1.23.t"
+	desc = "unificationwars_mission_1.23.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+		has_global_variable = unificationwars_elvesrefuse
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.23.a"
+	}
+}
+
+unificationwars_mission_1.98 = {  
+	type = country_event
+	title = "unificationwars_mission_1.98.t"
+	desc = "unificationwars_mission_1.98.desc"
+	fire_only_once = yes
+	picture = shalidor_pic
+	
+	trigger = {
+		tag=SAG
+	}
+	
+	option = { 
+		name = "unificationwars_mission_1.98.a"
+		add_country_modifier = {
+			name = country_reunited
+			duration = 14600 # 10 years
+		}
+	}
+}
