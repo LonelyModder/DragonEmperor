@@ -120,9 +120,7 @@ has_minable_trade_good_trigger = {
 			trade_goods = marble
 			trade_goods = stone
 			trade_goods = precious_metals
-			trade_goods = base_metals
 			trade_goods = iron
-			trade_goods = tin
 			#Modded
 			trade_goods = ebon
 			trade_goods = stalhrim
@@ -146,9 +144,7 @@ has_unminable_trade_good_trigger = {
 		trade_goods = marble
 		trade_goods = stone
 		trade_goods = precious_metals
-		trade_goods = base_metals
 		trade_goods = iron
-		trade_goods = tin
 	}
 }
 
