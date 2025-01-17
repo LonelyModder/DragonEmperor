@@ -214,7 +214,6 @@ esfa_traits.1 = {
 						AND = {
 							father = { 
 								OR = { 
-									has_trait = ayleid
 									has_trait = bosmer 	
 									has_trait = moarmer 
 									has_trait = tnede 
