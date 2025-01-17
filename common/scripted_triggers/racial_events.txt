@@ -1,8 +1,6 @@
 ﻿is_longlived_trigger = {
 	OR = {
-		has_trait = ayleid
 		has_trait = altmer
-		has_trait = ayleid
 		has_trait = moarmer
 		has_trait = falmer
 		has_trait = sinismer
