@@ -212,7 +212,7 @@ treasure_manager = {
 			key = "treasure_skyforge"
 			icon = "treasure_chest"
 			state_modifier = {
-				local_cohort_start_experience = 0.2
+				local_cohort_start_experience = 15
 			}
 		}
 		31 = { # Windhelm
