@@ -269,6 +269,9 @@
 		
 		on_start = {
 			trigger_event = { id = alessian_revolt_mission_1.11 }
+			set_variable = {
+	    		name = umarils_duel
+	    	}
 		}
 		
 		on_completion = {
@@ -276,11 +279,10 @@
 		}
 		
 		bypass = {
+			has_variable = umarils_duel
 			OR = {
 				char:2 = {is_alive=no}
-				c:CAA = {
-					exists = no
-				}
+				NOT = { exists = c:CAA }
 			}
 		}
 	}
@@ -541,7 +543,7 @@
 	}
 	
 	alessianempire_01_alessianrevolt_16= { # Sack of White-Gold Tower
-		requires = { alessianempire_01_alessianrevolt_5 }
+		requires = { alessianempire_01_alessianrevolt_6 }
 		icon = task_conquest
 		#duration = 30
 		
