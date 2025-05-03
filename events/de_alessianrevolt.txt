@@ -326,19 +326,12 @@ alessian_revolt_mission_1.5 = {
 				raise_legion = {
 					create_unit = {
 						add_subunit = engineer_cohort
-						add_subunit = engineer_cohort
-						add_subunit = supply_train
-						add_subunit = supply_train
 						add_subunit = supply_train
 						add_subunit = supply_train
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
 						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
-						add_subunit = lv_archers
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
@@ -349,19 +342,6 @@ alessian_revolt_mission_1.5 = {
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
 						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_heavyinfantry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
-						add_subunit = lv_cavalry
 						add_subunit = lv_cavalry
 						add_subunit = lv_cavalry
 						add_subunit = lv_cavalry
@@ -1035,6 +1015,12 @@ alessian_revolt_mission_1.24 = { # Alessia in trouble
 			average_zeal_effect = yes
 			add_gold=500
 			save_scope_as = alesh_gov
+		}
+		c:KBS={
+			every_character = {
+				limit = { mother = alesh_gov }
+				death = { death_reason = death_obscurity }
+			}
 		}
 		c:KBS={
 			set_as_ruler=scope:alesh_gov
