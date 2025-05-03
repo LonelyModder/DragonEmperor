@@ -1017,13 +1017,11 @@ alessian_revolt_mission_1.24 = { # Alessia in trouble
 			save_scope_as = alesh_gov
 		}
 		c:KBS={
+			set_as_ruler=scope:alesh_gov
 			every_character = {
-				limit = { mother = alesh_gov }
+				limit = { mother = scope:alesh_gov }
 				death = { death_reason = death_obscurity }
 			}
-		}
-		c:KBS={
-			set_as_ruler=scope:alesh_gov
 		}
 		trigger_event = {
 			id = alessian_revolt_mission_1.25
