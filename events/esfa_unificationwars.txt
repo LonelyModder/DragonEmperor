@@ -59,14 +59,16 @@ unificationwars_mission_1.3 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.3.a"
-		#trigger_event = {
-		#	id = unificationwars_mission_1.4
-		#	days = 60
-		#}
+		trigger_event = {
+			id = unificationwars_mission_1.4
+			days = 60
+		}
+		add_treasury = -100
+		show_as_tooltip = { add_treasury = -100 }
 		set_global_variable = {
 			name = unificationwars_honourking
 		}
-		ai_chance = { base = 20 }
+		ai_chance = { base = 80 }
 	}
 	
 	option = { 
@@ -75,9 +77,10 @@ unificationwars_mission_1.3 = {
 			id = unificationwars_mission_1.5
 			days = 60
 		}
-		add_treasury = -100
-		show_as_tooltip = { add_treasury = -100 }
-		ai_chance = { base = 80 }
+		set_global_variable = {
+			name = unificationwars_fugitives
+		}
+		ai_chance = { base = 20 }
 	}
 }
 
@@ -97,9 +100,9 @@ unificationwars_mission_1.4 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.4.a"
-		#trigger_event = {
-		#	id = unificationwars_mission_1.6
-		#}
+		trigger_event = {
+			id = unificationwars_mission_1.6
+		}
 		set_global_variable = {
 			name = unificationwars_capitulation
 		}
@@ -108,9 +111,9 @@ unificationwars_mission_1.4 = {
 	
 	option = { 
 		name = "unificationwars_mission_1.4.b"
-		#trigger_event = {
-		#	id = unificationwars_mission_1.7
-		#}
+		trigger_event = {
+			id = unificationwars_mission_1.7
+		}
 		set_global_variable = {
 			name = unificationwars_combat
 		}
@@ -129,18 +132,19 @@ unificationwars_mission_1.5 = {
 	
 	trigger = {
 		tag=SAG
+		has_global_variable = unificationwars_fugitives
 	}
 	
 	option = { 
 		name = "unificationwars_mission_1.5.a"
-		c:SAI = {
-			every_owned_province = { 
-				limit = { 
-					has_owner = yes 
-				}
-				set_conquered_by = c:SAG
-			}
-		}
+		#c:SAI = {
+		#	every_owned_province = { 
+		#		limit = { 
+		#			has_owner = yes 
+		#		}
+		#		set_conquered_by = c:SAG
+		#	}
+		#}
 		create_character = {
 			first_name = "Harald"
 			family_name = "Battleborn"

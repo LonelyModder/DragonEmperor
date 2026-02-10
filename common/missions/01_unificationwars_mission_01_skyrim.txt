@@ -306,7 +306,7 @@
 	unificationwars_01_skyrim_9 = { # Eyevea
 		requires = { unificationwars_01_skyrim_8 }
 		icon = task_conquest
-		#duration = 60
+		duration = 60
 
 		allow = {
 			treasury >= 100
